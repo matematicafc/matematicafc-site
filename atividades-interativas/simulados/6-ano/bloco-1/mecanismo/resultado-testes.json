@@ -1,0 +1,38 @@
+{
+  "aplicacoes": 10000,
+  "selecoes": 300000,
+  "visuais": {
+    "minimo": 15,
+    "maximo": 27,
+    "media": 19.5912
+  },
+  "dificuldadesPorAplicacao": [
+    8,
+    14,
+    8
+  ],
+  "questoesPorAssunto": 6,
+  "conjuntosDistintos": 10000,
+  "permutacoes": 24,
+  "gabaritos": {
+    "A": 74543,
+    "B": 75196,
+    "C": 75485,
+    "D": 74776
+  },
+  "violacoes": 0,
+  "testes": {
+    "total": 8,
+    "aprovados": 8,
+    "falhas": 0,
+    "ignorados": 0
+  },
+  "aplicacoes_adicionais_com_historico": 100,
+  "questoes_banco_validadas_matematicamente": 100,
+  "metadados_aprovados": 100,
+  "node": "v24.19.0",
+  "semente": 20261013,
+  "gerador_teste": "LCG uint32: estado = (1664525 * estado + 1013904223) mod 2^32; retorno estado / 2^32",
+  "preservacao": "Comparação dos 100 registros: somente revisao_pedagogica alterada. SHA-256 dos bancos antigos, recursos e relatórios anteriores preservado.",
+  "limites": "Teste da API em Node.js. Sem interface, integração no Blogger ou restauração de aplicação após recarga."
+}

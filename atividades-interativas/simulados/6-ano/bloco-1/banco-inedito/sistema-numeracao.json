@@ -1,0 +1,1935 @@
+{
+  "versao_formato": 1,
+  "banco_id": "MFC6-B1-INEDITO-V1",
+  "assunto": "Sistema de numeração",
+  "codigo_assunto": "SN",
+  "questoes": [
+    {
+      "id": "MFC6-B1-I-SN-01",
+      "numero": 1,
+      "titulo": "O arredondamento do painel",
+      "assunto": "SN",
+      "enunciado": "Um painel ambiental mostra a quantidade de sementes por centenas, arredondando para a centena mais próxima; a partir de 50 unidades, arredonda para cima. Observe o painel e a escala de centenas. Qual quantidade real poderia ter produzido o valor mostrado?",
+      "dados": {
+        "painel": 4200
+      },
+      "modelo_verificacao": "(D['painel']-50, D['painel']+49)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "4.176 sementes.",
+          "valor": 4176,
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "4.149 sementes.",
+          "valor": 4149,
+          "erro_comum": "Incluir um valor abaixo do limite de arredondamento."
+        },
+        {
+          "letra": "C",
+          "texto": "4.250 sementes.",
+          "valor": 4250,
+          "erro_comum": "Incluir o limite que já arredonda para 4.300."
+        },
+        {
+          "letra": "D",
+          "texto": "4.301 sementes.",
+          "valor": 4301,
+          "erro_comum": "Confundir proximidade com a regra da centena."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Os inteiros de 4.150 a 4.249 arredondam para 4.200. Entre as opções, apenas 4.176 pertence a esse intervalo.",
+      "habilidade": "Interpretar o intervalo de valores que pode originar um arredondamento.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Interpretar o intervalo de valores que pode originar um arredondamento."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual quantidade real poderia ter produzido o valor mostrado?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa interpretar o intervalo de valores que pode originar um arredondamento.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "SN",
+        "visual_relevante": true,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-SN-01",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-SN-01-SNV1",
+          "tipo": "svg",
+          "relevancia": "Painel com 4.200 sementes. A escala abaixo tem marcas igualmente espaçadas em 4.000, 4.100, 4.200, 4.300 e 4.400; apenas 4.000, 4.200 e 4.400 estão escritos. A escala indica o passo de uma centena.",
+          "dados": {
+            "painel": 4200
+          },
+          "acessibilidade": "Painel com 4.200 sementes. A escala abaixo tem marcas igualmente espaçadas em 4.000, 4.100, 4.200, 4.300 e 4.400; apenas 4.000, 4.200 e 4.400 estão escritos. A escala indica o passo de uma centena.",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 230\" width=\"320\" height=\"230\" role=\"img\" aria-labelledby=\"MFC6-B1-I-SN-01-SNV1-titulo\" aria-describedby=\"MFC6-B1-I-SN-01-SNV1-descricao\" class=\"mfc-sn-svg\" style=\"font-family:Arial,sans-serif\"><title id=\"MFC6-B1-I-SN-01-SNV1-titulo\">O arredondamento do painel</title><desc id=\"MFC6-B1-I-SN-01-SNV1-descricao\">Painel com 4.200 sementes. A escala abaixo tem marcas igualmente espaçadas em 4.000, 4.100, 4.200, 4.300 e 4.400; apenas 4.000, 4.200 e 4.400 estão escritos. A escala indica o passo de uma centena.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"230\" fill=\"white\" data-fundo=\"true\"/><text x=\"160\" y=\"24\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >Contagem aproximada de sementes</text><rect x=\"80\" y=\"40\" width=\"160\" height=\"52\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"160\" y=\"76\" text-anchor=\"middle\" font-size=\"30\" fill=\"#172b3a\" data-leitura=\"4200\">4.200</text><path d=\"M35 140H285\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M35.0 134V146\" stroke=\"#172b3a\" data-eixo=\"centenas\" data-marca=\"4000\" data-x=\"35.0\"/><text x=\"35.0\" y=\"172\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-rotulo-eixo=\"centenas\" data-valor=\"4000\">4.000</text><path d=\"M97.5 134V146\" stroke=\"#172b3a\" data-eixo=\"centenas\" data-marca=\"4100\" data-x=\"97.5\"/><path d=\"M160.0 134V146\" stroke=\"#172b3a\" data-eixo=\"centenas\" data-marca=\"4200\" data-x=\"160.0\"/><text x=\"160.0\" y=\"172\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-rotulo-eixo=\"centenas\" data-valor=\"4200\">4.200</text><path d=\"M222.5 134V146\" stroke=\"#172b3a\" data-eixo=\"centenas\" data-marca=\"4300\" data-x=\"222.5\"/><path d=\"M285.0 134V146\" stroke=\"#172b3a\" data-eixo=\"centenas\" data-marca=\"4400\" data-x=\"285.0\"/><text x=\"285.0\" y=\"172\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-rotulo-eixo=\"centenas\" data-valor=\"4400\">4.400</text><text x=\"160\" y=\"210\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Marcas igualmente espaçadas</text></svg>",
+          "geometria": {
+            "tipo": "sn_revisao",
+            "modelo": "painel_centenas",
+            "eixos": [
+              {
+                "nome": "centenas",
+                "minimo": 4000,
+                "maximo": 4400,
+                "passo": 100,
+                "x_inicio": 35,
+                "x_fim": 285
+              }
+            ]
+          },
+          "arquivo": "recursos/MFC6-B1-I-SN-01.svg",
+          "css": ".mfc-sn-svg{display:block;width:100%;max-width:32rem;height:auto}"
+        }
+      ],
+      "criterio_opcao": "intervalo_inclusivo",
+      "assunto_nome": "Sistema de numeração",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Sistema de Numeração solicitada pelo usuário",
+          "correcao_textual_especifica": false,
+          "recurso_visual": "Tabela substituída por representação matemática SVG",
+          "dados_e_classificacoes": "Preservados",
+          "aprovacao_final": "Aguardar revisão do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-SN-02",
+      "numero": 2,
+      "titulo": "Remessa sem lacunas",
+      "assunto": "SN",
+      "enunciado": "Um museu numera fichas consecutivamente, incluindo a primeira e a última. A contagem automática ignora fichas canceladas. Observe a sequência de fichas e o aviso de cancelamento. Quantas fichas válidas há na remessa?",
+      "dados": {
+        "primeira_ficha": 398,
+        "ultima_ficha": 412,
+        "fichas_canceladas": 2
+      },
+      "modelo_verificacao": "D['ultima_ficha']-D['primeira_ficha']+1-D['fichas_canceladas']",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "12 fichas.",
+          "valor": 12,
+          "erro_comum": "Não contar um dos extremos."
+        },
+        {
+          "letra": "B",
+          "texto": "13 fichas.",
+          "valor": 13,
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "15 fichas.",
+          "valor": 15,
+          "erro_comum": "Ignorar os cancelamentos."
+        },
+        {
+          "letra": "D",
+          "texto": "16 fichas.",
+          "valor": 16,
+          "erro_comum": "Acrescentar em vez de retirar fichas canceladas."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Há 412 − 398 + 1 = 15 números, porque os dois extremos contam. Retirando duas fichas canceladas, restam 13 válidas.",
+      "habilidade": "Contar naturais em um intervalo inclusivo e considerar exclusões.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Contar naturais em um intervalo inclusivo e considerar exclusões."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Quantas fichas válidas há na remessa?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa contar naturais em um intervalo inclusivo e considerar exclusões.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "SN",
+        "visual_relevante": true,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-SN-02",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-SN-02-SNV1",
+          "tipo": "svg",
+          "relevancia": "Quinze etiquetas dispostas em três linhas de cinco, numeradas consecutivamente de 398 a 412. Um aviso informa que duas fichas foram canceladas, sem indicar quais foram.",
+          "dados": {
+            "primeira_ficha": 398,
+            "ultima_ficha": 412,
+            "fichas_canceladas": 2
+          },
+          "acessibilidade": "Quinze etiquetas dispostas em três linhas de cinco, numeradas consecutivamente de 398 a 412. Um aviso informa que duas fichas foram canceladas, sem indicar quais foram.",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"320\" height=\"240\" role=\"img\" aria-labelledby=\"MFC6-B1-I-SN-02-SNV1-titulo\" aria-describedby=\"MFC6-B1-I-SN-02-SNV1-descricao\" class=\"mfc-sn-svg\" style=\"font-family:Arial,sans-serif\"><title id=\"MFC6-B1-I-SN-02-SNV1-titulo\">Remessa sem lacunas</title><desc id=\"MFC6-B1-I-SN-02-SNV1-descricao\">Quinze etiquetas dispostas em três linhas de cinco, numeradas consecutivamente de 398 a 412. Um aviso informa que duas fichas foram canceladas, sem indicar quais foram.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"240\" fill=\"white\" data-fundo=\"true\"/><text x=\"160\" y=\"24\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >Fichas da remessa</text><rect x=\"8\" y=\"42\" width=\"56\" height=\"40\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"36\" y=\"69\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-ficha=\"398\">398</text><rect x=\"70\" y=\"42\" width=\"56\" height=\"40\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"98\" y=\"69\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-ficha=\"399\">399</text><rect x=\"132\" y=\"42\" width=\"56\" height=\"40\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"160\" y=\"69\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-ficha=\"400\">400</text><rect x=\"194\" y=\"42\" width=\"56\" height=\"40\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"222\" y=\"69\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-ficha=\"401\">401</text><rect x=\"256\" y=\"42\" width=\"56\" height=\"40\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"284\" y=\"69\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-ficha=\"402\">402</text><rect x=\"8\" y=\"91\" width=\"56\" height=\"40\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"36\" y=\"118\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-ficha=\"403\">403</text><rect x=\"70\" y=\"91\" width=\"56\" height=\"40\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"98\" y=\"118\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-ficha=\"404\">404</text><rect x=\"132\" y=\"91\" width=\"56\" height=\"40\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"160\" y=\"118\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-ficha=\"405\">405</text><rect x=\"194\" y=\"91\" width=\"56\" height=\"40\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"222\" y=\"118\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-ficha=\"406\">406</text><rect x=\"256\" y=\"91\" width=\"56\" height=\"40\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"284\" y=\"118\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-ficha=\"407\">407</text><rect x=\"8\" y=\"140\" width=\"56\" height=\"40\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"36\" y=\"167\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-ficha=\"408\">408</text><rect x=\"70\" y=\"140\" width=\"56\" height=\"40\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"98\" y=\"167\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-ficha=\"409\">409</text><rect x=\"132\" y=\"140\" width=\"56\" height=\"40\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"160\" y=\"167\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-ficha=\"410\">410</text><rect x=\"194\" y=\"140\" width=\"56\" height=\"40\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"222\" y=\"167\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-ficha=\"411\">411</text><rect x=\"256\" y=\"140\" width=\"56\" height=\"40\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"284\" y=\"167\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-ficha=\"412\">412</text><text x=\"160\" y=\"215\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-canceladas=\"2\">2 fichas foram canceladas</text></svg>",
+          "geometria": {
+            "tipo": "sn_revisao",
+            "modelo": "sequencia_fichas",
+            "eixos": []
+          },
+          "arquivo": "recursos/MFC6-B1-I-SN-02.svg",
+          "css": ".mfc-sn-svg{display:block;width:100%;max-width:32rem;height:auto}"
+        }
+      ],
+      "assunto_nome": "Sistema de numeração",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Sistema de Numeração solicitada pelo usuário",
+          "correcao_textual_especifica": false,
+          "recurso_visual": "Tabela substituída por representação matemática SVG",
+          "dados_e_classificacoes": "Preservados",
+          "aprovacao_final": "Aguardar revisão do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-SN-03",
+      "numero": 3,
+      "titulo": "Leitura com unidade abreviada",
+      "assunto": "SN",
+      "enunciado": "O portal de um projeto escolar mostra a quantidade de acessos usando a letra k para indicar mil. Observe o painel. Qual quantidade de acessos ele apresenta?",
+      "dados": {
+        "valor_em_milhares": "2.4"
+      },
+      "modelo_verificacao": "F(D['valor_em_milhares'])*1000",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "24 acessos.",
+          "valor": 24,
+          "erro_comum": "Retirar a vírgula sem considerar a unidade."
+        },
+        {
+          "letra": "B",
+          "texto": "2.040 acessos.",
+          "valor": 2040,
+          "erro_comum": "Interpretar décimos de milhar como dezenas."
+        },
+        {
+          "letra": "C",
+          "texto": "2.400 acessos.",
+          "valor": 2400,
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "24.000 acessos.",
+          "valor": 24000,
+          "erro_comum": "Multiplicar por dez além do necessário."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "A unidade k significa mil: 2,4 milhares são 2 milhares e 4 décimos de milhar, isto é, 2.400. Não são 24 nem 2.040.",
+      "habilidade": "Relacionar abreviação de milhares ao valor posicional.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Relacionar abreviação de milhares ao valor posicional."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual leitura deve ser usada para explicar esse aviso a quem não conhece a abreviação?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa relacionar abreviação de milhares ao valor posicional.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "SN",
+        "visual_relevante": true,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-SN-03",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-SN-03-SNV1",
+          "tipo": "svg",
+          "relevancia": "Contador de acessos ao portal mostrando 2,4 k. A legenda informa que k indica mil. A quantidade por extenso ou em unidades não aparece no painel.",
+          "dados": {
+            "valor_em_milhares": "2.4"
+          },
+          "acessibilidade": "Contador de acessos ao portal mostrando 2,4 k. A legenda informa que k indica mil. A quantidade por extenso ou em unidades não aparece no painel.",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 205\" width=\"320\" height=\"205\" role=\"img\" aria-labelledby=\"MFC6-B1-I-SN-03-SNV1-titulo\" aria-describedby=\"MFC6-B1-I-SN-03-SNV1-descricao\" class=\"mfc-sn-svg\" style=\"font-family:Arial,sans-serif\"><title id=\"MFC6-B1-I-SN-03-SNV1-titulo\">Leitura com unidade abreviada</title><desc id=\"MFC6-B1-I-SN-03-SNV1-descricao\">Contador de acessos ao portal mostrando 2,4 k. A legenda informa que k indica mil. A quantidade por extenso ou em unidades não aparece no painel.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"205\" fill=\"white\" data-fundo=\"true\"/><text x=\"160\" y=\"32\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >ACESSOS AO PORTAL</text><rect x=\"28\" y=\"54\" width=\"264\" height=\"90\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"160\" y=\"116\" text-anchor=\"middle\" font-size=\"42\" fill=\"#172b3a\" data-milhares=\"2.4\">2,4 k</text><text x=\"160\" y=\"180\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >k indica mil</text></svg>",
+          "geometria": {
+            "tipo": "sn_revisao",
+            "modelo": "painel_abreviado",
+            "eixos": []
+          },
+          "arquivo": "recursos/MFC6-B1-I-SN-03.svg",
+          "css": ".mfc-sn-svg{display:block;width:100%;max-width:32rem;height:auto}"
+        }
+      ],
+      "assunto_nome": "Sistema de numeração",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Sistema de Numeração solicitada pelo usuário",
+          "correcao_textual_especifica": true,
+          "recurso_visual": "Tabela substituída por representação matemática SVG",
+          "dados_e_classificacoes": "Preservados",
+          "aprovacao_final": "Aguardar revisão do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-SN-04",
+      "numero": 4,
+      "titulo": "Etiqueta parcialmente apagada",
+      "assunto": "SN",
+      "enunciado": "Uma etiqueta de arquivo mostra 6□2. A regra de organização exige que ela fique depois do limite inferior e antes do superior, sem incluir esses limites. Observe a etiqueta e a reta numérica. Qual algarismo completa a etiqueta?",
+      "dados": {
+        "limite_inferior": 640,
+        "limite_superior": 650,
+        "centenas": 6,
+        "unidades": 2
+      },
+      "modelo_verificacao": "[d for d in range(10) if D['limite_inferior'] < 100*D['centenas']+10*d+D['unidades'] < D['limite_superior']]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3.",
+          "valor": [
+            3
+          ],
+          "erro_comum": "Escolher a dezena anterior ao intervalo."
+        },
+        {
+          "letra": "B",
+          "texto": "5.",
+          "valor": [
+            5
+          ],
+          "erro_comum": "Desconsiderar o limite superior."
+        },
+        {
+          "letra": "C",
+          "texto": "6.",
+          "valor": [
+            6
+          ],
+          "erro_comum": "Copiar a centena na ordem das dezenas."
+        },
+        {
+          "letra": "D",
+          "texto": "4.",
+          "valor": [
+            4
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Entre 640 e 650, o único número da forma 6□2 é 642, logo a dezena é 4. 632 fica antes; 652 e 662 ficam depois.",
+      "habilidade": "Reconstruir algarismo por restrições de ordenação.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Reconstruir algarismo por restrições de ordenação."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual algarismo completa a etiqueta?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa reconstruir algarismo por restrições de ordenação.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "SN",
+        "visual_relevante": true,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-SN-04",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-SN-04-SNV1",
+          "tipo": "svg",
+          "relevancia": "Etiqueta 6□2 e reta de 640 a 650, com marcas de uma unidade e 645 no meio. Os extremos 640 e 650 aparecem com círculos vazios para indicar que não pertencem ao intervalo.",
+          "dados": {
+            "limite_inferior": 640,
+            "limite_superior": 650,
+            "centenas": 6,
+            "unidades": 2
+          },
+          "acessibilidade": "Etiqueta 6□2 e reta de 640 a 650, com marcas de uma unidade e 645 no meio. Os extremos 640 e 650 aparecem com círculos vazios para indicar que não pertencem ao intervalo.",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 225\" width=\"320\" height=\"225\" role=\"img\" aria-labelledby=\"MFC6-B1-I-SN-04-SNV1-titulo\" aria-describedby=\"MFC6-B1-I-SN-04-SNV1-descricao\" class=\"mfc-sn-svg\" style=\"font-family:Arial,sans-serif\"><title id=\"MFC6-B1-I-SN-04-SNV1-titulo\">Etiqueta parcialmente apagada</title><desc id=\"MFC6-B1-I-SN-04-SNV1-descricao\">Etiqueta 6□2 e reta de 640 a 650, com marcas de uma unidade e 645 no meio. Os extremos 640 e 650 aparecem com círculos vazios para indicar que não pertencem ao intervalo.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"225\" fill=\"white\" data-fundo=\"true\"/><text x=\"160\" y=\"23\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >Etiqueta do arquivo</text><rect x=\"100\" y=\"38\" width=\"120\" height=\"52\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"160\" y=\"75\" text-anchor=\"middle\" font-size=\"34\" fill=\"#172b3a\" data-etiqueta=\"6□2\">6□2</text><path d=\"M35 140H285\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M35.0 134V146\" stroke=\"#172b3a\" data-eixo=\"limites\" data-marca=\"640\" data-x=\"35.0\"/><text x=\"35.0\" y=\"172\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-rotulo-eixo=\"limites\" data-valor=\"640\">640</text><path d=\"M60.0 134V146\" stroke=\"#172b3a\" data-eixo=\"limites\" data-marca=\"641\" data-x=\"60.0\"/><path d=\"M85.0 134V146\" stroke=\"#172b3a\" data-eixo=\"limites\" data-marca=\"642\" data-x=\"85.0\"/><path d=\"M110.0 134V146\" stroke=\"#172b3a\" data-eixo=\"limites\" data-marca=\"643\" data-x=\"110.0\"/><path d=\"M135.0 134V146\" stroke=\"#172b3a\" data-eixo=\"limites\" data-marca=\"644\" data-x=\"135.0\"/><path d=\"M160.0 134V146\" stroke=\"#172b3a\" data-eixo=\"limites\" data-marca=\"645\" data-x=\"160.0\"/><text x=\"160.0\" y=\"172\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-rotulo-eixo=\"limites\" data-valor=\"645\">645</text><path d=\"M185.0 134V146\" stroke=\"#172b3a\" data-eixo=\"limites\" data-marca=\"646\" data-x=\"185.0\"/><path d=\"M210.0 134V146\" stroke=\"#172b3a\" data-eixo=\"limites\" data-marca=\"647\" data-x=\"210.0\"/><path d=\"M235.0 134V146\" stroke=\"#172b3a\" data-eixo=\"limites\" data-marca=\"648\" data-x=\"235.0\"/><path d=\"M260.0 134V146\" stroke=\"#172b3a\" data-eixo=\"limites\" data-marca=\"649\" data-x=\"260.0\"/><path d=\"M285.0 134V146\" stroke=\"#172b3a\" data-eixo=\"limites\" data-marca=\"650\" data-x=\"285.0\"/><text x=\"285.0\" y=\"172\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-rotulo-eixo=\"limites\" data-valor=\"650\">650</text><circle cx=\"35\" cy=\"140\" r=\"6\" fill=\"white\" stroke=\"#172b3a\" stroke-width=\"2\"/><circle cx=\"285\" cy=\"140\" r=\"6\" fill=\"white\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"160\" y=\"205\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Os limites não estão incluídos</text></svg>",
+          "geometria": {
+            "tipo": "sn_revisao",
+            "modelo": "etiqueta_intervalo",
+            "eixos": [
+              {
+                "nome": "limites",
+                "minimo": 640,
+                "maximo": 650,
+                "passo": 1,
+                "x_inicio": 35,
+                "x_fim": 285
+              }
+            ]
+          },
+          "arquivo": "recursos/MFC6-B1-I-SN-04.svg",
+          "css": ".mfc-sn-svg{display:block;width:100%;max-width:32rem;height:auto}"
+        }
+      ],
+      "assunto_nome": "Sistema de numeração",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Sistema de Numeração solicitada pelo usuário",
+          "correcao_textual_especifica": false,
+          "recurso_visual": "Tabela substituída por representação matemática SVG",
+          "dados_e_classificacoes": "Preservados",
+          "aprovacao_final": "Aguardar revisão do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-SN-05",
+      "numero": 5,
+      "titulo": "Maior número sem ultrapassar o teto",
+      "assunto": "SN",
+      "enunciado": "Um equipamento aceita identificadores de quatro algarismos diferentes. Deve-se usar cada algarismo disponível uma única vez. Observe os algarismos disponíveis e os espaços do identificador. Qual é o maior identificador permitido abaixo do teto?",
+      "dados": {
+        "algarismos": [
+          1,
+          2,
+          5,
+          8
+        ],
+        "teto": 6000
+      },
+      "modelo_verificacao": "max(n for n in permutacoes(D['algarismos']) if n<D['teto'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5.821.",
+          "valor": 5821,
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "8.521.",
+          "valor": 8521,
+          "erro_comum": "Maximizar sem respeitar o teto."
+        },
+        {
+          "letra": "C",
+          "texto": "5.812.",
+          "valor": 5812,
+          "erro_comum": "Não maximizar dezenas e unidades."
+        },
+        {
+          "letra": "D",
+          "texto": "5.521.",
+          "valor": 5521,
+          "erro_comum": "Repetir um algarismo que só pode ser usado uma vez."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "O primeiro algarismo não pode ser 8. Usamos 5 para maximizar os milhares e depois 8, 2 e 1 em ordem decrescente: 5.821, ainda abaixo de 6.000.",
+      "habilidade": "Escolher uma estratégia de maximização sob limite e sem repetição.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Escolher uma estratégia de maximização sob limite e sem repetição."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual é o maior identificador permitido abaixo do teto?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa escolher uma estratégia de maximização sob limite e sem repetição.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "SN",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-SN-05",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-SN-05-SNV1",
+          "tipo": "svg",
+          "relevancia": "Quatro cartões com os algarismos 1, 2, 5 e 8. Abaixo há quatro espaços vazios nas posições M, C, D e U. Uma legenda indica milhar, centena, dezena e unidade. O limite é menor que 6.000.",
+          "dados": {
+            "algarismos": [
+              1,
+              2,
+              5,
+              8
+            ],
+            "teto": 6000
+          },
+          "acessibilidade": "Quatro cartões com os algarismos 1, 2, 5 e 8. Abaixo há quatro espaços vazios nas posições M, C, D e U. Uma legenda indica milhar, centena, dezena e unidade. O limite é menor que 6.000.",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 290\" width=\"320\" height=\"290\" role=\"img\" aria-labelledby=\"MFC6-B1-I-SN-05-SNV1-titulo\" aria-describedby=\"MFC6-B1-I-SN-05-SNV1-descricao\" class=\"mfc-sn-svg\" style=\"font-family:Arial,sans-serif\"><title id=\"MFC6-B1-I-SN-05-SNV1-titulo\">Maior número sem ultrapassar o teto</title><desc id=\"MFC6-B1-I-SN-05-SNV1-descricao\">Quatro cartões com os algarismos 1, 2, 5 e 8. Abaixo há quatro espaços vazios nas posições M, C, D e U. Uma legenda indica milhar, centena, dezena e unidade. O limite é menor que 6.000.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"290\" fill=\"white\" data-fundo=\"true\"/><text x=\"160\" y=\"24\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >Algarismos disponíveis</text><rect x=\"21\" y=\"40\" width=\"58\" height=\"45\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"50\" y=\"71\" text-anchor=\"middle\" font-size=\"28\" fill=\"#172b3a\" data-algarismo=\"1\">1</text><rect x=\"94\" y=\"40\" width=\"58\" height=\"45\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"123\" y=\"71\" text-anchor=\"middle\" font-size=\"28\" fill=\"#172b3a\" data-algarismo=\"2\">2</text><rect x=\"167\" y=\"40\" width=\"58\" height=\"45\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"196\" y=\"71\" text-anchor=\"middle\" font-size=\"28\" fill=\"#172b3a\" data-algarismo=\"5\">5</text><rect x=\"240\" y=\"40\" width=\"58\" height=\"45\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"269\" y=\"71\" text-anchor=\"middle\" font-size=\"28\" fill=\"#172b3a\" data-algarismo=\"8\">8</text><text x=\"160\" y=\"119\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-teto=\"6000\">Identificador menor que 6.000</text><text x=\"50\" y=\"157\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >M</text><rect x=\"21\" y=\"166\" width=\"58\" height=\"43\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"50\" y=\"196\" text-anchor=\"middle\" font-size=\"25\" fill=\"#172b3a\" >□</text><text x=\"123\" y=\"157\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >C</text><rect x=\"94\" y=\"166\" width=\"58\" height=\"43\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"123\" y=\"196\" text-anchor=\"middle\" font-size=\"25\" fill=\"#172b3a\" >□</text><text x=\"196\" y=\"157\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >D</text><rect x=\"167\" y=\"166\" width=\"58\" height=\"43\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"196\" y=\"196\" text-anchor=\"middle\" font-size=\"25\" fill=\"#172b3a\" >□</text><text x=\"269\" y=\"157\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >U</text><rect x=\"240\" y=\"166\" width=\"58\" height=\"43\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"269\" y=\"196\" text-anchor=\"middle\" font-size=\"25\" fill=\"#172b3a\" >□</text><text x=\"160\" y=\"244\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >M: milhar • C: centena</text><text x=\"160\" y=\"269\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >D: dezena • U: unidade</text></svg>",
+          "geometria": {
+            "tipo": "sn_revisao",
+            "modelo": "algarismos_posicoes",
+            "eixos": []
+          },
+          "arquivo": "recursos/MFC6-B1-I-SN-05.svg",
+          "css": ".mfc-sn-svg{display:block;width:100%;max-width:32rem;height:auto}"
+        }
+      ],
+      "assunto_nome": "Sistema de numeração",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Sistema de Numeração solicitada pelo usuário",
+          "correcao_textual_especifica": false,
+          "recurso_visual": "Tabela substituída por representação matemática SVG",
+          "dados_e_classificacoes": "Preservados",
+          "aprovacao_final": "Aguardar revisão do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-SN-06",
+      "numero": 6,
+      "titulo": "Troca de ordens no formulário",
+      "assunto": "SN",
+      "enunciado": "Ao corrigir um cadastro de coleção, a equipe trocou de posição o algarismo das centenas e o das unidades, mantendo os demais. Observe os quadros de ordens e a troca indicada. Qual foi a variação do número registrado?",
+      "dados": {
+        "numero_antes": 7234
+      },
+      "modelo_verificacao": "troca_cu(D['numero_antes'])-D['numero_antes']",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Aumentou 2.",
+          "valor": 2,
+          "erro_comum": "Comparar apenas os algarismos trocados."
+        },
+        {
+          "letra": "B",
+          "texto": "Aumentou 198.",
+          "valor": 198,
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Diminuiu 198.",
+          "valor": -198,
+          "erro_comum": "Inverter a direção da mudança."
+        },
+        {
+          "letra": "D",
+          "texto": "Aumentou 200.",
+          "valor": 200,
+          "erro_comum": "Ignorar a diferença das unidades."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "O registro 7.234 passa a 7.432. A variação é 7.432 − 7.234 = 198; o valor aumenta porque o 4 passou às centenas.",
+      "habilidade": "Avaliar o efeito de uma permutação de algarismos no valor do número.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Avaliar o efeito de uma permutação de algarismos no valor do número."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual foi a variação do número registrado?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa avaliar o efeito de uma permutação de algarismos no valor do número.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "SN",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-SN-06",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-SN-06-SNV1",
+          "tipo": "svg",
+          "relevancia": "Quadro inicial com M=7, C=2, D=3 e U=4. Setas ligam C a U e U a C. No quadro seguinte, M=7 e D=3 permanecem escritos; as posições C e U ficam vazias para completar a troca.",
+          "dados": {
+            "numero_antes": 7234
+          },
+          "acessibilidade": "Quadro inicial com M=7, C=2, D=3 e U=4. Setas ligam C a U e U a C. No quadro seguinte, M=7 e D=3 permanecem escritos; as posições C e U ficam vazias para completar a troca.",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 340\" width=\"320\" height=\"340\" role=\"img\" aria-labelledby=\"MFC6-B1-I-SN-06-SNV1-titulo\" aria-describedby=\"MFC6-B1-I-SN-06-SNV1-descricao\" class=\"mfc-sn-svg\" style=\"font-family:Arial,sans-serif\"><title id=\"MFC6-B1-I-SN-06-SNV1-titulo\">Troca de ordens no formulário</title><desc id=\"MFC6-B1-I-SN-06-SNV1-descricao\">Quadro inicial com M=7, C=2, D=3 e U=4. Setas ligam C a U e U a C. No quadro seguinte, M=7 e D=3 permanecem escritos; as posições C e U ficam vazias para completar a troca.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"340\" fill=\"white\" data-fundo=\"true\"/><text x=\"160\" y=\"22\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" >Trocar centenas e unidades</text><text x=\"50\" y=\"53\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >M</text><text x=\"123\" y=\"53\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >C</text><text x=\"196\" y=\"53\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >D</text><text x=\"269\" y=\"53\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >U</text><rect x=\"21\" y=\"65\" width=\"58\" height=\"45\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"50\" y=\"96\" text-anchor=\"middle\" font-size=\"28\" fill=\"#172b3a\" data-quadro=\"antes\" data-posicao=\"M\">7</text><rect x=\"94\" y=\"65\" width=\"58\" height=\"45\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"123\" y=\"96\" text-anchor=\"middle\" font-size=\"28\" fill=\"#172b3a\" data-quadro=\"antes\" data-posicao=\"C\">2</text><rect x=\"167\" y=\"65\" width=\"58\" height=\"45\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"196\" y=\"96\" text-anchor=\"middle\" font-size=\"28\" fill=\"#172b3a\" data-quadro=\"antes\" data-posicao=\"D\">3</text><rect x=\"240\" y=\"65\" width=\"58\" height=\"45\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"269\" y=\"96\" text-anchor=\"middle\" font-size=\"28\" fill=\"#172b3a\" data-quadro=\"antes\" data-posicao=\"U\">4</text><rect x=\"21\" y=\"216\" width=\"58\" height=\"45\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"50\" y=\"247\" text-anchor=\"middle\" font-size=\"28\" fill=\"#172b3a\" data-quadro=\"depois\" data-posicao=\"M\">7</text><rect x=\"94\" y=\"216\" width=\"58\" height=\"45\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"123\" y=\"247\" text-anchor=\"middle\" font-size=\"28\" fill=\"#172b3a\" data-quadro=\"depois\" data-posicao=\"C\">□</text><rect x=\"167\" y=\"216\" width=\"58\" height=\"45\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"196\" y=\"247\" text-anchor=\"middle\" font-size=\"28\" fill=\"#172b3a\" data-quadro=\"depois\" data-posicao=\"D\">3</text><rect x=\"240\" y=\"216\" width=\"58\" height=\"45\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"269\" y=\"247\" text-anchor=\"middle\" font-size=\"28\" fill=\"#172b3a\" data-quadro=\"depois\" data-posicao=\"U\">□</text><text x=\"11\" y=\"128\" text-anchor=\"start\" font-size=\"15\" fill=\"#172b3a\" >Antes</text><text x=\"11\" y=\"286\" text-anchor=\"start\" font-size=\"15\" fill=\"#172b3a\" >Depois</text><defs><marker id=\"MFC6-B1-I-SN-06-seta\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0 0L8 4L0 8Z\" fill=\"#172b3a\"/></marker></defs><path d=\"M123 111Q123 155 269 209\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" marker-end=\"url(#MFC6-B1-I-SN-06-seta)\" data-troca=\"C-U\"/><path d=\"M269 111Q269 170 123 209\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" marker-end=\"url(#MFC6-B1-I-SN-06-seta)\" data-troca=\"U-C\"/><text x=\"160\" y=\"318\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >M e D permanecem iguais</text></svg>",
+          "geometria": {
+            "tipo": "sn_revisao",
+            "modelo": "troca_ordens",
+            "eixos": []
+          },
+          "arquivo": "recursos/MFC6-B1-I-SN-06.svg",
+          "css": ".mfc-sn-svg{display:block;width:100%;max-width:32rem;height:auto}"
+        }
+      ],
+      "assunto_nome": "Sistema de numeração",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Sistema de Numeração solicitada pelo usuário",
+          "correcao_textual_especifica": false,
+          "recurso_visual": "Tabela substituída por representação matemática SVG",
+          "dados_e_classificacoes": "Preservados",
+          "aprovacao_final": "Aguardar revisão do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-SN-07",
+      "numero": 7,
+      "titulo": "Blocos numerados do cadastro",
+      "assunto": "SN",
+      "enunciado": "Para revisar um cadastro, cada voluntário recebe um intervalo de números. O primeiro e o último registro de cada intervalo também devem ser revisados. Observe a tabela. Qual voluntário recebeu exatamente cem registros?",
+      "dados": {
+        "Ana": [
+          1200,
+          1299
+        ],
+        "Beto": [
+          1300,
+          1400
+        ],
+        "Cris": [
+          1401,
+          1499
+        ],
+        "Dani": [
+          1500,
+          1601
+        ]
+      },
+      "modelo_verificacao": "[k for k,v in D.items() if v[1]-v[0]+1==100]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Beto.",
+          "valor": [
+            "Beto"
+          ],
+          "erro_comum": "Considerar a diferença 100 como contagem completa."
+        },
+        {
+          "letra": "B",
+          "texto": "Cris.",
+          "valor": [
+            "Cris"
+          ],
+          "erro_comum": "Confundir 99 com cem por proximidade dos limites."
+        },
+        {
+          "letra": "C",
+          "texto": "Ana.",
+          "valor": [
+            "Ana"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Dani.",
+          "valor": [
+            "Dani"
+          ],
+          "erro_comum": "Ignorar os dois registros que excedem cem."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Ana recebeu 1.299 − 1.200 + 1 = 100. Beto recebeu 101, Cris 99 e Dani 102. Contar apenas a diferença deixa de incluir um extremo.",
+      "habilidade": "Comparar cardinalidades de intervalos naturais com extremos inclusivos.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Comparar cardinalidades de intervalos naturais com extremos inclusivos."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual voluntário recebeu exatamente cem registros?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa comparar cardinalidades de intervalos naturais com extremos inclusivos.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "SN",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-SN-07",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-SN-07-T1",
+          "tipo": "tabela_html",
+          "dados": {
+            "Ana": [
+              1200,
+              1299
+            ],
+            "Beto": [
+              1300,
+              1400
+            ],
+            "Cris": [
+              1401,
+              1499
+            ],
+            "Dani": [
+              1500,
+              1601
+            ]
+          },
+          "cabecalhos": [
+            "Voluntário",
+            "Intervalo de registros"
+          ],
+          "linhas": [
+            [
+              "Ana",
+              "de 1.200 a 1.299"
+            ],
+            [
+              "Beto",
+              "de 1.300 a 1.400"
+            ],
+            [
+              "Cris",
+              "de 1.401 a 1.499"
+            ],
+            [
+              "Dani",
+              "de 1.500 a 1.601"
+            ]
+          ],
+          "html": "<table class=\"mfc-banco-tabela\"><caption>Blocos numerados do cadastro</caption><thead><tr><th scope=\"col\">Voluntário</th><th scope=\"col\">Intervalo de registros</th></tr></thead><tbody><tr><th scope=\"row\">Ana</th><td>de 1.200 a 1.299</td></tr><tr><th scope=\"row\">Beto</th><td>de 1.300 a 1.400</td></tr><tr><th scope=\"row\">Cris</th><td>de 1.401 a 1.499</td></tr><tr><th scope=\"row\">Dani</th><td>de 1.500 a 1.601</td></tr></tbody></table>",
+          "css": ".mfc-banco-tabela{width:100%;border-collapse:collapse;font-size:1rem;line-height:1.4}.mfc-banco-tabela th,.mfc-banco-tabela td{border:1px solid #555;padding:.4em;text-align:left;overflow-wrap:anywhere}.mfc-banco-tabela caption{font-weight:bold;text-align:left;margin-bottom:.5em}",
+          "relevancia": "Tabela de intervalos inclusivos: Ana, de 1.200 a 1.299; Beto, de 1.300 a 1.400; Cris, de 1.401 a 1.499; Dani, de 1.500 a 1.601. Os dois extremos pertencem a cada intervalo.",
+          "acessibilidade": "Tabela de intervalos inclusivos: Ana, de 1.200 a 1.299; Beto, de 1.300 a 1.400; Cris, de 1.401 a 1.499; Dani, de 1.500 a 1.601. Os dois extremos pertencem a cada intervalo."
+        }
+      ],
+      "assunto_nome": "Sistema de numeração",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Sistema de Numeração solicitada pelo usuário",
+          "correcao_textual_especifica": true,
+          "recurso_visual": "Tabela comparativa mantida e reformulada",
+          "dados_e_classificacoes": "Preservados",
+          "aprovacao_final": "Aguardar revisão do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-SN-08",
+      "numero": 8,
+      "titulo": "Registro com arredondamento correto",
+      "assunto": "SN",
+      "enunciado": "Um observatório publica quantidades arredondadas ao milhar mais próximo. A conferência procura uma publicação incompatível com essa regra. Consulte os dados da tabela. Qual publicação deve ser corrigida?",
+      "dados": {
+        "Registros": [
+          [
+            "P",
+            12499,
+            12000
+          ],
+          [
+            "Q",
+            12500,
+            13000
+          ],
+          [
+            "R",
+            13990,
+            13000
+          ],
+          [
+            "S",
+            14001,
+            14000
+          ]
+        ]
+      },
+      "modelo_verificacao": "[r[0] for r in D['Registros'] if arredonda(r[1],1000)!=r[2]]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Registro P.",
+          "valor": [
+            "P"
+          ],
+          "erro_comum": "Arredondar para cima qualquer valor que tenha centenas."
+        },
+        {
+          "letra": "B",
+          "texto": "Registro Q.",
+          "valor": [
+            "Q"
+          ],
+          "erro_comum": "Não aplicar a regra de subir no meio do intervalo."
+        },
+        {
+          "letra": "C",
+          "texto": "Registro S.",
+          "valor": [
+            "S"
+          ],
+          "erro_comum": "Confundir presença de unidades com mudança de milhar."
+        },
+        {
+          "letra": "D",
+          "texto": "Registro R.",
+          "valor": [
+            "R"
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "13.990 está mais perto de 14.000 que de 13.000, então R está errado. 12.499 arredonda para 12.000; 12.500 para 13.000; 14.001 para 14.000.",
+      "habilidade": "Verificar coerência entre números exatos e aproximações publicadas.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Verificar coerência entre números exatos e aproximações publicadas."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual publicação deve ser corrigida?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa verificar coerência entre números exatos e aproximações publicadas.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "SN",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-SN-08",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-SN-08-T1",
+          "tipo": "tabela_html",
+          "dados": {
+            "Registros": [
+              [
+                "P",
+                12499,
+                12000
+              ],
+              [
+                "Q",
+                12500,
+                13000
+              ],
+              [
+                "R",
+                13990,
+                13000
+              ],
+              [
+                "S",
+                14001,
+                14000
+              ]
+            ]
+          },
+          "cabecalhos": [
+            "Registro",
+            "Contagem exata",
+            "Valor publicado"
+          ],
+          "linhas": [
+            [
+              "P",
+              "12.499",
+              "12.000"
+            ],
+            [
+              "Q",
+              "12.500",
+              "13.000"
+            ],
+            [
+              "R",
+              "13.990",
+              "13.000"
+            ],
+            [
+              "S",
+              "14.001",
+              "14.000"
+            ]
+          ],
+          "html": "<table class=\"mfc-banco-tabela\"><caption>Registro com arredondamento correto</caption><thead><tr><th scope=\"col\">Registro</th><th scope=\"col\">Contagem exata</th><th scope=\"col\">Valor publicado</th></tr></thead><tbody><tr><th scope=\"row\">P</th><td>12.499</td><td>12.000</td></tr><tr><th scope=\"row\">Q</th><td>12.500</td><td>13.000</td></tr><tr><th scope=\"row\">R</th><td>13.990</td><td>13.000</td></tr><tr><th scope=\"row\">S</th><td>14.001</td><td>14.000</td></tr></tbody></table>",
+          "css": ".mfc-banco-tabela{width:100%;border-collapse:collapse;font-size:1rem;line-height:1.4}.mfc-banco-tabela th,.mfc-banco-tabela td{border:1px solid #555;padding:.4em;text-align:left;overflow-wrap:anywhere}.mfc-banco-tabela caption{font-weight:bold;text-align:left;margin-bottom:.5em}",
+          "relevancia": "Tabela comparativa: P, 12.499 e 12.000; Q, 12.500 e 13.000; R, 13.990 e 13.000; S, 14.001 e 14.000. As colunas distinguem contagem exata e valor publicado, sem indicar qual é incorreto.",
+          "acessibilidade": "Tabela comparativa: P, 12.499 e 12.000; Q, 12.500 e 13.000; R, 13.990 e 13.000; S, 14.001 e 14.000. As colunas distinguem contagem exata e valor publicado, sem indicar qual é incorreto."
+        }
+      ],
+      "assunto_nome": "Sistema de numeração",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Sistema de Numeração solicitada pelo usuário",
+          "correcao_textual_especifica": false,
+          "recurso_visual": "Tabela comparativa mantida e reformulada",
+          "dados_e_classificacoes": "Preservados",
+          "aprovacao_final": "Aguardar revisão do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-SN-09",
+      "numero": 9,
+      "titulo": "Duas telas, um intervalo",
+      "assunto": "SN",
+      "enunciado": "Duas telas independentes arredondam a mesma contagem: uma à centena e outra ao milhar. Nos pontos médios, ambas arredondam para cima. Observe as leituras e os passos das duas escalas; elas estão desenhadas com ampliações diferentes. Qual opção apresenta todos os valores inteiros compatíveis com as duas telas?",
+      "dados": {
+        "tela_centena": 8700,
+        "tela_milhar": 9000
+      },
+      "modelo_verificacao": "[max(D['tela_centena']-50,D['tela_milhar']-500),min(D['tela_centena']+49,D['tela_milhar']+499)]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "De 8.650 a 8.749.",
+          "valor": [
+            8650,
+            8749
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "De 8.500 a 9.499.",
+          "valor": [
+            8500,
+            9499
+          ],
+          "erro_comum": "Usar apenas a tela menos precisa."
+        },
+        {
+          "letra": "C",
+          "texto": "De 8.700 a 9.000.",
+          "valor": [
+            8700,
+            9000
+          ],
+          "erro_comum": "Tratar valores arredondados como extremos reais."
+        },
+        {
+          "letra": "D",
+          "texto": "De 8.650 a 8.750.",
+          "valor": [
+            8650,
+            8750
+          ],
+          "erro_comum": "Incluir o valor que arredonda para 8.800."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "A primeira tela admite 8.650 a 8.749. A segunda admite 8.500 a 9.499. A interseção é 8.650 a 8.749, incluindo ambos os extremos.",
+      "habilidade": "Cruzar restrições de duas precisões de arredondamento.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Cruzar restrições de duas precisões de arredondamento."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual opção apresenta todos os valores inteiros compatíveis com as duas telas?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa cruzar restrições de duas precisões de arredondamento.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "SN",
+        "visual_relevante": true,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-SN-09",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-SN-09-SNV1",
+          "tipo": "svg",
+          "relevancia": "Duas escalas com ampliações diferentes. A tela à centena indica 8.700 e sua reta tem marcas de 100 em 100, de 8.500 a 8.900. A tela ao milhar indica 9.000 e sua reta marca 8.000, 9.000 e 10.000. As leituras são aproximações, não limites da contagem real.",
+          "dados": {
+            "tela_centena": 8700,
+            "tela_milhar": 9000
+          },
+          "acessibilidade": "Duas escalas com ampliações diferentes. A tela à centena indica 8.700 e sua reta tem marcas de 100 em 100, de 8.500 a 8.900. A tela ao milhar indica 9.000 e sua reta marca 8.000, 9.000 e 10.000. As leituras são aproximações, não limites da contagem real.",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 370\" width=\"320\" height=\"370\" role=\"img\" aria-labelledby=\"MFC6-B1-I-SN-09-SNV1-titulo\" aria-describedby=\"MFC6-B1-I-SN-09-SNV1-descricao\" class=\"mfc-sn-svg\" style=\"font-family:Arial,sans-serif\"><title id=\"MFC6-B1-I-SN-09-SNV1-titulo\">Duas telas, um intervalo</title><desc id=\"MFC6-B1-I-SN-09-SNV1-descricao\">Duas escalas com ampliações diferentes. A tela à centena indica 8.700 e sua reta tem marcas de 100 em 100, de 8.500 a 8.900. A tela ao milhar indica 9.000 e sua reta marca 8.000, 9.000 e 10.000. As leituras são aproximações, não limites da contagem real.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"370\" fill=\"white\" data-fundo=\"true\"/><text x=\"160\" y=\"24\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >Leitura à centena</text><text x=\"160\" y=\"65\" text-anchor=\"middle\" font-size=\"32\" fill=\"#172b3a\" data-leitura=\"8700\">8.700</text><path d=\"M35 102H285\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M35.0 96V108\" stroke=\"#172b3a\" data-eixo=\"centena\" data-marca=\"8500\" data-x=\"35.0\"/><text x=\"35.0\" y=\"134\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-rotulo-eixo=\"centena\" data-valor=\"8500\">8.500</text><path d=\"M97.5 96V108\" stroke=\"#172b3a\" data-eixo=\"centena\" data-marca=\"8600\" data-x=\"97.5\"/><path d=\"M160.0 96V108\" stroke=\"#172b3a\" data-eixo=\"centena\" data-marca=\"8700\" data-x=\"160.0\"/><text x=\"160.0\" y=\"134\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-rotulo-eixo=\"centena\" data-valor=\"8700\">8.700</text><path d=\"M222.5 96V108\" stroke=\"#172b3a\" data-eixo=\"centena\" data-marca=\"8800\" data-x=\"222.5\"/><path d=\"M285.0 96V108\" stroke=\"#172b3a\" data-eixo=\"centena\" data-marca=\"8900\" data-x=\"285.0\"/><text x=\"285.0\" y=\"134\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-rotulo-eixo=\"centena\" data-valor=\"8900\">8.900</text><text x=\"160\" y=\"164\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Passo: 100</text><text x=\"160\" y=\"207\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >Leitura ao milhar</text><text x=\"160\" y=\"248\" text-anchor=\"middle\" font-size=\"32\" fill=\"#172b3a\" data-leitura=\"9000\">9.000</text><path d=\"M35 284H285\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M35.0 278V290\" stroke=\"#172b3a\" data-eixo=\"milhar\" data-marca=\"8000\" data-x=\"35.0\"/><text x=\"35.0\" y=\"316\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-rotulo-eixo=\"milhar\" data-valor=\"8000\">8.000</text><path d=\"M160.0 278V290\" stroke=\"#172b3a\" data-eixo=\"milhar\" data-marca=\"9000\" data-x=\"160.0\"/><text x=\"160.0\" y=\"316\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-rotulo-eixo=\"milhar\" data-valor=\"9000\">9.000</text><path d=\"M285.0 278V290\" stroke=\"#172b3a\" data-eixo=\"milhar\" data-marca=\"10000\" data-x=\"285.0\"/><text x=\"285.0\" y=\"316\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-rotulo-eixo=\"milhar\" data-valor=\"10000\">10.000</text><text x=\"160\" y=\"345\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Passo: 1.000</text></svg>",
+          "geometria": {
+            "tipo": "sn_revisao",
+            "modelo": "duas_escalas",
+            "eixos": [
+              {
+                "nome": "centena",
+                "minimo": 8500,
+                "maximo": 8900,
+                "passo": 100,
+                "x_inicio": 35,
+                "x_fim": 285
+              },
+              {
+                "nome": "milhar",
+                "minimo": 8000,
+                "maximo": 10000,
+                "passo": 1000,
+                "x_inicio": 35,
+                "x_fim": 285
+              }
+            ]
+          },
+          "arquivo": "recursos/MFC6-B1-I-SN-09.svg",
+          "css": ".mfc-sn-svg{display:block;width:100%;max-width:32rem;height:auto}"
+        }
+      ],
+      "assunto_nome": "Sistema de numeração",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Sistema de Numeração solicitada pelo usuário",
+          "correcao_textual_especifica": false,
+          "recurso_visual": "Tabela substituída por representação matemática SVG",
+          "dados_e_classificacoes": "Preservados",
+          "aprovacao_final": "Aguardar revisão do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-SN-10",
+      "numero": 10,
+      "titulo": "Numeração dos dois lados",
+      "assunto": "SN",
+      "enunciado": "Uma encadernadora numera todas as páginas de um caderno, inclusive as páginas em branco. O trecho mostrado é formado apenas por folhas completas: cada folha tem uma página na frente e outra no verso. A primeira folha começa na página 41 e a última termina na página 80. Observe o esquema das folhas. Quantas folhas completas há nesse trecho?",
+      "dados": {
+        "primeira_pagina": 41,
+        "ultima_pagina": 80
+      },
+      "modelo_verificacao": "(D['ultima_pagina']-D['primeira_pagina']+1)//2",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "40 folhas.",
+          "valor": 40,
+          "erro_comum": "Confundir página com folha."
+        },
+        {
+          "letra": "B",
+          "texto": "20 folhas.",
+          "valor": 20,
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "19 folhas.",
+          "valor": 19,
+          "erro_comum": "Não incluir a página inicial e truncar a divisão."
+        },
+        {
+          "letra": "D",
+          "texto": "39 folhas.",
+          "valor": 39,
+          "erro_comum": "Usar a diferença entre extremos como número de folhas."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "O trecho inclui as páginas de 41 a 80: são 80 − 41 + 1 = 40 páginas. Como todas pertencem a folhas completas, com duas páginas por folha, há 40 ÷ 2 = 20 folhas. A primeira reúne as páginas 41 e 42; a última, 79 e 80.",
+      "habilidade": "Relacionar intervalo inclusivo a agrupamentos de duas páginas por folha.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Relacionar intervalo inclusivo a agrupamentos de duas páginas por folha."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Quantas folhas formam o trecho indicado?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa relacionar intervalo inclusivo a agrupamentos de duas páginas por folha.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "SN",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-SN-10",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-SN-10-SNV1",
+          "tipo": "svg",
+          "relevancia": "Diagrama de folhas completas: primeira folha com frente 41 e verso 42; folha seguinte com frente 43 e verso 44; reticências indicam continuação; última folha com frente 79 e verso 80. O total de folhas não está escrito.",
+          "dados": {
+            "primeira_pagina": 41,
+            "ultima_pagina": 80
+          },
+          "acessibilidade": "Diagrama de folhas completas: primeira folha com frente 41 e verso 42; folha seguinte com frente 43 e verso 44; reticências indicam continuação; última folha com frente 79 e verso 80. O total de folhas não está escrito.",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 390\" width=\"320\" height=\"390\" role=\"img\" aria-labelledby=\"MFC6-B1-I-SN-10-SNV1-titulo\" aria-describedby=\"MFC6-B1-I-SN-10-SNV1-descricao\" class=\"mfc-sn-svg\" style=\"font-family:Arial,sans-serif\"><title id=\"MFC6-B1-I-SN-10-SNV1-titulo\">Numeração dos dois lados</title><desc id=\"MFC6-B1-I-SN-10-SNV1-descricao\">Diagrama de folhas completas: primeira folha com frente 41 e verso 42; folha seguinte com frente 43 e verso 44; reticências indicam continuação; última folha com frente 79 e verso 80. O total de folhas não está escrito.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"390\" fill=\"white\" data-fundo=\"true\"/><text x=\"160\" y=\"23\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" >Trecho com folhas completas</text><text x=\"160\" y=\"47\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Primeira folha</text><rect x=\"24\" y=\"57\" width=\"272\" height=\"64\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><path d=\"M160 57V121\" stroke=\"#263d4d\"/><text x=\"92\" y=\"77\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Frente</text><text x=\"92\" y=\"109\" text-anchor=\"middle\" font-size=\"27\" fill=\"#172b3a\" data-pagina=\"41\" data-folha=\"0\">41</text><text x=\"228\" y=\"77\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Verso</text><text x=\"228\" y=\"109\" text-anchor=\"middle\" font-size=\"27\" fill=\"#172b3a\" data-pagina=\"42\" data-folha=\"0\">42</text><text x=\"160\" y=\"141\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Folha seguinte</text><rect x=\"24\" y=\"151\" width=\"272\" height=\"64\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><path d=\"M160 151V215\" stroke=\"#263d4d\"/><text x=\"92\" y=\"171\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Frente</text><text x=\"92\" y=\"203\" text-anchor=\"middle\" font-size=\"27\" fill=\"#172b3a\" data-pagina=\"43\" data-folha=\"1\">43</text><text x=\"228\" y=\"171\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Verso</text><text x=\"228\" y=\"203\" text-anchor=\"middle\" font-size=\"27\" fill=\"#172b3a\" data-pagina=\"44\" data-folha=\"1\">44</text><text x=\"160\" y=\"268\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Última folha</text><rect x=\"24\" y=\"278\" width=\"272\" height=\"64\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><path d=\"M160 278V342\" stroke=\"#263d4d\"/><text x=\"92\" y=\"298\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Frente</text><text x=\"92\" y=\"330\" text-anchor=\"middle\" font-size=\"27\" fill=\"#172b3a\" data-pagina=\"79\" data-folha=\"2\">79</text><text x=\"228\" y=\"298\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Verso</text><text x=\"228\" y=\"330\" text-anchor=\"middle\" font-size=\"27\" fill=\"#172b3a\" data-pagina=\"80\" data-folha=\"2\">80</text><g data-continuacao=\"true\"><circle cx=\"160\" cy=\"231\" r=\"2.5\" fill=\"#172b3a\"/><circle cx=\"160\" cy=\"241\" r=\"2.5\" fill=\"#172b3a\"/><circle cx=\"160\" cy=\"251\" r=\"2.5\" fill=\"#172b3a\"/></g><text x=\"160\" y=\"371\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Uma folha tem duas páginas</text></svg>",
+          "geometria": {
+            "tipo": "sn_revisao",
+            "modelo": "folhas_completas",
+            "eixos": []
+          },
+          "arquivo": "recursos/MFC6-B1-I-SN-10.svg",
+          "css": ".mfc-sn-svg{display:block;width:100%;max-width:32rem;height:auto}"
+        }
+      ],
+      "assunto_nome": "Sistema de numeração",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Sistema de Numeração solicitada pelo usuário",
+          "correcao_textual_especifica": true,
+          "recurso_visual": "Tabela substituída por representação matemática SVG",
+          "dados_e_classificacoes": "Preservados",
+          "aprovacao_final": "Aguardar revisão do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-SN-11",
+      "numero": 11,
+      "titulo": "O limite de uma contagem aproximada",
+      "assunto": "SN",
+      "enunciado": "Um cartaz anuncia uma quantidade aproximada de visitantes, arredondada à dezena de milhar mais próxima. No meio entre duas dezenas de milhar, o arredondamento é para cima. Observe o anúncio e a escala. Qual é a menor contagem inteira possível que ainda produz o anúncio?",
+      "dados": {
+        "anuncio": 70000,
+        "unidade_arredondamento": 10000
+      },
+      "modelo_verificacao": "D['anuncio']-D['unidade_arredondamento']//2",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "69.999.",
+          "valor": 69999,
+          "erro_comum": "Supor que apenas o predecessor arredonda para o anúncio."
+        },
+        {
+          "letra": "B",
+          "texto": "60.000.",
+          "valor": 60000,
+          "erro_comum": "Confundir vizinho inferior com limite do intervalo."
+        },
+        {
+          "letra": "C",
+          "texto": "65.000.",
+          "valor": 65000,
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "70.000.",
+          "valor": 70000,
+          "erro_comum": "Tratar aproximação como valor exato."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Ao arredondar à dezena de milhar, 65.000 já sobe para 70.000. Valores menores que 65.000 ficam mais próximos de 60.000. O mínimo é 65.000.",
+      "habilidade": "Inferir um limite inferior a partir de uma aproximação grosseira.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Inferir um limite inferior a partir de uma aproximação grosseira."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual é a menor contagem inteira possível que ainda produz o anúncio?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa inferir um limite inferior a partir de uma aproximação grosseira.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "SN",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-SN-11",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-SN-11-SNV1",
+          "tipo": "svg",
+          "relevancia": "Anúncio de 70.000 visitantes e reta com 60.000, 70.000 e 80.000 como marcas principais. Há uma marca menor no meio de cada intervalo; as marcas intermediárias não têm valores escritos.",
+          "dados": {
+            "anuncio": 70000,
+            "unidade_arredondamento": 10000
+          },
+          "acessibilidade": "Anúncio de 70.000 visitantes e reta com 60.000, 70.000 e 80.000 como marcas principais. Há uma marca menor no meio de cada intervalo; as marcas intermediárias não têm valores escritos.",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"320\" height=\"240\" role=\"img\" aria-labelledby=\"MFC6-B1-I-SN-11-SNV1-titulo\" aria-describedby=\"MFC6-B1-I-SN-11-SNV1-descricao\" class=\"mfc-sn-svg\" style=\"font-family:Arial,sans-serif\"><title id=\"MFC6-B1-I-SN-11-SNV1-titulo\">O limite de uma contagem aproximada</title><desc id=\"MFC6-B1-I-SN-11-SNV1-descricao\">Anúncio de 70.000 visitantes e reta com 60.000, 70.000 e 80.000 como marcas principais. Há uma marca menor no meio de cada intervalo; as marcas intermediárias não têm valores escritos.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"240\" fill=\"white\" data-fundo=\"true\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >Anúncio aproximado</text><text x=\"160\" y=\"68\" text-anchor=\"middle\" font-size=\"34\" fill=\"#172b3a\" data-leitura=\"70000\">70.000</text><text x=\"160\" y=\"100\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >visitantes</text><path d=\"M35 150H285\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M35.0 144V156\" stroke=\"#172b3a\" data-eixo=\"dezenas_milhar\" data-marca=\"60000\" data-x=\"35.0\"/><text x=\"35.0\" y=\"182\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-rotulo-eixo=\"dezenas_milhar\" data-valor=\"60000\">60.000</text><path d=\"M97.5 144V156\" stroke=\"#172b3a\" data-eixo=\"dezenas_milhar\" data-marca=\"65000\" data-x=\"97.5\"/><path d=\"M160.0 144V156\" stroke=\"#172b3a\" data-eixo=\"dezenas_milhar\" data-marca=\"70000\" data-x=\"160.0\"/><text x=\"160.0\" y=\"182\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-rotulo-eixo=\"dezenas_milhar\" data-valor=\"70000\">70.000</text><path d=\"M222.5 144V156\" stroke=\"#172b3a\" data-eixo=\"dezenas_milhar\" data-marca=\"75000\" data-x=\"222.5\"/><path d=\"M285.0 144V156\" stroke=\"#172b3a\" data-eixo=\"dezenas_milhar\" data-marca=\"80000\" data-x=\"285.0\"/><text x=\"285.0\" y=\"182\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-rotulo-eixo=\"dezenas_milhar\" data-valor=\"80000\">80.000</text><text x=\"160\" y=\"218\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Passo principal: 10.000</text></svg>",
+          "geometria": {
+            "tipo": "sn_revisao",
+            "modelo": "anuncio_escala",
+            "eixos": [
+              {
+                "nome": "dezenas_milhar",
+                "minimo": 60000,
+                "maximo": 80000,
+                "passo": 5000,
+                "x_inicio": 35,
+                "x_fim": 285
+              }
+            ]
+          },
+          "arquivo": "recursos/MFC6-B1-I-SN-11.svg",
+          "css": ".mfc-sn-svg{display:block;width:100%;max-width:32rem;height:auto}"
+        }
+      ],
+      "assunto_nome": "Sistema de numeração",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Sistema de Numeração solicitada pelo usuário",
+          "correcao_textual_especifica": false,
+          "recurso_visual": "Tabela substituída por representação matemática SVG",
+          "dados_e_classificacoes": "Preservados",
+          "aprovacao_final": "Aguardar revisão do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-SN-12",
+      "numero": 12,
+      "titulo": "Identificadores com regra dupla",
+      "assunto": "SN",
+      "enunciado": "Para identificar uma cadeira, o algarismo na posição das centenas deve ser maior que o algarismo na posição das dezenas. Além disso, o número deve ser maior que 3.300 e menor que 3.600. Observe os quadros de ordens. Qual identificador atende às duas condições?",
+      "dados": {
+        "identificadores": [
+          3524,
+          3452,
+          4325,
+          3552
+        ],
+        "limites": [
+          3300,
+          3600
+        ]
+      },
+      "modelo_verificacao": "[n for n in D['identificadores'] if D['limites'][0]<n<D['limites'][1] and (n//100)%10>(n//10)%10]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3.452.",
+          "valor": [
+            3452
+          ],
+          "erro_comum": "Verificar intervalo, mas ignorar que 4 não é maior que 5."
+        },
+        {
+          "letra": "B",
+          "texto": "4.325.",
+          "valor": [
+            4325
+          ],
+          "erro_comum": "Verificar ordens, mas ignorar intervalo."
+        },
+        {
+          "letra": "C",
+          "texto": "3.552.",
+          "valor": [
+            3552
+          ],
+          "erro_comum": "Aceitar igualdade quando se exige maior."
+        },
+        {
+          "letra": "D",
+          "texto": "3.524.",
+          "valor": [
+            3524
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "No número 3.524, o algarismo das centenas é 5 e o das dezenas é 2: 5 é maior que 2. O número também é maior que 3.300 e menor que 3.600. Em 3.452, 4 não é maior que 5; em 3.552, os dois algarismos são iguais a 5. O número 4.325 está fora do intervalo. Portanto, somente 3.524 atende às duas condições.",
+      "habilidade": "Combinar desigualdade estrita entre ordens e intervalo de valores.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Combinar desigualdade estrita entre ordens e intervalo de valores."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual identificador atende às duas condições?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa combinar desigualdade estrita entre ordens e intervalo de valores.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "SN",
+        "visual_relevante": true,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-SN-12",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-SN-12-SNV1",
+          "tipo": "svg",
+          "relevancia": "Quatro quadros de ordens, para 3.524, 3.452, 4.325 e 3.552, alinhando M, C, D e U. As colunas C e D têm o mesmo destaque para comparar seus algarismos. O intervalo permitido, sem os extremos, é de 3.300 a 3.600. Nenhuma linha está indicada como correta.",
+          "dados": {
+            "identificadores": [
+              3524,
+              3452,
+              4325,
+              3552
+            ],
+            "limites": [
+              3300,
+              3600
+            ]
+          },
+          "acessibilidade": "Quatro quadros de ordens, para 3.524, 3.452, 4.325 e 3.552, alinhando M, C, D e U. As colunas C e D têm o mesmo destaque para comparar seus algarismos. O intervalo permitido, sem os extremos, é de 3.300 a 3.600. Nenhuma linha está indicada como correta.",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 340\" width=\"320\" height=\"340\" role=\"img\" aria-labelledby=\"MFC6-B1-I-SN-12-SNV1-titulo\" aria-describedby=\"MFC6-B1-I-SN-12-SNV1-descricao\" class=\"mfc-sn-svg\" style=\"font-family:Arial,sans-serif\"><title id=\"MFC6-B1-I-SN-12-SNV1-titulo\">Identificadores com regra dupla</title><desc id=\"MFC6-B1-I-SN-12-SNV1-descricao\">Quatro quadros de ordens, para 3.524, 3.452, 4.325 e 3.552, alinhando M, C, D e U. As colunas C e D têm o mesmo destaque para comparar seus algarismos. O intervalo permitido, sem os extremos, é de 3.300 a 3.600. Nenhuma linha está indicada como correta.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"340\" fill=\"white\" data-fundo=\"true\"/><text x=\"160\" y=\"23\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Entre 3.300 e 3.600, sem os extremos</text><text x=\"41\" y=\"53\" text-anchor=\"middle\" font-size=\"14\" fill=\"#172b3a\" >Número</text><text x=\"112\" y=\"53\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >M</text><text x=\"166\" y=\"53\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >C</text><text x=\"220\" y=\"53\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >D</text><text x=\"274\" y=\"53\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >U</text><text x=\"41\" y=\"96\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-identificador=\"3524\">3.524</text><rect x=\"88\" y=\"68\" width=\"48\" height=\"39\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"112\" y=\"96\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-numero=\"3524\" data-posicao=\"M\">3</text><rect x=\"142\" y=\"68\" width=\"48\" height=\"39\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"166\" y=\"96\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-numero=\"3524\" data-posicao=\"C\">5</text><rect x=\"196\" y=\"68\" width=\"48\" height=\"39\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"220\" y=\"96\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-numero=\"3524\" data-posicao=\"D\">2</text><rect x=\"250\" y=\"68\" width=\"48\" height=\"39\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"274\" y=\"96\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-numero=\"3524\" data-posicao=\"U\">4</text><text x=\"41\" y=\"144\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-identificador=\"3452\">3.452</text><rect x=\"88\" y=\"116\" width=\"48\" height=\"39\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"112\" y=\"144\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-numero=\"3452\" data-posicao=\"M\">3</text><rect x=\"142\" y=\"116\" width=\"48\" height=\"39\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"166\" y=\"144\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-numero=\"3452\" data-posicao=\"C\">4</text><rect x=\"196\" y=\"116\" width=\"48\" height=\"39\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"220\" y=\"144\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-numero=\"3452\" data-posicao=\"D\">5</text><rect x=\"250\" y=\"116\" width=\"48\" height=\"39\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"274\" y=\"144\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-numero=\"3452\" data-posicao=\"U\">2</text><text x=\"41\" y=\"192\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-identificador=\"4325\">4.325</text><rect x=\"88\" y=\"164\" width=\"48\" height=\"39\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"112\" y=\"192\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-numero=\"4325\" data-posicao=\"M\">4</text><rect x=\"142\" y=\"164\" width=\"48\" height=\"39\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"166\" y=\"192\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-numero=\"4325\" data-posicao=\"C\">3</text><rect x=\"196\" y=\"164\" width=\"48\" height=\"39\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"220\" y=\"192\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-numero=\"4325\" data-posicao=\"D\">2</text><rect x=\"250\" y=\"164\" width=\"48\" height=\"39\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"274\" y=\"192\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-numero=\"4325\" data-posicao=\"U\">5</text><text x=\"41\" y=\"240\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-identificador=\"3552\">3.552</text><rect x=\"88\" y=\"212\" width=\"48\" height=\"39\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"112\" y=\"240\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-numero=\"3552\" data-posicao=\"M\">3</text><rect x=\"142\" y=\"212\" width=\"48\" height=\"39\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"166\" y=\"240\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-numero=\"3552\" data-posicao=\"C\">5</text><rect x=\"196\" y=\"212\" width=\"48\" height=\"39\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"220\" y=\"240\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-numero=\"3552\" data-posicao=\"D\">5</text><rect x=\"250\" y=\"212\" width=\"48\" height=\"39\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"274\" y=\"240\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-numero=\"3552\" data-posicao=\"U\">2</text><text x=\"160\" y=\"291\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >M: milhar • C: centena</text><text x=\"160\" y=\"318\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >D: dezena • U: unidade</text></svg>",
+          "geometria": {
+            "tipo": "sn_revisao",
+            "modelo": "quadros_identificadores",
+            "eixos": []
+          },
+          "arquivo": "recursos/MFC6-B1-I-SN-12.svg",
+          "css": ".mfc-sn-svg{display:block;width:100%;max-width:32rem;height:auto}"
+        }
+      ],
+      "assunto_nome": "Sistema de numeração",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Sistema de Numeração solicitada pelo usuário",
+          "correcao_textual_especifica": true,
+          "recurso_visual": "Tabela substituída por representação matemática SVG",
+          "dados_e_classificacoes": "Preservados",
+          "aprovacao_final": "Aguardar revisão do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-SN-13",
+      "numero": 13,
+      "titulo": "Consecutivos na parada",
+      "assunto": "SN",
+      "enunciado": "Um contador mostra três números consecutivos. O do meio é 9.999. Sem somar os três um a um, qual média deve ser registrada? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "meio": 9999
+      },
+      "modelo_verificacao": "((D['meio']-1)+D['meio']+(D['meio']+1))/3",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "9.999.",
+          "valor": 9999,
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "10.000.",
+          "valor": 10000,
+          "erro_comum": "Usar o sucessor como média."
+        },
+        {
+          "letra": "C",
+          "texto": "9.998.",
+          "valor": 9998,
+          "erro_comum": "Usar o antecessor como média."
+        },
+        {
+          "letra": "D",
+          "texto": "29.997.",
+          "valor": 29997,
+          "erro_comum": "Confundir soma com média."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Em três números consecutivos igualmente espaçados, os extremos estão uma unidade abaixo e acima do central; essas diferenças se compensam. A média é 9.999.",
+      "habilidade": "Reconhecer simetria em uma sequência de naturais.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Reconhecer simetria em uma sequência de naturais."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa reconhecer simetria em uma sequência de naturais.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "SN",
+        "visual_relevante": false,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-SN-13",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Sistema de numeração"
+    },
+    {
+      "id": "MFC6-B1-I-SN-14",
+      "numero": 14,
+      "titulo": "Zero à esquerda de um protocolo",
+      "assunto": "SN",
+      "enunciado": "Um sistema de protocolos usa seis posições e completa à esquerda com zeros. O protocolo numérico é 4.812. Qual texto de seis posições identifica o mesmo protocolo? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "protocolo": 4812
+      },
+      "modelo_verificacao": "str(D['protocolo']).zfill(6)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "048120.",
+          "valor": "048120",
+          "erro_comum": "Colocar um zero à direita muda o valor."
+        },
+        {
+          "letra": "B",
+          "texto": "004812.",
+          "valor": "004812",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "040812.",
+          "valor": "040812",
+          "erro_comum": "Inserir zero no interior altera as ordens."
+        },
+        {
+          "letra": "D",
+          "texto": "481200.",
+          "valor": "481200",
+          "erro_comum": "Completar o número à direita."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Completar com dois zeros à esquerda produz 004812. Zeros à esquerda não mudam o valor; colocar zeros no meio ou no fim muda o número.",
+      "habilidade": "Distinguir preenchimento de formato e alteração do valor posicional.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Distinguir preenchimento de formato e alteração do valor posicional."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa distinguir preenchimento de formato e alteração do valor posicional.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "SN",
+        "visual_relevante": false,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-SN-14",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "criterio_opcao": "texto_exato",
+      "assunto_nome": "Sistema de numeração"
+    },
+    {
+      "id": "MFC6-B1-I-SN-15",
+      "numero": 15,
+      "titulo": "Escolha de tolerância",
+      "assunto": "SN",
+      "enunciado": "Uma medição por unidades só pode diferir da referência por no máximo 2 unidades. A referência é 3.998. Qual registro atende à tolerância? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "referencia": 3998,
+        "tolerancia": 2
+      },
+      "modelo_verificacao": "[D['referencia']-D['tolerancia'],D['referencia']+D['tolerancia']]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "4.001.",
+          "valor": 4001,
+          "erro_comum": "Não contar corretamente a passagem de milhar."
+        },
+        {
+          "letra": "B",
+          "texto": "3.995.",
+          "valor": 3995,
+          "erro_comum": "Aceitar distância de três unidades."
+        },
+        {
+          "letra": "C",
+          "texto": "4.000.",
+          "valor": 4000,
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "4.010.",
+          "valor": 4010,
+          "erro_comum": "Considerar apenas a proximidade do milhar."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "São aceitos os valores de 3.996 a 4.000. A passagem de milhar não impede que 4.000 esteja a apenas duas unidades de 3.998.",
+      "habilidade": "Interpretar distância entre naturais atravessando um milhar.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Interpretar distância entre naturais atravessando um milhar."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa interpretar distância entre naturais atravessando um milhar.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "SN",
+        "visual_relevante": false,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-SN-15",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "criterio_opcao": "intervalo_inclusivo",
+      "assunto_nome": "Sistema de numeração"
+    },
+    {
+      "id": "MFC6-B1-I-SN-16",
+      "numero": 16,
+      "titulo": "Faixa de busca em um catálogo",
+      "assunto": "SN",
+      "enunciado": "Para localizar o número 56.204, um catálogo separa registros em blocos de mil números: 0–999, 1.000–1.999 e assim por diante. Em qual bloco ele está? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "numero": 56204
+      },
+      "modelo_verificacao": "[D['numero']//1000*1000,D['numero']//1000*1000+999]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "55.000–55.999.",
+          "valor": [
+            55000,
+            55999
+          ],
+          "erro_comum": "Escolher o bloco anterior."
+        },
+        {
+          "letra": "B",
+          "texto": "56.200–56.299.",
+          "valor": [
+            56200,
+            56299
+          ],
+          "erro_comum": "Usar centenas em vez de milhares."
+        },
+        {
+          "letra": "C",
+          "texto": "56.204–57.203.",
+          "valor": [
+            56204,
+            57203
+          ],
+          "erro_comum": "Iniciar uma faixa no registro procurado em vez da regra do catálogo."
+        },
+        {
+          "letra": "D",
+          "texto": "56.000–56.999.",
+          "valor": [
+            56000,
+            56999
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "O bloco começa em 56.000 e termina em 56.999. O grupo 56 indica os milhares; 204 é a posição dentro desse bloco.",
+      "habilidade": "Identificar uma faixa de agrupamento por milhares.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Identificar uma faixa de agrupamento por milhares."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa identificar uma faixa de agrupamento por milhares.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "SN",
+        "visual_relevante": false,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-SN-16",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Sistema de numeração"
+    },
+    {
+      "id": "MFC6-B1-I-SN-17",
+      "numero": 17,
+      "titulo": "Estimativa que cabe no intervalo",
+      "assunto": "SN",
+      "enunciado": "Uma contagem exata está entre 18.000 e 19.000, sem incluir esses limites. Um relatório dá uma estimativa que deve ter diferença menor que 100 para qualquer contagem possível. É possível escolher uma única estimativa inteira com essa garantia? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "minimo": 18001,
+        "maximo": 18999,
+        "erro_maximo_exclusivo": 100
+      },
+      "modelo_verificacao": "D['maximo']-D['minimo']<=2*(D['erro_maximo_exclusivo']-1)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Não; os valores 18.001 e 18.999, ambos possíveis, não podem ficar a menos de 100 de uma mesma estimativa.",
+          "valor": false,
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Sim; qualquer estimativa de 18 mil atende.",
+          "valor": true,
+          "erro_comum": "Confundir faixa de milhar com erro menor que cem."
+        },
+        {
+          "letra": "C",
+          "texto": "Sim; 18.500 fica a menos de 100 de qualquer valor da faixa.",
+          "valor": true,
+          "erro_comum": "Verificar só valores próximos do centro."
+        },
+        {
+          "letra": "D",
+          "texto": "Sim; 19.000 é sempre a aproximação mais próxima.",
+          "valor": true,
+          "erro_comum": "Ignorar contagens próximas de 18.000."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Não. Considere duas contagens possíveis: 18.001 e 18.999. Para ficar a menos de 100 de 18.001, uma estimativa inteira deve estar de 17.902 a 18.100. Para ficar a menos de 100 de 18.999, deve estar de 18.900 a 19.098. Esses intervalos não têm nenhum número em comum. Assim, nenhuma estimativa única atende à precisão exigida para todas as contagens possíveis. Isso não significa que todas as contagens estejam distantes entre si: há também contagens consecutivas no intervalo.",
+      "habilidade": "Avaliar se a informação disponível garante a precisão exigida.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Avaliar se a informação disponível garante a precisão exigida."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa avaliar se a informação disponível garante a precisão exigida.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "SN",
+        "visual_relevante": false,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-SN-17",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Sistema de numeração",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Sistema de Numeração solicitada pelo usuário",
+          "correcao_textual_especifica": true,
+          "recurso_visual": "Sem recurso visual; justificativa corrigida",
+          "dados_e_classificacoes": "Preservados",
+          "aprovacao_final": "Aguardar revisão do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-SN-18",
+      "numero": 18,
+      "titulo": "Leitura de marco incompleto",
+      "assunto": "SN",
+      "enunciado": "As fotos de um experimento receberam nomes 2.png, 11.png e 3.png. A ordem alfabética coloca 11.png antes de 2.png. Qual sequência corresponde à ordem numérica de realização do experimento?",
+      "dados": {
+        "numeros_fotos": [
+          2,
+          11,
+          3
+        ]
+      },
+      "modelo_verificacao": "sorted(D['numeros_fotos'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "11.png, 2.png, 3.png.",
+          "valor": [
+            11,
+            2,
+            3
+          ],
+          "erro_comum": "Usar ordenação alfabética."
+        },
+        {
+          "letra": "B",
+          "texto": "2.png, 3.png, 11.png.",
+          "valor": [
+            2,
+            3,
+            11
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "3.png, 2.png, 11.png.",
+          "valor": [
+            3,
+            2,
+            11
+          ],
+          "erro_comum": "Inverter os valores de uma ordem."
+        },
+        {
+          "letra": "D",
+          "texto": "11.png, 3.png, 2.png.",
+          "valor": [
+            11,
+            3,
+            2
+          ],
+          "erro_comum": "Usar ordem decrescente."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "A ordem numérica é 2,3,11. Comparar só o primeiro caractere põe 11 antes de 2, mas um número de duas ordens pode ser maior que os de uma ordem. A sequência correta é 2.png, 3.png, 11.png.",
+      "habilidade": "Distinguir ordenação de texto e ordenação pelo valor de números naturais.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Distinguir ordenação de texto e ordenação pelo valor de números naturais."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual sequência corresponde à ordem numérica de realização do experimento?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa distinguir ordenação de texto e ordenação pelo valor de números naturais.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "SN",
+        "visual_relevante": false,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-SN-18",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Sistema de numeração"
+    },
+    {
+      "id": "MFC6-B1-I-SN-19",
+      "numero": 19,
+      "titulo": "Arquivos em lotes sobrepostos",
+      "assunto": "SN",
+      "enunciado": "Dois lotes de registros numerados de 200 a 249 e de 240 a 289 serão unidos. Os números repetidos devem aparecer apenas uma vez. Quantos números diferentes haverá? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "faixas": [
+          [
+            200,
+            249
+          ],
+          [
+            240,
+            289
+          ]
+        ]
+      },
+      "modelo_verificacao": "len(set(range(D['faixas'][0][0],D['faixas'][0][1]+1)) | set(range(D['faixas'][1][0],D['faixas'][1][1]+1)))",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "100.",
+          "valor": 100,
+          "erro_comum": "Somar lotes sem retirar duplicatas."
+        },
+        {
+          "letra": "B",
+          "texto": "89.",
+          "valor": 89,
+          "erro_comum": "Não incluir um extremo da união."
+        },
+        {
+          "letra": "C",
+          "texto": "90.",
+          "valor": 90,
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "80.",
+          "valor": 80,
+          "erro_comum": "Retirar a interseção duas vezes."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Cada lote tem 50 números. Os dez números de 240 a 249 estão em ambos. A união tem 50 + 50 − 10 = 90, ou os números de 200 a 289.",
+      "habilidade": "Contar intervalos com sobreposição sem duplicar elementos.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Contar intervalos com sobreposição sem duplicar elementos."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa contar intervalos com sobreposição sem duplicar elementos.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "SN",
+        "visual_relevante": false,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-SN-19",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Sistema de numeração"
+    },
+    {
+      "id": "MFC6-B1-I-SN-20",
+      "numero": 20,
+      "titulo": "Última etiqueta de três algarismos",
+      "assunto": "SN",
+      "enunciado": "Uma máquina imprime números de três algarismos usando 0, 4 e 7, cada um exatamente uma vez. O primeiro algarismo não pode ser zero. Qual é a diferença entre o maior e o menor número que ela pode imprimir? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "algarismos": [
+          0,
+          4,
+          7
+        ]
+      },
+      "modelo_verificacao": "max(permutacoes(D['algarismos']))-min(permutacoes(D['algarismos']))",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "693.",
+          "valor": 693,
+          "erro_comum": "Aceitar 047 como número de três algarismos."
+        },
+        {
+          "letra": "B",
+          "texto": "270.",
+          "valor": 270,
+          "erro_comum": "Usar 470 como mínimo."
+        },
+        {
+          "letra": "C",
+          "texto": "297.",
+          "valor": 297,
+          "erro_comum": "Usar 704 como máximo."
+        },
+        {
+          "letra": "D",
+          "texto": "333.",
+          "valor": 333,
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Os válidos são 407, 470, 704 e 740. O maior é 740 e o menor é 407: diferença 333. O registro 047 não é um número de três algarismos.",
+      "habilidade": "Maximizar e minimizar números sob restrição de ordem inicial.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Maximizar e minimizar números sob restrição de ordem inicial."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa maximizar e minimizar números sob restrição de ordem inicial.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "SN",
+        "visual_relevante": false,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-SN-20",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Sistema de numeração"
+    }
+  ]
+}

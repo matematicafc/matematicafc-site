@@ -1,0 +1,1676 @@
+{
+  "versao_formato": 1,
+  "bloco": "6-ano-bloco-1-numeros-operacoes",
+  "ano_escolar": 6,
+  "assunto": "Números decimais",
+  "codigo_assunto": "ND",
+  "origem": "Postagens consultadas na análise das 100 questões; correções locais explicitamente registradas.",
+  "sha256_html_fonte": "66167bb462bb40547701855d56f2fce8e640da9e2a9d1afea5cabb9c5aeeaab0",
+  "estilos_originais_referencia": [
+    "\n*{box-sizing:border-box}body{font-family:Arial,sans-serif;color:#17324d;margin:0}.mfc{max-width:980px;margin:auto;padding:24px 18px 48px}\n.brand{text-align:center;font:700 italic 34px Georgia,serif;color:#173F63}.brand b{color:#d6a400}h1{text-align:center;color:#173F63;margin:7px 0;font-size:28px}.sub{text-align:center;font-weight:700}\n.actions{text-align:center;margin:16px 0 26px}.pdfbtn{display:inline-block;background:#173F63;color:#fff!important;text-decoration:none;padding:11px 18px;border-radius:8px;font-weight:700}\n.q{border:1px solid #d8e2ea;border-radius:12px;padding:18px;margin:18px 0}.q h2{font-size:19px;margin:0 0 10px}.q p{font-size:17px;line-height:1.55}.visual{background:#F8FBFD;border:1px solid #dce7ee;border-radius:10px;padding:18px;margin:14px 0}\n.receipt{max-width:330px;margin:auto;background:#fff;padding:16px;font-family:monospace;line-height:1.8;border:1px dashed #777}.ruler{display:flex;align-items:flex-end;justify-content:space-between;border-bottom:4px solid #173F63;padding-top:30px}.ruler i,.ruler b{height:18px;border-left:2px solid #173F63;padding-top:20px}.ruler b{height:30px;color:#c75c45}\n.scale{text-align:center}.screen{display:inline-block;background:#263238;color:#9df29d;font:700 28px monospace;padding:14px 30px;border-radius:8px}.base{width:220px;height:16px;background:#9aa9b2;margin:auto;border-radius:0 0 20px 20px}\n.labels,.cards,.calcchoices,.shop{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}.labels span,.cards span,.calcchoices span,.shop span{background:#fff;border:2px solid #2f75a8;border-radius:9px;padding:14px 18px;text-align:center}\n.vertical{font:20px monospace;max-width:170px;margin:auto;text-align:right;background:#fff;padding:12px}.vertical span{display:block}.podium{display:flex;gap:10px;align-items:flex-end;justify-content:center}.podium div{width:110px;background:#fff;border:2px solid #b9cad7;border-radius:8px;padding:12px;text-align:center}\n.tank{width:120px;height:170px;border:4px solid #173F63;border-top:0;margin:auto;position:relative;display:flex;justify-content:center;align-items:center}.water{position:absolute;bottom:0;left:0;right:0;background:#8FC4E5}.tank b,.tank small{z-index:2;background:#ffffffcc;padding:4px}.tank small{position:absolute;bottom:8px}\n.machine{display:flex;align-items:center;justify-content:center;gap:18px}.machine span{border:2px solid #2f75a8;background:#fff;padding:15px 25px;border-radius:8px;font-size:22px}.machine b{background:#F4D58D;padding:15px;border-radius:50%}\n.pricecard,.ticket{max-width:300px;margin:auto;background:#fff;border:2px dashed #2f75a8;padding:18px;text-align:center}.pricecard>* ,.ticket>*{display:block;margin:7px}.pricecard strong,.ticket strong{font-size:24px}\n.tape{height:55px;border:2px solid #173F63;display:flex;max-width:700px;margin:auto}.tape span,.tape i{display:flex;align-items:center;justify-content:center;font-style:normal}.tape span:first-child{background:#8FC4E5}.tape span:nth-child(2){background:#F4D58D}.tape i{flex:1}\n.calculator{display:flex;justify-content:center;align-items:center;gap:8px;font:700 22px monospace}.calculator div{background:#263238;color:#a8f0a8;padding:12px}.calculator button{padding:10px}\n.hundred{display:grid;grid-template-columns:repeat(10,20px);gap:2px;justify-content:center}.hundred i{width:20px;height:20px;border:1px solid #173F63;background:#fff}.hundred i.on{background:#8FC4E5}\n.bottles{display:flex;align-items:center;justify-content:center;gap:9px;flex-wrap:wrap}.bottles .jug{padding:18px;border:3px solid #173F63;border-top:0}.bottles span{width:25px;height:55px;border:2px solid #2f75a8;border-radius:5px 5px 9px 9px;background:#fff}\n.safe{max-width:280px;margin:auto;background:#5e6a70;border:8px solid #444;border-radius:10px;padding:20px;text-align:center}.safe div{background:#dce8d5;font:700 28px monospace;padding:12px}\n.solar{display:flex;justify-content:center;align-items:center;gap:20px;flex-wrap:wrap}.solar span{width:110px;height:90px;border-radius:50%;background:#fff;border:2px solid #d5b45a;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:22px}.solar b{font-size:16px}\n.lines{height:48px;border-bottom:1px dashed #b9c7d2}.opts{display:flex;gap:10px;flex-wrap:wrap}.opt{border:1px solid #b9cad7;border-radius:7px;padding:8px 14px}\n.gab{margin-top:32px}.gab details{border:1px solid #c8dce9;border-radius:10px;overflow:hidden}.gab summary{background:#173F63;color:#fff;padding:13px 18px;font-size:18px;font-weight:700;cursor:pointer;display:flex;justify-content:space-between}.inside{padding:14px 18px;background:#f7fafc}\n@media(max-width:650px){.podium{display:grid;grid-template-columns:1fr 1fr}.hundred{grid-template-columns:repeat(10,16px)}.hundred i{width:16px;height:16px}}@media print{.actions,.gab{display:none}}\n"
+  ],
+  "aviso_estilos": "Referência de preservação visual, sem execução. Contém seletores globais do original: isolar/reformular na futura interface, não injetar diretamente no Blogger.",
+  "questoes": [
+    {
+      "id": "ND-01",
+      "numero_original": 1,
+      "titulo": "O cupom do mercado",
+      "assunto": "Números decimais",
+      "conteudo": "Adição de valores monetários e cálculo de troco",
+      "habilidade": "Adição de valores monetários e cálculo de troco.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "soma e complemento."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-numeros-decimais.html",
+        "numero": 1,
+        "texto_original": "1. O cupom do mercado Uma família comprou três produtos. O cupom abaixo perdeu o valor total. MERCADO DO BAIRRO Arroz ........ R$ 24,90 Leite ........ R$ 6,75 Frutas ....... R$ 18,35 TOTAL: R$ ______ Qual valor deve aparecer no total do cupom? Se o pagamento for feito com R$ 60,00, qual será o troco?",
+        "gabarito_publicado": "R$ 50,00; troco de R$ 10,00."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma família comprou três produtos. O cupom abaixo perdeu o valor total."
+        ],
+        "comando": "Qual é o total do cupom e o troco para pagamento de R$ 60,00?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"receipt\"><b>MERCADO DO BAIRRO</b><hr/>\nArroz ........ R$ 24,90<br/>Leite ........ R$ 6,75<br/>Frutas ....... R$ 18,35\n<hr/><b>TOTAL: R$ ______</b></div></div>",
+          "texto": "MERCADO DO BAIRRO Arroz ........ R$ 24,90 Leite ........ R$ 6,75 Frutas ....... R$ 18,35 TOTAL: R$ ______",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Cupom essencial: preços apenas no desenho.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Total: R$ 50,00; troco: R$ 10,00.",
+          "valores": [
+            "50.00",
+            "10.00"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Total: R$ 49,00; troco: R$ 11,00.",
+          "valores": [
+            "49.00",
+            "11.00"
+          ],
+          "erro_comum": "Perder o transporte dos centavos para reais."
+        },
+        {
+          "letra": "C",
+          "texto": "Total: R$ 50,00; troco: R$ 60,00.",
+          "valores": [
+            "50.00",
+            "60.00"
+          ],
+          "erro_comum": "Responder o pagamento em vez do troco."
+        },
+        {
+          "letra": "D",
+          "texto": "Total: R$ 43,25; troco: R$ 16,75.",
+          "valores": [
+            "43.25",
+            "16.75"
+          ],
+          "erro_comum": "Omitir o leite da compra."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "24,90+6,75+18,35=R$ 50,00; 60,00−50,00=R$ 10,00.",
+      "resolucao_comentada": "A alternativa correta é Total: R$ 50,00; troco: R$ 10,00. 24,90+6,75+18,35=R$ 50,00; 60,00−50,00=R$ 10,00.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "total_reais",
+        "troco_reais"
+      ]
+    },
+    {
+      "id": "ND-02",
+      "numero_original": 2,
+      "titulo": "Onde está 2,7?",
+      "assunto": "Números decimais",
+      "conteudo": "Localização de décimos em reta",
+      "habilidade": "Localização de décimos em reta.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "contar sete décimos."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-numeros-decimais.html",
+        "numero": 2,
+        "texto_original": "2. Onde está 2,7? Uma régua numérica foi dividida em décimos entre 2 e 3. 2,0 P 3,0 O ponto P está na sétima marca após 2. Que número decimal ele representa?",
+        "gabarito_publicado": "2,7."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma régua numérica foi dividida em décimos entre 2 e 3."
+        ],
+        "comando": "Que número decimal o ponto P representa?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"ruler\"><span>2,0</span><i></i><i></i><i></i><i></i><i></i><i></i><b>P</b><i></i><i></i><span>3,0</span></div></div>",
+          "texto": "2,0 P 3,0",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Régua; apoio, posição explicitada no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2,07.",
+          "valores": [
+            "2.07"
+          ],
+          "erro_comum": "Confundir décimos com centésimos."
+        },
+        {
+          "letra": "B",
+          "texto": "2,7.",
+          "valores": [
+            "2.7"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "7,2.",
+          "valores": [
+            "7.2"
+          ],
+          "erro_comum": "Inverter unidade e parte decimal."
+        },
+        {
+          "letra": "D",
+          "texto": "2,3.",
+          "valores": [
+            "2.3"
+          ],
+          "erro_comum": "Contar as marcas a partir do extremo 3."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "2+7/10=2,7.",
+      "resolucao_comentada": "A alternativa correta é 2,7. 2+7/10=2,7.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "numero"
+      ]
+    },
+    {
+      "id": "ND-03",
+      "numero_original": 3,
+      "titulo": "O visor da balança",
+      "assunto": "Números decimais",
+      "conteudo": "Valor posicional decimal e conversão kg/g",
+      "habilidade": "Valor posicional decimal e conversão kg/g.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "identificar ordem e converter unidade."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-numeros-decimais.html",
+        "numero": 3,
+        "texto_original": "3. O visor da balança Na feira, uma balança digital marcou a massa de uma melancia. 4,275 kg Qual é o valor posicional do algarismo 7? Quantos gramas correspondem a 4,275 kg?",
+        "gabarito_publicado": "7 centésimos (0,07 kg); 4.275 g."
+      },
+      "enunciado": {
+        "contexto": [
+          "Na feira, uma balança digital marcou a massa de uma melancia."
+        ],
+        "comando": "Qual é o valor do algarismo 7 e quantos gramas correspondem à massa do visor?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"scale\"><div class=\"screen\">4,275 kg</div><div class=\"base\"></div></div></div>",
+          "texto": "4,275 kg",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Visor essencial: massa 4,275 kg só no desenho.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0,7 kg, sete décimos; 4.275 g.",
+          "valores": [
+            "0.7",
+            4275
+          ],
+          "erro_comum": "Confundir centésimos com décimos."
+        },
+        {
+          "letra": "B",
+          "texto": "0,007 kg, sete milésimos; 4.275 g.",
+          "valores": [
+            "0.007",
+            4275
+          ],
+          "erro_comum": "Confundir centésimos com milésimos."
+        },
+        {
+          "letra": "C",
+          "texto": "0,07 kg, sete centésimos; 4.275 g.",
+          "valores": [
+            "0.07",
+            4275
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "0,07 kg, sete centésimos; 427,5 g.",
+          "valores": [
+            "0.07",
+            "427.5"
+          ],
+          "erro_comum": "Converter quilogramas para gramas multiplicando por 100, não por 1.000."
+        }
+      ],
+      "gabarito": "C",
+      "resposta_matematica": "7 centésimos=0,07 kg; 4,275 kg=4.275 g (multiplicar por 1.000).",
+      "resolucao_comentada": "A alternativa correta é 0,07 kg, sete centésimos; 4.275 g. 7 centésimos=0,07 kg; 4,275 kg=4.275 g (multiplicar por 1.000).",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "valor_kg",
+        "massa_g"
+      ]
+    },
+    {
+      "id": "ND-04",
+      "numero_original": 4,
+      "titulo": "Escolha a etiqueta correta",
+      "assunto": "Números decimais",
+      "conteudo": "Conversão da escrita verbal para decimal",
+      "habilidade": "Conversão da escrita verbal para decimal.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "unidades e centésimos."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-numeros-decimais.html",
+        "numero": 4,
+        "texto_original": "4. Escolha a etiqueta correta Uma garrafa contém dois litros e trinta e cinco centésimos de litro. Quatro etiquetas foram impressas. A 2,035 L B 2,35 L C 2,305 L D 2,3505 L Qual etiqueta representa corretamente a quantidade descrita? a) A b) B c) C d) D",
+        "gabarito_publicado": "B."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma garrafa contém dois litros e trinta e cinco centésimos de litro. Quatro etiquetas foram impressas."
+        ],
+        "comando": "Qual etiqueta representa dois litros e trinta e cinco centésimos de litro?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"labels\"><span>A<br/><b>2,035 L</b></span><span>B<br/><b>2,35 L</b></span><span>C<br/><b>2,305 L</b></span><span>D<br/><b>2,3505 L</b></span></div></div>",
+          "texto": "A 2,035 L B 2,35 L C 2,305 L D 2,3505 L",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Etiquetas; preservar opções 2,035;2,35;2,305;2,3505.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Etiqueta A: 2,035 L.",
+          "valores": [
+            "2.035"
+          ],
+          "erro_comum": "Interpretar 35 centésimos como 35 milésimos."
+        },
+        {
+          "letra": "B",
+          "texto": "Etiqueta B: 2,35 L.",
+          "valores": [
+            "2.35"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Etiqueta C: 2,305 L.",
+          "valores": [
+            "2.305"
+          ],
+          "erro_comum": "Inserir zero entre as ordens de 3 e 5."
+        },
+        {
+          "letra": "D",
+          "texto": "Etiqueta D: 2,3505 L.",
+          "valores": [
+            "2.3505"
+          ],
+          "erro_comum": "Acrescentar casas decimais não informadas."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "B: 2,35 L; 2+35/100=2,35.",
+      "resolucao_comentada": "A alternativa correta é Etiqueta B: 2,35 L. 2,35 L; 2+35/100=2,35.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "litros"
+      ]
+    },
+    {
+      "id": "ND-05",
+      "numero_original": 5,
+      "titulo": "A conta borrada",
+      "assunto": "Números decimais",
+      "conteudo": "Adição decimal com algarismo desconhecido",
+      "habilidade": "Adição decimal com algarismo desconhecido.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "reconstituir parcela."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-numeros-decimais.html",
+        "numero": 5,
+        "texto_original": "5. A conta borrada Uma estudante somou dois valores, mas uma parte do cálculo ficou borrada. 18,75 +  6,4□ 25,20 Qual algarismo deve substituir o quadrado para que a adição esteja correta?",
+        "gabarito_publicado": "5."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma estudante somou dois valores, mas uma parte do cálculo ficou borrada."
+        ],
+        "comando": "Qual algarismo substitui o quadrado?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"vertical\"><span>  18,75</span><span>+  6,4□</span><hr/><b>  25,20</b></div></div>",
+          "texto": "18,75 +  6,4□ 25,20",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Conta vertical essencial: números e lacuna no desenho.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5.",
+          "valores": [
+            5
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "0.",
+          "valores": [
+            0
+          ],
+          "erro_comum": "Desconsiderar que 18,75 + 6,40 = 25,15."
+        },
+        {
+          "letra": "C",
+          "texto": "4.",
+          "valores": [
+            4
+          ],
+          "erro_comum": "Usar o algarismo dos décimos da segunda parcela."
+        },
+        {
+          "letra": "D",
+          "texto": "9.",
+          "valores": [
+            9
+          ],
+          "erro_comum": "Somar os algarismos visíveis 4 e 5 e usar 9 na lacuna, sem verificar a coluna dos centésimos."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "5: 25,20−18,75=6,45, logo 6,4□=6,45.",
+      "resolucao_comentada": "A alternativa correta é 5. 5: 25,20−18,75=6,45, logo 6,4□=6,45.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "algarismo"
+      ]
+    },
+    {
+      "id": "ND-06",
+      "numero_original": 6,
+      "titulo": "Corrida de 100 metros",
+      "assunto": "Números decimais",
+      "conteudo": "Ordenação de decimais com diferentes quantidades de casas",
+      "habilidade": "Ordenação de decimais com diferentes quantidades de casas.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "comparar décimos, centésimos e milésimos."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-numeros-decimais.html",
+        "numero": 6,
+        "texto_original": "6. Corrida de 100 metros Quatro atletas registraram os tempos abaixo. Em uma corrida, menor tempo significa melhor colocação. Lia 12,48 s Ravi 12,5 s Bia 12,39 s Caio 12,405 s Organize os atletas do 1º ao 4º lugar.",
+        "gabarito_publicado": "Bia, Caio, Lia, Ravi."
+      },
+      "enunciado": {
+        "contexto": [
+          "Quatro atletas registraram os tempos abaixo. Em uma corrida, menor tempo significa melhor colocação."
+        ],
+        "comando": "Qual é a ordem dos atletas do primeiro ao quarto lugar?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"podium\"><div><b>Lia</b><br/>12,48 s</div><div><b>Ravi</b><br/>12,5 s</div><div><b>Bia</b><br/>12,39 s</div><div><b>Caio</b><br/>12,405 s</div></div></div>",
+          "texto": "Lia 12,48 s Ravi 12,5 s Bia 12,39 s Caio 12,405 s",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Painel essencial: tempos só nos cartões/pódio.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Bia, Lia, Caio, Ravi.",
+          "valores": [
+            [
+              "Bia",
+              "Lia",
+              "Caio",
+              "Ravi"
+            ]
+          ],
+          "erro_comum": "Comparar 48 e 405 como inteiros, sem alinhar casas."
+        },
+        {
+          "letra": "B",
+          "texto": "Bia, Caio, Lia, Ravi.",
+          "valores": [
+            [
+              "Bia",
+              "Caio",
+              "Lia",
+              "Ravi"
+            ]
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Ravi, Bia, Lia, Caio.",
+          "valores": [
+            [
+              "Ravi",
+              "Bia",
+              "Lia",
+              "Caio"
+            ]
+          ],
+          "erro_comum": "Considerar menor quantidade de casas decimais como menor tempo."
+        },
+        {
+          "letra": "D",
+          "texto": "Ravi, Lia, Caio, Bia.",
+          "valores": [
+            [
+              "Ravi",
+              "Lia",
+              "Caio",
+              "Bia"
+            ]
+          ],
+          "erro_comum": "Ordenar do maior para o menor, embora menor tempo vença."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "Bia, Caio, Lia, Ravi: 12,390<12,405<12,480<12,500.",
+      "resolucao_comentada": "A alternativa correta é Bia, Caio, Lia, Ravi. Bia, Caio, Lia, Ravi: 12,390<12,405<12,480<12,500.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "ordem"
+      ]
+    },
+    {
+      "id": "ND-07",
+      "numero_original": 7,
+      "titulo": "Complete o tanque",
+      "assunto": "Números decimais",
+      "conteudo": "Subtração decimal para completar capacidade",
+      "habilidade": "Subtração decimal para completar capacidade.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "um complemento."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-numeros-decimais.html",
+        "numero": 7,
+        "texto_original": "7. Complete o tanque Um reservatório comporta 10 L. Já há 6,75 L em seu interior. 10 L 6,75 L Quantos litros ainda faltam para completar o reservatório?",
+        "gabarito_publicado": "3,25 L."
+      },
+      "enunciado": {
+        "contexto": [
+          "Um reservatório comporta 10 L. Já há 6,75 L em seu interior."
+        ],
+        "comando": "Quantos litros faltam para completar o reservatório?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"tank\"><div class=\"water\" style=\"height:67.5%\"></div><b>10 L</b><small>6,75 L</small></div></div>",
+          "texto": "10 L 6,75 L",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Reservatório; apoio, dados no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3,75 L.",
+          "valores": [
+            "3.75"
+          ],
+          "erro_comum": "Subtrair separadamente casas decimais sem empréstimo."
+        },
+        {
+          "letra": "B",
+          "texto": "16,75 L.",
+          "valores": [
+            "16.75"
+          ],
+          "erro_comum": "Somar capacidade e conteúdo."
+        },
+        {
+          "letra": "C",
+          "texto": "3,25 L.",
+          "valores": [
+            "3.25"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "6,75 L.",
+          "valores": [
+            "6.75"
+          ],
+          "erro_comum": "Repetir a quantidade já existente."
+        }
+      ],
+      "gabarito": "C",
+      "resposta_matematica": "10−6,75=3,25 L.",
+      "resolucao_comentada": "A alternativa correta é 3,25 L. 10−6,75=3,25 L.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "litros"
+      ]
+    },
+    {
+      "id": "ND-08",
+      "numero_original": 8,
+      "titulo": "Máquina de multiplicar",
+      "assunto": "Números decimais",
+      "conteudo": "Multiplicação por 10 e valor posicional",
+      "habilidade": "Multiplicação por 10 e valor posicional.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "calcular e explicar mudança de ordens."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-numeros-decimais.html",
+        "numero": 8,
+        "texto_original": "8. Máquina de multiplicar Uma máquina recebe um número, multiplica-o por 10 e mostra o resultado. 3,47 × 10 ? Qual número aparecerá na saída? Explique o que acontece com o valor posicional dos algarismos.",
+        "gabarito_publicado": "34,7."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma máquina recebe um número, multiplica-o por 10 e mostra o resultado."
+        ],
+        "comando": "Qual é a saída e o que ocorre com o valor posicional dos algarismos?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"machine\"><span>3,47</span><b>× 10</b><span>?</span></div></div>",
+          "texto": "3,47 × 10 ?",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Máquina essencial: entrada 3,47 só no desenho; fator 10 no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3,470; acrescentar um zero à direita sempre multiplica por 10.",
+          "valores": [
+            "3.470",
+            "zero_final"
+          ],
+          "erro_comum": "Aplicar regra de inteiros à parte decimal."
+        },
+        {
+          "letra": "B",
+          "texto": "0,347; cada algarismo passa a valer dez vezes menos.",
+          "valores": [
+            "0.347",
+            "dez_vezes_menos"
+          ],
+          "erro_comum": "Dividir por 10 em vez de multiplicar."
+        },
+        {
+          "letra": "C",
+          "texto": "13,47; somar 10 ao número.",
+          "valores": [
+            "13.47",
+            "somar_10"
+          ],
+          "erro_comum": "Trocar multiplicação por adição."
+        },
+        {
+          "letra": "D",
+          "texto": "34,7; cada algarismo passa a valer dez vezes mais.",
+          "valores": [
+            "34.7",
+            "dez_vezes"
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "34,7; cada algarismo passa a valer dez vezes mais, deslocando-se uma ordem à esquerda.",
+      "resolucao_comentada": "A alternativa correta é 34,7; cada algarismo passa a valer dez vezes mais. 34,7; cada algarismo passa a valer dez vezes mais, deslocando-se uma ordem à esquerda.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "saida",
+        "mudanca"
+      ]
+    },
+    {
+      "id": "ND-09",
+      "numero_original": 9,
+      "titulo": "Preço por quilograma",
+      "assunto": "Números decimais",
+      "conteudo": "Multiplicação decimal em preço por massa",
+      "habilidade": "Multiplicação decimal em preço por massa.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "preço unitário vezes quantidade."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-numeros-decimais.html",
+        "numero": 9,
+        "texto_original": "9. Preço por quilograma Uma loja vende castanhas a R$ 36,80 por quilograma. Uma cliente comprou 2,5 kg. CASTANHAS R$ 36,80/kg Compra: 2,5 kg Quanto a cliente deverá pagar?",
+        "gabarito_publicado": "R$ 92,00."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma loja vende castanhas a R$ 36,80 por quilograma. Uma cliente comprou 2,5 kg."
+        ],
+        "comando": "Quanto a cliente deverá pagar?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"pricecard\"><b>CASTANHAS</b><strong>R$ 36,80/kg</strong><em>Compra: 2,5 kg</em></div></div>",
+          "texto": "CASTANHAS R$ 36,80/kg Compra: 2,5 kg",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Cartão de preço; apoio, valores no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "R$ 92,00.",
+          "valores": [
+            "92.00"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "R$ 73,60.",
+          "valores": [
+            "73.60"
+          ],
+          "erro_comum": "Calcular apenas dois quilogramas."
+        },
+        {
+          "letra": "C",
+          "texto": "R$ 39,30.",
+          "valores": [
+            "39.30"
+          ],
+          "erro_comum": "Somar preço e massa em vez de multiplicar."
+        },
+        {
+          "letra": "D",
+          "texto": "R$ 9,20.",
+          "valores": [
+            "9.20"
+          ],
+          "erro_comum": "Posicionar incorretamente a vírgula no produto."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "36,80×2,5=36,80×2+36,80×0,5=73,60+18,40=R$ 92,00.",
+      "resolucao_comentada": "A alternativa correta é R$ 92,00. 36,80×2,5=36,80×2+36,80×0,5=73,60+18,40=R$ 92,00.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "reais"
+      ]
+    },
+    {
+      "id": "ND-10",
+      "numero_original": 10,
+      "titulo": "Qual cálculo faz sentido?",
+      "assunto": "Números decimais",
+      "conteudo": "Divisão decimal e taxa de consumo",
+      "habilidade": "Divisão decimal e taxa de consumo.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "escolher operação e calcular razão."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-numeros-decimais.html",
+        "numero": 10,
+        "texto_original": "10. Qual cálculo faz sentido? Uma van percorreu 157,5 km usando 12,5 litros de combustível. O motorista quer descobrir quantos quilômetros, em média, foram percorridos por litro. 157,5 + 12,5 157,5 − 12,5 157,5 × 12,5 157,5 ÷ 12,5 Qual operação deve ser usada? Calcule o resultado.",
+        "gabarito_publicado": "Divisão; 12,6 km/L."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma van percorreu 157,5 km usando 12,5 litros de combustível. O motorista quer descobrir quantos quilômetros, em média, foram percorridos por litro."
+        ],
+        "comando": "Qual operação calcula os quilômetros por litro e qual é o resultado?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"calcchoices\"><span>157,5 + 12,5</span><span>157,5 − 12,5</span><span>157,5 × 12,5</span><span>157,5 ÷ 12,5</span></div></div>",
+          "texto": "157,5 + 12,5 157,5 − 12,5 157,5 × 12,5 157,5 ÷ 12,5",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Quadro com quatro operações; preservar opções, dados no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "157,5 + 12,5; 170 km/L.",
+          "valores": [
+            "adicao",
+            170
+          ],
+          "erro_comum": "Somar grandezas em vez de calcular razão."
+        },
+        {
+          "letra": "B",
+          "texto": "157,5 ÷ 12,5; 12,6 km/L.",
+          "valores": [
+            "divisao",
+            "12.6"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "157,5 − 12,5; 145 km/L.",
+          "valores": [
+            "subtracao",
+            145
+          ],
+          "erro_comum": "Usar diferença como taxa."
+        },
+        {
+          "letra": "D",
+          "texto": "157,5 × 12,5; 1.968,75 km/L.",
+          "valores": [
+            "multiplicacao",
+            "1968.75"
+          ],
+          "erro_comum": "Multiplicar consumo e distância em vez de dividir."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "Divisão; 12,6 km/L: 157,5÷12,5=12,6, pois 12,5×12,6=157,5.",
+      "resolucao_comentada": "A alternativa correta é 157,5 ÷ 12,5; 12,6 km/L. Divisão; 12,6 km/L: 157,5÷12,5=12,6, pois 12,5×12,6=157,5.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "operacao",
+        "km_por_l"
+      ]
+    },
+    {
+      "id": "ND-11",
+      "numero_original": 11,
+      "titulo": "A fita métrica",
+      "assunto": "Números decimais",
+      "conteudo": "Subtrações sucessivas com decimais",
+      "habilidade": "Subtrações sucessivas com decimais.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "duas retiradas."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-numeros-decimais.html",
+        "numero": 11,
+        "texto_original": "11. A fita métrica Uma costureira tinha 5 m de fita. Usou 1,85 m em uma peça e 2,4 m em outra. 1,85 m 2,4 m restante Quantos metros de fita restaram?",
+        "gabarito_publicado": "0,75 m."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma costureira tinha 5 m de fita. Usou 1,85 m em uma peça e 2,4 m em outra."
+        ],
+        "comando": "Quantos metros de fita restaram?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"tape\"><span style=\"width:37%\">1,85 m</span><span style=\"width:48%\">2,4 m</span><i>restante</i></div></div>",
+          "texto": "1,85 m 2,4 m restante",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Fita dividida em trechos; apoio, medidas no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3,15 m.",
+          "valores": [
+            "3.15"
+          ],
+          "erro_comum": "Subtrair somente o primeiro uso."
+        },
+        {
+          "letra": "B",
+          "texto": "2,60 m.",
+          "valores": [
+            "2.60"
+          ],
+          "erro_comum": "Subtrair somente o segundo uso."
+        },
+        {
+          "letra": "C",
+          "texto": "0,75 m.",
+          "valores": [
+            "0.75"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "4,25 m.",
+          "valores": [
+            "4.25"
+          ],
+          "erro_comum": "Responder o total usado, não o restante."
+        }
+      ],
+      "gabarito": "C",
+      "resposta_matematica": "5−1,85−2,40=0,75 m.",
+      "resolucao_comentada": "A alternativa correta é 0,75 m. 5−1,85−2,40=0,75 m.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "metros"
+      ]
+    },
+    {
+      "id": "ND-12",
+      "numero_original": 12,
+      "titulo": "O erro da calculadora",
+      "assunto": "Números decimais",
+      "conteudo": "Multiplicação por número menor que 1 e análise de argumento",
+      "habilidade": "Multiplicação por número menor que 1 e análise de argumento.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "contrariar generalização e explicar."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-numeros-decimais.html",
+        "numero": 12,
+        "texto_original": "12. O erro da calculadora Pedro digitou 7,2 × 0,5 e afirmou que o resultado deveria ser maior que 7,2 porque usou multiplicação. 7,2 × 0,5 = ? A afirmação de Pedro faz sentido? Calcule o resultado e explique por que ele é menor que 7,2.",
+        "gabarito_publicado": "Não; 7,2 × 0,5 = 3,6. Multiplicar por 0,5 equivale a tomar a metade."
+      },
+      "enunciado": {
+        "contexto": [
+          "Pedro digitou 7,2 × 0,5 e afirmou que o resultado deveria ser maior que 7,2 porque usou multiplicação."
+        ],
+        "comando": "A afirmação de Pedro é válida? Qual resultado e explicação estão corretos?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"calculator\"><div>7,2 × 0,5</div><button>=</button><div>?</div></div></div>",
+          "texto": "7,2 × 0,5 = ?",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Calculadora; apoio, expressão no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sim; 36, pois multiplicação sempre aumenta.",
+          "valores": [
+            true,
+            36,
+            "sempre_aumenta"
+          ],
+          "erro_comum": "Ignorar a vírgula e generalizar multiplicações por inteiros maiores que 1."
+        },
+        {
+          "letra": "B",
+          "texto": "Não; 14,4, pois multiplicar por 0,5 é dobrar.",
+          "valores": [
+            false,
+            "14.4",
+            "dobro"
+          ],
+          "erro_comum": "Confundir metade com dobro ou com dividir por 0,5."
+        },
+        {
+          "letra": "C",
+          "texto": "Sim; 7,7, pois basta somar 0,5.",
+          "valores": [
+            true,
+            "7.7",
+            "somar"
+          ],
+          "erro_comum": "Trocar multiplicação por adição."
+        },
+        {
+          "letra": "D",
+          "texto": "Não; 3,6, pois multiplicar por 0,5 é tomar a metade.",
+          "valores": [
+            false,
+            "3.6",
+            "metade"
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "Não; 3,6. 7,2×0,5=7,2÷2, tomar metade reduz uma quantidade positiva.",
+      "resolucao_comentada": "A alternativa correta é Não; 3,6, pois multiplicar por 0,5 é tomar a metade. Não; 3,6. 7,2×0,5=7,2÷2, tomar metade reduz uma quantidade positiva.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "afirmacao_valida",
+        "resultado",
+        "explicacao"
+      ]
+    },
+    {
+      "id": "ND-13",
+      "numero_original": 13,
+      "titulo": "Mosaico decimal",
+      "assunto": "Números decimais",
+      "conteudo": "Conversão de fração centesimal para decimal",
+      "habilidade": "Conversão de fração centesimal para decimal.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "duas representações do mesmo valor."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-numeros-decimais.html",
+        "numero": 13,
+        "texto_original": "13. Mosaico decimal Um painel quadrado foi dividido em 100 pequenos quadrados iguais. Sessenta e três foram pintados. Represente a parte pintada na forma de fração decimal e na forma decimal.",
+        "gabarito_publicado": "63/100 e 0,63."
+      },
+      "enunciado": {
+        "contexto": [
+          "Um painel quadrado foi dividido em 100 pequenos quadrados iguais. Sessenta e três foram pintados."
+        ],
+        "comando": "Qual par apresenta a fração decimal e o número decimal da parte pintada?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"hundred\"><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i></div></div>",
+          "texto": "",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Malha 10×10 com 63 células destacadas; apoio, contagens explícitas no texto; preservar para objetivo visual.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "63/100 e 0,63.",
+          "valores": [
+            "63/100",
+            "0.63"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "63/10 e 6,3.",
+          "valores": [
+            "63/10",
+            "6.3"
+          ],
+          "erro_comum": "Usar décimos em vez de centésimos."
+        },
+        {
+          "letra": "C",
+          "texto": "37/100 e 0,37.",
+          "valores": [
+            "37/100",
+            "0.37"
+          ],
+          "erro_comum": "Responder a parte não pintada."
+        },
+        {
+          "letra": "D",
+          "texto": "63/100 e 0,063.",
+          "valores": [
+            "63/100",
+            "0.063"
+          ],
+          "erro_comum": "Converter centésimos em milésimos."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "63/100 e 0,63; 63 centésimos.",
+      "resolucao_comentada": "A alternativa correta é 63/100 e 0,63. 63/100 e 0,63; 63 centésimos.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "fracao",
+        "decimal"
+      ]
+    },
+    {
+      "id": "ND-14",
+      "numero_original": 14,
+      "titulo": "Três caminhos para o mesmo número",
+      "assunto": "Números decimais",
+      "conteudo": "Equivalência entre frações e escrita decimal",
+      "habilidade": "Equivalência entre frações e escrita decimal.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "agrupar três representações e excluir outra."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-numeros-decimais.html",
+        "numero": 14,
+        "texto_original": "14. Três caminhos para o mesmo número Os cartões abaixo representam números escritos de formas diferentes. 0,75 75/100 3/4 7,5 Quais três cartões representam o mesmo número? Justifique.",
+        "gabarito_publicado": "0,75; 75/100; 3/4."
+      },
+      "enunciado": {
+        "contexto": [
+          "Os cartões abaixo representam números escritos de formas diferentes."
+        ],
+        "comando": "Quais três cartões são equivalentes e qual justificativa confirma a escolha?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"cards\"><span>0,75</span><span>75/100</span><span>3/4</span><span>7,5</span></div></div>",
+          "texto": "0,75 75/100 3/4 7,5",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Cartões essenciais: quatro representações só no quadro.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0,75; 75/100; 7,5. Basta retirar a vírgula e os zeros.",
+          "valores": [
+            [
+              "0.75",
+              "75/100",
+              "7.5"
+            ],
+            "retirar_virgula"
+          ],
+          "erro_comum": "Confundir 7,5 com 0,75."
+        },
+        {
+          "letra": "B",
+          "texto": "0,75; 75/100; 3/4. Simplificando 75/100 por 25, obtém-se 3/4.",
+          "valores": [
+            [
+              "0.75",
+              "75/100",
+              "3/4"
+            ],
+            "simplificar_25"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "0,75; 3/4; 7,5. 75/100 vale 75.",
+          "valores": [
+            [
+              "0.75",
+              "3/4",
+              "7.5"
+            ],
+            "ignorar_denominador"
+          ],
+          "erro_comum": "Ignorar denominador de 75/100."
+        },
+        {
+          "letra": "D",
+          "texto": "75/100; 3/4; 7,5. 0,75 é dez vezes maior que 7,5.",
+          "valores": [
+            [
+              "75/100",
+              "3/4",
+              "7.5"
+            ],
+            "relacao_invertida"
+          ],
+          "erro_comum": "Inverter relação entre 0,75 e 7,5."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "0,75;75/100;3/4 representam o mesmo número; dividir 75/100 por 25 dá 3/4. 7,5 é dez vezes 0,75.",
+      "resolucao_comentada": "A alternativa correta é 0,75; 75/100; 3/4. Simplificando 75/100 por 25, obtém-se 3/4. 0,75;75/100;3/4 representam o mesmo número; dividir 75/100 por 25 dá 3/4. 7,5 é dez vezes 0,75.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "cartoes",
+        "equivalencia"
+      ]
+    },
+    {
+      "id": "ND-15",
+      "numero_original": 15,
+      "titulo": "Desconto no ingresso",
+      "assunto": "Números decimais",
+      "conteudo": "Subtração monetária e troco",
+      "habilidade": "Subtração monetária e troco.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "duas diferenças."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-numeros-decimais.html",
+        "numero": 15,
+        "texto_original": "15. Desconto no ingresso Um ingresso custa R$ 48,50. Um cupom concede desconto de R$ 7,25. INGRESSO R$ 48,50 CUPOM − R$ 7,25 Qual será o preço após o desconto? Se a pessoa pagar com R$ 50,00, qual será o troco?",
+        "gabarito_publicado": "R$ 41,25; troco R$ 8,75."
+      },
+      "enunciado": {
+        "contexto": [
+          "Um ingresso custa R$ 48,50. Um cupom concede desconto de R$ 7,25."
+        ],
+        "comando": "Qual é o preço após o desconto e o troco de R$ 50,00?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"ticket\"><b>INGRESSO</b><strong>R$ 48,50</strong><div>CUPOM − R$ 7,25</div></div></div>",
+          "texto": "INGRESSO R$ 48,50 CUPOM − R$ 7,25",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Ingresso/cupom; apoio, dados no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "R$ 55,75; faltam R$ 5,75, sem troco.",
+          "valores": [
+            "55.75",
+            "-5.75"
+          ],
+          "erro_comum": "Somar o desconto ao preço."
+        },
+        {
+          "letra": "B",
+          "texto": "R$ 41,25; troco de R$ 7,25.",
+          "valores": [
+            "41.25",
+            "7.25"
+          ],
+          "erro_comum": "Confundir desconto com troco."
+        },
+        {
+          "letra": "C",
+          "texto": "R$ 41,25; troco de R$ 8,75.",
+          "valores": [
+            "41.25",
+            "8.75"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "R$ 40,25; troco de R$ 9,75.",
+          "valores": [
+            "40.25",
+            "9.75"
+          ],
+          "erro_comum": "Erro de unidade na subtração do desconto."
+        }
+      ],
+      "gabarito": "C",
+      "resposta_matematica": "48,50−7,25=R$ 41,25; 50,00−41,25=R$ 8,75.",
+      "resolucao_comentada": "A alternativa correta é R$ 41,25; troco de R$ 8,75. 48,50−7,25=R$ 41,25; 50,00−41,25=R$ 8,75.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "preco_reais",
+        "troco_reais"
+      ]
+    },
+    {
+      "id": "ND-16",
+      "numero_original": 16,
+      "titulo": "Divisão de suco",
+      "assunto": "Números decimais",
+      "conteudo": "Divisão decimal e conversão L/mL",
+      "habilidade": "Divisão decimal e conversão L/mL.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "dividir e converter."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-numeros-decimais.html",
+        "numero": 16,
+        "texto_original": "16. Divisão de suco Uma jarra contém 3,6 L de suco, que serão distribuídos igualmente em 8 garrafas. 3,6 L → Quantos litros serão colocados em cada garrafa? Escreva também a quantidade em mililitros.",
+        "gabarito_publicado": "0,45 L = 450 mL."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma jarra contém 3,6 L de suco, que serão distribuídos igualmente em 8 garrafas."
+        ],
+        "comando": "Qual é a quantidade em cada garrafa, em litros e mililitros?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"bottles\"><div class=\"jug\">3,6 L</div><b>→</b><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>",
+          "texto": "3,6 L →",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Jarra/garrafas; apoio, dados no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0,45 L; 45 mL.",
+          "valores": [
+            "0.45",
+            45
+          ],
+          "erro_comum": "Converter litros para mililitros usando fator 100."
+        },
+        {
+          "letra": "B",
+          "texto": "4,5 L; 4.500 mL.",
+          "valores": [
+            "4.5",
+            4500
+          ],
+          "erro_comum": "Perder uma casa decimal na divisão."
+        },
+        {
+          "letra": "C",
+          "texto": "0,045 L; 45 mL.",
+          "valores": [
+            "0.045",
+            45
+          ],
+          "erro_comum": "Inserir um zero extra no quociente."
+        },
+        {
+          "letra": "D",
+          "texto": "0,45 L; 450 mL.",
+          "valores": [
+            "0.45",
+            450
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "3,6÷8=0,45 L, ou 450 mL, multiplicando por 1.000.",
+      "resolucao_comentada": "A alternativa correta é 0,45 L; 450 mL. 3,6÷8=0,45 L, ou 450 mL, multiplicando por 1.000.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "litros",
+        "mililitros"
+      ]
+    },
+    {
+      "id": "ND-17",
+      "numero_original": 17,
+      "titulo": "A senha decimal",
+      "assunto": "Números decimais",
+      "conteudo": "Composição decimal incluindo zero em ordem intermediária",
+      "habilidade": "Composição decimal incluindo zero em ordem intermediária.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "interpretar quatro ordens."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-numeros-decimais.html",
+        "numero": 17,
+        "texto_original": "17. A senha decimal Uma senha tem três algarismos após a vírgula. As pistas são: 5 unidades; 2 décimos; 0 centésimos; 8 milésimos. □ , □ □ □ Qual é a senha?",
+        "gabarito_publicado": "5,208."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma senha tem três algarismos após a vírgula. As pistas são: 5 unidades; 2 décimos; 0 centésimos; 8 milésimos."
+        ],
+        "comando": "Qual senha atende às pistas?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"safe\"><div>□ , □ □ □</div></div></div>",
+          "texto": "□ , □ □ □",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Painel de senha; apoio, pistas no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5,208.",
+          "valores": [
+            "5.208"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "5,28.",
+          "valores": [
+            "5.28"
+          ],
+          "erro_comum": "Eliminar o zero dos centésimos, mudando o valor do 8."
+        },
+        {
+          "letra": "C",
+          "texto": "5,028.",
+          "valores": [
+            "5.028"
+          ],
+          "erro_comum": "Trocar décimos e centésimos."
+        },
+        {
+          "letra": "D",
+          "texto": "5,280.",
+          "valores": [
+            "5.280"
+          ],
+          "erro_comum": "Colocar o 8 nos centésimos em vez de milésimos."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "5+0,2+0,00+0,008=5,208; manter zero dos centésimos.",
+      "resolucao_comentada": "A alternativa correta é 5,208. 5+0,2+0,00+0,008=5,208; manter zero dos centésimos.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "senha"
+      ]
+    },
+    {
+      "id": "ND-18",
+      "numero_original": 18,
+      "titulo": "Mais perto de 10",
+      "assunto": "Números decimais",
+      "conteudo": "Distância decimal a um valor de referência",
+      "habilidade": "Distância decimal a um valor de referência.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "quatro diferenças e comparação."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-numeros-decimais.html",
+        "numero": 18,
+        "texto_original": "18. Mais perto de 10 Quatro cartões mostram resultados de medições. 9,89 10,12 9,98 10,07 Qual número está mais próximo de 10? Explique comparando as diferenças.",
+        "gabarito_publicado": "9,98; distância de 0,02."
+      },
+      "enunciado": {
+        "contexto": [
+          "Quatro cartões mostram resultados de medições."
+        ],
+        "comando": "Qual número está mais próximo de 10 e qual é a distância?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"cards\"><span>9,89</span><span>10,12</span><span>9,98</span><span>10,07</span></div></div>",
+          "texto": "9,89 10,12 9,98 10,07",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Cartões essenciais: valores só no quadro.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10,07; distância de 0,07.",
+          "valores": [
+            "10.07",
+            "0.07"
+          ],
+          "erro_comum": "Considerar somente números maiores que 10."
+        },
+        {
+          "letra": "B",
+          "texto": "9,98; distância de 0,02.",
+          "valores": [
+            "9.98",
+            "0.02"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "9,89; distância de 0,11.",
+          "valores": [
+            "9.89",
+            "0.11"
+          ],
+          "erro_comum": "Comparar os decimais como números inteiros sem medir distâncias."
+        },
+        {
+          "letra": "D",
+          "texto": "10,12; distância de 0,12.",
+          "valores": [
+            "10.12",
+            "0.12"
+          ],
+          "erro_comum": "Escolher o maior valor em vez do mais próximo."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "9,98; distâncias a 10: 9,89→0,11;10,12→0,12;9,98→0,02;10,07→0,07. A menor é 0,02.",
+      "resolucao_comentada": "A alternativa correta é 9,98; distância de 0,02. 9,98; distâncias a 10: 9,89→0,11;10,12→0,12;9,98→0,02;10,07→0,07. A menor é 0,02.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "numero",
+        "distancia"
+      ]
+    },
+    {
+      "id": "ND-19",
+      "numero_original": 19,
+      "titulo": "Monte uma compra exata",
+      "assunto": "Números decimais",
+      "conteudo": "Busca de combinação monetária e verificação de unicidade",
+      "habilidade": "Busca de combinação monetária e verificação de unicidade.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "testar seis pares."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-numeros-decimais.html",
+        "numero": 19,
+        "texto_original": "19. Monte uma compra exata Você tem exatamente R$ 20,00 e deve escolher dois produtos diferentes sem receber troco. Caderno R$ 12,50 Canetas R$ 7,50 Estojo R$ 8,25 Régua R$ 3,40 Quais dois produtos devem ser escolhidos? Existe outra dupla possível?",
+        "gabarito_publicado": "Caderno + canetas = R$ 20,00; não há outra dupla."
+      },
+      "enunciado": {
+        "contexto": [
+          "Você tem exatamente R$ 20,00 e deve escolher dois produtos diferentes sem receber troco."
+        ],
+        "comando": "Qual dupla custa exatamente R$ 20,00 e existe outra dupla de produtos diferentes?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"shop\"><span>Caderno<br/><b>R$ 12,50</b></span><span>Canetas<br/><b>R$ 7,50</b></span><span>Estojo<br/><b>R$ 8,25</b></span><span>Régua<br/><b>R$ 3,40</b></span></div></div>",
+          "texto": "Caderno R$ 12,50 Canetas R$ 7,50 Estojo R$ 8,25 Régua R$ 3,40",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Vitrine essencial: preços 12,50;7,50;8,25;3,40.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Caderno e estojo; não existe outra dupla.",
+          "valores": [
+            [
+              "caderno",
+              "estojo"
+            ],
+            false
+          ],
+          "erro_comum": "Arredondar 20,75 para 20,00."
+        },
+        {
+          "letra": "B",
+          "texto": "Canetas e estojo; não existe outra dupla.",
+          "valores": [
+            [
+              "canetas",
+              "estojo"
+            ],
+            false
+          ],
+          "erro_comum": "Desconsiderar os reais restantes de uma compra de 15,75."
+        },
+        {
+          "letra": "C",
+          "texto": "Caderno e canetas; não existe outra dupla.",
+          "valores": [
+            [
+              "caderno",
+              "canetas"
+            ],
+            false
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Caderno e canetas; também caderno e régua.",
+          "valores": [
+            [
+              "caderno",
+              "canetas"
+            ],
+            true
+          ],
+          "erro_comum": "Não conferir que a segunda dupla custa 15,90."
+        }
+      ],
+      "gabarito": "C",
+      "resposta_matematica": "Caderno + canetas=12,50+7,50=R$ 20,00; demais somas:20,75;15,90;15,75;10,90;11,65, nenhuma igual a 20.",
+      "resolucao_comentada": "A alternativa correta é Caderno e canetas; não existe outra dupla. Caderno + canetas=12,50+7,50=R$ 20,00; demais somas:20,75;15,90;15,75;10,90;11,65, nenhuma igual a 20.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "dupla",
+        "outra"
+      ]
+    },
+    {
+      "id": "ND-20",
+      "numero_original": 20,
+      "titulo": "Desafio do painel solar",
+      "assunto": "Números decimais",
+      "conteudo": "Adição/subtração decimal com milésimos e unidades de energia",
+      "habilidade": "Adição/subtração decimal com milésimos e unidades de energia.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "alinhar casas e calcular complemento."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-numeros-decimais.html",
+        "numero": 20,
+        "texto_original": "20. Desafio do painel solar Um painel produziu 2,75 kWh pela manhã, 3,608 kWh à tarde e 1,42 kWh no início da noite. ☀ 2,75 ◐ 3,608 ☾ 1,42 kWh Qual foi a produção total? Quanto faltou para atingir 8 kWh?",
+        "gabarito_publicado": "7,778 kWh; faltaram 0,222 kWh."
+      },
+      "enunciado": {
+        "contexto": [
+          "Um painel produziu 2,75 kWh pela manhã, 3,608 kWh à tarde e 1,42 kWh no início da noite."
+        ],
+        "comando": "Qual é a produção total e quanto faltou para 8 kWh?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"solar\"><span>☀<b>2,75</b></span><span>◐<b>3,608</b></span><span>☾<b>1,42</b></span><em>kWh</em></div></div>",
+          "texto": "☀ 2,75 ◐ 3,608 ☾ 1,42 kWh",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Painel solar; apoio, dados no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "7,778 kWh; faltaram 0,322 kWh.",
+          "valores": [
+            "7.778",
+            "0.322"
+          ],
+          "erro_comum": "Erro no empréstimo entre casas decimais."
+        },
+        {
+          "letra": "B",
+          "texto": "7,678 kWh; faltaram 0,322 kWh.",
+          "valores": [
+            "7.678",
+            "0.322"
+          ],
+          "erro_comum": "Perder um décimo ao somar."
+        },
+        {
+          "letra": "C",
+          "texto": "7,778 kWh; faltaram 2,222 kWh.",
+          "valores": [
+            "7.778",
+            "2.222"
+          ],
+          "erro_comum": "Calcular complemento para 10 em vez de 8."
+        },
+        {
+          "letra": "D",
+          "texto": "7,778 kWh; faltaram 0,222 kWh.",
+          "valores": [
+            "7.778",
+            "0.222"
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "2,750+3,608+1,420=7,778 kWh; 8,000−7,778=0,222 kWh.",
+      "resolucao_comentada": "A alternativa correta é 7,778 kWh; faltaram 0,222 kWh. 2,750+3,608+1,420=7,778 kWh; 8,000−7,778=0,222 kWh.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "total_kwh",
+        "faltam_kwh"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "data": "2026-10-13",
+  "ambiente": {
+    "node": "v24.19.0",
+    "chromium": "154.0.8037.57",
+    "playwright": "1.61.1"
+  },
+  "testes": {
+    "executados": 8,
+    "aprovados": 8,
+    "falhas": 0,
+    "ignorados": 0
+  },
+  "viewports_px": [
+    320,
+    390,
+    768,
+    1280
+  ],
+  "recursos_verificados": {
+    "svg": 58,
+    "tabelas": 2
+  },
+  "checks": [
+    "navegação por Anterior, Próxima e números",
+    "ordem de questões e opções conservada",
+    "respostas conservadas, alteradas e limpas",
+    "ausência de correção no DOM antes da finalização",
+    "confirmação, cancelamento, Escape e aviso de questões sem resposta",
+    "30 respostas: 15 acertos, 50% e totais corretos por assunto",
+    "gabaritos após embaralhamento e resoluções originais",
+    "nova aplicação com outro conjunto e zero respostas",
+    "cotas 30, 6 por assunto, 8/14/8 e mínimo 15 visuais",
+    "proporção e largura dos SVGs, sem overflow de página",
+    "botões numerados com no mínimo 44 × 44 pixels",
+    "recuperação de falha de carregamento",
+    "teclado e foco contido no diálogo",
+    "sem gravação em localStorage ou sessionStorage"
+  ],
+  "preservacao": "SHA-256 de todos os arquivos preexistentes: somente README do bloco alterado. Bancos inéditos/antigos, mecanismo, recursos e demais assuntos preservados.",
+  "limites": [
+    "Respostas somente em memória; recarga encerra a aplicação.",
+    "Testes em Chromium; integração e tema do Blogger não testados.",
+    "Sem boletim/PDF ou publicação."
+  ]
+}

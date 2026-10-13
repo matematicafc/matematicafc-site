@@ -1,0 +1,2273 @@
+{
+  "versao_formato": 1,
+  "bloco": "6-ano-bloco-1-numeros-operacoes",
+  "ano_escolar": 6,
+  "assunto": "Múltiplos e divisores",
+  "codigo_assunto": "MD",
+  "origem": "Postagens consultadas na análise das 100 questões; correções locais explicitamente registradas.",
+  "sha256_html_fonte": "120c3ea28b3a89b13d6ed0d291f6aa51473a46856757577e3022052bcd59dc83",
+  "estilos_originais_referencia": [
+    "\n*{box-sizing:border-box} body{font-family:Arial,sans-serif;color:#17324d;margin:0}\n.mfc{max-width:980px;margin:auto;padding:24px 18px 48px}\n.brand{text-align:center;font:700 italic 34px Georgia,serif;color:#173f63}.brand b{color:#d6a400}\n.mfc h1{text-align:center;color:#173f63;margin:7px 0;font-size:28px}.sub{text-align:center;font-weight:700;margin-bottom:16px}\n.actions{text-align:center;margin:16px 0 26px}.pdfbtn{display:inline-block;background:#173f63;color:#fff!important;text-decoration:none;padding:11px 18px;border-radius:8px;font-weight:700}.pdfbtn:hover{background:#2f75a8}\n.q{border:1px solid #d8e2ea;border-radius:12px;padding:18px;margin:18px 0}.q h2{font-size:19px;margin:0 0 10px}.q p{font-size:17px;line-height:1.55}\n.art{background:#f7fafc;border:1px solid #dfe8ef;border-radius:10px;padding:14px;margin:12px 0}\n.tbl{width:100%;border-collapse:collapse}.tbl th,.tbl td{border:1px solid #b9cad7;padding:9px;text-align:center}.tbl th{background:#173f63;color:#fff}\n.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(90px,1fr));gap:8px}.card{border:2px solid #2f75a8;border-radius:9px;padding:12px;text-align:center;background:#fff;font-weight:700}\n.flow{display:flex;flex-direction:column;align-items:center;gap:6px}.flow div{border:2px solid #173f63;border-radius:8px;padding:8px 13px;background:#fff;text-align:center}.flow .diamond{transform:rotate(0deg);background:#fff8dd}\n.opts{margin:8px 0 0 22px;line-height:1.8}.lines{height:48px;border-bottom:1px dashed #b9c7d2}\n.gab{margin-top:32px}.gab details{border:1px solid #c8dce9;border-radius:10px;overflow:hidden}.gab summary{background:#173f63;color:#fff;padding:13px 18px;font-size:18px;font-weight:700;cursor:pointer;display:flex;justify-content:space-between}.arrow{width:10px;height:10px;border-right:3px solid #fff;border-bottom:3px solid #fff;transform:rotate(45deg)}.gab details[open] .arrow{transform:rotate(225deg)}.gab .inside{padding:14px 18px;background:#f7fafc}\n@media print{.gab,.actions{display:none}} @media(max-width:600px){.mfc{padding:18px 12px}.q p{font-size:16px}}\n"
+  ],
+  "aviso_estilos": "Referência de preservação visual, sem execução. Contém seletores globais do original: isolar/reformular na futura interface, não injetar diretamente no Blogger.",
+  "questoes": [
+    {
+      "id": "MD-01",
+      "numero_original": 1,
+      "titulo": "Semáforos da avenida",
+      "assunto": "Múltiplos e divisores",
+      "conteudo": "MMC em sincronização de ciclos",
+      "habilidade": "MMC em sincronização de ciclos.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "identificar primeiro múltiplo comum."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-multiplos-divisores-e.html",
+        "numero": 1,
+        "texto_original": "1. Semáforos da avenida Em uma avenida, um semáforo para pedestres abre a cada 40 segundos e outro, no cruzamento seguinte, abre a cada 60 segundos. Às 8h00, os dois abriram juntos. Semáforo A 40 s Semáforo B 60 s 8h00 abriram juntos Depois de quantos segundos eles voltarão a abrir juntos? Que ideia matemática permite resolver a situação? a) 80 s b) 100 s c) 120 s d) 240 s",
+        "gabarito_publicado": "120 s; MMC de 40 e 60. Alternativa c."
+      },
+      "enunciado": {
+        "contexto": [
+          "Em uma avenida, um semáforo para pedestres abre a cada 40 segundos e outro, no cruzamento seguinte, abre a cada 60 segundos. Às 8h00, os dois abriram juntos."
+        ],
+        "comando": "Depois de quantos segundos abrirão juntos novamente e qual ideia matemática resolve a situação?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Semáforo A</th><th>40 s</th></tr><tr><td>Semáforo B</td><td>60 s</td></tr><tr><td>8h00</td><td>abriram juntos</td></tr></table></div>",
+          "texto": "Semáforo A 40 s Semáforo B 60 s 8h00 abriram juntos",
+          "tabelas": [
+            [
+              [
+                "Semáforo A",
+                "40 s"
+              ],
+              [
+                "Semáforo B",
+                "60 s"
+              ],
+              [
+                "8h00",
+                "abriram juntos"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela de ciclos; apoio, dados no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "120 s; mínimo múltiplo comum (MMC).",
+          "valores": [
+            120,
+            "mmc"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "100 s; somar os dois intervalos.",
+          "valores": [
+            100,
+            "soma"
+          ],
+          "erro_comum": "Usar a soma dos períodos em vez de coincidência."
+        },
+        {
+          "letra": "C",
+          "texto": "80 s; dobrar o menor intervalo.",
+          "valores": [
+            80,
+            "dobro_menor"
+          ],
+          "erro_comum": "Verificar apenas o ciclo de 40 s."
+        },
+        {
+          "letra": "D",
+          "texto": "240 s; usar um múltiplo comum, sem verificar o primeiro.",
+          "valores": [
+            240,
+            "multiplo_nao_minimo"
+          ],
+          "erro_comum": "Escolher coincidência posterior, não a próxima."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "C: 120 s, MMC(40,60); 40=2³×5, 60=2²×3×5, MMC=2³×3×5.",
+      "resolucao_comentada": "A alternativa correta é 120 s; mínimo múltiplo comum (MMC). 120 s, MMC(40,60); 40=2³×5, 60=2²×3×5, MMC=2³×3×5.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "segundos",
+        "conceito"
+      ]
+    },
+    {
+      "id": "MD-02",
+      "numero_original": 2,
+      "titulo": "O armário com senha",
+      "assunto": "Múltiplos e divisores",
+      "conteudo": "Divisibilidade simultânea por 2, 3 e 5",
+      "habilidade": "Divisibilidade simultânea por 2, 3 e 5.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "testar condições em quatro códigos."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-multiplos-divisores-e.html",
+        "numero": 2,
+        "texto_original": "2. O armário com senha Um armário da sala de robótica só abre com um número que seja divisível por 2, por 3 e por 5 ao mesmo tempo. Quatro senhas foram sugeridas. A 90 B 105 C 120 D 135 Quais senhas atendem às três condições? Justifique usando critérios de divisibilidade.",
+        "gabarito_publicado": "90 e 120. Ambos são pares, têm soma dos algarismos divisível por 3 e terminam em 0 ou 5."
+      },
+      "enunciado": {
+        "contexto": [
+          "Um armário da sala de robótica só abre com um número que seja divisível por 2, por 3 e por 5 ao mesmo tempo. Quatro senhas foram sugeridas."
+        ],
+        "comando": "Qual opção reúne todas as senhas válidas e explica os três critérios?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>A</th><th>90</th></tr><tr><td>B</td><td>105</td></tr><tr><td>C</td><td>120</td></tr><tr><td>D</td><td>135</td></tr></table></div>",
+          "texto": "A 90 B 105 C 120 D 135",
+          "tabelas": [
+            [
+              [
+                "A",
+                "90"
+              ],
+              [
+                "B",
+                "105"
+              ],
+              [
+                "C",
+                "120"
+              ],
+              [
+                "D",
+                "135"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela essencial: 90, 105, 120, 135.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "105 e 135; basta serem divisíveis por 3 e por 5.",
+          "valores": [
+            [
+              105,
+              135
+            ],
+            "3_5"
+          ],
+          "erro_comum": "Ignorar divisibilidade por 2."
+        },
+        {
+          "letra": "B",
+          "texto": "90 e 120; são pares, terminam em 0 e a soma dos algarismos é múltipla de 3.",
+          "valores": [
+            [
+              90,
+              120
+            ],
+            "2_3_5"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "90, 105, 120 e 135; basta terminar em 0 ou 5.",
+          "valores": [
+            [
+              90,
+              105,
+              120,
+              135
+            ],
+            "so_5"
+          ],
+          "erro_comum": "Aplicar apenas o critério de 5."
+        },
+        {
+          "letra": "D",
+          "texto": "Somente 90; a soma dos algarismos deve ser exatamente 9.",
+          "valores": [
+            [
+              90
+            ],
+            "soma_9"
+          ],
+          "erro_comum": "Restringir soma divisível por 3 a um único valor."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "A e C: 90 e 120; pares, terminam em 0 e suas somas de algarismos são 9 e 3; equivalem a múltiplos de 30.",
+      "resolucao_comentada": "A alternativa correta é 90 e 120; são pares, terminam em 0 e a soma dos algarismos é múltipla de 3. A e C: 90 e 120; pares, terminam em 0 e suas somas de algarismos são 9 e 3; equivalem a múltiplos de 30.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "senhas",
+        "criterio"
+      ]
+    },
+    {
+      "id": "MD-03",
+      "numero_original": 3,
+      "titulo": "Fluxograma da paridade",
+      "assunto": "Múltiplos e divisores",
+      "conteudo": "Paridade e leitura de fluxograma",
+      "habilidade": "Paridade e leitura de fluxograma.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "classificar três entradas e enunciar regra."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-multiplos-divisores-e.html",
+        "numero": 3,
+        "texto_original": "3. Fluxograma da paridade Os estudantes estão programando um jogo que precisa decidir se um número é par ou ímpar antes de liberar a próxima fase. INÍCIO ↓ Receber um número n ↓ n é divisível por 2? SIM → PAR    |    NÃO → ÍMPAR Se o programa receber os números 247, 508 e 1.036, qual será a saída para cada um? Depois, escreva com palavras a regra usada pelo fluxograma.",
+        "gabarito_publicado": "247 ímpar; 508 par; 1.036 par. Regra: verificar divisibilidade por 2."
+      },
+      "enunciado": {
+        "contexto": [
+          "Os estudantes estão programando um jogo que precisa decidir se um número é par ou ímpar antes de liberar a próxima fase."
+        ],
+        "comando": "Quais saídas correspondem a 247, 508 e 1.036, e qual regra o fluxograma aplica?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"art\"><div class=\"flow\"><div>INÍCIO</div><div>↓</div><div>Receber um número n</div><div>↓</div><div class=\"diamond\">n é divisível por 2?</div><div>SIM → PAR    |    NÃO → ÍMPAR</div></div></div>",
+          "texto": "INÍCIO ↓ Receber um número n ↓ n é divisível por 2? SIM → PAR    |    NÃO → ÍMPAR",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Fluxograma essencial para avaliar leitura do algoritmo; números no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ímpar, par, ímpar; verificar só o primeiro algarismo.",
+          "valores": [
+            [
+              "impar",
+              "par",
+              "impar"
+            ],
+            "primeiro"
+          ],
+          "erro_comum": "Usar o primeiro algarismo para decidir paridade."
+        },
+        {
+          "letra": "B",
+          "texto": "Par, par, par; todo número com mais de dois algarismos é par.",
+          "valores": [
+            [
+              "par",
+              "par",
+              "par"
+            ],
+            "tamanho"
+          ],
+          "erro_comum": "Confundir tamanho do número com paridade."
+        },
+        {
+          "letra": "C",
+          "texto": "Ímpar, par, par; verificar se o último algarismo é par.",
+          "valores": [
+            [
+              "impar",
+              "par",
+              "par"
+            ],
+            "ultimo_par"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Ímpar, ímpar, par; verificar se a soma dos algarismos é múltipla de 3.",
+          "valores": [
+            [
+              "impar",
+              "impar",
+              "par"
+            ],
+            "soma_3"
+          ],
+          "erro_comum": "Confundir critérios de 2 e de 3."
+        }
+      ],
+      "gabarito": "C",
+      "resposta_matematica": "247 ímpar; 508 e 1.036 pares. Divisibilidade por 2: último algarismo par.",
+      "resolucao_comentada": "A alternativa correta é Ímpar, par, par; verificar se o último algarismo é par. 247 ímpar; 508 e 1.036 pares. Divisibilidade por 2: último algarismo par.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "saidas",
+        "regra"
+      ]
+    },
+    {
+      "id": "MD-04",
+      "numero_original": 4,
+      "titulo": "Formação das equipes",
+      "assunto": "Múltiplos e divisores",
+      "conteudo": "Divisores de 36 e formação de grupos sem resto",
+      "habilidade": "Divisores de 36 e formação de grupos sem resto.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "filtrar oito candidatos."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-multiplos-divisores-e.html",
+        "numero": 4,
+        "texto_original": "4. Formação das equipes Uma gincana terá 36 estudantes e o professor quer formar equipes com a mesma quantidade de participantes, sem que ninguém fique de fora. Possíveis tamanhos de equipe 2 3 4 5 6 8 9 12 Quais dos tamanhos apresentados podem ser usados? Explique por que os demais não servem.",
+        "gabarito_publicado": "2, 3, 4, 6, 9 e 12. 5 e 8 não dividem 36 exatamente."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma gincana terá 36 estudantes e o professor quer formar equipes com a mesma quantidade de participantes, sem que ninguém fique de fora."
+        ],
+        "comando": "Qual opção lista todos os tamanhos válidos e explica por que os demais não servem?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Possíveis tamanhos de equipe</th></tr><tr><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>8</td><td>9</td><td>12</td></tr></table></div>",
+          "texto": "Possíveis tamanhos de equipe 2 3 4 5 6 8 9 12",
+          "tabelas": [
+            [
+              [
+                "Possíveis tamanhos de equipe"
+              ],
+              [
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "8",
+                "9",
+                "12"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela essencial: candidatos incluem 5 e 8.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2, 3, 4, 5, 6, 8, 9 e 12; todo número menor que 36 serve.",
+          "valores": [
+            [
+              2,
+              3,
+              4,
+              5,
+              6,
+              8,
+              9,
+              12
+            ],
+            [],
+            "menor"
+          ],
+          "erro_comum": "Confundir ser menor que 36 com ser divisor."
+        },
+        {
+          "letra": "B",
+          "texto": "2, 4, 6, 8 e 12; somente números pares servem.",
+          "valores": [
+            [
+              2,
+              4,
+              6,
+              8,
+              12
+            ],
+            [
+              3,
+              5,
+              9
+            ],
+            "paridade"
+          ],
+          "erro_comum": "Usar paridade em vez de divisibilidade."
+        },
+        {
+          "letra": "C",
+          "texto": "2, 3, 4, 6 e 9; 12 não serve porque só formaria três equipes.",
+          "valores": [
+            [
+              2,
+              3,
+              4,
+              6,
+              9
+            ],
+            [
+              5,
+              8,
+              12
+            ],
+            "numero_equipes"
+          ],
+          "erro_comum": "Rejeitar divisor por confundir tamanho e número de equipes."
+        },
+        {
+          "letra": "D",
+          "texto": "2, 3, 4, 6, 9 e 12; 5 e 8 deixam resto.",
+          "valores": [
+            [
+              2,
+              3,
+              4,
+              6,
+              9,
+              12
+            ],
+            [
+              5,
+              8
+            ],
+            "resto"
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "2, 3, 4, 6, 9, 12 dividem 36; 36 ÷ 5 e 36 ÷ 8 não são inteiros.",
+      "resolucao_comentada": "A alternativa correta é 2, 3, 4, 6, 9 e 12; 5 e 8 deixam resto. 2, 3, 4, 6, 9, 12 dividem 36; 36 ÷ 5 e 36 ÷ 8 não são inteiros.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "validos",
+        "invalidos",
+        "motivo"
+      ]
+    },
+    {
+      "id": "MD-05",
+      "numero_original": 5,
+      "titulo": "Calendário de treinamentos",
+      "assunto": "Múltiplos e divisores",
+      "conteudo": "MMC de dois ciclos em dias",
+      "habilidade": "MMC de dois ciclos em dias.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "modelar coincidência."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-multiplos-divisores-e.html",
+        "numero": 5,
+        "texto_original": "5. Calendário de treinamentos O time de futsal treina a cada 4 dias e o time de vôlei a cada 6 dias. Hoje, os dois treinaram no mesmo dia. Futsal a cada 4 dias Vôlei a cada 6 dias Daqui a quantos dias os dois times voltarão a treinar no mesmo dia? a) 8 dias b) 10 dias c) 12 dias d) 24 dias",
+        "gabarito_publicado": "12 dias. Alternativa c."
+      },
+      "enunciado": {
+        "contexto": [
+          "O time de futsal treina a cada 4 dias e o time de vôlei a cada 6 dias. Hoje, os dois treinaram no mesmo dia."
+        ],
+        "comando": "Daqui a quantos dias os dois times voltarão a treinar no mesmo dia?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Futsal</th><th>a cada 4 dias</th></tr><tr><td>Vôlei</td><td>a cada 6 dias</td></tr></table></div>",
+          "texto": "Futsal a cada 4 dias Vôlei a cada 6 dias",
+          "tabelas": [
+            [
+              [
+                "Futsal",
+                "a cada 4 dias"
+              ],
+              [
+                "Vôlei",
+                "a cada 6 dias"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela de ciclos; apoio.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "12 dias.",
+          "valores": [
+            12
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "8 dias.",
+          "valores": [
+            8
+          ],
+          "erro_comum": "Dobrar apenas o ciclo de quatro dias."
+        },
+        {
+          "letra": "C",
+          "texto": "10 dias.",
+          "valores": [
+            10
+          ],
+          "erro_comum": "Somar os períodos."
+        },
+        {
+          "letra": "D",
+          "texto": "24 dias.",
+          "valores": [
+            24
+          ],
+          "erro_comum": "Escolher múltiplo comum posterior ao primeiro."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "C: 12 dias; múltiplos de 4: 4,8,12; de 6: 6,12.",
+      "resolucao_comentada": "A alternativa correta é 12 dias. 12 dias; múltiplos de 4: 4,8,12; de 6: 6,12.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "dias"
+      ]
+    },
+    {
+      "id": "MD-06",
+      "numero_original": 6,
+      "titulo": "Etiquetas na expedição",
+      "assunto": "Múltiplos e divisores",
+      "conteudo": "Critérios de divisibilidade por 10 e 100",
+      "habilidade": "Critérios de divisibilidade por 10 e 100.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "completar duas classificações."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-multiplos-divisores-e.html",
+        "numero": 6,
+        "texto_original": "6. Etiquetas na expedição Uma fábrica imprime códigos em lotes. Para um controle rápido, os lotes divisíveis por 10 recebem uma etiqueta azul, e os divisíveis por 100 recebem uma etiqueta dourada. Lote 1.250 3.400 7.830 9.000 Azul? ___ ___ ___ ___ Dourada? ___ ___ ___ ___ Complete a tabela marcando quais lotes recebem etiqueta azul e quais recebem etiqueta dourada.",
+        "gabarito_publicado": "Azul: 1.250, 3.400, 7.830, 9.000. Dourada: 3.400 e 9.000."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma fábrica imprime códigos em lotes. Para um controle rápido, os lotes divisíveis por 10 recebem uma etiqueta azul, e os divisíveis por 100 recebem uma etiqueta dourada."
+        ],
+        "comando": "Qual opção preenche corretamente as etiquetas dos quatro lotes?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Lote</th><th>1.250</th><th>3.400</th><th>7.830</th><th>9.000</th></tr><tr><td>Azul?</td><td>___</td><td>___</td><td>___</td><td>___</td></tr><tr><td>Dourada?</td><td>___</td><td>___</td><td>___</td><td>___</td></tr></table></div>",
+          "texto": "Lote 1.250 3.400 7.830 9.000 Azul? ___ ___ ___ ___ Dourada? ___ ___ ___ ___",
+          "tabelas": [
+            [
+              [
+                "Lote",
+                "1.250",
+                "3.400",
+                "7.830",
+                "9.000"
+              ],
+              [
+                "Azul?",
+                "___",
+                "___",
+                "___",
+                "___"
+              ],
+              [
+                "Dourada?",
+                "___",
+                "___",
+                "___",
+                "___"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela essencial: lotes 1.250, 3.400, 7.830, 9.000.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Azul: todos; dourada: todos.",
+          "valores": [
+            [
+              1250,
+              3400,
+              7830,
+              9000
+            ],
+            [
+              1250,
+              3400,
+              7830,
+              9000
+            ]
+          ],
+          "erro_comum": "Confundir terminar em 0 com terminar em 00."
+        },
+        {
+          "letra": "B",
+          "texto": "Azul: 1.250, 3.400, 7.830 e 9.000; dourada: 3.400 e 9.000.",
+          "valores": [
+            [
+              1250,
+              3400,
+              7830,
+              9000
+            ],
+            [
+              3400,
+              9000
+            ]
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Azul: 1.250 e 7.830; dourada: 3.400 e 9.000.",
+          "valores": [
+            [
+              1250,
+              7830
+            ],
+            [
+              3400,
+              9000
+            ]
+          ],
+          "erro_comum": "Tratar etiquetas como exclusivas, ignorando que múltiplos de 100 também são de 10."
+        },
+        {
+          "letra": "D",
+          "texto": "Azul: todos; dourada: somente 9.000.",
+          "valores": [
+            [
+              1250,
+              3400,
+              7830,
+              9000
+            ],
+            [
+              9000
+            ]
+          ],
+          "erro_comum": "Exigir três zeros finais para divisibilidade por 100."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "Azul: todos os quatro; dourada: 3.400 e 9.000. Terminação em 0 e em 00, respectivamente.",
+      "resolucao_comentada": "A alternativa correta é Azul: 1.250, 3.400, 7.830 e 9.000; dourada: 3.400 e 9.000. Azul: todos os quatro; dourada: 3.400 e 9.000. Terminação em 0 e em 00, respectivamente.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "azul",
+        "dourada"
+      ]
+    },
+    {
+      "id": "MD-07",
+      "numero_original": 7,
+      "titulo": "Número secreto",
+      "assunto": "Múltiplos e divisores",
+      "conteudo": "Múltiplos comuns restritos a intervalo",
+      "habilidade": "Múltiplos comuns restritos a intervalo.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "combinar divisibilidade e limites."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-multiplos-divisores-e.html",
+        "numero": 7,
+        "texto_original": "7. Número secreto Em um desafio, o número secreto é maior que 40 e menor que 60. Ele é múltiplo de 3 e de 4. Intervalo 41 a 59 Condições múltiplo de 3 e de 4 Qual é o número secreto? Há mais de uma possibilidade? Explique.",
+        "gabarito_publicado": "48. É a única possibilidade no intervalo; 48 é múltiplo de 12."
+      },
+      "enunciado": {
+        "contexto": [
+          "Em um desafio, o número secreto é maior que 40 e menor que 60. Ele é múltiplo de 3 e de 4."
+        ],
+        "comando": "Qual é o número secreto e por que ele é a única possibilidade?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Intervalo</th><th>41 a 59</th></tr><tr><td>Condições</td><td>múltiplo de 3 e de 4</td></tr></table></div>",
+          "texto": "Intervalo 41 a 59 Condições múltiplo de 3 e de 4",
+          "tabelas": [
+            [
+              [
+                "Intervalo",
+                "41 a 59"
+              ],
+              [
+                "Condições",
+                "múltiplo de 3 e de 4"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Quadro de pistas; apoio, condições no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "42; basta ser múltiplo de 3.",
+          "valores": [
+            42,
+            "so_3"
+          ],
+          "erro_comum": "Ignorar a condição de ser múltiplo de 4."
+        },
+        {
+          "letra": "B",
+          "texto": "44; basta ser múltiplo de 4.",
+          "valores": [
+            44,
+            "so_4"
+          ],
+          "erro_comum": "Ignorar a condição de ser múltiplo de 3."
+        },
+        {
+          "letra": "C",
+          "texto": "48; é o único múltiplo de 12 estritamente entre 40 e 60.",
+          "valores": [
+            48,
+            "multiplo_12"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "60; ele é múltiplo de 3 e 4 e o limite pode ser incluído.",
+          "valores": [
+            60,
+            "incluir_limite"
+          ],
+          "erro_comum": "Desrespeitar a desigualdade menor que 60."
+        }
+      ],
+      "gabarito": "C",
+      "resposta_matematica": "48, única possibilidade: MMC(3,4)=12; múltiplos vizinhos são 36,48,60; apenas 48 está entre 40 e 60.",
+      "resolucao_comentada": "A alternativa correta é 48; é o único múltiplo de 12 estritamente entre 40 e 60. 48, única possibilidade: MMC(3,4)=12; múltiplos vizinhos são 36,48,60; apenas 48 está entre 40 e 60.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "numero",
+        "motivo"
+      ]
+    },
+    {
+      "id": "MD-08",
+      "numero_original": 8,
+      "titulo": "Prateleiras do almoxarifado",
+      "assunto": "Múltiplos e divisores",
+      "conteudo": "Divisores de 84 e teste de arranjos",
+      "habilidade": "Divisores de 84 e teste de arranjos.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "verificar cinco divisões."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-multiplos-divisores-e.html",
+        "numero": 8,
+        "texto_original": "8. Prateleiras do almoxarifado O almoxarifado recebeu 84 caixas idênticas. Elas serão organizadas em fileiras com a mesma quantidade de caixas e sem sobras. Sugestão de fileira 6 7 8 12 14 Serve? ___ ___ ___ ___ ___ Complete a linha 'Serve?' e identifique quais números da tabela são divisores de 84.",
+        "gabarito_publicado": "6, 7, 12 e 14 servem; 8 não. Divisores listados de 84: 6, 7, 12, 14."
+      },
+      "enunciado": {
+        "contexto": [
+          "O almoxarifado recebeu 84 caixas idênticas. Elas serão organizadas em fileiras com a mesma quantidade de caixas e sem sobras."
+        ],
+        "comando": "Qual conjunto reúne todas as sugestões que servem sem sobra?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Sugestão de fileira</th><th>6</th><th>7</th><th>8</th><th>12</th><th>14</th></tr><tr><td>Serve?</td><td>___</td><td>___</td><td>___</td><td>___</td><td>___</td></tr></table></div>",
+          "texto": "Sugestão de fileira 6 7 8 12 14 Serve? ___ ___ ___ ___ ___",
+          "tabelas": [
+            [
+              [
+                "Sugestão de fileira",
+                "6",
+                "7",
+                "8",
+                "12",
+                "14"
+              ],
+              [
+                "Serve?",
+                "___",
+                "___",
+                "___",
+                "___",
+                "___"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela essencial: lista de candidatos.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6, 7, 8, 12 e 14.",
+          "valores": [
+            [
+              6,
+              7,
+              8,
+              12,
+              14
+            ]
+          ],
+          "erro_comum": "Supor que todo candidato é divisor."
+        },
+        {
+          "letra": "B",
+          "texto": "6, 8, 12 e 14.",
+          "valores": [
+            [
+              6,
+              8,
+              12,
+              14
+            ]
+          ],
+          "erro_comum": "Escolher só números pares, incluindo 8 indevidamente."
+        },
+        {
+          "letra": "C",
+          "texto": "7 e 14.",
+          "valores": [
+            [
+              7,
+              14
+            ]
+          ],
+          "erro_comum": "Usar apenas os fatores associados a sete, omitindo outros divisores."
+        },
+        {
+          "letra": "D",
+          "texto": "6, 7, 12 e 14.",
+          "valores": [
+            [
+              6,
+              7,
+              12,
+              14
+            ]
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "6, 7, 12, 14: quocientes 14,12,7,6; 8 não serve, pois 84=8×10+4.",
+      "resolucao_comentada": "A alternativa correta é 6, 7, 12 e 14. 6, 7, 12, 14: quocientes 14,12,7,6; 8 não serve, pois 84=8×10+4.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "divisores"
+      ]
+    },
+    {
+      "id": "MD-09",
+      "numero_original": 9,
+      "titulo": "O número primo no painel",
+      "assunto": "Múltiplos e divisores",
+      "conteudo": "Primos e identificação de divisor de composto",
+      "habilidade": "Primos e identificação de divisor de composto.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "verificar primalidade e dar contraexemplos."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-multiplos-divisores-e.html",
+        "numero": 9,
+        "texto_original": "9. O número primo no painel Um painel eletrônico exibirá apenas números primos. O técnico digitou quatro opções antes de iniciar o sistema. 29 33 37 51 Quais números podem permanecer no painel? Para cada número retirado, indique um divisor diferente de 1 e dele mesmo.",
+        "gabarito_publicado": "29 e 37 são primos. 33 é divisível por 3; 51 é divisível por 3."
+      },
+      "enunciado": {
+        "contexto": [
+          "Um painel eletrônico exibirá apenas números primos. O técnico digitou quatro opções antes de iniciar o sistema."
+        ],
+        "comando": "Quais números ficam no painel e qual divisor permite retirar cada composto?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"art\"><div class=\"cards\"><div class=\"card\">29</div><div class=\"card\">33</div><div class=\"card\">37</div><div class=\"card\">51</div></div></div>",
+          "texto": "29 33 37 51",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Cartões essenciais: 29,33,37,51.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "29 e 37 ficam; 33 e 51 são divisíveis por 3.",
+          "valores": [
+            [
+              29,
+              37
+            ],
+            3,
+            3
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "29, 33, 37 e 51 ficam; todos são ímpares.",
+          "valores": [
+            [
+              29,
+              33,
+              37,
+              51
+            ],
+            null,
+            null
+          ],
+          "erro_comum": "Confundir ímpar com primo."
+        },
+        {
+          "letra": "C",
+          "texto": "29 e 33 ficam; 37 e 51 são divisíveis por 3.",
+          "valores": [
+            [
+              29,
+              33
+            ],
+            3,
+            3
+          ],
+          "erro_comum": "Aplicar incorretamente soma dos algarismos a 33 e 37."
+        },
+        {
+          "letra": "D",
+          "texto": "Somente 37 fica; 29, 33 e 51 são divisíveis por 3.",
+          "valores": [
+            [
+              37
+            ],
+            3,
+            3
+          ],
+          "erro_comum": "Considerar 29 composto sem divisor válido."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "29 e 37 são primos; testar 2,3,5 basta, pois √37<7. 33=3×11, 51=3×17.",
+      "resolucao_comentada": "A alternativa correta é 29 e 37 ficam; 33 e 51 são divisíveis por 3. 29 e 37 são primos; testar 2,3,5 basta, pois √37<7. 33=3×11, 51=3×17.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "primos",
+        "divisor_33",
+        "divisor_51"
+      ]
+    },
+    {
+      "id": "MD-10",
+      "numero_original": 10,
+      "titulo": "Cartões de classificação",
+      "assunto": "Múltiplos e divisores",
+      "conteudo": "Classificação de primos/compostos e fatoração",
+      "habilidade": "Classificação de primos/compostos e fatoração.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "seis classificações e um produto."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-multiplos-divisores-e.html",
+        "numero": 10,
+        "texto_original": "10. Cartões de classificação Na aula, cada cartão deve ser colocado em uma das caixas: 'PRIMO' ou 'COMPOSTO'. 11 21 23 27 31 49 Classifique os seis números. Depois, escolha um dos compostos e escreva-o como produto de dois fatores maiores que 1.",
+        "gabarito_publicado": "Primos: 11, 23, 31. Compostos: 21, 27, 49. Ex.: 21 = 3 x 7."
+      },
+      "enunciado": {
+        "contexto": [
+          "Na aula, cada cartão deve ser colocado em uma das caixas: 'PRIMO' ou 'COMPOSTO'."
+        ],
+        "comando": "Qual classificação dos seis cartões e qual fatoração de um composto estão corretas?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"art\"><div class=\"cards\"><div class=\"card\">11</div><div class=\"card\">21</div><div class=\"card\">23</div><div class=\"card\">27</div><div class=\"card\">31</div><div class=\"card\">49</div></div></div>",
+          "texto": "11 21 23 27 31 49",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Cartões essenciais: seis números.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Todos são primos, pois são ímpares; 21 não tem fatores além de 1 e 21.",
+          "valores": [
+            [
+              11,
+              21,
+              23,
+              27,
+              31,
+              49
+            ],
+            [],
+            [
+              1,
+              21
+            ]
+          ],
+          "erro_comum": "Confundir paridade com primalidade."
+        },
+        {
+          "letra": "B",
+          "texto": "Primos: 11, 23, 31; compostos: 21, 27, 49; 21 = 3 × 7.",
+          "valores": [
+            [
+              11,
+              23,
+              31
+            ],
+            [
+              21,
+              27,
+              49
+            ],
+            [
+              3,
+              7
+            ]
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Primos: 11, 23, 31, 49; compostos: 21, 27; 21 = 3 × 7.",
+          "valores": [
+            [
+              11,
+              23,
+              31,
+              49
+            ],
+            [
+              21,
+              27
+            ],
+            [
+              3,
+              7
+            ]
+          ],
+          "erro_comum": "Não testar o divisor 7 de 49."
+        },
+        {
+          "letra": "D",
+          "texto": "Primos: 11, 23, 31; compostos: 21, 27, 49; 21 = 3 × 6.",
+          "valores": [
+            [
+              11,
+              23,
+              31
+            ],
+            [
+              21,
+              27,
+              49
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "erro_comum": "Acertar classificação, mas errar a fatoração."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "Primos: 11,23,31; compostos: 21,27,49; 21=3×7, 27=3×9, 49=7×7.",
+      "resolucao_comentada": "A alternativa correta é Primos: 11, 23, 31; compostos: 21, 27, 49; 21 = 3 × 7. Primos: 11,23,31; compostos: 21,27,49; 21=3×7, 27=3×9, 49=7×7.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "primos",
+        "compostos",
+        "fatores_21"
+      ]
+    },
+    {
+      "id": "MD-11",
+      "numero_original": 11,
+      "titulo": "Embalagens de brigadeiros",
+      "assunto": "Múltiplos e divisores",
+      "conteudo": "Divisores e número de grupos",
+      "habilidade": "Divisores e número de grupos.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "filtrar embalagens e calcular quocientes."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-multiplos-divisores-e.html",
+        "numero": 11,
+        "texto_original": "11. Embalagens de brigadeiros Uma confeitaria produziu 96 brigadeiros e quer montar caixas com a mesma quantidade, sem sobras. A embalagem pode conter 6, 8, 10 ou 12 brigadeiros. 6 por caixa 8 por caixa 10 por caixa 12 por caixa Quais opções permitem usar todos os brigadeiros sem sobra? Para cada opção válida, diga quantas caixas serão necessárias.",
+        "gabarito_publicado": "6, 8 e 12 por caixa. Respectivamente 16, 12 e 8 caixas."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma confeitaria produziu 96 brigadeiros e quer montar caixas com a mesma quantidade, sem sobras. A embalagem pode conter 6, 8, 10 ou 12 brigadeiros."
+        ],
+        "comando": "Qual opção reúne todas as embalagens válidas e o número de caixas de cada tamanho?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><td>6 por caixa</td><td>8 por caixa</td><td>10 por caixa</td><td>12 por caixa</td></tr></table></div>",
+          "texto": "6 por caixa 8 por caixa 10 por caixa 12 por caixa",
+          "tabelas": [
+            [
+              [
+                "6 por caixa",
+                "8 por caixa",
+                "10 por caixa",
+                "12 por caixa"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela/embalagens; apoio, tamanhos também no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6, 8, 10 e 12 brigadeiros; 16, 12, 9 e 8 caixas.",
+          "valores": [
+            [
+              6,
+              8,
+              10,
+              12
+            ],
+            [
+              16,
+              12,
+              9,
+              8
+            ]
+          ],
+          "erro_comum": "Aceitar divisão por 10 com resto."
+        },
+        {
+          "letra": "B",
+          "texto": "6, 8 e 12 brigadeiros; respectivamente 6, 8 e 12 caixas.",
+          "valores": [
+            [
+              6,
+              8,
+              12
+            ],
+            [
+              6,
+              8,
+              12
+            ]
+          ],
+          "erro_comum": "Confundir tamanho da embalagem com número de caixas."
+        },
+        {
+          "letra": "C",
+          "texto": "6, 8 e 12 brigadeiros; respectivamente 16, 12 e 8 caixas.",
+          "valores": [
+            [
+              6,
+              8,
+              12
+            ],
+            [
+              16,
+              12,
+              8
+            ]
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "6 e 8 brigadeiros; respectivamente 16 e 12 caixas.",
+          "valores": [
+            [
+              6,
+              8
+            ],
+            [
+              16,
+              12
+            ]
+          ],
+          "erro_comum": "Omitir 12 como divisor de 96."
+        }
+      ],
+      "gabarito": "C",
+      "resposta_matematica": "6→16 caixas, 8→12, 12→8; 96 é divisível por esses números, não por 10.",
+      "resolucao_comentada": "A alternativa correta é 6, 8 e 12 brigadeiros; respectivamente 16, 12 e 8 caixas. 6→16 caixas, 8→12, 12→8; 96 é divisível por esses números, não por 10.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "tamanhos",
+        "caixas"
+      ]
+    },
+    {
+      "id": "MD-12",
+      "numero_original": 12,
+      "titulo": "A trilha dos múltiplos",
+      "assunto": "Múltiplos e divisores",
+      "conteudo": "Reconhecimento de múltiplos e sucessor na sequência",
+      "habilidade": "Reconhecimento de múltiplos e sucessor na sequência.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "filtrar lista e continuar."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-multiplos-divisores-e.html",
+        "numero": 12,
+        "texto_original": "12. A trilha dos múltiplos Em um jogo de tabuleiro, o personagem só pode pisar em casas que sejam múltiplos de 6. 12 18 20 24 30 35 42 48 Quais casas fazem parte da trilha correta? Qual é o próximo múltiplo de 6 depois de 48?",
+        "gabarito_publicado": "12, 18, 24, 30, 42 e 48. Próximo: 54."
+      },
+      "enunciado": {
+        "contexto": [
+          "Em um jogo de tabuleiro, o personagem só pode pisar em casas que sejam múltiplos de 6."
+        ],
+        "comando": "Qual opção lista todas as casas válidas e o próximo múltiplo depois de 48?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"art\"><div class=\"cards\"><div class=\"card\">12</div><div class=\"card\">18</div><div class=\"card\">20</div><div class=\"card\">24</div><div class=\"card\">30</div><div class=\"card\">35</div><div class=\"card\">42</div><div class=\"card\">48</div></div></div>",
+          "texto": "12 18 20 24 30 35 42 48",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Cartões/trilha essenciais: lista de casas.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "12, 18, 20, 24, 30, 42 e 48; próximo: 54.",
+          "valores": [
+            [
+              12,
+              18,
+              20,
+              24,
+              30,
+              42,
+              48
+            ],
+            54
+          ],
+          "erro_comum": "Confundir número par com múltiplo de 6."
+        },
+        {
+          "letra": "B",
+          "texto": "12, 18, 24, 30, 35, 42 e 48; próximo: 54.",
+          "valores": [
+            [
+              12,
+              18,
+              24,
+              30,
+              35,
+              42,
+              48
+            ],
+            54
+          ],
+          "erro_comum": "Aceitar 35 por proximidade a 36."
+        },
+        {
+          "letra": "C",
+          "texto": "12, 18, 24, 30, 42 e 48; próximo: 49.",
+          "valores": [
+            [
+              12,
+              18,
+              24,
+              30,
+              42,
+              48
+            ],
+            49
+          ],
+          "erro_comum": "Usar sucessor inteiro em vez do próximo múltiplo."
+        },
+        {
+          "letra": "D",
+          "texto": "12, 18, 24, 30, 42 e 48; próximo: 54.",
+          "valores": [
+            [
+              12,
+              18,
+              24,
+              30,
+              42,
+              48
+            ],
+            54
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "12,18,24,30,42,48; próximo 54 (=48+6); 20 e 35 não são divisíveis por 6.",
+      "resolucao_comentada": "A alternativa correta é 12, 18, 24, 30, 42 e 48; próximo: 54. 12,18,24,30,42,48; próximo 54 (=48+6); 20 e 35 não são divisíveis por 6.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "casas",
+        "proximo"
+      ]
+    },
+    {
+      "id": "MD-13",
+      "numero_original": 13,
+      "titulo": "Duas sirenes",
+      "assunto": "Múltiplos e divisores",
+      "conteudo": "MMC e conversão de intervalo em horário",
+      "habilidade": "MMC e conversão de intervalo em horário.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "calcular período e somar ao horário."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-multiplos-divisores-e.html",
+        "numero": 13,
+        "texto_original": "13. Duas sirenes Em uma indústria, uma sirene toca a cada 18 minutos e outra a cada 24 minutos. Às 9h00, tocaram juntas. Sirene A 18 min Sirene B 24 min Em que horário elas tocarão juntas novamente? a) 9h42 b) 9h54 c) 10h12 d) 10h24",
+        "gabarito_publicado": "MMC(18,24)=72 min; 10h12. Alternativa c."
+      },
+      "enunciado": {
+        "contexto": [
+          "Em uma indústria, uma sirene toca a cada 18 minutos e outra a cada 24 minutos. Às 9h00, tocaram juntas."
+        ],
+        "comando": "Em que horário as sirenes tocarão juntas novamente?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Sirene A</th><th>18 min</th></tr><tr><td>Sirene B</td><td>24 min</td></tr></table></div>",
+          "texto": "Sirene A 18 min Sirene B 24 min",
+          "tabelas": [
+            [
+              [
+                "Sirene A",
+                "18 min"
+              ],
+              [
+                "Sirene B",
+                "24 min"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela de ciclos; apoio.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10h12.",
+          "valores": [
+            "10:12"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "9h42.",
+          "valores": [
+            "09:42"
+          ],
+          "erro_comum": "Somar os dois intervalos."
+        },
+        {
+          "letra": "C",
+          "texto": "9h54.",
+          "valores": [
+            "09:54"
+          ],
+          "erro_comum": "Usar apenas múltiplo de 18."
+        },
+        {
+          "letra": "D",
+          "texto": "10h24.",
+          "valores": [
+            "10:24"
+          ],
+          "erro_comum": "Usar 84 minutos, que não é múltiplo de ambos os períodos."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "C: 10h12; MMC(18,24)=72 min; 9h00 + 1h12.",
+      "resolucao_comentada": "A alternativa correta é 10h12. 10h12; MMC(18,24)=72 min; 9h00 + 1h12.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "horario"
+      ]
+    },
+    {
+      "id": "MD-14",
+      "numero_original": 14,
+      "titulo": "Descubra o erro",
+      "assunto": "Múltiplos e divisores",
+      "conteudo": "Refutação de generalização com contraexemplos",
+      "habilidade": "Refutação de generalização com contraexemplos.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "escolher dois compostos ímpares e justificar."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-multiplos-divisores-e.html",
+        "numero": 14,
+        "texto_original": "14. Descubra o erro Um estudante afirmou: 'Todo número ímpar é primo, porque não é divisível por 2'. A turma decidiu testar a afirmação. Ímpares para testar 9 15 21 25 27 A afirmação está correta? Use pelo menos dois números da tabela para justificar sua resposta.",
+        "gabarito_publicado": "Não. 9, 15, 21, 25 e 27 são ímpares e compostos."
+      },
+      "enunciado": {
+        "contexto": [
+          "Um estudante afirmou: 'Todo número ímpar é primo, porque não é divisível por 2'. A turma decidiu testar a afirmação."
+        ],
+        "comando": "Qual opção avalia a afirmação e usa dois números da lista para justificá-la?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"art\"><div class=\"cards\"><div class=\"card\">Ímpares para testar</div><div class=\"card\">9</div><div class=\"card\">15</div><div class=\"card\">21</div><div class=\"card\">25</div><div class=\"card\">27</div></div></div>",
+          "texto": "Ímpares para testar 9 15 21 25 27",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Cartões essenciais para manter a exigência “da tabela”.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sim; 9 e 15 são primos porque não são divisíveis por 2.",
+          "valores": [
+            true,
+            [
+              9,
+              15
+            ],
+            []
+          ],
+          "erro_comum": "Considerar ausência de divisor 2 suficiente para primalidade."
+        },
+        {
+          "letra": "B",
+          "texto": "Não; 9 = 3 × 3 e 15 = 3 × 5 são ímpares e compostos.",
+          "valores": [
+            false,
+            [
+              9,
+              15
+            ],
+            [
+              [
+                3,
+                3
+              ],
+              [
+                3,
+                5
+              ]
+            ]
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Não; 9 = 2 × 4 e 15 = 3 × 5.",
+          "valores": [
+            false,
+            [
+              9,
+              15
+            ],
+            [
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                5
+              ]
+            ]
+          ],
+          "erro_comum": "Usar igualdade falsa para construir contraexemplo."
+        },
+        {
+          "letra": "D",
+          "texto": "Sim; 21 e 25 têm fatores maiores que 1 e por isso são primos.",
+          "valores": [
+            true,
+            [
+              21,
+              25
+            ],
+            [
+              [
+                3,
+                7
+              ],
+              [
+                5,
+                5
+              ]
+            ]
+          ],
+          "erro_comum": "Inverter a definição de primo e composto."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "Falsa: por exemplo, 9=3×3 e 15=3×5. Também 21=3×7, 25=5×5, 27=3×9.",
+      "resolucao_comentada": "A alternativa correta é Não; 9 = 3 × 3 e 15 = 3 × 5 são ímpares e compostos. Falsa: por exemplo, 9=3×3 e 15=3×5. Também 21=3×7, 25=5×5, 27=3×9.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "afirmacao_correta",
+        "exemplos",
+        "fatores"
+      ]
+    },
+    {
+      "id": "MD-15",
+      "numero_original": 15,
+      "titulo": "Código divisível por 9",
+      "assunto": "Múltiplos e divisores",
+      "conteudo": "Critério de divisibilidade por 9",
+      "habilidade": "Critério de divisibilidade por 9.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "três somas de algarismos."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-multiplos-divisores-e.html",
+        "numero": 15,
+        "texto_original": "15. Código divisível por 9 Um sistema aceita apenas códigos cuja soma dos algarismos seja divisível por 9. Código A 4 5 7 2 Código B 3 6 9 0 Código C 5 4 2 8 Qual código será aceito? Mostre a soma dos algarismos usada na decisão.",
+        "gabarito_publicado": "Código B: 3+6+9+0=18, divisível por 9."
+      },
+      "enunciado": {
+        "contexto": [
+          "Um sistema aceita apenas códigos cuja soma dos algarismos seja divisível por 9."
+        ],
+        "comando": "Qual código será aceito e qual soma de algarismos justifica a escolha?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Código A</th><th>4 5 7 4</th></tr><tr><td>Código B</td><td>3 6 9 0</td></tr><tr><td>Código C</td><td>5 4 2 8</td></tr></table></div>",
+          "texto": "Código A 4 5 7 4 Código B 3 6 9 0 Código C 5 4 2 8",
+          "tabelas": [
+            [
+              [
+                "Código A",
+                "4 5 7 4"
+              ],
+              [
+                "Código B",
+                "3 6 9 0"
+              ],
+              [
+                "Código C",
+                "5 4 2 8"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela essencial: A=4572, B=3690, C=5428. Gabarito original incompleto; A também é válido.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Somente o código A; 4 + 5 + 7 + 4 = 20.",
+          "valores": [
+            [
+              "A"
+            ],
+            20
+          ],
+          "erro_comum": "Aceitar soma que não é múltipla de 9."
+        },
+        {
+          "letra": "B",
+          "texto": "Somente o código B; 3 + 6 + 9 + 0 = 18.",
+          "valores": [
+            [
+              "B"
+            ],
+            18
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Somente o código C; 5 + 4 + 2 + 8 = 19.",
+          "valores": [
+            [
+              "C"
+            ],
+            19
+          ],
+          "erro_comum": "Aceitar 19 por proximidade a 18."
+        },
+        {
+          "letra": "D",
+          "texto": "Códigos A e B; somas 20 e 18, pois basta a soma ser par.",
+          "valores": [
+            [
+              "A",
+              "B"
+            ],
+            [
+              20,
+              18
+            ]
+          ],
+          "erro_comum": "Trocar divisibilidade por 9 por paridade."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "A: 4 + 5 + 7 + 4 = 20, não divisível por 9; 4574 = 9 × 508 + 2. B: 3 + 6 + 9 + 0 = 18, divisível por 9; 3690 = 9 × 410. C: 5 + 4 + 2 + 8 = 19, não divisível por 9; 5428 = 9 × 603 + 1. Portanto somente o código B é aceito.",
+      "resolucao_comentada": "A alternativa correta é Somente o código B; 3 + 6 + 9 + 0 = 18. 4 + 5 + 7 + 4 = 20, não divisível por 9; 4574 = 9 × 508 + 2. B: 3 + 6 + 9 + 0 = 18, divisível por 9; 3690 = 9 × 410. C: 5 + 4 + 2 + 8 = 19, não divisível por 9; 5428 = 9 × 603 + 1. Portanto somente o código B é aceito.",
+      "observacoes": [
+        "Correção explicitamente aprovada: código A alterado de 4572 para 4574 apenas no banco; B=3690 e C=5428 preservados."
+      ],
+      "correcoes": [
+        {
+          "campo": "codigo_A",
+          "valor_original": 4572,
+          "valor_banco": 4574,
+          "origem": "Aprovado expressamente pelo usuário nesta tarefa",
+          "efeito": "Somente B é divisível por 9; nenhuma edição no Blogger."
+        }
+      ],
+      "componentes_resposta": [
+        "codigos",
+        "soma"
+      ]
+    },
+    {
+      "id": "MD-16",
+      "numero_original": 16,
+      "titulo": "Rodas-gigantes sincronizadas",
+      "assunto": "Múltiplos e divisores",
+      "conteudo": "MMC e contagem de voltas em cada ciclo",
+      "habilidade": "MMC e contagem de voltas em cada ciclo.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "período comum e dois quocientes."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-multiplos-divisores-e.html",
+        "numero": 16,
+        "texto_original": "16. Rodas-gigantes sincronizadas Em um parque, a roda-gigante A completa uma volta em 8 minutos e a roda-gigante B em 12 minutos. As duas iniciaram uma volta juntas às 16h00. Roda A 8 min/volta Roda B 12 min/volta Quantas voltas cada roda terá completado quando voltarem a iniciar uma volta juntas pela primeira vez?",
+        "gabarito_publicado": "MMC(8,12)=24 min. A completa 3 voltas; B completa 2 voltas."
+      },
+      "enunciado": {
+        "contexto": [
+          "Em um parque, a roda-gigante A completa uma volta em 8 minutos e a roda-gigante B em 12 minutos. As duas iniciaram uma volta juntas às 16h00."
+        ],
+        "comando": "Quantas voltas cada roda completa no primeiro reencontro dos inícios de volta?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Roda A</th><th>8 min/volta</th></tr><tr><td>Roda B</td><td>12 min/volta</td></tr></table></div>",
+          "texto": "Roda A 8 min/volta Roda B 12 min/volta",
+          "tabelas": [
+            [
+              [
+                "Roda A",
+                "8 min/volta"
+              ],
+              [
+                "Roda B",
+                "12 min/volta"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela de ciclos; apoio.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A: 2 voltas; B: 3 voltas.",
+          "valores": [
+            2,
+            3
+          ],
+          "erro_comum": "Inverter os quocientes dos períodos."
+        },
+        {
+          "letra": "B",
+          "texto": "A: 1 volta; B: 1 volta.",
+          "valores": [
+            1,
+            1
+          ],
+          "erro_comum": "Supor que tempos diferentes terminam juntos após uma volta."
+        },
+        {
+          "letra": "C",
+          "texto": "A: 6 voltas; B: 4 voltas.",
+          "valores": [
+            6,
+            4
+          ],
+          "erro_comum": "Escolher reencontro posterior, não o primeiro."
+        },
+        {
+          "letra": "D",
+          "texto": "A: 3 voltas; B: 2 voltas.",
+          "valores": [
+            3,
+            2
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "MMC(8,12)=24 min; A:24÷8=3 voltas, B:24÷12=2; coincidência às 16h24.",
+      "resolucao_comentada": "A alternativa correta é A: 3 voltas; B: 2 voltas. MMC(8,12)=24 min; A:24÷8=3 voltas, B:24÷12=2; coincidência às 16h24.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "voltas_a",
+        "voltas_b"
+      ]
+    },
+    {
+      "id": "MD-17",
+      "numero_original": 17,
+      "titulo": "Divisores em um mosaico",
+      "assunto": "Múltiplos e divisores",
+      "conteudo": "Divisibilidade e arranjos retangulares",
+      "habilidade": "Divisibilidade e arranjos retangulares.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "cinco divisões válidas e exclusão."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-multiplos-divisores-e.html",
+        "numero": 17,
+        "texto_original": "17. Divisores em um mosaico Um painel será montado com 72 peças quadradas em linhas iguais, sem sobrar nenhuma peça. Linhas 3 4 5 6 8 9 Peças por linha ? ? ? ? ? ? Complete apenas as organizações possíveis. Qual opção da tabela não permite montar o painel sem sobra?",
+        "gabarito_publicado": "3→24; 4→18; 6→12; 8→9; 9→8. A opção 5 não funciona."
+      },
+      "enunciado": {
+        "contexto": [
+          "Um painel será montado com 72 peças quadradas em linhas iguais, sem sobrar nenhuma peça."
+        ],
+        "comando": "Qual opção completa todas as organizações possíveis e identifica a que deixa sobra?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Linhas</th><th>3</th><th>4</th><th>5</th><th>6</th><th>8</th><th>9</th></tr><tr><td>Peças por linha</td><td>?</td><td>?</td><td>?</td><td>?</td><td>?</td><td>?</td></tr></table></div>",
+          "texto": "Linhas 3 4 5 6 8 9 Peças por linha ? ? ? ? ? ?",
+          "tabelas": [
+            [
+              [
+                "Linhas",
+                "3",
+                "4",
+                "5",
+                "6",
+                "8",
+                "9"
+              ],
+              [
+                "Peças por linha",
+                "?",
+                "?",
+                "?",
+                "?",
+                "?",
+                "?"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela essencial: números de linhas a completar.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3→24; 4→18; 6→12; 8→9; 9→8; 5 linhas não servem.",
+          "valores": [
+            [
+              [
+                3,
+                24
+              ],
+              [
+                4,
+                18
+              ],
+              [
+                6,
+                12
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                9,
+                8
+              ]
+            ],
+            5
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "3→24; 4→18; 5→14; 6→12; 8→9; 9→8; todas servem.",
+          "valores": [
+            [
+              [
+                3,
+                24
+              ],
+              [
+                4,
+                18
+              ],
+              [
+                5,
+                14
+              ],
+              [
+                6,
+                12
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                9,
+                8
+              ]
+            ],
+            null
+          ],
+          "erro_comum": "Descartar o resto de 72 ÷ 5."
+        },
+        {
+          "letra": "C",
+          "texto": "3→24; 4→18; 6→12; 8→8; 9→9; 5 não serve.",
+          "valores": [
+            [
+              [
+                3,
+                24
+              ],
+              [
+                4,
+                18
+              ],
+              [
+                6,
+                12
+              ],
+              [
+                8,
+                8
+              ],
+              [
+                9,
+                9
+              ]
+            ],
+            5
+          ],
+          "erro_comum": "Trocar fatores ou repetir o número de linhas como quantidade por linha."
+        },
+        {
+          "letra": "D",
+          "texto": "3→24; 4→18; 6→12; 9→8; 5 e 8 não servem.",
+          "valores": [
+            [
+              [
+                3,
+                24
+              ],
+              [
+                4,
+                18
+              ],
+              [
+                6,
+                12
+              ],
+              [
+                9,
+                8
+              ]
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          "erro_comum": "Omitir divisor 8, apesar de 8 × 9 = 72."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "3→24; 4→18; 6→12; 8→9; 9→8; 5 não serve, pois 72=5×14+2.",
+      "resolucao_comentada": "A alternativa correta é 3→24; 4→18; 6→12; 8→9; 9→8; 5 linhas não servem. 3→24; 4→18; 6→12; 8→9; 9→8; 5 não serve, pois 72=5×14+2.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "pares",
+        "invalida"
+      ]
+    },
+    {
+      "id": "MD-18",
+      "numero_original": 18,
+      "titulo": "Múltipla escolha - critério de divisibilidade",
+      "assunto": "Múltiplos e divisores",
+      "conteudo": "Critério de divisibilidade por 6",
+      "habilidade": "Critério de divisibilidade por 6.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "paridade e soma dos algarismos."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-multiplos-divisores-e.html",
+        "numero": 18,
+        "texto_original": "18. Múltipla escolha - critério de divisibilidade Uma empresa precisa selecionar um código divisível por 6. Para isso, o número precisa ser divisível por 2 e por 3. Opções 114 125 132 145 Quais códigos são divisíveis por 6? a) Somente 114 b) Somente 132 c) 114 e 132 d) 125 e 145",
+        "gabarito_publicado": "114 e 132. Alternativa c."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma empresa precisa selecionar um código divisível por 6. Para isso, o número precisa ser divisível por 2 e por 3."
+        ],
+        "comando": "Quais códigos são divisíveis por 6?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"art\"><div class=\"cards\"><div class=\"card\">Opções</div><div class=\"card\">114</div><div class=\"card\">125</div><div class=\"card\">132</div><div class=\"card\">145</div></div></div>",
+          "texto": "Opções 114 125 132 145",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Cartões de códigos; apoio, códigos constam das alternativas.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Somente 114.",
+          "valores": [
+            [
+              114
+            ]
+          ],
+          "erro_comum": "Não reconhecer que 132 também satisfaz 2 e 3."
+        },
+        {
+          "letra": "B",
+          "texto": "114 e 132.",
+          "valores": [
+            [
+              114,
+              132
+            ]
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Somente 132.",
+          "valores": [
+            [
+              132
+            ]
+          ],
+          "erro_comum": "Não reconhecer que 114 também satisfaz 2 e 3."
+        },
+        {
+          "letra": "D",
+          "texto": "125 e 145.",
+          "valores": [
+            [
+              125,
+              145
+            ]
+          ],
+          "erro_comum": "Confundir divisibilidade por 5 com divisibilidade por 6."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "C: 114 e 132; ambos pares e com soma 6; 125 e 145 são ímpares.",
+      "resolucao_comentada": "A alternativa correta é 114 e 132. 114 e 132; ambos pares e com soma 6; 125 e 145 são ímpares.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "codigos"
+      ]
+    },
+    {
+      "id": "MD-19",
+      "numero_original": 19,
+      "titulo": "Fatoração do número 60",
+      "assunto": "Múltiplos e divisores",
+      "conteudo": "Decomposição em fatores e fatoração prima",
+      "habilidade": "Decomposição em fatores e fatoração prima.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "verificar produtos e decompor."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-multiplos-divisores-e.html",
+        "numero": 19,
+        "texto_original": "19. Fatoração do número 60 Para montar kits de peças, a professora quer mostrar diferentes formas de decompor 60 em fatores. 60 = 6 x 10 60 = 5 x 12 60 = 3 x 20 60 = 2 x 30 Todas as decomposições estão corretas? Continue uma delas até escrever 60 como produto apenas de números primos.",
+        "gabarito_publicado": "Sim. 60 = 2 x 2 x 3 x 5."
+      },
+      "enunciado": {
+        "contexto": [
+          "Para montar kits de peças, a professora quer mostrar diferentes formas de decompor 60 em fatores."
+        ],
+        "comando": "Todas as decomposições dadas estão corretas? Qual continuação usa somente fatores primos?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"art\"><div class=\"cards\"><div class=\"card\">60 = 6 x 10</div><div class=\"card\">60 = 5 x 12</div><div class=\"card\">60 = 3 x 20</div><div class=\"card\">60 = 2 x 30</div></div></div>",
+          "texto": "60 = 6 x 10 60 = 5 x 12 60 = 3 x 20 60 = 2 x 30",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Quadro essencial: quatro decomposições dadas.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sim; 60 = 6 × 10, e os dois fatores já são primos.",
+          "valores": [
+            true,
+            [
+              6,
+              10
+            ]
+          ],
+          "erro_comum": "Interromper fatoração em números compostos."
+        },
+        {
+          "letra": "B",
+          "texto": "Não; 60 = 2 × 3 × 5.",
+          "valores": [
+            false,
+            [
+              2,
+              3,
+              5
+            ]
+          ],
+          "erro_comum": "Omitir um fator 2 e rejeitar produtos corretos."
+        },
+        {
+          "letra": "C",
+          "texto": "Sim; 60 = 2 × 2 × 3 × 5.",
+          "valores": [
+            true,
+            [
+              2,
+              2,
+              3,
+              5
+            ]
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Sim; 60 = 2 × 2 × 3 × 3.",
+          "valores": [
+            true,
+            [
+              2,
+              2,
+              3,
+              3
+            ]
+          ],
+          "erro_comum": "Usar fator 3 no lugar de 5, produzindo 36."
+        }
+      ],
+      "gabarito": "C",
+      "resposta_matematica": "Todas corretas: 6×10=5×12=3×20=2×30=60; 60=2×2×3×5.",
+      "resolucao_comentada": "A alternativa correta é Sim; 60 = 2 × 2 × 3 × 5. Todas corretas: 6×10=5×12=3×20=2×30=60; 60=2×2×3×5.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "todas_corretas",
+        "fatores_primos"
+      ]
+    },
+    {
+      "id": "MD-20",
+      "numero_original": 20,
+      "titulo": "Desafio final - agenda da escola",
+      "assunto": "Múltiplos e divisores",
+      "conteudo": "MMC de três ciclos",
+      "habilidade": "MMC de três ciclos.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "coordenar três periodicidades."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-multiplos-divisores-e.html",
+        "numero": 20,
+        "texto_original": "20. Desafio final - agenda da escola Três atividades acontecem em ciclos: laboratório a cada 6 dias, clube de xadrez a cada 8 dias e oficina de música a cada 12 dias. Hoje as três aconteceram juntas. Laboratório 6 dias Xadrez 8 dias Música 12 dias Daqui a quantos dias as três atividades voltarão a acontecer no mesmo dia? Explique como encontrou o resultado.",
+        "gabarito_publicado": "MMC(6,8,12)=24 dias."
+      },
+      "enunciado": {
+        "contexto": [
+          "Três atividades acontecem em ciclos: laboratório a cada 6 dias, clube de xadrez a cada 8 dias e oficina de música a cada 12 dias. Hoje as três aconteceram juntas."
+        ],
+        "comando": "Daqui a quantos dias as três atividades coincidem e qual cálculo justifica o resultado?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Laboratório</th><th>6 dias</th></tr><tr><td>Xadrez</td><td>8 dias</td></tr><tr><td>Música</td><td>12 dias</td></tr></table></div>",
+          "texto": "Laboratório 6 dias Xadrez 8 dias Música 12 dias",
+          "tabelas": [
+            [
+              [
+                "Laboratório",
+                "6 dias"
+              ],
+              [
+                "Xadrez",
+                "8 dias"
+              ],
+              [
+                "Música",
+                "12 dias"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela de ciclos; apoio, períodos no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "26 dias; 6 + 8 + 12 = 26.",
+          "valores": [
+            26,
+            "soma"
+          ],
+          "erro_comum": "Somar os ciclos."
+        },
+        {
+          "letra": "B",
+          "texto": "12 dias; basta usar o maior período.",
+          "valores": [
+            12,
+            "maior"
+          ],
+          "erro_comum": "Ignorar que 12 não é múltiplo de 8."
+        },
+        {
+          "letra": "C",
+          "texto": "48 dias; usar um múltiplo comum sem procurar o menor.",
+          "valores": [
+            48,
+            "nao_minimo"
+          ],
+          "erro_comum": "Escolher uma coincidência posterior."
+        },
+        {
+          "letra": "D",
+          "texto": "24 dias; MMC(6, 8, 12) = 2³ × 3 = 24.",
+          "valores": [
+            24,
+            "mmc"
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "24 dias; 6=2×3, 8=2³, 12=2²×3; MMC=2³×3=24.",
+      "resolucao_comentada": "A alternativa correta é 24 dias; MMC(6, 8, 12) = 2³ × 3 = 24. 24 dias; 6=2×3, 8=2³, 12=2²×3; MMC=2³×3=24.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "dias",
+        "calculo"
+      ]
+    }
+  ]
+}

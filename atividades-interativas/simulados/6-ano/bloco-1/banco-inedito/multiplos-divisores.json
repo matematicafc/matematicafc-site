@@ -1,0 +1,1808 @@
+{
+  "versao_formato": 1,
+  "banco_id": "MFC6-B1-INEDITO-V1",
+  "assunto": "Múltiplos e divisores",
+  "codigo_assunto": "MD",
+  "questoes": [
+    {
+      "id": "MFC6-B1-I-MD-01",
+      "numero": 1,
+      "titulo": "Última casa do tabuleiro",
+      "assunto": "MD",
+      "enunciado": "Um jogo percorre casas em saltos sempre iguais, começando na casa zero. Observe a reta com os saltos e a casa final indicada. A peça pode parar exatamente na casa final sem ultrapassá-la?",
+      "dados": {
+        "salto": 7,
+        "casa_final": 45
+      },
+      "modelo_verificacao": "D['casa_final']%D['salto']",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Não; fica entre 42 e 49 e o resto é 3.",
+          "valor": 3,
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Sim; o resto é 0.",
+          "valor": 0,
+          "erro_comum": "Supor que qualquer casa é alcançável."
+        },
+        {
+          "letra": "C",
+          "texto": "Não; o resto é 7.",
+          "valor": 7,
+          "erro_comum": "Usar o divisor como resto, que deve ser menor que sete."
+        },
+        {
+          "letra": "D",
+          "texto": "Não; o resto é 6.",
+          "valor": 6,
+          "erro_comum": "Confundir quociente inteiro com resto."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Os saltos chegam a 42 e depois 49. Como 45 deixa resto 3 na divisão por 7, não será atingida. A distância curta não torna a casa múltipla do salto.",
+      "habilidade": "Interpretar resto como impossibilidade de atingir um ponto em uma sequência.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Interpretar resto como impossibilidade de atingir um ponto em uma sequência."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: A peça pode parar exatamente na casa final sem ultrapassá-la?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa interpretar resto como impossibilidade de atingir um ponto em uma sequência.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "MD",
+        "visual_relevante": true,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-MD-01",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-MD-01-MDV1",
+          "tipo": "svg",
+          "dados": {
+            "salto": 7,
+            "casa_final": 45
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 246\" width=\"320\" height=\"246\" class=\"mfc-md-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-MD-01-MDV1-titulo\" aria-describedby=\"MFC6-B1-I-MD-01-MDV1-descricao\"><title id=\"MFC6-B1-I-MD-01-MDV1-titulo\">Última casa do tabuleiro</title><desc id=\"MFC6-B1-I-MD-01-MDV1-descricao\">Reta de casas de zero a 49, com marcas 0, 7, 14, 21, 28, 35, 42 e 49 e arcos de salto entre marcas consecutivas. A casa final 45 tem uma linha de alvo entre as marcas 42 e 49. A peça começa no zero; não há resposta escrita.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"246\" fill=\"white\"/><text x=\"160\" y=\"26\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-campo=\"salto\" data-valor=\"7\">Saltos de 7 casas</text><path d=\"M20 155H300\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M20.0 148V162\" stroke=\"#263d4d\" data-marca=\"0\" data-x=\"20.0\"/><text x=\"20.0\" y=\"184\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >0</text><path d=\"M20.0 139Q40.0 112 60.0 139\" stroke=\"#263d4d\" fill=\"none\"/><path d=\"M60.0 148V162\" stroke=\"#263d4d\" data-marca=\"7\" data-x=\"60.0\"/><text x=\"60.0\" y=\"184\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >7</text><path d=\"M60.0 139Q80.0 112 100.0 139\" stroke=\"#263d4d\" fill=\"none\"/><path d=\"M100.0 148V162\" stroke=\"#263d4d\" data-marca=\"14\" data-x=\"100.0\"/><text x=\"100.0\" y=\"184\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >14</text><path d=\"M100.0 139Q120.0 112 140.0 139\" stroke=\"#263d4d\" fill=\"none\"/><path d=\"M140.0 148V162\" stroke=\"#263d4d\" data-marca=\"21\" data-x=\"140.0\"/><text x=\"140.0\" y=\"184\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >21</text><path d=\"M140.0 139Q160.0 112 180.0 139\" stroke=\"#263d4d\" fill=\"none\"/><path d=\"M180.0 148V162\" stroke=\"#263d4d\" data-marca=\"28\" data-x=\"180.0\"/><text x=\"180.0\" y=\"184\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >28</text><path d=\"M180.0 139Q200.0 112 220.0 139\" stroke=\"#263d4d\" fill=\"none\"/><path d=\"M220.0 148V162\" stroke=\"#263d4d\" data-marca=\"35\" data-x=\"220.0\"/><text x=\"220.0\" y=\"184\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >35</text><path d=\"M220.0 139Q240.0 112 260.0 139\" stroke=\"#263d4d\" fill=\"none\"/><path d=\"M260.0 148V162\" stroke=\"#263d4d\" data-marca=\"42\" data-x=\"260.0\"/><text x=\"260.0\" y=\"184\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >42</text><path d=\"M260.0 139Q280.0 112 300.0 139\" stroke=\"#263d4d\" fill=\"none\"/><path d=\"M300.0 148V162\" stroke=\"#263d4d\" data-marca=\"49\" data-x=\"300.0\"/><text x=\"300.0\" y=\"184\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >49</text><path d=\"M277.14285714285717 72V146\" stroke=\"#8a2d20\" stroke-width=\"2\" data-alvo=\"45\" data-x=\"277.14285714285717\"/><text x=\"160\" y=\"60\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" data-campo=\"casa_final\" data-valor=\"45\">Casa final: 45</text><text x=\"160\" y=\"222\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >A peça começa na casa 0</text></svg>",
+          "css": ".mfc-md-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Reta de casas de zero a 49, com marcas 0, 7, 14, 21, 28, 35, 42 e 49 e arcos de salto entre marcas consecutivas. A casa final 45 tem uma linha de alvo entre as marcas 42 e 49. A peça começa no zero; não há resposta escrita.",
+          "acessibilidade": "Reta de casas de zero a 49, com marcas 0, 7, 14, 21, 28, 35, 42 e 49 e arcos de salto entre marcas consecutivas. A casa final 45 tem uma linha de alvo entre as marcas 42 e 49. A peça começa no zero; não há resposta escrita.",
+          "geometria": {
+            "tipo": "md_revisao",
+            "modelo": "saltos_reta",
+            "origem_x": 20,
+            "escala_px_por_casa": 5.714285714285714
+          },
+          "arquivo": "recursos/MFC6-B1-I-MD-01.svg"
+        }
+      ],
+      "assunto_nome": "Múltiplos e divisores",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Múltiplos e Divisores solicitada pelo usuário",
+          "correcao_especifica": false,
+          "recurso_visual": "SVG matemático substitui tabela; estacas preservadas e aprimoradas em MD-06",
+          "habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-MD-02",
+      "numero": 2,
+      "titulo": "Caixas e recombinação dos agrupamentos",
+      "assunto": "MD",
+      "enunciado": "Duas caixas foram embaladas separadamente em grupos de seis objetos. As sobras podem ser reunidas sem alterar os grupos completos. Observe o esquema das caixas e dos agrupamentos. Ao reunir as duas caixas, será possível embalar tudo em grupos de seis?",
+      "dados": {
+        "objetos_caixa_A": 16,
+        "objetos_caixa_B": 14,
+        "objetos_por_grupo": 6
+      },
+      "modelo_verificacao": "(D['objetos_caixa_A']+D['objetos_caixa_B'])//D['objetos_por_grupo']",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Não; só os quatro grupos já completos podem ser usados.",
+          "valor": 4,
+          "erro_comum": "Ignorar a recombinação das duas sobras."
+        },
+        {
+          "letra": "B",
+          "texto": "Sim, formam cinco grupos completos.",
+          "valor": 5,
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Sim, formam seis grupos completos.",
+          "valor": 6,
+          "erro_comum": "Confundir tamanho do grupo com número de grupos."
+        },
+        {
+          "letra": "D",
+          "texto": "Não; só há dois grupos completos no total.",
+          "valor": 2,
+          "erro_comum": "Considerar somente uma caixa."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "A primeira caixa deixa quatro objetos e a segunda deixa dois. As sobras juntas formam outro grupo de seis. O total é 30, suficiente para cinco grupos sem sobra; não é necessário que cada caixa individual seja múltipla de seis.",
+      "habilidade": "Recombinar restos de dois agrupamentos para verificar divisibilidade do total.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Recombinar restos de dois agrupamentos para verificar divisibilidade do total."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Ao reunir as duas caixas, será possível embalar tudo em grupos de seis?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa recombinar restos de dois agrupamentos para verificar divisibilidade do total.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "MD",
+        "visual_relevante": true,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-MD-02",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-MD-02-MDV1",
+          "tipo": "svg",
+          "dados": {
+            "objetos_caixa_A": 16,
+            "objetos_caixa_B": 14,
+            "objetos_por_grupo": 6
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 389\" width=\"320\" height=\"389\" class=\"mfc-md-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-MD-02-MDV1-titulo\" aria-describedby=\"MFC6-B1-I-MD-02-MDV1-descricao\"><title id=\"MFC6-B1-I-MD-02-MDV1-titulo\">Caixas e recombinação dos agrupamentos</title><desc id=\"MFC6-B1-I-MD-02-MDV1-descricao\">Caixa A com 16 objetos: dois grupos completos de seis e quatro objetos no último agrupamento. Caixa B com 14 objetos: dois grupos completos de seis e dois no último agrupamento. Cada objeto aparece uma vez; a recombinação e o total final não estão desenhados.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"389\" fill=\"white\"/><text x=\"160\" y=\"24\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" data-campo=\"objetos_por_grupo\" data-valor=\"6\">Grupos de 6 objetos</text><text x=\"80\" y=\"59\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"objetos_caixa_A\" data-valor=\"16\">Caixa A: 16</text><rect x=\"29\" y=\"77\" width=\"102\" height=\"60\" fill=\"#f8fafb\" stroke=\"#263d4d\" data-grupo-caixa=\"A\" data-grupo=\"0\"/><circle cx=\"43\" cy=\"93\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"A\" data-objeto=\"0\"/><circle cx=\"70\" cy=\"93\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"A\" data-objeto=\"1\"/><circle cx=\"97\" cy=\"93\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"A\" data-objeto=\"2\"/><circle cx=\"43\" cy=\"117\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"A\" data-objeto=\"3\"/><circle cx=\"70\" cy=\"117\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"A\" data-objeto=\"4\"/><circle cx=\"97\" cy=\"117\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"A\" data-objeto=\"5\"/><rect x=\"29\" y=\"150\" width=\"102\" height=\"60\" fill=\"#f8fafb\" stroke=\"#263d4d\" data-grupo-caixa=\"A\" data-grupo=\"1\"/><circle cx=\"43\" cy=\"166\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"A\" data-objeto=\"6\"/><circle cx=\"70\" cy=\"166\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"A\" data-objeto=\"7\"/><circle cx=\"97\" cy=\"166\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"A\" data-objeto=\"8\"/><circle cx=\"43\" cy=\"190\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"A\" data-objeto=\"9\"/><circle cx=\"70\" cy=\"190\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"A\" data-objeto=\"10\"/><circle cx=\"97\" cy=\"190\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"A\" data-objeto=\"11\"/><rect x=\"29\" y=\"223\" width=\"102\" height=\"60\" fill=\"#f8fafb\" stroke=\"#263d4d\" data-grupo-caixa=\"A\" data-grupo=\"2\"/><circle cx=\"43\" cy=\"239\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"A\" data-objeto=\"12\"/><circle cx=\"70\" cy=\"239\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"A\" data-objeto=\"13\"/><circle cx=\"97\" cy=\"239\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"A\" data-objeto=\"14\"/><circle cx=\"43\" cy=\"263\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"A\" data-objeto=\"15\"/><text x=\"240\" y=\"59\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"objetos_caixa_B\" data-valor=\"14\">Caixa B: 14</text><rect x=\"189\" y=\"77\" width=\"102\" height=\"60\" fill=\"#f8fafb\" stroke=\"#263d4d\" data-grupo-caixa=\"B\" data-grupo=\"0\"/><circle cx=\"203\" cy=\"93\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"B\" data-objeto=\"0\"/><circle cx=\"230\" cy=\"93\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"B\" data-objeto=\"1\"/><circle cx=\"257\" cy=\"93\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"B\" data-objeto=\"2\"/><circle cx=\"203\" cy=\"117\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"B\" data-objeto=\"3\"/><circle cx=\"230\" cy=\"117\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"B\" data-objeto=\"4\"/><circle cx=\"257\" cy=\"117\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"B\" data-objeto=\"5\"/><rect x=\"189\" y=\"150\" width=\"102\" height=\"60\" fill=\"#f8fafb\" stroke=\"#263d4d\" data-grupo-caixa=\"B\" data-grupo=\"1\"/><circle cx=\"203\" cy=\"166\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"B\" data-objeto=\"6\"/><circle cx=\"230\" cy=\"166\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"B\" data-objeto=\"7\"/><circle cx=\"257\" cy=\"166\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"B\" data-objeto=\"8\"/><circle cx=\"203\" cy=\"190\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"B\" data-objeto=\"9\"/><circle cx=\"230\" cy=\"190\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"B\" data-objeto=\"10\"/><circle cx=\"257\" cy=\"190\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"B\" data-objeto=\"11\"/><rect x=\"189\" y=\"223\" width=\"102\" height=\"60\" fill=\"#f8fafb\" stroke=\"#263d4d\" data-grupo-caixa=\"B\" data-grupo=\"2\"/><circle cx=\"203\" cy=\"239\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"B\" data-objeto=\"12\"/><circle cx=\"230\" cy=\"239\" r=\"7\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"B\" data-objeto=\"13\"/><text x=\"160\" y=\"339\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >Reunir apenas as sobras</text><text x=\"160\" y=\"367\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Manter os grupos completos</text></svg>",
+          "css": ".mfc-md-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Caixa A com 16 objetos: dois grupos completos de seis e quatro objetos no último agrupamento. Caixa B com 14 objetos: dois grupos completos de seis e dois no último agrupamento. Cada objeto aparece uma vez; a recombinação e o total final não estão desenhados.",
+          "acessibilidade": "Caixa A com 16 objetos: dois grupos completos de seis e quatro objetos no último agrupamento. Caixa B com 14 objetos: dois grupos completos de seis e dois no último agrupamento. Cada objeto aparece uma vez; a recombinação e o total final não estão desenhados.",
+          "geometria": {
+            "tipo": "md_revisao",
+            "modelo": "caixas_grupos"
+          },
+          "arquivo": "recursos/MFC6-B1-I-MD-02.svg"
+        }
+      ],
+      "assunto_nome": "Múltiplos e divisores",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Múltiplos e Divisores solicitada pelo usuário",
+          "correcao_especifica": true,
+          "recurso_visual": "SVG matemático substitui tabela; estacas preservadas e aprimoradas em MD-06",
+          "habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-MD-03",
+      "numero": 3,
+      "titulo": "Mesmo total, pacotes diferentes",
+      "assunto": "MD",
+      "enunciado": "Uma editora aceita a devolução de todos os objetos de cada professor somente em pacotes completos de seis objetos, sem objetos avulsos nem sobras. Nesta viagem, a transportadora pode levar no máximo sete pacotes de cada professor. Observe as quantidades e o esquema das regras. Qual professor consegue devolver todos os seus objetos sem ultrapassar esse limite?",
+      "dados": {
+        "tamanho_pacote": 6,
+        "professores": [
+          [
+            "Lia",
+            26
+          ],
+          [
+            "Rui",
+            34
+          ],
+          [
+            "Nara",
+            42
+          ],
+          [
+            "Ivo",
+            48
+          ]
+        ],
+        "maximo_pacotes": 7
+      },
+      "modelo_verificacao": "[r[0] for r in D['professores'] if r[1]%D['tamanho_pacote']==0 and r[1]//D['tamanho_pacote']<=D['maximo_pacotes']]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Lia.",
+          "valor": [
+            "Lia"
+          ],
+          "erro_comum": "Aceitar qualquer número par."
+        },
+        {
+          "letra": "B",
+          "texto": "Rui.",
+          "valor": [
+            "Rui"
+          ],
+          "erro_comum": "Truncar o quociente de 34 ÷ 6 e ignorar quatro objetos."
+        },
+        {
+          "letra": "C",
+          "texto": "Nara.",
+          "valor": [
+            "Nara"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Ivo.",
+          "valor": [
+            "Ivo"
+          ],
+          "erro_comum": "Verificar divisibilidade de 48 por seis, mas ignorar o limite de sete pacotes."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Nara devolve 42 objetos, formando sete pacotes, exatamente o limite. Ivo formaria oito pacotes e ultrapassaria o limite. Lia e Rui deixam restos, portanto seus pacotes não ficam completos.",
+      "habilidade": "Combinar agrupamento exato e capacidade máxima de transporte.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Cruza a divisibilidade com o limite de pacotes por pessoa."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual devolução pode ser aceita sem abrir nenhum pacote?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa combinar agrupamento exato e capacidade máxima de transporte.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "MD",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-MD-03",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-MD-03-MDV1",
+          "tipo": "svg",
+          "dados": {
+            "tamanho_pacote": 6,
+            "professores": [
+              [
+                "Lia",
+                26
+              ],
+              [
+                "Rui",
+                34
+              ],
+              [
+                "Nara",
+                42
+              ],
+              [
+                "Ivo",
+                48
+              ]
+            ],
+            "maximo_pacotes": 7
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 378\" width=\"320\" height=\"378\" class=\"mfc-md-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-MD-03-MDV1-titulo\" aria-describedby=\"MFC6-B1-I-MD-03-MDV1-descricao\"><title id=\"MFC6-B1-I-MD-03-MDV1-titulo\">Mesmo total, pacotes diferentes</title><desc id=\"MFC6-B1-I-MD-03-MDV1-descricao\">Um pacote tem seis objetos em duas linhas de três. Sete espaços numerados representam o limite de pacotes por professor. Abaixo, Lia tem 26 objetos, Rui 34, Nara 42 e Ivo 48 para devolver. Não estão calculados os pacotes de cada professor.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"378\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" data-campo=\"tamanho_pacote\" data-valor=\"6\">Cada pacote: 6 objetos</text><rect x=\"88\" y=\"42\" width=\"144\" height=\"66\" fill=\"#f8fafb\" stroke=\"#263d4d\" /><circle cx=\"115\" cy=\"61\" r=\"8\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-objeto-pacote=\"0\"/><circle cx=\"160\" cy=\"61\" r=\"8\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-objeto-pacote=\"1\"/><circle cx=\"205\" cy=\"61\" r=\"8\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-objeto-pacote=\"2\"/><circle cx=\"115\" cy=\"89\" r=\"8\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-objeto-pacote=\"3\"/><circle cx=\"160\" cy=\"89\" r=\"8\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-objeto-pacote=\"4\"/><circle cx=\"205\" cy=\"89\" r=\"8\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-objeto-pacote=\"5\"/><text x=\"160\" y=\"139\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"maximo_pacotes\" data-valor=\"7\">Limite por professor: 7 pacotes</text><rect x=\"23\" y=\"155\" width=\"34\" height=\"41\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-vaga-pacote=\"0\"/><text x=\"40\" y=\"181\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >1</text><rect x=\"63\" y=\"155\" width=\"34\" height=\"41\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-vaga-pacote=\"1\"/><text x=\"80\" y=\"181\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >2</text><rect x=\"103\" y=\"155\" width=\"34\" height=\"41\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-vaga-pacote=\"2\"/><text x=\"120\" y=\"181\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >3</text><rect x=\"143\" y=\"155\" width=\"34\" height=\"41\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-vaga-pacote=\"3\"/><text x=\"160\" y=\"181\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >4</text><rect x=\"183\" y=\"155\" width=\"34\" height=\"41\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-vaga-pacote=\"4\"/><text x=\"200\" y=\"181\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >5</text><rect x=\"223\" y=\"155\" width=\"34\" height=\"41\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-vaga-pacote=\"5\"/><text x=\"240\" y=\"181\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >6</text><rect x=\"263\" y=\"155\" width=\"34\" height=\"41\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-vaga-pacote=\"6\"/><text x=\"280\" y=\"181\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >7</text><text x=\"160\" y=\"228\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" >Objetos para devolver</text><text x=\"160\" y=\"260\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"professores.0.1\" data-valor=\"26\">Lia: 26 objetos</text><text x=\"160\" y=\"289\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"professores.1.1\" data-valor=\"34\">Rui: 34 objetos</text><text x=\"160\" y=\"318\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"professores.2.1\" data-valor=\"42\">Nara: 42 objetos</text><text x=\"160\" y=\"347\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"professores.3.1\" data-valor=\"48\">Ivo: 48 objetos</text></svg>",
+          "css": ".mfc-md-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Um pacote tem seis objetos em duas linhas de três. Sete espaços numerados representam o limite de pacotes por professor. Abaixo, Lia tem 26 objetos, Rui 34, Nara 42 e Ivo 48 para devolver. Não estão calculados os pacotes de cada professor.",
+          "acessibilidade": "Um pacote tem seis objetos em duas linhas de três. Sete espaços numerados representam o limite de pacotes por professor. Abaixo, Lia tem 26 objetos, Rui 34, Nara 42 e Ivo 48 para devolver. Não estão calculados os pacotes de cada professor.",
+          "geometria": {
+            "tipo": "md_revisao",
+            "modelo": "pacotes_limite"
+          },
+          "arquivo": "recursos/MFC6-B1-I-MD-03.svg"
+        }
+      ],
+      "assunto_nome": "Múltiplos e divisores",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Múltiplos e Divisores solicitada pelo usuário",
+          "correcao_especifica": true,
+          "recurso_visual": "SVG matemático substitui tabela; estacas preservadas e aprimoradas em MD-06",
+          "habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-MD-04",
+      "numero": 4,
+      "titulo": "Quatro rodas por carrinho",
+      "assunto": "MD",
+      "enunciado": "Uma oficina vai montar carrinhos de quatro rodas. Antes da montagem, deve separar duas rodas como reserva de reposição. Observe o esquema dos lotes, da reserva e da montagem. Qual lote permite usar todas as rodas restantes em carrinhos completos, sem sobra?",
+      "dados": {
+        "rodas_por_carrinho": 4,
+        "reserva": 2,
+        "lotes": [
+          37,
+          41,
+          46,
+          52
+        ]
+      },
+      "modelo_verificacao": "[n for n in D['lotes'] if (n-D['reserva'])%D['rodas_por_carrinho']==0]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "37 rodas.",
+          "valor": [
+            37
+          ],
+          "erro_comum": "Ignorar que, após reserva, 35 não é múltiplo de quatro."
+        },
+        {
+          "letra": "B",
+          "texto": "41 rodas.",
+          "valor": [
+            41
+          ],
+          "erro_comum": "Usar o total ou sua proximidade a um múltiplo, ignorando sobra."
+        },
+        {
+          "letra": "C",
+          "texto": "52 rodas.",
+          "valor": [
+            52
+          ],
+          "erro_comum": "Testar divisibilidade antes de retirar a reserva."
+        },
+        {
+          "letra": "D",
+          "texto": "46 rodas.",
+          "valor": [
+            46
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Após reservar duas rodas, os lotes deixam 35,39,44 e 50. Somente 44 é divisível por quatro: onze carrinhos. O lote de 52, embora múltiplo de quatro antes da reserva, deixa 50 e não atende.",
+      "habilidade": "Aplicar divisibilidade à quantidade disponível depois de uma reserva obrigatória.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Distinguir divisibilidade por 2 e por 4 em uma condição material."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual lote permitiria a montagem?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa aplicar divisibilidade à quantidade disponível depois de uma reserva obrigatória.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "MD",
+        "visual_relevante": true,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-MD-04",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-MD-04-MDV1",
+          "tipo": "svg",
+          "dados": {
+            "rodas_por_carrinho": 4,
+            "reserva": 2,
+            "lotes": [
+              37,
+              41,
+              46,
+              52
+            ]
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 355\" width=\"320\" height=\"355\" class=\"mfc-md-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-MD-04-MDV1-titulo\" aria-describedby=\"MFC6-B1-I-MD-04-MDV1-descricao\"><title id=\"MFC6-B1-I-MD-04-MDV1-titulo\">Quatro rodas por carrinho</title><desc id=\"MFC6-B1-I-MD-04-MDV1-descricao\">Quatro opções de lote: 37, 41, 46 e 52 rodas. O fluxo separa duas rodas de reserva e encaminha todas as restantes para carrinhos. O modelo de carrinho mostra quatro rodas. As quantidades após a reserva não estão calculadas.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"355\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >Escolher um lote</text><rect x=\"12\" y=\"40\" width=\"65\" height=\"46\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"44\" y=\"71\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-campo=\"lotes.0\" data-valor=\"37\">37</text><rect x=\"89\" y=\"40\" width=\"65\" height=\"46\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"121\" y=\"71\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-campo=\"lotes.1\" data-valor=\"41\">41</text><rect x=\"166\" y=\"40\" width=\"65\" height=\"46\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"198\" y=\"71\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-campo=\"lotes.2\" data-valor=\"46\">46</text><rect x=\"243\" y=\"40\" width=\"65\" height=\"46\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"275\" y=\"71\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-campo=\"lotes.3\" data-valor=\"52\">52</text><path d=\"M160 87V113M156 108L160 113L164 108\" fill=\"none\" stroke=\"#263d4d\" stroke-width=\"2\"/><rect x=\"29\" y=\"121\" width=\"262\" height=\"64\" fill=\"#fff3df\" stroke=\"#263d4d\" /><text x=\"160\" y=\"145\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-campo=\"reserva\" data-valor=\"2\">Separar 2 rodas de reserva</text><circle cx=\"145\" cy=\"169\" r=\"8\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-roda-reserva=\"0\"/><circle cx=\"175\" cy=\"169\" r=\"8\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-roda-reserva=\"1\"/><path d=\"M160 186V215M156 210L160 215L164 210\" fill=\"none\" stroke=\"#263d4d\" stroke-width=\"2\"/><text x=\"160\" y=\"243\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >Usar todas as rodas restantes</text><text x=\"160\" y=\"272\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"rodas_por_carrinho\" data-valor=\"4\">Cada carrinho: 4 rodas</text><rect x=\"80\" y=\"293\" width=\"160\" height=\"35\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><circle cx=\"95\" cy=\"291\" r=\"9\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-roda-carrinho=\"sim\"/><circle cx=\"225\" cy=\"291\" r=\"9\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-roda-carrinho=\"sim\"/><circle cx=\"95\" cy=\"330\" r=\"9\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-roda-carrinho=\"sim\"/><circle cx=\"225\" cy=\"330\" r=\"9\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-roda-carrinho=\"sim\"/></svg>",
+          "css": ".mfc-md-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Quatro opções de lote: 37, 41, 46 e 52 rodas. O fluxo separa duas rodas de reserva e encaminha todas as restantes para carrinhos. O modelo de carrinho mostra quatro rodas. As quantidades após a reserva não estão calculadas.",
+          "acessibilidade": "Quatro opções de lote: 37, 41, 46 e 52 rodas. O fluxo separa duas rodas de reserva e encaminha todas as restantes para carrinhos. O modelo de carrinho mostra quatro rodas. As quantidades após a reserva não estão calculadas.",
+          "geometria": {
+            "tipo": "md_revisao",
+            "modelo": "reserva_carrinhos"
+          },
+          "arquivo": "recursos/MFC6-B1-I-MD-04.svg"
+        }
+      ],
+      "assunto_nome": "Múltiplos e divisores",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Múltiplos e Divisores solicitada pelo usuário",
+          "correcao_especifica": false,
+          "recurso_visual": "SVG matemático substitui tabela; estacas preservadas e aprimoradas em MD-06",
+          "habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-MD-05",
+      "numero": 5,
+      "titulo": "Cartões com mesma composição",
+      "assunto": "MD",
+      "enunciado": "Um laboratório tem dois tipos de amostra. Todos os kits devem ter a mesma quantidade de cada tipo, usando tudo e fazendo o maior número possível de kits. Observe as amostras e o modelo de distribuição no esquema. Quantos kits podem ser feitos?",
+      "dados": {
+        "amostras_tipo_A": 24,
+        "amostras_tipo_B": 36
+      },
+      "modelo_verificacao": "gcd(D['amostras_tipo_A'],D['amostras_tipo_B'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "12 kits.",
+          "valor": 12,
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "6 kits.",
+          "valor": 6,
+          "erro_comum": "Escolher divisor comum que não é o maior."
+        },
+        {
+          "letra": "C",
+          "texto": "24 kits.",
+          "valor": 24,
+          "erro_comum": "Verificar apenas um tipo."
+        },
+        {
+          "letra": "D",
+          "texto": "72 kits.",
+          "valor": 72,
+          "erro_comum": "Usar MMC em vez de MDC."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "O número de kits deve dividir 24 e 36. O maior divisor comum é 12; cada kit recebe duas amostras A e três B. MMC trata ciclos, não esse repartimento.",
+      "habilidade": "Reconhecer máximo divisor comum em repartição com composição idêntica.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Reconhecer máximo divisor comum em repartição com composição idêntica."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Quantos kits podem ser feitos?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa reconhecer máximo divisor comum em repartição com composição idêntica.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "MD",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-MD-05",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-MD-05-MDV1",
+          "tipo": "svg",
+          "dados": {
+            "amostras_tipo_A": 24,
+            "amostras_tipo_B": 36
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 396\" width=\"320\" height=\"396\" class=\"mfc-md-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-MD-05-MDV1-titulo\" aria-describedby=\"MFC6-B1-I-MD-05-MDV1-descricao\"><title id=\"MFC6-B1-I-MD-05-MDV1-titulo\">Cartões com mesma composição</title><desc id=\"MFC6-B1-I-MD-05-MDV1-descricao\">Dois conjuntos de unidades: 24 amostras A, em quatro linhas de seis, e 36 amostras B, em seis linhas de seis. Uma seta conduz a um modelo de kit com quantidades desconhecidas de A e B, iguais em todos os kits. Nenhuma composição ou quantidade final de kits está indicada.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"396\" fill=\"white\"/><text x=\"160\" y=\"24\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >Amostras disponíveis</text><text x=\"82\" y=\"58\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"amostras_tipo_A\" data-valor=\"24\">Tipo A: 24</text><circle cx=\"32\" cy=\"82\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"0\"/><circle cx=\"52\" cy=\"82\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"1\"/><circle cx=\"72\" cy=\"82\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"2\"/><circle cx=\"92\" cy=\"82\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"3\"/><circle cx=\"112\" cy=\"82\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"4\"/><circle cx=\"132\" cy=\"82\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"5\"/><circle cx=\"32\" cy=\"103\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"6\"/><circle cx=\"52\" cy=\"103\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"7\"/><circle cx=\"72\" cy=\"103\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"8\"/><circle cx=\"92\" cy=\"103\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"9\"/><circle cx=\"112\" cy=\"103\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"10\"/><circle cx=\"132\" cy=\"103\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"11\"/><circle cx=\"32\" cy=\"124\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"12\"/><circle cx=\"52\" cy=\"124\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"13\"/><circle cx=\"72\" cy=\"124\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"14\"/><circle cx=\"92\" cy=\"124\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"15\"/><circle cx=\"112\" cy=\"124\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"16\"/><circle cx=\"132\" cy=\"124\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"17\"/><circle cx=\"32\" cy=\"145\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"18\"/><circle cx=\"52\" cy=\"145\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"19\"/><circle cx=\"72\" cy=\"145\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"20\"/><circle cx=\"92\" cy=\"145\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"21\"/><circle cx=\"112\" cy=\"145\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"22\"/><circle cx=\"132\" cy=\"145\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tipo=\"A\" data-amostra=\"23\"/><text x=\"238\" y=\"58\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"amostras_tipo_B\" data-valor=\"36\">Tipo B: 36</text><circle cx=\"188\" cy=\"82\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"0\"/><circle cx=\"208\" cy=\"82\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"1\"/><circle cx=\"228\" cy=\"82\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"2\"/><circle cx=\"248\" cy=\"82\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"3\"/><circle cx=\"268\" cy=\"82\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"4\"/><circle cx=\"288\" cy=\"82\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"5\"/><circle cx=\"188\" cy=\"103\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"6\"/><circle cx=\"208\" cy=\"103\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"7\"/><circle cx=\"228\" cy=\"103\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"8\"/><circle cx=\"248\" cy=\"103\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"9\"/><circle cx=\"268\" cy=\"103\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"10\"/><circle cx=\"288\" cy=\"103\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"11\"/><circle cx=\"188\" cy=\"124\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"12\"/><circle cx=\"208\" cy=\"124\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"13\"/><circle cx=\"228\" cy=\"124\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"14\"/><circle cx=\"248\" cy=\"124\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"15\"/><circle cx=\"268\" cy=\"124\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"16\"/><circle cx=\"288\" cy=\"124\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"17\"/><circle cx=\"188\" cy=\"145\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"18\"/><circle cx=\"208\" cy=\"145\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"19\"/><circle cx=\"228\" cy=\"145\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"20\"/><circle cx=\"248\" cy=\"145\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"21\"/><circle cx=\"268\" cy=\"145\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"22\"/><circle cx=\"288\" cy=\"145\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"23\"/><circle cx=\"188\" cy=\"166\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"24\"/><circle cx=\"208\" cy=\"166\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"25\"/><circle cx=\"228\" cy=\"166\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"26\"/><circle cx=\"248\" cy=\"166\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"27\"/><circle cx=\"268\" cy=\"166\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"28\"/><circle cx=\"288\" cy=\"166\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"29\"/><circle cx=\"188\" cy=\"187\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"30\"/><circle cx=\"208\" cy=\"187\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"31\"/><circle cx=\"228\" cy=\"187\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"32\"/><circle cx=\"248\" cy=\"187\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"33\"/><circle cx=\"268\" cy=\"187\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"34\"/><circle cx=\"288\" cy=\"187\" r=\"6\" fill=\"#fff3df\" stroke=\"#263d4d\" data-tipo=\"B\" data-amostra=\"35\"/><path d=\"M160 221V250M156 245L160 250L164 245\" fill=\"none\" stroke=\"#263d4d\" stroke-width=\"2\"/><rect x=\"32\" y=\"258\" width=\"256\" height=\"84\" fill=\"#f8fafb\" stroke=\"#263d4d\" /><text x=\"160\" y=\"283\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" >Cada kit</text><text x=\"160\" y=\"309\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >? do tipo A e ? do tipo B</text><text x=\"160\" y=\"331\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Mesma composição em todos</text><text x=\"160\" y=\"372\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >Usar todas as amostras</text></svg>",
+          "css": ".mfc-md-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Dois conjuntos de unidades: 24 amostras A, em quatro linhas de seis, e 36 amostras B, em seis linhas de seis. Uma seta conduz a um modelo de kit com quantidades desconhecidas de A e B, iguais em todos os kits. Nenhuma composição ou quantidade final de kits está indicada.",
+          "acessibilidade": "Dois conjuntos de unidades: 24 amostras A, em quatro linhas de seis, e 36 amostras B, em seis linhas de seis. Uma seta conduz a um modelo de kit com quantidades desconhecidas de A e B, iguais em todos os kits. Nenhuma composição ou quantidade final de kits está indicada.",
+          "geometria": {
+            "tipo": "md_revisao",
+            "modelo": "amostras_kits"
+          },
+          "arquivo": "recursos/MFC6-B1-I-MD-05.svg"
+        }
+      ],
+      "assunto_nome": "Múltiplos e divisores",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Múltiplos e Divisores solicitada pelo usuário",
+          "correcao_especifica": false,
+          "recurso_visual": "SVG matemático substitui tabela; estacas preservadas e aprimoradas em MD-06",
+          "habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-MD-06",
+      "numero": 6,
+      "titulo": "Uma planta entre estacas",
+      "assunto": "MD",
+      "enunciado": "Uma borda de jardim tem estacas igualmente espaçadas. As plantas serão colocadas junto às estacas correspondentes, começando na primeira estaca e avançando dois espaços entre estacas a cada plantio. Observe o esquema. Quantas plantas ficam da primeira até a última estaca, incluindo uma planta em cada extremo?",
+      "dados": {
+        "espacos_entre_estacas": 18,
+        "espacos_por_planta": 2
+      },
+      "modelo_verificacao": "D['espacos_entre_estacas']//D['espacos_por_planta']+1",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "9 plantas.",
+          "valor": 9,
+          "erro_comum": "Omitir o ponto inicial."
+        },
+        {
+          "letra": "B",
+          "texto": "10 plantas.",
+          "valor": 10,
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "18 plantas.",
+          "valor": 18,
+          "erro_comum": "Plantar em todo espaço."
+        },
+        {
+          "letra": "D",
+          "texto": "19 plantas.",
+          "valor": 19,
+          "erro_comum": "Plantar em todas as estacas, não a cada dois espaços."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Dezoito espaços correspondem a nove intervalos de plantio. Contando a planta inicial, são dez plantas nas posições 0,2,4,...,18.",
+      "habilidade": "Distinguir intervalos de pontos em uma sequência de múltiplos.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Distinguir intervalos de pontos em uma sequência de múltiplos."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Quantas plantas ficam da primeira até a última, incluindo ambas?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa distinguir intervalos de pontos em uma sequência de múltiplos.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "MD",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-MD-06",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-MD-06-MDV1",
+          "tipo": "svg",
+          "dados": {
+            "espacos_entre_estacas": 18,
+            "espacos_por_planta": 2
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 283\" width=\"320\" height=\"283\" class=\"mfc-md-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-MD-06-MDV1-titulo\" aria-describedby=\"MFC6-B1-I-MD-06-MDV1-descricao\"><title id=\"MFC6-B1-I-MD-06-MDV1-titulo\">Uma planta entre estacas</title><desc id=\"MFC6-B1-I-MD-06-MDV1-descricao\">Dezenove estacas marcam dezoito espaços iguais em uma linha. Os plantios iniciais aparecem junto às estacas 0 e 2, com arco de dois espaços; o plantio no extremo final aparece junto à estaca 18. Os plantios intermediários ficam a determinar seguindo o mesmo avanço. Os dois extremos são incluídos.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"283\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-campo=\"espacos_entre_estacas\" data-valor=\"18\">18 espaços iguais</text><text x=\"160\" y=\"57\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"espacos_por_planta\" data-valor=\"2\">Avançar 2 espaços</text><path d=\"M25 150H295\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M25 134V166\" stroke=\"#263d4d\" stroke-width=\"2\" data-estaca=\"0\" data-x=\"25\"/><path d=\"M40 134V166\" stroke=\"#263d4d\" stroke-width=\"2\" data-estaca=\"1\" data-x=\"40\"/><path d=\"M55 134V166\" stroke=\"#263d4d\" stroke-width=\"2\" data-estaca=\"2\" data-x=\"55\"/><path d=\"M70 134V166\" stroke=\"#263d4d\" stroke-width=\"2\" data-estaca=\"3\" data-x=\"70\"/><path d=\"M85 134V166\" stroke=\"#263d4d\" stroke-width=\"2\" data-estaca=\"4\" data-x=\"85\"/><path d=\"M100 134V166\" stroke=\"#263d4d\" stroke-width=\"2\" data-estaca=\"5\" data-x=\"100\"/><path d=\"M115 134V166\" stroke=\"#263d4d\" stroke-width=\"2\" data-estaca=\"6\" data-x=\"115\"/><path d=\"M130 134V166\" stroke=\"#263d4d\" stroke-width=\"2\" data-estaca=\"7\" data-x=\"130\"/><path d=\"M145 134V166\" stroke=\"#263d4d\" stroke-width=\"2\" data-estaca=\"8\" data-x=\"145\"/><path d=\"M160 134V166\" stroke=\"#263d4d\" stroke-width=\"2\" data-estaca=\"9\" data-x=\"160\"/><path d=\"M175 134V166\" stroke=\"#263d4d\" stroke-width=\"2\" data-estaca=\"10\" data-x=\"175\"/><path d=\"M190 134V166\" stroke=\"#263d4d\" stroke-width=\"2\" data-estaca=\"11\" data-x=\"190\"/><path d=\"M205 134V166\" stroke=\"#263d4d\" stroke-width=\"2\" data-estaca=\"12\" data-x=\"205\"/><path d=\"M220 134V166\" stroke=\"#263d4d\" stroke-width=\"2\" data-estaca=\"13\" data-x=\"220\"/><path d=\"M235 134V166\" stroke=\"#263d4d\" stroke-width=\"2\" data-estaca=\"14\" data-x=\"235\"/><path d=\"M250 134V166\" stroke=\"#263d4d\" stroke-width=\"2\" data-estaca=\"15\" data-x=\"250\"/><path d=\"M265 134V166\" stroke=\"#263d4d\" stroke-width=\"2\" data-estaca=\"16\" data-x=\"265\"/><path d=\"M280 134V166\" stroke=\"#263d4d\" stroke-width=\"2\" data-estaca=\"17\" data-x=\"280\"/><path d=\"M295 134V166\" stroke=\"#263d4d\" stroke-width=\"2\" data-estaca=\"18\" data-x=\"295\"/><circle cx=\"25\" cy=\"115\" r=\"7\" fill=\"#dceacb\" stroke=\"#263d4d\" data-plantio=\"0\"/><path d=\"M25 122V134\" stroke=\"#263d4d\"/><text x=\"25\" y=\"189\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >0</text><circle cx=\"55\" cy=\"115\" r=\"7\" fill=\"#dceacb\" stroke=\"#263d4d\" data-plantio=\"2\"/><path d=\"M55 122V134\" stroke=\"#263d4d\"/><text x=\"55\" y=\"189\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >2</text><circle cx=\"295\" cy=\"115\" r=\"7\" fill=\"#dceacb\" stroke=\"#263d4d\" data-plantio=\"18\"/><path d=\"M295 122V134\" stroke=\"#263d4d\"/><text x=\"295\" y=\"189\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >18</text><path d=\"M25 99Q40 78 55 99\" fill=\"none\" stroke=\"#263d4d\" stroke-width=\"2\"/><text x=\"160\" y=\"227\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >Plantio junto à estaca</text><text x=\"160\" y=\"256\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >Incluir os dois extremos</text></svg>",
+          "css": ".mfc-md-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Dezenove estacas marcam dezoito espaços iguais em uma linha. Os plantios iniciais aparecem junto às estacas 0 e 2, com arco de dois espaços; o plantio no extremo final aparece junto à estaca 18. Os plantios intermediários ficam a determinar seguindo o mesmo avanço. Os dois extremos são incluídos.",
+          "acessibilidade": "Dezenove estacas marcam dezoito espaços iguais em uma linha. Os plantios iniciais aparecem junto às estacas 0 e 2, com arco de dois espaços; o plantio no extremo final aparece junto à estaca 18. Os plantios intermediários ficam a determinar seguindo o mesmo avanço. Os dois extremos são incluídos.",
+          "geometria": {
+            "tipo": "md_revisao",
+            "modelo": "estacas_plantios",
+            "origem_x": 25,
+            "passo_x": 15
+          },
+          "arquivo": "recursos/MFC6-B1-I-MD-06.svg"
+        }
+      ],
+      "assunto_nome": "Múltiplos e divisores",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Múltiplos e Divisores solicitada pelo usuário",
+          "correcao_especifica": true,
+          "recurso_visual": "SVG matemático substitui tabela; estacas preservadas e aprimoradas em MD-06",
+          "habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-MD-07",
+      "numero": 7,
+      "titulo": "Sinal que começou depois",
+      "assunto": "MD",
+      "enunciado": "O sinal luminoso A aparece inicialmente no minuto zero e depois volta a aparecer a cada seis minutos. O sinal B aparece inicialmente no minuto três e depois volta a aparecer a cada nove minutos. Observe as linhas do tempo. Em qual minuto eles aparecem juntos pela primeira vez?",
+      "dados": {
+        "inicio_A": 0,
+        "intervalo_A": 6,
+        "inicio_B": 3,
+        "intervalo_B": 9
+      },
+      "modelo_verificacao": "min(t for t in range(1,100) if t%D['intervalo_A']==0 and t>=D['inicio_B'] and (t-D['inicio_B'])%D['intervalo_B']==0)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "18 minutos.",
+          "valor": 18,
+          "erro_comum": "Usar MMC sem considerar o deslocamento inicial."
+        },
+        {
+          "letra": "B",
+          "texto": "9 minutos.",
+          "valor": 9,
+          "erro_comum": "Somar início de B a um intervalo de A."
+        },
+        {
+          "letra": "C",
+          "texto": "12 minutos.",
+          "valor": 12,
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "6 minutos.",
+          "valor": 6,
+          "erro_comum": "Verificar apenas o primeiro sinal."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "A aparece nos minutos 0, 6, 12, 18, 24, ...; B aparece nos minutos 3, 12, 21, 30, ... . O primeiro instante comum é o minuto 12. Calcular MMC(6, 9) = 18 sem considerar os instantes iniciais ignoraria que B começou três minutos depois de A.",
+      "habilidade": "Interpretar ciclos com instantes iniciais diferentes.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Interpretar ciclos com instantes iniciais diferentes."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Em qual minuto eles aparecem juntos pela primeira vez?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa interpretar ciclos com instantes iniciais diferentes.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "MD",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-MD-07",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-MD-07-MDV1",
+          "tipo": "svg",
+          "dados": {
+            "inicio_A": 0,
+            "intervalo_A": 6,
+            "inicio_B": 3,
+            "intervalo_B": 9
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 323\" width=\"320\" height=\"323\" class=\"mfc-md-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-MD-07-MDV1-titulo\" aria-describedby=\"MFC6-B1-I-MD-07-MDV1-descricao\"><title id=\"MFC6-B1-I-MD-07-MDV1-titulo\">Sinal que começou depois</title><desc id=\"MFC6-B1-I-MD-07-MDV1-descricao\">Duas linhas do tempo com a mesma escala de zero a 24 minutos. A aparece nos minutos 0, 6, 12, 18 e 24; B aparece nos minutos 3, 12 e 21. São indicados os inícios zero e três e os intervalos seis e nove. Nenhum encontro está nomeado ou destacado.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"323\" fill=\"white\"/><text x=\"160\" y=\"24\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >Instantes de aparição</text><text x=\"160\" y=\"52\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Tempo em minutos</text><text x=\"160\" y=\"86\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-campo=\"inicio_A\" data-valor=\"0\">Sinal A: início no minuto 0</text><text x=\"160\" y=\"111\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-campo=\"intervalo_A\" data-valor=\"6\">Repete a cada 6 min</text><path d=\"M20 127H300\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M20.0 124V130\" stroke=\"#263d4d\"/><path d=\"M55.0 124V130\" stroke=\"#263d4d\"/><path d=\"M90.0 124V130\" stroke=\"#263d4d\"/><path d=\"M125.0 124V130\" stroke=\"#263d4d\"/><path d=\"M160.0 124V130\" stroke=\"#263d4d\"/><path d=\"M195.0 124V130\" stroke=\"#263d4d\"/><path d=\"M230.0 124V130\" stroke=\"#263d4d\"/><path d=\"M265.0 124V130\" stroke=\"#263d4d\"/><path d=\"M300.0 124V130\" stroke=\"#263d4d\"/><circle cx=\"20.0\" cy=\"127\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-sinal=\"A\" data-minuto=\"0\" data-x=\"20.0\"/><text x=\"20.0\" y=\"155\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >0</text><circle cx=\"90.0\" cy=\"127\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-sinal=\"A\" data-minuto=\"6\" data-x=\"90.0\"/><text x=\"90.0\" y=\"155\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >6</text><circle cx=\"160.0\" cy=\"127\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-sinal=\"A\" data-minuto=\"12\" data-x=\"160.0\"/><text x=\"160.0\" y=\"155\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >12</text><circle cx=\"230.0\" cy=\"127\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-sinal=\"A\" data-minuto=\"18\" data-x=\"230.0\"/><text x=\"230.0\" y=\"155\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >18</text><circle cx=\"300.0\" cy=\"127\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-sinal=\"A\" data-minuto=\"24\" data-x=\"300.0\"/><text x=\"300.0\" y=\"155\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >24</text><text x=\"160\" y=\"203\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-campo=\"inicio_B\" data-valor=\"3\">Sinal B: início no minuto 3</text><text x=\"160\" y=\"228\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-campo=\"intervalo_B\" data-valor=\"9\">Repete a cada 9 min</text><path d=\"M20 244H300\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M20.0 241V247\" stroke=\"#263d4d\"/><path d=\"M55.0 241V247\" stroke=\"#263d4d\"/><path d=\"M90.0 241V247\" stroke=\"#263d4d\"/><path d=\"M125.0 241V247\" stroke=\"#263d4d\"/><path d=\"M160.0 241V247\" stroke=\"#263d4d\"/><path d=\"M195.0 241V247\" stroke=\"#263d4d\"/><path d=\"M230.0 241V247\" stroke=\"#263d4d\"/><path d=\"M265.0 241V247\" stroke=\"#263d4d\"/><path d=\"M300.0 241V247\" stroke=\"#263d4d\"/><circle cx=\"55.0\" cy=\"244\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-sinal=\"B\" data-minuto=\"3\" data-x=\"55.0\"/><text x=\"55.0\" y=\"272\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >3</text><circle cx=\"160.0\" cy=\"244\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-sinal=\"B\" data-minuto=\"12\" data-x=\"160.0\"/><text x=\"160.0\" y=\"272\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >12</text><circle cx=\"265.0\" cy=\"244\" r=\"6\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-sinal=\"B\" data-minuto=\"21\" data-x=\"265.0\"/><text x=\"265.0\" y=\"272\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >21</text><text x=\"160\" y=\"299\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Mesma escala nas duas linhas</text></svg>",
+          "css": ".mfc-md-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Duas linhas do tempo com a mesma escala de zero a 24 minutos. A aparece nos minutos 0, 6, 12, 18 e 24; B aparece nos minutos 3, 12 e 21. São indicados os inícios zero e três e os intervalos seis e nove. Nenhum encontro está nomeado ou destacado.",
+          "acessibilidade": "Duas linhas do tempo com a mesma escala de zero a 24 minutos. A aparece nos minutos 0, 6, 12, 18 e 24; B aparece nos minutos 3, 12 e 21. São indicados os inícios zero e três e os intervalos seis e nove. Nenhum encontro está nomeado ou destacado.",
+          "geometria": {
+            "tipo": "md_revisao",
+            "modelo": "sinais_tempo",
+            "origem_x": 20,
+            "escala_px_por_minuto": 11.666666666666666,
+            "limite_minuto": 24
+          },
+          "arquivo": "recursos/MFC6-B1-I-MD-07.svg"
+        }
+      ],
+      "assunto_nome": "Múltiplos e divisores",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Múltiplos e Divisores solicitada pelo usuário",
+          "correcao_especifica": true,
+          "recurso_visual": "SVG matemático substitui tabela; estacas preservadas e aprimoradas em MD-06",
+          "habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-MD-08",
+      "numero": 8,
+      "titulo": "Cortar sem sobras",
+      "assunto": "MD",
+      "enunciado": "Duas fitas serão cortadas em pedaços de mesmo comprimento inteiro, usando toda a fita. A oficina quer os pedaços mais compridos possíveis. Observe as fitas e suas medidas no esquema. Qual comprimento deve ser escolhido?",
+      "dados": {
+        "fita_A_cm": 54,
+        "fita_B_cm": 72
+      },
+      "modelo_verificacao": "gcd(D['fita_A_cm'],D['fita_B_cm'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "9 cm.",
+          "valor": 9,
+          "erro_comum": "Escolher medida comum sem maximizar."
+        },
+        {
+          "letra": "B",
+          "texto": "27 cm.",
+          "valor": 27,
+          "erro_comum": "Considerar só a primeira fita."
+        },
+        {
+          "letra": "C",
+          "texto": "72 cm.",
+          "valor": 72,
+          "erro_comum": "Escolher a maior fita como tamanho comum."
+        },
+        {
+          "letra": "D",
+          "texto": "18 cm.",
+          "valor": 18,
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "O comprimento deve dividir 54 e 72. O MDC é 18: saem três pedaços da primeira e quatro da segunda. O comprimento 27 não divide 72.",
+      "habilidade": "Maximizar uma medida comum em cortes exatos.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Maximizar uma medida comum em cortes exatos."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual comprimento deve ser escolhido?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa maximizar uma medida comum em cortes exatos.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "MD",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-MD-08",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-MD-08-MDV1",
+          "tipo": "svg",
+          "dados": {
+            "fita_A_cm": 54,
+            "fita_B_cm": 72
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 373\" width=\"320\" height=\"373\" class=\"mfc-md-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-MD-08-MDV1-titulo\" aria-describedby=\"MFC6-B1-I-MD-08-MDV1-descricao\"><title id=\"MFC6-B1-I-MD-08-MDV1-titulo\">Cortar sem sobras</title><desc id=\"MFC6-B1-I-MD-08-MDV1-descricao\">Fita A de 54 cm e fita B de 72 cm, alinhadas à esquerda e desenhadas na mesma escala, quatro pixels por centímetro. Um modelo de pedaço tem comprimento desconhecido, sem escala de corte definida. Não há divisões ou comprimento de resposta indicado.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"373\" fill=\"white\"/><text x=\"160\" y=\"24\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >Fitas antes dos cortes</text><text x=\"160\" y=\"62\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" data-campo=\"fita_A_cm\" data-valor=\"54\">Fita A: 54 cm</text><rect x=\"16\" y=\"79\" width=\"216\" height=\"37\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-fita=\"A\"/><text x=\"160\" y=\"154\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" data-campo=\"fita_B_cm\" data-valor=\"72\">Fita B: 72 cm</text><rect x=\"16\" y=\"171\" width=\"288\" height=\"37\" fill=\"#fff3df\" stroke=\"#263d4d\" data-fita=\"B\"/><text x=\"160\" y=\"246\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Comprimentos na mesma escala</text><rect x=\"93\" y=\"270\" width=\"134\" height=\"44\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"160\" y=\"299\" text-anchor=\"middle\" font-size=\"22\" fill=\"#172b3a\" >? cm</text><text x=\"160\" y=\"348\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Cortar pedaços iguais, sem sobras</text></svg>",
+          "css": ".mfc-md-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Fita A de 54 cm e fita B de 72 cm, alinhadas à esquerda e desenhadas na mesma escala, quatro pixels por centímetro. Um modelo de pedaço tem comprimento desconhecido, sem escala de corte definida. Não há divisões ou comprimento de resposta indicado.",
+          "acessibilidade": "Fita A de 54 cm e fita B de 72 cm, alinhadas à esquerda e desenhadas na mesma escala, quatro pixels por centímetro. Um modelo de pedaço tem comprimento desconhecido, sem escala de corte definida. Não há divisões ou comprimento de resposta indicado.",
+          "geometria": {
+            "tipo": "md_revisao",
+            "modelo": "fitas_comuns",
+            "escala_px_por_cm": 4
+          },
+          "arquivo": "recursos/MFC6-B1-I-MD-08.svg"
+        }
+      ],
+      "assunto_nome": "Múltiplos e divisores",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Múltiplos e Divisores solicitada pelo usuário",
+          "correcao_especifica": false,
+          "recurso_visual": "SVG matemático substitui tabela; estacas preservadas e aprimoradas em MD-06",
+          "habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-MD-09",
+      "numero": 9,
+      "titulo": "Cartaz retangular com linhas limitadas",
+      "assunto": "MD",
+      "enunciado": "Um painel será montado com todas as peças, em um retângulo com pelo menos duas linhas e duas colunas. Observe as peças disponíveis no esquema; elas podem ser reorganizadas para montar o painel. Qual conclusão é correta para a quantidade dada?",
+      "dados": {
+        "pecas": 37
+      },
+      "modelo_verificacao": "[d for d in range(2,D['pecas']) if D['pecas']%d==0]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Não é possível; não há divisor que produza duas dimensões maiores que 1.",
+          "valor": [],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "É possível usar 3 linhas de 12 peças.",
+          "valor": [
+            3
+          ],
+          "erro_comum": "Aceitar uma peça sobrando."
+        },
+        {
+          "letra": "C",
+          "texto": "É possível usar 4 linhas de 9 peças.",
+          "valor": [
+            4
+          ],
+          "erro_comum": "Aceitar uma peça sobrando."
+        },
+        {
+          "letra": "D",
+          "texto": "É possível usar 2 linhas, pois todo ímpar é divisível por 2.",
+          "valor": [
+            2
+          ],
+          "erro_comum": "Confundir ímpar e par."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Para usar todas as 37 peças, o número de linhas deve dividir 37 sem sobra. Se houvesse pelo menos sete linhas e sete colunas, seriam necessárias pelo menos 7 × 7 = 49 peças. Assim, em qualquer retângulo permitido, uma das dimensões teria de ser 2, 3, 4, 5 ou 6. Ao agrupar 37 peças nessas quantidades, há sobra: 37 = 2 × 18 + 1; 37 = 3 × 12 + 1; 37 = 4 × 9 + 1; 37 = 5 × 7 + 2; 37 = 6 × 6 + 1. Portanto, nenhum desses agrupamentos usa todas as peças. Só são possíveis 1 × 37 e 37 × 1, que não atendem à exigência de pelo menos duas linhas e duas colunas.",
+      "habilidade": "Relacionar primalidade à impossibilidade de arranjo retangular não trivial.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Relacionar primalidade à impossibilidade de arranjo retangular não trivial."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual conclusão é correta para a quantidade dada?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa relacionar primalidade à impossibilidade de arranjo retangular não trivial.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "MD",
+        "visual_relevante": true,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-MD-09",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-MD-09-MDV1",
+          "tipo": "svg",
+          "dados": {
+            "pecas": 37
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 340\" width=\"320\" height=\"340\" class=\"mfc-md-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-MD-09-MDV1-titulo\" aria-describedby=\"MFC6-B1-I-MD-09-MDV1-descricao\"><title id=\"MFC6-B1-I-MD-09-MDV1-titulo\">Cartaz retangular com linhas limitadas</title><desc id=\"MFC6-B1-I-MD-09-MDV1-descricao\">Trinta e sete peças individuais disponíveis, desenhadas em cinco linhas de sete e uma linha de duas apenas para contagem do estoque. Elas devem ser reorganizadas em um retângulo com pelo menos duas linhas e duas colunas, usando todas sem sobra. O estoque não representa um painel pronto.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"340\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-campo=\"pecas\" data-valor=\"37\">37 peças disponíveis</text><rect x=\"36\" y=\"48\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"0\"/><rect x=\"72\" y=\"48\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"1\"/><rect x=\"108\" y=\"48\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"2\"/><rect x=\"144\" y=\"48\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"3\"/><rect x=\"180\" y=\"48\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"4\"/><rect x=\"216\" y=\"48\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"5\"/><rect x=\"252\" y=\"48\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"6\"/><rect x=\"36\" y=\"78\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"7\"/><rect x=\"72\" y=\"78\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"8\"/><rect x=\"108\" y=\"78\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"9\"/><rect x=\"144\" y=\"78\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"10\"/><rect x=\"180\" y=\"78\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"11\"/><rect x=\"216\" y=\"78\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"12\"/><rect x=\"252\" y=\"78\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"13\"/><rect x=\"36\" y=\"108\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"14\"/><rect x=\"72\" y=\"108\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"15\"/><rect x=\"108\" y=\"108\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"16\"/><rect x=\"144\" y=\"108\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"17\"/><rect x=\"180\" y=\"108\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"18\"/><rect x=\"216\" y=\"108\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"19\"/><rect x=\"252\" y=\"108\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"20\"/><rect x=\"36\" y=\"138\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"21\"/><rect x=\"72\" y=\"138\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"22\"/><rect x=\"108\" y=\"138\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"23\"/><rect x=\"144\" y=\"138\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"24\"/><rect x=\"180\" y=\"138\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"25\"/><rect x=\"216\" y=\"138\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"26\"/><rect x=\"252\" y=\"138\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"27\"/><rect x=\"36\" y=\"168\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"28\"/><rect x=\"72\" y=\"168\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"29\"/><rect x=\"108\" y=\"168\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"30\"/><rect x=\"144\" y=\"168\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"31\"/><rect x=\"180\" y=\"168\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"32\"/><rect x=\"216\" y=\"168\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"33\"/><rect x=\"252\" y=\"168\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"34\"/><rect x=\"36\" y=\"198\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"35\"/><rect x=\"72\" y=\"198\" width=\"31\" height=\"25\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-peca=\"36\"/><text x=\"160\" y=\"255\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Reorganizar em linhas completas</text><text x=\"160\" y=\"286\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Pelo menos 2 linhas e 2 colunas</text><text x=\"160\" y=\"315\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Usar todas as peças, sem sobras</text></svg>",
+          "css": ".mfc-md-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Trinta e sete peças individuais disponíveis, desenhadas em cinco linhas de sete e uma linha de duas apenas para contagem do estoque. Elas devem ser reorganizadas em um retângulo com pelo menos duas linhas e duas colunas, usando todas sem sobra. O estoque não representa um painel pronto.",
+          "acessibilidade": "Trinta e sete peças individuais disponíveis, desenhadas em cinco linhas de sete e uma linha de duas apenas para contagem do estoque. Elas devem ser reorganizadas em um retângulo com pelo menos duas linhas e duas colunas, usando todas sem sobra. O estoque não representa um painel pronto.",
+          "geometria": {
+            "tipo": "md_revisao",
+            "modelo": "pecas_retangulo"
+          },
+          "arquivo": "recursos/MFC6-B1-I-MD-09.svg"
+        }
+      ],
+      "assunto_nome": "Múltiplos e divisores",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Múltiplos e Divisores solicitada pelo usuário",
+          "correcao_especifica": true,
+          "recurso_visual": "SVG matemático substitui tabela; estacas preservadas e aprimoradas em MD-06",
+          "habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-MD-10",
+      "numero": 10,
+      "titulo": "Pacotes entre dois limites",
+      "assunto": "MD",
+      "enunciado": "Uma loja só prepara remessas cujo total possa ser organizado tanto em grupos de oito como em grupos de doze, sem sobra. Observe os modelos de agrupamento e o limite na reta. Qual é o menor total permitido acima do limite inferior?",
+      "dados": {
+        "grupo_A": 8,
+        "grupo_B": 12,
+        "limite_inferior_exclusivo": 50
+      },
+      "modelo_verificacao": "(D['limite_inferior_exclusivo']//lcm(D['grupo_A'],D['grupo_B'])+1)*lcm(D['grupo_A'],D['grupo_B'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "48 objetos.",
+          "valor": 48,
+          "erro_comum": "Ignorar limite inferior."
+        },
+        {
+          "letra": "B",
+          "texto": "72 objetos.",
+          "valor": 72,
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "60 objetos.",
+          "valor": 60,
+          "erro_comum": "Verificar apenas grupos de doze."
+        },
+        {
+          "letra": "D",
+          "texto": "56 objetos.",
+          "valor": 56,
+          "erro_comum": "Verificar apenas grupos de oito."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Os totais possíveis são múltiplos do MMC(8,12)=24. Depois de 50, o primeiro é 72; 48 é menor que o limite.",
+      "habilidade": "Combinar múltiplos comuns com uma restrição de tamanho mínimo.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Combinar múltiplos comuns com uma restrição de tamanho mínimo."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual é o menor total permitido acima do limite inferior?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa combinar múltiplos comuns com uma restrição de tamanho mínimo.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "MD",
+        "visual_relevante": true,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-MD-10",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-MD-10-MDV1",
+          "tipo": "svg",
+          "dados": {
+            "grupo_A": 8,
+            "grupo_B": 12,
+            "limite_inferior_exclusivo": 50
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 351\" width=\"320\" height=\"351\" class=\"mfc-md-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-MD-10-MDV1-titulo\" aria-describedby=\"MFC6-B1-I-MD-10-MDV1-descricao\"><title id=\"MFC6-B1-I-MD-10-MDV1-titulo\">Pacotes entre dois limites</title><desc id=\"MFC6-B1-I-MD-10-MDV1-descricao\">Um grupo de oito unidades e um grupo de doze unidades, ambos desenhados por objetos. A reta mostra 40, 50, 60, 70 e 80; o ponto 50 é aberto e uma seta aponta para totais maiores. Os múltiplos comuns não estão assinalados.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"351\" fill=\"white\"/><text x=\"160\" y=\"24\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >Dois formatos para a remessa</text><text x=\"83\" y=\"59\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"grupo_A\" data-valor=\"8\">Grupo de 8</text><rect x=\"36\" y=\"80\" width=\"22\" height=\"22\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-grupo=\"A\" data-objeto=\"0\"/><rect x=\"60\" y=\"80\" width=\"22\" height=\"22\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-grupo=\"A\" data-objeto=\"1\"/><rect x=\"84\" y=\"80\" width=\"22\" height=\"22\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-grupo=\"A\" data-objeto=\"2\"/><rect x=\"108\" y=\"80\" width=\"22\" height=\"22\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-grupo=\"A\" data-objeto=\"3\"/><rect x=\"36\" y=\"104\" width=\"22\" height=\"22\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-grupo=\"A\" data-objeto=\"4\"/><rect x=\"60\" y=\"104\" width=\"22\" height=\"22\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-grupo=\"A\" data-objeto=\"5\"/><rect x=\"84\" y=\"104\" width=\"22\" height=\"22\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-grupo=\"A\" data-objeto=\"6\"/><rect x=\"108\" y=\"104\" width=\"22\" height=\"22\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-grupo=\"A\" data-objeto=\"7\"/><text x=\"237\" y=\"59\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"grupo_B\" data-valor=\"12\">Grupo de 12</text><rect x=\"190\" y=\"80\" width=\"22\" height=\"22\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-grupo=\"B\" data-objeto=\"0\"/><rect x=\"214\" y=\"80\" width=\"22\" height=\"22\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-grupo=\"B\" data-objeto=\"1\"/><rect x=\"238\" y=\"80\" width=\"22\" height=\"22\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-grupo=\"B\" data-objeto=\"2\"/><rect x=\"262\" y=\"80\" width=\"22\" height=\"22\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-grupo=\"B\" data-objeto=\"3\"/><rect x=\"190\" y=\"104\" width=\"22\" height=\"22\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-grupo=\"B\" data-objeto=\"4\"/><rect x=\"214\" y=\"104\" width=\"22\" height=\"22\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-grupo=\"B\" data-objeto=\"5\"/><rect x=\"238\" y=\"104\" width=\"22\" height=\"22\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-grupo=\"B\" data-objeto=\"6\"/><rect x=\"262\" y=\"104\" width=\"22\" height=\"22\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-grupo=\"B\" data-objeto=\"7\"/><rect x=\"190\" y=\"128\" width=\"22\" height=\"22\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-grupo=\"B\" data-objeto=\"8\"/><rect x=\"214\" y=\"128\" width=\"22\" height=\"22\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-grupo=\"B\" data-objeto=\"9\"/><rect x=\"238\" y=\"128\" width=\"22\" height=\"22\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-grupo=\"B\" data-objeto=\"10\"/><rect x=\"262\" y=\"128\" width=\"22\" height=\"22\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-grupo=\"B\" data-objeto=\"11\"/><text x=\"160\" y=\"201\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-campo=\"limite_inferior_exclusivo\" data-valor=\"50\">Total maior que 50</text><path d=\"M30 258H290\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M95 246H288L281 241M288 246L281 251\" stroke=\"#263d4d\" fill=\"none\" stroke-width=\"2\"/><path d=\"M30.0 253V263\" stroke=\"#263d4d\"/><text x=\"30.0\" y=\"287\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >40</text><path d=\"M95.0 253V263\" stroke=\"#263d4d\"/><text x=\"95.0\" y=\"287\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >50</text><path d=\"M160.0 253V263\" stroke=\"#263d4d\"/><text x=\"160.0\" y=\"287\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >60</text><path d=\"M225.0 253V263\" stroke=\"#263d4d\"/><text x=\"225.0\" y=\"287\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >70</text><path d=\"M290.0 253V263\" stroke=\"#263d4d\"/><text x=\"290.0\" y=\"287\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >80</text><circle cx=\"95\" cy=\"258\" r=\"5\" fill=\"white\" stroke=\"#263d4d\" data-limite-aberto=\"50\"/><text x=\"160\" y=\"327\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Sem sobras nos dois formatos</text></svg>",
+          "css": ".mfc-md-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Um grupo de oito unidades e um grupo de doze unidades, ambos desenhados por objetos. A reta mostra 40, 50, 60, 70 e 80; o ponto 50 é aberto e uma seta aponta para totais maiores. Os múltiplos comuns não estão assinalados.",
+          "acessibilidade": "Um grupo de oito unidades e um grupo de doze unidades, ambos desenhados por objetos. A reta mostra 40, 50, 60, 70 e 80; o ponto 50 é aberto e uma seta aponta para totais maiores. Os múltiplos comuns não estão assinalados.",
+          "geometria": {
+            "tipo": "md_revisao",
+            "modelo": "grupos_limite"
+          },
+          "arquivo": "recursos/MFC6-B1-I-MD-10.svg"
+        }
+      ],
+      "assunto_nome": "Múltiplos e divisores",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Múltiplos e Divisores solicitada pelo usuário",
+          "correcao_especifica": false,
+          "recurso_visual": "SVG matemático substitui tabela; estacas preservadas e aprimoradas em MD-06",
+          "habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-MD-11",
+      "numero": 11,
+      "titulo": "Páginas marcadas por dois monitores",
+      "assunto": "MD",
+      "enunciado": "No intervalo de páginas indicado, um monitor marca múltiplos de quatro e outro marca múltiplos de seis. Páginas marcadas pelos dois contam uma vez. Observe o quadro de páginas e a legenda das marcações. Quantas páginas são marcadas por pelo menos um monitor?",
+      "dados": {
+        "primeira_pagina": 1,
+        "ultima_pagina": 24,
+        "passo_A": 4,
+        "passo_B": 6
+      },
+      "modelo_verificacao": "len([n for n in range(D['primeira_pagina'],D['ultima_pagina']+1) if n%D['passo_A']==0 or n%D['passo_B']==0])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10 páginas.",
+          "valor": 10,
+          "erro_comum": "Somar sem retirar interseção."
+        },
+        {
+          "letra": "B",
+          "texto": "2 páginas.",
+          "valor": 2,
+          "erro_comum": "Contar só os múltiplos comuns."
+        },
+        {
+          "letra": "C",
+          "texto": "8 páginas.",
+          "valor": 8,
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "6 páginas.",
+          "valor": 6,
+          "erro_comum": "Considerar apenas um monitor."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Há seis múltiplos de quatro e quatro de seis. As páginas 12 e 24 foram contadas duas vezes; total 6+4−2=8.",
+      "habilidade": "Contar união de múltiplos sem repetir interseções.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Contar união de múltiplos sem repetir interseções."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Quantas páginas são marcadas por pelo menos um monitor?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa contar união de múltiplos sem repetir interseções.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "MD",
+        "visual_relevante": true,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-MD-11",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-MD-11-MDV1",
+          "tipo": "svg",
+          "dados": {
+            "primeira_pagina": 1,
+            "ultima_pagina": 24,
+            "passo_A": 4,
+            "passo_B": 6
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 414\" width=\"320\" height=\"414\" class=\"mfc-md-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-MD-11-MDV1-titulo\" aria-describedby=\"MFC6-B1-I-MD-11-MDV1-descricao\"><title id=\"MFC6-B1-I-MD-11-MDV1-titulo\">Páginas marcadas por dois monitores</title><desc id=\"MFC6-B1-I-MD-11-MDV1-descricao\">Quadro com páginas de 1 a 24. Triângulos do monitor A marcam 4, 8, 12, 16, 20 e 24. Quadrados do monitor B marcam 6, 12, 18 e 24. As páginas 12 e 24 têm as duas formas. A legenda diferencia as marcas por forma e texto, sem apresentar o total de páginas marcadas.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"414\" fill=\"white\"/><text x=\"160\" y=\"24\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"primeira_pagina\" data-valor=\"1\">Página inicial: 1</text><text x=\"160\" y=\"51\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"ultima_pagina\" data-valor=\"24\">Página final: 24</text><path d=\"M14 67L21 80H7Z\" fill=\"#dceacb\" stroke=\"#263d4d\"/><text x=\"174\" y=\"79\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"passo_A\" data-valor=\"4\">A: múltiplos de 4</text><rect x=\"7\" y=\"94\" width=\"14\" height=\"14\" fill=\"#fff3df\" stroke=\"#263d4d\" /><text x=\"174\" y=\"107\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"passo_B\" data-valor=\"6\">B: múltiplos de 6</text><rect x=\"15\" y=\"131\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"37\" y=\"154\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"1\">1</text><rect x=\"64\" y=\"131\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"86\" y=\"154\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"2\">2</text><rect x=\"113\" y=\"131\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"135\" y=\"154\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"3\">3</text><rect x=\"162\" y=\"131\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"184\" y=\"154\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"4\">4</text><path d=\"M174 162L180 174H168Z\" fill=\"#dceacb\" stroke=\"#263d4d\" data-monitor=\"A\" data-pagina=\"4\"/><rect x=\"211\" y=\"131\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"233\" y=\"154\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"5\">5</text><rect x=\"260\" y=\"131\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"282\" y=\"154\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"6\">6</text><rect x=\"286\" y=\"162\" width=\"12\" height=\"12\" fill=\"#fff3df\" stroke=\"#263d4d\" data-monitor=\"B\" data-pagina=\"6\"/><rect x=\"15\" y=\"188\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"37\" y=\"211\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"7\">7</text><rect x=\"64\" y=\"188\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"86\" y=\"211\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"8\">8</text><path d=\"M76 219L82 231H70Z\" fill=\"#dceacb\" stroke=\"#263d4d\" data-monitor=\"A\" data-pagina=\"8\"/><rect x=\"113\" y=\"188\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"135\" y=\"211\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"9\">9</text><rect x=\"162\" y=\"188\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"184\" y=\"211\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"10\">10</text><rect x=\"211\" y=\"188\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"233\" y=\"211\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"11\">11</text><rect x=\"260\" y=\"188\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"282\" y=\"211\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"12\">12</text><path d=\"M272 219L278 231H266Z\" fill=\"#dceacb\" stroke=\"#263d4d\" data-monitor=\"A\" data-pagina=\"12\"/><rect x=\"286\" y=\"219\" width=\"12\" height=\"12\" fill=\"#fff3df\" stroke=\"#263d4d\" data-monitor=\"B\" data-pagina=\"12\"/><rect x=\"15\" y=\"245\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"37\" y=\"268\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"13\">13</text><rect x=\"64\" y=\"245\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"86\" y=\"268\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"14\">14</text><rect x=\"113\" y=\"245\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"135\" y=\"268\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"15\">15</text><rect x=\"162\" y=\"245\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"184\" y=\"268\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"16\">16</text><path d=\"M174 276L180 288H168Z\" fill=\"#dceacb\" stroke=\"#263d4d\" data-monitor=\"A\" data-pagina=\"16\"/><rect x=\"211\" y=\"245\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"233\" y=\"268\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"17\">17</text><rect x=\"260\" y=\"245\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"282\" y=\"268\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"18\">18</text><rect x=\"286\" y=\"276\" width=\"12\" height=\"12\" fill=\"#fff3df\" stroke=\"#263d4d\" data-monitor=\"B\" data-pagina=\"18\"/><rect x=\"15\" y=\"302\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"37\" y=\"325\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"19\">19</text><rect x=\"64\" y=\"302\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"86\" y=\"325\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"20\">20</text><path d=\"M76 333L82 345H70Z\" fill=\"#dceacb\" stroke=\"#263d4d\" data-monitor=\"A\" data-pagina=\"20\"/><rect x=\"113\" y=\"302\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"135\" y=\"325\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"21\">21</text><rect x=\"162\" y=\"302\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"184\" y=\"325\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"22\">22</text><rect x=\"211\" y=\"302\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"233\" y=\"325\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"23\">23</text><rect x=\"260\" y=\"302\" width=\"44\" height=\"51\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"282\" y=\"325\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-pagina=\"24\">24</text><path d=\"M272 333L278 345H266Z\" fill=\"#dceacb\" stroke=\"#263d4d\" data-monitor=\"A\" data-pagina=\"24\"/><rect x=\"286\" y=\"333\" width=\"12\" height=\"12\" fill=\"#fff3df\" stroke=\"#263d4d\" data-monitor=\"B\" data-pagina=\"24\"/><text x=\"160\" y=\"390\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Cada página conta uma única vez</text></svg>",
+          "css": ".mfc-md-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Quadro com páginas de 1 a 24. Triângulos do monitor A marcam 4, 8, 12, 16, 20 e 24. Quadrados do monitor B marcam 6, 12, 18 e 24. As páginas 12 e 24 têm as duas formas. A legenda diferencia as marcas por forma e texto, sem apresentar o total de páginas marcadas.",
+          "acessibilidade": "Quadro com páginas de 1 a 24. Triângulos do monitor A marcam 4, 8, 12, 16, 20 e 24. Quadrados do monitor B marcam 6, 12, 18 e 24. As páginas 12 e 24 têm as duas formas. A legenda diferencia as marcas por forma e texto, sem apresentar o total de páginas marcadas.",
+          "geometria": {
+            "tipo": "md_revisao",
+            "modelo": "paginas_marcas"
+          },
+          "arquivo": "recursos/MFC6-B1-I-MD-11.svg"
+        }
+      ],
+      "assunto_nome": "Múltiplos e divisores",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Múltiplos e Divisores solicitada pelo usuário",
+          "correcao_especifica": false,
+          "recurso_visual": "SVG matemático substitui tabela; estacas preservadas e aprimoradas em MD-06",
+          "habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-MD-12",
+      "numero": 12,
+      "titulo": "Calendário que não recomeça na segunda",
+      "assunto": "MD",
+      "enunciado": "Uma inspeção ocorre a cada quatro dias a partir de uma segunda-feira. A semana tem sete dias, e o ciclo continua sem reiniciar. Observe o calendário, em que o dia zero é a segunda-feira da primeira inspeção. Depois de quantos dias a inspeção volta a cair numa segunda-feira?",
+      "dados": {
+        "intervalo_dias": 4,
+        "dias_semana": 7
+      },
+      "modelo_verificacao": "lcm(D['intervalo_dias'],D['dias_semana'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "7 dias.",
+          "valor": 7,
+          "erro_comum": "Verificar só a semana."
+        },
+        {
+          "letra": "B",
+          "texto": "11 dias.",
+          "valor": 11,
+          "erro_comum": "Somar os ciclos."
+        },
+        {
+          "letra": "C",
+          "texto": "14 dias.",
+          "valor": 14,
+          "erro_comum": "Contar duas semanas sem exigir múltiplo de quatro."
+        },
+        {
+          "letra": "D",
+          "texto": "28 dias.",
+          "valor": 28,
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "O tempo deve ser múltiplo de quatro e de sete. O menor positivo é 28; ocorre após sete intervalos de inspeção e quatro semanas.",
+      "habilidade": "Cruzar ciclo de atividade e ciclo semanal sem reinicialização.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Cruzar ciclo de atividade e ciclo semanal sem reinicialização."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Depois de quantos dias a inspeção volta a cair numa segunda-feira?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa cruzar ciclo de atividade e ciclo semanal sem reinicialização.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "MD",
+        "visual_relevante": true,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-MD-12",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-MD-12-MDV1",
+          "tipo": "svg",
+          "dados": {
+            "intervalo_dias": 4,
+            "dias_semana": 7
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 454\" width=\"320\" height=\"454\" class=\"mfc-md-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-MD-12-MDV1-titulo\" aria-describedby=\"MFC6-B1-I-MD-12-MDV1-descricao\"><title id=\"MFC6-B1-I-MD-12-MDV1-titulo\">Calendário que não recomeça na segunda</title><desc id=\"MFC6-B1-I-MD-12-MDV1-descricao\">Calendário de dias decorridos, começando no dia zero em uma segunda-feira. As colunas são segunda a domingo; os dias seguem de zero a 28. Círculos indicam inspeções nos dias 0, 4, 8, 12, 16, 20, 24 e 28. O ciclo continua entre semanas; nenhuma data de resposta está destacada de modo diferente.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"454\" fill=\"white\"/><text x=\"160\" y=\"24\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" >Calendário de dias decorridos</text><text x=\"160\" y=\"51\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"intervalo_dias\" data-valor=\"4\">Inspeção a cada 4 dias</text><text x=\"160\" y=\"77\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-campo=\"dias_semana\" data-valor=\"7\">Semana com 7 dias</text><text x=\"39\" y=\"108\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Seg</text><text x=\"79\" y=\"108\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Ter</text><text x=\"119\" y=\"108\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Qua</text><text x=\"159\" y=\"108\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Qui</text><text x=\"199\" y=\"108\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Sex</text><text x=\"239\" y=\"108\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Sáb</text><text x=\"279\" y=\"108\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Dom</text><rect x=\"20\" y=\"122\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"0\" data-coluna=\"0\" data-linha=\"0\"/><circle cx=\"39\" cy=\"142\" r=\"15\" fill=\"#dceacb\" stroke=\"#263d4d\" data-inspecao=\"0\"/><text x=\"39\" y=\"148\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"0\">0</text><rect x=\"60\" y=\"122\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"1\" data-coluna=\"1\" data-linha=\"0\"/><text x=\"79\" y=\"148\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"1\">1</text><rect x=\"100\" y=\"122\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"2\" data-coluna=\"2\" data-linha=\"0\"/><text x=\"119\" y=\"148\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"2\">2</text><rect x=\"140\" y=\"122\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"3\" data-coluna=\"3\" data-linha=\"0\"/><text x=\"159\" y=\"148\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"3\">3</text><rect x=\"180\" y=\"122\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"4\" data-coluna=\"4\" data-linha=\"0\"/><circle cx=\"199\" cy=\"142\" r=\"15\" fill=\"#dceacb\" stroke=\"#263d4d\" data-inspecao=\"4\"/><text x=\"199\" y=\"148\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"4\">4</text><rect x=\"220\" y=\"122\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"5\" data-coluna=\"5\" data-linha=\"0\"/><text x=\"239\" y=\"148\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"5\">5</text><rect x=\"260\" y=\"122\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"6\" data-coluna=\"6\" data-linha=\"0\"/><text x=\"279\" y=\"148\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"6\">6</text><rect x=\"20\" y=\"164\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"7\" data-coluna=\"0\" data-linha=\"1\"/><text x=\"39\" y=\"190\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"7\">7</text><rect x=\"60\" y=\"164\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"8\" data-coluna=\"1\" data-linha=\"1\"/><circle cx=\"79\" cy=\"184\" r=\"15\" fill=\"#dceacb\" stroke=\"#263d4d\" data-inspecao=\"8\"/><text x=\"79\" y=\"190\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"8\">8</text><rect x=\"100\" y=\"164\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"9\" data-coluna=\"2\" data-linha=\"1\"/><text x=\"119\" y=\"190\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"9\">9</text><rect x=\"140\" y=\"164\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"10\" data-coluna=\"3\" data-linha=\"1\"/><text x=\"159\" y=\"190\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"10\">10</text><rect x=\"180\" y=\"164\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"11\" data-coluna=\"4\" data-linha=\"1\"/><text x=\"199\" y=\"190\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"11\">11</text><rect x=\"220\" y=\"164\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"12\" data-coluna=\"5\" data-linha=\"1\"/><circle cx=\"239\" cy=\"184\" r=\"15\" fill=\"#dceacb\" stroke=\"#263d4d\" data-inspecao=\"12\"/><text x=\"239\" y=\"190\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"12\">12</text><rect x=\"260\" y=\"164\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"13\" data-coluna=\"6\" data-linha=\"1\"/><text x=\"279\" y=\"190\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"13\">13</text><rect x=\"20\" y=\"206\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"14\" data-coluna=\"0\" data-linha=\"2\"/><text x=\"39\" y=\"232\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"14\">14</text><rect x=\"60\" y=\"206\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"15\" data-coluna=\"1\" data-linha=\"2\"/><text x=\"79\" y=\"232\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"15\">15</text><rect x=\"100\" y=\"206\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"16\" data-coluna=\"2\" data-linha=\"2\"/><circle cx=\"119\" cy=\"226\" r=\"15\" fill=\"#dceacb\" stroke=\"#263d4d\" data-inspecao=\"16\"/><text x=\"119\" y=\"232\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"16\">16</text><rect x=\"140\" y=\"206\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"17\" data-coluna=\"3\" data-linha=\"2\"/><text x=\"159\" y=\"232\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"17\">17</text><rect x=\"180\" y=\"206\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"18\" data-coluna=\"4\" data-linha=\"2\"/><text x=\"199\" y=\"232\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"18\">18</text><rect x=\"220\" y=\"206\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"19\" data-coluna=\"5\" data-linha=\"2\"/><text x=\"239\" y=\"232\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"19\">19</text><rect x=\"260\" y=\"206\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"20\" data-coluna=\"6\" data-linha=\"2\"/><circle cx=\"279\" cy=\"226\" r=\"15\" fill=\"#dceacb\" stroke=\"#263d4d\" data-inspecao=\"20\"/><text x=\"279\" y=\"232\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"20\">20</text><rect x=\"20\" y=\"248\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"21\" data-coluna=\"0\" data-linha=\"3\"/><text x=\"39\" y=\"274\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"21\">21</text><rect x=\"60\" y=\"248\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"22\" data-coluna=\"1\" data-linha=\"3\"/><text x=\"79\" y=\"274\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"22\">22</text><rect x=\"100\" y=\"248\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"23\" data-coluna=\"2\" data-linha=\"3\"/><text x=\"119\" y=\"274\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"23\">23</text><rect x=\"140\" y=\"248\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"24\" data-coluna=\"3\" data-linha=\"3\"/><circle cx=\"159\" cy=\"268\" r=\"15\" fill=\"#dceacb\" stroke=\"#263d4d\" data-inspecao=\"24\"/><text x=\"159\" y=\"274\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"24\">24</text><rect x=\"180\" y=\"248\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"25\" data-coluna=\"4\" data-linha=\"3\"/><text x=\"199\" y=\"274\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"25\">25</text><rect x=\"220\" y=\"248\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"26\" data-coluna=\"5\" data-linha=\"3\"/><text x=\"239\" y=\"274\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"26\">26</text><rect x=\"260\" y=\"248\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"27\" data-coluna=\"6\" data-linha=\"3\"/><text x=\"279\" y=\"274\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"27\">27</text><rect x=\"20\" y=\"290\" width=\"38\" height=\"39\" fill=\"white\" stroke=\"#263d4d\" data-dia=\"28\" data-coluna=\"0\" data-linha=\"4\"/><circle cx=\"39\" cy=\"310\" r=\"15\" fill=\"#dceacb\" stroke=\"#263d4d\" data-inspecao=\"28\"/><text x=\"39\" y=\"316\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-numero-dia=\"28\">28</text><circle cx=\"37\" cy=\"362\" r=\"9\" fill=\"#dceacb\" stroke=\"#263d4d\" /><text x=\"174\" y=\"368\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Círculo: inspeção</text><text x=\"160\" y=\"401\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Dia 0: primeira segunda-feira</text><text x=\"160\" y=\"429\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >O ciclo continua entre semanas</text></svg>",
+          "css": ".mfc-md-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Calendário de dias decorridos, começando no dia zero em uma segunda-feira. As colunas são segunda a domingo; os dias seguem de zero a 28. Círculos indicam inspeções nos dias 0, 4, 8, 12, 16, 20, 24 e 28. O ciclo continua entre semanas; nenhuma data de resposta está destacada de modo diferente.",
+          "acessibilidade": "Calendário de dias decorridos, começando no dia zero em uma segunda-feira. As colunas são segunda a domingo; os dias seguem de zero a 28. Círculos indicam inspeções nos dias 0, 4, 8, 12, 16, 20, 24 e 28. O ciclo continua entre semanas; nenhuma data de resposta está destacada de modo diferente.",
+          "geometria": {
+            "tipo": "md_revisao",
+            "modelo": "calendario_inspecoes",
+            "ultimo_dia_exibido": 28
+          },
+          "arquivo": "recursos/MFC6-B1-I-MD-12.svg"
+        }
+      ],
+      "assunto_nome": "Múltiplos e divisores",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Múltiplos e Divisores solicitada pelo usuário",
+          "correcao_especifica": false,
+          "recurso_visual": "SVG matemático substitui tabela; estacas preservadas e aprimoradas em MD-06",
+          "habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-MD-13",
+      "numero": 13,
+      "titulo": "É preciso contar cada peça?",
+      "assunto": "MD",
+      "enunciado": "Um depósito recebeu 15 pacotes com 8 sensores em cada um. Sem abrir pacotes, é possível garantir que o total seja divisível por 4? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "pacotes": 15,
+        "sensores_por_pacote": 8
+      },
+      "modelo_verificacao": "(D['pacotes']*D['sensores_por_pacote'])%4==0",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sim, porque cada pacote já contém dois grupos completos de quatro.",
+          "valor": true,
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Não, porque 15 é ímpar.",
+          "valor": false,
+          "erro_comum": "Analisar apenas o número de pacotes."
+        },
+        {
+          "letra": "C",
+          "texto": "Não, porque o total termina em zero e não em quatro.",
+          "valor": false,
+          "erro_comum": "Confundir critério de divisibilidade com último algarismo igual ao divisor."
+        },
+        {
+          "letra": "D",
+          "texto": "Não, porque seria preciso ter quatro pacotes.",
+          "valor": false,
+          "erro_comum": "Confundir número de grupos com tamanho de grupo."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Sim. Cada pacote de oito pode ser dividido em dois grupos de quatro; quinze pacotes também formam grupos completos. O total 120 é divisível por quatro.",
+      "habilidade": "Justificar divisibilidade a partir dos fatores de um produto.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Justificar divisibilidade a partir dos fatores de um produto."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa justificar divisibilidade a partir dos fatores de um produto.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "MD",
+        "visual_relevante": false,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-MD-13",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Múltiplos e divisores"
+    },
+    {
+      "id": "MFC6-B1-I-MD-14",
+      "numero": 14,
+      "titulo": "Dois números consecutivos",
+      "assunto": "MD",
+      "enunciado": "Uma atividade numera duas peças com naturais consecutivos. O produto dessas duas etiquetas pode ser ímpar? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "pares_exemplos": [
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ]
+        ],
+        "modulo": 2
+      },
+      "modelo_verificacao": "any(r*(r+1)%D['modulo']!=0 for r in range(D['modulo']))",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sim; se o primeiro for ímpar, os dois serão ímpares.",
+          "valor": true,
+          "erro_comum": "Ignorar alternância entre consecutivos."
+        },
+        {
+          "letra": "B",
+          "texto": "Não; sempre há um fator par.",
+          "valor": false,
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Sim; se o segundo for maior que dez.",
+          "valor": true,
+          "erro_comum": "Usar tamanho do número em vez de paridade."
+        },
+        {
+          "letra": "D",
+          "texto": "Sim; todo produto de números diferentes é ímpar.",
+          "valor": true,
+          "erro_comum": "Generalização sem relação com divisibilidade."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Não. Entre dois naturais consecutivos, um é par; seu produto tem o fator 2. Os exemplos ilustram, mas a conclusão usa a alternância de paridade, não apenas dois testes.",
+      "habilidade": "Argumentar sobre paridade de um produto de consecutivos.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Argumentar sobre paridade de um produto de consecutivos."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa argumentar sobre paridade de um produto de consecutivos.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "MD",
+        "visual_relevante": false,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-MD-14",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Múltiplos e divisores"
+    },
+    {
+      "id": "MFC6-B1-I-MD-15",
+      "numero": 15,
+      "titulo": "Organizar duas prateleiras sem conhecer o total",
+      "assunto": "MD",
+      "enunciado": "Cada uma de duas caixas tem uma quantidade ímpar de peças. Ao reunir as caixas, é garantido que o total seja par? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "resto_caixa_A": 1,
+        "resto_caixa_B": 1,
+        "divisor": 2
+      },
+      "modelo_verificacao": "(D['resto_caixa_A']+D['resto_caixa_B'])%D['divisor']==0",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Não; juntar dois ímpares sempre dá ímpar.",
+          "valor": false,
+          "erro_comum": "Transportar a paridade de cada parcela para a soma."
+        },
+        {
+          "letra": "B",
+          "texto": "Não; só se as caixas tiverem a mesma quantidade.",
+          "valor": false,
+          "erro_comum": "Exigir igualdade onde basta paridade."
+        },
+        {
+          "letra": "C",
+          "texto": "Sim; as sobras de uma peça se juntam e completam outro par.",
+          "valor": true,
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Não; só se as quantidades forem múltiplas de dez.",
+          "valor": false,
+          "erro_comum": "Usar critério de dez para decidir paridade."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Sim. Cada caixa deixa uma peça ao formar pares; as duas peças restantes formam outro par. Ímpar mais ímpar é par.",
+      "habilidade": "Usar restos para justificar paridade de uma soma.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Usar restos para justificar paridade de uma soma."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa usar restos para justificar paridade de uma soma.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "MD",
+        "visual_relevante": false,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-MD-15",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Múltiplos e divisores"
+    },
+    {
+      "id": "MFC6-B1-I-MD-16",
+      "numero": 16,
+      "titulo": "Separar milhares ajuda a decidir",
+      "assunto": "MD",
+      "enunciado": "Uma fábrica recebeu 8.136 peças para caixas de oito. Uma pessoa afirmou que haveria sobra porque 36 não é divisível por oito. Outra separou mentalmente 8.000 peças e 136 peças. Qual conclusão e quantidade de caixas completas estão corretas?",
+      "dados": {
+        "parcela_milhares": 8000,
+        "parcela_final": 136,
+        "pecas_por_caixa": 8
+      },
+      "modelo_verificacao": "(D['parcela_milhares']+D['parcela_final'])//D['pecas_por_caixa']",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Há sobra; só podem ser feitas 1.000 caixas.",
+          "valor": 1000,
+          "erro_comum": "Ignorar 136 peças ou analisar apenas os dois últimos algarismos."
+        },
+        {
+          "letra": "B",
+          "texto": "Não há sobra; podem ser feitas 1.136 caixas.",
+          "valor": 1136,
+          "erro_comum": "Somar 136 peças ao número de caixas, sem dividir essa parcela."
+        },
+        {
+          "letra": "C",
+          "texto": "Há sobra; podem ser feitas 17 caixas.",
+          "valor": 17,
+          "erro_comum": "Considerar apenas as 136 peças finais."
+        },
+        {
+          "letra": "D",
+          "texto": "Não há sobra; podem ser feitas 1.017 caixas.",
+          "valor": 1017,
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "8.000 é múltiplo de oito e forma 1.000 caixas. As 136 peças também são: 136÷8=17. O total é 1.017 caixas sem sobra. Analisar somente 36 não preserva a divisibilidade por oito; retirar milhares que são múltiplos de oito preserva.",
+      "habilidade": "Verificar divisibilidade por decomposição em parcelas divisíveis e avaliar um argumento incompleto.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Compara dois argumentos e relaciona a decomposição do total a divisões parciais exatas."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Decisão de divisibilidade por decomposição com avaliação da análise incorreta de apenas dois algarismos.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "Avalia preservação da divisibilidade em uma decomposição, não pede listar divisores de uma quantidade."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "MD",
+        "visual_relevante": false,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-MD-16",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Múltiplos e divisores"
+    },
+    {
+      "id": "MFC6-B1-I-MD-17",
+      "numero": 17,
+      "titulo": "A próxima posição da cor",
+      "assunto": "MD",
+      "enunciado": "Uma faixa repete a sequência azul, verde, amarelo, vermelho, nessa ordem; a primeira posição é azul. Qual é a cor na posição 26? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "ciclo": [
+          "azul",
+          "verde",
+          "amarelo",
+          "vermelho"
+        ],
+        "posicao": 26
+      },
+      "modelo_verificacao": "D['ciclo'][(D['posicao']-1)%len(D['ciclo'])]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Verde.",
+          "valor": "verde",
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Azul.",
+          "valor": "azul",
+          "erro_comum": "Usar quociente sem localizar a posição dentro do ciclo."
+        },
+        {
+          "letra": "C",
+          "texto": "Amarelo.",
+          "valor": "amarelo",
+          "erro_comum": "Usar resto como índice começando do zero sem ajustar a posição."
+        },
+        {
+          "letra": "D",
+          "texto": "Vermelho.",
+          "valor": "vermelho",
+          "erro_comum": "Considerar apenas blocos completos."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Cada bloco de quatro posições repete a sequência. As posições 25 e 26 iniciam o sétimo bloco: azul e verde. O deslocamento usa posição menos um.",
+      "habilidade": "Interpretar resto em sequência cíclica com índice inicial um.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Interpretar resto em sequência cíclica com índice inicial um."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa interpretar resto em sequência cíclica com índice inicial um.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "MD",
+        "visual_relevante": false,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-MD-17",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Múltiplos e divisores"
+    },
+    {
+      "id": "MFC6-B1-I-MD-18",
+      "numero": 18,
+      "titulo": "Peças para um quadrado",
+      "assunto": "MD",
+      "enunciado": "Uma oficina tem 48 peças. Depois de acrescentar a quantidade mínima necessária, todas as peças serão reorganizadas para formar um quadrado com o mesmo número inteiro de linhas e de colunas, sem sobras. Quantas peças precisa acrescentar? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "pecas": 48
+      },
+      "modelo_verificacao": "(isqrt(D['pecas'])+1)**2-D['pecas']",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "12 peças.",
+          "valor": 12,
+          "erro_comum": "Usar a diferença para o quadrado anterior."
+        },
+        {
+          "letra": "B",
+          "texto": "1 peça.",
+          "valor": 1,
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "16 peças.",
+          "valor": 16,
+          "erro_comum": "Pular o quadrado de 49 e ir para 64."
+        },
+        {
+          "letra": "D",
+          "texto": "0 peça.",
+          "valor": 0,
+          "erro_comum": "Confundir retângulo com quadrado."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "O quadrado imediatamente maior tem 7×7=49 peças; basta acrescentar uma. Seis por seis usa só 36, deixando sobras, e não atende ao uso de todas.",
+      "habilidade": "Comparar o total com produtos quadrados vizinhos.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Comparar o total com produtos quadrados vizinhos."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa comparar o total com produtos quadrados vizinhos.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "MD",
+        "visual_relevante": false,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-MD-18",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Múltiplos e divisores",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Múltiplos e Divisores solicitada pelo usuário",
+          "correcao_especifica": true,
+          "recurso_visual": "Sem recurso visual",
+          "habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-MD-19",
+      "numero": 19,
+      "titulo": "Encontro impossível dos alertas",
+      "assunto": "MD",
+      "enunciado": "Um alerta aparece nos minutos 0,4,8,12,...; outro nos minutos 1,5,9,13,... . O monitor pergunta se haverá um encontro se esperar bastante. Qual conclusão é correta? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "passo": 4,
+        "inicio_A": 0,
+        "inicio_B": 1
+      },
+      "modelo_verificacao": "(D['inicio_B']-D['inicio_A'])%D['passo']==0",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sim; basta esperar quatro minutos.",
+          "valor": true,
+          "erro_comum": "Usar período comum sem considerar inícios."
+        },
+        {
+          "letra": "B",
+          "texto": "Sim; todo par de ciclos acaba coincidindo.",
+          "valor": true,
+          "erro_comum": "Generalizar indevidamente o MMC para ciclos deslocados."
+        },
+        {
+          "letra": "C",
+          "texto": "Não; os instantes mantêm restos diferentes na divisão por quatro.",
+          "valor": false,
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Sim; no minuto cinco, os dois já apareceram antes.",
+          "valor": true,
+          "erro_comum": "Confundir terem ocorrido com ocorrerem simultaneamente."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Não há encontro: o primeiro alerta deixa resto zero ao dividir seu minuto por quatro; o segundo deixa resto um. Esperar mais repete esses restos, sem uni-los.",
+      "habilidade": "Usar classes de resto para provar impossibilidade de coincidência.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Usar classes de resto para provar impossibilidade de coincidência."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa usar classes de resto para provar impossibilidade de coincidência.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "MD",
+        "visual_relevante": false,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-MD-19",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Múltiplos e divisores"
+    },
+    {
+      "id": "MFC6-B1-I-MD-20",
+      "numero": 20,
+      "titulo": "Bandejas de tamanho primo",
+      "assunto": "MD",
+      "enunciado": "Uma oficina recebeu uma remessa cujo total de peças está descrito por 2 × 3 × 3 × 7. Ela só pode comprar bandejas com uma quantidade prima de lugares e quer distribuir todas as peças em bandejas iguais, sem sobra. Qual conjunto lista todos os tamanhos de bandeja possíveis?",
+      "dados": {
+        "fatores_primos": [
+          2,
+          3,
+          3,
+          7
+        ]
+      },
+      "modelo_verificacao": "sorted(set(D['fatores_primos']))",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6 e 7.",
+          "valor": [
+            6,
+            7
+          ],
+          "erro_comum": "Agrupar os fatores 2 e 3 em 6 e tratá-lo como tamanho primo, embora 6 seja composto, omitindo também os tamanhos primos 2 e 3."
+        },
+        {
+          "letra": "B",
+          "texto": "2, 3, 7 e 9.",
+          "valor": [
+            2,
+            3,
+            7,
+            9
+          ],
+          "erro_comum": "Aceitar divisor composto, apesar da exigência de tamanho primo."
+        },
+        {
+          "letra": "C",
+          "texto": "2 e 7.",
+          "valor": [
+            2,
+            7
+          ],
+          "erro_comum": "Omitir o primo que aparece duas vezes na fatoração."
+        },
+        {
+          "letra": "D",
+          "texto": "2, 3 e 7.",
+          "valor": [
+            2,
+            3,
+            7
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Os fatores primos distintos do total são 2, 3 e 7. Cada um divide o produto 2 × 3 × 3 × 7, permitindo bandejas completas. O fator 3 repetido não representa um novo tamanho. Seis e nove dividem o total, mas são compostos: 6 = 2 × 3 e 9 = 3 × 3. Portanto, não atendem à regra de tamanho primo.",
+      "habilidade": "Identificar todos os divisores primos de um produto e aplicar restrição material de tamanho.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Relaciona fatoração, divisibilidade e a exigência de primalidade, distinguindo repetição de fator e tamanho distinto."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Escolher os tamanhos de bandeja que atendem simultaneamente a divisibilidade e primalidade, a partir de fatoração já fornecida.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa identificar todos os divisores primos de um produto e aplicar restrição material de tamanho.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "MD",
+        "visual_relevante": false,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-MD-20",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Múltiplos e divisores",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Múltiplos e Divisores solicitada pelo usuário",
+          "correcao_especifica": true,
+          "recurso_visual": "Sem recurso visual",
+          "habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Distrator A reformulado em MD-20",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    }
+  ]
+}

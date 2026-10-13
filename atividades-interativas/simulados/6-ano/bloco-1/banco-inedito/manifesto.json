@@ -1,0 +1,84 @@
+{
+  "banco_id": "MFC6-B1-INEDITO-V1",
+  "titulo": "Simulado do 6º ano — Bloco 1: Números e Operações",
+  "versao": 1,
+  "arquivos": [
+    "sistema-numeracao.json",
+    "operacoes.json",
+    "multiplos-divisores.json",
+    "fracoes.json",
+    "decimais.json"
+  ],
+  "quantidade_por_assunto": {
+    "SN": 20,
+    "ON": 20,
+    "MD": 20,
+    "FR": 20,
+    "ND": 20
+  },
+  "regras_selecao": {
+    "total_questoes": 30,
+    "por_assunto": {
+      "SN": 6,
+      "ON": 6,
+      "MD": 6,
+      "FR": 6,
+      "ND": 6
+    },
+    "minimo_questoes_com_visual_relevante": 15,
+    "evitar_repeticao_de_id": true,
+    "evitar_repeticao_de_grupo_equivalencia": true,
+    "priorizar_ids_ainda_nao_utilizados": true,
+    "historico": "Exclusivamente local no navegador, separado do nome opcional do estudante.",
+    "dificuldade_por_assunto": {
+      "SN": {
+        "facil": 2,
+        "media": 3,
+        "dificil": 1
+      },
+      "ON": {
+        "facil": 2,
+        "media": 2,
+        "dificil": 2
+      },
+      "MD": {
+        "facil": 1,
+        "media": 3,
+        "dificil": 2
+      },
+      "FR": {
+        "facil": 2,
+        "media": 3,
+        "dificil": 1
+      },
+      "ND": {
+        "facil": 1,
+        "media": 3,
+        "dificil": 2
+      }
+    },
+    "dificuldade_total": {
+      "facil": 8,
+      "media": 14,
+      "dificil": 8
+    },
+    "minimo_visuais_por_assunto": 3
+  },
+  "estrategia_viavel_documentada": {
+    "descricao": "Selecionar uniformemente entre conjuntos de seis que atendem às cotas de dificuldade e a pelo menos três visuais por assunto. Histórico opcional prioriza inéditas e menor uso entre conjuntos válidos.",
+    "minimo_visuais_por_assunto": 3,
+    "minimo_visuais_total": 15,
+    "modulos": "../mecanismo/index.mjs"
+  },
+  "metadados_utilizados": [
+    "id",
+    "assunto",
+    "dificuldade.nivel",
+    "sorteio.visual_relevante",
+    "sorteio.grupo_equivalencia",
+    "sorteio.ativo",
+    "revisao_pedagogica.status"
+  ],
+  "publicacao": "Não publicar no Blogger; seleção implementada sem interface.",
+  "liberacao_pedagogica": "Revisão dos 100 itens concluída pelo usuário; metadados alinhados como aprovada. Mecanismo implementado sem interface ou publicação."
+}

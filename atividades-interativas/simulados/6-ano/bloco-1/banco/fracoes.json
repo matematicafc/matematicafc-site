@@ -1,0 +1,1716 @@
+{
+  "versao_formato": 1,
+  "bloco": "6-ano-bloco-1-numeros-operacoes",
+  "ano_escolar": 6,
+  "assunto": "Frações",
+  "codigo_assunto": "FR",
+  "origem": "Postagens consultadas na análise das 100 questões; correções locais explicitamente registradas.",
+  "sha256_html_fonte": "df60eeb5eba312f7e03a79520c852aa857b47835b0cfe1e8c6a81f0763e3b5ed",
+  "estilos_originais_referencia": [
+    "\n*{box-sizing:border-box}\nbody{font-family:Arial,sans-serif;color:#17324d;margin:0}\n.mfc{max-width:980px;margin:auto;padding:24px 18px 48px}\n.brand{text-align:center;font:700 italic 34px Georgia,serif;color:#173f63}\n.brand b{color:#d6a400}\nh1{text-align:center;color:#173f63;margin:7px 0;font-size:28px}\n.sub{text-align:center;font-weight:700}\n.actions{text-align:center;margin:16px 0 26px}\n.pdfbtn{display:inline-block;background:#173f63;color:#fff!important;text-decoration:none;padding:11px 18px;border-radius:8px;font-weight:700}\n.q{border:1px solid #d8e2ea;border-radius:12px;padding:18px;margin:18px 0}\n.q h2{font-size:19px;margin:0 0 10px}\n.q p{font-size:17px;line-height:1.55}\n.visual{background:#f8fbfd;border:1px solid #dce7ee;border-radius:10px;padding:18px;margin:14px 0;overflow:hidden}\n.choices,.strips{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}\n.choice{text-align:center}\n.bar{height:54px;display:flex;max-width:300px;margin:0 auto 8px}\n.piece{flex:1;border:2px solid #173f63;border-right:0;background:#fff}\n.piece:last-child{border-right:2px solid #173f63}\n.piece.on{background:#8fc4e5}\n.unequal{height:70px;display:flex;max-width:650px;margin:auto}\n.unequal span{border:2px solid #173f63;border-right:0}\n.unequal span:last-child{border-right:2px solid #173f63}\n.u1{flex:1}.u2{flex:2}.u3{flex:3}\n.unequal .on{background:#8fc4e5}\n.cards,.magnify,.blankcards{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}\n.cards>div,.magnify span,.blankcards div{background:#fff;border:2px solid #2f75a8;border-radius:10px;padding:14px 20px;font-size:20px;text-align:center}\n.big>div{min-width:90px}\n.nline{position:relative;height:72px;margin:20px 35px;border-top:4px solid #173f63}\n.ntick{position:absolute;top:-11px;width:2px;height:20px;background:#173f63}\n.ntick span{position:absolute;top:24px;transform:translateX(-50%);white-space:nowrap;font-weight:700}\n.domino{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap}\n.dom{border:3px solid #173f63;border-radius:8px;background:#fff;padding:18px;font-size:20px;font-weight:700}\n.dom.opt{border-style:dashed}\n.arrow{font-size:25px}\n.pizzas{display:flex;align-items:center;justify-content:center;gap:18px}\n.pizza{width:90px;height:90px;border:4px solid #c8842d;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:60px;color:#f1c27d}\n.wall>div{display:flex;max-width:600px;margin:6px auto}\n.wall span{height:42px;border:1px solid #173f63;display:flex;align-items:center;justify-content:center}\n.w2{width:50%}.w4{width:50%}.w8{width:50%}\n.wall .on{background:#8fc4e5}\n.jug{display:flex;align-items:center;justify-content:center;gap:20px}\n.liquid{width:90px;height:130px;border:4px solid #173f63;border-top:0;position:relative}\n.fill{position:absolute;bottom:0;left:0;right:0;background:#8fc4e5}\n.tanks{display:flex;justify-content:center;gap:50px}\n.tank{width:120px;height:160px;border:4px solid #173f63;border-top:0;position:relative;display:flex;align-items:center;justify-content:center}\n.tfill{position:absolute;bottom:0;left:0;right:0;background:#8fc4e5;z-index:0}\n.tank b{z-index:1;background:#ffffffcc;padding:5px;border-radius:5px}\n.dotset{display:grid;grid-template-columns:repeat(12,22px);gap:8px;justify-content:center}\n.dot{width:20px;height:20px;border-radius:50%;border:2px solid #173f63;background:#fff}\n.dot.mark{background:#8fc4e5}\n.progress{text-align:center}\n.prog{display:flex;height:55px;max-width:650px;margin:0 auto 10px;border:2px solid #173f63}\n.prog span,.prog i{display:flex;align-items:center;justify-content:center;font-style:normal}\n.prog span{background:#8fc4e5}\n.prog i{background:#f4d58d}\n.speech{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}\n.speech div{background:#fff;border:2px solid #b9cad7;border-radius:18px;padding:14px}\n.route12{display:grid;grid-template-columns:repeat(12,1fr);gap:3px}\n.route12 span{padding:12px 2px;text-align:center;border:1px solid #173f63;background:#fff}\n.route12 .am{background:#8fc4e5}\n.route12 .pm{background:#f4d58d}\n.lines{height:48px;border-bottom:1px dashed #b9c7d2}\n.opts{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0}\n.opt{border:1px solid #b9cad7;border-radius:7px;padding:8px 14px}\n.gab{margin-top:32px}\n.gab details{border:1px solid #c8dce9;border-radius:10px;overflow:hidden}\n.gab summary{background:#173f63;color:#fff;padding:13px 18px;font-size:18px;font-weight:700;cursor:pointer;display:flex;justify-content:space-between}\n.chev{width:10px;height:10px;border-right:3px solid #fff;border-bottom:3px solid #fff;transform:rotate(45deg)}\n.gab details[open] .chev{transform:rotate(225deg)}\n.inside{padding:14px 18px;background:#f7fafc}\n\n@media(max-width:650px){\n.choices,.strips,.speech{grid-template-columns:1fr}\n.dotset{grid-template-columns:repeat(9,20px)}\n.route12{grid-template-columns:repeat(6,1fr)}\n.mfc{padding:18px 12px}\n}\n\n@media print{.actions,.gab{display:none}}\n"
+  ],
+  "aviso_estilos": "Referência de preservação visual, sem execução. Contém seletores globais do original: isolar/reformular na futura interface, não injetar diretamente no Blogger.",
+  "questoes": [
+    {
+      "id": "FR-01",
+      "numero_original": 1,
+      "titulo": "A bandeja do recreio",
+      "assunto": "Frações",
+      "conteudo": "Fração como parte de um conjunto e complemento",
+      "habilidade": "Fração como parte de um conjunto e complemento.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "contar partes iguais."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-fracoes-box.html",
+        "numero": 1,
+        "texto_original": "1. A bandeja do recreio Na cantina, uma bandeja tinha 8 espaços iguais. Ao final do recreio, apenas 3 ainda continham sanduíches. Que fração representa os sanduíches que restaram? E que fração representa os que foram consumidos?",
+        "gabarito_publicado": "Restaram 3/8; foram consumidos 5/8."
+      },
+      "enunciado": {
+        "contexto": [
+          "Na cantina, uma bandeja tinha 8 espaços iguais. Ao final do recreio, apenas 3 ainda continham sanduíches."
+        ],
+        "comando": "Qual par representa, respectivamente, os sanduíches restantes e os consumidos?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"choice\"><div class=\"bar\"><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece\"></span><span class=\"piece\"></span><span class=\"piece\"></span><span class=\"piece\"></span><span class=\"piece\"></span></div></div></div>",
+          "texto": "",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Barra com 8 espaços e 3 destacados; apoio, contagens no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3/8 e 5/8.",
+          "valores": [
+            "3/8",
+            "5/8"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "5/8 e 3/8.",
+          "valores": [
+            "5/8",
+            "3/8"
+          ],
+          "erro_comum": "Trocar restante e consumido."
+        },
+        {
+          "letra": "C",
+          "texto": "3/5 e 5/3.",
+          "valores": [
+            "3/5",
+            "5/3"
+          ],
+          "erro_comum": "Usar a outra parte como denominador, não o total."
+        },
+        {
+          "letra": "D",
+          "texto": "3/8 e 8/5.",
+          "valores": [
+            "3/8",
+            "8/5"
+          ],
+          "erro_comum": "Inverter numerador e denominador no complemento."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "3/8 restaram e 5/8 foram consumidos; 8−3=5.",
+      "resolucao_comentada": "A alternativa correta é 3/8 e 5/8. 3/8 restaram e 5/8 foram consumidos; 8−3=5.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "restante",
+        "consumido"
+      ]
+    },
+    {
+      "id": "FR-02",
+      "numero_original": 2,
+      "titulo": "Qual figura representa 3/4?",
+      "assunto": "Frações",
+      "conteudo": "Representação de fração por áreas iguais",
+      "habilidade": "Representação de fração por áreas iguais.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "identificar três quartos."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-fracoes-box.html",
+        "numero": 2,
+        "texto_original": "2. Qual figura representa 3/4? Quatro estudantes desenharam barras do mesmo tamanho para representar 3/4. Escolha a representação correta. A B C D Qual alternativa representa corretamente 3/4? a) A b) B c) C d) D",
+        "gabarito_publicado": "B."
+      },
+      "enunciado": {
+        "contexto": [
+          "Quatro estudantes desenharam barras do mesmo tamanho para representar 3/4. Escolha a representação correta."
+        ],
+        "comando": "Qual figura representa corretamente 3/4?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual choices\">\n<div class=\"choice\"><div class=\"bar\"><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece\"></span><span class=\"piece\"></span></div><b>A</b></div>\n<div class=\"choice\"><div class=\"bar\"><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece\"></span></div><b>B</b></div>\n<div class=\"choice\"><div class=\"bar\"><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece on\"></span></div><b>C</b></div>\n<div class=\"choice\"><div class=\"bar\"><span class=\"piece on\"></span><span class=\"piece\"></span><span class=\"piece\"></span><span class=\"piece\"></span></div><b>D</b></div>\n</div>",
+          "texto": "A B C D",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Barras essenciais: a diferença entre alternativas é visual; HTML confirma as contagens.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Figura A.",
+          "valores": [
+            "2/4"
+          ],
+          "erro_comum": "Escolher metade em vez de três quartos."
+        },
+        {
+          "letra": "B",
+          "texto": "Figura B.",
+          "valores": [
+            "3/4"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Figura C.",
+          "valores": [
+            "4/4"
+          ],
+          "erro_comum": "Escolher inteiro totalmente destacado."
+        },
+        {
+          "letra": "D",
+          "texto": "Figura D.",
+          "valores": [
+            "1/4"
+          ],
+          "erro_comum": "Contar a parte não destacada como a fração solicitada."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "B: 3 das 4 partes iguais destacadas. A=2/4, C=4/4, D=1/4.",
+      "resolucao_comentada": "A alternativa correta é Figura B. 3 das 4 partes iguais destacadas. A=2/4, C=4/4, D=1/4.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "fracao_destacada"
+      ]
+    },
+    {
+      "id": "FR-03",
+      "numero_original": 3,
+      "titulo": "Receita em tiras de medida",
+      "assunto": "Frações",
+      "conteudo": "Equivalência de frações em medidas",
+      "habilidade": "Equivalência de frações em medidas.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "ampliação de numerador e denominador."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-fracoes-box.html",
+        "numero": 3,
+        "texto_original": "3. Receita em tiras de medida Uma receita pede 3/4 de xícara de leite. A cozinheira encontrou quatro tiras de medida. Qual delas representa uma quantidade equivalente? A: 6/8 B: 4/8 C: 3/8 D: 9/16 Escolha a tira que pode substituir 3/4 sem alterar a receita. a) A b) B c) C d) D",
+        "gabarito_publicado": "A, pois 6/8 = 3/4."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma receita pede 3/4 de xícara de leite. A cozinheira encontrou quatro tiras de medida. Qual delas representa uma quantidade equivalente?"
+        ],
+        "comando": "Qual tira pode substituir 3/4 de xícara sem alterar a receita?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual strips\">\n<div class=\"choice\"><div class=\"bar\"><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece\"></span><span class=\"piece\"></span></div><b>A: 6/8</b></div>\n<div class=\"choice\"><div class=\"bar\"><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece\"></span><span class=\"piece\"></span><span class=\"piece\"></span><span class=\"piece\"></span></div><b>B: 4/8</b></div>\n<div class=\"choice\"><div class=\"bar\"><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece\"></span><span class=\"piece\"></span><span class=\"piece\"></span><span class=\"piece\"></span><span class=\"piece\"></span></div><b>C: 3/8</b></div>\n<div class=\"choice\"><div class=\"bar\"><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece\"></span><span class=\"piece\"></span><span class=\"piece\"></span><span class=\"piece\"></span><span class=\"piece\"></span><span class=\"piece\"></span><span class=\"piece\"></span></div><b>D: 9/16</b></div>\n</div>",
+          "texto": "A: 6/8 B: 4/8 C: 3/8 D: 9/16",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Tiras de 8 e 16 partes; preservar apoio visual para manter a leitura de representações.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Tira A: 6/8.",
+          "valores": [
+            "6/8"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Tira B: 4/8.",
+          "valores": [
+            "4/8"
+          ],
+          "erro_comum": "Usar metade em vez de três quartos."
+        },
+        {
+          "letra": "C",
+          "texto": "Tira C: 3/8.",
+          "valores": [
+            "3/8"
+          ],
+          "erro_comum": "Mudar somente o denominador."
+        },
+        {
+          "letra": "D",
+          "texto": "Tira D: 9/16.",
+          "valores": [
+            "9/16"
+          ],
+          "erro_comum": "Multiplicar numerador e denominador por fatores diferentes."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "A: 6/8; (3×2)/(4×2)=6/8.",
+      "resolucao_comentada": "A alternativa correta é Tira A: 6/8. 6/8; (3×2)/(4×2)=6/8.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "fracao"
+      ]
+    },
+    {
+      "id": "FR-04",
+      "numero_original": 4,
+      "titulo": "O desenho enganoso",
+      "assunto": "Frações",
+      "conteudo": "Necessidade de partes iguais na fração de área",
+      "habilidade": "Necessidade de partes iguais na fração de área.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "avaliar erro conceitual."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-fracoes-box.html",
+        "numero": 4,
+        "texto_original": "4. O desenho enganoso Um estudante afirmou que a figura abaixo representa 3/6 porque três regiões estão destacadas entre seis regiões desenhadas. Explique por que essa conclusão não é válida. O que precisa acontecer com as partes de um inteiro para que possamos representá-lo por uma fração?",
+        "gabarito_publicado": "As partes de um inteiro precisam ter a mesma medida; contar regiões desiguais não determina sextos."
+      },
+      "enunciado": {
+        "contexto": [
+          "Um estudante afirmou que a figura abaixo representa 3/6 porque três regiões estão destacadas entre seis regiões desenhadas."
+        ],
+        "comando": "Qual explicação mostra por que a conclusão não é válida e qual condição é necessária?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"unequal\"><span class=\"u1 on\"></span><span class=\"u2 on\"></span><span class=\"u1 on\"></span><span class=\"u3\"></span><span class=\"u1\"></span><span class=\"u2\"></span></div></div>",
+          "texto": "",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Desenho essencial: seis larguras relativas 1,2,1,3,1,2, com as três primeiras destacadas.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Basta contar seis regiões e três destacadas, mesmo com áreas diferentes.",
+          "valores": [
+            "so_contagem"
+          ],
+          "erro_comum": "Ignorar igualdade das partes."
+        },
+        {
+          "letra": "B",
+          "texto": "O denominador deve ser três porque três regiões estão destacadas.",
+          "valores": [
+            "trocar_denominador"
+          ],
+          "erro_comum": "Usar partes destacadas como denominador."
+        },
+        {
+          "letra": "C",
+          "texto": "Nenhuma figura com seis partes pode representar uma fração.",
+          "valores": [
+            "seis_impossivel"
+          ],
+          "erro_comum": "Rejeitar divisão em seis partes em vez de exigir áreas iguais."
+        },
+        {
+          "letra": "D",
+          "texto": "As regiões têm áreas diferentes; para falar em sextos, as seis partes precisam ter a mesma área.",
+          "valores": [
+            "areas_iguais"
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "A conclusão não vale porque as seis regiões têm áreas diferentes; cada sexto deve ter a mesma área. As regiões destacadas não são três sextos.",
+      "resolucao_comentada": "A alternativa correta é As regiões têm áreas diferentes; para falar em sextos, as seis partes precisam ter a mesma área. A conclusão não vale porque as seis regiões têm áreas diferentes; cada sexto deve ter a mesma área. As regiões destacadas não são três sextos.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "explicacao"
+      ]
+    },
+    {
+      "id": "FR-05",
+      "numero_original": 5,
+      "titulo": "Cofre das equivalências",
+      "assunto": "Frações",
+      "conteudo": "Equivalência por simplificação",
+      "habilidade": "Equivalência por simplificação.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "testar quatro códigos."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-fracoes-box.html",
+        "numero": 5,
+        "texto_original": "5. Cofre das equivalências Um cofre pedagógico abre somente com uma fração equivalente a 2/3. O visor mostra quatro códigos. 12/18 8/15 6/12 10/12 Qual código abre o cofre? Mostre como você verificou.",
+        "gabarito_publicado": "12/18."
+      },
+      "enunciado": {
+        "contexto": [
+          "Um cofre pedagógico abre somente com uma fração equivalente a 2/3. O visor mostra quatro códigos."
+        ],
+        "comando": "Qual código abre o cofre e qual simplificação o confirma?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual cards\"><div>12/18</div><div>8/15</div><div>6/12</div><div>10/12</div></div>",
+          "texto": "12/18 8/15 6/12 10/12",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Cartões essenciais: quatro frações só no visor.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "12/18; dividir numerador e denominador por 6 resulta em 2/3.",
+          "valores": [
+            "12/18",
+            6
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "8/15; dividir numerador e denominador por 4 resulta em 2/3.",
+          "valores": [
+            "8/15",
+            4
+          ],
+          "erro_comum": "Aplicar uma simplificação que não divide ambos os termos para a fração desejada."
+        },
+        {
+          "letra": "C",
+          "texto": "6/12; dividir por 3 resulta em 2/3.",
+          "valores": [
+            "6/12",
+            3
+          ],
+          "erro_comum": "Dividir o denominador incorretamente: 12 ÷ 3 = 4."
+        },
+        {
+          "letra": "D",
+          "texto": "10/12; dividir por 5 resulta em 2/3.",
+          "valores": [
+            "10/12",
+            5
+          ],
+          "erro_comum": "Aplicar fatores diferentes ao numerador e denominador."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "12/18=2/3, dividindo ambos por 6; 6/12=1/2 e 10/12=5/6, 8/15 não equivale.",
+      "resolucao_comentada": "A alternativa correta é 12/18; dividir numerador e denominador por 6 resulta em 2/3. 12/18=2/3, dividindo ambos por 6; 6/12=1/2 e 10/12=5/6, 8/15 não equivale.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "fracao",
+        "divisor"
+      ]
+    },
+    {
+      "id": "FR-06",
+      "numero_original": 6,
+      "titulo": "Corrida na reta",
+      "assunto": "Frações",
+      "conteudo": "Comparação de frações de denominadores distintos",
+      "habilidade": "Comparação de frações de denominadores distintos.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "ordenar quatro frações e interpretar distância."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-fracoes-box.html",
+        "numero": 6,
+        "texto_original": "6. Corrida na reta Quatro corredores estão em posições diferentes de um percurso que vai de 0 a 1 km. 0 2/5 1/2 5/8 3/4 1 Lia está em 2/5, Caio em 1/2, Bia em 5/8 e Ravi em 3/4. Ordene os corredores do que percorreu menos para o que percorreu mais. Quem está mais perto da chegada?",
+        "gabarito_publicado": "2/5 < 1/2 < 5/8 < 3/4; Ravi."
+      },
+      "enunciado": {
+        "contexto": [
+          "Quatro corredores estão em posições diferentes de um percurso que vai de 0 a 1 km."
+        ],
+        "comando": "Qual ordem vai do menor ao maior percurso e quem está mais perto da chegada?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"nline\">\n<div class=\"ntick\" style=\"left:0%\"><span>0</span></div>\n<div class=\"ntick\" style=\"left:20%\"><span>2/5</span></div>\n<div class=\"ntick\" style=\"left:40%\"><span>1/2</span></div>\n<div class=\"ntick\" style=\"left:60%\"><span>5/8</span></div>\n<div class=\"ntick\" style=\"left:80%\"><span>3/4</span></div>\n<div class=\"ntick\" style=\"left:100%\"><span>1</span></div>\n</div></div>",
+          "texto": "0 2/5 1/2 5/8 3/4 1",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Reta numérica; apoio, posições e nomes no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Lia, Bia, Caio, Ravi; Ravi.",
+          "valores": [
+            [
+              "Lia",
+              "Bia",
+              "Caio",
+              "Ravi"
+            ],
+            "Ravi"
+          ],
+          "erro_comum": "Comparar denominadores isoladamente e trocar 1/2 e 5/8."
+        },
+        {
+          "letra": "B",
+          "texto": "Lia, Caio, Bia, Ravi; Ravi.",
+          "valores": [
+            [
+              "Lia",
+              "Caio",
+              "Bia",
+              "Ravi"
+            ],
+            "Ravi"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Caio, Lia, Bia, Ravi; Ravi.",
+          "valores": [
+            [
+              "Caio",
+              "Lia",
+              "Bia",
+              "Ravi"
+            ],
+            "Ravi"
+          ],
+          "erro_comum": "Comparar apenas numeradores de 1/2 e 2/5."
+        },
+        {
+          "letra": "D",
+          "texto": "Lia, Caio, Ravi, Bia; Bia.",
+          "valores": [
+            [
+              "Lia",
+              "Caio",
+              "Ravi",
+              "Bia"
+            ],
+            "Bia"
+          ],
+          "erro_comum": "Considerar 5/8 maior que 3/4 por ter numerador maior."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "Lia < Caio < Bia < Ravi: 2/5=16/40, 1/2=20/40, 5/8=25/40, 3/4=30/40; Ravi mais próximo de 1.",
+      "resolucao_comentada": "A alternativa correta é Lia, Caio, Bia, Ravi; Ravi. Lia < Caio < Bia < Ravi: 2/5=16/40, 1/2=20/40, 5/8=25/40, 3/4=30/40; Ravi mais próximo de 1.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "ordem",
+        "mais_perto"
+      ]
+    },
+    {
+      "id": "FR-07",
+      "numero_original": 7,
+      "titulo": "Dominó fracionário",
+      "assunto": "Frações",
+      "conteudo": "Equivalência com metade",
+      "habilidade": "Equivalência com metade.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "uma equivalência."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-fracoes-box.html",
+        "numero": 7,
+        "texto_original": "7. Dominó fracionário No dominó abaixo, uma nova peça só pode ser encaixada se tiver uma fração equivalente à ponta 1/2. 1/2 → 3/8 4/8 5/8 6/8 Qual peça deve ser escolhida?",
+        "gabarito_publicado": "4/8."
+      },
+      "enunciado": {
+        "contexto": [
+          "No dominó abaixo, uma nova peça só pode ser encaixada se tiver uma fração equivalente à ponta 1/2."
+        ],
+        "comando": "Qual peça pode ser encaixada na ponta 1/2?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual domino\"><div class=\"dom\">1/2</div><div class=\"arrow\">→</div><div class=\"dom opt\">3/8</div><div class=\"dom opt\">4/8</div><div class=\"dom opt\">5/8</div><div class=\"dom opt\">6/8</div></div>",
+          "texto": "1/2 → 3/8 4/8 5/8 6/8",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Dominó essencial: opções 3/8,4/8,5/8,6/8.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3/8.",
+          "valores": [
+            "3/8"
+          ],
+          "erro_comum": "Escolher peça próxima da metade, mas menor."
+        },
+        {
+          "letra": "B",
+          "texto": "4/8.",
+          "valores": [
+            "4/8"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "5/8.",
+          "valores": [
+            "5/8"
+          ],
+          "erro_comum": "Escolher uma parte a mais que a metade."
+        },
+        {
+          "letra": "D",
+          "texto": "6/8.",
+          "valores": [
+            "6/8"
+          ],
+          "erro_comum": "Confundir metade com três quartos."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "4/8=1/2; simplificação por 4.",
+      "resolucao_comentada": "A alternativa correta é 4/8. 4/8=1/2; simplificação por 4.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "fracao"
+      ]
+    },
+    {
+      "id": "FR-08",
+      "numero_original": 8,
+      "titulo": "Duas pizzas para três pessoas",
+      "assunto": "Frações",
+      "conteudo": "Fração como quociente de divisão equitativa",
+      "habilidade": "Fração como quociente de divisão equitativa.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "interpretar divisão de duas unidades."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-fracoes-box.html",
+        "numero": 8,
+        "texto_original": "8. Duas pizzas para três pessoas Três amigos vão repartir igualmente duas pizzas idênticas, sem deixar sobras. ◯ ◯ ÷ 3 pessoas Que fração de uma pizza cada pessoa receberá? Explique como essa situação mostra uma fração como resultado de uma divisão.",
+        "gabarito_publicado": "2/3 de uma pizza."
+      },
+      "enunciado": {
+        "contexto": [
+          "Três amigos vão repartir igualmente duas pizzas idênticas, sem deixar sobras."
+        ],
+        "comando": "Quanto recebe cada pessoa e qual divisão representa essa repartição?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual pizzas\"><div class=\"pizza\">◯</div><div class=\"pizza\">◯</div><div class=\"arrow\">÷ 3 pessoas</div></div>",
+          "texto": "◯ ◯ ÷ 3 pessoas",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Desenho das duas pizzas; apoio, quantidades no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3/2 de uma pizza; 3 ÷ 2.",
+          "valores": [
+            "3/2",
+            "3_div_2"
+          ],
+          "erro_comum": "Inverter pizzas e pessoas."
+        },
+        {
+          "letra": "B",
+          "texto": "1/3 de uma pizza; 1 ÷ 3.",
+          "valores": [
+            "1/3",
+            "1_div_3"
+          ],
+          "erro_comum": "Distribuir somente uma das pizzas."
+        },
+        {
+          "letra": "C",
+          "texto": "2/3 de uma pizza; 3 ÷ 2.",
+          "valores": [
+            "2/3",
+            "3_div_2"
+          ],
+          "erro_comum": "Acertar a fração, mas inverter a divisão que a representa."
+        },
+        {
+          "letra": "D",
+          "texto": "2/3 de uma pizza; 2 ÷ 3.",
+          "valores": [
+            "2/3",
+            "2_div_3"
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "Cada pessoa recebe 2/3 de uma pizza; 2 pizzas ÷ 3 pessoas = 2/3.",
+      "resolucao_comentada": "A alternativa correta é 2/3 de uma pizza; 2 ÷ 3. Cada pessoa recebe 2/3 de uma pizza; 2 pizzas ÷ 3 pessoas = 2/3.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "fracao",
+        "divisao"
+      ]
+    },
+    {
+      "id": "FR-09",
+      "numero_original": 9,
+      "titulo": "Parede de frações",
+      "assunto": "Frações",
+      "conteudo": "Equivalência de comprimentos em parede de frações",
+      "habilidade": "Equivalência de comprimentos em parede de frações.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "completar numerador."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-fracoes-box.html",
+        "numero": 9,
+        "texto_original": "9. Parede de frações Algumas peças de uma parede de frações perderam seus numeradores. As barras alinhadas representam o mesmo comprimento. 1/2 1/2 2/4 2/4 ?/8 Qual numerador deve substituir o ponto de interrogação para manter a equivalência?",
+        "gabarito_publicado": "4/8."
+      },
+      "enunciado": {
+        "contexto": [
+          "Algumas peças de uma parede de frações perderam seus numeradores. As barras alinhadas representam o mesmo comprimento."
+        ],
+        "comando": "Qual numerador completa ?/8 para manter o mesmo comprimento destacado?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual wall\">\n<div><span class=\"w2 on\">1/2</span><span class=\"w2\">1/2</span></div>\n<div><span class=\"w4 on\">2/4</span><span class=\"w4\">2/4</span></div>\n<div><span class=\"w8 on\">?/8</span><span class=\"w8\"></span></div>\n</div>",
+          "texto": "1/2 1/2 2/4 2/4 ?/8",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Parede essencial: os rótulos 1/2,2/4,?/8 e comprimentos estão no desenho.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "4.",
+          "valores": [
+            4
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "2.",
+          "valores": [
+            2
+          ],
+          "erro_comum": "Copiar o numerador de 2/4 sem ampliar."
+        },
+        {
+          "letra": "C",
+          "texto": "1.",
+          "valores": [
+            1
+          ],
+          "erro_comum": "Copiar o numerador de 1/2 sem ampliar."
+        },
+        {
+          "letra": "D",
+          "texto": "8.",
+          "valores": [
+            8
+          ],
+          "erro_comum": "Usar o inteiro em vez da metade."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "4: 1/2=2/4=4/8; multiplicar 1/2 por 4/4.",
+      "resolucao_comentada": "A alternativa correta é 4. 4: 1/2=2/4=4/8; multiplicar 1/2 por 4/4.",
+      "observacoes": [
+        "Preservadas as faixas agregadas com largura 50%; não se apresentam subdivisões novas como se fossem originais."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "numerador"
+      ]
+    },
+    {
+      "id": "FR-10",
+      "numero_original": 10,
+      "titulo": "Detetive de frações",
+      "assunto": "Frações",
+      "conteudo": "Seleção sob condições simultâneas",
+      "habilidade": "Seleção sob condições simultâneas.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "combinar intervalo e paridade do numerador."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-fracoes-box.html",
+        "numero": 10,
+        "texto_original": "10. Detetive de frações Uma fração secreta é maior que 1/2, menor que 1, tem denominador 8 e numerador ímpar. 3/8 5/8 6/8 8/8 Qual das quatro frações atende a todas as pistas?",
+        "gabarito_publicado": "5/8."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma fração secreta é maior que 1/2, menor que 1, tem denominador 8 e numerador ímpar."
+        ],
+        "comando": "Qual das quatro frações apresentadas atende a todas as pistas?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual magnify\"><span>3/8</span><span>5/8</span><span>6/8</span><span>8/8</span></div>",
+          "texto": "3/8 5/8 6/8 8/8",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Cartões essenciais: 3/8,5/8,6/8,8/8. Não omitir “das quatro frações”.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3/8.",
+          "valores": [
+            "3/8"
+          ],
+          "erro_comum": "Verificar denominador e numerador ímpar, mas ignorar ser maior que 1/2."
+        },
+        {
+          "letra": "B",
+          "texto": "5/8.",
+          "valores": [
+            "5/8"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "6/8.",
+          "valores": [
+            "6/8"
+          ],
+          "erro_comum": "Ignorar a exigência de numerador ímpar."
+        },
+        {
+          "letra": "D",
+          "texto": "8/8.",
+          "valores": [
+            "8/8"
+          ],
+          "erro_comum": "Incluir o limite 1 e ignorar paridade do numerador."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "5/8, única entre os quatro cartões que satisfaz as pistas; 3/8<1/2, 6/8 tem numerador par, 8/8=1. Fora das opções, 7/8 também atende.",
+      "resolucao_comentada": "A alternativa correta é 5/8. 5/8, única entre os quatro cartões que satisfaz as pistas; 3/8<1/2, 6/8 tem numerador par, 8/8=1. Fora das opções, 7/8 também atende.",
+      "observacoes": [
+        "Mantida a expressão “das quatro frações”; 7/8 satisfaria pistas isoladas, mas não está entre os cartões."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "fracao"
+      ]
+    },
+    {
+      "id": "FR-11",
+      "numero_original": 11,
+      "titulo": "A régua apagada",
+      "assunto": "Frações",
+      "conteudo": "Localização de frações na reta",
+      "habilidade": "Localização de frações na reta.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "quatro intervalos iguais."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-fracoes-box.html",
+        "numero": 11,
+        "texto_original": "11. A régua apagada Uma régua de uma unidade foi dividida em quatro intervalos iguais, mas duas marcações foram apagadas. 0 A 1/2 B 1 Quais frações devem ocupar as posições A e B?",
+        "gabarito_publicado": "A = 1/4; B = 3/4."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma régua de uma unidade foi dividida em quatro intervalos iguais, mas duas marcações foram apagadas."
+        ],
+        "comando": "Quais frações ocupam A e B, nessa ordem?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"nline\">\n<div class=\"ntick\" style=\"left:0%\"><span>0</span></div>\n<div class=\"ntick\" style=\"left:25%\"><span>A</span></div>\n<div class=\"ntick\" style=\"left:50%\"><span>1/2</span></div>\n<div class=\"ntick\" style=\"left:75%\"><span>B</span></div>\n<div class=\"ntick\" style=\"left:100%\"><span>1</span></div>\n</div></div>",
+          "texto": "0 A 1/2 B 1",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Reta essencial: posições relativas de A e B.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3/4 e 1/4.",
+          "valores": [
+            "3/4",
+            "1/4"
+          ],
+          "erro_comum": "Inverter os pontos na reta."
+        },
+        {
+          "letra": "B",
+          "texto": "1/3 e 2/3.",
+          "valores": [
+            "1/3",
+            "2/3"
+          ],
+          "erro_comum": "Contar apenas marcas internas como número de intervalos."
+        },
+        {
+          "letra": "C",
+          "texto": "1/4 e 3/4.",
+          "valores": [
+            "1/4",
+            "3/4"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "1/2 e 3/2.",
+          "valores": [
+            "1/2",
+            "3/2"
+          ],
+          "erro_comum": "Usar meio como unidade de cada intervalo."
+        }
+      ],
+      "gabarito": "C",
+      "resposta_matematica": "A=1/4, B=3/4; posições um e três intervalos de comprimento 1/4 a partir de zero.",
+      "resolucao_comentada": "A alternativa correta é 1/4 e 3/4. A=1/4, B=3/4; posições um e três intervalos de comprimento 1/4 a partir de zero.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "id": "FR-12",
+      "numero_original": 12,
+      "titulo": "Monte o inteiro",
+      "assunto": "Frações",
+      "conteudo": "Adição de frações e complemento de uma unidade",
+      "habilidade": "Adição de frações e complemento de uma unidade.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "identificar dois pares diferentes."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-fracoes-box.html",
+        "numero": 12,
+        "texto_original": "12. Monte o inteiro Em cada tentativa, escolha dois cartões diferentes cuja soma seja exatamente uma unidade. A 1/4 B 3/4 C 2/5 D 3/5 E 1/2 Encontre duas duplas diferentes que formem exatamente 1.",
+        "gabarito_publicado": "A+B e C+D."
+      },
+      "enunciado": {
+        "contexto": [
+          "Em cada tentativa, escolha dois cartões diferentes cuja soma seja exatamente uma unidade."
+        ],
+        "comando": "Qual opção reúne duas duplas de cartões diferentes que somam exatamente 1?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual cards big\"><div>A<br/><b>1/4</b></div><div>B<br/><b>3/4</b></div><div>C<br/><b>2/5</b></div><div>D<br/><b>3/5</b></div><div>E<br/><b>1/2</b></div></div>",
+          "texto": "A 1/4 B 3/4 C 2/5 D 3/5 E 1/2",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Cartões essenciais: A=1/4,B=3/4,C=2/5,D=3/5,E=1/2.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A+C e B+D.",
+          "valores": [
+            [
+              [
+                "A",
+                "C"
+              ],
+              [
+                "B",
+                "D"
+              ]
+            ]
+          ],
+          "erro_comum": "Somar numeradores e denominadores de frações distintas inadequadamente."
+        },
+        {
+          "letra": "B",
+          "texto": "A+B e E+E.",
+          "valores": [
+            [
+              [
+                "A",
+                "B"
+              ],
+              [
+                "E",
+                "E"
+              ]
+            ]
+          ],
+          "erro_comum": "Reutilizar o mesmo cartão apesar da exigência de dois diferentes."
+        },
+        {
+          "letra": "C",
+          "texto": "A+D e B+C.",
+          "valores": [
+            [
+              [
+                "A",
+                "D"
+              ],
+              [
+                "B",
+                "C"
+              ]
+            ]
+          ],
+          "erro_comum": "Escolher combinações próximas de 1, mas não iguais."
+        },
+        {
+          "letra": "D",
+          "texto": "A+B e C+D.",
+          "valores": [
+            [
+              [
+                "A",
+                "B"
+              ],
+              [
+                "C",
+                "D"
+              ]
+            ]
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "A+B e C+D; 1/4+3/4=1 e 2/5+3/5=1. E=1/2 não pode ser usado duas vezes: cartões diferentes.",
+      "resolucao_comentada": "A alternativa correta é A+B e C+D. A+B e C+D; 1/4+3/4=1 e 2/5+3/5=1. E=1/2 não pode ser usado duas vezes: cartões diferentes.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "duplas"
+      ]
+    },
+    {
+      "id": "FR-13",
+      "numero_original": 13,
+      "titulo": "O que restou na jarra?",
+      "assunto": "Frações",
+      "conteudo": "Subtração de frações de mesmo denominador e simplificação",
+      "habilidade": "Subtração de frações de mesmo denominador e simplificação.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "uma subtração."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-fracoes-box.html",
+        "numero": 13,
+        "texto_original": "13. O que restou na jarra? Uma jarra tinha 5/6 de litro de suco. Durante o intervalo, foram consumidos 2/6 de litro. 5/6 L no início Quanto restou? Escreva a fração e simplifique-a, se possível.",
+        "gabarito_publicado": "3/6 = 1/2 litro."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma jarra tinha 5/6 de litro de suco. Durante o intervalo, foram consumidos 2/6 de litro."
+        ],
+        "comando": "Quanto suco restou? Escolha a fração já simplificada."
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual jug\"><div class=\"liquid\"><div class=\"fill\" style=\"height:83%\"></div></div><span>5/6 L no início</span></div>",
+          "texto": "5/6 L no início",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Jarra parcialmente cheia; apoio, dados no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1/2 L.",
+          "valores": [
+            "1/2"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "3/12 L.",
+          "valores": [
+            "3/12"
+          ],
+          "erro_comum": "Subtrair numeradores e somar denominadores."
+        },
+        {
+          "letra": "C",
+          "texto": "7/6 L.",
+          "valores": [
+            "7/6"
+          ],
+          "erro_comum": "Somar a quantidade consumida."
+        },
+        {
+          "letra": "D",
+          "texto": "2/6 L.",
+          "valores": [
+            "2/6"
+          ],
+          "erro_comum": "Responder o consumido em vez do restante."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "3/6=1/2 L; (5−2)/6=3/6.",
+      "resolucao_comentada": "A alternativa correta é 1/2 L. 3/6=1/2 L; (5−2)/6=3/6.",
+      "observacoes": [
+        "A opção correta usa forma simplificada; não há duas alternativas equivalentes corretas."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "litros"
+      ]
+    },
+    {
+      "id": "FR-14",
+      "numero_original": 14,
+      "titulo": "Mural em três dias",
+      "assunto": "Frações",
+      "conteudo": "Adição de frações e complemento",
+      "habilidade": "Adição de frações e complemento.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "denominador comum."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-fracoes-box.html",
+        "numero": 14,
+        "texto_original": "14. Mural em três dias Uma turma dividiu um mural em sete faixas iguais. Na segunda-feira pintou 2/7 e na terça-feira mais 3/7. 2/7 + 3/7 já pintados Que fração do mural já foi pintada? Que fração ainda falta pintar?",
+        "gabarito_publicado": "5/7 pintados; faltam 2/7."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma turma dividiu um mural em sete faixas iguais. Na segunda-feira pintou 2/7 e na terça-feira mais 3/7."
+        ],
+        "comando": "Qual fração foi pintada e qual ainda falta?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"choice\"><div class=\"bar\"><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece on\"></span><span class=\"piece\"></span><span class=\"piece\"></span></div><b>2/7 + 3/7 já pintados</b></div></div>",
+          "texto": "2/7 + 3/7 já pintados",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Ilustração; apoio, dados no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5/14 pintados; faltam 9/14.",
+          "valores": [
+            "5/14",
+            "9/14"
+          ],
+          "erro_comum": "Somar denominadores iguais."
+        },
+        {
+          "letra": "B",
+          "texto": "5/7 pintados; faltam 2/7.",
+          "valores": [
+            "5/7",
+            "2/7"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "1/7 pintado; faltam 6/7.",
+          "valores": [
+            "1/7",
+            "6/7"
+          ],
+          "erro_comum": "Subtrair as duas partes pintadas."
+        },
+        {
+          "letra": "D",
+          "texto": "5/7 pintados; faltam 5/7.",
+          "valores": [
+            "5/7",
+            "5/7"
+          ],
+          "erro_comum": "Repetir a parte pintada em vez do complemento."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "5/7 pintados e 2/7 restantes; 2/7+3/7=5/7 e 1−5/7=2/7.",
+      "resolucao_comentada": "A alternativa correta é 5/7 pintados; faltam 2/7. 5/7 pintados e 2/7 restantes; 2/7+3/7=5/7 e 1−5/7=2/7.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "pintada",
+        "falta"
+      ]
+    },
+    {
+      "id": "FR-15",
+      "numero_original": 15,
+      "titulo": "Dois reservatórios",
+      "assunto": "Frações",
+      "conteudo": "Comparação por frações equivalentes",
+      "habilidade": "Comparação por frações equivalentes.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "explicar usando denominador comum."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-fracoes-box.html",
+        "numero": 15,
+        "texto_original": "15. Dois reservatórios Dois reservatórios iguais estão parcialmente cheios. O primeiro contém 7/10 de sua capacidade e o segundo, 3/5. A 7/10 B 3/5 Qual reservatório está mais cheio? Justifique usando frações equivalentes, e não apenas o desenho.",
+        "gabarito_publicado": "A, pois 3/5 = 6/10 e 7/10 > 6/10."
+      },
+      "enunciado": {
+        "contexto": [
+          "Dois reservatórios iguais estão parcialmente cheios. O primeiro contém 7/10 de sua capacidade e o segundo, 3/5."
+        ],
+        "comando": "Qual reservatório está mais cheio e qual comparação por equivalência confirma isso?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual tanks\">\n<div class=\"tank\"><div class=\"tfill\" style=\"height:70%\"></div><b>A<br/>7/10</b></div>\n<div class=\"tank\"><div class=\"tfill\" style=\"height:60%\"></div><b>B<br/>3/5</b></div>\n</div>",
+          "texto": "A 7/10 B 3/5",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Reservatórios; apoio, frações no texto; não depender só da altura do desenho.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "B; 3/5 é maior porque o denominador 5 é menor.",
+          "valores": [
+            "B",
+            "denominador_menor"
+          ],
+          "erro_comum": "Comparar denominadores sem considerar numeradores."
+        },
+        {
+          "letra": "B",
+          "texto": "A; 3/5 = 3/10 e 7/10 > 3/10.",
+          "valores": [
+            "A",
+            "3/5_igual_3/10"
+          ],
+          "erro_comum": "Alterar somente o denominador."
+        },
+        {
+          "letra": "C",
+          "texto": "A; 3/5 = 6/10 e 7/10 > 6/10.",
+          "valores": [
+            "A",
+            "7/10_maior_6/10"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Os dois igualmente cheios; 7/10 = 3/5.",
+          "valores": [
+            "iguais",
+            "igualdade"
+          ],
+          "erro_comum": "Confundir frações próximas com equivalentes."
+        }
+      ],
+      "gabarito": "C",
+      "resposta_matematica": "A, pois 3/5=6/10 e 7/10>6/10.",
+      "resolucao_comentada": "A alternativa correta é A; 3/5 = 6/10 e 7/10 > 6/10. A, pois 3/5=6/10 e 7/10>6/10.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "reservatorio",
+        "relacao"
+      ]
+    },
+    {
+      "id": "FR-16",
+      "numero_original": 16,
+      "titulo": "Caixa de lápis",
+      "assunto": "Frações",
+      "conteudo": "Fração de quantidade e complemento",
+      "habilidade": "Fração de quantidade e complemento.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "calcular parte de conjunto."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-fracoes-box.html",
+        "numero": 16,
+        "texto_original": "16. Caixa de lápis Uma caixa contém 36 lápis. Para uma oficina, serão separados 2/3 deles. Quantos lápis serão separados? Quantos permanecerão na caixa?",
+        "gabarito_publicado": "24 separados; 12 permanecem."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma caixa contém 36 lápis. Para uma oficina, serão separados 2/3 deles."
+        ],
+        "comando": "Quantos lápis serão separados e quantos permanecerão?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\"><div class=\"dotset\">\n<span class=\"dot mark\"></span><span class=\"dot mark\"></span><span class=\"dot mark\"></span><span class=\"dot mark\"></span><span class=\"dot mark\"></span><span class=\"dot mark\"></span>\n<span class=\"dot mark\"></span><span class=\"dot mark\"></span><span class=\"dot mark\"></span><span class=\"dot mark\"></span><span class=\"dot mark\"></span><span class=\"dot mark\"></span>\n<span class=\"dot mark\"></span><span class=\"dot mark\"></span><span class=\"dot mark\"></span><span class=\"dot mark\"></span><span class=\"dot mark\"></span><span class=\"dot mark\"></span>\n<span class=\"dot mark\"></span><span class=\"dot mark\"></span><span class=\"dot mark\"></span><span class=\"dot mark\"></span><span class=\"dot mark\"></span><span class=\"dot mark\"></span>\n<span class=\"dot\"></span><span class=\"dot\"></span><span class=\"dot\"></span><span class=\"dot\"></span><span class=\"dot\"></span><span class=\"dot\"></span>\n<span class=\"dot\"></span><span class=\"dot\"></span><span class=\"dot\"></span><span class=\"dot\"></span><span class=\"dot\"></span><span class=\"dot\"></span>\n</div></div>",
+          "texto": "",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "36 pontos/lápis; apoio, total e fração no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "12 separados; 24 permanecem.",
+          "valores": [
+            12,
+            24
+          ],
+          "erro_comum": "Calcular somente 1/3, ignorando numerador 2."
+        },
+        {
+          "letra": "B",
+          "texto": "18 separados; 18 permanecem.",
+          "valores": [
+            18,
+            18
+          ],
+          "erro_comum": "Interpretar 2/3 como metade."
+        },
+        {
+          "letra": "C",
+          "texto": "24 separados; 24 permanecem.",
+          "valores": [
+            24,
+            24
+          ],
+          "erro_comum": "Repetir a parte separada em vez de calcular o complemento."
+        },
+        {
+          "letra": "D",
+          "texto": "24 separados; 12 permanecem.",
+          "valores": [
+            24,
+            12
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "(2/3)×36=24 separados; 36−24=12.",
+      "resolucao_comentada": "A alternativa correta é 24 separados; 12 permanecem. (2/3)×36=24 separados; 36−24=12.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "separados",
+        "restantes"
+      ]
+    },
+    {
+      "id": "FR-17",
+      "numero_original": 17,
+      "titulo": "Porções de fruta",
+      "assunto": "Frações",
+      "conteudo": "Duas frações de um total e resto",
+      "habilidade": "Duas frações de um total e resto.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "dois produtos e subtração."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-fracoes-box.html",
+        "numero": 17,
+        "texto_original": "17. Porções de fruta Uma escola preparou 48 porções de fruta. Pela manhã distribuiu 3/8 do total e, à tarde, mais 1/4 do total. Manhã 3/8 Tarde 1/4 Restante 3/8 48 porções no total Quantas porções foram distribuídas em cada período? Quantas restaram?",
+        "gabarito_publicado": "18 pela manhã; 12 à tarde; restam 18."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma escola preparou 48 porções de fruta. Pela manhã distribuiu 3/8 do total e, à tarde, mais 1/4 do total."
+        ],
+        "comando": "Quantas porções foram distribuídas pela manhã, à tarde e quantas restaram?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual\" style=\"text-align:center;\">\n<div style=\"\ndisplay:flex !important;\nwidth:100% !important;\nmax-width:650px !important;\nheight:64px !important;\nmargin:0 auto 12px !important;\npadding:0 !important;\nborder:2px solid #173f63 !important;\nborder-radius:6px !important;\noverflow:hidden !important;\n\">\n<div style=\"\nwidth:37.5% !important;\nheight:100% !important;\nmargin:0 !important;\npadding:0 6px !important;\nbackground:#8fc4e5 !important;\ncolor:#17324d !important;\ndisplay:flex !important;\nalign-items:center !important;\njustify-content:center !important;\ntext-align:center !important;\nfont-size:16px !important;\nfont-weight:700 !important;\nline-height:1.25 !important;\n\">\nManhã<br/>3/8\n</div>\n<div style=\"\nwidth:25% !important;\nheight:100% !important;\nmargin:0 !important;\npadding:0 6px !important;\nbackground:#f4d58d !important;\ncolor:#17324d !important;\ndisplay:flex !important;\nalign-items:center !important;\njustify-content:center !important;\ntext-align:center !important;\nfont-size:16px !important;\nfont-weight:700 !important;\nline-height:1.25 !important;\n\">\nTarde<br/>1/4\n</div>\n<div style=\"\nwidth:37.5% !important;\nheight:100% !important;\nmargin:0 !important;\npadding:0 6px !important;\nbackground:#fff !important;\ncolor:#17324d !important;\ndisplay:flex !important;\nalign-items:center !important;\njustify-content:center !important;\ntext-align:center !important;\nfont-size:16px !important;\nfont-weight:700 !important;\nline-height:1.25 !important;\n\">\nRestante<br/>3/8\n</div>\n</div>\n<strong>48 porções no total</strong>\n</div>",
+          "texto": "Manhã 3/8 Tarde 1/4 Restante 3/8 48 porções no total",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Barra de composição; apoio, dados no texto. Rótulo original já mostra restante 3/8.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "18 pela manhã; 12 à tarde; 18 restantes.",
+          "valores": [
+            18,
+            12,
+            18
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "18 pela manhã; 12 à tarde; 30 restantes.",
+          "valores": [
+            18,
+            12,
+            30
+          ],
+          "erro_comum": "Confundir total distribuído com restante."
+        },
+        {
+          "letra": "C",
+          "texto": "6 pela manhã; 12 à tarde; 30 restantes.",
+          "valores": [
+            6,
+            12,
+            30
+          ],
+          "erro_comum": "Calcular 1/8 em vez de 3/8."
+        },
+        {
+          "letra": "D",
+          "texto": "18 pela manhã; 6 à tarde; 24 restantes.",
+          "valores": [
+            18,
+            6,
+            24
+          ],
+          "erro_comum": "Calcular 1/8 do total no lugar de 1/4 para a tarde."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "48×3/8=18 manhã; 48×1/4=12 tarde; 48−18−12=18 restantes.",
+      "resolucao_comentada": "A alternativa correta é 18 pela manhã; 12 à tarde; 18 restantes. 48×3/8=18 manhã; 48×1/4=12 tarde; 48−18−12=18 restantes.",
+      "observacoes": [
+        "A barra original já informa restante 3/8; esse apoio foi preservado."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "manha",
+        "tarde",
+        "restantes"
+      ]
+    },
+    {
+      "id": "FR-18",
+      "numero_original": 18,
+      "titulo": "Quem justificou melhor?",
+      "assunto": "Frações",
+      "conteudo": "Avaliação de estratégias e comparação por equivalência",
+      "habilidade": "Avaliação de estratégias e comparação por equivalência.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "escolher argumento e realizar comparação."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-fracoes-box.html",
+        "numero": 18,
+        "texto_original": "18. Quem justificou melhor? Três estudantes tentaram comparar 4/6 e 5/8. Ana “4/6 é maior porque 4 é menor que 5.” Bruno “5/8 é maior porque 8 é maior que 6.” Clara “Vou escrever frações equivalentes com o mesmo denominador.” Qual estratégia é matematicamente adequada? Faça a comparação e explique.",
+        "gabarito_publicado": "Clara; 4/6 = 16/24 e 5/8 = 15/24, logo 4/6 > 5/8."
+      },
+      "enunciado": {
+        "contexto": [
+          "Três estudantes tentaram comparar 4/6 e 5/8."
+        ],
+        "comando": "Qual estratégia é adequada e qual comparação a aplica corretamente?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual speech\">\n<div><b>Ana</b><br/>“4/6 é maior porque 4 é menor que 5.”</div>\n<div><b>Bruno</b><br/>“5/8 é maior porque 8 é maior que 6.”</div>\n<div><b>Clara</b><br/>“Vou escrever frações equivalentes com o mesmo denominador.”</div>\n</div>",
+          "texto": "Ana “4/6 é maior porque 4 é menor que 5.” Bruno “5/8 é maior porque 8 é maior que 6.” Clara “Vou escrever frações equivalentes com o mesmo denominador.”",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Balões essenciais: argumentos de Ana, Bruno e Clara.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ana; 4/6 é maior porque 4 é menor que 5.",
+          "valores": [
+            "Ana",
+            "numerador_menor"
+          ],
+          "erro_comum": "Aceitar conclusão com justificativa inválida."
+        },
+        {
+          "letra": "B",
+          "texto": "Clara; 4/6 = 16/24 > 15/24 = 5/8.",
+          "valores": [
+            "Clara",
+            "4/6_maior_5/8"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Bruno; 5/8 é maior porque 8 é maior que 6.",
+          "valores": [
+            "Bruno",
+            "denominador_maior"
+          ],
+          "erro_comum": "Comparar só denominadores."
+        },
+        {
+          "letra": "D",
+          "texto": "Clara; 4/6 = 16/24 < 15/24 = 5/8.",
+          "valores": [
+            "Clara",
+            "4/6_menor_5/8"
+          ],
+          "erro_comum": "Usar a estratégia correta, mas inverter a comparação final."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "Clara; 4/6=16/24, 5/8=15/24, logo 4/6>5/8.",
+      "resolucao_comentada": "A alternativa correta é Clara; 4/6 = 16/24 > 15/24 = 5/8. Clara; 4/6=16/24, 5/8=15/24, logo 4/6>5/8.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "estudante",
+        "relacao"
+      ]
+    },
+    {
+      "id": "FR-19",
+      "numero_original": 19,
+      "titulo": "Oficina de criação",
+      "assunto": "Frações",
+      "conteudo": "Produção de frações equivalentes com restrição de denominador",
+      "habilidade": "Reconhecer um par de frações equivalentes a 3/4 com denominadores sujeitos às restrições dadas.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenar equivalência de duas frações e limites estritos dos dois denominadores."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-fracoes-box.html",
+        "numero": 19,
+        "texto_original": "19. Oficina de criação Um cartaz pede uma fração equivalente a 3/4, com denominador maior que 20 e menor que 40. __/__ __/__ Crie duas respostas possíveis e demonstre que ambas são equivalentes a 3/4.",
+        "gabarito_publicado": "Exemplos: 18/24 e 21/28."
+      },
+      "enunciado": {
+        "contexto": [
+          "Um cartaz pede uma fração equivalente a 3/4, com denominador maior que 20 e menor que 40."
+        ],
+        "comando": "Qual par contém duas frações diferentes equivalentes a 3/4, ambas com denominador maior que 20 e menor que 40?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual blankcards\"><div>__/__</div><div>__/__</div></div>",
+          "texto": "__/__ __/__",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Cartões em branco; decorativos, condições no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "15/20 e 30/40.",
+          "valores": [
+            [
+              "15/20",
+              "30/40"
+            ]
+          ],
+          "erro_comum": "Incluir os limites 20 e 40, embora o enunciado exija desigualdades estritas."
+        },
+        {
+          "letra": "B",
+          "texto": "18/24 e 21/32.",
+          "valores": [
+            [
+              "18/24",
+              "21/32"
+            ]
+          ],
+          "erro_comum": "Verificar só uma fração ou ampliar os termos por fatores diferentes na segunda."
+        },
+        {
+          "letra": "C",
+          "texto": "18/24 e 21/28.",
+          "valores": [
+            [
+              "18/24",
+              "21/28"
+            ]
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "24/32 e 27/35.",
+          "valores": [
+            [
+              "24/32",
+              "27/35"
+            ]
+          ],
+          "erro_comum": "Acertar uma fração, mas alterar o denominador da segunda sem manter equivalência."
+        }
+      ],
+      "gabarito": "C",
+      "resposta_matematica": "Multiplicando numerador e denominador de 3/4 por 6, obtemos 18/24; multiplicando ambos por 7, obtemos 21/28. Os denominadores 24 e 28 estão estritamente entre 20 e 40, logo o par da alternativa C é válido. Na A, ambas as frações são equivalentes, mas os denominadores 20 e 40 estão nos limites proibidos. Na B, 21/32 não é equivalente: 21 × 4 = 84 e 32 × 3 = 96. Na D, 27/35 não é equivalente: 27 × 4 = 108 e 35 × 3 = 105.",
+      "resolucao_comentada": "Multiplicando numerador e denominador de 3/4 por 6, obtemos 18/24; multiplicando ambos por 7, obtemos 21/28. Os denominadores 24 e 28 estão estritamente entre 20 e 40, logo o par da alternativa C é válido. Na A, ambas as frações são equivalentes, mas os denominadores 20 e 40 estão nos limites proibidos. Na B, 21/32 não é equivalente: 21 × 4 = 84 e 32 × 3 = 96. Na D, 27/35 não é equivalente: 27 × 4 = 108 e 35 × 3 = 105.",
+      "observacoes": [
+        "Criação e demonstração de duas frações substituídas por reconhecimento de pares equivalentes, mantendo os limites estritos dos denominadores."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "par_fracoes"
+      ],
+      "habilidade_original": "Produção de frações equivalentes com restrição de denominador.",
+      "adaptacao_pedagogica": {
+        "status": "aprovada",
+        "aprovacao": "Aprovação expressa do usuário nesta tarefa",
+        "descricao": "Criação e demonstração de duas frações substituídas por reconhecimento de pares equivalentes, mantendo os limites estritos dos denominadores.",
+        "revisao_anterior": {
+          "motivo": "Criar duas frações e demonstrar equivalência é uma tarefa de produção. Selecionar pares não conserva integralmente o objetivo original.",
+          "pergunta": "Autoriza substituir criação/demonstração por reconhecimento de duas frações equivalentes sob as mesmas restrições?"
+        }
+      }
+    },
+    {
+      "id": "FR-20",
+      "numero_original": 20,
+      "titulo": "Mapa do percurso",
+      "assunto": "Frações",
+      "conteudo": "Adição de frações e comparação com marco",
+      "habilidade": "Adição de frações e comparação com marco.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "equivalência, soma e complemento."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-fracoes-box.html",
+        "numero": 20,
+        "texto_original": "20. Mapa do percurso Um percurso foi dividido em 12 trechos iguais. Sofia percorreu 5/12 pela manhã e 1/3 à tarde. 1 2 3 4 5 6 7 8 9 10 11 12 Que fração do percurso foi completada? Que fração ainda falta? Sofia já percorreu mais de 3/4 do trajeto?",
+        "gabarito_publicado": "5/12 + 4/12 = 9/12 = 3/4; falta 1/4; não, percorreu exatamente 3/4."
+      },
+      "enunciado": {
+        "contexto": [
+          "Um percurso foi dividido em 12 trechos iguais. Sofia percorreu 5/12 pela manhã e 1/3 à tarde."
+        ],
+        "comando": "Qual opção apresenta a parte completada, a que falta e se Sofia ultrapassou 3/4?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"visual route12\">\n<span class=\"am\">1</span><span class=\"am\">2</span><span class=\"am\">3</span><span class=\"am\">4</span><span class=\"am\">5</span>\n<span class=\"pm\">6</span><span class=\"pm\">7</span><span class=\"pm\">8</span><span class=\"pm\">9</span>\n<span>10</span><span>11</span><span>12</span>\n</div>",
+          "texto": "1 2 3 4 5 6 7 8 9 10 11 12",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Mapa com 12 trechos; apoio, dados no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6/15 completados; faltam 9/15; não.",
+          "valores": [
+            "6/15",
+            "9/15",
+            false
+          ],
+          "erro_comum": "Somar numeradores e denominadores: 5/12 + 1/3."
+        },
+        {
+          "letra": "B",
+          "texto": "3/4 completados; falta 1/4; sim, ultrapassou.",
+          "valores": [
+            "3/4",
+            "1/4",
+            true
+          ],
+          "erro_comum": "Confundir igualdade com ser maior."
+        },
+        {
+          "letra": "C",
+          "texto": "1/2 completado; falta 1/2; não.",
+          "valores": [
+            "1/2",
+            "1/2",
+            false
+          ],
+          "erro_comum": "Tratar 1/3 como 1/12."
+        },
+        {
+          "letra": "D",
+          "texto": "3/4 completados; falta 1/4; não, percorreu exatamente 3/4.",
+          "valores": [
+            "3/4",
+            "1/4",
+            false
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "5/12+1/3=5/12+4/12=9/12=3/4; falta 1/4; não passou de 3/4, atingiu exatamente.",
+      "resolucao_comentada": "A alternativa correta é 3/4 completados; falta 1/4; não, percorreu exatamente 3/4. 5/12+1/3=5/12+4/12=9/12=3/4; falta 1/4; não passou de 3/4, atingiu exatamente.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "completada",
+        "falta",
+        "ultrapassou"
+      ]
+    }
+  ]
+}

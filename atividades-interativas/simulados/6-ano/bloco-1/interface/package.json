@@ -1,0 +1,7 @@
+{
+  "name": "matematicafc-interface-6-ano-bloco-1",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test testes/*.test.mjs" },
+  "devDependencies": { "playwright": "1.61.1" }
+}

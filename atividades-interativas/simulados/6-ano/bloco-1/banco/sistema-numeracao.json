@@ -1,0 +1,1789 @@
+{
+  "versao_formato": 1,
+  "bloco": "6-ano-bloco-1-numeros-operacoes",
+  "ano_escolar": 6,
+  "assunto": "Sistema de numeração",
+  "codigo_assunto": "SN",
+  "origem": "Postagens consultadas na análise das 100 questões; correções locais explicitamente registradas.",
+  "sha256_html_fonte": "f2eb396022ed95f05ae91cd4fd78c7bfecdacc9e1f863799c4aa9d1e74425594",
+  "estilos_originais_referencia": [
+    "\n*{box-sizing:border-box}\nbody{font-family:Arial,Helvetica,sans-serif;color:#17324d;background:#fff;margin:0}\n.mfc-act{max-width:980px;margin:0 auto;padding:24px 18px 48px}\n.mfc-act h1{font-size:30px;text-align:center;margin:0 0 8px;color:#173f63}\n.mfc-sub{text-align:center;font-size:17px;margin:0 auto 20px;max-width:760px;line-height:1.5}\n.mfc-meta{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin:18px 0}\n.mfc-chip{background:#eef5fa;border:1px solid #c8dce9;border-radius:999px;padding:8px 14px;font-weight:700}\n.mfc-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:20px 0 28px}\n.mfc-btn{display:inline-block;background:#173f63;color:#fff!important;text-decoration:none;border:0;border-radius:8px;padding:11px 18px;font-weight:700;cursor:pointer}\n.mfc-btn:hover{background:#2f75a8}\n.mfc-note{background:#fff8dd;border-left:5px solid #f2c94c;padding:12px 14px;border-radius:6px;margin:16px 0 24px;line-height:1.5}\n.q{border:1px solid #d8e2ea;border-radius:12px;padding:18px;margin:18px 0;break-inside:avoid}\n.q h2{font-size:19px;margin:0 0 10px;color:#173f63}\n.q p{font-size:17px;line-height:1.55;margin:8px 0}\n.art{margin:14px auto 16px;padding:14px;border-radius:10px;background:#f7fafc;border:1px solid #dfe8ef;max-width:760px}\n.art-title{text-align:center;font-weight:700;margin-bottom:10px;color:#173f63}\n.tbl{width:100%;border-collapse:collapse;font-size:16px}\n.tbl th,.tbl td{border:1px solid #b9cad7;padding:9px;text-align:center}\n.tbl th{background:#173f63;color:#fff}\n.digital{font-family:\"Courier New\",monospace;font-size:42px;letter-spacing:5px;text-align:center;background:#17212b;color:#d7ffb8;padding:18px;border-radius:8px}\n.digital .hi{color:#ffd54f;font-weight:700}\n.place{display:grid;grid-template-columns:repeat(5,1fr);gap:5px;text-align:center}\n.place div{border:1px solid #9fb4c3;border-radius:6px;padding:9px}\n.place .hd{background:#173f63;color:#fff;font-weight:700}\n.route{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px}\n.node{background:#fff;border:2px solid #2f75a8;border-radius:8px;padding:10px 12px;font-weight:700}\n.arrow{font-size:24px;font-weight:700}\n.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px}\n.card{background:#fff;border:2px solid #c7d8e5;border-radius:9px;padding:13px;text-align:center}\n.card strong{display:block;font-size:22px;color:#173f63;margin-top:5px}\n.decomp{display:flex;justify-content:center;gap:8px;flex-wrap:wrap}\n.decomp span{background:#e9f3f9;border:1px solid #9fc1d7;border-radius:7px;padding:10px 12px;font-weight:700}\n.numberline{position:relative;margin:32px 20px 18px;height:60px;border-top:4px solid #173f63}\n.tick{position:absolute;top:-12px;width:2px;height:20px;background:#173f63}\n.tick label{position:absolute;top:24px;transform:translateX(-50%);white-space:nowrap;font-weight:700}\n.material{display:flex;justify-content:center;gap:14px;align-items:stretch;flex-wrap:wrap}\n.material .box,.material .pack,.material .unit{\n    border-radius:8px;\n    text-align:center;\n    font-weight:700;\n    display:flex;\n    align-items:center;\n    justify-content:center;\n    flex-direction:column;\n    line-height:1.25;\n    padding:10px 8px;\n    min-height:72px;\n}\n.material .box{width:125px;background:#d8edf8;border:2px solid #2f75a8}\n.material .pack{width:110px;background:#fff0c7;border:2px solid #e8b64c}\n.material .unit{width:72px;background:#f1e2ff;border:2px solid #9666c3}\n.score{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}\n.score div{background:#173f63;color:white;padding:12px;border-radius:8px;text-align:center}\n.score b{display:block;font-size:23px;margin-top:4px}\n.seq{display:flex;justify-content:center;gap:8px;flex-wrap:wrap}\n.ticket{border:2px dashed #2f75a8;border-radius:8px;padding:10px 14px;background:white;font-weight:700;font-size:20px}\n.labels{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;max-width:520px;margin:auto}\n.label{padding:14px;border-radius:8px;background:#fff;border:2px solid #173f63;text-align:center;font-size:22px;font-weight:700}\n.answer-lines{height:54px;border-bottom:1px dashed #b9c7d2}\n.footer-note{text-align:center;color:#63788a;font-size:13px;margin-top:28px}\n@media(max-width:600px){\n .mfc-act{padding:18px 12px 36px}\n .mfc-act h1{font-size:24px}\n .q p{font-size:16px}\n .digital{font-size:32px}\n .score{grid-template-columns:repeat(2,1fr)}\n .labels{grid-template-columns:1fr 1fr}\n}\n@media print{\n .mfc-actions{display:none!important}\n body{background:#fff}\n .mfc-act{max-width:none;padding:0}\n .q{break-inside:avoid}\n a{color:#000!important;text-decoration:none!important}\n}\n\n.mfc-brand{text-align:center;margin:2px 0 8px;font-family:Georgia,\"Times New Roman\",serif;font-style:italic;font-weight:700;font-size:34px;line-height:1}\n.mfc-brand-name{color:#173f63}.mfc-brand-fc{color:#d6a400;margin-left:2px}\n\n.mfc-gabarito{margin:34px 0 10px}\n.mfc-gabarito details{border:1px solid #c8dce9;border-radius:10px;overflow:hidden;background:#fff}\n.mfc-gabarito summary{cursor:pointer;background:#173f63;color:#fff;font-size:18px;font-weight:700;padding:13px 18px;list-style:none}\n.mfc-gabarito summary::-webkit-details-marker{display:none}\n\n.mfc-gabarito-conteudo{padding:14px 18px;background:#f7fafc}\n.mfc-gabarito-conteudo p{font-size:16px;line-height:1.5;margin:8px 0;padding-bottom:8px;border-bottom:1px solid #e2e9ee}\n\n.mfc-gabarito summary{\n    display:flex;\n    align-items:center;\n    justify-content:space-between;\n    gap:12px;\n}\n.mfc-gabarito-seta{\n    display:inline-block;\n    width:10px;\n    height:10px;\n    border-right:3px solid #ffffff;\n    border-bottom:3px solid #ffffff;\n    transform:rotate(45deg);\n    transition:transform .2s ease;\n    flex:0 0 auto;\n    margin-right:2px;\n}\n.mfc-gabarito details[open] .mfc-gabarito-seta{\n    transform:rotate(225deg);\n}\n\n@media print{.mfc-gabarito{display:none!important}}\n\n"
+  ],
+  "aviso_estilos": "Referência de preservação visual, sem execução. Contém seletores globais do original: isolar/reformular na futura interface, não injetar diretamente no Blogger.",
+  "questoes": [
+    {
+      "id": "SN-01",
+      "numero_original": 1,
+      "titulo": "Visitantes da feira",
+      "assunto": "Sistema de numeração",
+      "conteudo": "Ordenação de naturais e diferença entre extremos",
+      "habilidade": "Ordenação de naturais e diferença entre extremos; comparar valores posicionais.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "ordenar e subtrair."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-sistema-de-numeracao.html",
+        "numero": 1,
+        "texto_original": "1. Visitantes da feira Painel de visitantes Espaço Visitantes Matemática 1.248 Ciências 1.482 Tecnologia 1.284 Robótica 1.428 Durante a Feira de Ciências e Tecnologia de uma escola, a equipe de organização registrou a quantidade de visitantes que passou por quatro espaços temáticos ao longo do dia. No encerramento, os estudantes precisaram organizar esses dados para preparar o relatório do evento. Organize os espaços do menor para o maior número de visitantes . Depois, indique qual recebeu mais visitantes e quantos visitantes a mais ele recebeu em relação ao espaço menos visitado.",
+        "gabarito_publicado": "Ordem: Matemática (1.248), Tecnologia (1.284), Robótica (1.428), Ciências (1.482). Ciências recebeu mais; diferença para Matemática: 234 visitantes."
+      },
+      "enunciado": {
+        "contexto": [
+          "Durante a Feira de Ciências e Tecnologia de uma escola, a equipe de organização registrou a quantidade de visitantes que passou por quatro espaços temáticos ao longo do dia. No encerramento, os estudantes precisaram organizar esses dados para preparar o relatório do evento."
+        ],
+        "comando": "Escolha a opção que apresenta a ordem crescente dos espaços, o mais visitado e a diferença entre o maior e o menor público."
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><div class=\"art-title\">Painel de visitantes</div><table class=\"tbl\"><tr><th>Espaço</th><th>Visitantes</th></tr><tr><td>Matemática</td><td>1.248</td></tr><tr><td>Ciências</td><td>1.482</td></tr><tr><td>Tecnologia</td><td>1.284</td></tr><tr><td>Robótica</td><td>1.428</td></tr></table></div>",
+          "texto": "Painel de visitantes Espaço Visitantes Matemática 1.248 Ciências 1.482 Tecnologia 1.284 Robótica 1.428",
+          "tabelas": [
+            [
+              [
+                "Espaço",
+                "Visitantes"
+              ],
+              [
+                "Matemática",
+                "1.248"
+              ],
+              [
+                "Ciências",
+                "1.482"
+              ],
+              [
+                "Tecnologia",
+                "1.284"
+              ],
+              [
+                "Robótica",
+                "1.428"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela de visitantes essencial: contém os quatro valores.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Matemática, Tecnologia, Robótica, Ciências; Ciências; 234 visitantes.",
+          "valores": [
+            [
+              "Matemática",
+              "Tecnologia",
+              "Robótica",
+              "Ciências"
+            ],
+            "Ciências",
+            234
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Tecnologia, Matemática, Robótica, Ciências; Ciências; 234 visitantes.",
+          "valores": [
+            [
+              "Tecnologia",
+              "Matemática",
+              "Robótica",
+              "Ciências"
+            ],
+            "Ciências",
+            234
+          ],
+          "erro_comum": "Comparar só os algarismos finais, invertendo 1.248 e 1.284."
+        },
+        {
+          "letra": "C",
+          "texto": "Matemática, Tecnologia, Ciências, Robótica; Robótica; 180 visitantes.",
+          "valores": [
+            [
+              "Matemática",
+              "Tecnologia",
+              "Ciências",
+              "Robótica"
+            ],
+            "Robótica",
+            180
+          ],
+          "erro_comum": "Inverter dezenas e centenas ao comparar 1.428 e 1.482."
+        },
+        {
+          "letra": "D",
+          "texto": "Matemática, Tecnologia, Robótica, Ciências; Ciências; 244 visitantes.",
+          "valores": [
+            [
+              "Matemática",
+              "Tecnologia",
+              "Robótica",
+              "Ciências"
+            ],
+            "Ciências",
+            244
+          ],
+          "erro_comum": "Errar o empréstimo na subtração 1.482 − 1.248."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "Matemática 1.248 < Tecnologia 1.284 < Robótica 1.428 < Ciências 1.482; Ciências é o maior; 1.482 − 1.248 = 234 visitantes.",
+      "resolucao_comentada": "A alternativa correta é Matemática, Tecnologia, Robótica, Ciências; Ciências; 234 visitantes. Matemática 1.248 < Tecnologia 1.284 < Robótica 1.428 < Ciências 1.482; Ciências é o maior; 1.482 − 1.248 = 234 visitantes.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "ordem",
+        "maior",
+        "diferenca"
+      ]
+    },
+    {
+      "id": "SN-02",
+      "numero_original": 2,
+      "titulo": "Contador da biblioteca",
+      "assunto": "Sistema de numeração",
+      "conteudo": "Valor posicional",
+      "habilidade": "Valor posicional; identificar a ordem dos milhares.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "uma ordem."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-sistema-de-numeracao.html",
+        "numero": 2,
+        "texto_original": "2. Contador da biblioteca Painel do acervo 1 5 .307 A biblioteca municipal está realizando um inventário do acervo. Ao final de uma etapa da contagem, o painel registrou 15.307 livros . Para conferir se o registro foi feito corretamente, a bibliotecária pediu aos estudantes que analisassem o valor de cada algarismo. No número mostrado, qual é o valor posicional do algarismo 5 ? Explique o que esse valor representa na quantidade de livros.",
+        "gabarito_publicado": "5.000. O 5 representa cinco milhares, isto é, 5.000 livros."
+      },
+      "enunciado": {
+        "contexto": [
+          "A biblioteca municipal está realizando um inventário do acervo. Ao final de uma etapa da contagem, o painel registrou 15.307 livros . Para conferir se o registro foi feito corretamente, a bibliotecária pediu aos estudantes que analisassem o valor de cada algarismo."
+        ],
+        "comando": "Qual alternativa apresenta o valor do algarismo 5 e explica sua posição em 15.307?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"art\"><div class=\"art-title\">Painel do acervo</div><div class=\"digital\">1<span class=\"hi\">5</span>.307</div></div>",
+          "texto": "Painel do acervo 1 5 .307",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Painel com destaque do 5; apoio, número informado no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "500 livros; cinco centenas.",
+          "valores": [
+            500,
+            "centena"
+          ],
+          "erro_comum": "Confundir unidade de milhar com centena."
+        },
+        {
+          "letra": "B",
+          "texto": "5.000 livros; cinco unidades de milhar.",
+          "valores": [
+            5000,
+            "milhar"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "50 livros; cinco dezenas.",
+          "valores": [
+            50,
+            "dezena"
+          ],
+          "erro_comum": "Identificar a posição incorreta."
+        },
+        {
+          "letra": "D",
+          "texto": "5 livros; cinco unidades.",
+          "valores": [
+            5,
+            "unidade"
+          ],
+          "erro_comum": "Usar o valor absoluto do algarismo."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "5.000 livros: em 15.307 o 5 ocupa a unidade de milhar, 5 × 1.000.",
+      "resolucao_comentada": "A alternativa correta é 5.000 livros; cinco unidades de milhar. 5.000 livros: em 15.307 o 5 ocupa a unidade de milhar, 5 × 1.000.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "valor",
+        "ordem"
+      ]
+    },
+    {
+      "id": "SN-03",
+      "numero_original": 3,
+      "titulo": "Materiais para a mostra cultural",
+      "assunto": "Sistema de numeração",
+      "conteudo": "Composição e leitura de natural a partir de quadro de ordens",
+      "habilidade": "Reconhecer a representação numérica e por extenso de um natural a partir de seu quadro de ordens.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretar o quadro de ordens e reconhecer duas representações do mesmo número."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-sistema-de-numeracao.html",
+        "numero": 3,
+        "texto_original": "3. Materiais para a mostra cultural Registro no quadro de ordens DM UM C D U 2 4 6 3 8 Uma secretaria de educação separou materiais impressos para distribuir durante uma mostra cultural. Antes da entrega, a quantidade foi registrada no quadro de ordens para facilitar a conferência do estoque. Que número está representado no quadro? Escreva essa quantidade com algarismos e por extenso .",
+        "gabarito_publicado": "24.638; vinte e quatro mil seiscentos e trinta e oito."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma secretaria de educação separou materiais impressos para distribuir durante uma mostra cultural. Antes da entrega, a quantidade foi registrada no quadro de ordens para facilitar a conferência do estoque."
+        ],
+        "comando": "Qual alternativa representa corretamente o número do quadro, com algarismos e por extenso?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"art\"><div class=\"art-title\">Registro no quadro de ordens</div><div class=\"place\"><div class=\"hd\">DM</div><div class=\"hd\">UM</div><div class=\"hd\">C</div><div class=\"hd\">D</div><div class=\"hd\">U</div><div>2</div><div>4</div><div>6</div><div>3</div><div>8</div></div></div>",
+          "texto": "Registro no quadro de ordens DM UM C D U 2 4 6 3 8",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Quadro de ordens HTML/CSS essencial: DM=2, UM=4, C=6, D=3, U=8.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "24.638 — vinte e quatro mil seiscentos e oitenta e três.",
+          "valores": [
+            24638,
+            "vinte e quatro mil seiscentos e oitenta e três"
+          ],
+          "erro_comum": "Trocar as ordens de dezenas e unidades na leitura por extenso."
+        },
+        {
+          "letra": "B",
+          "texto": "24.368 — vinte e quatro mil trezentos e sessenta e oito.",
+          "valores": [
+            24368,
+            "vinte e quatro mil trezentos e sessenta e oito"
+          ],
+          "erro_comum": "Trocar as ordens de centenas e dezenas ao compor o número."
+        },
+        {
+          "letra": "C",
+          "texto": "24.638 — vinte e quatro mil seiscentos e trinta e oito.",
+          "valores": [
+            24638,
+            "vinte e quatro mil seiscentos e trinta e oito"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "2.463 — dois mil quatrocentos e sessenta e três.",
+          "valores": [
+            2463,
+            "dois mil quatrocentos e sessenta e três"
+          ],
+          "erro_comum": "Omitir a unidade final e deslocar uma ordem os outros algarismos."
+        }
+      ],
+      "gabarito": "C",
+      "resposta_matematica": "O quadro registra 2 dezenas de milhar, 4 unidades de milhar, 6 centenas, 3 dezenas e 8 unidades. Assim, 20.000 + 4.000 + 600 + 30 + 8 = 24.638. A leitura correta é vinte e quatro mil seiscentos e trinta e oito. Portanto, a alternativa C reúne as duas representações corretas.",
+      "resolucao_comentada": "O quadro registra 2 dezenas de milhar, 4 unidades de milhar, 6 centenas, 3 dezenas e 8 unidades. Assim, 20.000 + 4.000 + 600 + 30 + 8 = 24.638. A leitura correta é vinte e quatro mil seiscentos e trinta e oito. Portanto, a alternativa C reúne as duas representações corretas.",
+      "observacoes": [
+        "Produção da escrita por extenso substituída por reconhecimento da representação correta, preservando o quadro de ordens e o número 24.638."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "numero",
+        "escrita_por_extenso"
+      ],
+      "habilidade_original": "Composição e leitura de natural a partir de quadro de ordens.",
+      "adaptacao_pedagogica": {
+        "status": "aprovada",
+        "aprovacao": "Aprovação expressa do usuário nesta tarefa",
+        "descricao": "Produção da escrita por extenso substituída por reconhecimento da representação correta, preservando o quadro de ordens e o número 24.638.",
+        "revisao_anterior": {
+          "motivo": "A tarefa exige escrever o número por extenso. Escolher uma escrita pronta não avalia integralmente essa produção.",
+          "pergunta": "Autoriza adaptar a escrita por extenso para reconhecimento de um par número/escrita, mantendo o quadro de ordens?"
+        }
+      }
+    },
+    {
+      "id": "SN-04",
+      "numero_original": 4,
+      "titulo": "Caminhada no parque",
+      "assunto": "Sistema de numeração",
+      "conteudo": "Adição de medidas e comparação com referência",
+      "habilidade": "Adição de medidas e comparação com referência.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "somar e calcular excedente."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-sistema-de-numeracao.html",
+        "numero": 4,
+        "texto_original": "4. Caminhada no parque Trechos do percurso Entrada → 325 m → Lago → 470 m → Mirante → 285 m → Bosque → 510 m → Saída Uma turma participou de uma caminhada orientada em um parque ecológico. O mapa entregue aos estudantes indicava a distância de cada trecho entre os pontos de parada. O professor pediu que a turma calculasse o percurso completo para registrar a distância no diário da visita. Quantos metros foram percorridos da entrada até a saída? Essa distância ultrapassou 1.500 metros ? Se sim, em quantos metros?",
+        "gabarito_publicado": "1.590 m. Ultrapassou 1.500 m em 90 m."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma turma participou de uma caminhada orientada em um parque ecológico. O mapa entregue aos estudantes indicava a distância de cada trecho entre os pontos de parada. O professor pediu que a turma calculasse o percurso completo para registrar a distância no diário da visita."
+        ],
+        "comando": "Qual alternativa informa a distância total e quanto ela ultrapassa 1.500 m?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"art\"><div class=\"art-title\">Trechos do percurso</div><div class=\"route\"><div class=\"node\">Entrada</div><div class=\"arrow\">→ 325 m →</div><div class=\"node\">Lago</div><div class=\"arrow\">→ 470 m →</div><div class=\"node\">Mirante</div><div class=\"arrow\">→ 285 m →</div><div class=\"node\">Bosque</div><div class=\"arrow\">→ 510 m →</div><div class=\"node\">Saída</div></div></div>",
+          "texto": "Trechos do percurso Entrada → 325 m → Lago → 470 m → Mirante → 285 m → Bosque → 510 m → Saída",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Diagrama de percurso essencial: quatro distâncias apenas no esquema.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1.080 m; não ultrapassa.",
+          "valores": [
+            1080,
+            0
+          ],
+          "erro_comum": "Omitir o trecho final de 510 m."
+        },
+        {
+          "letra": "B",
+          "texto": "1.490 m; não ultrapassa.",
+          "valores": [
+            1490,
+            0
+          ],
+          "erro_comum": "Perder uma centena na soma."
+        },
+        {
+          "letra": "C",
+          "texto": "1.590 m; ultrapassa em 590 m.",
+          "valores": [
+            1590,
+            590
+          ],
+          "erro_comum": "Comparar com 1.000 m em vez de 1.500 m."
+        },
+        {
+          "letra": "D",
+          "texto": "1.590 m; ultrapassa em 90 m.",
+          "valores": [
+            1590,
+            90
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "325 + 470 + 285 + 510 = 1.590 m; ultrapassa 1.500 m em 90 m.",
+      "resolucao_comentada": "A alternativa correta é 1.590 m; ultrapassa em 90 m. 325 + 470 + 285 + 510 = 1.590 m; ultrapassa 1.500 m em 90 m.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "total_m",
+        "excedente_m"
+      ]
+    },
+    {
+      "id": "SN-05",
+      "numero_original": 5,
+      "titulo": "Bilheteria do teatro",
+      "assunto": "Sistema de numeração",
+      "conteudo": "Comparação de naturais e subtração",
+      "habilidade": "Comparação de naturais e subtração.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "três valores e uma diferença."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-sistema-de-numeracao.html",
+        "numero": 5,
+        "texto_original": "5. Bilheteria do teatro Ingressos vendidos Guichê A 786 Guichê B 945 Guichê C 869 Um teatro abriu três guichês para vender ingressos de um festival estudantil. Ao final do atendimento, a coordenação comparou as vendas para avaliar o movimento de cada guichê. Qual guichê vendeu mais ingressos? Quantos ingressos ele vendeu a mais que o guichê com menor quantidade de vendas?",
+        "gabarito_publicado": "Guichê B; 159 ingressos a mais que o Guichê A."
+      },
+      "enunciado": {
+        "contexto": [
+          "Um teatro abriu três guichês para vender ingressos de um festival estudantil. Ao final do atendimento, a coordenação comparou as vendas para avaliar o movimento de cada guichê."
+        ],
+        "comando": "Qual guichê vendeu mais e quantos ingressos a mais vendeu em relação ao que vendeu menos?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"art\"><div class=\"art-title\">Ingressos vendidos</div><div class=\"cards\"><div class=\"card\">Guichê A<strong>786</strong></div><div class=\"card\">Guichê B<strong>945</strong></div><div class=\"card\">Guichê C<strong>869</strong></div></div></div>",
+          "texto": "Ingressos vendidos Guichê A 786 Guichê B 945 Guichê C 869",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Cartões dos três guichês essenciais: 786, 945 e 869.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Guichê B; 159 ingressos.",
+          "valores": [
+            "B",
+            159
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Guichê B; 76 ingressos.",
+          "valores": [
+            "B",
+            76
+          ],
+          "erro_comum": "Comparar o maior com o intermediário, não com o menor."
+        },
+        {
+          "letra": "C",
+          "texto": "Guichê C; 83 ingressos.",
+          "valores": [
+            "C",
+            83
+          ],
+          "erro_comum": "Usar o guichê intermediário como maior."
+        },
+        {
+          "letra": "D",
+          "texto": "Guichê B; 169 ingressos.",
+          "valores": [
+            "B",
+            169
+          ],
+          "erro_comum": "Erro no empréstimo de 945 − 786."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "Guichê B; 945 − 786 = 159 ingressos a mais que A.",
+      "resolucao_comentada": "A alternativa correta é Guichê B; 159 ingressos. Guichê B; 945 − 786 = 159 ingressos a mais que A.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "guiche",
+        "diferenca"
+      ]
+    },
+    {
+      "id": "SN-06",
+      "numero_original": 6,
+      "titulo": "Controle de doações",
+      "assunto": "Sistema de numeração",
+      "conteudo": "Composição/decomposição aditiva e equivalência de registros",
+      "habilidade": "Identificar o total de um natural e uma decomposição aditiva equivalente a seu registro posicional.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Compor o total e verificar a equivalência de outra decomposição."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-sistema-de-numeracao.html",
+        "numero": 6,
+        "texto_original": "6. Controle de doações Registro das doações 40.000 + 7.000 + 300 + 20 + 6 Uma campanha regional arrecadou milhares de itens de higiene. Para ensinar novos voluntários a conferir os registros, a coordenadora apresentou a quantidade arrecadada por meio de uma decomposição. Qual foi o total de itens arrecadados? Escreva também outra decomposição possível para representar a mesma quantidade.",
+        "gabarito_publicado": "47.326. Exemplo: 47.000 + 300 + 20 + 6."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma campanha regional arrecadou milhares de itens de higiene. Para ensinar novos voluntários a conferir os registros, a coordenadora apresentou a quantidade arrecadada por meio de uma decomposição."
+        ],
+        "comando": "Qual alternativa informa o total arrecadado e outra decomposição equivalente ao registro apresentado?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"art\"><div class=\"art-title\">Registro das doações</div><div class=\"decomp\"><span>40.000</span><span>+</span><span>7.000</span><span>+</span><span>300</span><span>+</span><span>20</span><span>+</span><span>6</span></div></div>",
+          "texto": "Registro das doações 40.000 + 7.000 + 300 + 20 + 6",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Decomposição em blocos essencial: parcelas no desenho.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "47.326 itens; 47.000 + 300 + 20 + 60.",
+          "valores": [
+            47326,
+            [
+              47000,
+              300,
+              20,
+              60
+            ]
+          ],
+          "erro_comum": "Trocar seis unidades por seis dezenas na segunda decomposição."
+        },
+        {
+          "letra": "B",
+          "texto": "47.326 itens; 47.000 + 300 + 2 + 6.",
+          "valores": [
+            47326,
+            [
+              47000,
+              300,
+              2,
+              6
+            ]
+          ],
+          "erro_comum": "Trocar duas dezenas por duas unidades."
+        },
+        {
+          "letra": "C",
+          "texto": "47.326 itens; 40.000 + 700 + 300 + 20 + 6.",
+          "valores": [
+            47326,
+            [
+              40000,
+              700,
+              300,
+              20,
+              6
+            ]
+          ],
+          "erro_comum": "Trocar sete milhares por sete centenas."
+        },
+        {
+          "letra": "D",
+          "texto": "47.326 itens; 47.000 + 300 + 20 + 6.",
+          "valores": [
+            47326,
+            [
+              47000,
+              300,
+              20,
+              6
+            ]
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "A decomposição original soma 40.000 + 7.000 + 300 + 20 + 6 = 47.326. Podemos reunir 40.000 e 7.000 em 47.000, mantendo as demais parcelas: 47.000 + 300 + 20 + 6 = 47.326. Somente a alternativa D conserva o total nas duas representações. As outras decomposições somam 47.380, 47.308 e 41.026, respectivamente.",
+      "resolucao_comentada": "A decomposição original soma 40.000 + 7.000 + 300 + 20 + 6 = 47.326. Podemos reunir 40.000 e 7.000 em 47.000, mantendo as demais parcelas: 47.000 + 300 + 20 + 6 = 47.326. Somente a alternativa D conserva o total nas duas representações. As outras decomposições somam 47.380, 47.308 e 41.026, respectivamente.",
+      "observacoes": [
+        "Criação de outra decomposição substituída por identificação de uma decomposição equivalente, mantendo a composição do total como subtarefa no mesmo item."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "total",
+        "parcelas_decomposicao"
+      ],
+      "habilidade_original": "Composição/decomposição aditiva e equivalência de registros.",
+      "adaptacao_pedagogica": {
+        "status": "aprovada",
+        "aprovacao": "Aprovação expressa do usuário nesta tarefa",
+        "descricao": "Criação de outra decomposição substituída por identificação de uma decomposição equivalente, mantendo a composição do total como subtarefa no mesmo item.",
+        "revisao_anterior": {
+          "motivo": "A tarefa exige produzir outra decomposição. Escolher uma decomposição pronta altera essa habilidade.",
+          "pergunta": "Autoriza avaliar reconhecimento de uma decomposição equivalente junto ao total, em vez de sua produção?"
+        }
+      }
+    },
+    {
+      "id": "SN-07",
+      "numero_original": 7,
+      "titulo": "Marco quilométrico",
+      "assunto": "Sistema de numeração",
+      "conteudo": "Localização em reta e diferença entre posições",
+      "habilidade": "Localização em reta e diferença entre posições.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "ponto médio com extremos explícitos."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-sistema-de-numeracao.html",
+        "numero": 7,
+        "texto_original": "7. Marco quilométrico Trecho de uma rodovia 2.000 2.500 P 3.500 4.000 Durante a atualização de um mapa rodoviário, um técnico percebeu que a identificação de um marco havia sido apagada. No esquema, o ponto P está exatamente no meio entre os quilômetros 2.500 e 3.500. Qual número deve ser colocado no ponto P? Quantos quilômetros separam esse ponto do marco 4.000?",
+        "gabarito_publicado": "P = 3.000. Do ponto P ao marco 4.000 há 1.000 km."
+      },
+      "enunciado": {
+        "contexto": [
+          "Durante a atualização de um mapa rodoviário, um técnico percebeu que a identificação de um marco havia sido apagada. No esquema, o ponto P está exatamente no meio entre os quilômetros 2.500 e 3.500."
+        ],
+        "comando": "Qual é o número em P e a distância dele ao marco 4.000?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"art\"><div class=\"art-title\">Trecho de uma rodovia</div><div class=\"numberline\"><div class=\"tick\" style=\"left:0%\"><label>2.000</label></div><div class=\"tick\" style=\"left:25%\"><label>2.500</label></div><div class=\"tick\" style=\"left:50%\"><label>P</label></div><div class=\"tick\" style=\"left:75%\"><label>3.500</label></div><div class=\"tick\" style=\"left:100%\"><label>4.000</label></div></div></div>",
+          "texto": "Trecho de uma rodovia 2.000 2.500 P 3.500 4.000",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Reta numérica; apoio, posições necessárias também no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "P = 2.500; distância de 1.500 km.",
+          "valores": [
+            2500,
+            1500
+          ],
+          "erro_comum": "Confundir ponto médio com extremo esquerdo."
+        },
+        {
+          "letra": "B",
+          "texto": "P = 3.500; distância de 500 km.",
+          "valores": [
+            3500,
+            500
+          ],
+          "erro_comum": "Confundir ponto médio com extremo direito."
+        },
+        {
+          "letra": "C",
+          "texto": "P = 3.000; distância de 1.000 km.",
+          "valores": [
+            3000,
+            1000
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "P = 6.000; distância de 2.000 km.",
+          "valores": [
+            6000,
+            2000
+          ],
+          "erro_comum": "Somar os extremos sem dividir por dois."
+        }
+      ],
+      "gabarito": "C",
+      "resposta_matematica": "(2.500 + 3.500) ÷ 2 = 3.000; 4.000 − 3.000 = 1.000 km.",
+      "resolucao_comentada": "A alternativa correta é P = 3.000; distância de 1.000 km. (2.500 + 3.500) ÷ 2 = 3.000; 4.000 − 3.000 = 1.000 km.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "p",
+        "distancia_km"
+      ]
+    },
+    {
+      "id": "SN-08",
+      "numero_original": 8,
+      "titulo": "Peças da oficina",
+      "assunto": "Sistema de numeração",
+      "conteudo": "Agrupamentos decimais e divisão com resto",
+      "habilidade": "Agrupamentos decimais e divisão com resto.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "compor estoque e interpretar kits."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-sistema-de-numeracao.html",
+        "numero": 8,
+        "texto_original": "8. Peças da oficina Organização do estoque 23 caixas 100 cada 7 pacotes 10 cada 4 unid. Uma oficina escolar recebeu peças para montar kits de robótica. Para facilitar a contagem, as peças foram guardadas em caixas com 100 unidades, pacotes com 10 unidades e algumas unidades avulsas. Com o estoque representado na figura, quantas peças a oficina possui ao todo? Se cada kit utilizar 100 peças, quantos kits completos poderão ser separados e quantas peças sobrarão?",
+        "gabarito_publicado": "2.374 peças. Podem ser separados 23 kits completos de 100 peças, sobrando 74 peças."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma oficina escolar recebeu peças para montar kits de robótica. Para facilitar a contagem, as peças foram guardadas em caixas com 100 unidades, pacotes com 10 unidades e algumas unidades avulsas."
+        ],
+        "comando": "Escolha a opção com o total de peças, a quantidade de kits completos de 100 peças e a sobra."
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"art\"><div class=\"art-title\">Organização do estoque</div><div class=\"material\"><div class=\"box\">23 caixas<br/>100 cada</div><div class=\"pack\">7 pacotes<br/>10 cada</div><div class=\"unit\">4<br/>unid.</div></div></div>",
+          "texto": "Organização do estoque 23 caixas 100 cada 7 pacotes 10 cada 4 unid.",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Esquema de caixas/pacotes/unidades essencial: quantidades no desenho.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2.374 peças; 24 kits; nenhuma sobra.",
+          "valores": [
+            2374,
+            24,
+            0
+          ],
+          "erro_comum": "Arredondar para cima o número de kits completos."
+        },
+        {
+          "letra": "B",
+          "texto": "2.314 peças; 23 kits; 14 peças restantes.",
+          "valores": [
+            2314,
+            23,
+            14
+          ],
+          "erro_comum": "Contar os sete pacotes juntos como apenas uma dezena: 2.300 + 10 + 4."
+        },
+        {
+          "letra": "C",
+          "texto": "3.004 peças; 30 kits; 4 peças restantes.",
+          "valores": [
+            3004,
+            30,
+            4
+          ],
+          "erro_comum": "Contar pacotes de dez como caixas de cem."
+        },
+        {
+          "letra": "D",
+          "texto": "2.374 peças; 23 kits; 74 peças restantes.",
+          "valores": [
+            2374,
+            23,
+            74
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "23 × 100 + 7 × 10 + 4 = 2.374 peças; 2.374 = 23 × 100 + 74: 23 kits e 74 peças.",
+      "resolucao_comentada": "A alternativa correta é 2.374 peças; 23 kits; 74 peças restantes. 23 × 100 + 7 × 10 + 4 = 2.374 peças; 2.374 = 23 × 100 + 74: 23 kits e 74 peças.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "total",
+        "kits",
+        "sobra"
+      ]
+    },
+    {
+      "id": "SN-09",
+      "numero_original": 9,
+      "titulo": "Torneio de conhecimentos",
+      "assunto": "Sistema de numeração",
+      "conteudo": "Comparação posicional para classificação",
+      "habilidade": "Comparação posicional para classificação.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "ordenar e explicar critério."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-sistema-de-numeracao.html",
+        "numero": 9,
+        "texto_original": "9. Torneio de conhecimentos Placar final Equipe A 8.970 Equipe B 9.078 Equipe C 8.907 Equipe D 9.087 Quatro equipes participaram de um torneio de conhecimentos. A classificação final seria definida pela maior pontuação, mas os resultados ficaram muito próximos e a comissão pediu uma conferência cuidadosa. Qual equipe ficou em primeiro lugar? Qual ficou em segundo? Explique como o valor posicional ajuda a comparar essas pontuações.",
+        "gabarito_publicado": "1º Equipe D (9.087); 2º Equipe B (9.078). A comparação é feita ordem por ordem, da maior ordem para a menor."
+      },
+      "enunciado": {
+        "contexto": [
+          "Quatro equipes participaram de um torneio de conhecimentos. A classificação final seria definida pela maior pontuação, mas os resultados ficaram muito próximos e a comissão pediu uma conferência cuidadosa."
+        ],
+        "comando": "Qual alternativa identifica as duas primeiras equipes e o critério correto de comparação?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"art\"><div class=\"art-title\">Placar final</div><div class=\"score\"><div>Equipe A<b>8.970</b></div><div>Equipe B<b>9.078</b></div><div>Equipe C<b>8.907</b></div><div>Equipe D<b>9.087</b></div></div></div>",
+          "texto": "Placar final Equipe A 8.970 Equipe B 9.078 Equipe C 8.907 Equipe D 9.087",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Placar essencial: A=8.970, B=9.078, C=8.907, D=9.087.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "D em primeiro, B em segundo; comparar ordens da maior para a menor.",
+          "valores": [
+            "D",
+            "B",
+            "ordens"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "B em primeiro, D em segundo; comparar ordens da maior para a menor.",
+          "valores": [
+            "B",
+            "D",
+            "ordens"
+          ],
+          "erro_comum": "Inverter 9.078 e 9.087 nas dezenas."
+        },
+        {
+          "letra": "C",
+          "texto": "A em primeiro, C em segundo; comparar apenas o último algarismo.",
+          "valores": [
+            "A",
+            "C",
+            "unidades"
+          ],
+          "erro_comum": "Ignorar a ordem dos milhares."
+        },
+        {
+          "letra": "D",
+          "texto": "D em primeiro, B em segundo; os milhares sozinhos distinguem essas duas equipes.",
+          "valores": [
+            "D",
+            "B",
+            "so_milhares"
+          ],
+          "erro_comum": "Não reconhecer que as duas equipes têm nove milhares."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "D (9.087) em primeiro e B (9.078) em segundo; milhares 9 superam 8, e 87 > 78.",
+      "resolucao_comentada": "A alternativa correta é D em primeiro, B em segundo; comparar ordens da maior para a menor. D (9.087) em primeiro e B (9.078) em segundo; milhares 9 superam 8, e 87 > 78.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "primeira",
+        "segunda",
+        "criterio"
+      ]
+    },
+    {
+      "id": "SN-10",
+      "numero_original": 10,
+      "titulo": "Código de identificação",
+      "assunto": "Sistema de numeração",
+      "conteudo": "Função dos zeros no sistema posicional",
+      "habilidade": "Função dos zeros no sistema posicional.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "explicar mudança de ordens."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-sistema-de-numeracao.html",
+        "numero": 10,
+        "texto_original": "10. Código de identificação Código registrado no sistema 304.052 Uma empresa utiliza números de seis algarismos para identificar lotes. Ao copiar o código 304.052 , um funcionário sugeriu retirar os zeros porque acreditava que eles não alterariam o número. Explique por que essa alteração produziria outro número. Qual número seria formado se os zeros fossem retirados?",
+        "gabarito_publicado": "Os zeros ocupam posições e preservam o valor do número. Sem os zeros, seria formado 3.452."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma empresa utiliza números de seis algarismos para identificar lotes. Ao copiar o código 304.052 , um funcionário sugeriu retirar os zeros porque acreditava que eles não alterariam o número."
+        ],
+        "comando": "Qual número resulta da retirada dos zeros de 304.052 e por que o valor muda?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"art\"><div class=\"art-title\">Código registrado no sistema</div><div class=\"digital\" style=\"background:#eef5fa;color:#173f63\">304.052</div></div>",
+          "texto": "Código registrado no sistema 304.052",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Cartão do código; apoio, valor no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "304.052; zeros nunca alteram o valor de um número.",
+          "valores": [
+            304052,
+            "zeros_irrelevantes"
+          ],
+          "erro_comum": "Tratar zeros internos como zeros à esquerda."
+        },
+        {
+          "letra": "B",
+          "texto": "3.452; os algarismos mudam de ordem, pois os zeros mantinham posições vazias.",
+          "valores": [
+            3452,
+            "posicoes"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "34.052; retirar os dois zeros elimina apenas uma ordem.",
+          "valores": [
+            34052,
+            "uma_ordem"
+          ],
+          "erro_comum": "Retirar apenas um dos zeros."
+        },
+        {
+          "letra": "D",
+          "texto": "3.452; o valor dos algarismos permanece igual apesar da mudança de posição.",
+          "valores": [
+            3452,
+            "valor_igual"
+          ],
+          "erro_comum": "Acertar a escrita, mas negar o valor posicional."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "Retirar os dois zeros de 304.052 forma 3.452; os algarismos mudam de posição e de valor. O zero marca ordens vazias.",
+      "resolucao_comentada": "A alternativa correta é 3.452; os algarismos mudam de ordem, pois os zeros mantinham posições vazias. Retirar os dois zeros de 304.052 forma 3.452; os algarismos mudam de posição e de valor. O zero marca ordens vazias.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "numero",
+        "motivo"
+      ]
+    },
+    {
+      "id": "SN-11",
+      "numero_original": 11,
+      "titulo": "Planejamento de serviços públicos",
+      "assunto": "Sistema de numeração",
+      "conteudo": "Ordenação decrescente de populações",
+      "habilidade": "Ordenação decrescente de populações.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "comparação de três números."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-sistema-de-numeracao.html",
+        "numero": 11,
+        "texto_original": "11. Planejamento de serviços públicos População estimada Boa Esperança 48.720 Santa Clara 47.820 Nova União 48.270 Três municípios participarão de um programa de atendimento itinerante. A equipe responsável decidiu visitar primeiro o município com maior população, pois precisará reservar mais vagas de atendimento. Organize as populações em ordem decrescente e indique qual município deverá ser atendido primeiro.",
+        "gabarito_publicado": "48.720; 48.270; 47.820. Boa Esperança deve ser atendida primeiro."
+      },
+      "enunciado": {
+        "contexto": [
+          "Três municípios participarão de um programa de atendimento itinerante. A equipe responsável decidiu visitar primeiro o município com maior população, pois precisará reservar mais vagas de atendimento."
+        ],
+        "comando": "Qual opção apresenta as populações em ordem decrescente e o município atendido primeiro?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"art\"><div class=\"art-title\">População estimada</div><div class=\"cards\"><div class=\"card\">Boa Esperança<strong>48.720</strong></div><div class=\"card\">Santa Clara<strong>47.820</strong></div><div class=\"card\">Nova União<strong>48.270</strong></div></div></div>",
+          "texto": "População estimada Boa Esperança 48.720 Santa Clara 47.820 Nova União 48.270",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Cartões essenciais: nomes e populações apenas no painel.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "47.820; 48.270; 48.720. Santa Clara primeiro.",
+          "valores": [
+            [
+              47820,
+              48270,
+              48720
+            ],
+            "Santa Clara"
+          ],
+          "erro_comum": "Usar ordem crescente em vez de decrescente."
+        },
+        {
+          "letra": "B",
+          "texto": "48.270; 48.720; 47.820. Nova União primeiro.",
+          "valores": [
+            [
+              48270,
+              48720,
+              47820
+            ],
+            "Nova União"
+          ],
+          "erro_comum": "Confundir centenas e dezenas."
+        },
+        {
+          "letra": "C",
+          "texto": "48.720; 48.270; 47.820. Boa Esperança primeiro.",
+          "valores": [
+            [
+              48720,
+              48270,
+              47820
+            ],
+            "Boa Esperança"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "47.820; 48.720; 48.270. Santa Clara primeiro.",
+          "valores": [
+            [
+              47820,
+              48720,
+              48270
+            ],
+            "Santa Clara"
+          ],
+          "erro_comum": "Comparar apenas os últimos três algarismos."
+        }
+      ],
+      "gabarito": "C",
+      "resposta_matematica": "48.720 > 48.270 > 47.820; primeiro Boa Esperança, depois Nova União e Santa Clara.",
+      "resolucao_comentada": "A alternativa correta é 48.720; 48.270; 47.820. Boa Esperança primeiro. 48.720 > 48.270 > 47.820; primeiro Boa Esperança, depois Nova União e Santa Clara.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "ordem",
+        "primeiro"
+      ]
+    },
+    {
+      "id": "SN-12",
+      "numero_original": 12,
+      "titulo": "Painel de atendimento",
+      "assunto": "Sistema de numeração",
+      "conteudo": "Sucessor e reagrupamento na passagem de milhar",
+      "habilidade": "Sucessor e reagrupamento na passagem de milhar.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "sucessores e explicação do reagrupamento."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-sistema-de-numeracao.html",
+        "numero": 12,
+        "texto_original": "12. Painel de atendimento Senhas chamadas 4.996 4.997 4.998 ? ? Em um centro de atendimento, as senhas são chamadas em ordem crescente, uma após a outra. Durante alguns segundos, o painel apresentou falha justamente depois da senha 4.998. Quais são as duas próximas senhas que devem aparecer? Explique o que acontece com a ordem dos milhares ao passar de 4.999 para a senha seguinte.",
+        "gabarito_publicado": "4.999 e 5.000. Após 4.999, completa-se mais uma unidade de milhar, formando 5.000."
+      },
+      "enunciado": {
+        "contexto": [
+          "Em um centro de atendimento, as senhas são chamadas em ordem crescente, uma após a outra. Durante alguns segundos, o painel apresentou falha justamente depois da senha 4.998."
+        ],
+        "comando": "Quais são as próximas duas senhas e o que ocorre na passagem para 5.000?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"art\"><div class=\"art-title\">Senhas chamadas</div><div class=\"seq\"><div class=\"ticket\">4.996</div><div class=\"ticket\">4.997</div><div class=\"ticket\">4.998</div><div class=\"ticket\">?</div><div class=\"ticket\">?</div></div></div>",
+          "texto": "Senhas chamadas 4.996 4.997 4.998 ? ?",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Sequência do painel; apoio, último valor no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "4.999 e 4.000; o milhar permanece quatro.",
+          "valores": [
+            [
+              4999,
+              4000
+            ],
+            "milhar_igual"
+          ],
+          "erro_comum": "Zerar as ordens inferiores sem acrescentar um milhar."
+        },
+        {
+          "letra": "B",
+          "texto": "5.000 e 5.001; a próxima senha já é cinco mil.",
+          "valores": [
+            [
+              5000,
+              5001
+            ],
+            "salto"
+          ],
+          "erro_comum": "Pular o sucessor 4.999."
+        },
+        {
+          "letra": "C",
+          "texto": "4.999 e 5.000; apenas a unidade muda, sem reagrupamento.",
+          "valores": [
+            [
+              4999,
+              5000
+            ],
+            "so_unidade"
+          ],
+          "erro_comum": "Acertar os números, mas ignorar o reagrupamento."
+        },
+        {
+          "letra": "D",
+          "texto": "4.999 e 5.000; completa-se um novo milhar e as ordens inferiores ficam zeradas.",
+          "valores": [
+            [
+              4999,
+              5000
+            ],
+            "novo_milhar"
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "4.999 e 5.000; 4.999 + 1 completa o quinto milhar e zera centenas, dezenas e unidades.",
+      "resolucao_comentada": "A alternativa correta é 4.999 e 5.000; completa-se um novo milhar e as ordens inferiores ficam zeradas. 4.999 e 5.000; 4.999 + 1 completa o quinto milhar e zera centenas, dezenas e unidades.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "senhas",
+        "mudanca"
+      ]
+    },
+    {
+      "id": "SN-13",
+      "numero_original": 13,
+      "titulo": "Projeto de reciclagem",
+      "assunto": "Sistema de numeração",
+      "conteudo": "Adição e comparação de arrecadações",
+      "habilidade": "Adição e comparação de arrecadações.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "soma e diferença."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-sistema-de-numeracao.html",
+        "numero": 13,
+        "texto_original": "13. Projeto de reciclagem Uma escola mantém um projeto de reciclagem e registra mensalmente a quantidade de tampinhas recolhidas. Em abril foram arrecadadas 12.485 tampinhas e, em maio, 13.790 . A equipe quer divulgar no mural o resultado acumulado dos dois meses. Quantas tampinhas foram arrecadadas ao todo? Em qual mês a arrecadação foi maior e qual foi a diferença entre os dois meses?",
+        "gabarito_publicado": "26.275 tampinhas. Maio foi maior por 1.305 tampinhas."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma escola mantém um projeto de reciclagem e registra mensalmente a quantidade de tampinhas recolhidas. Em abril foram arrecadadas 12.485 tampinhas e, em maio, 13.790 . A equipe quer divulgar no mural o resultado acumulado dos dois meses."
+        ],
+        "comando": "Qual é o total dos dois meses, o mês de maior arrecadação e a diferença?"
+      },
+      "recursos_visuais": [],
+      "dependencia_visual": "Nenhum elemento visual de dados na questão.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "26.275 tampinhas; maio; 1.305 a mais.",
+          "valores": [
+            26275,
+            "maio",
+            1305
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "26.175 tampinhas; maio; 1.305 a mais.",
+          "valores": [
+            26175,
+            "maio",
+            1305
+          ],
+          "erro_comum": "Perder uma centena na adição."
+        },
+        {
+          "letra": "C",
+          "texto": "26.275 tampinhas; abril; 1.305 a mais.",
+          "valores": [
+            26275,
+            "abril",
+            1305
+          ],
+          "erro_comum": "Inverter o mês de maior valor."
+        },
+        {
+          "letra": "D",
+          "texto": "26.275 tampinhas; maio; 1.315 a mais.",
+          "valores": [
+            26275,
+            "maio",
+            1315
+          ],
+          "erro_comum": "Erro no empréstimo da subtração."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "12.485 + 13.790 = 26.275; maio arrecadou 13.790 − 12.485 = 1.305 a mais.",
+      "resolucao_comentada": "A alternativa correta é 26.275 tampinhas; maio; 1.305 a mais. 12.485 + 13.790 = 26.275; maio arrecadou 13.790 − 12.485 = 1.305 a mais.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "total",
+        "mes",
+        "diferenca"
+      ]
+    },
+    {
+      "id": "SN-14",
+      "numero_original": 14,
+      "titulo": "Ampliação da biblioteca",
+      "assunto": "Sistema de numeração",
+      "conteudo": "Adição e complemento de meta",
+      "habilidade": "Adição e complemento de meta.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "duas operações."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-sistema-de-numeracao.html",
+        "numero": 14,
+        "texto_original": "14. Ampliação da biblioteca A biblioteca de uma cidade possuía 25.000 livros . Depois de uma campanha envolvendo escolas e moradores, recebeu 3.875 novos exemplares . A equipe precisa atualizar o total do acervo antes de reabrir o sistema de empréstimos. Quantos livros a biblioteca passou a ter? Quantos exemplares ainda faltariam para atingir um acervo de 30.000 livros ?",
+        "gabarito_publicado": "28.875 livros. Faltariam 1.125 livros para 30.000."
+      },
+      "enunciado": {
+        "contexto": [
+          "A biblioteca de uma cidade possuía 25.000 livros . Depois de uma campanha envolvendo escolas e moradores, recebeu 3.875 novos exemplares . A equipe precisa atualizar o total do acervo antes de reabrir o sistema de empréstimos."
+        ],
+        "comando": "Qual é o novo acervo e quantos livros faltam para 30.000?"
+      },
+      "recursos_visuais": [],
+      "dependencia_visual": "Nenhum elemento visual de dados.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "28.875 livros; faltam 2.125.",
+          "valores": [
+            28875,
+            2125
+          ],
+          "erro_comum": "Errar o empréstimo na diferença para a meta."
+        },
+        {
+          "letra": "B",
+          "texto": "28.875 livros; faltam 1.125.",
+          "valores": [
+            28875,
+            1125
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "21.125 livros; faltam 8.875.",
+          "valores": [
+            21125,
+            8875
+          ],
+          "erro_comum": "Subtrair a doação em vez de somá-la."
+        },
+        {
+          "letra": "D",
+          "texto": "29.875 livros; faltam 125.",
+          "valores": [
+            29875,
+            125
+          ],
+          "erro_comum": "Acrescentar indevidamente um milhar na soma."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "25.000 + 3.875 = 28.875 livros; 30.000 − 28.875 = 1.125.",
+      "resolucao_comentada": "A alternativa correta é 28.875 livros; faltam 1.125. 25.000 + 3.875 = 28.875 livros; 30.000 − 28.875 = 1.125.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "acervo",
+        "faltam"
+      ]
+    },
+    {
+      "id": "SN-15",
+      "numero_original": 15,
+      "titulo": "Organização do depósito",
+      "assunto": "Sistema de numeração",
+      "conteudo": "Ordenação crescente por valor posicional",
+      "habilidade": "Ordenação crescente por valor posicional.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "ordenar quatro valores."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-sistema-de-numeracao.html",
+        "numero": 15,
+        "texto_original": "15. Organização do depósito Códigos das caixas 18.305 18.350 18.053 18.530 Em um centro de distribuição, as caixas são guardadas nas prateleiras seguindo a ordem crescente de seus códigos numéricos. Quatro caixas chegaram fora de ordem e precisam ser posicionadas corretamente. Em que sequência elas devem ser colocadas, da primeira para a última posição?",
+        "gabarito_publicado": "18.053; 18.305; 18.350; 18.530."
+      },
+      "enunciado": {
+        "contexto": [
+          "Em um centro de distribuição, as caixas são guardadas nas prateleiras seguindo a ordem crescente de seus códigos numéricos. Quatro caixas chegaram fora de ordem e precisam ser posicionadas corretamente."
+        ],
+        "comando": "Qual sequência organiza os códigos em ordem crescente?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "ilustracao_html_css",
+          "html": "<div class=\"art\"><div class=\"art-title\">Códigos das caixas</div><div class=\"labels\"><div class=\"label\">18.305</div><div class=\"label\">18.350</div><div class=\"label\">18.053</div><div class=\"label\">18.530</div></div></div>",
+          "texto": "Códigos das caixas 18.305 18.350 18.053 18.530",
+          "tabelas": []
+        }
+      ],
+      "dependencia_visual": "Cartões essenciais: quatro códigos apenas no painel.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "18.305; 18.350; 18.053; 18.530.",
+          "valores": [
+            [
+              18305,
+              18350,
+              18053,
+              18530
+            ]
+          ],
+          "erro_comum": "Ignorar o zero na ordem das centenas."
+        },
+        {
+          "letra": "B",
+          "texto": "18.053; 18.350; 18.305; 18.530.",
+          "valores": [
+            [
+              18053,
+              18350,
+              18305,
+              18530
+            ]
+          ],
+          "erro_comum": "Inverter os valores 305 e 350."
+        },
+        {
+          "letra": "C",
+          "texto": "18.053; 18.305; 18.350; 18.530.",
+          "valores": [
+            [
+              18053,
+              18305,
+              18350,
+              18530
+            ]
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "18.530; 18.350; 18.305; 18.053.",
+          "valores": [
+            [
+              18530,
+              18350,
+              18305,
+              18053
+            ]
+          ],
+          "erro_comum": "Usar ordem decrescente."
+        }
+      ],
+      "gabarito": "C",
+      "resposta_matematica": "18.053 < 18.305 < 18.350 < 18.530; comparar centenas e depois dezenas.",
+      "resolucao_comentada": "A alternativa correta é 18.053; 18.305; 18.350; 18.530. 18.053 < 18.305 < 18.350 < 18.530; comparar centenas e depois dezenas.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "ordem"
+      ]
+    },
+    {
+      "id": "SN-16",
+      "numero_original": 16,
+      "titulo": "Banco de alimentos",
+      "assunto": "Sistema de numeração",
+      "conteudo": "Subtração e comparação com referência",
+      "habilidade": "Subtração e comparação com referência.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "estoque e diferença."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-sistema-de-numeracao.html",
+        "numero": 16,
+        "texto_original": "16. Banco de alimentos Um banco de alimentos recebeu 32.450 kg de produtos em uma campanha. Durante a primeira semana, 8.975 kg foram enviados às instituições cadastradas. A coordenação precisa saber quanto ainda há no estoque para planejar a próxima distribuição. Quantos quilogramas restaram? O estoque restante é maior ou menor que 25.000 kg ? Qual é a diferença?",
+        "gabarito_publicado": "23.475 kg. É menor que 25.000 kg por 1.525 kg."
+      },
+      "enunciado": {
+        "contexto": [
+          "Um banco de alimentos recebeu 32.450 kg de produtos em uma campanha. Durante a primeira semana, 8.975 kg foram enviados às instituições cadastradas. A coordenação precisa saber quanto ainda há no estoque para planejar a próxima distribuição."
+        ],
+        "comando": "Quanto resta no estoque, como se compara a 25.000 kg e qual é a diferença?"
+      },
+      "recursos_visuais": [],
+      "dependencia_visual": "Nenhum elemento visual de dados.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "24.475 kg; menor; diferença de 525 kg.",
+          "valores": [
+            24475,
+            "menor",
+            525
+          ],
+          "erro_comum": "Perder um empréstimo de milhar."
+        },
+        {
+          "letra": "B",
+          "texto": "23.475 kg; maior; diferença de 1.525 kg.",
+          "valores": [
+            23475,
+            "maior",
+            1525
+          ],
+          "erro_comum": "Inverter a comparação."
+        },
+        {
+          "letra": "C",
+          "texto": "23.475 kg; menor; diferença de 2.525 kg.",
+          "valores": [
+            23475,
+            "menor",
+            2525
+          ],
+          "erro_comum": "Erro no complemento até 25.000."
+        },
+        {
+          "letra": "D",
+          "texto": "23.475 kg; menor; diferença de 1.525 kg.",
+          "valores": [
+            23475,
+            "menor",
+            1525
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "32.450 − 8.975 = 23.475 kg, menor que 25.000 por 1.525 kg.",
+      "resolucao_comentada": "A alternativa correta é 23.475 kg; menor; diferença de 1.525 kg. 32.450 − 8.975 = 23.475 kg, menor que 25.000 por 1.525 kg.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "estoque",
+        "comparacao",
+        "diferenca"
+      ]
+    },
+    {
+      "id": "SN-17",
+      "numero_original": 17,
+      "titulo": "Público no estádio",
+      "assunto": "Sistema de numeração",
+      "conteudo": "Complemento de capacidade e de público-alvo",
+      "habilidade": "Complemento de capacidade e de público-alvo.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "duas diferenças."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-sistema-de-numeracao.html",
+        "numero": 17,
+        "texto_original": "17. Público no estádio Um estádio tem capacidade para 45.000 pessoas . Em uma competição escolar, as catracas registraram a entrada de 38.675 espectadores . A organização precisa informar quantos lugares não foram ocupados. Quantos lugares ficaram vazios? Para atingir uma lotação de 40.000 pessoas, quantos espectadores a mais teriam sido necessários?",
+        "gabarito_publicado": "6.325 lugares vazios. Para chegar a 40.000 espectadores seriam necessários mais 1.325."
+      },
+      "enunciado": {
+        "contexto": [
+          "Um estádio tem capacidade para 45.000 pessoas . Em uma competição escolar, as catracas registraram a entrada de 38.675 espectadores . A organização precisa informar quantos lugares não foram ocupados."
+        ],
+        "comando": "Quantos lugares ficaram vazios e quantos espectadores faltaram para atingir 40.000?"
+      },
+      "recursos_visuais": [],
+      "dependencia_visual": "Nenhum elemento visual de dados.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6.325 lugares; 1.325 espectadores.",
+          "valores": [
+            6325,
+            1325
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "6.325 lugares; 6.325 espectadores.",
+          "valores": [
+            6325,
+            6325
+          ],
+          "erro_comum": "Usar capacidade máxima como a meta de 40.000."
+        },
+        {
+          "letra": "C",
+          "texto": "5.325 lugares; 1.325 espectadores.",
+          "valores": [
+            5325,
+            1325
+          ],
+          "erro_comum": "Erro de milhar no cálculo de vagas."
+        },
+        {
+          "letra": "D",
+          "texto": "6.325 lugares; 2.325 espectadores.",
+          "valores": [
+            6325,
+            2325
+          ],
+          "erro_comum": "Erro de milhar no complemento da meta."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "45.000 − 38.675 = 6.325 lugares; 40.000 − 38.675 = 1.325 espectadores.",
+      "resolucao_comentada": "A alternativa correta é 6.325 lugares; 1.325 espectadores. 45.000 − 38.675 = 6.325 lugares; 40.000 − 38.675 = 1.325 espectadores.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "vazios",
+        "faltam"
+      ]
+    },
+    {
+      "id": "SN-18",
+      "numero_original": 18,
+      "titulo": "Relatório de produção",
+      "assunto": "Sistema de numeração",
+      "conteudo": "Comparação e diferença de produções",
+      "habilidade": "Comparação e diferença de produções.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "escolher maior e subtrair."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-sistema-de-numeracao.html",
+        "numero": 18,
+        "texto_original": "18. Relatório de produção Uma fábrica acompanha mensalmente a produção para planejar entregas. Em janeiro foram produzidas 125.480 peças e, em fevereiro, 119.750 peças . O gerente precisa registrar qual mês teve maior produção e a diferença entre os resultados. Qual mês apresentou maior produção? Quantas peças a mais foram produzidas nesse mês?",
+        "gabarito_publicado": "Janeiro; 5.730 peças a mais."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma fábrica acompanha mensalmente a produção para planejar entregas. Em janeiro foram produzidas 125.480 peças e, em fevereiro, 119.750 peças . O gerente precisa registrar qual mês teve maior produção e a diferença entre os resultados."
+        ],
+        "comando": "Qual mês teve maior produção e quantas peças a mais?"
+      },
+      "recursos_visuais": [],
+      "dependencia_visual": "Nenhum elemento visual de dados.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Fevereiro; 5.730 peças.",
+          "valores": [
+            "fevereiro",
+            5730
+          ],
+          "erro_comum": "Inverter o maior valor."
+        },
+        {
+          "letra": "B",
+          "texto": "Janeiro; 5.730 peças.",
+          "valores": [
+            "janeiro",
+            5730
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Janeiro; 6.730 peças.",
+          "valores": [
+            "janeiro",
+            6730
+          ],
+          "erro_comum": "Não ajustar o milhar após empréstimo."
+        },
+        {
+          "letra": "D",
+          "texto": "Janeiro; 5.630 peças.",
+          "valores": [
+            "janeiro",
+            5630
+          ],
+          "erro_comum": "Erro de centena na subtração."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "Janeiro; 125.480 − 119.750 = 5.730 peças.",
+      "resolucao_comentada": "A alternativa correta é Janeiro; 5.730 peças. Janeiro; 125.480 − 119.750 = 5.730 peças.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "mes",
+        "diferenca"
+      ]
+    },
+    {
+      "id": "SN-19",
+      "numero_original": 19,
+      "titulo": "Conferência de dados",
+      "assunto": "Sistema de numeração",
+      "conteudo": "Comparação posicional e análise de argumento incorreto",
+      "habilidade": "Comparação posicional e análise de argumento incorreto.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "identificar e explicar erro."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-sistema-de-numeracao.html",
+        "numero": 19,
+        "texto_original": "19. Conferência de dados Dois estudantes estavam analisando os números de acessos a duas páginas educativas: uma recebeu 70.405 acessos e outra, 70.045 . Um deles afirmou que 70.405 seria menor porque “405 é menor que 45”. A colega discordou e sugeriu comparar os números ordem por ordem. Quem está correto? Explique a comparação usando o valor posicional dos algarismos .",
+        "gabarito_publicado": "A colega está correta. 70.405 > 70.045; na ordem das centenas, 4 centenas é maior que 0 centenas."
+      },
+      "enunciado": {
+        "contexto": [
+          "Dois estudantes estavam analisando os números de acessos a duas páginas educativas: uma recebeu 70.405 acessos e outra, 70.045 . Um deles afirmou que 70.405 seria menor porque “405 é menor que 45”. A colega discordou e sugeriu comparar os números ordem por ordem."
+        ],
+        "comando": "Quem está correto e qual comparação posicional justifica a resposta?"
+      },
+      "recursos_visuais": [],
+      "dependencia_visual": "Nenhum elemento visual de dados.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O estudante; 70.405 < 70.045, pois 405 < 45.",
+          "valores": [
+            "estudante",
+            "menor",
+            "405_menor"
+          ],
+          "erro_comum": "Aceitar uma comparação numérica falsa."
+        },
+        {
+          "letra": "B",
+          "texto": "A colega; 70.405 > 70.045, pois 5 unidades são maiores que 5 unidades.",
+          "valores": [
+            "colega",
+            "maior",
+            "unidades"
+          ],
+          "erro_comum": "Usar uma ordem igual para justificar a diferença."
+        },
+        {
+          "letra": "C",
+          "texto": "A colega; 70.405 > 70.045, pois na primeira ordem diferente há 4 centenas contra 0.",
+          "valores": [
+            "colega",
+            "maior",
+            "centenas"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Os dois; os números são iguais porque têm os mesmos algarismos.",
+          "valores": [
+            "ambos",
+            "igual",
+            "mesmos_algarismos"
+          ],
+          "erro_comum": "Ignorar a posição dos algarismos."
+        }
+      ],
+      "gabarito": "C",
+      "resposta_matematica": "A colega está correta: 70.405 > 70.045; na primeira ordem distinta há 4 centenas contra 0. A afirmação 405 < 45 também é falsa.",
+      "resolucao_comentada": "A alternativa correta é A colega; 70.405 > 70.045, pois na primeira ordem diferente há 4 centenas contra 0. A colega está correta: 70.405 > 70.045; na primeira ordem distinta há 4 centenas contra 0. A afirmação 405 < 45 também é falsa.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "pessoa",
+        "relacao",
+        "ordem"
+      ]
+    },
+    {
+      "id": "SN-20",
+      "numero_original": 20,
+      "titulo": "Campanha de livros",
+      "assunto": "Sistema de numeração",
+      "conteudo": "Complemento de meta e avaliação de uma nova arrecadação",
+      "habilidade": "Complemento de meta e avaliação de uma nova arrecadação.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "calcular duas lacunas."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-sistema-de-numeracao.html",
+        "numero": 20,
+        "texto_original": "20. Campanha de livros Uma rede de escolas estabeleceu a meta de arrecadar 100.000 livros para montar bibliotecas comunitárias. Após várias ações, o painel da campanha registrou 76.845 livros . A organização quer saber quanto falta para alcançar a meta antes de decidir se fará uma nova campanha. Quantos livros ainda precisam ser arrecadados? Se uma nova ação conseguir exatamente 20.000 livros , a meta será atingida? Justifique com um cálculo.",
+        "gabarito_publicado": "Faltam 23.155 livros. Com mais 20.000, chegaria a 96.845; ainda faltariam 3.155."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma rede de escolas estabeleceu a meta de arrecadar 100.000 livros para montar bibliotecas comunitárias. Após várias ações, o painel da campanha registrou 76.845 livros . A organização quer saber quanto falta para alcançar a meta antes de decidir se fará uma nova campanha."
+        ],
+        "comando": "Quanto falta hoje e o que ocorrerá após arrecadar mais 20.000 livros?"
+      },
+      "recursos_visuais": [],
+      "dependencia_visual": "Nenhum elemento visual de dados.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Faltam 23.155; total de 100.000; atinge a meta; nada falta.",
+          "valores": [
+            23155,
+            100000,
+            true,
+            0
+          ],
+          "erro_comum": "Supor que 20.000 cobrem uma falta de 23.155."
+        },
+        {
+          "letra": "B",
+          "texto": "Faltam 23.155; total de 96.845; não atinge; ainda faltam 23.155.",
+          "valores": [
+            23155,
+            96845,
+            false,
+            23155
+          ],
+          "erro_comum": "Não atualizar a lacuna depois da arrecadação."
+        },
+        {
+          "letra": "C",
+          "texto": "Faltam 22.155; total de 96.845; não atinge; faltam 3.155.",
+          "valores": [
+            22155,
+            96845,
+            false,
+            3155
+          ],
+          "erro_comum": "Erro de milhar no complemento inicial."
+        },
+        {
+          "letra": "D",
+          "texto": "Faltam 23.155; total de 96.845; não atinge a meta; faltam 3.155.",
+          "valores": [
+            23155,
+            96845,
+            false,
+            3155
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "100.000 − 76.845 = 23.155; com mais 20.000 chega a 96.845, sem atingir a meta: faltam 3.155.",
+      "resolucao_comentada": "A alternativa correta é Faltam 23.155; total de 96.845; não atinge a meta; faltam 3.155. 100.000 − 76.845 = 23.155; com mais 20.000 chega a 96.845, sem atingir a meta: faltam 3.155.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "faltam_agora",
+        "novo_total",
+        "atingiu",
+        "faltam_depois"
+      ]
+    }
+  ]
+}

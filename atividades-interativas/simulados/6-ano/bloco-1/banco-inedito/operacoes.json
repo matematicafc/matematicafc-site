@@ -1,0 +1,1820 @@
+{
+  "versao_formato": 1,
+  "banco_id": "MFC6-B1-INEDITO-V1",
+  "assunto": "Operações com números naturais",
+  "codigo_assunto": "ON",
+  "questoes": [
+    {
+      "id": "MFC6-B1-I-ON-01",
+      "numero": 1,
+      "titulo": "Tarifa do armário",
+      "assunto": "ON",
+      "enunciado": "Um centro esportivo oferece um plano diário e um pacote para guardar equipamentos. A pessoa usará o serviço por quatro dias. O pacote cobre todos esses quatro dias, sem cobrança diária adicional. Observe as ofertas no esquema. Qual plano custa menos e qual é a economia?",
+      "dados": {
+        "dias_de_uso": 4,
+        "plano_diario_reais": 9,
+        "plano_pacote_reais": 30
+      },
+      "modelo_verificacao": "[min(D['dias_de_uso']*D['plano_diario_reais'],D['plano_pacote_reais']),abs(D['dias_de_uso']*D['plano_diario_reais']-D['plano_pacote_reais'])]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Pacote: R$ 30,00; economia de R$ 6,00.",
+          "valor": [
+            30,
+            6
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Diário: R$ 9,00; economia de R$ 21,00.",
+          "valor": [
+            9,
+            21
+          ],
+          "erro_comum": "Comparar apenas um dia."
+        },
+        {
+          "letra": "C",
+          "texto": "Pacote: R$ 30,00; economia de R$ 9,00.",
+          "valor": [
+            30,
+            9
+          ],
+          "erro_comum": "Confundir preço diário com economia."
+        },
+        {
+          "letra": "D",
+          "texto": "Diário: R$ 36,00; economia de R$ 6,00.",
+          "valor": [
+            36,
+            6
+          ],
+          "erro_comum": "Escolher o plano mais caro."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "O plano diário custa 4 × 9 = 36 reais para os quatro dias. O pacote cobre o mesmo período por 30 reais, sem cobrança diária adicional. A economia é 36 − 30 = 6 reais. Comparar apenas o preço de um dia com o pacote não compara períodos iguais.",
+      "habilidade": "Comparar custos de estratégias de uso e quantificar economia.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Comparar custos de estratégias de uso e quantificar economia."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual plano custa menos e qual é a economia?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa comparar custos de estratégias de uso e quantificar economia.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ON",
+        "visual_relevante": true,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-ON-01",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ON-01-ONV1",
+          "tipo": "svg",
+          "dados": {
+            "dias_de_uso": 4,
+            "plano_diario_reais": 9,
+            "plano_pacote_reais": 30
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 338\" width=\"320\" height=\"338\" class=\"mfc-on-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ON-01-ONV1-titulo\" aria-describedby=\"MFC6-B1-I-ON-01-ONV1-descricao\"><title id=\"MFC6-B1-I-ON-01-ONV1-titulo\">Tarifa do armário</title><desc id=\"MFC6-B1-I-ON-01-ONV1-descricao\">Quatro espaços de diária, um para cada dia de uso, com R$ 9 em cada. Uma faixa de pacote cobre os mesmos quatro dias por R$ 30 no total, sem cobrança diária adicional. O total do plano diário não está calculado.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"338\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >Uso do serviço</text><text x=\"160\" y=\"52\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-campo=\"dias_de_uso\" data-valor=\"4\">4 dias</text><text x=\"160\" y=\"85\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >Plano diário</text><rect x=\"12\" y=\"99\" width=\"68\" height=\"66\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"46\" y=\"120\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Dia 1</text><text x=\"46\" y=\"151\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"plano_diario_reais\" data-valor=\"9\">R$ 9</text><rect x=\"88\" y=\"99\" width=\"68\" height=\"66\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"122\" y=\"120\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Dia 2</text><text x=\"122\" y=\"151\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"plano_diario_reais\" data-valor=\"9\">R$ 9</text><rect x=\"164\" y=\"99\" width=\"68\" height=\"66\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"198\" y=\"120\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Dia 3</text><text x=\"198\" y=\"151\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"plano_diario_reais\" data-valor=\"9\">R$ 9</text><rect x=\"240\" y=\"99\" width=\"68\" height=\"66\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"274\" y=\"120\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Dia 4</text><text x=\"274\" y=\"151\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"plano_diario_reais\" data-valor=\"9\">R$ 9</text><text x=\"160\" y=\"202\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >Pacote para os quatro dias</text><rect x=\"12\" y=\"218\" width=\"296\" height=\"64\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"160\" y=\"259\" text-anchor=\"middle\" font-size=\"26\" fill=\"#172b3a\" data-campo=\"plano_pacote_reais\" data-valor=\"30\">R$ 30 no total</text><text x=\"160\" y=\"313\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Sem diária adicional no pacote</text></svg>",
+          "css": ".mfc-on-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Quatro espaços de diária, um para cada dia de uso, com R$ 9 em cada. Uma faixa de pacote cobre os mesmos quatro dias por R$ 30 no total, sem cobrança diária adicional. O total do plano diário não está calculado.",
+          "acessibilidade": "Quatro espaços de diária, um para cada dia de uso, com R$ 9 em cada. Uma faixa de pacote cobre os mesmos quatro dias por R$ 30 no total, sem cobrança diária adicional. O total do plano diário não está calculado.",
+          "geometria": {
+            "tipo": "on_revisao",
+            "modelo": "planos_periodo",
+            "cobertura_dias": 4
+          },
+          "arquivo": "recursos/MFC6-B1-I-ON-01.svg"
+        }
+      ],
+      "assunto_nome": "Operações com números naturais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Operações com Números Naturais solicitada pelo usuário",
+          "correcao_especifica": true,
+          "recurso_visual": "Esquema SVG substitui tabela; grade preservada em ON-05",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ON-02",
+      "numero": 2,
+      "titulo": "Pontos com penalidade",
+      "assunto": "ON",
+      "enunciado": "Uma oficina de programação criou uma regra de pontuação: acertos dão pontos e tentativas inválidas retiram pontos. Observe os grupos de acertos e penalidades no esquema. Qual é o saldo da rodada?",
+      "dados": {
+        "acertos": 7,
+        "pontos_por_acerto": 5,
+        "invalidas": 3,
+        "penalidade_por_invalida": 2
+      },
+      "modelo_verificacao": "D['acertos']*D['pontos_por_acerto']-D['invalidas']*D['penalidade_por_invalida']",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "35 pontos.",
+          "valor": 35,
+          "erro_comum": "Ignorar penalidades."
+        },
+        {
+          "letra": "B",
+          "texto": "29 pontos.",
+          "valor": 29,
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "41 pontos.",
+          "valor": 41,
+          "erro_comum": "Somar penalidades."
+        },
+        {
+          "letra": "D",
+          "texto": "32 pontos.",
+          "valor": 32,
+          "erro_comum": "Retirar um ponto por inválida em vez de dois."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Os acertos geram 35 pontos; as três penalidades retiram 6. O saldo é 29, não 35 nem 41.",
+      "habilidade": "Modelar ganhos e perdas com multiplicação e subtração.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Modelar ganhos e perdas com multiplicação e subtração."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual é o saldo da rodada?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa modelar ganhos e perdas com multiplicação e subtração.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ON",
+        "visual_relevante": true,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-ON-02",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ON-02-ONV1",
+          "tipo": "svg",
+          "dados": {
+            "acertos": 7,
+            "pontos_por_acerto": 5,
+            "invalidas": 3,
+            "penalidade_por_invalida": 2
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 280\" width=\"320\" height=\"280\" class=\"mfc-on-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ON-02-ONV1-titulo\" aria-describedby=\"MFC6-B1-I-ON-02-ONV1-descricao\"><title id=\"MFC6-B1-I-ON-02-ONV1-titulo\">Pontos com penalidade</title><desc id=\"MFC6-B1-I-ON-02-ONV1-descricao\">Sete círculos de acerto mostram +5 cada um. Abaixo, três círculos de tentativa inválida mostram -2 cada um. Os sinais e os títulos distinguem ganhos e perdas; o saldo não está escrito.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"280\" fill=\"white\"/><text x=\"160\" y=\"26\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" >Acertos: ganham pontos</text><circle cx=\"42\" cy=\"65\" r=\"26\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-evento=\"acerto\" data-pontos=\"5\"/><text x=\"42\" y=\"72\" text-anchor=\"middle\" font-size=\"23\" fill=\"#172b3a\" >+5</text><circle cx=\"119\" cy=\"65\" r=\"26\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-evento=\"acerto\" data-pontos=\"5\"/><text x=\"119\" y=\"72\" text-anchor=\"middle\" font-size=\"23\" fill=\"#172b3a\" >+5</text><circle cx=\"196\" cy=\"65\" r=\"26\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-evento=\"acerto\" data-pontos=\"5\"/><text x=\"196\" y=\"72\" text-anchor=\"middle\" font-size=\"23\" fill=\"#172b3a\" >+5</text><circle cx=\"273\" cy=\"65\" r=\"26\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-evento=\"acerto\" data-pontos=\"5\"/><text x=\"273\" y=\"72\" text-anchor=\"middle\" font-size=\"23\" fill=\"#172b3a\" >+5</text><circle cx=\"42\" cy=\"125\" r=\"26\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-evento=\"acerto\" data-pontos=\"5\"/><text x=\"42\" y=\"132\" text-anchor=\"middle\" font-size=\"23\" fill=\"#172b3a\" >+5</text><circle cx=\"119\" cy=\"125\" r=\"26\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-evento=\"acerto\" data-pontos=\"5\"/><text x=\"119\" y=\"132\" text-anchor=\"middle\" font-size=\"23\" fill=\"#172b3a\" >+5</text><circle cx=\"196\" cy=\"125\" r=\"26\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-evento=\"acerto\" data-pontos=\"5\"/><text x=\"196\" y=\"132\" text-anchor=\"middle\" font-size=\"23\" fill=\"#172b3a\" >+5</text><text x=\"160\" y=\"190\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" >Inválidas: retiram pontos</text><circle cx=\"75\" cy=\"231\" r=\"27\" fill=\"#fff3df\" stroke=\"#263d4d\" data-evento=\"invalida\" data-pontos=\"2\"/><text x=\"75\" y=\"239\" text-anchor=\"middle\" font-size=\"23\" fill=\"#172b3a\" >-2</text><circle cx=\"160\" cy=\"231\" r=\"27\" fill=\"#fff3df\" stroke=\"#263d4d\" data-evento=\"invalida\" data-pontos=\"2\"/><text x=\"160\" y=\"239\" text-anchor=\"middle\" font-size=\"23\" fill=\"#172b3a\" >-2</text><circle cx=\"245\" cy=\"231\" r=\"27\" fill=\"#fff3df\" stroke=\"#263d4d\" data-evento=\"invalida\" data-pontos=\"2\"/><text x=\"245\" y=\"239\" text-anchor=\"middle\" font-size=\"23\" fill=\"#172b3a\" >-2</text></svg>",
+          "css": ".mfc-on-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Sete círculos de acerto mostram +5 cada um. Abaixo, três círculos de tentativa inválida mostram -2 cada um. Os sinais e os títulos distinguem ganhos e perdas; o saldo não está escrito.",
+          "acessibilidade": "Sete círculos de acerto mostram +5 cada um. Abaixo, três círculos de tentativa inválida mostram -2 cada um. Os sinais e os títulos distinguem ganhos e perdas; o saldo não está escrito.",
+          "geometria": {
+            "tipo": "on_revisao",
+            "modelo": "pontos_grupos"
+          },
+          "arquivo": "recursos/MFC6-B1-I-ON-02.svg"
+        }
+      ],
+      "assunto_nome": "Operações com números naturais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Operações com Números Naturais solicitada pelo usuário",
+          "correcao_especifica": false,
+          "recurso_visual": "Esquema SVG substitui tabela; grade preservada em ON-05",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ON-03",
+      "numero": 3,
+      "titulo": "Produção com parada para manutenção",
+      "assunto": "ON",
+      "enunciado": "Uma prensa produz peças em ritmo constante enquanto está funcionando. Dentro da janela de trabalho, ela ficará parada para uma manutenção. Observe o esquema, que reúne o tempo total, a parada e o ritmo de produção. Quantas peças podem ficar prontas nessa janela?",
+      "dados": {
+        "janela_minutos": 30,
+        "manutencao_minutos": 6,
+        "pecas_por_minuto": 4
+      },
+      "modelo_verificacao": "(D['janela_minutos']-D['manutencao_minutos'])*D['pecas_por_minuto']",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "120 peças.",
+          "valor": 120,
+          "erro_comum": "Ignorar manutenção."
+        },
+        {
+          "letra": "B",
+          "texto": "114 peças.",
+          "valor": 114,
+          "erro_comum": "Retirar seis peças em vez de seis minutos de produção."
+        },
+        {
+          "letra": "C",
+          "texto": "96 peças.",
+          "valor": 96,
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "24 peças.",
+          "valor": 24,
+          "erro_comum": "Responder o tempo disponível como quantidade."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Só 24 dos 30 minutos produzem peças. A capacidade é 24×4=96; não se deve multiplicar os minutos de manutenção.",
+      "habilidade": "Separar tempo produtivo e tempo indisponível antes de calcular capacidade.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Separar tempo produtivo e tempo indisponível antes de calcular capacidade."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Quantas peças podem ficar prontas dentro da janela de trabalho?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa separar tempo produtivo e tempo indisponível antes de calcular capacidade.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ON",
+        "visual_relevante": true,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-ON-03",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ON-03-ONV1",
+          "tipo": "svg",
+          "dados": {
+            "janela_minutos": 30,
+            "manutencao_minutos": 6,
+            "pecas_por_minuto": 4
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 275\" width=\"320\" height=\"275\" class=\"mfc-on-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ON-03-ONV1-titulo\" aria-describedby=\"MFC6-B1-I-ON-03-ONV1-descricao\"><title id=\"MFC6-B1-I-ON-03-ONV1-titulo\">Produção com parada para manutenção</title><desc id=\"MFC6-B1-I-ON-03-ONV1-descricao\">Barra de 30 minutos dividida em uma parte de manutenção de 6 minutos e uma parte de produção sem duração escrita. O ritmo é quatro peças por minuto. A barra agrupa durações, sem indicar em qual momento ocorreu a parada.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"275\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" >Distribuição do tempo</text><text x=\"160\" y=\"61\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-campo=\"janela_minutos\" data-valor=\"30\">Tempo total: 30 min</text><rect x=\"20\" y=\"92\" width=\"56.0\" height=\"58\" rx=\"3\" fill=\"#fff3df\" stroke=\"#263d4d\" data-parte=\"manutencao\"/><rect x=\"76.0\" y=\"92\" width=\"224.0\" height=\"58\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-parte=\"producao\"/><text x=\"48.0\" y=\"129\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >6 min</text><text x=\"188.0\" y=\"129\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >Produção</text><text x=\"160\" y=\"186\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"manutencao_minutos\" data-valor=\"6\">Manutenção: 6 min</text><text x=\"160\" y=\"217\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"pecas_por_minuto\" data-valor=\"4\">Ritmo: 4 peças por minuto</text><text x=\"160\" y=\"255\" text-anchor=\"middle\" font-size=\"14\" fill=\"#172b3a\" >O esquema não indica a ordem da parada</text></svg>",
+          "css": ".mfc-on-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Barra de 30 minutos dividida em uma parte de manutenção de 6 minutos e uma parte de produção sem duração escrita. O ritmo é quatro peças por minuto. A barra agrupa durações, sem indicar em qual momento ocorreu a parada.",
+          "acessibilidade": "Barra de 30 minutos dividida em uma parte de manutenção de 6 minutos e uma parte de produção sem duração escrita. O ritmo é quatro peças por minuto. A barra agrupa durações, sem indicar em qual momento ocorreu a parada.",
+          "geometria": {
+            "tipo": "on_revisao",
+            "modelo": "tempo_manutencao",
+            "largura_total": 280,
+            "largura_manutencao": 56.0
+          },
+          "arquivo": "recursos/MFC6-B1-I-ON-03.svg"
+        }
+      ],
+      "assunto_nome": "Operações com números naturais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Operações com Números Naturais solicitada pelo usuário",
+          "correcao_especifica": true,
+          "recurso_visual": "Esquema SVG substitui tabela; grade preservada em ON-05",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ON-04",
+      "numero": 4,
+      "titulo": "Contagem sem repetir participantes",
+      "assunto": "ON",
+      "enunciado": "Dois clubes escolares têm integrantes em comum. A recepção deve preparar uma única identificação para cada pessoa. Observe o diagrama: os totais de cada clube já incluem quem participa dos dois. Quantas identificações são necessárias?",
+      "dados": {
+        "clube_leitura": 18,
+        "clube_xadrez": 14,
+        "participam_dos_dois": 5
+      },
+      "modelo_verificacao": "D['clube_leitura']+D['clube_xadrez']-D['participam_dos_dois']",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "32.",
+          "valor": 32,
+          "erro_comum": "Contar os integrantes comuns duas vezes."
+        },
+        {
+          "letra": "B",
+          "texto": "22.",
+          "valor": 22,
+          "erro_comum": "Retirar os cinco integrantes comuns dos dois grupos."
+        },
+        {
+          "letra": "C",
+          "texto": "37.",
+          "valor": 37,
+          "erro_comum": "Somar a interseção como grupo adicional."
+        },
+        {
+          "letra": "D",
+          "texto": "27.",
+          "valor": 27,
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Ao somar 18 e 14, os cinco integrantes dos dois clubes são contados duas vezes. Retirando uma cópia de cada, são 27 pessoas distintas.",
+      "habilidade": "Contar união de grupos com interseção.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Contar união de grupos com interseção."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Quantas identificações são necessárias?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa contar união de grupos com interseção.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ON",
+        "visual_relevante": true,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-ON-04",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ON-04-ONV1",
+          "tipo": "svg",
+          "dados": {
+            "clube_leitura": 18,
+            "clube_xadrez": 14,
+            "participam_dos_dois": 5
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 260\" width=\"320\" height=\"260\" class=\"mfc-on-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ON-04-ONV1-titulo\" aria-describedby=\"MFC6-B1-I-ON-04-ONV1-descricao\"><title id=\"MFC6-B1-I-ON-04-ONV1-titulo\">Contagem sem repetir participantes</title><desc id=\"MFC6-B1-I-ON-04-ONV1-descricao\">Dois círculos parcialmente sobrepostos representam os clubes. Leitura tem 18 integrantes ao todo e Xadrez, 14 ao todo; esses totais incluem os cinco participantes da região comum. As quantidades exclusivas não estão calculadas.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"260\" fill=\"white\"/><text x=\"83\" y=\"25\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" >Leitura</text><text x=\"83\" y=\"49\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-campo=\"clube_leitura\" data-valor=\"18\">18 ao todo</text><text x=\"237\" y=\"25\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" >Xadrez</text><text x=\"237\" y=\"49\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-campo=\"clube_xadrez\" data-valor=\"14\">14 ao todo</text><circle cx=\"110\" cy=\"135\" r=\"70\" fill=\"#edf4f8\" fill-opacity=\"0.65\" stroke=\"#263d4d\"/><circle cx=\"210\" cy=\"135\" r=\"70\" fill=\"#fff3df\" fill-opacity=\"0.65\" stroke=\"#263d4d\"/><text x=\"160\" y=\"139\" text-anchor=\"middle\" font-size=\"26\" fill=\"#172b3a\" data-campo=\"participam_dos_dois\" data-valor=\"5\">5</text><text x=\"160\" y=\"162\" text-anchor=\"middle\" font-size=\"14\" fill=\"#172b3a\" >Nos dois</text><text x=\"160\" y=\"239\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Os totais já incluem a parte comum</text></svg>",
+          "css": ".mfc-on-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Dois círculos parcialmente sobrepostos representam os clubes. Leitura tem 18 integrantes ao todo e Xadrez, 14 ao todo; esses totais incluem os cinco participantes da região comum. As quantidades exclusivas não estão calculadas.",
+          "acessibilidade": "Dois círculos parcialmente sobrepostos representam os clubes. Leitura tem 18 integrantes ao todo e Xadrez, 14 ao todo; esses totais incluem os cinco participantes da região comum. As quantidades exclusivas não estão calculadas.",
+          "geometria": {
+            "tipo": "on_revisao",
+            "modelo": "clubes_intersecao"
+          },
+          "arquivo": "recursos/MFC6-B1-I-ON-04.svg"
+        }
+      ],
+      "assunto_nome": "Operações com números naturais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Operações com Números Naturais solicitada pelo usuário",
+          "correcao_especifica": false,
+          "recurso_visual": "Esquema SVG substitui tabela; grade preservada em ON-05",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ON-05",
+      "numero": 5,
+      "titulo": "Borda de uma placa",
+      "assunto": "ON",
+      "enunciado": "Uma placa retangular tem quadradinhos em linhas e colunas. Só os da borda serão pintados; cada canto conta uma vez. Observe a grade de seis linhas e oito colunas. Quantos quadradinhos serão pintados?",
+      "dados": {
+        "linhas": 6,
+        "colunas": 8
+      },
+      "modelo_verificacao": "2*D['linhas']+2*D['colunas']-4",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "24.",
+          "valor": 24,
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "28.",
+          "valor": 28,
+          "erro_comum": "Contar cada canto duas vezes."
+        },
+        {
+          "letra": "C",
+          "texto": "48.",
+          "valor": 48,
+          "erro_comum": "Pintar toda a placa."
+        },
+        {
+          "letra": "D",
+          "texto": "20.",
+          "valor": 20,
+          "erro_comum": "Retirar os cantos novamente depois de já excluí-los."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Duas linhas externas têm 16 quadradinhos. Nas duas colunas externas sobram 4 quadradinhos por coluna, sem os cantos. Total 16+8=24.",
+      "habilidade": "Contar uma borda sem duplicar seus cantos.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Contar uma borda sem duplicar seus cantos."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Quantos quadradinhos serão pintados?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa contar uma borda sem duplicar seus cantos.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ON",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-ON-05",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ON-05-ONV1",
+          "tipo": "svg",
+          "dados": {
+            "linhas": 6,
+            "colunas": 8
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 302\" width=\"320\" height=\"302\" class=\"mfc-on-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ON-05-ONV1-titulo\" aria-describedby=\"MFC6-B1-I-ON-05-ONV1-descricao\"><title id=\"MFC6-B1-I-ON-05-ONV1-titulo\">Borda de uma placa</title><desc id=\"MFC6-B1-I-ON-05-ONV1-descricao\">Grade de seis linhas e oito colunas. As células da borda estão destacadas, e as internas ficam brancas. Cada canto é uma única célula. As dimensões estão indicadas sem calcular a quantidade de células da borda.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"302\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >6 linhas e 8 colunas</text><rect x=\"32\" y=\"49\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"0\" data-coluna=\"0\" data-borda=\"true\"/><rect x=\"64\" y=\"49\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"0\" data-coluna=\"1\" data-borda=\"true\"/><rect x=\"96\" y=\"49\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"0\" data-coluna=\"2\" data-borda=\"true\"/><rect x=\"128\" y=\"49\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"0\" data-coluna=\"3\" data-borda=\"true\"/><rect x=\"160\" y=\"49\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"0\" data-coluna=\"4\" data-borda=\"true\"/><rect x=\"192\" y=\"49\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"0\" data-coluna=\"5\" data-borda=\"true\"/><rect x=\"224\" y=\"49\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"0\" data-coluna=\"6\" data-borda=\"true\"/><rect x=\"256\" y=\"49\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"0\" data-coluna=\"7\" data-borda=\"true\"/><rect x=\"32\" y=\"81\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"1\" data-coluna=\"0\" data-borda=\"true\"/><rect x=\"64\" y=\"81\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"1\" data-coluna=\"1\" data-borda=\"false\"/><rect x=\"96\" y=\"81\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"1\" data-coluna=\"2\" data-borda=\"false\"/><rect x=\"128\" y=\"81\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"1\" data-coluna=\"3\" data-borda=\"false\"/><rect x=\"160\" y=\"81\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"1\" data-coluna=\"4\" data-borda=\"false\"/><rect x=\"192\" y=\"81\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"1\" data-coluna=\"5\" data-borda=\"false\"/><rect x=\"224\" y=\"81\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"1\" data-coluna=\"6\" data-borda=\"false\"/><rect x=\"256\" y=\"81\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"1\" data-coluna=\"7\" data-borda=\"true\"/><rect x=\"32\" y=\"113\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"2\" data-coluna=\"0\" data-borda=\"true\"/><rect x=\"64\" y=\"113\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"2\" data-coluna=\"1\" data-borda=\"false\"/><rect x=\"96\" y=\"113\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"2\" data-coluna=\"2\" data-borda=\"false\"/><rect x=\"128\" y=\"113\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"2\" data-coluna=\"3\" data-borda=\"false\"/><rect x=\"160\" y=\"113\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"2\" data-coluna=\"4\" data-borda=\"false\"/><rect x=\"192\" y=\"113\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"2\" data-coluna=\"5\" data-borda=\"false\"/><rect x=\"224\" y=\"113\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"2\" data-coluna=\"6\" data-borda=\"false\"/><rect x=\"256\" y=\"113\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"2\" data-coluna=\"7\" data-borda=\"true\"/><rect x=\"32\" y=\"145\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"3\" data-coluna=\"0\" data-borda=\"true\"/><rect x=\"64\" y=\"145\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"3\" data-coluna=\"1\" data-borda=\"false\"/><rect x=\"96\" y=\"145\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"3\" data-coluna=\"2\" data-borda=\"false\"/><rect x=\"128\" y=\"145\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"3\" data-coluna=\"3\" data-borda=\"false\"/><rect x=\"160\" y=\"145\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"3\" data-coluna=\"4\" data-borda=\"false\"/><rect x=\"192\" y=\"145\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"3\" data-coluna=\"5\" data-borda=\"false\"/><rect x=\"224\" y=\"145\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"3\" data-coluna=\"6\" data-borda=\"false\"/><rect x=\"256\" y=\"145\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"3\" data-coluna=\"7\" data-borda=\"true\"/><rect x=\"32\" y=\"177\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"4\" data-coluna=\"0\" data-borda=\"true\"/><rect x=\"64\" y=\"177\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"4\" data-coluna=\"1\" data-borda=\"false\"/><rect x=\"96\" y=\"177\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"4\" data-coluna=\"2\" data-borda=\"false\"/><rect x=\"128\" y=\"177\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"4\" data-coluna=\"3\" data-borda=\"false\"/><rect x=\"160\" y=\"177\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"4\" data-coluna=\"4\" data-borda=\"false\"/><rect x=\"192\" y=\"177\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"4\" data-coluna=\"5\" data-borda=\"false\"/><rect x=\"224\" y=\"177\" width=\"32\" height=\"32\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" data-linha=\"4\" data-coluna=\"6\" data-borda=\"false\"/><rect x=\"256\" y=\"177\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"4\" data-coluna=\"7\" data-borda=\"true\"/><rect x=\"32\" y=\"209\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"5\" data-coluna=\"0\" data-borda=\"true\"/><rect x=\"64\" y=\"209\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"5\" data-coluna=\"1\" data-borda=\"true\"/><rect x=\"96\" y=\"209\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"5\" data-coluna=\"2\" data-borda=\"true\"/><rect x=\"128\" y=\"209\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"5\" data-coluna=\"3\" data-borda=\"true\"/><rect x=\"160\" y=\"209\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"5\" data-coluna=\"4\" data-borda=\"true\"/><rect x=\"192\" y=\"209\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"5\" data-coluna=\"5\" data-borda=\"true\"/><rect x=\"224\" y=\"209\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"5\" data-coluna=\"6\" data-borda=\"true\"/><rect x=\"256\" y=\"209\" width=\"32\" height=\"32\" rx=\"3\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-linha=\"5\" data-coluna=\"7\" data-borda=\"true\"/><text x=\"160\" y=\"278\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" >Pintar somente a borda</text></svg>",
+          "css": ".mfc-on-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Grade de seis linhas e oito colunas. As células da borda estão destacadas, e as internas ficam brancas. Cada canto é uma única célula. As dimensões estão indicadas sem calcular a quantidade de células da borda.",
+          "acessibilidade": "Grade de seis linhas e oito colunas. As células da borda estão destacadas, e as internas ficam brancas. Cada canto é uma única célula. As dimensões estão indicadas sem calcular a quantidade de células da borda.",
+          "geometria": {
+            "tipo": "on_revisao",
+            "modelo": "grade_borda"
+          },
+          "arquivo": "recursos/MFC6-B1-I-ON-05.svg"
+        }
+      ],
+      "assunto_nome": "Operações com números naturais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Operações com Números Naturais solicitada pelo usuário",
+          "correcao_especifica": false,
+          "recurso_visual": "Esquema SVG substitui tabela; grade preservada em ON-05",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ON-06",
+      "numero": 6,
+      "titulo": "Restaurar uma pilha",
+      "assunto": "ON",
+      "enunciado": "Uma pilha de copos tem uma quantidade inicial desconhecida. Foram retirados copos para uso e depois chegaram copos limpos. Observe a sequência de mudanças no esquema. Quantos copos havia antes dessas duas mudanças?",
+      "dados": {
+        "retirados": 17,
+        "acrescentados": 9,
+        "quantidade_final": 36
+      },
+      "modelo_verificacao": "D['quantidade_final']-D['acrescentados']+D['retirados']",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "28 copos.",
+          "valor": 28,
+          "erro_comum": "Aplicar retirada e entrada de novo na mesma ordem."
+        },
+        {
+          "letra": "B",
+          "texto": "44 copos.",
+          "valor": 44,
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "62 copos.",
+          "valor": 62,
+          "erro_comum": "Somar as duas mudanças ao final."
+        },
+        {
+          "letra": "D",
+          "texto": "10 copos.",
+          "valor": 10,
+          "erro_comum": "Subtrair as duas mudanças do final."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Para voltar ao início, desfazemos primeiro a entrada: 36−9=27. Desfazemos a retirada somando 17: havia 44.",
+      "habilidade": "Reverter uma sequência de operações na ordem inversa.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Reverter uma sequência de operações na ordem inversa."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Quantos copos havia antes dessas duas mudanças?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa reverter uma sequência de operações na ordem inversa.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ON",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-ON-06",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ON-06-ONV1",
+          "tipo": "svg",
+          "dados": {
+            "retirados": 17,
+            "acrescentados": 9,
+            "quantidade_final": 36
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 363\" width=\"320\" height=\"363\" class=\"mfc-on-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ON-06-ONV1-titulo\" aria-describedby=\"MFC6-B1-I-ON-06-ONV1-descricao\"><title id=\"MFC6-B1-I-ON-06-ONV1-titulo\">Restaurar uma pilha</title><desc id=\"MFC6-B1-I-ON-06-ONV1-descricao\">Fluxo vertical: quantidade inicial desconhecida, retirada de 17 copos, quantidade intermediária desconhecida, acréscimo de nove copos e quantidade final de 36. As setas seguem a ordem real das mudanças.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"363\" fill=\"white\"/><text x=\"160\" y=\"24\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" >Início desconhecido</text><rect x=\"70\" y=\"39\" width=\"180\" height=\"46\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"160\" y=\"69\" text-anchor=\"middle\" font-size=\"25\" fill=\"#172b3a\" >? copos</text><path d=\"M160 86V142\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M156 137L160 142L164 137\" fill=\"none\" stroke=\"#263d4d\" stroke-width=\"2\"/><rect x=\"55\" y=\"103\" width=\"210\" height=\"27\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"160\" y=\"123\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-campo=\"retirados\" data-valor=\"17\">Retirar 17 copos</text><rect x=\"70\" y=\"149\" width=\"180\" height=\"46\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"160\" y=\"179\" text-anchor=\"middle\" font-size=\"25\" fill=\"#172b3a\" >? copos</text><path d=\"M160 196V255\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M156 250L160 255L164 250\" fill=\"none\" stroke=\"#263d4d\" stroke-width=\"2\"/><rect x=\"45\" y=\"214\" width=\"230\" height=\"27\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"160\" y=\"234\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-campo=\"acrescentados\" data-valor=\"9\">Acrescentar 9 copos</text><rect x=\"70\" y=\"261\" width=\"180\" height=\"50\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"160\" y=\"295\" text-anchor=\"middle\" font-size=\"27\" fill=\"#172b3a\" data-campo=\"quantidade_final\" data-valor=\"36\">36 copos</text><text x=\"160\" y=\"340\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >Quantidade final</text></svg>",
+          "css": ".mfc-on-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Fluxo vertical: quantidade inicial desconhecida, retirada de 17 copos, quantidade intermediária desconhecida, acréscimo de nove copos e quantidade final de 36. As setas seguem a ordem real das mudanças.",
+          "acessibilidade": "Fluxo vertical: quantidade inicial desconhecida, retirada de 17 copos, quantidade intermediária desconhecida, acréscimo de nove copos e quantidade final de 36. As setas seguem a ordem real das mudanças.",
+          "geometria": {
+            "tipo": "on_revisao",
+            "modelo": "fluxo_copos"
+          },
+          "arquivo": "recursos/MFC6-B1-I-ON-06.svg"
+        }
+      ],
+      "assunto_nome": "Operações com números naturais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Operações com Números Naturais solicitada pelo usuário",
+          "correcao_especifica": false,
+          "recurso_visual": "Esquema SVG substitui tabela; grade preservada em ON-05",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ON-07",
+      "numero": 7,
+      "titulo": "Canal de envio mais rápido",
+      "assunto": "ON",
+      "enunciado": "Uma turma precisa enviar uma pasta de 60 arquivos por um dos dois canais. Em cada canal, a preparação ocorre antes da transmissão. Considere velocidades constantes e os dados do esquema. Comparando o tempo total, algum canal termina antes do outro ou há empate?",
+      "dados": {
+        "arquivos": 60,
+        "canal_A_preparo_min": 3,
+        "canal_A_arquivos_por_min": 6,
+        "canal_B_preparo_min": 7,
+        "canal_B_arquivos_por_min": 10
+      },
+      "modelo_verificacao": "[D['canal_A_preparo_min']+D['arquivos']//D['canal_A_arquivos_por_min'],D['canal_B_preparo_min']+D['arquivos']//D['canal_B_arquivos_por_min']]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "B termina em 6 minutos; A em 10.",
+          "valor": [
+            10,
+            6
+          ],
+          "erro_comum": "Ignorar preparação."
+        },
+        {
+          "letra": "B",
+          "texto": "A termina em 3 minutos; B em 7.",
+          "valor": [
+            3,
+            7
+          ],
+          "erro_comum": "Ignorar transmissão."
+        },
+        {
+          "letra": "C",
+          "texto": "Empatam, ambos em 13 minutos.",
+          "valor": [
+            13,
+            13
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "B termina em 13 minutos; A em 16.",
+          "valor": [
+            16,
+            13
+          ],
+          "erro_comum": "Somar preparo de A duas vezes."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "A termina em 3+60÷6=13 minutos. B termina em 7+60÷10=13. Embora B transmita mais rápido, demora mais para preparar; há empate.",
+      "habilidade": "Comparar tempos totais que combinam parcela fixa e ritmo.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Comparar tempos totais que combinam parcela fixa e ritmo."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual canal termina primeiro e com que vantagem?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa comparar tempos totais que combinam parcela fixa e ritmo.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ON",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-ON-07",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ON-07-ONV1",
+          "tipo": "svg",
+          "dados": {
+            "arquivos": 60,
+            "canal_A_preparo_min": 3,
+            "canal_A_arquivos_por_min": 6,
+            "canal_B_preparo_min": 7,
+            "canal_B_arquivos_por_min": 10
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 325\" width=\"320\" height=\"325\" class=\"mfc-on-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ON-07-ONV1-titulo\" aria-describedby=\"MFC6-B1-I-ON-07-ONV1-descricao\"><title id=\"MFC6-B1-I-ON-07-ONV1-titulo\">Canal de envio mais rápido</title><desc id=\"MFC6-B1-I-ON-07-ONV1-descricao\">Pasta de 60 arquivos. Canal A: preparação de três minutos seguida de envio a seis arquivos por minuto. Canal B: preparação de sete minutos seguida de envio a dez arquivos por minuto. Os blocos indicam fases, não durações em escala; os totais não estão calculados.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"325\" fill=\"white\"/><text x=\"160\" y=\"28\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-campo=\"arquivos\" data-valor=\"60\">Pasta com 60 arquivos</text><text x=\"85\" y=\"64\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >Canal A</text><rect x=\"20\" y=\"80\" width=\"130\" height=\"64\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"85\" y=\"103\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Preparação</text><text x=\"85\" y=\"130\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-campo=\"canal_A_preparo_min\" data-valor=\"3\">3 min</text><path d=\"M85 145V177\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M81 172L85 177L89 172\" fill=\"none\" stroke=\"#263d4d\" stroke-width=\"2\"/><rect x=\"20\" y=\"186\" width=\"130\" height=\"79\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"85\" y=\"210\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Envio</text><text x=\"85\" y=\"239\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" data-campo=\"canal_A_arquivos_por_min\" data-valor=\"6\">6 arquivos/min</text><text x=\"235\" y=\"64\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >Canal B</text><rect x=\"170\" y=\"80\" width=\"130\" height=\"64\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"235\" y=\"103\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Preparação</text><text x=\"235\" y=\"130\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-campo=\"canal_B_preparo_min\" data-valor=\"7\">7 min</text><path d=\"M235 145V177\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M231 172L235 177L239 172\" fill=\"none\" stroke=\"#263d4d\" stroke-width=\"2\"/><rect x=\"170\" y=\"186\" width=\"130\" height=\"79\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"235\" y=\"210\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Envio</text><text x=\"235\" y=\"239\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" data-campo=\"canal_B_arquivos_por_min\" data-valor=\"10\">10 arquivos/min</text><text x=\"160\" y=\"301\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Preparar primeiro, depois transmitir</text></svg>",
+          "css": ".mfc-on-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Pasta de 60 arquivos. Canal A: preparação de três minutos seguida de envio a seis arquivos por minuto. Canal B: preparação de sete minutos seguida de envio a dez arquivos por minuto. Os blocos indicam fases, não durações em escala; os totais não estão calculados.",
+          "acessibilidade": "Pasta de 60 arquivos. Canal A: preparação de três minutos seguida de envio a seis arquivos por minuto. Canal B: preparação de sete minutos seguida de envio a dez arquivos por minuto. Os blocos indicam fases, não durações em escala; os totais não estão calculados.",
+          "geometria": {
+            "tipo": "on_revisao",
+            "modelo": "canais_fases"
+          },
+          "arquivo": "recursos/MFC6-B1-I-ON-07.svg"
+        }
+      ],
+      "assunto_nome": "Operações com números naturais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Operações com Números Naturais solicitada pelo usuário",
+          "correcao_especifica": true,
+          "recurso_visual": "Esquema SVG substitui tabela; grade preservada em ON-05",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ON-08",
+      "numero": 8,
+      "titulo": "Desconto ou entrega grátis",
+      "assunto": "ON",
+      "enunciado": "Duas lojas vendem o mesmo equipamento pelo mesmo preço. A loja A dá desconto no produto e cobra entrega; a loja B vende pelo preço anunciado e oferece entrega grátis. Observe os dois esquemas de preço. Qual oferta gera o menor gasto total?",
+      "dados": {
+        "produto_reais": 80,
+        "loja_A_desconto_reais": 12,
+        "loja_A_entrega_reais": 15,
+        "loja_B_entrega_reais": 0
+      },
+      "modelo_verificacao": "[D['produto_reais']-D['loja_A_desconto_reais']+D['loja_A_entrega_reais'],D['produto_reais']+D['loja_B_entrega_reais']]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Loja A: R$ 68,00; B custa R$ 80,00.",
+          "valor": [
+            68,
+            80
+          ],
+          "erro_comum": "Omitir frete."
+        },
+        {
+          "letra": "B",
+          "texto": "Loja A: R$ 65,00; B custa R$ 80,00.",
+          "valor": [
+            65,
+            80
+          ],
+          "erro_comum": "Tratar frete como desconto."
+        },
+        {
+          "letra": "C",
+          "texto": "Loja B: R$ 80,00; A custa R$ 95,00.",
+          "valor": [
+            95,
+            80
+          ],
+          "erro_comum": "Omitir desconto de A."
+        },
+        {
+          "letra": "D",
+          "texto": "Loja B: R$ 80,00; A custa R$ 83,00.",
+          "valor": [
+            83,
+            80
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "A custa 80−12+15=83 reais; B custa 80. A entrega grátis de B economiza três reais em relação ao desconto de A.",
+      "habilidade": "Comparar ofertas pela despesa total, não apenas pelo desconto.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Comparar ofertas pela despesa total, não apenas pelo desconto."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual oferta gera o menor gasto total?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa comparar ofertas pela despesa total, não apenas pelo desconto.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ON",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-ON-08",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ON-08-ONV1",
+          "tipo": "svg",
+          "dados": {
+            "produto_reais": 80,
+            "loja_A_desconto_reais": 12,
+            "loja_A_entrega_reais": 15,
+            "loja_B_entrega_reais": 0
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 300\" width=\"320\" height=\"300\" class=\"mfc-on-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ON-08-ONV1-titulo\" aria-describedby=\"MFC6-B1-I-ON-08-ONV1-descricao\"><title id=\"MFC6-B1-I-ON-08-ONV1-titulo\">Desconto ou entrega grátis</title><desc id=\"MFC6-B1-I-ON-08-ONV1-descricao\">Preço anunciado comum de R$ 80. Na loja A, desconto de R$ 12 e depois entrega de R$ 15. Na loja B, o preço anunciado é mantido e a entrega custa R$ 0. Os gastos finais não estão escritos.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"300\" fill=\"white\"/><text x=\"160\" y=\"26\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-campo=\"produto_reais\" data-valor=\"80\">Preço anunciado: R$ 80</text><text x=\"84\" y=\"62\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >Loja A</text><rect x=\"19\" y=\"78\" width=\"130\" height=\"58\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"84\" y=\"100\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Desconto</text><text x=\"84\" y=\"126\" text-anchor=\"middle\" font-size=\"23\" fill=\"#172b3a\" data-campo=\"loja_A_desconto_reais\" data-valor=\"12\">- R$ 12</text><path d=\"M84 137V169\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M80 164L84 169L88 164\" fill=\"none\" stroke=\"#263d4d\" stroke-width=\"2\"/><rect x=\"19\" y=\"176\" width=\"130\" height=\"59\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"84\" y=\"199\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Entrega</text><text x=\"84\" y=\"226\" text-anchor=\"middle\" font-size=\"23\" fill=\"#172b3a\" data-campo=\"loja_A_entrega_reais\" data-valor=\"15\">+ R$ 15</text><text x=\"236\" y=\"62\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >Loja B</text><rect x=\"171\" y=\"78\" width=\"130\" height=\"58\" rx=\"3\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"236\" y=\"101\" text-anchor=\"middle\" font-size=\"14\" fill=\"#172b3a\" >Preço anunciado</text><text x=\"236\" y=\"125\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Sem desconto</text><path d=\"M236 137V169\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M232 164L236 169L240 164\" fill=\"none\" stroke=\"#263d4d\" stroke-width=\"2\"/><rect x=\"171\" y=\"176\" width=\"130\" height=\"59\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"236\" y=\"199\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Entrega grátis</text><text x=\"236\" y=\"226\" text-anchor=\"middle\" font-size=\"23\" fill=\"#172b3a\" data-campo=\"loja_B_entrega_reais\" data-valor=\"0\">R$ 0</text><text x=\"160\" y=\"276\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >Comparar o gasto total</text></svg>",
+          "css": ".mfc-on-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Preço anunciado comum de R$ 80. Na loja A, desconto de R$ 12 e depois entrega de R$ 15. Na loja B, o preço anunciado é mantido e a entrega custa R$ 0. Os gastos finais não estão escritos.",
+          "acessibilidade": "Preço anunciado comum de R$ 80. Na loja A, desconto de R$ 12 e depois entrega de R$ 15. Na loja B, o preço anunciado é mantido e a entrega custa R$ 0. Os gastos finais não estão escritos.",
+          "geometria": {
+            "tipo": "on_revisao",
+            "modelo": "ofertas_desconto_frete"
+          },
+          "arquivo": "recursos/MFC6-B1-I-ON-08.svg"
+        }
+      ],
+      "assunto_nome": "Operações com números naturais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Operações com Números Naturais solicitada pelo usuário",
+          "correcao_especifica": false,
+          "recurso_visual": "Esquema SVG substitui tabela; grade preservada em ON-05",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ON-09",
+      "numero": 9,
+      "titulo": "Pacotes inteiros pelo menor custo",
+      "assunto": "ON",
+      "enunciado": "Um painel precisa de 35 adesivos. A compra deve fornecer pelo menos essa quantidade e pode deixar adesivos sobrando. A loja vende somente pacotes inteiros, sem adesivos avulsos, e a compra deve usar um único tamanho de pacote. Observe os pacotes e seus preços. Qual tamanho de pacote dá o menor custo para atender à necessidade?",
+      "dados": {
+        "adesivos_necessarios": 35,
+        "pacote_P_unidades": 8,
+        "pacote_P_reais": 10,
+        "pacote_Q_unidades": 12,
+        "pacote_Q_reais": 14
+      },
+      "modelo_verificacao": "[ceil(F(D['adesivos_necessarios'],D['pacote_P_unidades']))*D['pacote_P_reais'],ceil(F(D['adesivos_necessarios'],D['pacote_Q_unidades']))*D['pacote_Q_reais']]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Q: R$ 42,00; P custaria R$ 50,00.",
+          "valor": [
+            50,
+            42
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "P: R$ 40,00; Q custaria R$ 42,00.",
+          "valor": [
+            40,
+            42
+          ],
+          "erro_comum": "Comprar quatro pacotes P fornece só 32."
+        },
+        {
+          "letra": "C",
+          "texto": "P: R$ 10,00; Q custaria R$ 14,00.",
+          "valor": [
+            10,
+            14
+          ],
+          "erro_comum": "Comparar só um pacote."
+        },
+        {
+          "letra": "D",
+          "texto": "Q: R$ 28,00; P custaria R$ 50,00.",
+          "valor": [
+            50,
+            28
+          ],
+          "erro_comum": "Dois pacotes Q não cobrem a necessidade."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "P exige cinco pacotes, custo 50 reais. Q exige três pacotes, custo 42 reais, fornecendo 36 adesivos. O preço unitário do pacote sozinho não decide o custo da compra.",
+      "habilidade": "Combinar arredondamento de pacotes e comparação de custos.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Combinar arredondamento de pacotes e comparação de custos."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual tamanho de pacote dá o menor custo para obter todos os adesivos?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa combinar arredondamento de pacotes e comparação de custos.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ON",
+        "visual_relevante": true,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-ON-09",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ON-09-ONV1",
+          "tipo": "svg",
+          "dados": {
+            "adesivos_necessarios": 35,
+            "pacote_P_unidades": 8,
+            "pacote_P_reais": 10,
+            "pacote_Q_unidades": 12,
+            "pacote_Q_reais": 14
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 328\" width=\"320\" height=\"328\" class=\"mfc-on-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ON-09-ONV1-titulo\" aria-describedby=\"MFC6-B1-I-ON-09-ONV1-descricao\"><title id=\"MFC6-B1-I-ON-09-ONV1-titulo\">Pacotes inteiros pelo menor custo</title><desc id=\"MFC6-B1-I-ON-09-ONV1-descricao\">Necessidade de 35 adesivos. Um pacote P tem oito adesivos, desenhados em duas linhas de quatro, e custa R$ 10. Um pacote Q tem doze adesivos, em três linhas de quatro, e custa R$ 14. Não são mostradas quantidades de pacotes a comprar.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"328\" fill=\"white\"/><text x=\"160\" y=\"26\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" data-campo=\"adesivos_necessarios\" data-valor=\"35\">Necessidade: 35 adesivos</text><text x=\"85\" y=\"67\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >Pacote P</text><rect x=\"37\" y=\"88\" width=\"23\" height=\"23\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-pacote=\"P\" data-adesivo=\"0\"/><rect x=\"61\" y=\"88\" width=\"23\" height=\"23\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-pacote=\"P\" data-adesivo=\"1\"/><rect x=\"85\" y=\"88\" width=\"23\" height=\"23\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-pacote=\"P\" data-adesivo=\"2\"/><rect x=\"109\" y=\"88\" width=\"23\" height=\"23\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-pacote=\"P\" data-adesivo=\"3\"/><rect x=\"37\" y=\"112\" width=\"23\" height=\"23\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-pacote=\"P\" data-adesivo=\"4\"/><rect x=\"61\" y=\"112\" width=\"23\" height=\"23\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-pacote=\"P\" data-adesivo=\"5\"/><rect x=\"85\" y=\"112\" width=\"23\" height=\"23\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-pacote=\"P\" data-adesivo=\"6\"/><rect x=\"109\" y=\"112\" width=\"23\" height=\"23\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-pacote=\"P\" data-adesivo=\"7\"/><text x=\"85\" y=\"193\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-campo=\"pacote_P_unidades\" data-valor=\"8\">8 adesivos</text><text x=\"85\" y=\"227\" text-anchor=\"middle\" font-size=\"25\" fill=\"#172b3a\" data-campo=\"pacote_P_reais\" data-valor=\"10\">R$ 10</text><text x=\"235\" y=\"67\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >Pacote Q</text><rect x=\"187\" y=\"88\" width=\"23\" height=\"23\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-pacote=\"Q\" data-adesivo=\"0\"/><rect x=\"211\" y=\"88\" width=\"23\" height=\"23\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-pacote=\"Q\" data-adesivo=\"1\"/><rect x=\"235\" y=\"88\" width=\"23\" height=\"23\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-pacote=\"Q\" data-adesivo=\"2\"/><rect x=\"259\" y=\"88\" width=\"23\" height=\"23\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-pacote=\"Q\" data-adesivo=\"3\"/><rect x=\"187\" y=\"112\" width=\"23\" height=\"23\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-pacote=\"Q\" data-adesivo=\"4\"/><rect x=\"211\" y=\"112\" width=\"23\" height=\"23\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-pacote=\"Q\" data-adesivo=\"5\"/><rect x=\"235\" y=\"112\" width=\"23\" height=\"23\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-pacote=\"Q\" data-adesivo=\"6\"/><rect x=\"259\" y=\"112\" width=\"23\" height=\"23\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-pacote=\"Q\" data-adesivo=\"7\"/><rect x=\"187\" y=\"136\" width=\"23\" height=\"23\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-pacote=\"Q\" data-adesivo=\"8\"/><rect x=\"211\" y=\"136\" width=\"23\" height=\"23\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-pacote=\"Q\" data-adesivo=\"9\"/><rect x=\"235\" y=\"136\" width=\"23\" height=\"23\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-pacote=\"Q\" data-adesivo=\"10\"/><rect x=\"259\" y=\"136\" width=\"23\" height=\"23\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-pacote=\"Q\" data-adesivo=\"11\"/><text x=\"235\" y=\"193\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-campo=\"pacote_Q_unidades\" data-valor=\"12\">12 adesivos</text><text x=\"235\" y=\"227\" text-anchor=\"middle\" font-size=\"25\" fill=\"#172b3a\" data-campo=\"pacote_Q_reais\" data-valor=\"14\">R$ 14</text><text x=\"160\" y=\"278\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Compra só em pacotes inteiros</text><text x=\"160\" y=\"306\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Escolher um único tamanho</text></svg>",
+          "css": ".mfc-on-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Necessidade de 35 adesivos. Um pacote P tem oito adesivos, desenhados em duas linhas de quatro, e custa R$ 10. Um pacote Q tem doze adesivos, em três linhas de quatro, e custa R$ 14. Não são mostradas quantidades de pacotes a comprar.",
+          "acessibilidade": "Necessidade de 35 adesivos. Um pacote P tem oito adesivos, desenhados em duas linhas de quatro, e custa R$ 10. Um pacote Q tem doze adesivos, em três linhas de quatro, e custa R$ 14. Não são mostradas quantidades de pacotes a comprar.",
+          "geometria": {
+            "tipo": "on_revisao",
+            "modelo": "pacotes_adesivos"
+          },
+          "arquivo": "recursos/MFC6-B1-I-ON-09.svg"
+        }
+      ],
+      "assunto_nome": "Operações com números naturais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Operações com Números Naturais solicitada pelo usuário",
+          "correcao_especifica": true,
+          "recurso_visual": "Esquema SVG substitui tabela; grade preservada em ON-05",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ON-10",
+      "numero": 10,
+      "titulo": "Caminho com uma ponte fechada",
+      "assunto": "ON",
+      "enunciado": "Um mapa simplificado oferece dois caminhos entre a mesma origem e o mesmo destino. A ponte da rota A está fechada, e o desvio substitui o trecho da ponte: não se percorrem os dois. Observe o esquema e as distâncias em metros; o desenho não está em escala. Depois do fechamento, qual caminho é mais curto?",
+      "dados": {
+        "rota_A_trechos": [
+          120,
+          80,
+          150
+        ],
+        "trecho_A_substituido": 80,
+        "desvio_no_lugar_da_ponte": 170,
+        "rota_B_trechos": [
+          190,
+          210
+        ]
+      },
+      "modelo_verificacao": "[sum(D['rota_A_trechos'])-D['trecho_A_substituido']+D['desvio_no_lugar_da_ponte'],sum(D['rota_B_trechos'])]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A, com 350 m; B tem 400 m.",
+          "valor": [
+            350,
+            400
+          ],
+          "erro_comum": "Ignorar fechamento."
+        },
+        {
+          "letra": "B",
+          "texto": "B, com 400 m; A fica com 440 m.",
+          "valor": [
+            440,
+            400
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "B, com 400 m; A fica com 520 m.",
+          "valor": [
+            520,
+            400
+          ],
+          "erro_comum": "Somar desvio sem retirar trecho substituído."
+        },
+        {
+          "letra": "D",
+          "texto": "A, com 270 m; B tem 400 m.",
+          "valor": [
+            270,
+            400
+          ],
+          "erro_comum": "Retirar ponte sem incluir desvio."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "A passa a 120+170+150=440 m; B mede 190+210=400 m. B é 40 m mais curto. Somar o desvio sem retirar a ponte contaria dois caminhos para o mesmo trecho.",
+      "habilidade": "Interpretar substituição de trecho e comparar estratégias de percurso.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Interpretar substituição de trecho e comparar estratégias de percurso."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Depois do fechamento, qual caminho é mais curto?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa interpretar substituição de trecho e comparar estratégias de percurso.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ON",
+        "visual_relevante": true,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-ON-10",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ON-10-ONV1",
+          "tipo": "svg",
+          "dados": {
+            "rota_A_trechos": [
+              120,
+              80,
+              150
+            ],
+            "trecho_A_substituido": 80,
+            "desvio_no_lugar_da_ponte": 170,
+            "rota_B_trechos": [
+              190,
+              210
+            ]
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 380\" width=\"320\" height=\"380\" class=\"mfc-on-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ON-10-ONV1-titulo\" aria-describedby=\"MFC6-B1-I-ON-10-ONV1-descricao\"><title id=\"MFC6-B1-I-ON-10-ONV1-titulo\">Caminho com uma ponte fechada</title><desc id=\"MFC6-B1-I-ON-10-ONV1-descricao\">As rotas ligam a mesma origem ao mesmo destino. Na rota A, os trechos externos têm 120 m e 150 m; a ponte de 80 m aparece tracejada e riscada. Um desvio de 170 m liga os mesmos extremos da ponte. A rota B tem trechos de 190 m e 210 m. O esquema não está em escala.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"380\" fill=\"white\"/><text x=\"160\" y=\"24\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >Rota A: ponte fechada</text><path d=\"M20 180L90 120\" stroke=\"#263d4d\" stroke-width=\"2\" fill=\"none\"/><path d=\"M90 120H230\" stroke=\"#263d4d\" stroke-width=\"2\" stroke-dasharray=\"5 4\" data-ponte=\"fechada\"/><path d=\"M230 120L300 180\" stroke=\"#263d4d\" stroke-width=\"2\" fill=\"none\"/><path d=\"M90 120V65H230V120\" stroke=\"#263d4d\" stroke-width=\"2\" fill=\"none\" data-rota=\"desvio\"/><path d=\"M151 111L169 129M169 111L151 129\" stroke=\"#8a2d20\" stroke-width=\"3\"/><text x=\"48\" y=\"136\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-campo=\"rota_A_trechos.0\" data-valor=\"120\">120 m</text><text x=\"272\" y=\"136\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-campo=\"rota_A_trechos.2\" data-valor=\"150\">150 m</text><text x=\"160\" y=\"158\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" data-campo=\"trecho_A_substituido\" data-valor=\"80\">80 m: ponte fechada</text><text x=\"160\" y=\"50\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-campo=\"desvio_no_lugar_da_ponte\" data-valor=\"170\">Desvio: 170 m</text><path d=\"M20 180L160 273L300 180\" stroke=\"#263d4d\" stroke-width=\"2\" fill=\"none\"/><text x=\"85\" y=\"244\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-campo=\"rota_B_trechos.0\" data-valor=\"190\">190 m</text><text x=\"239\" y=\"244\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-campo=\"rota_B_trechos.1\" data-valor=\"210\">210 m</text><text x=\"160\" y=\"300\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >Rota B</text><text x=\"5\" y=\"207\" text-anchor=\"start\" font-size=\"15\" fill=\"#172b3a\" >Origem</text><text x=\"315\" y=\"207\" text-anchor=\"end\" font-size=\"15\" fill=\"#172b3a\" >Destino</text><circle cx=\"20\" cy=\"180\" r=\"4\" fill=\"#263d4d\"/><circle cx=\"300\" cy=\"180\" r=\"4\" fill=\"#263d4d\"/><text x=\"160\" y=\"332\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Distâncias em metros</text><text x=\"160\" y=\"355\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Esquema sem escala</text></svg>",
+          "css": ".mfc-on-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "As rotas ligam a mesma origem ao mesmo destino. Na rota A, os trechos externos têm 120 m e 150 m; a ponte de 80 m aparece tracejada e riscada. Um desvio de 170 m liga os mesmos extremos da ponte. A rota B tem trechos de 190 m e 210 m. O esquema não está em escala.",
+          "acessibilidade": "As rotas ligam a mesma origem ao mesmo destino. Na rota A, os trechos externos têm 120 m e 150 m; a ponte de 80 m aparece tracejada e riscada. Um desvio de 170 m liga os mesmos extremos da ponte. A rota B tem trechos de 190 m e 210 m. O esquema não está em escala.",
+          "geometria": {
+            "tipo": "on_revisao",
+            "modelo": "rotas_ponte_desvio"
+          },
+          "arquivo": "recursos/MFC6-B1-I-ON-10.svg"
+        }
+      ],
+      "assunto_nome": "Operações com números naturais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Operações com Números Naturais solicitada pelo usuário",
+          "correcao_especifica": false,
+          "recurso_visual": "Esquema SVG substitui tabela; grade preservada em ON-05",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ON-11",
+      "numero": 11,
+      "titulo": "Turnos com limites de uso",
+      "assunto": "ON",
+      "enunciado": "Um laboratório dispõe de um período total de 65 minutos. Cada experimento completo dura 12 minutos. Entre o fim de um experimento e o início do seguinte, são necessários 3 minutos de limpeza. Não há limpeza antes do primeiro nem depois do último experimento dentro desse período. Observe o esquema da sequência. Quantos experimentos completos cabem no período disponível?",
+      "dados": {
+        "periodo_min": 65,
+        "experimento_min": 12,
+        "limpeza_entre_min": 3
+      },
+      "modelo_verificacao": "(D['periodo_min']+D['limpeza_entre_min'])//(D['experimento_min']+D['limpeza_entre_min'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5.",
+          "valor": 5,
+          "erro_comum": "Ignorar limpezas."
+        },
+        {
+          "letra": "B",
+          "texto": "3.",
+          "valor": 3,
+          "erro_comum": "Subestimar a capacidade e parar em três experimentos, sem conferir que um quarto ainda cabe."
+        },
+        {
+          "letra": "C",
+          "texto": "4.",
+          "valor": 4,
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "6.",
+          "valor": 6,
+          "erro_comum": "Ignorar as limpezas e arredondar 65 ÷ 12 para cima, embora seis experimentos nem caibam no tempo disponível."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "As limpezas acontecem somente entre experimentos: quatro experimentos precisam de três limpezas. Eles ocupam 4 × 12 + 3 × 3 = 48 + 9 = 57 minutos e cabem no período de 65 minutos. Cinco experimentos precisariam de quatro limpezas: 5 × 12 + 4 × 3 = 60 + 12 = 72 minutos, acima do disponível. Portanto, cabem no máximo quatro experimentos completos.",
+      "habilidade": "Modelar repetição com intervalo somente entre atividades.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Modelar repetição com intervalo somente entre atividades."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Quantos experimentos completos cabem no período disponível?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa modelar repetição com intervalo somente entre atividades.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ON",
+        "visual_relevante": true,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-ON-11",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ON-11-ONV1",
+          "tipo": "svg",
+          "dados": {
+            "periodo_min": 65,
+            "experimento_min": 12,
+            "limpeza_entre_min": 3
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 462\" width=\"320\" height=\"462\" class=\"mfc-on-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ON-11-ONV1-titulo\" aria-describedby=\"MFC6-B1-I-ON-11-ONV1-descricao\"><title id=\"MFC6-B1-I-ON-11-ONV1-titulo\">Turnos com limites de uso</title><desc id=\"MFC6-B1-I-ON-11-ONV1-descricao\">Sequência de experimentos de 12 minutos separados por limpezas de três minutos. Há três pontos indicando continuação, uma limpeza antes do último experimento e nenhuma depois dele. O período disponível é 65 minutos; o número total de experimentos ainda não é informado.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"462\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" data-campo=\"periodo_min\" data-valor=\"65\">Tempo disponível: 65 min</text><rect x=\"30\" y=\"43\" width=\"260\" height=\"47\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"160\" y=\"73\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"experimento_min\" data-valor=\"12\">Experimento: 12 min</text><rect x=\"30\" y=\"166\" width=\"260\" height=\"47\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"160\" y=\"196\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"experimento_min\" data-valor=\"12\">Experimento: 12 min</text><rect x=\"30\" y=\"329\" width=\"260\" height=\"47\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"160\" y=\"359\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"experimento_min\" data-valor=\"12\">Último experimento: 12 min</text><rect x=\"70\" y=\"108\" width=\"180\" height=\"38\" rx=\"3\" fill=\"#fff3df\" stroke=\"#263d4d\" /><text x=\"160\" y=\"134\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-campo=\"limpeza_entre_min\" data-valor=\"3\">Limpeza: 3 min</text><rect x=\"70\" y=\"271\" width=\"180\" height=\"38\" rx=\"3\" fill=\"#fff3df\" stroke=\"#263d4d\" /><text x=\"160\" y=\"297\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-campo=\"limpeza_entre_min\" data-valor=\"3\">Limpeza: 3 min</text><path d=\"M160 91V106\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M156 101L160 106L164 101\" fill=\"none\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M160 147V164\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M156 159L160 164L164 159\" fill=\"none\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M160 213V228\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M156 223L160 228L164 223\" fill=\"none\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M160 250V269\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M156 264L160 269L164 264\" fill=\"none\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M160 310V327\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M156 322L160 327L164 322\" fill=\"none\" stroke=\"#263d4d\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"234\" r=\"2.5\" fill=\"#263d4d\"/><circle cx=\"160\" cy=\"241\" r=\"2.5\" fill=\"#263d4d\"/><circle cx=\"160\" cy=\"248\" r=\"2.5\" fill=\"#263d4d\"/><text x=\"160\" y=\"410\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Após o último, não há limpeza</text><text x=\"160\" y=\"439\" text-anchor=\"middle\" font-size=\"14\" fill=\"#172b3a\" >Continuação indicada pelos três pontos</text></svg>",
+          "css": ".mfc-on-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Sequência de experimentos de 12 minutos separados por limpezas de três minutos. Há três pontos indicando continuação, uma limpeza antes do último experimento e nenhuma depois dele. O período disponível é 65 minutos; o número total de experimentos ainda não é informado.",
+          "acessibilidade": "Sequência de experimentos de 12 minutos separados por limpezas de três minutos. Há três pontos indicando continuação, uma limpeza antes do último experimento e nenhuma depois dele. O período disponível é 65 minutos; o número total de experimentos ainda não é informado.",
+          "geometria": {
+            "tipo": "on_revisao",
+            "modelo": "experimentos_intervalos"
+          },
+          "arquivo": "recursos/MFC6-B1-I-ON-11.svg"
+        }
+      ],
+      "assunto_nome": "Operações com números naturais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Operações com Números Naturais solicitada pelo usuário",
+          "correcao_especifica": true,
+          "recurso_visual": "Esquema SVG substitui tabela; grade preservada em ON-05",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ON-12",
+      "numero": 12,
+      "titulo": "Reforma por faixas",
+      "assunto": "ON",
+      "enunciado": "Uma parede recebe duas faixas retangulares de tecido, lado a lado e sem sobreposição. As faixas têm a mesma altura. Observe as medidas no desenho. Qual expressão representa a área total coberta, sem contar os quadradinhos um por um?",
+      "dados": {
+        "altura_comum_m": 3,
+        "largura_faixa_1_m": 4,
+        "largura_faixa_2_m": 6
+      },
+      "modelo_verificacao": "D['altura_comum_m']*(D['largura_faixa_1_m']+D['largura_faixa_2_m'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3 + 4 + 6, total de 13 m².",
+          "valor": 13,
+          "erro_comum": "Somar medidas lineares como áreas."
+        },
+        {
+          "letra": "B",
+          "texto": "(3 + 4) × 6, total de 42 m².",
+          "valor": 42,
+          "erro_comum": "Agrupar altura com uma largura indevidamente."
+        },
+        {
+          "letra": "C",
+          "texto": "3 × 4 × 6, total de 72 m².",
+          "valor": 72,
+          "erro_comum": "Multiplicar as duas larguras em vez de somar áreas."
+        },
+        {
+          "letra": "D",
+          "texto": "3 × (4 + 6), total de 30 m².",
+          "valor": 30,
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "As áreas são 3×4 e 3×6; somam 30 m². Como têm a mesma altura, 3×(4+6) também representa o total. Não é 3+4+6, que mistura medidas de lados.",
+      "habilidade": "Escolher modelagem de duas áreas e usar distributividade.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Escolher modelagem de duas áreas e usar distributividade."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual expressão representa a área total coberta?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa escolher modelagem de duas áreas e usar distributividade.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ON",
+        "visual_relevante": true,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-ON-12",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ON-12-ONV1",
+          "tipo": "svg",
+          "dados": {
+            "altura_comum_m": 3,
+            "largura_faixa_1_m": 4,
+            "largura_faixa_2_m": 6
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\" class=\"mfc-on-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ON-12-ONV1-titulo\" aria-describedby=\"MFC6-B1-I-ON-12-ONV1-descricao\"><title id=\"MFC6-B1-I-ON-12-ONV1-titulo\">Reforma por faixas</title><desc id=\"MFC6-B1-I-ON-12-ONV1-descricao\">Dois retângulos adjacentes têm altura comum de três metros e larguras de quatro e seis metros. A mesma escala é usada nos dois. Cada retângulo está dividido em quadradinhos de um metro por um metro; a área total não está escrita.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"250\" fill=\"white\"/><text x=\"160\" y=\"24\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >Faixas lado a lado</text><rect x=\"40\" y=\"82\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-faixa=\"1\" data-linha=\"0\" data-coluna=\"0\"/><rect x=\"64\" y=\"82\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-faixa=\"1\" data-linha=\"0\" data-coluna=\"1\"/><rect x=\"88\" y=\"82\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-faixa=\"1\" data-linha=\"0\" data-coluna=\"2\"/><rect x=\"112\" y=\"82\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-faixa=\"1\" data-linha=\"0\" data-coluna=\"3\"/><rect x=\"40\" y=\"106\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-faixa=\"1\" data-linha=\"1\" data-coluna=\"0\"/><rect x=\"64\" y=\"106\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-faixa=\"1\" data-linha=\"1\" data-coluna=\"1\"/><rect x=\"88\" y=\"106\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-faixa=\"1\" data-linha=\"1\" data-coluna=\"2\"/><rect x=\"112\" y=\"106\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-faixa=\"1\" data-linha=\"1\" data-coluna=\"3\"/><rect x=\"40\" y=\"130\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-faixa=\"1\" data-linha=\"2\" data-coluna=\"0\"/><rect x=\"64\" y=\"130\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-faixa=\"1\" data-linha=\"2\" data-coluna=\"1\"/><rect x=\"88\" y=\"130\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-faixa=\"1\" data-linha=\"2\" data-coluna=\"2\"/><rect x=\"112\" y=\"130\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-faixa=\"1\" data-linha=\"2\" data-coluna=\"3\"/><text x=\"88.0\" y=\"64\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-campo=\"largura_faixa_1_m\" data-valor=\"4\">4 m</text><rect x=\"136\" y=\"82\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#fff3df\" stroke=\"#263d4d\" data-faixa=\"2\" data-linha=\"0\" data-coluna=\"0\"/><rect x=\"160\" y=\"82\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#fff3df\" stroke=\"#263d4d\" data-faixa=\"2\" data-linha=\"0\" data-coluna=\"1\"/><rect x=\"184\" y=\"82\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#fff3df\" stroke=\"#263d4d\" data-faixa=\"2\" data-linha=\"0\" data-coluna=\"2\"/><rect x=\"208\" y=\"82\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#fff3df\" stroke=\"#263d4d\" data-faixa=\"2\" data-linha=\"0\" data-coluna=\"3\"/><rect x=\"232\" y=\"82\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#fff3df\" stroke=\"#263d4d\" data-faixa=\"2\" data-linha=\"0\" data-coluna=\"4\"/><rect x=\"256\" y=\"82\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#fff3df\" stroke=\"#263d4d\" data-faixa=\"2\" data-linha=\"0\" data-coluna=\"5\"/><rect x=\"136\" y=\"106\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#fff3df\" stroke=\"#263d4d\" data-faixa=\"2\" data-linha=\"1\" data-coluna=\"0\"/><rect x=\"160\" y=\"106\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#fff3df\" stroke=\"#263d4d\" data-faixa=\"2\" data-linha=\"1\" data-coluna=\"1\"/><rect x=\"184\" y=\"106\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#fff3df\" stroke=\"#263d4d\" data-faixa=\"2\" data-linha=\"1\" data-coluna=\"2\"/><rect x=\"208\" y=\"106\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#fff3df\" stroke=\"#263d4d\" data-faixa=\"2\" data-linha=\"1\" data-coluna=\"3\"/><rect x=\"232\" y=\"106\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#fff3df\" stroke=\"#263d4d\" data-faixa=\"2\" data-linha=\"1\" data-coluna=\"4\"/><rect x=\"256\" y=\"106\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#fff3df\" stroke=\"#263d4d\" data-faixa=\"2\" data-linha=\"1\" data-coluna=\"5\"/><rect x=\"136\" y=\"130\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#fff3df\" stroke=\"#263d4d\" data-faixa=\"2\" data-linha=\"2\" data-coluna=\"0\"/><rect x=\"160\" y=\"130\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#fff3df\" stroke=\"#263d4d\" data-faixa=\"2\" data-linha=\"2\" data-coluna=\"1\"/><rect x=\"184\" y=\"130\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#fff3df\" stroke=\"#263d4d\" data-faixa=\"2\" data-linha=\"2\" data-coluna=\"2\"/><rect x=\"208\" y=\"130\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#fff3df\" stroke=\"#263d4d\" data-faixa=\"2\" data-linha=\"2\" data-coluna=\"3\"/><rect x=\"232\" y=\"130\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#fff3df\" stroke=\"#263d4d\" data-faixa=\"2\" data-linha=\"2\" data-coluna=\"4\"/><rect x=\"256\" y=\"130\" width=\"24\" height=\"24\" rx=\"3\" fill=\"#fff3df\" stroke=\"#263d4d\" data-faixa=\"2\" data-linha=\"2\" data-coluna=\"5\"/><text x=\"208.0\" y=\"64\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-campo=\"largura_faixa_2_m\" data-valor=\"6\">6 m</text><text x=\"19\" y=\"123\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-campo=\"altura_comum_m\" data-valor=\"3\">3 m</text><text x=\"160\" y=\"190\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Mesma altura, sem sobreposição</text><text x=\"160\" y=\"225\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Cada quadradinho: 1 m por 1 m</text></svg>",
+          "css": ".mfc-on-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Dois retângulos adjacentes têm altura comum de três metros e larguras de quatro e seis metros. A mesma escala é usada nos dois. Cada retângulo está dividido em quadradinhos de um metro por um metro; a área total não está escrita.",
+          "acessibilidade": "Dois retângulos adjacentes têm altura comum de três metros e larguras de quatro e seis metros. A mesma escala é usada nos dois. Cada retângulo está dividido em quadradinhos de um metro por um metro; a área total não está escrita.",
+          "geometria": {
+            "tipo": "on_revisao",
+            "modelo": "faixas_distributividade",
+            "unidade_px": 24
+          },
+          "arquivo": "recursos/MFC6-B1-I-ON-12.svg"
+        }
+      ],
+      "assunto_nome": "Operações com números naturais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Operações com Números Naturais solicitada pelo usuário",
+          "correcao_especifica": false,
+          "recurso_visual": "Esquema SVG substitui tabela; grade preservada em ON-05",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ON-13",
+      "numero": 13,
+      "titulo": "Máquina que desfaz",
+      "assunto": "ON",
+      "enunciado": "Um jogo transforma um número multiplicando-o por 4 e depois acrescentando 7. O resultado foi 39. Qual ação recupera o número inicial? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "resultado": 39,
+        "fator": 4,
+        "acrescimo": 7
+      },
+      "modelo_verificacao": "(D['resultado']-D['acrescimo'])//D['fator']",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Subtrair 7 e dividir por 4: 8.",
+          "valor": 8,
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Somar 7 e dividir por 4: 11,5.",
+          "valor": "11.5",
+          "erro_comum": "Somar em vez de desfazer a adição."
+        },
+        {
+          "letra": "C",
+          "texto": "Subtrair 7 e multiplicar por 4: 128.",
+          "valor": 128,
+          "erro_comum": "Não desfazer a multiplicação."
+        },
+        {
+          "letra": "D",
+          "texto": "Subtrair 4 e dividir por 7: 5.",
+          "valor": 5,
+          "erro_comum": "Trocar os papéis dos parâmetros."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Primeiro retiramos 7 e depois dividimos por 4: (39−7)÷4=8. A ordem inversa desfaz corretamente as etapas.",
+      "habilidade": "Escolher a ordem correta das operações inversas.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Escolher a ordem correta das operações inversas."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa escolher a ordem correta das operações inversas.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ON",
+        "visual_relevante": false,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-ON-13",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Operações com números naturais"
+    },
+    {
+      "id": "MFC6-B1-I-ON-14",
+      "numero": 14,
+      "titulo": "Excluindo cópias e preservando originais",
+      "assunto": "ON",
+      "enunciado": "Uma pasta tem 8 arquivos originais. Cada um foi copiado duas vezes, além do original. Apagar apenas todas as cópias deixa quantos arquivos? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "originais": 8,
+        "copias_por_original": 2
+      },
+      "modelo_verificacao": "D['originais']*(1+D['copias_por_original'])-D['originais']*D['copias_por_original']",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "16.",
+          "valor": 16,
+          "erro_comum": "Responder a quantidade apagada."
+        },
+        {
+          "letra": "B",
+          "texto": "8.",
+          "valor": 8,
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "24.",
+          "valor": 24,
+          "erro_comum": "Ignorar a exclusão."
+        },
+        {
+          "letra": "D",
+          "texto": "0.",
+          "valor": 0,
+          "erro_comum": "Apagar os originais junto das cópias."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Cada original gera duas cópias, mas continua existindo. Apagar as 16 cópias deixa os oito originais. Não se apagam todos os 24 arquivos.",
+      "habilidade": "Distinguir originais, cópias e total em grupos.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Distinguir originais, cópias e total em grupos."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa distinguir originais, cópias e total em grupos.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ON",
+        "visual_relevante": false,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-ON-14",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Operações com números naturais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Operações com Números Naturais solicitada pelo usuário",
+          "correcao_especifica": true,
+          "recurso_visual": "Sem recurso visual",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ON-15",
+      "numero": 15,
+      "titulo": "Desconto que cabe no orçamento",
+      "assunto": "ON",
+      "enunciado": "Uma oficina tem 120 reais para dois serviços: um custa 75 e o outro 60. Quanto desconto total mínimo é necessário para contratar ambos? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "orcamento": 120,
+        "servicos": [
+          75,
+          60
+        ]
+      },
+      "modelo_verificacao": "sum(D['servicos'])-D['orcamento']",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "R$ 45,00.",
+          "valor": 45,
+          "erro_comum": "Considerar somente o primeiro serviço."
+        },
+        {
+          "letra": "B",
+          "texto": "R$ 60,00.",
+          "valor": 60,
+          "erro_comum": "Confundir desconto com preço de um serviço."
+        },
+        {
+          "letra": "C",
+          "texto": "R$ 15,00.",
+          "valor": 15,
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "R$ 135,00.",
+          "valor": 135,
+          "erro_comum": "Confundir custo total com excesso do orçamento."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Os serviços somam 135 reais. Para caber em 120, o desconto deve ser pelo menos 15 reais. Não é necessário reduzir cada serviço ao mesmo preço.",
+      "habilidade": "Interpretar déficit como desconto mínimo.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Interpretar déficit como desconto mínimo."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa interpretar déficit como desconto mínimo.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ON",
+        "visual_relevante": false,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-ON-15",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Operações com números naturais"
+    },
+    {
+      "id": "MFC6-B1-I-ON-16",
+      "numero": 16,
+      "titulo": "Parede de pixels com buraco",
+      "assunto": "ON",
+      "enunciado": "Um desenho digital usa um retângulo de 9 por 7 pixels. Um recorte interno de 3 por 2 pixels deve ficar transparente. Quantos pixels serão coloridos? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "retangulo": [
+          9,
+          7
+        ],
+        "recorte": [
+          3,
+          2
+        ]
+      },
+      "modelo_verificacao": "D['retangulo'][0]*D['retangulo'][1]-D['recorte'][0]*D['recorte'][1]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "63.",
+          "valor": 63,
+          "erro_comum": "Ignorar recorte."
+        },
+        {
+          "letra": "B",
+          "texto": "69.",
+          "valor": 69,
+          "erro_comum": "Somar área do recorte."
+        },
+        {
+          "letra": "C",
+          "texto": "58.",
+          "valor": 58,
+          "erro_comum": "Subtrair 3+2, não 3×2."
+        },
+        {
+          "letra": "D",
+          "texto": "57.",
+          "valor": 57,
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "O retângulo tem 63 pixels; o recorte remove seis. Serão coloridos 57. Somar os recortes ou subtrair apenas os lados não representa a área.",
+      "habilidade": "Modelar área com recorte usando produtos e diferença.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Modelar área com recorte usando produtos e diferença."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa modelar área com recorte usando produtos e diferença.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ON",
+        "visual_relevante": false,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-ON-16",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Operações com números naturais"
+    },
+    {
+      "id": "MFC6-B1-I-ON-17",
+      "numero": 17,
+      "titulo": "Três dias de teste",
+      "assunto": "ON",
+      "enunciado": "Uma equipe precisa testar 52 sensores. No primeiro dia testa 18 e no segundo 16. No terceiro há tempo para no máximo 20. O prazo pode ser cumprido? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "total": 52,
+        "dias_concluidos": [
+          18,
+          16
+        ],
+        "capacidade_final": 20
+      },
+      "modelo_verificacao": "D['total']-sum(D['dias_concluidos'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sim; faltam 18 e há capacidade para 20.",
+          "valor": 18,
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Não; faltam 34, acima de 20.",
+          "valor": 34,
+          "erro_comum": "Responder o já testado como restante."
+        },
+        {
+          "letra": "C",
+          "texto": "Sim; faltam 16.",
+          "valor": 16,
+          "erro_comum": "Confundir os 16 sensores testados no segundo dia com a quantidade que ainda falta testar."
+        },
+        {
+          "letra": "D",
+          "texto": "Não; faltam 36.",
+          "valor": 36,
+          "erro_comum": "Retirar só o segundo dia."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Faltam 52−18−16=18 sensores. Como cabem 20 no último dia, o prazo pode ser cumprido, sobrando capacidade para dois.",
+      "habilidade": "Comparar demanda restante com capacidade disponível.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Comparar demanda restante com capacidade disponível."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa comparar demanda restante com capacidade disponível.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ON",
+        "visual_relevante": false,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-ON-17",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Operações com números naturais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão das 20 questões de Operações com Números Naturais",
+          "correcao": "Precisar a justificativa do distrator C: 16 é o total testado no segundo dia, não o restante.",
+          "dados_habilidade_dificuldade_gabarito": "Preservados"
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ON-18",
+      "numero": 18,
+      "titulo": "Reaproveitar peças de encaixe",
+      "assunto": "ON",
+      "enunciado": "Uma estrutura usa cinco segmentos em linha. Cada segmento tem quatro peças, mas segmentos vizinhos compartilham uma peça na junção. Quantas peças diferentes são usadas? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "segmentos": 5,
+        "pecas_segmento": 4
+      },
+      "modelo_verificacao": "D['segmentos']*D['pecas_segmento']-(D['segmentos']-1)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "20.",
+          "valor": 20,
+          "erro_comum": "Ignorar peças compartilhadas."
+        },
+        {
+          "letra": "B",
+          "texto": "16.",
+          "valor": 16,
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "15.",
+          "valor": 15,
+          "erro_comum": "Subtrair cinco junções em vez de quatro."
+        },
+        {
+          "letra": "D",
+          "texto": "12.",
+          "valor": 12,
+          "erro_comum": "Retirar duas peças por junção."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "São 20 contagens de peças, mas há quatro junções com uma peça contada duas vezes. O total distinto é 16. Uma cadeia de cinco segmentos tem quatro junções.",
+      "habilidade": "Eliminar duplicações em uma cadeia de agrupamentos.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Eliminar duplicações em uma cadeia de agrupamentos."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa eliminar duplicações em uma cadeia de agrupamentos.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ON",
+        "visual_relevante": false,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-ON-18",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Operações com números naturais"
+    },
+    {
+      "id": "MFC6-B1-I-ON-19",
+      "numero": 19,
+      "titulo": "Comparação sem calcular os produtos inteiros",
+      "assunto": "ON",
+      "enunciado": "Uma escola precisa escolher entre a oferta A, com 49 caixas de 20 folhas cada, e a oferta B, com 50 caixas de 19 folhas cada. Qual oferta tem mais folhas e por quantas? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "oferta_A": [
+          49,
+          20
+        ],
+        "oferta_B": [
+          50,
+          19
+        ]
+      },
+      "modelo_verificacao": "D['oferta_A'][0]*D['oferta_A'][1]-D['oferta_B'][0]*D['oferta_B'][1]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "B, com 30 a mais.",
+          "valor": -30,
+          "erro_comum": "Escolher só a quantidade de caixas."
+        },
+        {
+          "letra": "B",
+          "texto": "Empate.",
+          "valor": 0,
+          "erro_comum": "Supor que alterações opostas nos fatores se compensam sempre."
+        },
+        {
+          "letra": "C",
+          "texto": "A, com 30 folhas a mais.",
+          "valor": 30,
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "A, com 1 a mais.",
+          "valor": 1,
+          "erro_comum": "Comparar apenas a diferença de um fator."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Podemos comparar por compensação, usando a mesma referência: 50 caixas com 20 folhas cada. A oferta A tem uma caixa de 20 folhas a menos que essa referência, portanto retira 20 folhas. A oferta B tem uma folha a menos em cada uma das 50 caixas, portanto retira 50 folhas. Como a oferta A retira 30 folhas a menos (50 − 20 = 30), ela fornece 30 folhas a mais que B, sem precisar calcular os dois produtos completos. Como conferência, A fornece 49 × 20 = 980 folhas e B fornece 50 × 19 = 950 folhas; a diferença também é 30.",
+      "habilidade": "Comparar produtos e argumentar sobre compensação entre fatores.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Comparar produtos e argumentar sobre compensação entre fatores."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa comparar produtos e argumentar sobre compensação entre fatores.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ON",
+        "visual_relevante": false,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-ON-19",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Operações com números naturais",
+      "comparacao_por_compensacao": {
+        "referencia_caixas": 50,
+        "referencia_folhas_por_caixa": 20,
+        "retirada_A_folhas": 20,
+        "retirada_B_folhas": 50,
+        "diferenca_folhas": 30
+      },
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Operações com Números Naturais solicitada pelo usuário",
+          "correcao_especifica": true,
+          "recurso_visual": "Sem recurso visual",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ON-20",
+      "numero": 20,
+      "titulo": "Planejamento com reserva",
+      "assunto": "ON",
+      "enunciado": "Um grupo leva 6 baterias, cada uma com autonomia de 35 minutos. Quarenta minutos devem ser reservados para emergência. Uma atividade exige 170 minutos. Qual é a situação? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "baterias": 6,
+        "min_por_bateria": 35,
+        "reserva_min": 40,
+        "demanda_min": 170
+      },
+      "modelo_verificacao": "D['baterias']*D['min_por_bateria']-D['reserva_min']-D['demanda_min']",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sobram 40 minutos além da reserva.",
+          "valor": 40,
+          "erro_comum": "Usar a reserva como tempo disponível."
+        },
+        {
+          "letra": "B",
+          "texto": "Faltam 40 minutos.",
+          "valor": -40,
+          "erro_comum": "Retirar a reserva duas vezes."
+        },
+        {
+          "letra": "C",
+          "texto": "Sobram 210 minutos.",
+          "valor": 210,
+          "erro_comum": "Confundir capacidade total com margem."
+        },
+        {
+          "letra": "D",
+          "texto": "Atende exatamente, com margem de 0 minuto fora da reserva.",
+          "valor": 0,
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "A autonomia total é 210 minutos. Retirando a reserva, restam 170 para a atividade: atende exatamente, sem margem fora da reserva.",
+      "habilidade": "Separar capacidade total, reserva obrigatória e demanda.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Separar capacidade total, reserva obrigatória e demanda."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa separar capacidade total, reserva obrigatória e demanda.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ON",
+        "visual_relevante": false,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-ON-20",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Operações com números naturais"
+    }
+  ]
+}

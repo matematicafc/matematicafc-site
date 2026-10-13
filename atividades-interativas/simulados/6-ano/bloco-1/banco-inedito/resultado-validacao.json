@@ -1,0 +1,119 @@
+{
+  "resultado": "validado_matematica_e_estrutura",
+  "questoes": 100,
+  "validadas": 100,
+  "visuais": 60,
+  "por_assunto": {
+    "SN": {
+      "questoes": 20,
+      "validadas": 20,
+      "visuais": 12,
+      "por_dificuldade": {
+        "facil": {
+          "total": 6,
+          "visuais": 4
+        },
+        "media": {
+          "total": 10,
+          "visuais": 6
+        },
+        "dificil": {
+          "total": 4,
+          "visuais": 2
+        }
+      }
+    },
+    "ON": {
+      "questoes": 20,
+      "validadas": 20,
+      "visuais": 12,
+      "por_dificuldade": {
+        "facil": {
+          "total": 6,
+          "visuais": 4
+        },
+        "media": {
+          "total": 8,
+          "visuais": 4
+        },
+        "dificil": {
+          "total": 6,
+          "visuais": 4
+        }
+      }
+    },
+    "MD": {
+      "questoes": 20,
+      "validadas": 20,
+      "visuais": 12,
+      "por_dificuldade": {
+        "facil": {
+          "total": 5,
+          "visuais": 3
+        },
+        "media": {
+          "total": 9,
+          "visuais": 5
+        },
+        "dificil": {
+          "total": 6,
+          "visuais": 4
+        }
+      }
+    },
+    "FR": {
+      "questoes": 20,
+      "validadas": 20,
+      "visuais": 12,
+      "por_dificuldade": {
+        "facil": {
+          "total": 5,
+          "visuais": 3
+        },
+        "media": {
+          "total": 11,
+          "visuais": 7
+        },
+        "dificil": {
+          "total": 4,
+          "visuais": 2
+        }
+      }
+    },
+    "ND": {
+      "questoes": 20,
+      "validadas": 20,
+      "visuais": 12,
+      "por_dificuldade": {
+        "facil": {
+          "total": 4,
+          "visuais": 3
+        },
+        "media": {
+          "total": 10,
+          "visuais": 5
+        },
+        "dificil": {
+          "total": 6,
+          "visuais": 4
+        }
+      }
+    }
+  },
+  "gabaritos": {
+    "A": 25,
+    "B": 25,
+    "C": 25,
+    "D": 25
+  },
+  "impedimentos_identificados": [],
+  "revisao_pedagogica_final": "Revisão dos 100 itens concluída pelo usuário; status aprovada verificado. O validador matemático não substitui a aprovação humana.",
+  "arquivos_sha256": {
+    "sistema-numeracao.json": "a4669e1f6681eba5126cbddfb64ba9d7f7816feeae0ed0cc145444e4d51f1918",
+    "operacoes.json": "21228045ed94789e8f7ac5fbdc727cb9c1453c7b2959aca4de20135d6bc7baf9",
+    "multiplos-divisores.json": "908592a553be2875126a222ef3146bc5a33fb680ab0093f25b6d09983e0468dd",
+    "fracoes.json": "d5f697aab7977134abfac29f07e8400bf02f00af89272fd24f6f193e794d2bfc",
+    "decimais.json": "b8c38eaa3bf04f62fc6766b64bc5c79238ba9abe7545e2a5646774922223acbe"
+  },
+  "limites": "Modelos conferem respostas e dados visuais estruturados; não certificam por si sós a interpretação pedagógica, originalidade externa ou renderização em navegador."
+}

@@ -1,0 +1,2004 @@
+{
+  "versao_formato": 1,
+  "bloco": "6-ano-bloco-1-numeros-operacoes",
+  "ano_escolar": 6,
+  "assunto": "Operações com números naturais",
+  "codigo_assunto": "ON",
+  "origem": "Postagens consultadas na análise das 100 questões; correções locais explicitamente registradas.",
+  "sha256_html_fonte": "e122f89a0d7cbfa1b73b227e3ad674523a15e22d7f35ddb5e34b741fc32a22c7",
+  "estilos_originais_referencia": [
+    "\n*{box-sizing:border-box} body{font-family:Arial,sans-serif;color:#17324d;margin:0}\n.mfc{max-width:980px;margin:auto;padding:24px 18px 48px}\n.brand{text-align:center;font:700 italic 34px Georgia,serif;color:#173f63}.brand b{color:#d6a400}\n.mfc h1{text-align:center;color:#173f63;margin:7px 0;font-size:28px}.sub{text-align:center;font-weight:700;margin-bottom:16px}\n.actions{text-align:center;margin:16px 0 26px}.pdfbtn{display:inline-block;background:#173f63;color:#fff!important;text-decoration:none;padding:11px 18px;border-radius:8px;font-weight:700}.pdfbtn:hover{background:#2f75a8}\n.q{border:1px solid #d8e2ea;border-radius:12px;padding:18px;margin:18px 0}.q h2{font-size:19px;margin:0 0 10px}.q p{font-size:17px;line-height:1.55}\n.art{background:#f7fafc;border:1px solid #dfe8ef;border-radius:10px;padding:14px;margin:12px 0}.tbl{width:100%;border-collapse:collapse}.tbl th,.tbl td{border:1px solid #b9cad7;padding:9px;text-align:center}.tbl th{background:#173f63;color:#fff}\n.opts{margin:8px 0 0 22px;line-height:1.8}.lines{height:48px;border-bottom:1px dashed #b9c7d2}\n.gab{margin-top:32px}.gab details{border:1px solid #c8dce9;border-radius:10px;overflow:hidden}.gab summary{background:#173f63;color:#fff;padding:13px 18px;font-size:18px;font-weight:700;cursor:pointer;display:flex;justify-content:space-between}.arrow{width:10px;height:10px;border-right:3px solid #fff;border-bottom:3px solid #fff;transform:rotate(45deg)}.gab details[open] .arrow{transform:rotate(225deg)}.gab .inside{padding:14px 18px;background:#f7fafc}\n@media print{.gab,.actions{display:none}} @media(max-width:600px){.mfc{padding:18px 12px}.q p{font-size:16px}}\n"
+  ],
+  "aviso_estilos": "Referência de preservação visual, sem execução. Contém seletores globais do original: isolar/reformular na futura interface, não injetar diretamente no Blogger.",
+  "questoes": [
+    {
+      "id": "ON-01",
+      "numero_original": 1,
+      "titulo": "Compras para a biblioteca",
+      "assunto": "Operações com números naturais",
+      "conteudo": "Multiplicação de preços por quantidades e soma de subtotais",
+      "habilidade": "Multiplicação de preços por quantidades e soma de subtotais.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "três produtos e soma."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-operacoes-com-numeros.html",
+        "numero": 1,
+        "texto_original": "1. Compras para a biblioteca A escola recebeu uma verba para ampliar o acervo. A equipe selecionou três conjuntos de livros e precisa conferir o valor antes de confirmar a compra. Conjunto Quantidade Preço unitário Literatura 25 R$ 32,00 Ciências 18 R$ 45,00 Matemática 20 R$ 38,00 Qual será o valor total da compra? a) R$ 2.270,00 b) R$ 2.370,00 c) R$ 2.470,00 d) R$ 2.570,00",
+        "gabarito_publicado": "b) R$ 2.370,00."
+      },
+      "enunciado": {
+        "contexto": [
+          "A escola recebeu uma verba para ampliar o acervo. A equipe selecionou três conjuntos de livros e precisa conferir o valor antes de confirmar a compra."
+        ],
+        "comando": "Qual será o valor total da compra?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Conjunto</th><th>Quantidade</th><th>Preço unitário</th></tr><tr><td>Literatura</td><td>25</td><td>R$ 32,00</td></tr><tr><td>Ciências</td><td>18</td><td>R$ 45,00</td></tr><tr><td>Matemática</td><td>20</td><td>R$ 38,00</td></tr></table></div>",
+          "texto": "Conjunto Quantidade Preço unitário Literatura 25 R$ 32,00 Ciências 18 R$ 45,00 Matemática 20 R$ 38,00",
+          "tabelas": [
+            [
+              [
+                "Conjunto",
+                "Quantidade",
+                "Preço unitário"
+              ],
+              [
+                "Literatura",
+                "25",
+                "R$ 32,00"
+              ],
+              [
+                "Ciências",
+                "18",
+                "R$ 45,00"
+              ],
+              [
+                "Matemática",
+                "20",
+                "R$ 38,00"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela essencial: quantidades e preços unitários.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "R$ 2.370,00.",
+          "valores": [
+            "2370.00"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "R$ 2.270,00.",
+          "valores": [
+            "2270.00"
+          ],
+          "erro_comum": "Erro de centena na soma dos subtotais."
+        },
+        {
+          "letra": "C",
+          "texto": "R$ 2.470,00.",
+          "valores": [
+            "2470.00"
+          ],
+          "erro_comum": "Acrescentar uma centena ao total."
+        },
+        {
+          "letra": "D",
+          "texto": "R$ 2.570,00.",
+          "valores": [
+            "2570.00"
+          ],
+          "erro_comum": "Erro de transporte de centenas na adição."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "B: R$ 2.370,00; 25 × 32 + 18 × 45 + 20 × 38 = 800 + 810 + 760.",
+      "resolucao_comentada": "A alternativa correta é R$ 2.370,00. R$ 2.370,00; 25 × 32 + 18 × 45 + 20 × 38 = 800 + 810 + 760.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "total_reais"
+      ]
+    },
+    {
+      "id": "ON-02",
+      "numero_original": 2,
+      "titulo": "Qual cálculo resolve?",
+      "assunto": "Operações com números naturais",
+      "conteudo": "Divisão e arredondamento para cima em capacidade de transporte",
+      "habilidade": "Divisão e arredondamento para cima em capacidade de transporte.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "resto implica ônibus adicional."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-operacoes-com-numeros.html",
+        "numero": 2,
+        "texto_original": "2. Qual cálculo resolve? Uma excursão terá 186 estudantes. Cada ônibus comporta 42 passageiros, e ninguém poderá viajar em pé. A 186 + 42 B 186 - 42 C 186 ÷ 42 D 186 x 42 Qual operação deve ser usada primeiro para descobrir quantos ônibus são necessários? Depois, determine o menor número de ônibus que a escola deverá contratar.",
+        "gabarito_publicado": "Divisão. 186 ÷ 42 = 4, resto 18; são necessários 5 ônibus."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma excursão terá 186 estudantes. Cada ônibus comporta 42 passageiros, e ninguém poderá viajar em pé."
+        ],
+        "comando": "Qual operação deve ser usada primeiro e qual é o menor número de ônibus?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>A</th><th>186 + 42</th></tr><tr><td>B</td><td>186 - 42</td></tr><tr><td>C</td><td>186 ÷ 42</td></tr><tr><td>D</td><td>186 x 42</td></tr></table></div>",
+          "texto": "A 186 + 42 B 186 - 42 C 186 ÷ 42 D 186 x 42",
+          "tabelas": [
+            [
+              [
+                "A",
+                "186 + 42"
+              ],
+              [
+                "B",
+                "186 - 42"
+              ],
+              [
+                "C",
+                "186 ÷ 42"
+              ],
+              [
+                "D",
+                "186 x 42"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela de operações; apoio, dados no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Divisão; 4 ônibus.",
+          "valores": [
+            "divisao",
+            4
+          ],
+          "erro_comum": "Ignorar os 18 passageiros restantes."
+        },
+        {
+          "letra": "B",
+          "texto": "Divisão; 5 ônibus.",
+          "valores": [
+            "divisao",
+            5
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Multiplicação; 7.812 ônibus.",
+          "valores": [
+            "multiplicacao",
+            7812
+          ],
+          "erro_comum": "Multiplicar estudantes por lugares em vez de dividir."
+        },
+        {
+          "letra": "D",
+          "texto": "Subtração; 144 ônibus.",
+          "valores": [
+            "subtracao",
+            144
+          ],
+          "erro_comum": "Subtrair a capacidade e tratar o resultado como quantidade de ônibus."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "C, divisão; 5 ônibus: 186 = 4 × 42 + 18, quatro não transportam todos.",
+      "resolucao_comentada": "A alternativa correta é Divisão; 5 ônibus. C, divisão; 5 ônibus: 186 = 4 × 42 + 18, quatro não transportam todos.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "operacao",
+        "onibus"
+      ]
+    },
+    {
+      "id": "ON-03",
+      "numero_original": 3,
+      "titulo": "Produção por turnos",
+      "assunto": "Operações com números naturais",
+      "conteudo": "Adição de produções e comparação com dobro",
+      "habilidade": "Adição de produções e comparação com dobro.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "somar e testar condição."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-operacoes-com-numeros.html",
+        "numero": 3,
+        "texto_original": "3. Produção por turnos Uma fábrica registrou a produção de garrafas em quatro turnos. O supervisor precisa fechar o relatório diário. Turno Garrafas Manhã 2.480 Tarde 3.125 Noite 2.795 Madrugada 1.600 Calcule o total produzido e indique qual turno produziu mais que o dobro do turno da madrugada.",
+        "gabarito_publicado": "10.000 garrafas. O turno da tarde produziu 3.125, que não é mais que o dobro de 1.600; portanto nenhum turno supera o dobro da madrugada."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma fábrica registrou a produção de garrafas em quatro turnos. O supervisor precisa fechar o relatório diário."
+        ],
+        "comando": "Qual é o total produzido e qual turno, se houver, produziu mais que o dobro do turno da madrugada?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Turno</th><th>Garrafas</th></tr><tr><td>Manhã</td><td>2.480</td></tr><tr><td>Tarde</td><td>3.125</td></tr><tr><td>Noite</td><td>2.795</td></tr><tr><td>Madrugada</td><td>1.600</td></tr></table></div>",
+          "texto": "Turno Garrafas Manhã 2.480 Tarde 3.125 Noite 2.795 Madrugada 1.600",
+          "tabelas": [
+            [
+              [
+                "Turno",
+                "Garrafas"
+              ],
+              [
+                "Manhã",
+                "2.480"
+              ],
+              [
+                "Tarde",
+                "3.125"
+              ],
+              [
+                "Noite",
+                "2.795"
+              ],
+              [
+                "Madrugada",
+                "1.600"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela essencial: quatro produções. Enunciado pressupõe um turno inexistente; revisar formulação.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10.000 garrafas; tarde.",
+          "valores": [
+            10000,
+            "tarde"
+          ],
+          "erro_comum": "Confundir maior produção com produção acima de 3.200."
+        },
+        {
+          "letra": "B",
+          "texto": "8.400 garrafas; tarde.",
+          "valores": [
+            8400,
+            "tarde"
+          ],
+          "erro_comum": "Omitir a madrugada e escolher apenas o maior turno."
+        },
+        {
+          "letra": "C",
+          "texto": "10.000 garrafas; nenhum turno.",
+          "valores": [
+            10000,
+            "nenhum"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "10.000 garrafas; noite.",
+          "valores": [
+            10000,
+            "noite"
+          ],
+          "erro_comum": "Confundir estar acima de 1.600 com estar acima de seu dobro."
+        }
+      ],
+      "gabarito": "C",
+      "resposta_matematica": "2.480 + 3.125 + 2.795 + 1.600 = 10.000; dobro de 1.600 = 3.200; nenhum turno supera 3.200.",
+      "resolucao_comentada": "A alternativa correta é 10.000 garrafas; nenhum turno. 2.480 + 3.125 + 2.795 + 1.600 = 10.000; dobro de 1.600 = 3.200; nenhum turno supera 3.200.",
+      "observacoes": [
+        "Comando ajustado para “qual turno, se houver”: nenhum supera 3.200. Todos os valores originais foram preservados."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "total",
+        "turno"
+      ]
+    },
+    {
+      "id": "ON-04",
+      "numero_original": 4,
+      "titulo": "Verdadeiro ou falso no teatro",
+      "assunto": "Operações com números naturais",
+      "conteudo": "Multiplicação, metade e verificação de afirmações",
+      "habilidade": "Multiplicação, metade e verificação de afirmações.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "avaliar quatro proposições."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-operacoes-com-numeros.html",
+        "numero": 4,
+        "texto_original": "4. Verdadeiro ou falso no teatro Um teatro possui 28 fileiras com 36 lugares em cada uma. A equipe de organização está conferindo algumas afirmações antes da abertura das vendas. Afirmação V ou F O teatro possui mais de 1.000 lugares. ___ 28 x 36 representa a lotação máxima. ___ Se 8 lugares ficarem vazios, haverá 1.000 espectadores. ___ Metade da lotação é 504 lugares. ___ Marque V ou F em cada afirmação e corrija as falsas.",
+        "gabarito_publicado": "V; V; V; V. Lotação = 1.008 e metade = 504."
+      },
+      "enunciado": {
+        "contexto": [
+          "Um teatro possui 28 fileiras com 36 lugares em cada uma. A equipe de organização está conferindo algumas afirmações antes da abertura das vendas."
+        ],
+        "comando": "Na ordem apresentada na tabela, qual sequência classifica as quatro afirmações?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Afirmação</th><th>V ou F</th></tr><tr><td>O teatro possui mais de 1.000 lugares.</td><td>___</td></tr><tr><td>28 x 36 representa a lotação máxima.</td><td>___</td></tr><tr><td>Se 8 lugares ficarem vazios, haverá 1.000 espectadores.</td><td>___</td></tr><tr><td>Metade da lotação é 504 lugares.</td><td>___</td></tr></table></div>",
+          "texto": "Afirmação V ou F O teatro possui mais de 1.000 lugares. ___ 28 x 36 representa a lotação máxima. ___ Se 8 lugares ficarem vazios, haverá 1.000 espectadores. ___ Metade da lotação é 504 lugares. ___",
+          "tabelas": [
+            [
+              [
+                "Afirmação",
+                "V ou F"
+              ],
+              [
+                "O teatro possui mais de 1.000 lugares.",
+                "___"
+              ],
+              [
+                "28 x 36 representa a lotação máxima.",
+                "___"
+              ],
+              [
+                "Se 8 lugares ficarem vazios, haverá 1.000 espectadores.",
+                "___"
+              ],
+              [
+                "Metade da lotação é 504 lugares.",
+                "___"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela essencial: contém as afirmações a avaliar.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "F; V; F; V. A lotação não supera 1.000.",
+          "valores": [
+            [
+              "F",
+              "V",
+              "F",
+              "V"
+            ]
+          ],
+          "erro_comum": "Arredondar 1.008 para 1.000 e ignorar as oito vagas excedentes."
+        },
+        {
+          "letra": "B",
+          "texto": "V; F; V; V. A lotação deve ser calculada por adição.",
+          "valores": [
+            [
+              "V",
+              "F",
+              "V",
+              "V"
+            ]
+          ],
+          "erro_comum": "Confundir grupos iguais com soma de 28 e 36."
+        },
+        {
+          "letra": "C",
+          "texto": "V; V; V; F. A metade da lotação é 500.",
+          "valores": [
+            [
+              "V",
+              "V",
+              "V",
+              "F"
+            ]
+          ],
+          "erro_comum": "Calcular metade de 1.000, não de 1.008."
+        },
+        {
+          "letra": "D",
+          "texto": "V; V; V; V. Não há afirmação falsa a corrigir.",
+          "valores": [
+            [
+              "V",
+              "V",
+              "V",
+              "V"
+            ]
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "V, V, V, V; 28 × 36 = 1.008 > 1.000; 1.008 − 8 = 1.000; 1.008 ÷ 2 = 504.",
+      "resolucao_comentada": "A alternativa correta é V; V; V; V. Não há afirmação falsa a corrigir. V, V, V, V; 28 × 36 = 1.008 > 1.000; 1.008 − 8 = 1.000; 1.008 ÷ 2 = 504.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "sequencia"
+      ]
+    },
+    {
+      "id": "ON-05",
+      "numero_original": 5,
+      "titulo": "Distribuição de cadernos",
+      "assunto": "Operações com números naturais",
+      "conteudo": "Divisão equitativa e prova pela operação inversa",
+      "habilidade": "Divisão equitativa e prova pela operação inversa.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "divisão exata e conferência."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-operacoes-com-numeros.html",
+        "numero": 5,
+        "texto_original": "5. Distribuição de cadernos A secretaria recebeu 1.440 cadernos para distribuir igualmente entre 12 turmas. A diretora quer evitar sobras e garantir a mesma quantidade para todos. Total Turmas Por turma 1.440 12 ? Complete a tabela e explique como você pode conferir o resultado usando uma multiplicação.",
+        "gabarito_publicado": "120 cadernos por turma; conferência: 120 x 12 = 1.440."
+      },
+      "enunciado": {
+        "contexto": [
+          "A secretaria recebeu 1.440 cadernos para distribuir igualmente entre 12 turmas. A diretora quer evitar sobras e garantir a mesma quantidade para todos."
+        ],
+        "comando": "Quantos cadernos ficam por turma e qual multiplicação confere o resultado?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Total</th><th>Turmas</th><th>Por turma</th></tr><tr><td>1.440</td><td>12</td><td>?</td></tr></table></div>",
+          "texto": "Total Turmas Por turma 1.440 12 ?",
+          "tabelas": [
+            [
+              [
+                "Total",
+                "Turmas",
+                "Por turma"
+              ],
+              [
+                "1.440",
+                "12",
+                "?"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela de preenchimento; apoio, valores no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "120; 120 × 12 = 1.440.",
+          "valores": [
+            120,
+            12,
+            1440
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "12; 12 × 12 = 144.",
+          "valores": [
+            12,
+            12,
+            144
+          ],
+          "erro_comum": "Perder um zero no quociente."
+        },
+        {
+          "letra": "C",
+          "texto": "120; 120 × 10 = 1.200.",
+          "valores": [
+            120,
+            10,
+            1200
+          ],
+          "erro_comum": "Conferir com dez turmas em vez de doze."
+        },
+        {
+          "letra": "D",
+          "texto": "1.428; 1.428 × 12 = 17.136.",
+          "valores": [
+            1428,
+            12,
+            17136
+          ],
+          "erro_comum": "Usar subtração 1.440 − 12 em vez de divisão."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "120 cadernos por turma; 1.440 ÷ 12 = 120, e 120 × 12 = 1.440.",
+      "resolucao_comentada": "A alternativa correta é 120; 120 × 12 = 1.440. 120 cadernos por turma; 1.440 ÷ 12 = 120, e 120 × 12 = 1.440.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "por_turma",
+        "fator",
+        "produto"
+      ]
+    },
+    {
+      "id": "ON-06",
+      "numero_original": 6,
+      "titulo": "Feira de alimentos",
+      "assunto": "Operações com números naturais",
+      "conteudo": "Modelagem de duas saídas de estoque por subtração",
+      "habilidade": "Modelagem de duas saídas de estoque por subtração.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "escolher expressão."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-operacoes-com-numeros.html",
+        "numero": 6,
+        "texto_original": "6. Feira de alimentos Uma cooperativa levou 2.350 kg de alimentos para uma feira. No primeiro dia vendeu 875 kg e, no segundo, 946 kg. Estoque inicial Dia 1 Dia 2 2.350 kg 875 kg 946 kg Qual expressão representa corretamente a quantidade que restou? a) 2.350 + 875 + 946 b) 2.350 - 875 - 946 c) 2.350 - (875 - 946) d) 875 + 946 - 2.350",
+        "gabarito_publicado": "b) 2.350 - 875 - 946 = 529 kg."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma cooperativa levou 2.350 kg de alimentos para uma feira. No primeiro dia vendeu 875 kg e, no segundo, 946 kg."
+        ],
+        "comando": "Qual expressão representa corretamente a quantidade que restou?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Estoque inicial</th><th>Dia 1</th><th>Dia 2</th></tr><tr><td>2.350 kg</td><td>875 kg</td><td>946 kg</td></tr></table></div>",
+          "texto": "Estoque inicial Dia 1 Dia 2 2.350 kg 875 kg 946 kg",
+          "tabelas": [
+            [
+              [
+                "Estoque inicial",
+                "Dia 1",
+                "Dia 2"
+              ],
+              [
+                "2.350 kg",
+                "875 kg",
+                "946 kg"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela de estoque/vendas; apoio, valores no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2.350 + 875 + 946.",
+          "valores": [
+            "somar_vendas"
+          ],
+          "erro_comum": "Tratar vendas como entradas de estoque."
+        },
+        {
+          "letra": "B",
+          "texto": "2.350 − 875 − 946.",
+          "valores": [
+            "duas_saidas"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "2.350 − (875 − 946).",
+          "valores": [
+            "diferenca_vendas"
+          ],
+          "erro_comum": "Subtrair a diferença das vendas em vez das duas vendas."
+        },
+        {
+          "letra": "D",
+          "texto": "875 + 946 − 2.350.",
+          "valores": [
+            "ordem_invertida"
+          ],
+          "erro_comum": "Inverter estoque inicial e saídas."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "B: 2.350 − 875 − 946; resto 529 kg. O cálculo é justificativa, não subtarefa adicional no enunciado.",
+      "resolucao_comentada": "A alternativa correta é 2.350 − 875 − 946. 2.350 − 875 − 946; resto 529 kg. O cálculo é justificativa, não subtarefa adicional no enunciado.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "expressao"
+      ]
+    },
+    {
+      "id": "ON-07",
+      "numero_original": 7,
+      "titulo": "Montagem de kits",
+      "assunto": "Operações com números naturais",
+      "conteudo": "Divisão euclidiana e interpretação de sobra",
+      "habilidade": "Divisão euclidiana e interpretação de sobra.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "quociente e resto."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-operacoes-com-numeros.html",
+        "numero": 7,
+        "texto_original": "7. Montagem de kits Para uma campanha, 3.276 itens serão colocados em caixas com 24 itens cada. A equipe precisa saber quantas caixas completas serão usadas e se haverá sobra. Itens disponíveis Itens por caixa 3.276 24 Quantas caixas completas podem ser montadas e quantos itens sobram?",
+        "gabarito_publicado": "136 caixas completas e 12 itens de sobra."
+      },
+      "enunciado": {
+        "contexto": [
+          "Para uma campanha, 3.276 itens serão colocados em caixas com 24 itens cada. A equipe precisa saber quantas caixas completas serão usadas e se haverá sobra."
+        ],
+        "comando": "Quantas caixas completas serão montadas e quantos itens sobram?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Itens disponíveis</th><th>Itens por caixa</th></tr><tr><td>3.276</td><td>24</td></tr></table></div>",
+          "texto": "Itens disponíveis Itens por caixa 3.276 24",
+          "tabelas": [
+            [
+              [
+                "Itens disponíveis",
+                "Itens por caixa"
+              ],
+              [
+                "3.276",
+                "24"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela; apoio, valores no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "137 caixas; nenhuma sobra.",
+          "valores": [
+            137,
+            0
+          ],
+          "erro_comum": "Arredondar para cima caixas completas."
+        },
+        {
+          "letra": "B",
+          "texto": "136 caixas; 24 itens.",
+          "valores": [
+            136,
+            24
+          ],
+          "erro_comum": "Confundir tamanho da caixa com resto."
+        },
+        {
+          "letra": "C",
+          "texto": "136 caixas; 12 itens.",
+          "valores": [
+            136,
+            12
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "130 caixas; 156 itens.",
+          "valores": [
+            130,
+            156
+          ],
+          "erro_comum": "Interromper a divisão antes do quociente máximo; resto maior que o divisor."
+        }
+      ],
+      "gabarito": "C",
+      "resposta_matematica": "3.276 = 24 × 136 + 12; 136 caixas completas e 12 itens.",
+      "resolucao_comentada": "A alternativa correta é 136 caixas; 12 itens. 3.276 = 24 × 136 + 12; 136 caixas completas e 12 itens.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "caixas",
+        "sobra"
+      ]
+    },
+    {
+      "id": "ON-08",
+      "numero_original": 8,
+      "titulo": "Escolha o recibo correto",
+      "assunto": "Operações com números naturais",
+      "conteudo": "Multiplicação distributiva e custo total",
+      "habilidade": "Multiplicação distributiva e custo total.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "combinar dois custos."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-operacoes-com-numeros.html",
+        "numero": 8,
+        "texto_original": "8. Escolha o recibo correto Uma equipe comprou 18 camisas de R$ 47,00 e 18 shorts de R$ 35,00 para um torneio. Quatro recibos foram impressos, mas apenas um está correto. Recibo A R$ 1.376,00 Recibo B R$ 1.476,00 Recibo C R$ 1.576,00 Recibo D R$ 1.676,00 Qual recibo apresenta o valor correto? Mostre os cálculos usados para conferir.",
+        "gabarito_publicado": "Recibo B, R$ 1.476,00."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma equipe comprou 18 camisas de R$ 47,00 e 18 shorts de R$ 35,00 para um torneio. Quatro recibos foram impressos, mas apenas um está correto."
+        ],
+        "comando": "Qual recibo está correto e qual cálculo confere o total?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Recibo A</th><th>R$ 1.376,00</th></tr><tr><td>Recibo B</td><td>R$ 1.476,00</td></tr><tr><td>Recibo C</td><td>R$ 1.576,00</td></tr><tr><td>Recibo D</td><td>R$ 1.676,00</td></tr></table></div>",
+          "texto": "Recibo A R$ 1.376,00 Recibo B R$ 1.476,00 Recibo C R$ 1.576,00 Recibo D R$ 1.676,00",
+          "tabelas": [
+            [
+              [
+                "Recibo A",
+                "R$ 1.376,00"
+              ],
+              [
+                "Recibo B",
+                "R$ 1.476,00"
+              ],
+              [
+                "Recibo C",
+                "R$ 1.576,00"
+              ],
+              [
+                "Recibo D",
+                "R$ 1.676,00"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela/recibos de valores; preservar escolhas, dados do cálculo no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Recibo A, R$ 1.376,00; 18 × (47 + 35).",
+          "valores": [
+            "A",
+            "1376.00",
+            "18_vezes_82"
+          ],
+          "erro_comum": "Perder uma centena no produto."
+        },
+        {
+          "letra": "B",
+          "texto": "Recibo B, R$ 1.476,00; 18 × (47 + 35).",
+          "valores": [
+            "B",
+            "1476.00",
+            "18_vezes_82"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Recibo C, R$ 1.576,00; 18 × (47 + 35).",
+          "valores": [
+            "C",
+            "1576.00",
+            "18_vezes_82"
+          ],
+          "erro_comum": "Acrescentar uma centena no produto."
+        },
+        {
+          "letra": "D",
+          "texto": "Recibo D, R$ 1.676,00; 18 × (47 + 35).",
+          "valores": [
+            "D",
+            "1676.00",
+            "18_vezes_82"
+          ],
+          "erro_comum": "Erro de transporte nas multiplicações."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "Recibo B: R$ 1.476,00; 18 × 47 + 18 × 35 = 846 + 630.",
+      "resolucao_comentada": "A alternativa correta é Recibo B, R$ 1.476,00; 18 × (47 + 35). Recibo B: R$ 1.476,00; 18 × 47 + 18 × 35 = 846 + 630.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "recibo",
+        "total_reais",
+        "calculo"
+      ]
+    },
+    {
+      "id": "ON-09",
+      "numero_original": 9,
+      "titulo": "Complete o placar da campanha",
+      "assunto": "Operações com números naturais",
+      "conteudo": "Adição/subtração por relações e soma total",
+      "habilidade": "Adição/subtração por relações e soma total.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "completar dois dados e somar."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-operacoes-com-numeros.html",
+        "numero": 9,
+        "texto_original": "9. Complete o placar da campanha Quatro turmas arrecadaram alimentos. A turma C arrecadou 160 kg a mais que a turma B, e a turma D arrecadou 70 kg a menos que a turma A. Turma A Turma B Turma C Turma D 480 kg 365 kg ? ? Complete os valores faltantes e calcule o total arrecadado pelas quatro turmas.",
+        "gabarito_publicado": "Turma C = 525 kg; Turma D = 410 kg; total = 1.780 kg."
+      },
+      "enunciado": {
+        "contexto": [
+          "Quatro turmas arrecadaram alimentos. A turma C arrecadou 160 kg a mais que a turma B, e a turma D arrecadou 70 kg a menos que a turma A."
+        ],
+        "comando": "Qual opção completa as turmas C e D e informa o total das quatro turmas?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Turma A</th><th>Turma B</th><th>Turma C</th><th>Turma D</th></tr><tr><td>480 kg</td><td>365 kg</td><td>?</td><td>?</td></tr></table></div>",
+          "texto": "Turma A Turma B Turma C Turma D 480 kg 365 kg ? ?",
+          "tabelas": [
+            [
+              [
+                "Turma A",
+                "Turma B",
+                "Turma C",
+                "Turma D"
+              ],
+              [
+                "480 kg",
+                "365 kg",
+                "?",
+                "?"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela essencial: A=480 e B=365 apenas nela.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "C: 525 kg; D: 410 kg; total: 1.780 kg.",
+          "valores": [
+            525,
+            410,
+            1780
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "C: 205 kg; D: 410 kg; total: 1.460 kg.",
+          "valores": [
+            205,
+            410,
+            1460
+          ],
+          "erro_comum": "Subtrair os 160 kg de B em vez de somar."
+        },
+        {
+          "letra": "C",
+          "texto": "C: 525 kg; D: 550 kg; total: 1.920 kg.",
+          "valores": [
+            525,
+            550,
+            1920
+          ],
+          "erro_comum": "Somar 70 kg a A em vez de subtrair."
+        },
+        {
+          "letra": "D",
+          "texto": "C: 525 kg; D: 410 kg; total: 935 kg.",
+          "valores": [
+            525,
+            410,
+            935
+          ],
+          "erro_comum": "Somar apenas os valores que estavam faltando."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "C = 365 + 160 = 525 kg; D = 480 − 70 = 410 kg; total 480 + 365 + 525 + 410 = 1.780 kg.",
+      "resolucao_comentada": "A alternativa correta é C: 525 kg; D: 410 kg; total: 1.780 kg. C = 365 + 160 = 525 kg; D = 480 − 70 = 410 kg; total 480 + 365 + 525 + 410 = 1.780 kg.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "c_kg",
+        "d_kg",
+        "total_kg"
+      ]
+    },
+    {
+      "id": "ON-10",
+      "numero_original": 10,
+      "titulo": "Encontre o erro",
+      "assunto": "Operações com números naturais",
+      "conteudo": "Verificação de divisão pela multiplicação",
+      "habilidade": "Identificar o resultado correto de uma divisão e conferir sua exatidão pela multiplicação, operação inversa.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Identificar o quociente e conferir a igualdade pela operação inversa."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-operacoes-com-numeros.html",
+        "numero": 10,
+        "texto_original": "10. Encontre o erro Para calcular quantas cadeiras ficariam em cada um dos 18 setores de um auditório com 864 cadeiras, um estudante fez 864 ÷ 18 e escreveu 42. Cálculo apresentado 864 ÷ 18 = 42 O resultado está correto? Se não estiver, explique onde está o erro e apresente o resultado correto.",
+        "gabarito_publicado": "Não. 864 ÷ 18 = 48."
+      },
+      "enunciado": {
+        "contexto": [
+          "Para calcular quantas cadeiras ficariam em cada um dos 18 setores de um auditório com 864 cadeiras, um estudante fez 864 ÷ 18 e escreveu 42."
+        ],
+        "comando": "O resultado 42 está correto? Qual alternativa apresenta o resultado correto de 864 ÷ 18 e sua conferência pela operação inversa?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Cálculo apresentado</th></tr><tr><td>864 ÷ 18 = 42</td></tr></table></div>",
+          "texto": "Cálculo apresentado 864 ÷ 18 = 42",
+          "tabelas": [
+            [
+              [
+                "Cálculo apresentado"
+              ],
+              [
+                "864 ÷ 18 = 42"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Quadro do cálculo errado; apoio, expressão no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Não; o resultado é 48, pois 48 × 18 = 864.",
+          "valores": [
+            false,
+            48,
+            [
+              48,
+              18
+            ],
+            864,
+            "multiplicacao"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Sim; o resultado é 42, pois 42 × 18 = 864.",
+          "valores": [
+            true,
+            42,
+            [
+              42,
+              18
+            ],
+            864,
+            "multiplicacao"
+          ],
+          "erro_comum": "Aceitar o resultado sem conferir: 42 × 18 é 756, não 864."
+        },
+        {
+          "letra": "C",
+          "texto": "Não; o resultado é 48, pois 48 + 18 = 864.",
+          "valores": [
+            false,
+            48,
+            [
+              48,
+              18
+            ],
+            864,
+            "adicao"
+          ],
+          "erro_comum": "Confundir adição com multiplicação como operação inversa; 48 + 18 é 66."
+        },
+        {
+          "letra": "D",
+          "texto": "Não; o resultado é 46, pois 46 × 18 = 864.",
+          "valores": [
+            false,
+            46,
+            [
+              46,
+              18
+            ],
+            864,
+            "multiplicacao"
+          ],
+          "erro_comum": "Errar o quociente e não conferir o produto: 46 × 18 é 828."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "O resultado 42 é incorreto, porque 42 × 18 = 756, diferente de 864. Como 48 × 18 = 864, temos 864 ÷ 18 = 48, com resto zero. A multiplicação é a operação inversa usada para conferir a divisão. A alternativa A é a única que reúne resultado e conferência corretos. A fonte não apresenta o procedimento do estudante; por isso não se atribui uma causa ou etapa específica ao erro.",
+      "resolucao_comentada": "O resultado 42 é incorreto, porque 42 × 18 = 756, diferente de 864. Como 48 × 18 = 864, temos 864 ÷ 18 = 48, com resto zero. A multiplicação é a operação inversa usada para conferir a divisão. A alternativa A é a única que reúne resultado e conferência corretos. A fonte não apresenta o procedimento do estudante; por isso não se atribui uma causa ou etapa específica ao erro.",
+      "observacoes": [
+        "Localização de uma etapa de erro substituída por identificação do quociente e sua conferência pela multiplicação, sem inventar etapas inexistentes na fonte."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "resultado_apresentado_correto",
+        "quociente",
+        "fatores_conferencia",
+        "produto_conferencia",
+        "operacao_conferencia"
+      ],
+      "habilidade_original": "Verificação de divisão pela multiplicação.",
+      "adaptacao_pedagogica": {
+        "status": "aprovada",
+        "aprovacao": "Aprovação expressa do usuário nesta tarefa",
+        "descricao": "Localização de uma etapa de erro substituída por identificação do quociente e sua conferência pela multiplicação, sem inventar etapas inexistentes na fonte.",
+        "revisao_anterior": {
+          "motivo": "O original pede explicar onde está o erro, mas não apresenta o procedimento de cálculo do estudante. Não há evidência para atribuir uma etapa do erro.",
+          "pergunta": "Autoriza reformular para identificar o resultado correto e selecionar uma conferência pela multiplicação, sem inventar a causa do erro?"
+        }
+      }
+    },
+    {
+      "id": "ON-11",
+      "numero_original": 11,
+      "titulo": "Estoque da papelaria",
+      "assunto": "Operações com números naturais",
+      "conteudo": "Adição de entrada e subtração de venda",
+      "habilidade": "Adição de entrada e subtração de venda.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "duas operações de estoque."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-operacoes-com-numeros.html",
+        "numero": 11,
+        "texto_original": "11. Estoque da papelaria Uma papelaria iniciou a semana com 5.000 folhas coloridas, recebeu mais 2.750 e vendeu 3.685. Início + Entrada - Venda 5.000 2.750 3.685 Qual alternativa mostra o estoque final? a) 3.965 b) 4.065 c) 4.165 d) 4.265",
+        "gabarito_publicado": "b) 4.065 folhas."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma papelaria iniciou a semana com 5.000 folhas coloridas, recebeu mais 2.750 e vendeu 3.685."
+        ],
+        "comando": "Qual alternativa mostra o estoque final?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Início</th><th>+ Entrada</th><th>- Venda</th></tr><tr><td>5.000</td><td>2.750</td><td>3.685</td></tr></table></div>",
+          "texto": "Início + Entrada - Venda 5.000 2.750 3.685",
+          "tabelas": [
+            [
+              [
+                "Início",
+                "+ Entrada",
+                "- Venda"
+              ],
+              [
+                "5.000",
+                "2.750",
+                "3.685"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela; apoio, valores no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3.965 folhas.",
+          "valores": [
+            3965
+          ],
+          "erro_comum": "Erro de centena no empréstimo da subtração."
+        },
+        {
+          "letra": "B",
+          "texto": "4.165 folhas.",
+          "valores": [
+            4165
+          ],
+          "erro_comum": "Erro de centena na subtração."
+        },
+        {
+          "letra": "C",
+          "texto": "4.065 folhas.",
+          "valores": [
+            4065
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "4.265 folhas.",
+          "valores": [
+            4265
+          ],
+          "erro_comum": "Erro de transporte entre dezenas e centenas."
+        }
+      ],
+      "gabarito": "C",
+      "resposta_matematica": "B: 4.065 folhas; 5.000 + 2.750 − 3.685 = 4.065.",
+      "resolucao_comentada": "A alternativa correta é 4.065 folhas. 4.065 folhas; 5.000 + 2.750 − 3.685 = 4.065.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "folhas"
+      ]
+    },
+    {
+      "id": "ON-12",
+      "numero_original": 12,
+      "titulo": "Associe a situação à operação",
+      "assunto": "Operações com números naturais",
+      "conteudo": "Reconhecimento dos significados das quatro operações",
+      "habilidade": "Reconhecimento dos significados das quatro operações.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "associar quatro situações."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-operacoes-com-numeros.html",
+        "numero": 12,
+        "texto_original": "12. Associe a situação à operação Uma turma discutiu qual operação é mais adequada em quatro situações diferentes. Situação Operação a) Repartir 4.560 laranjas em 30 caixas ( ) Adição b) Juntar públicos de três jogos ( ) Subtração c) Descobrir quanto falta para uma meta ( ) Multiplicação d) Calcular 125 caixas com 48 brinquedos ( ) Divisão Associe cada situação à operação principal adequada.",
+        "gabarito_publicado": "a-Divisão; b-Adição; c-Subtração; d-Multiplicação."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma turma discutiu qual operação é mais adequada em quatro situações diferentes."
+        ],
+        "comando": "Qual sequência associa as situações a, b, c e d às operações principais?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Situação</th><th>Operação</th></tr><tr><td>a) Repartir 4.560 laranjas em 30 caixas</td><td>( ) Adição</td></tr><tr><td>b) Juntar públicos de três jogos</td><td>( ) Subtração</td></tr><tr><td>c) Descobrir quanto falta para uma meta</td><td>( ) Multiplicação</td></tr><tr><td>d) Calcular 125 caixas com 48 brinquedos</td><td>( ) Divisão</td></tr></table></div>",
+          "texto": "Situação Operação a) Repartir 4.560 laranjas em 30 caixas ( ) Adição b) Juntar públicos de três jogos ( ) Subtração c) Descobrir quanto falta para uma meta ( ) Multiplicação d) Calcular 125 caixas com 48 brinquedos ( ) Divisão",
+          "tabelas": [
+            [
+              [
+                "Situação",
+                "Operação"
+              ],
+              [
+                "a) Repartir 4.560 laranjas em 30 caixas",
+                "( ) Adição"
+              ],
+              [
+                "b) Juntar públicos de três jogos",
+                "( ) Subtração"
+              ],
+              [
+                "c) Descobrir quanto falta para uma meta",
+                "( ) Multiplicação"
+              ],
+              [
+                "d) Calcular 125 caixas com 48 brinquedos",
+                "( ) Divisão"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela essencial: situações e operações a associar.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Multiplicação; adição; subtração; divisão.",
+          "valores": [
+            [
+              "multiplicacao",
+              "adicao",
+              "subtracao",
+              "divisao"
+            ]
+          ],
+          "erro_comum": "Trocar repartição e contagem de grupos."
+        },
+        {
+          "letra": "B",
+          "texto": "Divisão; subtração; adição; multiplicação.",
+          "valores": [
+            [
+              "divisao",
+              "subtracao",
+              "adicao",
+              "multiplicacao"
+            ]
+          ],
+          "erro_comum": "Trocar juntar e calcular quanto falta."
+        },
+        {
+          "letra": "C",
+          "texto": "Subtração; adição; divisão; multiplicação.",
+          "valores": [
+            [
+              "subtracao",
+              "adicao",
+              "divisao",
+              "multiplicacao"
+            ]
+          ],
+          "erro_comum": "Confundir repartir com retirar e complemento com divisão."
+        },
+        {
+          "letra": "D",
+          "texto": "Divisão; adição; subtração; multiplicação.",
+          "valores": [
+            [
+              "divisao",
+              "adicao",
+              "subtracao",
+              "multiplicacao"
+            ]
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "a divisão; b adição; c subtração; d multiplicação: repartir, juntar, completar diferença e contar grupos iguais.",
+      "resolucao_comentada": "A alternativa correta é Divisão; adição; subtração; multiplicação. a divisão; b adição; c subtração; d multiplicação: repartir, juntar, completar diferença e contar grupos iguais.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "operacoes"
+      ]
+    },
+    {
+      "id": "ON-13",
+      "numero_original": 13,
+      "titulo": "Meta de público",
+      "assunto": "Operações com números naturais",
+      "conteudo": "Adição de públicos e complemento de meta",
+      "habilidade": "Adição de públicos e complemento de meta.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "duas etapas."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-operacoes-com-numeros.html",
+        "numero": 13,
+        "texto_original": "13. Meta de público Em três jogos de um campeonato escolar, o público foi de 1.285, 1.640 e 1.375 pessoas. A meta da organização era chegar a 4.500 espectadores. Jogo 1 Jogo 2 Jogo 3 Meta 1.285 1.640 1.375 4.500 Quantas pessoas assistiram aos três jogos? Quantas faltaram para atingir a meta?",
+        "gabarito_publicado": "4.300 pessoas; faltaram 200."
+      },
+      "enunciado": {
+        "contexto": [
+          "Em três jogos de um campeonato escolar, o público foi de 1.285, 1.640 e 1.375 pessoas. A meta da organização era chegar a 4.500 espectadores."
+        ],
+        "comando": "Qual foi o público total e quantas pessoas faltaram para a meta?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Jogo 1</th><th>Jogo 2</th><th>Jogo 3</th><th>Meta</th></tr><tr><td>1.285</td><td>1.640</td><td>1.375</td><td>4.500</td></tr></table></div>",
+          "texto": "Jogo 1 Jogo 2 Jogo 3 Meta 1.285 1.640 1.375 4.500",
+          "tabelas": [
+            [
+              [
+                "Jogo 1",
+                "Jogo 2",
+                "Jogo 3",
+                "Meta"
+              ],
+              [
+                "1.285",
+                "1.640",
+                "1.375",
+                "4.500"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela; apoio, todos os dados no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "4.300 pessoas; faltaram 200.",
+          "valores": [
+            4300,
+            200
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "4.200 pessoas; faltaram 300.",
+          "valores": [
+            4200,
+            300
+          ],
+          "erro_comum": "Perder uma centena na soma."
+        },
+        {
+          "letra": "C",
+          "texto": "4.400 pessoas; faltaram 100.",
+          "valores": [
+            4400,
+            100
+          ],
+          "erro_comum": "Acrescentar uma centena ao total."
+        },
+        {
+          "letra": "D",
+          "texto": "4.300 pessoas; faltaram 4.500.",
+          "valores": [
+            4300,
+            4500
+          ],
+          "erro_comum": "Confundir a meta com o que falta."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "1.285 + 1.640 + 1.375 = 4.300 pessoas; 4.500 − 4.300 = 200.",
+      "resolucao_comentada": "A alternativa correta é 4.300 pessoas; faltaram 200. 1.285 + 1.640 + 1.375 = 4.300 pessoas; 4.500 − 4.300 = 200.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "total",
+        "faltam"
+      ]
+    },
+    {
+      "id": "ON-14",
+      "numero_original": 14,
+      "titulo": "Livros nas prateleiras",
+      "assunto": "Operações com números naturais",
+      "conteudo": "Divisão exata e interpretação do resto",
+      "habilidade": "Divisão exata e interpretação do resto.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "cálculo e significado do resto."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-operacoes-com-numeros.html",
+        "numero": 14,
+        "texto_original": "14. Livros nas prateleiras Uma biblioteca recebeu 2.184 livros e pretende organizá-los igualmente em 21 prateleiras. Quantos livros ficarão em cada prateleira? Haverá sobra? Explique como o resto da divisão deve ser interpretado.",
+        "gabarito_publicado": "104 livros por prateleira, sem sobra."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma biblioteca recebeu 2.184 livros e pretende organizá-los igualmente em 21 prateleiras."
+        ],
+        "comando": "Qual opção informa a quantidade por prateleira e interpreta o resto?"
+      },
+      "recursos_visuais": [],
+      "dependencia_visual": "Nenhum elemento visual de dados.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "104 livros; restam 4, porque o quociente termina em 4.",
+          "valores": [
+            104,
+            4,
+            "ultimo_algarismo"
+          ],
+          "erro_comum": "Confundir último algarismo do quociente com resto."
+        },
+        {
+          "letra": "B",
+          "texto": "104 livros; resto zero, portanto não sobra nenhum livro.",
+          "valores": [
+            104,
+            0,
+            "sem_sobra"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "100 livros; restam 84, e a divisão já está completa.",
+          "valores": [
+            100,
+            84,
+            "resto_maior"
+          ],
+          "erro_comum": "Parar a divisão com resto maior que 21."
+        },
+        {
+          "letra": "D",
+          "texto": "105 livros; sem sobra.",
+          "valores": [
+            105,
+            0,
+            "sem_sobra"
+          ],
+          "erro_comum": "Arredondar uma divisão exata para cima."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "104 livros, sem sobra: 21 × 104 = 2.184, resto 0.",
+      "resolucao_comentada": "A alternativa correta é 104 livros; resto zero, portanto não sobra nenhum livro. 104 livros, sem sobra: 21 × 104 = 2.184, resto 0.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "por_prateleira",
+        "resto",
+        "interpretacao"
+      ]
+    },
+    {
+      "id": "ON-15",
+      "numero_original": 15,
+      "titulo": "Economia de água",
+      "assunto": "Operações com números naturais",
+      "conteudo": "Subtração e projeção multiplicativa",
+      "habilidade": "Subtração e projeção multiplicativa.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "economia semanal e quatro semanas."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-operacoes-com-numeros.html",
+        "numero": 15,
+        "texto_original": "15. Economia de água Uma escola consumia 18.750 litros de água por semana. Após uma campanha, passou a consumir 15.980 litros. Quantos litros foram economizados em uma semana? Mantendo a mesma economia, quantos litros serão economizados em quatro semanas?",
+        "gabarito_publicado": "2.770 litros por semana; 11.080 litros em quatro semanas."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma escola consumia 18.750 litros de água por semana. Após uma campanha, passou a consumir 15.980 litros."
+        ],
+        "comando": "Quantos litros foram economizados em uma semana e em quatro semanas?"
+      },
+      "recursos_visuais": [],
+      "dependencia_visual": "Nenhum elemento visual de dados.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2.770 L; 2.774 L.",
+          "valores": [
+            2770,
+            2774
+          ],
+          "erro_comum": "Somar quatro em vez de multiplicar por quatro."
+        },
+        {
+          "letra": "B",
+          "texto": "2.870 L; 11.480 L.",
+          "valores": [
+            2870,
+            11480
+          ],
+          "erro_comum": "Erro de centena na subtração inicial."
+        },
+        {
+          "letra": "C",
+          "texto": "2.770 L; 11.080 L.",
+          "valores": [
+            2770,
+            11080
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "2.770 L; 8.310 L.",
+          "valores": [
+            2770,
+            8310
+          ],
+          "erro_comum": "Considerar somente três semanas."
+        }
+      ],
+      "gabarito": "C",
+      "resposta_matematica": "18.750 − 15.980 = 2.770 L; 4 × 2.770 = 11.080 L.",
+      "resolucao_comentada": "A alternativa correta é 2.770 L; 11.080 L. 18.750 − 15.980 = 2.770 L; 4 × 2.770 = 11.080 L.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "semana_l",
+        "quatro_semanas_l"
+      ]
+    },
+    {
+      "id": "ON-16",
+      "numero_original": 16,
+      "titulo": "Sequência de caixas",
+      "assunto": "Operações com números naturais",
+      "conteudo": "Proporcionalidade em grupos iguais e multiplicação",
+      "habilidade": "Proporcionalidade em grupos iguais e multiplicação.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "completar duas linhas e reconhecer regra."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-operacoes-com-numeros.html",
+        "numero": 16,
+        "texto_original": "16. Sequência de caixas Uma fábrica coloca 48 brinquedos em cada caixa. A equipe está montando uma tabela para prever a quantidade embalada conforme aumenta o número de caixas. Caixas Brinquedos 1 48 10 480 50 ? 125 ? Complete a tabela. Depois, explique qual operação permite obter rapidamente os valores faltantes.",
+        "gabarito_publicado": "50 caixas = 2.400 brinquedos; 125 caixas = 6.000 brinquedos; multiplicação."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma fábrica coloca 48 brinquedos em cada caixa. A equipe está montando uma tabela para prever a quantidade embalada conforme aumenta o número de caixas."
+        ],
+        "comando": "Quais são os valores para 50 e 125 caixas e qual operação é usada?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Caixas</th><th>Brinquedos</th></tr><tr><td>1</td><td>48</td></tr><tr><td>10</td><td>480</td></tr><tr><td>50</td><td>?</td></tr><tr><td>125</td><td>?</td></tr></table></div>",
+          "texto": "Caixas Brinquedos 1 48 10 480 50 ? 125 ?",
+          "tabelas": [
+            [
+              [
+                "Caixas",
+                "Brinquedos"
+              ],
+              [
+                "1",
+                "48"
+              ],
+              [
+                "10",
+                "480"
+              ],
+              [
+                "50",
+                "?"
+              ],
+              [
+                "125",
+                "?"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela essencial: solicita linhas 50 e 125 caixas.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "98 e 173 brinquedos; adição.",
+          "valores": [
+            98,
+            173,
+            "adicao"
+          ],
+          "erro_comum": "Somar 48 ao número de caixas."
+        },
+        {
+          "letra": "B",
+          "texto": "240 e 600 brinquedos; multiplicação.",
+          "valores": [
+            240,
+            600,
+            "multiplicacao"
+          ],
+          "erro_comum": "Perder um zero nos produtos."
+        },
+        {
+          "letra": "C",
+          "texto": "2.400 e 6.000 brinquedos; divisão.",
+          "valores": [
+            2400,
+            6000,
+            "divisao"
+          ],
+          "erro_comum": "Acertar os resultados, mas identificar operação inversa."
+        },
+        {
+          "letra": "D",
+          "texto": "2.400 e 6.000 brinquedos; multiplicação.",
+          "valores": [
+            2400,
+            6000,
+            "multiplicacao"
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "2.400 e 6.000 brinquedos; 50 × 48 e 125 × 48. Operação: multiplicação.",
+      "resolucao_comentada": "A alternativa correta é 2.400 e 6.000 brinquedos; multiplicação. 2.400 e 6.000 brinquedos; 50 × 48 e 125 × 48. Operação: multiplicação.",
+      "observacoes": [
+        "A justificativa está incluída na seleção de explicações ou no comentário; a múltipla escolha não mede produção escrita livre. Revisar pedagogicamente o banco antes do uso."
+      ],
+      "correcoes": [],
+      "componentes_resposta": [
+        "50_caixas",
+        "125_caixas",
+        "operacao"
+      ]
+    },
+    {
+      "id": "ON-17",
+      "numero_original": 17,
+      "titulo": "Venda de rifas",
+      "assunto": "Operações com números naturais",
+      "conteudo": "Adição de vendas e subtração do total",
+      "habilidade": "Adição de vendas e subtração do total.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "dois resultados."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-operacoes-com-numeros.html",
+        "numero": 17,
+        "texto_original": "17. Venda de rifas Uma turma recebeu 750 rifas. Pela manhã vendeu 238 e à tarde, 317. A professora quer atualizar o painel da campanha. Quantas rifas foram vendidas ao todo e quantas ainda faltam vender?",
+        "gabarito_publicado": "555 vendidas; faltam 195."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma turma recebeu 750 rifas. Pela manhã vendeu 238 e à tarde, 317. A professora quer atualizar o painel da campanha."
+        ],
+        "comando": "Quantas rifas foram vendidas e quantas ainda faltam vender?"
+      },
+      "recursos_visuais": [],
+      "dependencia_visual": "Nenhum elemento visual de dados.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "555 vendidas; faltam 195.",
+          "valores": [
+            555,
+            195
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "545 vendidas; faltam 205.",
+          "valores": [
+            545,
+            205
+          ],
+          "erro_comum": "Erro de transporte de dezena na soma."
+        },
+        {
+          "letra": "C",
+          "texto": "555 vendidas; faltam 205.",
+          "valores": [
+            555,
+            205
+          ],
+          "erro_comum": "Erro no empréstimo de 750 − 555."
+        },
+        {
+          "letra": "D",
+          "texto": "317 vendidas; faltam 433.",
+          "valores": [
+            317,
+            433
+          ],
+          "erro_comum": "Considerar apenas a venda da tarde."
+        }
+      ],
+      "gabarito": "A",
+      "resposta_matematica": "238 + 317 = 555 vendidas; 750 − 555 = 195 restantes.",
+      "resolucao_comentada": "A alternativa correta é 555 vendidas; faltam 195. 238 + 317 = 555 vendidas; 750 − 555 = 195 restantes.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "vendidas",
+        "faltam"
+      ]
+    },
+    {
+      "id": "ON-18",
+      "numero_original": 18,
+      "titulo": "Quantas mesas?",
+      "assunto": "Operações com números naturais",
+      "conteudo": "Divisão com resto e capacidade mínima",
+      "habilidade": "Divisão com resto e capacidade mínima.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "arredondamento contextual."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-operacoes-com-numeros.html",
+        "numero": 18,
+        "texto_original": "18. Quantas mesas? Uma escola receberá 428 convidados em uma cerimônia. Cada mesa comporta 8 pessoas. 428 convidados 8 lugares por mesa Qual é o menor número de mesas necessário? Por que não basta usar apenas o quociente inteiro da divisão?",
+        "gabarito_publicado": "54 mesas; 53 mesas acomodariam apenas 424 pessoas."
+      },
+      "enunciado": {
+        "contexto": [
+          "Uma escola receberá 428 convidados em uma cerimônia. Cada mesa comporta 8 pessoas."
+        ],
+        "comando": "Qual é o mínimo de mesas e por que o quociente inteiro não basta?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>428 convidados</th></tr><tr><td>8 lugares por mesa</td></tr></table></div>",
+          "texto": "428 convidados 8 lugares por mesa",
+          "tabelas": [
+            [
+              [
+                "428 convidados"
+              ],
+              [
+                "8 lugares por mesa"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela; apoio, valores no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "53; o resto de 4 pessoas pode ser ignorado.",
+          "valores": [
+            53,
+            "ignorar_resto"
+          ],
+          "erro_comum": "Descartar convidados indicados pelo resto."
+        },
+        {
+          "letra": "B",
+          "texto": "54; 53 mesas acomodam 424 pessoas e ainda faltam lugares para 4.",
+          "valores": [
+            54,
+            "restam_4"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "54; a divisão 428 ÷ 8 é exata.",
+          "valores": [
+            54,
+            "divisao_exata"
+          ],
+          "erro_comum": "Acertar o arredondamento, mas negar o resto."
+        },
+        {
+          "letra": "D",
+          "texto": "55; todo resto exige duas mesas extras.",
+          "valores": [
+            55,
+            "duas_extras"
+          ],
+          "erro_comum": "Adicionar duas mesas, embora uma já tenha capacidade suficiente."
+        }
+      ],
+      "gabarito": "B",
+      "resposta_matematica": "54 mesas; 428 = 53 × 8 + 4; 53 mesas acomodam apenas 424 pessoas.",
+      "resolucao_comentada": "A alternativa correta é 54; 53 mesas acomodam 424 pessoas e ainda faltam lugares para 4. 54 mesas; 428 = 53 × 8 + 4; 53 mesas acomodam apenas 424 pessoas.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "mesas",
+        "explicacao"
+      ]
+    },
+    {
+      "id": "ON-19",
+      "numero_original": 19,
+      "titulo": "Desafio das estimativas",
+      "assunto": "Operações com números naturais",
+      "conteudo": "Estimativa por arredondamento e comparação com soma exata",
+      "habilidade": "Estimativa por arredondamento e comparação com soma exata.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "comparar aproximações e resultado."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-operacoes-com-numeros.html",
+        "numero": 19,
+        "texto_original": "19. Desafio das estimativas Antes de calcular exatamente 2.985 + 4.112, três estudantes fizeram estimativas para conferir se o resultado final seria razoável. Estudante Estimativa Ana 3.000 + 4.000 = 7.000 Bruno 2.000 + 4.000 = 6.000 Caio 3.000 + 5.000 = 8.000 Qual estimativa é a mais adequada? Calcule o valor exato e compare com a estimativa escolhida.",
+        "gabarito_publicado": "Ana. Valor exato: 7.097."
+      },
+      "enunciado": {
+        "contexto": [
+          "Antes de calcular exatamente 2.985 + 4.112, três estudantes fizeram estimativas para conferir se o resultado final seria razoável."
+        ],
+        "comando": "Qual estimativa é a mais adequada, qual é a soma exata e qual é a diferença entre elas?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><th>Estudante</th><th>Estimativa</th></tr><tr><td>Ana</td><td>3.000 + 4.000 = 7.000</td></tr><tr><td>Bruno</td><td>2.000 + 4.000 = 6.000</td></tr><tr><td>Caio</td><td>3.000 + 5.000 = 8.000</td></tr></table></div>",
+          "texto": "Estudante Estimativa Ana 3.000 + 4.000 = 7.000 Bruno 2.000 + 4.000 = 6.000 Caio 3.000 + 5.000 = 8.000",
+          "tabelas": [
+            [
+              [
+                "Estudante",
+                "Estimativa"
+              ],
+              [
+                "Ana",
+                "3.000 + 4.000 = 7.000"
+              ],
+              [
+                "Bruno",
+                "2.000 + 4.000 = 6.000"
+              ],
+              [
+                "Caio",
+                "3.000 + 5.000 = 8.000"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Tabela essencial: nomes e estimativas publicadas.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Bruno; 6.000; 7.097; diferença de 1.097.",
+          "valores": [
+            "Bruno",
+            6000,
+            7097,
+            1097
+          ],
+          "erro_comum": "Truncar 2.985 para 2.000 em vez de arredondar."
+        },
+        {
+          "letra": "B",
+          "texto": "Caio; 8.000; 7.097; diferença de 903.",
+          "valores": [
+            "Caio",
+            8000,
+            7097,
+            903
+          ],
+          "erro_comum": "Arredondar 4.112 inadequadamente para 5.000."
+        },
+        {
+          "letra": "C",
+          "texto": "Ana; 7.000; 7.097; diferença de 97.",
+          "valores": [
+            "Ana",
+            7000,
+            7097,
+            97
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Ana; 7.000; 7.007; diferença de 7.",
+          "valores": [
+            "Ana",
+            7000,
+            7007,
+            7
+          ],
+          "erro_comum": "Erro na soma exata apesar de boa estimativa."
+        }
+      ],
+      "gabarito": "C",
+      "resposta_matematica": "Ana, 7.000; soma exata 7.097, diferença 97. As estimativas 6.000 e 8.000 distam 1.097 e 903.",
+      "resolucao_comentada": "A alternativa correta é Ana; 7.000; 7.097; diferença de 97. Ana, 7.000; soma exata 7.097, diferença 97. As estimativas 6.000 e 8.000 distam 1.097 e 903.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "estudante",
+        "estimativa",
+        "exato",
+        "diferenca"
+      ]
+    },
+    {
+      "id": "ON-20",
+      "numero_original": 20,
+      "titulo": "Ordem das operações",
+      "assunto": "Operações com números naturais",
+      "conteudo": "Prioridade da multiplicação em expressão numérica",
+      "habilidade": "Prioridade da multiplicação em expressão numérica.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "evitar cálculo da esquerda para a direita."
+      },
+      "fonte": {
+        "url": "https://www.matematicafc.com/2026/08/atividade-6-ano-operacoes-com-numeros.html",
+        "numero": 20,
+        "texto_original": "20. Ordem das operações Durante uma atividade com calculadora, apareceu a expressão 2.400 + 36 x 25. O professor pediu que a turma resolvesse respeitando a ordem das operações. 2.400 + 36 x 25 Qual é o resultado correto? a) 60.900 b) 3.300 c) 60.000 d) 2.436",
+        "gabarito_publicado": "b) 3.300."
+      },
+      "enunciado": {
+        "contexto": [
+          "Durante uma atividade com calculadora, apareceu a expressão 2.400 + 36 x 25. O professor pediu que a turma resolvesse respeitando a ordem das operações."
+        ],
+        "comando": "Qual é o resultado correto, respeitando a ordem das operações?"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela",
+          "html": "<div class=\"art\"><table class=\"tbl\"><tr><td>2.400 + 36 x 25</td></tr></table></div>",
+          "texto": "2.400 + 36 x 25",
+          "tabelas": [
+            [
+              [
+                "2.400 + 36 x 25"
+              ]
+            ]
+          ]
+        }
+      ],
+      "dependencia_visual": "Quadro de expressão; apoio, expressão no texto.",
+      "status": "preparada",
+      "elegivel_sorteio": true,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "60.900.",
+          "valores": [
+            60900
+          ],
+          "erro_comum": "Fazer (2.400 + 36) × 25."
+        },
+        {
+          "letra": "B",
+          "texto": "60.000.",
+          "valores": [
+            60000
+          ],
+          "erro_comum": "Multiplicar só 2.400 por 25 e omitir 36."
+        },
+        {
+          "letra": "C",
+          "texto": "2.436.",
+          "valores": [
+            2436
+          ],
+          "erro_comum": "Somar 2.400 + 36 e omitir a multiplicação por 25."
+        },
+        {
+          "letra": "D",
+          "texto": "3.300.",
+          "valores": [
+            3300
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resposta_matematica": "B: 3.300; 36 × 25 = 900, depois 2.400 + 900 = 3.300.",
+      "resolucao_comentada": "A alternativa correta é 3.300. 3.300; 36 × 25 = 900, depois 2.400 + 900 = 3.300.",
+      "observacoes": [],
+      "correcoes": [],
+      "componentes_resposta": [
+        "resultado"
+      ]
+    }
+  ]
+}
