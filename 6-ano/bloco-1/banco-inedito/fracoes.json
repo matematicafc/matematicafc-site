@@ -1,0 +1,1783 @@
+{
+  "versao_formato": 1,
+  "banco_id": "MFC6-B1-INEDITO-V1",
+  "assunto": "Frações",
+  "codigo_assunto": "FR",
+  "questoes": [
+    {
+      "id": "MFC6-B1-I-FR-01",
+      "numero": 1,
+      "titulo": "Duas placas de tamanhos diferentes",
+      "assunto": "FR",
+      "enunciado": "Duas placas retangulares serão pintadas. Cada fração se refere à área total da respectiva placa. Observe as placas e as áreas informadas. Os desenhos usam a mesma escala de área, mas as placas têm formatos retangulares diferentes. Qual placa tem maior área pintada?",
+      "dados": {
+        "area_placa_A_cm2": 12,
+        "fracao_A": "1/2",
+        "area_placa_B_cm2": 8,
+        "fracao_B": "3/4"
+      },
+      "modelo_verificacao": "[D['area_placa_A_cm2']*F(D['fracao_A']),D['area_placa_B_cm2']*F(D['fracao_B'])]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "As áreas pintadas são iguais: 6 cm² em cada.",
+          "valor": [
+            6,
+            6
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "B: 3/4 é sempre uma quantidade maior que 1/2.",
+          "valor": [
+            6,
+            9
+          ],
+          "erro_comum": "Comparar frações sem considerar o tamanho do inteiro."
+        },
+        {
+          "letra": "C",
+          "texto": "A: tem 12 cm² pintados e B tem 8 cm².",
+          "valor": [
+            12,
+            8
+          ],
+          "erro_comum": "Confundir área total com área pintada."
+        },
+        {
+          "letra": "D",
+          "texto": "A: 6 cm²; B: 2 cm².",
+          "valor": [
+            6,
+            2
+          ],
+          "erro_comum": "Calcular 1/4, não 3/4, da placa B."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "A tem 12×1/2=6 cm² pintados; B tem 8×3/4=6 cm². As áreas pintadas são iguais, embora 3/4 seja uma fração maior: os inteiros são diferentes.",
+      "habilidade": "Comparar quantidades fracionárias com inteiros de referência diferentes.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Comparar quantidades fracionárias com inteiros de referência diferentes."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual placa tem maior área pintada?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa comparar quantidades fracionárias com inteiros de referência diferentes.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "FR",
+        "visual_relevante": true,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-FR-01",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-FR-01-FRV1",
+          "tipo": "svg",
+          "dados": {
+            "area_placa_A_cm2": 12,
+            "fracao_A": "1/2",
+            "area_placa_B_cm2": 8,
+            "fracao_B": "3/4"
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 444\" width=\"320\" height=\"444\" class=\"mfc-fr-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-FR-01-FRV1-titulo\" aria-describedby=\"MFC6-B1-I-FR-01-FRV1-descricao\"><title id=\"MFC6-B1-I-FR-01-FRV1-titulo\">Duas placas de tamanhos diferentes</title><desc id=\"MFC6-B1-I-FR-01-FRV1-descricao\">Duas placas retangulares na mesma escala de área, com formatos diferentes. A tem área total de 12 cm² e formato horizontal de 240 por 60 unidades gráficas: duas partes iguais de 120 por 60, com uma pintada. B tem área total de 8 cm² e formato vertical de 80 por 120 unidades gráficas: quatro partes iguais de 80 por 30, com três pintadas. As frações 1/2 e 3/4 estão identificadas. As regiões pintadas têm formatos distintos, não estão sobrepostas nem alinhadas para comparação direta e suas áreas não estão calculadas.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"444\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >Placas de formatos diferentes</text><text x=\"160\" y=\"56\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"area_placa_A_cm2\" data-valor=\"12\">Placa A: área total 12 cm²</text><rect x=\"40\" y=\"76\" width=\"120\" height=\"60\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"A\" data-parte=\"0\" data-preenchida=\"true\"/><rect x=\"160\" y=\"76\" width=\"120\" height=\"60\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"A\" data-parte=\"1\" data-preenchida=\"false\"/><rect x=\"120\" y=\"231\" width=\"80\" height=\"30\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"B\" data-parte=\"0\" data-preenchida=\"true\"/><rect x=\"120\" y=\"261\" width=\"80\" height=\"30\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"B\" data-parte=\"1\" data-preenchida=\"true\"/><rect x=\"120\" y=\"291\" width=\"80\" height=\"30\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"B\" data-parte=\"2\" data-preenchida=\"true\"/><rect x=\"120\" y=\"321\" width=\"80\" height=\"30\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"B\" data-parte=\"3\" data-preenchida=\"false\"/><text x=\"160\" y=\"166\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"fracao_A\" data-valor=\"1/2\">1/2 da placa A será pintado</text><text x=\"160\" y=\"212\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"area_placa_B_cm2\" data-valor=\"8\">Placa B: área total 8 cm²</text><text x=\"160\" y=\"386\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"fracao_B\" data-valor=\"3/4\">3/4 da placa B será pintado</text><text x=\"160\" y=\"420\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Mesma escala de área; formatos distintos</text></svg>",
+          "css": ".mfc-fr-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Duas placas retangulares na mesma escala de área, com formatos diferentes. A tem área total de 12 cm² e formato horizontal de 240 por 60 unidades gráficas: duas partes iguais de 120 por 60, com uma pintada. B tem área total de 8 cm² e formato vertical de 80 por 120 unidades gráficas: quatro partes iguais de 80 por 30, com três pintadas. As frações 1/2 e 3/4 estão identificadas. As regiões pintadas têm formatos distintos, não estão sobrepostas nem alinhadas para comparação direta e suas áreas não estão calculadas.",
+          "acessibilidade": "Duas placas retangulares na mesma escala de área, com formatos diferentes. A tem área total de 12 cm² e formato horizontal de 240 por 60 unidades gráficas: duas partes iguais de 120 por 60, com uma pintada. B tem área total de 8 cm² e formato vertical de 80 por 120 unidades gráficas: quatro partes iguais de 80 por 30, com três pintadas. As frações 1/2 e 3/4 estão identificadas. As regiões pintadas têm formatos distintos, não estão sobrepostas nem alinhadas para comparação direta e suas áreas não estão calculadas.",
+          "geometria": {
+            "tipo": "fr_revisao",
+            "modelo": "placas_referencias",
+            "escala_entre_inteiros": "comum_por_area",
+            "area_px2_por_cm2": 1200,
+            "orientacao_A": "horizontal",
+            "orientacao_B": "vertical"
+          },
+          "arquivo": "recursos/MFC6-B1-I-FR-01.svg"
+        }
+      ],
+      "assunto_nome": "Frações",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Frações solicitada pelo usuário",
+          "correcao_especifica": true,
+          "recurso_visual": "SVG matemático substitui tabelas; representações de FR-01/02/05 reformuladas",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-FR-02",
+      "numero": 2,
+      "titulo": "Metade de uma metade",
+      "assunto": "FR",
+      "enunciado": "Uma folha foi dobrada ao meio; depois, apenas uma das metades foi dividida em duas partes iguais para fazer etiquetas. Observe o esquema da folha. Uma dessas etiquetas corresponde a qual fração da folha original?",
+      "dados": {
+        "primeira_divisao": 2,
+        "segunda_divisao_da_metade": 2
+      },
+      "modelo_verificacao": "F(1,D['primeira_divisao']*D['segunda_divisao_da_metade'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1/2.",
+          "valor": "1/2",
+          "erro_comum": "Usar a metade recortada como inteiro."
+        },
+        {
+          "letra": "B",
+          "texto": "1/4.",
+          "valor": "1/4",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "2/3.",
+          "valor": "2/3",
+          "erro_comum": "Contar peças finais sem comparar seus tamanhos."
+        },
+        {
+          "letra": "D",
+          "texto": "1/3.",
+          "valor": "1/3",
+          "erro_comum": "Supor que as três peças finais têm áreas iguais."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "A etiqueta é metade de uma metade: 1/2 × 1/2 = 1/4 da folha. O inteiro de referência continua sendo a folha inicial, não a metade. As três regiões finais não possuem todas a mesma área: a metade não subdividida ocupa 1/2 da folha, enquanto cada uma das duas etiquetas ocupa 1/4. Por isso, contar três regiões e concluir que cada uma representa 1/3 seria incorreto.",
+      "habilidade": "Identificar fração ao mudar de um subinteiro para o inteiro original.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Identificar fração ao mudar de um subinteiro para o inteiro original."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Uma dessas etiquetas corresponde a qual fração da folha original?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa identificar fração ao mudar de um subinteiro para o inteiro original.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "FR",
+        "visual_relevante": true,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-FR-02",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-FR-02-FRV1",
+          "tipo": "svg",
+          "dados": {
+            "primeira_divisao": 2,
+            "segunda_divisao_da_metade": 2
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 272\" width=\"320\" height=\"272\" class=\"mfc-fr-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-FR-02-FRV1-titulo\" aria-describedby=\"MFC6-B1-I-FR-02-FRV1-descricao\"><title id=\"MFC6-B1-I-FR-02-FRV1-titulo\">Metade de uma metade</title><desc id=\"MFC6-B1-I-FR-02-FRV1-descricao\">Folha retangular de 240 por 100 unidades gráficas. A metade esquerda é subdividida em duas regiões de 120 por 50; a região superior esquerda é a etiqueta destacada. A metade direita tem 120 por 100 e permanece inteira. Há duas etiquetas de mesma área e uma região maior; nenhuma fração de resposta está escrita.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"272\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" >Folha original</text><rect x=\"40\" y=\"67\" width=\"120\" height=\"50\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-regiao=\"etiqueta\"/><rect x=\"40\" y=\"117\" width=\"120\" height=\"50\" fill=\"white\" stroke=\"#263d4d\" data-regiao=\"outra_etiqueta\"/><rect x=\"160\" y=\"67\" width=\"120\" height=\"100\" fill=\"white\" stroke=\"#263d4d\" data-regiao=\"metade_inteira\"/><text x=\"100\" y=\"98\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Etiqueta</text><text x=\"220\" y=\"113\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Metade</text><text x=\"220\" y=\"136\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >inteira</text><text x=\"160\" y=\"213\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-campo=\"primeira_divisao\" data-valor=\"2\">Primeira divisão: 2 partes iguais</text><text x=\"160\" y=\"245\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-campo=\"segunda_divisao_da_metade\" data-valor=\"2\">Uma metade dividida em 2</text></svg>",
+          "css": ".mfc-fr-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Folha retangular de 240 por 100 unidades gráficas. A metade esquerda é subdividida em duas regiões de 120 por 50; a região superior esquerda é a etiqueta destacada. A metade direita tem 120 por 100 e permanece inteira. Há duas etiquetas de mesma área e uma região maior; nenhuma fração de resposta está escrita.",
+          "acessibilidade": "Folha retangular de 240 por 100 unidades gráficas. A metade esquerda é subdividida em duas regiões de 120 por 50; a região superior esquerda é a etiqueta destacada. A metade direita tem 120 por 100 e permanece inteira. Há duas etiquetas de mesma área e uma região maior; nenhuma fração de resposta está escrita.",
+          "geometria": {
+            "tipo": "fr_revisao",
+            "modelo": "folha_subinteiro"
+          },
+          "arquivo": "recursos/MFC6-B1-I-FR-02.svg"
+        }
+      ],
+      "assunto_nome": "Frações",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Frações solicitada pelo usuário",
+          "correcao_especifica": true,
+          "recurso_visual": "SVG matemático substitui tabelas; representações de FR-01/02/05 reformuladas",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-FR-03",
+      "numero": 3,
+      "titulo": "Dois lotes com o mesmo inteiro",
+      "assunto": "FR",
+      "enunciado": "Um serviço de encadernação usa partes de uma bobina. As reservas são medidas em frações da mesma bobina. Observe as barras, que representam separadamente cada reserva em relação à bobina inteira. As duas reservas cabem na bobina sem faltar material?",
+      "dados": {
+        "reserva_A": "2/5",
+        "reserva_B": "3/10"
+      },
+      "modelo_verificacao": "1-F(D['reserva_A'])-F(D['reserva_B'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sim; restam 2/3.",
+          "valor": "2/3",
+          "erro_comum": "Somar como 5/15 e calcular o complemento."
+        },
+        {
+          "letra": "B",
+          "texto": "Não; faltam 1/10.",
+          "valor": "-1/10",
+          "erro_comum": "Comparar apenas os numeradores e supor excesso."
+        },
+        {
+          "letra": "C",
+          "texto": "Sim; restam 3/10.",
+          "valor": "3/10",
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Sim; restam 7/10.",
+          "valor": "7/10",
+          "erro_comum": "Responder a parte reservada, não a restante."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "2/5=4/10; juntas as reservas usam 7/10. Cabem, e restam 3/10. Somar denominadores não representa a soma dessas quantidades.",
+      "habilidade": "Somar frações de um mesmo inteiro e interpretar margem de disponibilidade.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Somar frações de um mesmo inteiro e interpretar margem de disponibilidade."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: As duas reservas cabem na bobina sem faltar material?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa somar frações de um mesmo inteiro e interpretar margem de disponibilidade.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "FR",
+        "visual_relevante": true,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-FR-03",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-FR-03-FRV1",
+          "tipo": "svg",
+          "dados": {
+            "reserva_A": "2/5",
+            "reserva_B": "3/10"
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 357\" width=\"320\" height=\"357\" class=\"mfc-fr-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-FR-03-FRV1-titulo\" aria-describedby=\"MFC6-B1-I-FR-03-FRV1-descricao\"><title id=\"MFC6-B1-I-FR-03-FRV1-titulo\">Dois lotes com o mesmo inteiro</title><desc id=\"MFC6-B1-I-FR-03-FRV1-descricao\">Duas barras de igual comprimento representam a mesma bobina inteira de referência. A reserva A destaca duas de cinco partes iguais; a reserva B destaca três de dez partes iguais. Cada barra tem extremos zero e uma bobina. Não há barra da soma nem do restante.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"357\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >Mesma bobina de referência</text><text x=\"160\" y=\"66\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-campo=\"reserva_A\" data-valor=\"2/5\">Reserva A: 2/5</text><rect x=\"30.0\" y=\"84\" width=\"52.0\" height=\"44\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"A\" data-parte=\"0\" data-preenchida=\"true\"/><rect x=\"82.0\" y=\"84\" width=\"52.0\" height=\"44\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"A\" data-parte=\"1\" data-preenchida=\"true\"/><rect x=\"134.0\" y=\"84\" width=\"52.0\" height=\"44\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"A\" data-parte=\"2\" data-preenchida=\"false\"/><rect x=\"186.0\" y=\"84\" width=\"52.0\" height=\"44\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"A\" data-parte=\"3\" data-preenchida=\"false\"/><rect x=\"238.0\" y=\"84\" width=\"52.0\" height=\"44\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"A\" data-parte=\"4\" data-preenchida=\"false\"/><text x=\"30\" y=\"152\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >0</text><text x=\"290\" y=\"152\" text-anchor=\"end\" font-size=\"16\" fill=\"#172b3a\" >1 bobina</text><text x=\"160\" y=\"202\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-campo=\"reserva_B\" data-valor=\"3/10\">Reserva B: 3/10</text><rect x=\"30.0\" y=\"220\" width=\"26.0\" height=\"44\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"B\" data-parte=\"0\" data-preenchida=\"true\"/><rect x=\"56.0\" y=\"220\" width=\"26.0\" height=\"44\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"B\" data-parte=\"1\" data-preenchida=\"true\"/><rect x=\"82.0\" y=\"220\" width=\"26.0\" height=\"44\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"B\" data-parte=\"2\" data-preenchida=\"true\"/><rect x=\"108.0\" y=\"220\" width=\"26.0\" height=\"44\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"B\" data-parte=\"3\" data-preenchida=\"false\"/><rect x=\"134.0\" y=\"220\" width=\"26.0\" height=\"44\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"B\" data-parte=\"4\" data-preenchida=\"false\"/><rect x=\"160.0\" y=\"220\" width=\"26.0\" height=\"44\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"B\" data-parte=\"5\" data-preenchida=\"false\"/><rect x=\"186.0\" y=\"220\" width=\"26.0\" height=\"44\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"B\" data-parte=\"6\" data-preenchida=\"false\"/><rect x=\"212.0\" y=\"220\" width=\"26.0\" height=\"44\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"B\" data-parte=\"7\" data-preenchida=\"false\"/><rect x=\"238.0\" y=\"220\" width=\"26.0\" height=\"44\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"B\" data-parte=\"8\" data-preenchida=\"false\"/><rect x=\"264.0\" y=\"220\" width=\"26.0\" height=\"44\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"B\" data-parte=\"9\" data-preenchida=\"false\"/><text x=\"30\" y=\"288\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >0</text><text x=\"290\" y=\"288\" text-anchor=\"end\" font-size=\"16\" fill=\"#172b3a\" >1 bobina</text><text x=\"160\" y=\"331\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Reservas mostradas separadamente</text></svg>",
+          "css": ".mfc-fr-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Duas barras de igual comprimento representam a mesma bobina inteira de referência. A reserva A destaca duas de cinco partes iguais; a reserva B destaca três de dez partes iguais. Cada barra tem extremos zero e uma bobina. Não há barra da soma nem do restante.",
+          "acessibilidade": "Duas barras de igual comprimento representam a mesma bobina inteira de referência. A reserva A destaca duas de cinco partes iguais; a reserva B destaca três de dez partes iguais. Cada barra tem extremos zero e uma bobina. Não há barra da soma nem do restante.",
+          "geometria": {
+            "tipo": "fr_revisao",
+            "modelo": "reservas_bobina"
+          },
+          "arquivo": "recursos/MFC6-B1-I-FR-03.svg"
+        }
+      ],
+      "assunto_nome": "Frações",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Frações solicitada pelo usuário",
+          "correcao_especifica": false,
+          "recurso_visual": "SVG matemático substitui tabelas; representações de FR-01/02/05 reformuladas",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-FR-04",
+      "numero": 4,
+      "titulo": "O corte de oitavos mais próximo do pedido",
+      "assunto": "FR",
+      "enunciado": "Uma faixa só pode ser cortada nas marcas que a dividem em oito partes iguais. Uma encomenda pede três décimos da faixa, mas permite usar a marca mais próxima. Observe a reta fracionária com as marcas de corte e a posição do pedido. Qual fração deve ser cortada para minimizar a diferença?",
+      "dados": {
+        "partes_iguais": 8,
+        "fracao_pedida": "3/10"
+      },
+      "modelo_verificacao": "F(int((F(D['fracao_pedida'])*D['partes_iguais']+F(1,2))//1),D['partes_iguais'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3/8.",
+          "valor": "3/8",
+          "erro_comum": "Escolher numerador três sem comparar diferenças."
+        },
+        {
+          "letra": "B",
+          "texto": "4/8.",
+          "valor": "4/8",
+          "erro_comum": "Usar metade por familiaridade, não por proximidade."
+        },
+        {
+          "letra": "C",
+          "texto": "5/8.",
+          "valor": "5/8",
+          "erro_comum": "Escolher marca bem além do pedido."
+        },
+        {
+          "letra": "D",
+          "texto": "2/8.",
+          "valor": "2/8",
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "As marcas vizinhas do pedido são 2/8=1/4 e 3/8. As diferenças para 3/10 são 1/20=0,05 e 3/40=0,075. A marca 2/8 é mais próxima. Exatamente 3/10 não é uma das marcas permitidas.",
+      "habilidade": "Comparar aproximações fracionárias sob restrição de marcas discretas.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Comparar aproximações fracionárias sob restrição de marcas discretas."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual fração deve ser cortada para minimizar a diferença?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa comparar aproximações fracionárias sob restrição de marcas discretas.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "FR",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-FR-04",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-FR-04-FRV1",
+          "tipo": "svg",
+          "dados": {
+            "partes_iguais": 8,
+            "fracao_pedida": "3/10"
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 292\" width=\"320\" height=\"292\" class=\"mfc-fr-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-FR-04-FRV1-titulo\" aria-describedby=\"MFC6-B1-I-FR-04-FRV1-descricao\"><title id=\"MFC6-B1-I-FR-04-FRV1-titulo\">O corte de oitavos mais próximo do pedido</title><desc id=\"MFC6-B1-I-FR-04-FRV1-descricao\">Reta fracionária de zero a um, com nove marcas igualmente espaçadas: zero, 1/8, 2/8, 3/8, 4/8, 5/8, 6/8, 7/8 e um. Uma seta marca 3/10 na posição exata, entre 2/8 e 3/8. Nenhuma marca é destacada como escolha correta e as diferenças não estão calculadas.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"292\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" data-campo=\"partes_iguais\" data-valor=\"8\">Cortes em 8 partes iguais</text><text x=\"160\" y=\"58\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-campo=\"fracao_pedida\" data-valor=\"3/10\">Pedido: 3/10</text><path d=\"M25 164H295\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M25.0 156V172\" stroke=\"#263d4d\" data-marca=\"0/8\" data-x=\"25.0\"/><text x=\"25.0\" y=\"199\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-rotulo-marca=\"0\">0</text><path d=\"M58.75 156V172\" stroke=\"#263d4d\" data-marca=\"1/8\" data-x=\"58.75\"/><text x=\"58.75\" y=\"225\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-rotulo-marca=\"1\">1/8</text><path d=\"M92.5 156V172\" stroke=\"#263d4d\" data-marca=\"2/8\" data-x=\"92.5\"/><text x=\"92.5\" y=\"199\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-rotulo-marca=\"2\">2/8</text><path d=\"M126.25 156V172\" stroke=\"#263d4d\" data-marca=\"3/8\" data-x=\"126.25\"/><text x=\"126.25\" y=\"225\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-rotulo-marca=\"3\">3/8</text><path d=\"M160.0 156V172\" stroke=\"#263d4d\" data-marca=\"4/8\" data-x=\"160.0\"/><text x=\"160.0\" y=\"199\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-rotulo-marca=\"4\">4/8</text><path d=\"M193.75 156V172\" stroke=\"#263d4d\" data-marca=\"5/8\" data-x=\"193.75\"/><text x=\"193.75\" y=\"225\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-rotulo-marca=\"5\">5/8</text><path d=\"M227.5 156V172\" stroke=\"#263d4d\" data-marca=\"6/8\" data-x=\"227.5\"/><text x=\"227.5\" y=\"199\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-rotulo-marca=\"6\">6/8</text><path d=\"M261.25 156V172\" stroke=\"#263d4d\" data-marca=\"7/8\" data-x=\"261.25\"/><text x=\"261.25\" y=\"225\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-rotulo-marca=\"7\">7/8</text><path d=\"M295.0 156V172\" stroke=\"#263d4d\" data-marca=\"8/8\" data-x=\"295.0\"/><text x=\"295.0\" y=\"199\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-rotulo-marca=\"8\">1</text><path d=\"M106.0 86V146M101.0 139L106.0 146L111.0 139\" fill=\"none\" stroke=\"#8a2d20\" stroke-width=\"2\" data-pedido=\"3/10\" data-x=\"106.0\"/><text x=\"160\" y=\"266\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Comparar as distâncias até as marcas</text></svg>",
+          "css": ".mfc-fr-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Reta fracionária de zero a um, com nove marcas igualmente espaçadas: zero, 1/8, 2/8, 3/8, 4/8, 5/8, 6/8, 7/8 e um. Uma seta marca 3/10 na posição exata, entre 2/8 e 3/8. Nenhuma marca é destacada como escolha correta e as diferenças não estão calculadas.",
+          "acessibilidade": "Reta fracionária de zero a um, com nove marcas igualmente espaçadas: zero, 1/8, 2/8, 3/8, 4/8, 5/8, 6/8, 7/8 e um. Uma seta marca 3/10 na posição exata, entre 2/8 e 3/8. Nenhuma marca é destacada como escolha correta e as diferenças não estão calculadas.",
+          "geometria": {
+            "tipo": "fr_revisao",
+            "modelo": "reta_oitavos",
+            "origem_x": 25,
+            "largura_reta": 270
+          },
+          "arquivo": "recursos/MFC6-B1-I-FR-04.svg"
+        }
+      ],
+      "assunto_nome": "Frações",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Frações solicitada pelo usuário",
+          "correcao_especifica": true,
+          "recurso_visual": "SVG matemático substitui tabelas; representações de FR-01/02/05 reformuladas",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-FR-05",
+      "numero": 5,
+      "titulo": "Usando a parte que sobrou",
+      "assunto": "FR",
+      "enunciado": "Uma oficina utiliza uma fração de uma cartolina no primeiro trabalho. No segundo, usa metade do que restou. Observe o esquema da cartolina e a indicação do segundo uso. Que fração da cartolina original sobra ao final?",
+      "dados": {
+        "uso_inicial": "1/3",
+        "fracao_do_restante_usada": "1/2"
+      },
+      "modelo_verificacao": "(1-F(D['uso_inicial']))*(1-F(D['fracao_do_restante_usada']))",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1/3.",
+          "valor": "1/3",
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "1/6.",
+          "valor": "1/6",
+          "erro_comum": "Subtrair 1/3 e 1/2 do mesmo inteiro."
+        },
+        {
+          "letra": "C",
+          "texto": "2/3.",
+          "valor": "2/3",
+          "erro_comum": "Ignorar segundo uso."
+        },
+        {
+          "letra": "D",
+          "texto": "1/2.",
+          "valor": "1/2",
+          "erro_comum": "Tomar a metade do restante como metade do inteiro inicial."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Depois do primeiro trabalho restam 2/3. Metade desses 2/3 é 1/3, usada no segundo; a outra metade, também 1/3, fica. Não se subtrai 1/2 do inteiro original.",
+      "habilidade": "Interpretar fração de uma quantidade remanescente.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Interpretar fração de uma quantidade remanescente."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Que fração da cartolina original sobra ao final?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa interpretar fração de uma quantidade remanescente.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "FR",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-FR-05",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-FR-05-FRV1",
+          "tipo": "svg",
+          "dados": {
+            "uso_inicial": "1/3",
+            "fracao_do_restante_usada": "1/2"
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 349\" width=\"320\" height=\"349\" class=\"mfc-fr-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-FR-05-FRV1-titulo\" aria-describedby=\"MFC6-B1-I-FR-05-FRV1-descricao\"><title id=\"MFC6-B1-I-FR-05-FRV1-titulo\">Usando a parte que sobrou</title><desc id=\"MFC6-B1-I-FR-05-FRV1-descricao\">Uma cartolina inteira é representada por três partes iguais. A primeira está cinza e identificada como já usada, correspondendo a 1/3. Uma chave reúne as outras duas partes como a sobra após o primeiro uso. A indicação do segundo uso é 1/2 somente dessa sobra. A cartolina após o segundo uso não está desenhada.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"349\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"uso_inicial\" data-valor=\"1/3\">Primeiro uso: 1/3 da cartolina</text><rect x=\"25\" y=\"62\" width=\"90\" height=\"84\" fill=\"#d6d6d6\" stroke=\"#263d4d\" data-terco=\"0\" data-usado=\"true\"/><rect x=\"115\" y=\"62\" width=\"90\" height=\"84\" fill=\"white\" stroke=\"#263d4d\" data-terco=\"1\" data-usado=\"false\"/><rect x=\"205\" y=\"62\" width=\"90\" height=\"84\" fill=\"white\" stroke=\"#263d4d\" data-terco=\"2\" data-usado=\"false\"/><text x=\"70\" y=\"97\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Já</text><text x=\"70\" y=\"123\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >usada</text><path d=\"M115 169V174H295V169\" stroke=\"#263d4d\" stroke-width=\"2\" fill=\"none\"/><text x=\"205\" y=\"204\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Parte que restou</text><text x=\"160\" y=\"252\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" data-campo=\"fracao_do_restante_usada\" data-valor=\"1/2\">Segundo uso: 1/2</text><text x=\"160\" y=\"282\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >somente da parte que restou</text><text x=\"160\" y=\"323\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Referência final: cartolina original</text></svg>",
+          "css": ".mfc-fr-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Uma cartolina inteira é representada por três partes iguais. A primeira está cinza e identificada como já usada, correspondendo a 1/3. Uma chave reúne as outras duas partes como a sobra após o primeiro uso. A indicação do segundo uso é 1/2 somente dessa sobra. A cartolina após o segundo uso não está desenhada.",
+          "acessibilidade": "Uma cartolina inteira é representada por três partes iguais. A primeira está cinza e identificada como já usada, correspondendo a 1/3. Uma chave reúne as outras duas partes como a sobra após o primeiro uso. A indicação do segundo uso é 1/2 somente dessa sobra. A cartolina após o segundo uso não está desenhada.",
+          "geometria": {
+            "tipo": "fr_revisao",
+            "modelo": "cartolina_restante"
+          },
+          "arquivo": "recursos/MFC6-B1-I-FR-05.svg"
+        }
+      ],
+      "assunto_nome": "Frações",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Frações solicitada pelo usuário",
+          "correcao_especifica": false,
+          "recurso_visual": "SVG matemático substitui tabelas; representações de FR-01/02/05 reformuladas",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-FR-06",
+      "numero": 6,
+      "titulo": "Total desconhecido, parte conhecida",
+      "assunto": "FR",
+      "enunciado": "O esquema representa o estoque inteiro dividido em cinco partes com a mesma quantidade de objetos. As três partes destacadas correspondem aos 18 objetos já catalogados. Quantos objetos existem no estoque completo?",
+      "dados": {
+        "objetos_catalogados": 18,
+        "fracao_catalogada": "3/5"
+      },
+      "modelo_verificacao": "F(D['objetos_catalogados'])/F(D['fracao_catalogada'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10,8 objetos.",
+          "valor": "10.8",
+          "erro_comum": "Aplicar a fração à quantidade que já corresponde a ela."
+        },
+        {
+          "letra": "B",
+          "texto": "30 objetos.",
+          "valor": 30,
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "24 objetos.",
+          "valor": 24,
+          "erro_comum": "Acrescentar apenas um quinto em vez de dois."
+        },
+        {
+          "letra": "D",
+          "texto": "90 objetos.",
+          "valor": 90,
+          "erro_comum": "Tomar 18 como um quinto."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Se três quintos são 18 objetos, cada quinto tem seis. O total de cinco quintos é 30. Multiplicar 18 por 3/5 calcularia uma fração da parte já conhecida.",
+      "habilidade": "Reconstruir o inteiro a partir de uma fração e sua quantidade.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Reconstruir o inteiro a partir de uma fração e sua quantidade."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Quantos objetos existem no estoque completo?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa reconstruir o inteiro a partir de uma fração e sua quantidade.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "FR",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-FR-06",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-FR-06-FRV1",
+          "tipo": "svg",
+          "dados": {
+            "objetos_catalogados": 18,
+            "fracao_catalogada": "3/5"
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 298\" width=\"320\" height=\"298\" class=\"mfc-fr-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-FR-06-FRV1-titulo\" aria-describedby=\"MFC6-B1-I-FR-06-FRV1-descricao\"><title id=\"MFC6-B1-I-FR-06-FRV1-titulo\">Total desconhecido, parte conhecida</title><desc id=\"MFC6-B1-I-FR-06-FRV1-descricao\">O estoque inteiro desconhecido aparece em uma barra com cinco partes iguais. As três primeiras estão destacadas, correspondendo a 3/5. Uma chave liga essas três partes à indicação de 18 objetos catalogados, como quantidade conjunta e não por parte. Os objetos por quinto e o total do estoque não estão indicados.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"298\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" >Estoque inteiro: ? objetos</text><rect x=\"30.0\" y=\"59\" width=\"52.0\" height=\"65\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"estoque\" data-parte=\"0\" data-preenchida=\"true\"/><rect x=\"82.0\" y=\"59\" width=\"52.0\" height=\"65\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"estoque\" data-parte=\"1\" data-preenchida=\"true\"/><rect x=\"134.0\" y=\"59\" width=\"52.0\" height=\"65\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"estoque\" data-parte=\"2\" data-preenchida=\"true\"/><rect x=\"186.0\" y=\"59\" width=\"52.0\" height=\"65\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"estoque\" data-parte=\"3\" data-preenchida=\"false\"/><rect x=\"238.0\" y=\"59\" width=\"52.0\" height=\"65\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"estoque\" data-parte=\"4\" data-preenchida=\"false\"/><path d=\"M30 146V151H186.0V146\" stroke=\"#263d4d\" stroke-width=\"2\" fill=\"none\"/><text x=\"112\" y=\"181\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" data-campo=\"objetos_catalogados\" data-valor=\"18\">18 catalogados</text><text x=\"160\" y=\"232\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"fracao_catalogada\" data-valor=\"3/5\">Parte catalogada: 3/5</text><text x=\"160\" y=\"271\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Partes com igual quantidade de objetos</text></svg>",
+          "css": ".mfc-fr-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "O estoque inteiro desconhecido aparece em uma barra com cinco partes iguais. As três primeiras estão destacadas, correspondendo a 3/5. Uma chave liga essas três partes à indicação de 18 objetos catalogados, como quantidade conjunta e não por parte. Os objetos por quinto e o total do estoque não estão indicados.",
+          "acessibilidade": "O estoque inteiro desconhecido aparece em uma barra com cinco partes iguais. As três primeiras estão destacadas, correspondendo a 3/5. Uma chave liga essas três partes à indicação de 18 objetos catalogados, como quantidade conjunta e não por parte. Os objetos por quinto e o total do estoque não estão indicados.",
+          "geometria": {
+            "tipo": "fr_revisao",
+            "modelo": "estoque_quintos"
+          },
+          "arquivo": "recursos/MFC6-B1-I-FR-06.svg"
+        }
+      ],
+      "assunto_nome": "Frações",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Frações solicitada pelo usuário",
+          "correcao_especifica": true,
+          "recurso_visual": "SVG matemático substitui tabelas; representações de FR-01/02/05 reformuladas",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-FR-07",
+      "numero": 7,
+      "titulo": "Comparar pedaços de duas fitas",
+      "assunto": "FR",
+      "enunciado": "Um pedaço da fita A será expresso como fração da fita B inteira. A medida física desse pedaço permanece a mesma: ele não é cortado nem ampliado quando muda o inteiro de referência. Observe as fitas e seus comprimentos. Qual fração da fita B equivale ao pedaço da fita A?",
+      "dados": {
+        "fita_A_cm": 20,
+        "pedaco_de_A": "3/5",
+        "fita_B_cm": 24
+      },
+      "modelo_verificacao": "F(D['fita_A_cm'])*F(D['pedaco_de_A'])/D['fita_B_cm']",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3/5.",
+          "valor": "3/5",
+          "erro_comum": "Manter fração apesar de mudar o inteiro."
+        },
+        {
+          "letra": "B",
+          "texto": "1/4.",
+          "valor": "1/4",
+          "erro_comum": "Calcular seis centímetros em vez de doze."
+        },
+        {
+          "letra": "C",
+          "texto": "1/2.",
+          "valor": "1/2",
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "5/6.",
+          "valor": "5/6",
+          "erro_comum": "Comparar apenas os comprimentos totais."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "O pedaço A mede 20×3/5=12 cm. Em uma fita B de 24 cm, 12 cm representam 12/24=1/2. Não se conserva automaticamente a fração ao trocar o inteiro.",
+      "habilidade": "Converter uma medida fracionária entre inteiros de tamanhos distintos.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Converter uma medida fracionária entre inteiros de tamanhos distintos."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual fração da fita B equivale ao pedaço da fita A?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa converter uma medida fracionária entre inteiros de tamanhos distintos.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "FR",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-FR-07",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-FR-07-FRV1",
+          "tipo": "svg",
+          "dados": {
+            "fita_A_cm": 20,
+            "pedaco_de_A": "3/5",
+            "fita_B_cm": 24
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 383\" width=\"320\" height=\"383\" class=\"mfc-fr-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-FR-07-FRV1-titulo\" aria-describedby=\"MFC6-B1-I-FR-07-FRV1-descricao\"><title id=\"MFC6-B1-I-FR-07-FRV1-titulo\">Comparar pedaços de duas fitas</title><desc id=\"MFC6-B1-I-FR-07-FRV1-descricao\">Fita A de 20 cm, dividida em cinco partes iguais, com as três primeiras destacadas como 3/5. Fita B de 24 cm, alinhada à esquerda e sem subdivisões ou trecho destacado. As duas fitas usam a mesma escala, 12 pixels por centímetro. O pedaço mantém o comprimento físico ao mudar a referência; nem seu comprimento calculado nem sua fração de B estão escritos.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"383\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" data-campo=\"fita_A_cm\" data-valor=\"20\">Fita A inteira: 20 cm</text><rect x=\"16.0\" y=\"46\" width=\"48.0\" height=\"54\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"A\" data-parte=\"0\" data-preenchida=\"true\"/><rect x=\"64.0\" y=\"46\" width=\"48.0\" height=\"54\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"A\" data-parte=\"1\" data-preenchida=\"true\"/><rect x=\"112.0\" y=\"46\" width=\"48.0\" height=\"54\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"A\" data-parte=\"2\" data-preenchida=\"true\"/><rect x=\"160.0\" y=\"46\" width=\"48.0\" height=\"54\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"A\" data-parte=\"3\" data-preenchida=\"false\"/><rect x=\"208.0\" y=\"46\" width=\"48.0\" height=\"54\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"A\" data-parte=\"4\" data-preenchida=\"false\"/><text x=\"160\" y=\"129\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"pedaco_de_A\" data-valor=\"3/5\">Pedaço destacado: 3/5 de A</text><text x=\"160\" y=\"191\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" data-campo=\"fita_B_cm\" data-valor=\"24\">Fita B inteira: 24 cm</text><rect x=\"16\" y=\"214\" width=\"288\" height=\"54\" fill=\"white\" stroke=\"#263d4d\" data-fita-inteira=\"B\"/><text x=\"160\" y=\"301\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >O mesmo pedaço, outra referência</text><text x=\"160\" y=\"330\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Seu comprimento não muda</text><text x=\"160\" y=\"357\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Fitas inteiras na mesma escala</text></svg>",
+          "css": ".mfc-fr-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Fita A de 20 cm, dividida em cinco partes iguais, com as três primeiras destacadas como 3/5. Fita B de 24 cm, alinhada à esquerda e sem subdivisões ou trecho destacado. As duas fitas usam a mesma escala, 12 pixels por centímetro. O pedaço mantém o comprimento físico ao mudar a referência; nem seu comprimento calculado nem sua fração de B estão escritos.",
+          "acessibilidade": "Fita A de 20 cm, dividida em cinco partes iguais, com as três primeiras destacadas como 3/5. Fita B de 24 cm, alinhada à esquerda e sem subdivisões ou trecho destacado. As duas fitas usam a mesma escala, 12 pixels por centímetro. O pedaço mantém o comprimento físico ao mudar a referência; nem seu comprimento calculado nem sua fração de B estão escritos.",
+          "geometria": {
+            "tipo": "fr_revisao",
+            "modelo": "fitas_referencia",
+            "escala_px_por_cm": 12
+          },
+          "arquivo": "recursos/MFC6-B1-I-FR-07.svg"
+        }
+      ],
+      "assunto_nome": "Frações",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Frações solicitada pelo usuário",
+          "correcao_especifica": true,
+          "recurso_visual": "SVG matemático substitui tabelas; representações de FR-01/02/05 reformuladas",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-FR-08",
+      "numero": 8,
+      "titulo": "Qual proposta cabe?",
+      "assunto": "FR",
+      "enunciado": "Uma apresentação deve reservar metade do tempo para debate e uma fração para demonstração. O restante precisa ser pelo menos um sexto para perguntas. Observe as barras de reservas e propostas; todas se referem ao tempo total da mesma apresentação. Qual proposta de demonstração permite atender à regra?",
+      "dados": {
+        "debate": "1/2",
+        "perguntas_minimas": "1/6",
+        "propostas": [
+          "1/3",
+          "1/2",
+          "2/3",
+          "5/12"
+        ]
+      },
+      "modelo_verificacao": "[f for f in D['propostas'] if 1-F(D['debate'])-F(f)>=F(D['perguntas_minimas'])]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1/2 do tempo.",
+          "valor": [
+            "1/2"
+          ],
+          "erro_comum": "Usar todo o restante sem reservar perguntas."
+        },
+        {
+          "letra": "B",
+          "texto": "2/3 do tempo.",
+          "valor": [
+            "2/3"
+          ],
+          "erro_comum": "Exceder o tempo total com o debate."
+        },
+        {
+          "letra": "C",
+          "texto": "5/12 do tempo.",
+          "valor": [
+            "5/12"
+          ],
+          "erro_comum": "Reservar somente 1/12 para perguntas."
+        },
+        {
+          "letra": "D",
+          "texto": "1/3 do tempo.",
+          "valor": [
+            "1/3"
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Depois do debate resta 1/2. Para garantir 1/6 de perguntas, a demonstração pode usar no máximo 1/3. Entre as propostas, só 1/3 atende, com igualdade no limite.",
+      "habilidade": "Escolher uma alocação de frações sob reserva mínima.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Escolher uma alocação de frações sob reserva mínima."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual proposta de demonstração permite atender à regra?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa escolher uma alocação de frações sob reserva mínima.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "FR",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-FR-08",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-FR-08-FRV1",
+          "tipo": "svg",
+          "dados": {
+            "debate": "1/2",
+            "perguntas_minimas": "1/6",
+            "propostas": [
+              "1/3",
+              "1/2",
+              "2/3",
+              "5/12"
+            ]
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 515\" width=\"320\" height=\"515\" class=\"mfc-fr-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-FR-08-FRV1-titulo\" aria-describedby=\"MFC6-B1-I-FR-08-FRV1-descricao\"><title id=\"MFC6-B1-I-FR-08-FRV1-titulo\">Qual proposta cabe?</title><desc id=\"MFC6-B1-I-FR-08-FRV1-descricao\">Seis barras independentes e de igual comprimento representam o tempo inteiro da mesma apresentação. Debate: 1/2; perguntas: mínimo de 1/6; propostas de demonstração: 1/3, 1/2, 2/3 e 5/12. Cada barra está dividida em doze partes iguais para comparação. Nenhuma proposta está combinada às reservas ou marcada como aceita.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"515\" fill=\"white\"/><text x=\"160\" y=\"24\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >Mesmo tempo total de referência</text><text x=\"160\" y=\"65\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"debate\" data-valor=\"1/2\">Debate: 1/2</text><rect x=\"30.0\" y=\"77\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"debate\" data-parte=\"0\" data-preenchida=\"true\"/><rect x=\"51.66666666666667\" y=\"77\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"debate\" data-parte=\"1\" data-preenchida=\"true\"/><rect x=\"73.33333333333334\" y=\"77\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"debate\" data-parte=\"2\" data-preenchida=\"true\"/><rect x=\"95.0\" y=\"77\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"debate\" data-parte=\"3\" data-preenchida=\"true\"/><rect x=\"116.66666666666667\" y=\"77\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"debate\" data-parte=\"4\" data-preenchida=\"true\"/><rect x=\"138.33333333333331\" y=\"77\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"debate\" data-parte=\"5\" data-preenchida=\"true\"/><rect x=\"160.0\" y=\"77\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"debate\" data-parte=\"6\" data-preenchida=\"false\"/><rect x=\"181.66666666666666\" y=\"77\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"debate\" data-parte=\"7\" data-preenchida=\"false\"/><rect x=\"203.33333333333334\" y=\"77\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"debate\" data-parte=\"8\" data-preenchida=\"false\"/><rect x=\"225.0\" y=\"77\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"debate\" data-parte=\"9\" data-preenchida=\"false\"/><rect x=\"246.66666666666666\" y=\"77\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"debate\" data-parte=\"10\" data-preenchida=\"false\"/><rect x=\"268.33333333333337\" y=\"77\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"debate\" data-parte=\"11\" data-preenchida=\"false\"/><text x=\"160\" y=\"135\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"perguntas_minimas\" data-valor=\"1/6\">Perguntas: mínimo: 1/6</text><rect x=\"30.0\" y=\"147\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"perguntas_minimas\" data-parte=\"0\" data-preenchida=\"true\"/><rect x=\"51.66666666666667\" y=\"147\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"perguntas_minimas\" data-parte=\"1\" data-preenchida=\"true\"/><rect x=\"73.33333333333334\" y=\"147\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"perguntas_minimas\" data-parte=\"2\" data-preenchida=\"false\"/><rect x=\"95.0\" y=\"147\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"perguntas_minimas\" data-parte=\"3\" data-preenchida=\"false\"/><rect x=\"116.66666666666667\" y=\"147\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"perguntas_minimas\" data-parte=\"4\" data-preenchida=\"false\"/><rect x=\"138.33333333333331\" y=\"147\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"perguntas_minimas\" data-parte=\"5\" data-preenchida=\"false\"/><rect x=\"160.0\" y=\"147\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"perguntas_minimas\" data-parte=\"6\" data-preenchida=\"false\"/><rect x=\"181.66666666666666\" y=\"147\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"perguntas_minimas\" data-parte=\"7\" data-preenchida=\"false\"/><rect x=\"203.33333333333334\" y=\"147\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"perguntas_minimas\" data-parte=\"8\" data-preenchida=\"false\"/><rect x=\"225.0\" y=\"147\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"perguntas_minimas\" data-parte=\"9\" data-preenchida=\"false\"/><rect x=\"246.66666666666666\" y=\"147\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"perguntas_minimas\" data-parte=\"10\" data-preenchida=\"false\"/><rect x=\"268.33333333333337\" y=\"147\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"perguntas_minimas\" data-parte=\"11\" data-preenchida=\"false\"/><text x=\"160\" y=\"220\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"propostas.0\" data-valor=\"1/3\">Proposta 1: 1/3</text><rect x=\"30.0\" y=\"232\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.0\" data-parte=\"0\" data-preenchida=\"true\"/><rect x=\"51.66666666666667\" y=\"232\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.0\" data-parte=\"1\" data-preenchida=\"true\"/><rect x=\"73.33333333333334\" y=\"232\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.0\" data-parte=\"2\" data-preenchida=\"true\"/><rect x=\"95.0\" y=\"232\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.0\" data-parte=\"3\" data-preenchida=\"true\"/><rect x=\"116.66666666666667\" y=\"232\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.0\" data-parte=\"4\" data-preenchida=\"false\"/><rect x=\"138.33333333333331\" y=\"232\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.0\" data-parte=\"5\" data-preenchida=\"false\"/><rect x=\"160.0\" y=\"232\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.0\" data-parte=\"6\" data-preenchida=\"false\"/><rect x=\"181.66666666666666\" y=\"232\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.0\" data-parte=\"7\" data-preenchida=\"false\"/><rect x=\"203.33333333333334\" y=\"232\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.0\" data-parte=\"8\" data-preenchida=\"false\"/><rect x=\"225.0\" y=\"232\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.0\" data-parte=\"9\" data-preenchida=\"false\"/><rect x=\"246.66666666666666\" y=\"232\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.0\" data-parte=\"10\" data-preenchida=\"false\"/><rect x=\"268.33333333333337\" y=\"232\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.0\" data-parte=\"11\" data-preenchida=\"false\"/><text x=\"160\" y=\"290\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"propostas.1\" data-valor=\"1/2\">Proposta 2: 1/2</text><rect x=\"30.0\" y=\"302\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.1\" data-parte=\"0\" data-preenchida=\"true\"/><rect x=\"51.66666666666667\" y=\"302\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.1\" data-parte=\"1\" data-preenchida=\"true\"/><rect x=\"73.33333333333334\" y=\"302\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.1\" data-parte=\"2\" data-preenchida=\"true\"/><rect x=\"95.0\" y=\"302\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.1\" data-parte=\"3\" data-preenchida=\"true\"/><rect x=\"116.66666666666667\" y=\"302\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.1\" data-parte=\"4\" data-preenchida=\"true\"/><rect x=\"138.33333333333331\" y=\"302\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.1\" data-parte=\"5\" data-preenchida=\"true\"/><rect x=\"160.0\" y=\"302\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.1\" data-parte=\"6\" data-preenchida=\"false\"/><rect x=\"181.66666666666666\" y=\"302\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.1\" data-parte=\"7\" data-preenchida=\"false\"/><rect x=\"203.33333333333334\" y=\"302\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.1\" data-parte=\"8\" data-preenchida=\"false\"/><rect x=\"225.0\" y=\"302\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.1\" data-parte=\"9\" data-preenchida=\"false\"/><rect x=\"246.66666666666666\" y=\"302\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.1\" data-parte=\"10\" data-preenchida=\"false\"/><rect x=\"268.33333333333337\" y=\"302\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.1\" data-parte=\"11\" data-preenchida=\"false\"/><text x=\"160\" y=\"360\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"propostas.2\" data-valor=\"2/3\">Proposta 3: 2/3</text><rect x=\"30.0\" y=\"372\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.2\" data-parte=\"0\" data-preenchida=\"true\"/><rect x=\"51.66666666666667\" y=\"372\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.2\" data-parte=\"1\" data-preenchida=\"true\"/><rect x=\"73.33333333333334\" y=\"372\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.2\" data-parte=\"2\" data-preenchida=\"true\"/><rect x=\"95.0\" y=\"372\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.2\" data-parte=\"3\" data-preenchida=\"true\"/><rect x=\"116.66666666666667\" y=\"372\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.2\" data-parte=\"4\" data-preenchida=\"true\"/><rect x=\"138.33333333333331\" y=\"372\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.2\" data-parte=\"5\" data-preenchida=\"true\"/><rect x=\"160.0\" y=\"372\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.2\" data-parte=\"6\" data-preenchida=\"true\"/><rect x=\"181.66666666666666\" y=\"372\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.2\" data-parte=\"7\" data-preenchida=\"true\"/><rect x=\"203.33333333333334\" y=\"372\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.2\" data-parte=\"8\" data-preenchida=\"false\"/><rect x=\"225.0\" y=\"372\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.2\" data-parte=\"9\" data-preenchida=\"false\"/><rect x=\"246.66666666666666\" y=\"372\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.2\" data-parte=\"10\" data-preenchida=\"false\"/><rect x=\"268.33333333333337\" y=\"372\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.2\" data-parte=\"11\" data-preenchida=\"false\"/><text x=\"160\" y=\"430\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"propostas.3\" data-valor=\"5/12\">Proposta 4: 5/12</text><rect x=\"30.0\" y=\"442\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.3\" data-parte=\"0\" data-preenchida=\"true\"/><rect x=\"51.66666666666667\" y=\"442\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.3\" data-parte=\"1\" data-preenchida=\"true\"/><rect x=\"73.33333333333334\" y=\"442\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.3\" data-parte=\"2\" data-preenchida=\"true\"/><rect x=\"95.0\" y=\"442\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.3\" data-parte=\"3\" data-preenchida=\"true\"/><rect x=\"116.66666666666667\" y=\"442\" width=\"21.666666666666668\" height=\"24\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"propostas.3\" data-parte=\"4\" data-preenchida=\"true\"/><rect x=\"138.33333333333331\" y=\"442\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.3\" data-parte=\"5\" data-preenchida=\"false\"/><rect x=\"160.0\" y=\"442\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.3\" data-parte=\"6\" data-preenchida=\"false\"/><rect x=\"181.66666666666666\" y=\"442\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.3\" data-parte=\"7\" data-preenchida=\"false\"/><rect x=\"203.33333333333334\" y=\"442\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.3\" data-parte=\"8\" data-preenchida=\"false\"/><rect x=\"225.0\" y=\"442\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.3\" data-parte=\"9\" data-preenchida=\"false\"/><rect x=\"246.66666666666666\" y=\"442\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.3\" data-parte=\"10\" data-preenchida=\"false\"/><rect x=\"268.33333333333337\" y=\"442\" width=\"21.666666666666668\" height=\"24\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"propostas.3\" data-parte=\"11\" data-preenchida=\"false\"/><text x=\"160\" y=\"490\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Barras independentes: não são a soma</text></svg>",
+          "css": ".mfc-fr-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Seis barras independentes e de igual comprimento representam o tempo inteiro da mesma apresentação. Debate: 1/2; perguntas: mínimo de 1/6; propostas de demonstração: 1/3, 1/2, 2/3 e 5/12. Cada barra está dividida em doze partes iguais para comparação. Nenhuma proposta está combinada às reservas ou marcada como aceita.",
+          "acessibilidade": "Seis barras independentes e de igual comprimento representam o tempo inteiro da mesma apresentação. Debate: 1/2; perguntas: mínimo de 1/6; propostas de demonstração: 1/3, 1/2, 2/3 e 5/12. Cada barra está dividida em doze partes iguais para comparação. Nenhuma proposta está combinada às reservas ou marcada como aceita.",
+          "geometria": {
+            "tipo": "fr_revisao",
+            "modelo": "tempo_propostas"
+          },
+          "arquivo": "recursos/MFC6-B1-I-FR-08.svg"
+        }
+      ],
+      "assunto_nome": "Frações",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Frações solicitada pelo usuário",
+          "correcao_especifica": false,
+          "recurso_visual": "SVG matemático substitui tabelas; representações de FR-01/02/05 reformuladas",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-FR-09",
+      "numero": 9,
+      "titulo": "Transferência entre recipientes",
+      "assunto": "FR",
+      "enunciado": "Dois recipientes têm a mesma capacidade. Um contém metade e o outro um quarto. Todo o líquido é repartido igualmente entre eles, sem perda. Observe os recipientes antes da repartição e o esquema da mudança. Que fração da capacidade de cada recipiente fica ocupada?",
+      "dados": {
+        "recipiente_A": "1/2",
+        "recipiente_B": "1/4",
+        "recipientes": 2
+      },
+      "modelo_verificacao": "(F(D['recipiente_A'])+F(D['recipiente_B']))/D['recipientes']",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3/8.",
+          "valor": "3/8",
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "3/4.",
+          "valor": "3/4",
+          "erro_comum": "Usar o total em cada recipiente."
+        },
+        {
+          "letra": "C",
+          "texto": "1/8.",
+          "valor": "1/8",
+          "erro_comum": "Repartir a diferença, não a soma."
+        },
+        {
+          "letra": "D",
+          "texto": "1/2.",
+          "valor": "1/2",
+          "erro_comum": "Supor que redistribuição preenche automaticamente metade de cada."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "O total é 3/4 da capacidade de um recipiente. Repartindo em dois recipientes iguais, cada um fica com 3/8. Não há 3/4 em cada, porque isso dobraria o líquido.",
+      "habilidade": "Conservar quantidade total ao redistribuir frações de uma mesma unidade.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Conservar quantidade total ao redistribuir frações de uma mesma unidade."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Que fração da capacidade de cada recipiente fica ocupada?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa conservar quantidade total ao redistribuir frações de uma mesma unidade.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "FR",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-FR-09",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-FR-09-FRV1",
+          "tipo": "svg",
+          "dados": {
+            "recipiente_A": "1/2",
+            "recipiente_B": "1/4",
+            "recipientes": 2
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 488\" width=\"320\" height=\"488\" class=\"mfc-fr-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-FR-09-FRV1-titulo\" aria-describedby=\"MFC6-B1-I-FR-09-FRV1-descricao\"><title id=\"MFC6-B1-I-FR-09-FRV1-titulo\">Transferência entre recipientes</title><desc id=\"MFC6-B1-I-FR-09-FRV1-descricao\">Dois recipientes retangulares iguais antes da repartição: A está preenchido até metade da altura e B até um quarto, com as frações 1/2 e 1/4 identificadas. Uma seta indica repartir igualmente sem perda. Abaixo, os mesmos dois recipientes aparecem sem nível preenchido e com interrogações. Nenhum volume final está desenhado ou calculado.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"488\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" >Antes da repartição</text><rect x=\"43\" y=\"49\" width=\"92\" height=\"120\" fill=\"white\" stroke=\"#263d4d\" /><rect x=\"43\" y=\"109.0\" width=\"92\" height=\"60.0\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-liquido=\"A\"/><text x=\"89\" y=\"199\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" data-campo=\"recipiente_A\" data-valor=\"1/2\">A: 1/2</text><rect x=\"185\" y=\"49\" width=\"92\" height=\"120\" fill=\"white\" stroke=\"#263d4d\" /><rect x=\"185\" y=\"139.0\" width=\"92\" height=\"30.0\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-liquido=\"B\"/><text x=\"231\" y=\"199\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" data-campo=\"recipiente_B\" data-valor=\"1/4\">B: 1/4</text><path d=\"M160 219V251M156 246L160 251L164 246\" stroke=\"#263d4d\" stroke-width=\"2\" fill=\"none\"/><text x=\"160\" y=\"278\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Repartir igualmente, sem perda</text><rect x=\"43\" y=\"301\" width=\"92\" height=\"120\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"89\" y=\"349\" text-anchor=\"middle\" font-size=\"28\" fill=\"#172b3a\" >?</text><text x=\"89\" y=\"381\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >da</text><text x=\"89\" y=\"403\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >capacidade</text><rect x=\"185\" y=\"301\" width=\"92\" height=\"120\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"231\" y=\"349\" text-anchor=\"middle\" font-size=\"28\" fill=\"#172b3a\" >?</text><text x=\"231\" y=\"381\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >da</text><text x=\"231\" y=\"403\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >capacidade</text><text x=\"160\" y=\"462\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-campo=\"recipientes\" data-valor=\"2\">2 recipientes de mesma capacidade</text></svg>",
+          "css": ".mfc-fr-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Dois recipientes retangulares iguais antes da repartição: A está preenchido até metade da altura e B até um quarto, com as frações 1/2 e 1/4 identificadas. Uma seta indica repartir igualmente sem perda. Abaixo, os mesmos dois recipientes aparecem sem nível preenchido e com interrogações. Nenhum volume final está desenhado ou calculado.",
+          "acessibilidade": "Dois recipientes retangulares iguais antes da repartição: A está preenchido até metade da altura e B até um quarto, com as frações 1/2 e 1/4 identificadas. Uma seta indica repartir igualmente sem perda. Abaixo, os mesmos dois recipientes aparecem sem nível preenchido e com interrogações. Nenhum volume final está desenhado ou calculado.",
+          "geometria": {
+            "tipo": "fr_revisao",
+            "modelo": "recipientes_reparticao",
+            "largura_recipiente": 92,
+            "altura_recipiente": 120
+          },
+          "arquivo": "recursos/MFC6-B1-I-FR-09.svg"
+        }
+      ],
+      "assunto_nome": "Frações",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Frações solicitada pelo usuário",
+          "correcao_especifica": false,
+          "recurso_visual": "SVG matemático substitui tabelas; representações de FR-01/02/05 reformuladas",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-FR-10",
+      "numero": 10,
+      "titulo": "Partes com tarefas sobrepostas",
+      "assunto": "FR",
+      "enunciado": "Em um painel de avisos, metade da área é azul e um terço tem textura. Uma sexta parte do painel tem as duas características. Observe o diagrama e a legenda. Qual fração tem azul ou textura, contando a região comum uma só vez?",
+      "dados": {
+        "azul": "1/2",
+        "textura": "1/3",
+        "ambos": "1/6"
+      },
+      "modelo_verificacao": "F(D['azul'])+F(D['textura'])-F(D['ambos'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5/6.",
+          "valor": "5/6",
+          "erro_comum": "Somar sem retirar sobreposição."
+        },
+        {
+          "letra": "B",
+          "texto": "2/3.",
+          "valor": "2/3",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "1/2.",
+          "valor": "1/2",
+          "erro_comum": "Retirar a região comum duas vezes."
+        },
+        {
+          "letra": "D",
+          "texto": "1.",
+          "valor": "1",
+          "erro_comum": "Somar a interseção como área adicional."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "1/2+1/3=5/6, mas a região de 1/6 foi contada duas vezes. Retiramos uma cópia: 5/6−1/6=4/6=2/3.",
+      "habilidade": "Combinar frações de áreas com interseção sem duplicação.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Combinar frações de áreas com interseção sem duplicação."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual fração tem azul ou textura, contando a região comum uma só vez?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa combinar frações de áreas com interseção sem duplicação.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "FR",
+        "visual_relevante": true,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-FR-10",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-FR-10-FRV1",
+          "tipo": "svg",
+          "dados": {
+            "azul": "1/2",
+            "textura": "1/3",
+            "ambos": "1/6"
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 437\" width=\"320\" height=\"437\" class=\"mfc-fr-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-FR-10-FRV1-titulo\" aria-describedby=\"MFC6-B1-I-FR-10-FRV1-descricao\"><title id=\"MFC6-B1-I-FR-10-FRV1-titulo\">Partes com tarefas sobrepostas</title><desc id=\"MFC6-B1-I-FR-10-FRV1-descricao\">Painel retangular dividido em seis regiões iguais, em três linhas e duas colunas. As três regiões da coluna esquerda são azuis. As duas regiões da primeira linha têm textura de linhas diagonais. A região superior esquerda é azul e tem textura simultaneamente. A legenda informa azul 1/2, textura 1/3 e ambas 1/6. A união não recebe destaque adicional e sua fração não é apresentada.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"437\" fill=\"white\"/><defs><pattern id=\"MFC6-B1-I-FR-10-textura\" width=\"8\" height=\"8\" patternUnits=\"userSpaceOnUse\"><path d=\"M-2 2L2 -2M0 8L8 0M6 10L10 6\" stroke=\"#263d4d\" stroke-width=\"1.5\"/></pattern></defs><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" >Painel de avisos</text><rect x=\"40\" y=\"54\" width=\"120\" height=\"66\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-regiao=\"0\" data-azul=\"true\" data-textura=\"true\"/><rect x=\"40\" y=\"54\" width=\"120\" height=\"66\" fill=\"url(#MFC6-B1-I-FR-10-textura)\" stroke=\"#263d4d\" data-sobre-textura=\"0\"/><rect x=\"160\" y=\"54\" width=\"120\" height=\"66\" fill=\"white\" stroke=\"#263d4d\" data-regiao=\"1\" data-azul=\"false\" data-textura=\"true\"/><rect x=\"160\" y=\"54\" width=\"120\" height=\"66\" fill=\"url(#MFC6-B1-I-FR-10-textura)\" stroke=\"#263d4d\" data-sobre-textura=\"1\"/><rect x=\"40\" y=\"120\" width=\"120\" height=\"66\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-regiao=\"2\" data-azul=\"true\" data-textura=\"false\"/><rect x=\"160\" y=\"120\" width=\"120\" height=\"66\" fill=\"white\" stroke=\"#263d4d\" data-regiao=\"3\" data-azul=\"false\" data-textura=\"false\"/><rect x=\"40\" y=\"186\" width=\"120\" height=\"66\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-regiao=\"4\" data-azul=\"true\" data-textura=\"false\"/><rect x=\"160\" y=\"186\" width=\"120\" height=\"66\" fill=\"white\" stroke=\"#263d4d\" data-regiao=\"5\" data-azul=\"false\" data-textura=\"false\"/><rect x=\"25\" y=\"277\" width=\"28\" height=\"22\" fill=\"#aac7dd\" stroke=\"#263d4d\" /><text x=\"183\" y=\"295\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"azul\" data-valor=\"1/2\">Azul: 1/2</text><rect x=\"25\" y=\"313\" width=\"28\" height=\"22\" fill=\"url(#MFC6-B1-I-FR-10-textura)\" stroke=\"#263d4d\" /><text x=\"183\" y=\"331\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"textura\" data-valor=\"1/3\">Textura: 1/3</text><rect x=\"25\" y=\"349\" width=\"28\" height=\"22\" fill=\"#aac7dd\" stroke=\"#263d4d\" /><rect x=\"25\" y=\"349\" width=\"28\" height=\"22\" fill=\"url(#MFC6-B1-I-FR-10-textura)\" stroke=\"#263d4d\" /><text x=\"183\" y=\"367\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"ambos\" data-valor=\"1/6\">As duas: 1/6</text><text x=\"160\" y=\"411\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Regiões de mesma área</text></svg>",
+          "css": ".mfc-fr-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Painel retangular dividido em seis regiões iguais, em três linhas e duas colunas. As três regiões da coluna esquerda são azuis. As duas regiões da primeira linha têm textura de linhas diagonais. A região superior esquerda é azul e tem textura simultaneamente. A legenda informa azul 1/2, textura 1/3 e ambas 1/6. A união não recebe destaque adicional e sua fração não é apresentada.",
+          "acessibilidade": "Painel retangular dividido em seis regiões iguais, em três linhas e duas colunas. As três regiões da coluna esquerda são azuis. As duas regiões da primeira linha têm textura de linhas diagonais. A região superior esquerda é azul e tem textura simultaneamente. A legenda informa azul 1/2, textura 1/3 e ambas 1/6. A união não recebe destaque adicional e sua fração não é apresentada.",
+          "geometria": {
+            "tipo": "fr_revisao",
+            "modelo": "painel_sobreposicao",
+            "largura_regiao": 120,
+            "altura_regiao": 66,
+            "linhas": 3,
+            "colunas": 2
+          },
+          "arquivo": "recursos/MFC6-B1-I-FR-10.svg"
+        }
+      ],
+      "assunto_nome": "Frações",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Frações solicitada pelo usuário",
+          "correcao_especifica": true,
+          "recurso_visual": "SVG matemático substitui tabelas; representações de FR-01/02/05 reformuladas",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-FR-11",
+      "numero": 11,
+      "titulo": "Mesma fração, totais diferentes",
+      "assunto": "FR",
+      "enunciado": "Duas equipes informam que concluíram a mesma fração dos seus relatórios. Observe os conjuntos de relatórios, organizados em quatro grupos iguais para cada equipe, e a fração concluída informada. Qual conclusão os dados permitem sobre a quantidade concluída?",
+      "dados": {
+        "fracao_concluida": "3/4",
+        "total_equipe_A": 16,
+        "total_equipe_B": 24
+      },
+      "modelo_verificacao": "[D['total_equipe_A']*F(D['fracao_concluida']),D['total_equipe_B']*F(D['fracao_concluida'])]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Empate: 3 relatórios em cada.",
+          "valor": [
+            3,
+            3
+          ],
+          "erro_comum": "Tratar numerador como quantidade absoluta."
+        },
+        {
+          "letra": "B",
+          "texto": "Empate: 12 em cada.",
+          "valor": [
+            12,
+            12
+          ],
+          "erro_comum": "Usar o total A nas duas equipes."
+        },
+        {
+          "letra": "C",
+          "texto": "B concluiu mais: 18 contra 12.",
+          "valor": [
+            12,
+            18
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "A concluiu mais: 16 contra 6.",
+          "valor": [
+            16,
+            6
+          ],
+          "erro_comum": "Confundir total com parte concluída e parte faltante."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "A concluiu 12; B,18. A mesma fração não significa a mesma quantidade quando os inteiros são diferentes. B concluiu seis relatórios a mais.",
+      "habilidade": "Distinguir igualdade de frações e igualdade de quantidades.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Distinguir igualdade de frações e igualdade de quantidades."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual conclusão os dados permitem sobre a quantidade concluída?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa distinguir igualdade de frações e igualdade de quantidades.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "FR",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-FR-11",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-FR-11-FRV1",
+          "tipo": "svg",
+          "dados": {
+            "fracao_concluida": "3/4",
+            "total_equipe_A": 16,
+            "total_equipe_B": 24
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 411\" width=\"320\" height=\"411\" class=\"mfc-fr-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-FR-11-FRV1-titulo\" aria-describedby=\"MFC6-B1-I-FR-11-FRV1-descricao\"><title id=\"MFC6-B1-I-FR-11-FRV1-titulo\">Mesma fração, totais diferentes</title><desc id=\"MFC6-B1-I-FR-11-FRV1-descricao\">Equipe A: 16 relatórios em quatro grupos iguais de quatro. Equipe B: 24 relatórios em quatro grupos iguais de seis. Cada relatório é uma unidade retangular sem preenchimento. As equipes concluíram 3/4 de seus respectivos totais, mas os grupos concluídos não estão destacados nem suas quantidades calculadas.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"411\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" data-campo=\"fracao_concluida\" data-valor=\"3/4\">Cada equipe concluiu 3/4</text><text x=\"88\" y=\"64\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"total_equipe_A\" data-valor=\"16\">Equipe A: 16</text><rect x=\"29\" y=\"85\" width=\"118\" height=\"51\" fill=\"#f8fafb\" stroke=\"#263d4d\" data-grupo-equipe=\"A\" data-grupo=\"0\"/><rect x=\"42\" y=\"92\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"A\" data-relatorio=\"0\"/><rect x=\"74\" y=\"92\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"A\" data-relatorio=\"1\"/><rect x=\"106\" y=\"92\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"A\" data-relatorio=\"2\"/><rect x=\"42\" y=\"115\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"A\" data-relatorio=\"3\"/><rect x=\"29\" y=\"145\" width=\"118\" height=\"51\" fill=\"#f8fafb\" stroke=\"#263d4d\" data-grupo-equipe=\"A\" data-grupo=\"1\"/><rect x=\"42\" y=\"152\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"A\" data-relatorio=\"4\"/><rect x=\"74\" y=\"152\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"A\" data-relatorio=\"5\"/><rect x=\"106\" y=\"152\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"A\" data-relatorio=\"6\"/><rect x=\"42\" y=\"175\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"A\" data-relatorio=\"7\"/><rect x=\"29\" y=\"205\" width=\"118\" height=\"51\" fill=\"#f8fafb\" stroke=\"#263d4d\" data-grupo-equipe=\"A\" data-grupo=\"2\"/><rect x=\"42\" y=\"212\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"A\" data-relatorio=\"8\"/><rect x=\"74\" y=\"212\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"A\" data-relatorio=\"9\"/><rect x=\"106\" y=\"212\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"A\" data-relatorio=\"10\"/><rect x=\"42\" y=\"235\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"A\" data-relatorio=\"11\"/><rect x=\"29\" y=\"265\" width=\"118\" height=\"51\" fill=\"#f8fafb\" stroke=\"#263d4d\" data-grupo-equipe=\"A\" data-grupo=\"3\"/><rect x=\"42\" y=\"272\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"A\" data-relatorio=\"12\"/><rect x=\"74\" y=\"272\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"A\" data-relatorio=\"13\"/><rect x=\"106\" y=\"272\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"A\" data-relatorio=\"14\"/><rect x=\"42\" y=\"295\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"A\" data-relatorio=\"15\"/><text x=\"232\" y=\"64\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"total_equipe_B\" data-valor=\"24\">Equipe B: 24</text><rect x=\"173\" y=\"85\" width=\"118\" height=\"51\" fill=\"#f8fafb\" stroke=\"#263d4d\" data-grupo-equipe=\"B\" data-grupo=\"0\"/><rect x=\"186\" y=\"92\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"0\"/><rect x=\"218\" y=\"92\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"1\"/><rect x=\"250\" y=\"92\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"2\"/><rect x=\"186\" y=\"115\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"3\"/><rect x=\"218\" y=\"115\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"4\"/><rect x=\"250\" y=\"115\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"5\"/><rect x=\"173\" y=\"145\" width=\"118\" height=\"51\" fill=\"#f8fafb\" stroke=\"#263d4d\" data-grupo-equipe=\"B\" data-grupo=\"1\"/><rect x=\"186\" y=\"152\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"6\"/><rect x=\"218\" y=\"152\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"7\"/><rect x=\"250\" y=\"152\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"8\"/><rect x=\"186\" y=\"175\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"9\"/><rect x=\"218\" y=\"175\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"10\"/><rect x=\"250\" y=\"175\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"11\"/><rect x=\"173\" y=\"205\" width=\"118\" height=\"51\" fill=\"#f8fafb\" stroke=\"#263d4d\" data-grupo-equipe=\"B\" data-grupo=\"2\"/><rect x=\"186\" y=\"212\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"12\"/><rect x=\"218\" y=\"212\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"13\"/><rect x=\"250\" y=\"212\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"14\"/><rect x=\"186\" y=\"235\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"15\"/><rect x=\"218\" y=\"235\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"16\"/><rect x=\"250\" y=\"235\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"17\"/><rect x=\"173\" y=\"265\" width=\"118\" height=\"51\" fill=\"#f8fafb\" stroke=\"#263d4d\" data-grupo-equipe=\"B\" data-grupo=\"3\"/><rect x=\"186\" y=\"272\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"18\"/><rect x=\"218\" y=\"272\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"19\"/><rect x=\"250\" y=\"272\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"20\"/><rect x=\"186\" y=\"295\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"21\"/><rect x=\"218\" y=\"295\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"22\"/><rect x=\"250\" y=\"295\" width=\"23\" height=\"17\" fill=\"white\" stroke=\"#263d4d\" data-equipe=\"B\" data-relatorio=\"23\"/><text x=\"160\" y=\"354\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Quatro grupos iguais em cada equipe</text><text x=\"160\" y=\"384\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Os concluídos não estão destacados</text></svg>",
+          "css": ".mfc-fr-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Equipe A: 16 relatórios em quatro grupos iguais de quatro. Equipe B: 24 relatórios em quatro grupos iguais de seis. Cada relatório é uma unidade retangular sem preenchimento. As equipes concluíram 3/4 de seus respectivos totais, mas os grupos concluídos não estão destacados nem suas quantidades calculadas.",
+          "acessibilidade": "Equipe A: 16 relatórios em quatro grupos iguais de quatro. Equipe B: 24 relatórios em quatro grupos iguais de seis. Cada relatório é uma unidade retangular sem preenchimento. As equipes concluíram 3/4 de seus respectivos totais, mas os grupos concluídos não estão destacados nem suas quantidades calculadas.",
+          "geometria": {
+            "tipo": "fr_revisao",
+            "modelo": "relatorios_grupos"
+          },
+          "arquivo": "recursos/MFC6-B1-I-FR-11.svg"
+        }
+      ],
+      "assunto_nome": "Frações",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Frações solicitada pelo usuário",
+          "correcao_especifica": false,
+          "recurso_visual": "SVG matemático substitui tabelas; representações de FR-01/02/05 reformuladas",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-FR-12",
+      "numero": 12,
+      "titulo": "Completar com placas iguais",
+      "assunto": "FR",
+      "enunciado": "Uma faixa de isolamento já está parcialmente coberta. As peças disponíveis são todas iguais, e cada uma cobre 1/16 da faixa inteira. Elas devem cobrir exatamente toda a parte restante, sem sobreposição nem sobras. Observe a faixa e o modelo de uma peça na mesma escala de comprimento. Quantas peças são necessárias?",
+      "dados": {
+        "ja_coberto": "5/8",
+        "por_peca": "1/16"
+      },
+      "modelo_verificacao": "(1-F(D['ja_coberto']))/F(D['por_peca'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10 peças.",
+          "valor": 10,
+          "erro_comum": "Contar a parte já coberta."
+        },
+        {
+          "letra": "B",
+          "texto": "3 peças.",
+          "valor": 3,
+          "erro_comum": "Tratar oitavos como se fossem dezesseis avos."
+        },
+        {
+          "letra": "C",
+          "texto": "16 peças.",
+          "valor": 16,
+          "erro_comum": "Cobrir a faixa inteira novamente."
+        },
+        {
+          "letra": "D",
+          "texto": "6 peças.",
+          "valor": 6,
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Falta 3/8=6/16 da faixa. Cada peça cobre 1/16, então são necessárias seis peças. Dividir a parte já coberta pelo tamanho da peça responderia outra pergunta.",
+      "habilidade": "Relacionar complemento fracionário a contagem de unidades menores.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Relacionar complemento fracionário a contagem de unidades menores."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Quantas peças são necessárias exatamente, sem sobreposição?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa relacionar complemento fracionário a contagem de unidades menores.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "FR",
+        "visual_relevante": true,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-FR-12",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-FR-12-FRV1",
+          "tipo": "svg",
+          "dados": {
+            "ja_coberto": "5/8",
+            "por_peca": "1/16"
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 413\" width=\"320\" height=\"413\" class=\"mfc-fr-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-FR-12-FRV1-titulo\" aria-describedby=\"MFC6-B1-I-FR-12-FRV1-descricao\"><title id=\"MFC6-B1-I-FR-12-FRV1-titulo\">Completar com placas iguais</title><desc id=\"MFC6-B1-I-FR-12-FRV1-descricao\">Faixa inteira dividida em oito partes iguais, com cinco destacadas como já cobertas. Abaixo e fora da faixa aparece uma única peça igual às disponíveis, cuja largura é 1/16 do comprimento da faixa e cuja altura é a mesma. Peça e faixa usam a mesma escala. Não são desenhadas peças encaixadas na parte restante nem informada a quantidade necessária.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"413\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" data-campo=\"ja_coberto\" data-valor=\"5/8\">Já coberto: 5/8 da faixa</text><rect x=\"32.0\" y=\"49\" width=\"32.0\" height=\"64\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"faixa\" data-parte=\"0\" data-preenchida=\"true\"/><rect x=\"64.0\" y=\"49\" width=\"32.0\" height=\"64\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"faixa\" data-parte=\"1\" data-preenchida=\"true\"/><rect x=\"96.0\" y=\"49\" width=\"32.0\" height=\"64\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"faixa\" data-parte=\"2\" data-preenchida=\"true\"/><rect x=\"128.0\" y=\"49\" width=\"32.0\" height=\"64\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"faixa\" data-parte=\"3\" data-preenchida=\"true\"/><rect x=\"160.0\" y=\"49\" width=\"32.0\" height=\"64\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-barra=\"faixa\" data-parte=\"4\" data-preenchida=\"true\"/><rect x=\"192.0\" y=\"49\" width=\"32.0\" height=\"64\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"faixa\" data-parte=\"5\" data-preenchida=\"false\"/><rect x=\"224.0\" y=\"49\" width=\"32.0\" height=\"64\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"faixa\" data-parte=\"6\" data-preenchida=\"false\"/><rect x=\"256.0\" y=\"49\" width=\"32.0\" height=\"64\" fill=\"white\" stroke=\"#263d4d\" data-barra=\"faixa\" data-parte=\"7\" data-preenchida=\"false\"/><text x=\"160\" y=\"145\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Faixa inteira em oito partes iguais</text><text x=\"160\" y=\"195\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" >Uma peça disponível</text><rect x=\"152\" y=\"216\" width=\"16.0\" height=\"64\" fill=\"#fff3df\" stroke=\"#263d4d\" data-peca=\"modelo\"/><text x=\"160\" y=\"316\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-campo=\"por_peca\" data-valor=\"1/16\">Cada peça cobre 1/16 da faixa</text><text x=\"160\" y=\"357\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Peça e faixa na mesma escala</text><text x=\"160\" y=\"386\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Cobrir exatamente a parte restante</text></svg>",
+          "css": ".mfc-fr-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Faixa inteira dividida em oito partes iguais, com cinco destacadas como já cobertas. Abaixo e fora da faixa aparece uma única peça igual às disponíveis, cuja largura é 1/16 do comprimento da faixa e cuja altura é a mesma. Peça e faixa usam a mesma escala. Não são desenhadas peças encaixadas na parte restante nem informada a quantidade necessária.",
+          "acessibilidade": "Faixa inteira dividida em oito partes iguais, com cinco destacadas como já cobertas. Abaixo e fora da faixa aparece uma única peça igual às disponíveis, cuja largura é 1/16 do comprimento da faixa e cuja altura é a mesma. Peça e faixa usam a mesma escala. Não são desenhadas peças encaixadas na parte restante nem informada a quantidade necessária.",
+          "geometria": {
+            "tipo": "fr_revisao",
+            "modelo": "faixa_pecas",
+            "largura_faixa": 256,
+            "altura_faixa": 64
+          },
+          "arquivo": "recursos/MFC6-B1-I-FR-12.svg"
+        }
+      ],
+      "assunto_nome": "Frações",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Frações solicitada pelo usuário",
+          "correcao_especifica": true,
+          "recurso_visual": "SVG matemático substitui tabelas; representações de FR-01/02/05 reformuladas",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-FR-13",
+      "numero": 13,
+      "titulo": "Porções não significam copos inteiros",
+      "assunto": "FR",
+      "enunciado": "Uma reserva de tinta corresponde a 7/3 de um copo-padrão. Qual descrição indica corretamente quantos copos completos e qual sobra podem ser separados? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "tinta_copos": "7/3"
+      },
+      "modelo_verificacao": "[F(D['tinta_copos'])//1,F(D['tinta_copos'])%1]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2 copos completos e 1/3 de copo.",
+          "valor": [
+            2,
+            "1/3"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "7 copos e 1/3.",
+          "valor": [
+            7,
+            "1/3"
+          ],
+          "erro_comum": "Ler numerador como número de inteiros."
+        },
+        {
+          "letra": "C",
+          "texto": "2 copos e 1/7.",
+          "valor": [
+            2,
+            "1/7"
+          ],
+          "erro_comum": "Usar numerador como denominador do resto."
+        },
+        {
+          "letra": "D",
+          "texto": "3 copos completos, sem sobra.",
+          "valor": [
+            3,
+            0
+          ],
+          "erro_comum": "Arredondar para cima uma quantidade disponível."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "7/3=6/3+1/3=2+1/3. É possível separar dois copos completos e um terço, não sete copos.",
+      "habilidade": "Interpretar fração imprópria como unidades completas e resto.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Interpretar fração imprópria como unidades completas e resto."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa interpretar fração imprópria como unidades completas e resto.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "FR",
+        "visual_relevante": false,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-FR-13",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Frações"
+    },
+    {
+      "id": "MFC6-B1-I-FR-14",
+      "numero": 14,
+      "titulo": "Sombras sobre uma mesma faixa",
+      "assunto": "FR",
+      "enunciado": "Uma etiqueta retangular foi dividida em quatro faixas: uma ocupa metade da área, outra um quarto, e cada uma das duas restantes ocupa um oitavo. As duas faixas menores serão coloridas. Qual fração da etiqueta ficará colorida?",
+      "dados": {
+        "areas_faixas": [
+          "1/2",
+          "1/4",
+          "1/8",
+          "1/8"
+        ]
+      },
+      "modelo_verificacao": "sum(sorted(F(v) for v in D['areas_faixas'])[:2])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1/2.",
+          "valor": "1/2",
+          "erro_comum": "Contar duas de quatro regiões como se fossem iguais."
+        },
+        {
+          "letra": "B",
+          "texto": "1/4.",
+          "valor": "1/4",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "1/8.",
+          "valor": "1/8",
+          "erro_comum": "Contar só uma faixa menor."
+        },
+        {
+          "letra": "D",
+          "texto": "3/4.",
+          "valor": "3/4",
+          "erro_comum": "Colorir mentalmente as duas maiores."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "As duas faixas menores têm 1/8 cada uma. Juntas cobrem 2/8=1/4 da área. Não é metade só porque são duas dentre quatro faixas: as áreas são diferentes.",
+      "habilidade": "Distinguir número de regiões e fração de área quando os tamanhos diferem.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Distinguir número de regiões e fração de área quando os tamanhos diferem."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual fração da etiqueta ficará colorida?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa distinguir número de regiões e fração de área quando os tamanhos diferem.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "FR",
+        "visual_relevante": false,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-FR-14",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Frações"
+    },
+    {
+      "id": "MFC6-B1-I-FR-15",
+      "numero": 15,
+      "titulo": "Duas ofertas de tinta",
+      "assunto": "FR",
+      "enunciado": "Um frasco pequeno tem 2/3 de litro e custa 8 reais; um maior tem 1 litro e custa 11 reais. Para comprar exatamente 2 litros usando só um tamanho, qual escolha custa menos? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "pequeno_l": "2/3",
+        "pequeno_reais": 8,
+        "maior_l": 1,
+        "maior_reais": 11,
+        "demanda_l": 2
+      },
+      "modelo_verificacao": "[F(D['demanda_l'])/F(D['pequeno_l'])*D['pequeno_reais'],D['demanda_l']//D['maior_l']*D['maior_reais']]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Dois pequenos: R$ 16,00; dois maiores custam R$ 22,00.",
+          "valor": [
+            16,
+            22
+          ],
+          "erro_comum": "Dois pequenos não fornecem dois litros."
+        },
+        {
+          "letra": "B",
+          "texto": "Três maiores: R$ 33,00; três pequenos custam R$ 24,00.",
+          "valor": [
+            24,
+            33
+          ],
+          "erro_comum": "Usar mesmo número de frascos apesar das capacidades diferentes."
+        },
+        {
+          "letra": "C",
+          "texto": "Dois maiores: R$ 22,00; três pequenos custariam R$ 24,00.",
+          "valor": [
+            24,
+            22
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Um maior: R$ 11,00; três pequenos custam R$ 24,00.",
+          "valor": [
+            24,
+            11
+          ],
+          "erro_comum": "Comprar só metade da demanda no plano maior."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "São três pequenos por 24 reais ou dois maiores por 22. O frasco maior custa dois reais menos para a mesma quantidade, apesar de seu preço individual ser maior.",
+      "habilidade": "Relacionar quantidade fracionária, número de unidades e custo comparável.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Relacionar quantidade fracionária, número de unidades e custo comparável."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa relacionar quantidade fracionária, número de unidades e custo comparável.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "FR",
+        "visual_relevante": false,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-FR-15",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Frações"
+    },
+    {
+      "id": "MFC6-B1-I-FR-16",
+      "numero": 16,
+      "titulo": "O aviso de três partes",
+      "assunto": "FR",
+      "enunciado": "Um roteiro reserva 1/4 do tempo para pesquisa e 1/3 para edição, sem sobreposição. A gravação deve caber no tempo restante. Qual é o máximo disponível para gravação? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "pesquisa": "1/4",
+        "edicao": "1/3"
+      },
+      "modelo_verificacao": "1-F(D['pesquisa'])-F(D['edicao'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "7/12.",
+          "valor": "7/12",
+          "erro_comum": "Responder o já reservado."
+        },
+        {
+          "letra": "B",
+          "texto": "5/7.",
+          "valor": "5/7",
+          "erro_comum": "Somar denominadores e calcular complemento."
+        },
+        {
+          "letra": "C",
+          "texto": "3/4.",
+          "valor": "3/4",
+          "erro_comum": "Ignorar tempo de edição."
+        },
+        {
+          "letra": "D",
+          "texto": "5/12.",
+          "valor": "5/12",
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Com denominador 12, pesquisa e edição usam 3/12+4/12=7/12. Restam 5/12. Não se deve somar 1/4+1/3 como 2/7.",
+      "habilidade": "Encontrar complemento após alocações de denominadores distintos.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Encontrar complemento após alocações de denominadores distintos."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa encontrar complemento após alocações de denominadores distintos.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "FR",
+        "visual_relevante": false,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-FR-16",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Frações"
+    },
+    {
+      "id": "MFC6-B1-I-FR-17",
+      "numero": 17,
+      "titulo": "Quem usa mais material?",
+      "assunto": "FR",
+      "enunciado": "Para uma tarefa, é preciso cobrir pelo menos 2/5 de uma placa. O grupo A oferece material para 5/12 da placa e o grupo B oferece material para 3/8 da mesma placa. Qual grupo pode atender sozinho e quanto excede o mínimo?",
+      "dados": {
+        "oferta_A": "5/12",
+        "oferta_B": "3/8",
+        "minimo": "2/5"
+      },
+      "modelo_verificacao": "[k for k in ['A','B'] if F(D['oferta_'+k])>=F(D['minimo'])]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Somente A; excedente de 1/60.",
+          "valor": [
+            "A"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Somente B; o menor denominador significa mais material.",
+          "valor": [
+            "B"
+          ],
+          "erro_comum": "Comparar apenas denominadores."
+        },
+        {
+          "letra": "C",
+          "texto": "Ambos; basta que os numeradores sejam maiores que dois.",
+          "valor": [
+            "A",
+            "B"
+          ],
+          "erro_comum": "Comparar numeradores isolados."
+        },
+        {
+          "letra": "D",
+          "texto": "Nenhum; ambos têm denominadores maiores que cinco.",
+          "valor": [],
+          "erro_comum": "Comparar denominadores sem equivalência."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Em sessenta avos: 5/12=25/60 e 2/5=24/60, então A atende com excedente de 1/60. B oferece 3/8, menor que 2/5, pois 15/40<16/40.",
+      "habilidade": "Comparar duas ofertas com uma demanda mínima expressa em fração.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Comparar duas ofertas com uma demanda mínima expressa em fração."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual grupo pode atender sozinho e quanto excede o mínimo?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa comparar duas ofertas com uma demanda mínima expressa em fração.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "FR",
+        "visual_relevante": false,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-FR-17",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Frações",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Frações solicitada pelo usuário",
+          "correcao_especifica": true,
+          "recurso_visual": "Sem recurso visual",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-FR-18",
+      "numero": 18,
+      "titulo": "A mudança de referência no relato",
+      "assunto": "FR",
+      "enunciado": "Uma equipe revisou metade das páginas de um guia. Outra equipe revisou um quarto das páginas que ainda faltavam. Que fração do guia foi revisada ao todo? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "primeira_revisao": "1/2",
+        "parte_restante_revisada": "1/4"
+      },
+      "modelo_verificacao": "F(D['primeira_revisao'])+(1-F(D['primeira_revisao']))*F(D['parte_restante_revisada'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3/4.",
+          "valor": "3/4",
+          "erro_comum": "Somar diretamente 1/2 e 1/4 do inteiro."
+        },
+        {
+          "letra": "B",
+          "texto": "5/8.",
+          "valor": "5/8",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "1/8.",
+          "valor": "1/8",
+          "erro_comum": "Responder apenas a segunda revisão."
+        },
+        {
+          "letra": "D",
+          "texto": "3/8.",
+          "valor": "3/8",
+          "erro_comum": "Subtrair a segunda parte em vez de adicioná-la."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Depois da primeira equipe resta metade. Um quarto dessa metade é 1/8 do guia. No total, 1/2+1/8=5/8 foram revisados.",
+      "habilidade": "Distinguir fração do restante e fração do inteiro em processos sucessivos.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Distinguir fração do restante e fração do inteiro em processos sucessivos."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa distinguir fração do restante e fração do inteiro em processos sucessivos.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "FR",
+        "visual_relevante": false,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-FR-18",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Frações"
+    },
+    {
+      "id": "MFC6-B1-I-FR-19",
+      "numero": 19,
+      "titulo": "Comparação sem conhecer as capacidades",
+      "assunto": "FR",
+      "enunciado": "Dois tanques diferentes estão preenchidos em 3/4 e 2/3 de suas capacidades. As capacidades não foram informadas. É possível afirmar qual contém mais litros? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "fracao_A": "3/4",
+        "fracao_B": "2/3"
+      },
+      "modelo_verificacao": "not (F(D['fracao_A'])*4<F(D['fracao_B'])*12 and F(D['fracao_A'])*12>F(D['fracao_B'])*3)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sim; A sempre contém mais porque 3/4 > 2/3.",
+          "valor": true,
+          "erro_comum": "Comparar frações ignorando inteiros."
+        },
+        {
+          "letra": "B",
+          "texto": "Sim; B sempre contém mais porque seu denominador é menor.",
+          "valor": true,
+          "erro_comum": "Comparar só denominadores."
+        },
+        {
+          "letra": "C",
+          "texto": "Não; é preciso conhecer as capacidades.",
+          "valor": false,
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Sim; ambos contêm a mesma quantidade por serem frações.",
+          "valor": true,
+          "erro_comum": "Confundir mesma forma de representação com mesmo volume."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Não. Por exemplo, se A tem capacidade 4 L e B 12 L, os volumes são 3 e 8 L; se A tem 12 L e B 3 L, são 9 e 2 L. A ordem das frações não determina a ordem dos litros sem conhecer os inteiros.",
+      "habilidade": "Reconhecer informação insuficiente ao comparar frações de inteiros diferentes.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Reconhecer informação insuficiente ao comparar frações de inteiros diferentes."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa reconhecer informação insuficiente ao comparar frações de inteiros diferentes.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "FR",
+        "visual_relevante": false,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-FR-19",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Frações"
+    },
+    {
+      "id": "MFC6-B1-I-FR-20",
+      "numero": 20,
+      "titulo": "Parte restante em duas etapas",
+      "assunto": "FR",
+      "enunciado": "Uma máquina usa 1/4 de sua carga de papel e, depois, 2/3 do que ficou. Qual fração da carga inicial ainda pode ser usada? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "uso_1": "1/4",
+        "uso_do_restante": "2/3"
+      },
+      "modelo_verificacao": "(1-F(D['uso_1']))*(1-F(D['uso_do_restante']))",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1/12.",
+          "valor": "1/12",
+          "erro_comum": "Subtrair as duas frações do inteiro inicial."
+        },
+        {
+          "letra": "B",
+          "texto": "1/2.",
+          "valor": "1/2",
+          "erro_comum": "Responder a parte usada na segunda etapa."
+        },
+        {
+          "letra": "C",
+          "texto": "3/4.",
+          "valor": "3/4",
+          "erro_comum": "Ignorar segunda etapa."
+        },
+        {
+          "letra": "D",
+          "texto": "1/4.",
+          "valor": "1/4",
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Depois da primeira etapa há 3/4. Na segunda sobra 1/3 desses 3/4: 3/4×1/3=1/4 da carga inicial. Não é 1−1/4−2/3, pois as bases são diferentes.",
+      "habilidade": "Raciocinar sobre conservação de fração restante em etapas encadeadas.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Raciocinar sobre conservação de fração restante em etapas encadeadas."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa raciocinar sobre conservação de fração restante em etapas encadeadas.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "FR",
+        "visual_relevante": false,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-FR-20",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Frações"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "commitOrigem": "aa2219dc537d532085140a63c3d4804e5014669c",
+  "arquivos": [
+    {
+      "arquivo": "6-ano/bloco-1/interface/index.html",
+      "bytes": 593,
+      "sha256": "b51140531fc4d311fba4dcba77ba9fc8c855b7fe43b04915bc6a0c82dc7eda30"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/interface/estilos.css",
+      "bytes": 7641,
+      "sha256": "ee480dfd8b9938182f1eb84223784e40d15374170b5ed05eeaa9c28d214ac0ec"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/interface/estudante.mjs",
+      "bytes": 16411,
+      "sha256": "a057cb8670661f9a02cbd1c37bf35becef8fe289fe8025244712cbdb13c7c667"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/interface/resultados.mjs",
+      "bytes": 1440,
+      "sha256": "f725e2e716e2df6b89c79cec745f4cae0a4d4c87c137e5832c9e7febe925a969"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/interface/boletim.mjs",
+      "bytes": 1505,
+      "sha256": "a72adf847ca89288607698eeca6c9c2a8a5e3bd2b90db754372e2844739aa55f"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/interface/pdf.mjs",
+      "bytes": 7171,
+      "sha256": "cb65a7b2e482570940343d44e8badd43c1fac3b465cf67facfd910006171f89b"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/interface/impressao.mjs",
+      "bytes": 5818,
+      "sha256": "1075f897d71a2201e6f54d36d16be35396fdff1da2810dea2cd041f44d0bc10f"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/interface/imagens/favicon-matematicafc.ico",
+      "bytes": 9662,
+      "sha256": "a7975fbba18d18455f72b1a085c879b7a1c55206462f6b219f4da623809febaf"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/interface/fontes/DejaVuSans.ttf",
+      "bytes": 759720,
+      "sha256": "57f73e11f51999432bf7ab22ce55b6f945d5eca1bf824404cfa9ec2e3718c84e"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/interface/fontes/LICENCA-DejaVu.txt",
+      "bytes": 3859,
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/interface/vendor/jspdf.mjs",
+      "bytes": 415840,
+      "sha256": "7301c6a6f3bd5b9db0d8c804e9e843c953377518ec1c29b40161c050534df0ba"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/interface/vendor/LICENCA-jsPDF.txt",
+      "bytes": 1142,
+      "sha256": "dc388ec35ff463288cdde3588a36fd4ed12a45deff053243b37309acc9ef583b"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/mecanismo/aleatorio.mjs",
+      "bytes": 750,
+      "sha256": "b8f70b622f633bc89f498a0ac8fd31b047e7fe2b464db6c3fdf5cd41a62e21c2"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/mecanismo/aplicacao.mjs",
+      "bytes": 2083,
+      "sha256": "71e1a9e971b829ad8e6b80a5e7fd4181c667619aade02aa46d31fb3aa75f885b"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/mecanismo/banco.mjs",
+      "bytes": 3692,
+      "sha256": "6e35d621b2e3a2a934f04904fe032c79c30efcf85b18a678c7fa88f41f5cc5b5"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/mecanismo/historico.mjs",
+      "bytes": 1178,
+      "sha256": "3c78d9921a2c15227b4fb7bfee11379889a76e3b8aa702fc5e73617bb35b174c"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/mecanismo/index.mjs",
+      "bytes": 1022,
+      "sha256": "9a7cd8ec8150104ad4e9a92139c71bc78ebc67a6d61fd03e35427cfb4bcbd7a1"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/mecanismo/regras.mjs",
+      "bytes": 859,
+      "sha256": "9aa5ec0dc7d1f16e2eae26f74682a97ceb4eaf05c04d8e314e8bbfab26ac6e41"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/mecanismo/selecao.mjs",
+      "bytes": 1649,
+      "sha256": "be041d767dc3c4c9062dd28cb6af82e8aad20276175864669d6526c542f664e1"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/banco-inedito/sistema-numeracao.json",
+      "bytes": 112340,
+      "sha256": "a4669e1f6681eba5126cbddfb64ba9d7f7816feeae0ed0cc145444e4d51f1918"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/banco-inedito/operacoes.json",
+      "bytes": 122620,
+      "sha256": "21228045ed94789e8f7ac5fbdc727cb9c1453c7b2959aca4de20135d6bc7baf9"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/banco-inedito/multiplos-divisores.json",
+      "bytes": 143616,
+      "sha256": "908592a553be2875126a222ef3146bc5a33fb680ab0093f25b6d09983e0468dd"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/banco-inedito/fracoes.json",
+      "bytes": 132407,
+      "sha256": "d5f697aab7977134abfac29f07e8400bf02f00af89272fd24f6f193e794d2bfc"
+    },
+    {
+      "arquivo": "6-ano/bloco-1/banco-inedito/decimais.json",
+      "bytes": 114447,
+      "sha256": "b8c38eaa3bf04f62fc6766b64bc5c79238ba9abe7545e2a5646774922223acbe"
+    }
+  ]
+}

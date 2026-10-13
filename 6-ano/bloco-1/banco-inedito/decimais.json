@@ -1,0 +1,1757 @@
+{
+  "versao_formato": 1,
+  "banco_id": "MFC6-B1-INEDITO-V1",
+  "assunto": "Números decimais",
+  "codigo_assunto": "ND",
+  "questoes": [
+    {
+      "id": "MFC6-B1-I-ND-01",
+      "numero": 1,
+      "titulo": "Comparação de etiquetas com zeros",
+      "assunto": "ND",
+      "enunciado": "Uma balança registrou uma massa. Uma segunda etiqueta acrescentou um zero no final da parte decimal. Observe as duas etiquetas e o quadro das ordens decimais. Qual afirmação compara corretamente as massas das duas etiquetas?",
+      "dados": {
+        "etiqueta_A_kg": "1.50",
+        "etiqueta_B_kg": "1.500"
+      },
+      "modelo_verificacao": "F(D['etiqueta_A_kg'])==F(D['etiqueta_B_kg'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "As duas etiquetas indicam a mesma massa.",
+          "valor": true,
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "B indica dez vezes a massa de A.",
+          "valor": false,
+          "erro_comum": "Interpretar os números sem vírgula."
+        },
+        {
+          "letra": "C",
+          "texto": "B indica 0,05 kg a mais.",
+          "valor": false,
+          "erro_comum": "Associar zero adicional a aumento de quantidade."
+        },
+        {
+          "letra": "D",
+          "texto": "A indica mais porque tem menos casas decimais.",
+          "valor": false,
+          "erro_comum": "Usar quantidade de casas como critério de ordem."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "1,50 kg e 1,500 kg têm o mesmo valor: 1,5 kg. Zero à direita da parte decimal não acrescenta massa; indica outra forma de escrever o mesmo valor.",
+      "habilidade": "Distinguir quantidade decimal e quantidade de casas registradas.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Distinguir quantidade decimal e quantidade de casas registradas."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual afirmação compara corretamente as massas das duas etiquetas?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa distinguir quantidade decimal e quantidade de casas registradas.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ND",
+        "visual_relevante": true,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-ND-01",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ND-01-NDV1",
+          "tipo": "svg",
+          "dados": {
+            "etiqueta_A_kg": "1.50",
+            "etiqueta_B_kg": "1.500"
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 483\" width=\"320\" height=\"483\" class=\"mfc-nd-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ND-01-NDV1-titulo\" aria-describedby=\"MFC6-B1-I-ND-01-NDV1-descricao\"><title id=\"MFC6-B1-I-ND-01-NDV1-titulo\">Comparação de etiquetas com zeros</title><desc id=\"MFC6-B1-I-ND-01-NDV1-descricao\">Etiqueta A: 1,50 kg; etiqueta B: 1,500 kg, preservando todos os zeros escritos. Um quadro alinha unidade, décimo, centésimo e milésimo: A mostra 1, 5, 0 e um traço para a ordem não escrita; B mostra 1, 5, 0 e 0. A legenda explica as ordens. Não há sinal de igualdade nem conclusão de comparação.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"483\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" >Etiquetas de massa</text><rect x=\"24\" y=\"47\" width=\"272\" height=\"76\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"160\" y=\"70\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Etiqueta A</text><text x=\"160\" y=\"105\" text-anchor=\"middle\" font-size=\"29\" fill=\"#172b3a\" data-campo=\"etiqueta_A_kg\" data-valor=\"1.50\">1,50 kg</text><rect x=\"24\" y=\"142\" width=\"272\" height=\"76\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"160\" y=\"165\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Etiqueta B</text><text x=\"160\" y=\"200\" text-anchor=\"middle\" font-size=\"29\" fill=\"#172b3a\" data-campo=\"etiqueta_B_kg\" data-valor=\"1.500\">1,500 kg</text><text x=\"160\" y=\"255\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" >Ordens da parte decimal</text><text x=\"115\" y=\"284\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >U</text><text x=\"165\" y=\"284\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >d</text><text x=\"215\" y=\"284\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >c</text><text x=\"265\" y=\"284\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >m</text><text x=\"45\" y=\"330\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >A</text><rect x=\"90\" y=\"300\" width=\"50\" height=\"42\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"115\" y=\"328\" text-anchor=\"middle\" font-size=\"22\" fill=\"#172b3a\" data-quadro=\"A\" data-ordem=\"U\">1</text><rect x=\"140\" y=\"300\" width=\"50\" height=\"42\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"165\" y=\"328\" text-anchor=\"middle\" font-size=\"22\" fill=\"#172b3a\" data-quadro=\"A\" data-ordem=\"d\">5</text><rect x=\"190\" y=\"300\" width=\"50\" height=\"42\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"215\" y=\"328\" text-anchor=\"middle\" font-size=\"22\" fill=\"#172b3a\" data-quadro=\"A\" data-ordem=\"c\">0</text><rect x=\"240\" y=\"300\" width=\"50\" height=\"42\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"265\" y=\"328\" text-anchor=\"middle\" font-size=\"22\" fill=\"#172b3a\" data-quadro=\"A\" data-ordem=\"m\">—</text><text x=\"45\" y=\"382\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >B</text><rect x=\"90\" y=\"352\" width=\"50\" height=\"42\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"115\" y=\"380\" text-anchor=\"middle\" font-size=\"22\" fill=\"#172b3a\" data-quadro=\"B\" data-ordem=\"U\">1</text><rect x=\"140\" y=\"352\" width=\"50\" height=\"42\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"165\" y=\"380\" text-anchor=\"middle\" font-size=\"22\" fill=\"#172b3a\" data-quadro=\"B\" data-ordem=\"d\">5</text><rect x=\"190\" y=\"352\" width=\"50\" height=\"42\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"215\" y=\"380\" text-anchor=\"middle\" font-size=\"22\" fill=\"#172b3a\" data-quadro=\"B\" data-ordem=\"c\">0</text><rect x=\"240\" y=\"352\" width=\"50\" height=\"42\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"265\" y=\"380\" text-anchor=\"middle\" font-size=\"22\" fill=\"#172b3a\" data-quadro=\"B\" data-ordem=\"m\">0</text><text x=\"160\" y=\"430\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >U: unidade; d: décimo</text><text x=\"160\" y=\"456\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >c: centésimo; m: milésimo</text></svg>",
+          "css": ".mfc-nd-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Etiqueta A: 1,50 kg; etiqueta B: 1,500 kg, preservando todos os zeros escritos. Um quadro alinha unidade, décimo, centésimo e milésimo: A mostra 1, 5, 0 e um traço para a ordem não escrita; B mostra 1, 5, 0 e 0. A legenda explica as ordens. Não há sinal de igualdade nem conclusão de comparação.",
+          "acessibilidade": "Etiqueta A: 1,50 kg; etiqueta B: 1,500 kg, preservando todos os zeros escritos. Um quadro alinha unidade, décimo, centésimo e milésimo: A mostra 1, 5, 0 e um traço para a ordem não escrita; B mostra 1, 5, 0 e 0. A legenda explica as ordens. Não há sinal de igualdade nem conclusão de comparação.",
+          "geometria": {
+            "tipo": "nd_revisao",
+            "modelo": "etiquetas_ordens"
+          },
+          "arquivo": "recursos/MFC6-B1-I-ND-01.svg"
+        }
+      ],
+      "assunto_nome": "Números decimais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Números Decimais solicitada pelo usuário",
+          "recurso_visual": "SVG matemático substitui tabela; reta de ND-10 preservada e aprimorada",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "correcoes_textuais": "Referência ao novo esquema; ND-01 sem antecipar a comparação; ND-09 frascos inteiros, de um único tamanho e volume exatamente 2 L",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ND-02",
+      "numero": 2,
+      "titulo": "Conexão entre duas medidas",
+      "assunto": "ND",
+      "enunciado": "Duas caixas só encaixam quando a diferença entre suas larguras é no máximo 0,03 m. Observe o esquema das larguras, desenhadas na mesma escala e alinhadas à esquerda. A combinação indicada está dentro da tolerância?",
+      "dados": {
+        "largura_A_m": "0.82",
+        "largura_B_m": "0.85",
+        "tolerancia_m": "0.03"
+      },
+      "modelo_verificacao": "F(D['largura_B_m'])-F(D['largura_A_m'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Não; a diferença é 0,3 m.",
+          "valor": "0.3",
+          "erro_comum": "Confundir centésimos com décimos."
+        },
+        {
+          "letra": "B",
+          "texto": "Sim; a diferença é 0,03 m.",
+          "valor": "0.03",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Sim; a diferença é 0,00 m.",
+          "valor": "0",
+          "erro_comum": "Arredondar larguras cedo demais."
+        },
+        {
+          "letra": "D",
+          "texto": "Não; a diferença é 0,07 m.",
+          "valor": "0.07",
+          "erro_comum": "Subtrair algarismos de ordens diferentes."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "A diferença é 0,85−0,82=0,03 m, exatamente o limite permitido. No máximo inclui a igualdade.",
+      "habilidade": "Interpretar tolerância inclusiva em uma diferença decimal.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Interpretar tolerância inclusiva em uma diferença decimal."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: A combinação indicada está dentro da tolerância?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa interpretar tolerância inclusiva em uma diferença decimal.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ND",
+        "visual_relevante": true,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-ND-02",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ND-02-NDV1",
+          "tipo": "svg",
+          "dados": {
+            "largura_A_m": "0.82",
+            "largura_B_m": "0.85",
+            "tolerancia_m": "0.03"
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 335\" width=\"320\" height=\"335\" class=\"mfc-nd-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ND-02-NDV1-titulo\" aria-describedby=\"MFC6-B1-I-ND-02-NDV1-descricao\"><title id=\"MFC6-B1-I-ND-02-NDV1-titulo\">Conexão entre duas medidas</title><desc id=\"MFC6-B1-I-ND-02-NDV1-descricao\">Duas barras alinhadas à esquerda representam as larguras A de 0,82 m e B de 0,85 m, na mesma escala de 280 pixels por metro. A largura de B é maior, mas a diferença não é escrita. A tolerância máxima de 0,03 m está indicada separadamente.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"335\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >Larguras na mesma escala</text><text x=\"160\" y=\"58\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" data-campo=\"largura_A_m\" data-valor=\"0.82\">Caixa A: 0,82 m</text><rect x=\"20\" y=\"73\" width=\"229.6\" height=\"34\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-largura=\"A\"/><text x=\"160\" y=\"144\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" data-campo=\"largura_B_m\" data-valor=\"0.85\">Caixa B: 0,85 m</text><rect x=\"20\" y=\"159\" width=\"238.0\" height=\"34\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-largura=\"B\"/><path d=\"M20 71V220\" stroke=\"#263d4d\" stroke-dasharray=\"4 3\"/><text x=\"160\" y=\"249\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"tolerancia_m\" data-valor=\"0.03\">Diferença máxima: 0,03 m</text><text x=\"160\" y=\"282\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Os extremos direitos são diferentes</text><text x=\"160\" y=\"308\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Conferir a diferença e o limite</text></svg>",
+          "css": ".mfc-nd-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Duas barras alinhadas à esquerda representam as larguras A de 0,82 m e B de 0,85 m, na mesma escala de 280 pixels por metro. A largura de B é maior, mas a diferença não é escrita. A tolerância máxima de 0,03 m está indicada separadamente.",
+          "acessibilidade": "Duas barras alinhadas à esquerda representam as larguras A de 0,82 m e B de 0,85 m, na mesma escala de 280 pixels por metro. A largura de B é maior, mas a diferença não é escrita. A tolerância máxima de 0,03 m está indicada separadamente.",
+          "geometria": {
+            "tipo": "nd_revisao",
+            "modelo": "larguras_tolerancia",
+            "escala_px_por_m": 280
+          },
+          "arquivo": "recursos/MFC6-B1-I-ND-02.svg"
+        }
+      ],
+      "assunto_nome": "Números decimais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Números Decimais solicitada pelo usuário",
+          "recurso_visual": "SVG matemático substitui tabela; reta de ND-10 preservada e aprimorada",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "correcoes_textuais": "Referência ao novo esquema; ND-01 sem antecipar a comparação; ND-09 frascos inteiros, de um único tamanho e volume exatamente 2 L",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ND-03",
+      "numero": 3,
+      "titulo": "Litros e mililitros no pedido",
+      "assunto": "ND",
+      "enunciado": "Uma jarra precisa atender a um pedido em litros, mas seu conteúdo e sua reserva obrigatória estão indicados em mililitros. Observe a jarra graduada, o pedido e a indicação da reserva. O pedido pode ser atendido preservando a reserva?",
+      "dados": {
+        "pedido_litros": "0.75",
+        "conteudo_ml": 800,
+        "reserva_obrigatoria_ml": 100,
+        "mililitros_por_litro": 1000
+      },
+      "modelo_verificacao": "D['conteudo_ml']-D['reserva_obrigatoria_ml']-F(D['pedido_litros'])*D['mililitros_por_litro']",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sim; sobram 50 mL além da reserva.",
+          "valor": 50,
+          "erro_comum": "Ignorar a reserva obrigatória."
+        },
+        {
+          "letra": "B",
+          "texto": "Não; faltam 500 mL.",
+          "valor": -500,
+          "erro_comum": "Converter litros incorretamente ou desalinhar a diferença."
+        },
+        {
+          "letra": "C",
+          "texto": "Não; faltam 50 mL.",
+          "valor": -50,
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Sim; sobram 625 mL além da reserva.",
+          "valor": 625,
+          "erro_comum": "Converter 0,75 L em 75 mL."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "O pedido é de 750 mL. Preservando 100 mL, só há 700 mL disponíveis. Faltam 50 mL; os 800 mL totais não estão todos livres para o pedido.",
+      "habilidade": "Converter unidades e comparar demanda com disponibilidade após reserva.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Requer conversão de unidade antes de descontar reserva e comparar demanda."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual valor em mililitros confirma que os dois registros podem representar a mesma quantidade?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa converter unidades e comparar demanda com disponibilidade após reserva.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ND",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-ND-03",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ND-03-NDV1",
+          "tipo": "svg",
+          "dados": {
+            "pedido_litros": "0.75",
+            "conteudo_ml": 800,
+            "reserva_obrigatoria_ml": 100,
+            "mililitros_por_litro": 1000
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 451\" width=\"320\" height=\"451\" class=\"mfc-nd-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ND-03-NDV1-titulo\" aria-describedby=\"MFC6-B1-I-ND-03-NDV1-descricao\"><title id=\"MFC6-B1-I-ND-03-NDV1-titulo\">Litros e mililitros no pedido</title><desc id=\"MFC6-B1-I-ND-03-NDV1-descricao\">Jarra com escala auxiliar de zero a 1.000 mL, marcada a cada 200 mL. O nível de conteúdo está em 800 mL. Os 100 mL inferiores são hachurados como reserva obrigatória, dentro do conteúdo total. O pedido aparece separado como 0,75 L, e consta a equivalência 1 L = 1.000 mL. Não estão calculados o pedido em mililitros, a parte disponível ou a diferença.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"451\" fill=\"white\"/><defs><pattern id=\"MFC6-B1-I-ND-03-reserva\" width=\"8\" height=\"8\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 8L8 0\" stroke=\"#263d4d\" stroke-width=\"1.5\"/></pattern></defs><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" >Jarra graduada</text><rect x=\"77\" y=\"78\" width=\"100\" height=\"230\" fill=\"white\" stroke=\"#263d4d\" /><rect x=\"77\" y=\"124.0\" width=\"100\" height=\"184.0\" fill=\"#aac7dd\" stroke=\"#263d4d\" data-conteudo=\"sim\"/><rect x=\"77\" y=\"285.0\" width=\"100\" height=\"23.0\" fill=\"url(#MFC6-B1-I-ND-03-reserva)\" stroke=\"#263d4d\" data-reserva=\"sim\"/><path d=\"M65 308.0H77\" stroke=\"#263d4d\" data-graduacao=\"0\" data-y=\"308.0\"/><text x=\"57\" y=\"314.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#172b3a\" >0</text><path d=\"M65 262.0H77\" stroke=\"#263d4d\" data-graduacao=\"200\" data-y=\"262.0\"/><text x=\"57\" y=\"268.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#172b3a\" >200</text><path d=\"M65 216.0H77\" stroke=\"#263d4d\" data-graduacao=\"400\" data-y=\"216.0\"/><text x=\"57\" y=\"222.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#172b3a\" >400</text><path d=\"M65 170.0H77\" stroke=\"#263d4d\" data-graduacao=\"600\" data-y=\"170.0\"/><text x=\"57\" y=\"176.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#172b3a\" >600</text><path d=\"M65 124.0H77\" stroke=\"#263d4d\" data-graduacao=\"800\" data-y=\"124.0\"/><text x=\"57\" y=\"130.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#172b3a\" >800</text><path d=\"M65 78.0H77\" stroke=\"#263d4d\" data-graduacao=\"1000\" data-y=\"78.0\"/><text x=\"57\" y=\"84.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#172b3a\" >1000</text><text x=\"38\" y=\"57\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >mL</text><text x=\"243\" y=\"117\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" >Pedido</text><text x=\"243\" y=\"147\" text-anchor=\"middle\" font-size=\"25\" fill=\"#172b3a\" data-campo=\"pedido_litros\" data-valor=\"0.75\">0,75 L</text><text x=\"160\" y=\"350\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"conteudo_ml\" data-valor=\"800\">Conteúdo: 800 mL</text><text x=\"160\" y=\"382\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"reserva_obrigatoria_ml\" data-valor=\"100\">Reserva: 100 mL</text><text x=\"160\" y=\"422\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"mililitros_por_litro\" data-valor=\"1000\">1 L = 1000 mL</text></svg>",
+          "css": ".mfc-nd-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Jarra com escala auxiliar de zero a 1.000 mL, marcada a cada 200 mL. O nível de conteúdo está em 800 mL. Os 100 mL inferiores são hachurados como reserva obrigatória, dentro do conteúdo total. O pedido aparece separado como 0,75 L, e consta a equivalência 1 L = 1.000 mL. Não estão calculados o pedido em mililitros, a parte disponível ou a diferença.",
+          "acessibilidade": "Jarra com escala auxiliar de zero a 1.000 mL, marcada a cada 200 mL. O nível de conteúdo está em 800 mL. Os 100 mL inferiores são hachurados como reserva obrigatória, dentro do conteúdo total. O pedido aparece separado como 0,75 L, e consta a equivalência 1 L = 1.000 mL. Não estão calculados o pedido em mililitros, a parte disponível ou a diferença.",
+          "geometria": {
+            "tipo": "nd_revisao",
+            "modelo": "jarra_reserva",
+            "escala_px_por_ml": "0.23",
+            "base_y": 308
+          },
+          "arquivo": "recursos/MFC6-B1-I-ND-03.svg"
+        }
+      ],
+      "assunto_nome": "Números decimais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Números Decimais solicitada pelo usuário",
+          "recurso_visual": "SVG matemático substitui tabela; reta de ND-10 preservada e aprimorada",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "correcoes_textuais": "Referência ao novo esquema; ND-01 sem antecipar a comparação; ND-09 frascos inteiros, de um único tamanho e volume exatamente 2 L",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ND-04",
+      "numero": 4,
+      "titulo": "Valor que cruza a marca",
+      "assunto": "ND",
+      "enunciado": "Uma medição está abaixo de uma referência e será aumentada em uma quantidade conhecida. Observe a reta com a medição inicial, a referência e a indicação do aumento. Depois do aumento, ela ficará abaixo, exatamente na referência ou acima?",
+      "dados": {
+        "medicao": "4.98",
+        "aumento": "0.04",
+        "referencia": 5
+      },
+      "modelo_verificacao": "F(D['medicao'])+F(D['aumento'])-D['referencia']",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Exatamente na referência.",
+          "valor": "0",
+          "erro_comum": "Ignorar os dois centésimos que ultrapassam."
+        },
+        {
+          "letra": "B",
+          "texto": "Abaixo, por 0,02.",
+          "valor": "-0.02",
+          "erro_comum": "Manter a posição inicial abaixo da referência."
+        },
+        {
+          "letra": "C",
+          "texto": "Acima, por 0,04.",
+          "valor": "0.04",
+          "erro_comum": "Tomar todo o aumento como excedente."
+        },
+        {
+          "letra": "D",
+          "texto": "Acima, por 0,02.",
+          "valor": "0.02",
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "4,98+0,04=5,02. O novo valor fica 0,02 acima de cinco; o transporte dos centésimos altera a parte inteira.",
+      "habilidade": "Interpretar soma decimal e mudança de referência inteira.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Interpretar soma decimal e mudança de referência inteira."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Depois do aumento, ela ficará abaixo, exatamente na referência ou acima?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa interpretar soma decimal e mudança de referência inteira.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ND",
+        "visual_relevante": true,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-ND-04",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ND-04-NDV1",
+          "tipo": "svg",
+          "dados": {
+            "medicao": "4.98",
+            "aumento": "0.04",
+            "referencia": 5
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 332\" width=\"320\" height=\"332\" class=\"mfc-nd-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ND-04-NDV1-titulo\" aria-describedby=\"MFC6-B1-I-ND-04-NDV1-descricao\"><title id=\"MFC6-B1-I-ND-04-NDV1-titulo\">Valor que cruza a marca</title><desc id=\"MFC6-B1-I-ND-04-NDV1-descricao\">Reta de 4,94 a 5,06, com marcas igualmente espaçadas a cada 0,02, incluindo a referência 5,00. Um ponto marca a medição inicial 4,98. Abaixo, uma seta isolada e o rótulo de aumento +0,04 indicam a mudança, sem marcar a posição final ou calcular o excedente.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"332\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-campo=\"medicao\" data-valor=\"4.98\">Medição inicial: 4,98</text><text x=\"160\" y=\"57\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" data-campo=\"referencia\" data-valor=\"5\">Referência: 5</text><path d=\"M25 143H295\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M25.0 135V151\" stroke=\"#263d4d\" data-marca=\"247/50\" data-x=\"25.0\"/><text x=\"25.0\" y=\"181\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >4,94</text><path d=\"M70.0 135V151\" stroke=\"#263d4d\" data-marca=\"124/25\" data-x=\"70.0\"/><text x=\"70.0\" y=\"181\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >4,96</text><path d=\"M115.0 135V151\" stroke=\"#263d4d\" data-marca=\"249/50\" data-x=\"115.0\"/><text x=\"115.0\" y=\"181\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >4,98</text><path d=\"M160.0 135V151\" stroke=\"#263d4d\" data-marca=\"5\" data-x=\"160.0\"/><text x=\"160.0\" y=\"181\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >5,00</text><path d=\"M205.0 135V151\" stroke=\"#263d4d\" data-marca=\"251/50\" data-x=\"205.0\"/><text x=\"205.0\" y=\"181\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >5,02</text><path d=\"M250.0 135V151\" stroke=\"#263d4d\" data-marca=\"126/25\" data-x=\"250.0\"/><text x=\"250.0\" y=\"181\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >5,04</text><path d=\"M295.0 135V151\" stroke=\"#263d4d\" data-marca=\"253/50\" data-x=\"295.0\"/><text x=\"295.0\" y=\"181\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >5,06</text><circle cx=\"115.0\" cy=\"143\" r=\"5\" fill=\"#263d4d\" data-inicio=\"4.98\"/><text x=\"160\" y=\"235\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-campo=\"aumento\" data-valor=\"0.04\">Aumento: +0,04</text><path d=\"M115 263H205L199 258M205 263L199 268\" stroke=\"#263d4d\" stroke-width=\"2\" fill=\"none\"/><text x=\"160\" y=\"305\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >A posição final não está marcada</text></svg>",
+          "css": ".mfc-nd-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Reta de 4,94 a 5,06, com marcas igualmente espaçadas a cada 0,02, incluindo a referência 5,00. Um ponto marca a medição inicial 4,98. Abaixo, uma seta isolada e o rótulo de aumento +0,04 indicam a mudança, sem marcar a posição final ou calcular o excedente.",
+          "acessibilidade": "Reta de 4,94 a 5,06, com marcas igualmente espaçadas a cada 0,02, incluindo a referência 5,00. Um ponto marca a medição inicial 4,98. Abaixo, uma seta isolada e o rótulo de aumento +0,04 indicam a mudança, sem marcar a posição final ou calcular o excedente.",
+          "geometria": {
+            "tipo": "nd_revisao",
+            "modelo": "reta_referencia",
+            "origem_x": 25,
+            "minimo": "4.94",
+            "maximo": "5.06",
+            "passo": "0.02",
+            "largura_reta": 270
+          },
+          "arquivo": "recursos/MFC6-B1-I-ND-04.svg"
+        }
+      ],
+      "assunto_nome": "Números decimais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Números Decimais solicitada pelo usuário",
+          "recurso_visual": "SVG matemático substitui tabela; reta de ND-10 preservada e aprimorada",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "correcoes_textuais": "Referência ao novo esquema; ND-01 sem antecipar a comparação; ND-09 frascos inteiros, de um único tamanho e volume exatamente 2 L",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ND-05",
+      "numero": 5,
+      "titulo": "Escala que arredonda ao décimo",
+      "assunto": "ND",
+      "enunciado": "Um termômetro arredonda leituras para o décimo mais próximo, subindo quando o centésimo é cinco ou maior. Observe o visor e a escala decimal. Qual leitura real poderia ter produzido a temperatura mostrada?",
+      "dados": {
+        "temperatura_mostrada": "23.4"
+      },
+      "modelo_verificacao": "[F(D['temperatura_mostrada'])-F('0.05'),F(D['temperatura_mostrada'])+F('0.05')]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "23,38 °C.",
+          "valor": "23.38",
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "23,34 °C.",
+          "valor": "23.34",
+          "erro_comum": "Incluir valor que arredonda para 23,3."
+        },
+        {
+          "letra": "C",
+          "texto": "23,45 °C.",
+          "valor": "23.45",
+          "erro_comum": "Incluir o extremo superior que sobe ao próximo décimo."
+        },
+        {
+          "letra": "D",
+          "texto": "23,51 °C.",
+          "valor": "23.51",
+          "erro_comum": "Confundir proximidade com pertencimento à faixa."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "O visor 23,4 representa leituras desde 23,35, inclusive, até antes de 23,45. Entre as opções, 23,38 está nessa faixa. 23,45 já aparece como 23,5.",
+      "habilidade": "Inferir intervalo de medições por arredondamento decimal.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Inferir intervalo de medições por arredondamento decimal."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual leitura real poderia ter produzido a temperatura mostrada?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa inferir intervalo de medições por arredondamento decimal.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ND",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-ND-05",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ND-05-NDV1",
+          "tipo": "svg",
+          "dados": {
+            "temperatura_mostrada": "23.4"
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 349\" width=\"320\" height=\"349\" class=\"mfc-nd-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ND-05-NDV1-titulo\" aria-describedby=\"MFC6-B1-I-ND-05-NDV1-descricao\"><title id=\"MFC6-B1-I-ND-05-NDV1-titulo\">Escala que arredonda ao décimo</title><desc id=\"MFC6-B1-I-ND-05-NDV1-descricao\">Visor mostrando 23,4 °C. Uma escala neutra de 23,30 a 23,50 tem marcas uniformes a cada 0,01 e rótulos em 23,30, 23,35, 23,40, 23,45 e 23,50. A regra informa arredondamento ao décimo mais próximo, subindo quando o centésimo é cinco ou maior. Não há faixa de aceitação destacada nem pontos das alternativas posicionados.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"349\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" >Visor do termômetro</text><rect x=\"46\" y=\"44\" width=\"228\" height=\"70\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"160\" y=\"91\" text-anchor=\"middle\" font-size=\"34\" fill=\"#172b3a\" data-campo=\"temperatura_mostrada\" data-valor=\"23.4\">23,4 °C</text><text x=\"160\" y=\"149\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Escala de leituras em centésimos</text><path d=\"M25 208H295\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M25.0 198V218\" stroke=\"#263d4d\" data-marca=\"233/10\" data-x=\"25.0\"/><text x=\"25.0\" y=\"246\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-rotulo-marca=\"233/10\">23,30</text><path d=\"M38.5 203V213\" stroke=\"#263d4d\" data-marca=\"2331/100\" data-x=\"38.5\"/><path d=\"M52.0 203V213\" stroke=\"#263d4d\" data-marca=\"583/25\" data-x=\"52.0\"/><path d=\"M65.5 203V213\" stroke=\"#263d4d\" data-marca=\"2333/100\" data-x=\"65.5\"/><path d=\"M79.0 203V213\" stroke=\"#263d4d\" data-marca=\"1167/50\" data-x=\"79.0\"/><path d=\"M92.5 198V218\" stroke=\"#263d4d\" data-marca=\"467/20\" data-x=\"92.5\"/><text x=\"92.5\" y=\"246\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-rotulo-marca=\"467/20\">23,35</text><path d=\"M106.0 203V213\" stroke=\"#263d4d\" data-marca=\"584/25\" data-x=\"106.0\"/><path d=\"M119.5 203V213\" stroke=\"#263d4d\" data-marca=\"2337/100\" data-x=\"119.5\"/><path d=\"M133.0 203V213\" stroke=\"#263d4d\" data-marca=\"1169/50\" data-x=\"133.0\"/><path d=\"M146.5 203V213\" stroke=\"#263d4d\" data-marca=\"2339/100\" data-x=\"146.5\"/><path d=\"M160.0 198V218\" stroke=\"#263d4d\" data-marca=\"117/5\" data-x=\"160.0\"/><text x=\"160.0\" y=\"246\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-rotulo-marca=\"117/5\">23,40</text><path d=\"M173.5 203V213\" stroke=\"#263d4d\" data-marca=\"2341/100\" data-x=\"173.5\"/><path d=\"M187.0 203V213\" stroke=\"#263d4d\" data-marca=\"1171/50\" data-x=\"187.0\"/><path d=\"M200.5 203V213\" stroke=\"#263d4d\" data-marca=\"2343/100\" data-x=\"200.5\"/><path d=\"M214.0 203V213\" stroke=\"#263d4d\" data-marca=\"586/25\" data-x=\"214.0\"/><path d=\"M227.5 198V218\" stroke=\"#263d4d\" data-marca=\"469/20\" data-x=\"227.5\"/><text x=\"227.5\" y=\"246\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-rotulo-marca=\"469/20\">23,45</text><path d=\"M241.0 203V213\" stroke=\"#263d4d\" data-marca=\"1173/50\" data-x=\"241.0\"/><path d=\"M254.5 203V213\" stroke=\"#263d4d\" data-marca=\"2347/100\" data-x=\"254.5\"/><path d=\"M268.0 203V213\" stroke=\"#263d4d\" data-marca=\"587/25\" data-x=\"268.0\"/><path d=\"M281.5 203V213\" stroke=\"#263d4d\" data-marca=\"2349/100\" data-x=\"281.5\"/><path d=\"M295.0 198V218\" stroke=\"#263d4d\" data-marca=\"47/2\" data-x=\"295.0\"/><text x=\"295.0\" y=\"246\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-rotulo-marca=\"47/2\">23,50</text><text x=\"160\" y=\"292\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Arredondar ao décimo mais próximo</text><text x=\"160\" y=\"322\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Centésimo 5 ou maior: subir o décimo</text></svg>",
+          "css": ".mfc-nd-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Visor mostrando 23,4 °C. Uma escala neutra de 23,30 a 23,50 tem marcas uniformes a cada 0,01 e rótulos em 23,30, 23,35, 23,40, 23,45 e 23,50. A regra informa arredondamento ao décimo mais próximo, subindo quando o centésimo é cinco ou maior. Não há faixa de aceitação destacada nem pontos das alternativas posicionados.",
+          "acessibilidade": "Visor mostrando 23,4 °C. Uma escala neutra de 23,30 a 23,50 tem marcas uniformes a cada 0,01 e rótulos em 23,30, 23,35, 23,40, 23,45 e 23,50. A regra informa arredondamento ao décimo mais próximo, subindo quando o centésimo é cinco ou maior. Não há faixa de aceitação destacada nem pontos das alternativas posicionados.",
+          "geometria": {
+            "tipo": "nd_revisao",
+            "modelo": "termometro_arredonda",
+            "origem_x": 25,
+            "minimo": "23.30",
+            "maximo": "23.50",
+            "passo": "0.01",
+            "largura_reta": 270
+          },
+          "arquivo": "recursos/MFC6-B1-I-ND-05.svg"
+        }
+      ],
+      "criterio_opcao": "intervalo_superior_exclusivo",
+      "assunto_nome": "Números decimais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Números Decimais solicitada pelo usuário",
+          "recurso_visual": "SVG matemático substitui tabela; reta de ND-10 preservada e aprimorada",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "correcoes_textuais": "Referência ao novo esquema; ND-01 sem antecipar a comparação; ND-09 frascos inteiros, de um único tamanho e volume exatamente 2 L",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ND-06",
+      "numero": 6,
+      "titulo": "Custo por distância com taxa fixa",
+      "assunto": "ND",
+      "enunciado": "Um serviço de transporte de materiais cobra uma taxa fixa mais um valor por quilômetro. Observe o esquema da cobrança e o percurso indicado. Qual custo corresponde a esse percurso?",
+      "dados": {
+        "taxa_fixa_reais": "4.50",
+        "preco_por_km_reais": "1.20",
+        "distancia_km": "2.5"
+      },
+      "modelo_verificacao": "F(D['taxa_fixa_reais'])+F(D['preco_por_km_reais'])*F(D['distancia_km'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "R$ 3,00.",
+          "valor": "3.00",
+          "erro_comum": "Omitir taxa fixa."
+        },
+        {
+          "letra": "B",
+          "texto": "R$ 7,50.",
+          "valor": "7.50",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "R$ 14,25.",
+          "valor": "14.25",
+          "erro_comum": "Multiplicar também a taxa fixa pela distância."
+        },
+        {
+          "letra": "D",
+          "texto": "R$ 8,20.",
+          "valor": "8.20",
+          "erro_comum": "Somar taxa, preço unitário e distância como grandezas iguais."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "O trecho variável custa 1,20×2,5=3,00 reais. Somando 4,50, são 7,50 reais. A taxa fixa não é multiplicada pela distância.",
+      "habilidade": "Modelar custo com parcela fixa e taxa decimal por unidade.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Modelar custo com parcela fixa e taxa decimal por unidade."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual custo corresponde ao percurso indicado?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa modelar custo com parcela fixa e taxa decimal por unidade.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ND",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-ND-06",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ND-06-NDV1",
+          "tipo": "svg",
+          "dados": {
+            "taxa_fixa_reais": "4.50",
+            "preco_por_km_reais": "1.20",
+            "distancia_km": "2.5"
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 364\" width=\"320\" height=\"364\" class=\"mfc-nd-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ND-06-NDV1-titulo\" aria-describedby=\"MFC6-B1-I-ND-06-NDV1-descricao\"><title id=\"MFC6-B1-I-ND-06-NDV1-titulo\">Custo por distância com taxa fixa</title><desc id=\"MFC6-B1-I-ND-06-NDV1-descricao\">Um bloco de taxa fixa mostra R$ 4,50, cobrado uma única vez. Um sinal de adição o separa da cobrança de R$ 1,20 por quilômetro. O percurso de 2,5 km aparece dividido em dois trechos de 1 km e um de meio quilômetro; o último tem metade da largura dos demais. Nenhum custo variável ou total está calculado.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"364\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" >Duas partes da cobrança</text><rect x=\"30\" y=\"44\" width=\"260\" height=\"80\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"160\" y=\"69\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >Taxa fixa, uma única vez</text><text x=\"160\" y=\"107\" text-anchor=\"middle\" font-size=\"28\" fill=\"#172b3a\" data-campo=\"taxa_fixa_reais\" data-valor=\"4.50\">R$ 4,50</text><text x=\"160\" y=\"159\" text-anchor=\"middle\" font-size=\"30\" fill=\"#172b3a\" >+</text><text x=\"160\" y=\"196\" text-anchor=\"middle\" font-size=\"22\" fill=\"#172b3a\" data-campo=\"preco_por_km_reais\" data-valor=\"1.20\">R$ 1,20 por km</text><text x=\"160\" y=\"231\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" data-campo=\"distancia_km\" data-valor=\"2.5\">Percurso: 2,5 km</text><rect x=\"60\" y=\"253\" width=\"80\" height=\"42\" fill=\"#f8fafb\" stroke=\"#263d4d\" data-trecho=\"0\"/><text x=\"100.0\" y=\"280\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >1 km</text><rect x=\"140\" y=\"253\" width=\"80\" height=\"42\" fill=\"#f8fafb\" stroke=\"#263d4d\" data-trecho=\"1\"/><text x=\"180.0\" y=\"280\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >1 km</text><rect x=\"220\" y=\"253\" width=\"40\" height=\"42\" fill=\"#f8fafb\" stroke=\"#263d4d\" data-trecho=\"2\"/><text x=\"240.0\" y=\"280\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >½ km</text><text x=\"160\" y=\"338\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Calcular o percurso e somar a taxa</text></svg>",
+          "css": ".mfc-nd-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Um bloco de taxa fixa mostra R$ 4,50, cobrado uma única vez. Um sinal de adição o separa da cobrança de R$ 1,20 por quilômetro. O percurso de 2,5 km aparece dividido em dois trechos de 1 km e um de meio quilômetro; o último tem metade da largura dos demais. Nenhum custo variável ou total está calculado.",
+          "acessibilidade": "Um bloco de taxa fixa mostra R$ 4,50, cobrado uma única vez. Um sinal de adição o separa da cobrança de R$ 1,20 por quilômetro. O percurso de 2,5 km aparece dividido em dois trechos de 1 km e um de meio quilômetro; o último tem metade da largura dos demais. Nenhum custo variável ou total está calculado.",
+          "geometria": {
+            "tipo": "nd_revisao",
+            "modelo": "taxa_percurso",
+            "escala_px_por_km": 80
+          },
+          "arquivo": "recursos/MFC6-B1-I-ND-06.svg"
+        }
+      ],
+      "assunto_nome": "Números decimais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Números Decimais solicitada pelo usuário",
+          "recurso_visual": "SVG matemático substitui tabela; reta de ND-10 preservada e aprimorada",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "correcoes_textuais": "Referência ao novo esquema; ND-01 sem antecipar a comparação; ND-09 frascos inteiros, de um único tamanho e volume exatamente 2 L",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ND-07",
+      "numero": 7,
+      "titulo": "A prateleira e a folga",
+      "assunto": "ND",
+      "enunciado": "Uma prateleira precisa de uma folga total mínima além da soma das larguras de três caixas. Observe a prateleira e as caixas, desenhadas na mesma escala, e a folga mínima exigida. As três caixas cabem respeitando a folga?",
+      "dados": {
+        "larguras_m": [
+          "0.24",
+          "0.315",
+          "0.28"
+        ],
+        "prateleira_m": "0.85",
+        "folga_minima_m": "0.01"
+      },
+      "modelo_verificacao": "F(D['prateleira_m'])-sum(F(v) for v in D['larguras_m'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Não; faltam 0,015 m.",
+          "valor": "-0.015",
+          "erro_comum": "Inverter a diferença."
+        },
+        {
+          "letra": "B",
+          "texto": "Sim; sobram 0,15 m.",
+          "valor": "0.15",
+          "erro_comum": "Confundir milésimos com centésimos."
+        },
+        {
+          "letra": "C",
+          "texto": "Sim; a folga é 0,015 m.",
+          "valor": "0.015",
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Sim; sobram 0,035 m.",
+          "valor": "0.035",
+          "erro_comum": "Desalinhar casas na soma."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "As caixas ocupam 0,24+0,315+0,28=0,835 m. Sobram 0,015 m, mais que a folga mínima de 0,01; cabem. Arredondar cada largura antes da soma pode falsear a conclusão.",
+      "habilidade": "Somar medições de precisões diferentes e conferir reserva mínima.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Somar medições de precisões diferentes e conferir reserva mínima."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: As três caixas cabem respeitando a folga?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa somar medições de precisões diferentes e conferir reserva mínima.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ND",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-ND-07",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ND-07-NDV1",
+          "tipo": "svg",
+          "dados": {
+            "larguras_m": [
+              "0.24",
+              "0.315",
+              "0.28"
+            ],
+            "prateleira_m": "0.85",
+            "folga_minima_m": "0.01"
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 378\" width=\"320\" height=\"378\" class=\"mfc-nd-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ND-07-NDV1-titulo\" aria-describedby=\"MFC6-B1-I-ND-07-NDV1-descricao\"><title id=\"MFC6-B1-I-ND-07-NDV1-titulo\">A prateleira e a folga</title><desc id=\"MFC6-B1-I-ND-07-NDV1-descricao\">Prateleira de 0,85 m e três caixas lado a lado de 0,24 m, 0,315 m e 0,28 m, todas na escala de 320 pixels por metro e com origem comum à esquerda. As caixas ficam contíguas, sem intervalos desenhados entre elas. Linhas projetam o extremo do conjunto e o da prateleira. A folga mínima é 0,01 m; a folga real aparece como interrogação.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"378\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-campo=\"prateleira_m\" data-valor=\"0.85\">Prateleira: 0,85 m</text><rect x=\"24\" y=\"51\" width=\"272.0\" height=\"38\" fill=\"#f8fafb\" stroke=\"#263d4d\" data-prateleira=\"sim\"/><text x=\"160\" y=\"127\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >Caixas lado a lado</text><rect x=\"24\" y=\"149\" width=\"76.8\" height=\"63\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"0\"/><text x=\"62.4\" y=\"187\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-campo=\"larguras_m.0\" data-valor=\"0.24\">0,24 m</text><rect x=\"100.8\" y=\"149\" width=\"100.8\" height=\"63\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"1\"/><text x=\"151.2\" y=\"187\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-campo=\"larguras_m.1\" data-valor=\"0.315\">0,315 m</text><rect x=\"201.6\" y=\"149\" width=\"89.6\" height=\"63\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-caixa=\"2\"/><text x=\"246.39999999999998\" y=\"187\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" data-campo=\"larguras_m.2\" data-valor=\"0.28\">0,28 m</text><path d=\"M291.2 212V247M296 89V247\" stroke=\"#263d4d\" stroke-dasharray=\"4 3\"/><text x=\"160\" y=\"271\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >Folga total: ? m</text><text x=\"160\" y=\"312\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" data-campo=\"folga_minima_m\" data-valor=\"0.01\">Folga mínima: 0,01 m</text><text x=\"160\" y=\"351\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Mesma escala de comprimento</text></svg>",
+          "css": ".mfc-nd-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Prateleira de 0,85 m e três caixas lado a lado de 0,24 m, 0,315 m e 0,28 m, todas na escala de 320 pixels por metro e com origem comum à esquerda. As caixas ficam contíguas, sem intervalos desenhados entre elas. Linhas projetam o extremo do conjunto e o da prateleira. A folga mínima é 0,01 m; a folga real aparece como interrogação.",
+          "acessibilidade": "Prateleira de 0,85 m e três caixas lado a lado de 0,24 m, 0,315 m e 0,28 m, todas na escala de 320 pixels por metro e com origem comum à esquerda. As caixas ficam contíguas, sem intervalos desenhados entre elas. Linhas projetam o extremo do conjunto e o da prateleira. A folga mínima é 0,01 m; a folga real aparece como interrogação.",
+          "geometria": {
+            "tipo": "nd_revisao",
+            "modelo": "prateleira_caixas",
+            "escala_px_por_m": 320
+          },
+          "arquivo": "recursos/MFC6-B1-I-ND-07.svg"
+        }
+      ],
+      "assunto_nome": "Números decimais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Números Decimais solicitada pelo usuário",
+          "recurso_visual": "SVG matemático substitui tabela; reta de ND-10 preservada e aprimorada",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "correcoes_textuais": "Referência ao novo esquema; ND-01 sem antecipar a comparação; ND-09 frascos inteiros, de um único tamanho e volume exatamente 2 L",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ND-08",
+      "numero": 8,
+      "titulo": "Quanto de fio pode ser comprado?",
+      "assunto": "ND",
+      "enunciado": "Uma loja permite comprar qualquer comprimento de fio, cobrado proporcionalmente ao preço por metro, sem taxa extra. Observe o orçamento e o esquema que relaciona o comprimento ao preço. Qual é o maior comprimento que cabe no orçamento?",
+      "dados": {
+        "orcamento_reais": "9.00",
+        "preco_por_metro_reais": "2.40"
+      },
+      "modelo_verificacao": "F(D['orcamento_reais'])/F(D['preco_por_metro_reais'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "4 m.",
+          "valor": 4,
+          "erro_comum": "Arredondar para cima apesar do orçamento."
+        },
+        {
+          "letra": "B",
+          "texto": "3 m.",
+          "valor": 3,
+          "erro_comum": "Truncar sem considerar venda fracionada."
+        },
+        {
+          "letra": "C",
+          "texto": "21,6 m.",
+          "valor": "21.6",
+          "erro_comum": "Multiplicar dinheiro por preço por metro."
+        },
+        {
+          "letra": "D",
+          "texto": "3,75 m.",
+          "valor": "3.75",
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "9,00÷2,40=3,75 m. Quatro metros custariam 9,60 e excederiam o orçamento; comprar só três metros deixaria uma possibilidade de comprimento sem usar.",
+      "habilidade": "Interpretar divisão decimal como comprimento máximo sob orçamento.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Interpretar divisão decimal como comprimento máximo sob orçamento."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual é o maior comprimento que cabe no orçamento?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa interpretar divisão decimal como comprimento máximo sob orçamento.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ND",
+        "visual_relevante": true,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-ND-08",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ND-08-NDV1",
+          "tipo": "svg",
+          "dados": {
+            "orcamento_reais": "9.00",
+            "preco_por_metro_reais": "2.40"
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 378\" width=\"320\" height=\"378\" class=\"mfc-nd-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ND-08-NDV1-titulo\" aria-describedby=\"MFC6-B1-I-ND-08-NDV1-descricao\"><title id=\"MFC6-B1-I-ND-08-NDV1-titulo\">Quanto de fio pode ser comprado?</title><desc id=\"MFC6-B1-I-ND-08-NDV1-descricao\">Orçamento de R$ 9,00. Um segmento de referência tem comprimento de um metro e preço de R$ 2,40. Uma seta liga essa correspondência ao comprimento desconhecido que pode ser adquirido pelo orçamento, sem taxa extra. Não é desenhado um fio de comprimento final nem um total de metros calculado.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"378\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"22\" fill=\"#172b3a\" data-campo=\"orcamento_reais\" data-valor=\"9.00\">Orçamento: R$ 9,00</text><text x=\"160\" y=\"71\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" >Preço de referência</text><path d=\"M45 104H145M45 98V110M145 98V110\" stroke=\"#263d4d\" stroke-width=\"2\"/><text x=\"95\" y=\"133\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" >1 metro</text><text x=\"226\" y=\"111\" text-anchor=\"middle\" font-size=\"22\" fill=\"#172b3a\" data-campo=\"preco_por_metro_reais\" data-valor=\"2.40\">R$ 2,40</text><text x=\"160\" y=\"169\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Comprimento e custo proporcionais</text><path d=\"M160 184V214M156 209L160 214L164 209\" stroke=\"#263d4d\" stroke-width=\"2\" fill=\"none\"/><rect x=\"29\" y=\"229\" width=\"262\" height=\"78\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"160\" y=\"258\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >? metros pelo orçamento</text><text x=\"160\" y=\"288\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Sem taxa extra</text><text x=\"160\" y=\"350\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >O trecho a comprar ainda não foi medido</text></svg>",
+          "css": ".mfc-nd-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Orçamento de R$ 9,00. Um segmento de referência tem comprimento de um metro e preço de R$ 2,40. Uma seta liga essa correspondência ao comprimento desconhecido que pode ser adquirido pelo orçamento, sem taxa extra. Não é desenhado um fio de comprimento final nem um total de metros calculado.",
+          "acessibilidade": "Orçamento de R$ 9,00. Um segmento de referência tem comprimento de um metro e preço de R$ 2,40. Uma seta liga essa correspondência ao comprimento desconhecido que pode ser adquirido pelo orçamento, sem taxa extra. Não é desenhado um fio de comprimento final nem um total de metros calculado.",
+          "geometria": {
+            "tipo": "nd_revisao",
+            "modelo": "fio_orcamento"
+          },
+          "arquivo": "recursos/MFC6-B1-I-ND-08.svg"
+        }
+      ],
+      "assunto_nome": "Números decimais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Números Decimais solicitada pelo usuário",
+          "recurso_visual": "SVG matemático substitui tabela; reta de ND-10 preservada e aprimorada",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "correcoes_textuais": "Referência ao novo esquema; ND-01 sem antecipar a comparação; ND-09 frascos inteiros, de um único tamanho e volume exatamente 2 L",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ND-09",
+      "numero": 9,
+      "titulo": "Mesma tinta, dois tamanhos",
+      "assunto": "ND",
+      "enunciado": "Uma loja vende a mesma tinta em dois tamanhos de frasco. A compra deve ser feita em frascos inteiros, todos do mesmo tamanho: somente A ou somente B. O volume total adquirido precisa ser exatamente 2 litros, sem falta nem excedente. Observe as capacidades e os preços por frasco. Qual escolha atende ao pedido pelo menor preço?",
+      "dados": {
+        "frasco_A_l": "0.5",
+        "frasco_A_reais": "3.20",
+        "frasco_B_l": "0.8",
+        "frasco_B_reais": "4.80",
+        "pedido_l": 2
+      },
+      "modelo_verificacao": "[F(D['pedido_l'])/F(D['frasco_A_l']),F(D['pedido_l'])/F(D['frasco_A_l'])*F(D['frasco_A_reais'])]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Quatro frascos A: 2 L por R$ 12,80.",
+          "valor": [
+            4,
+            "12.80"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Dois frascos B: 2 L por R$ 9,60.",
+          "valor": [
+            2,
+            "9.60"
+          ],
+          "erro_comum": "Supor que dois frascos de 0,8 somam dois litros."
+        },
+        {
+          "letra": "C",
+          "texto": "Três frascos B: exatamente 2 L por R$ 14,40.",
+          "valor": [
+            3,
+            "14.40"
+          ],
+          "erro_comum": "Ignorar excedente de 0,4 litro."
+        },
+        {
+          "letra": "D",
+          "texto": "Dois frascos A: 2 L por R$ 6,40.",
+          "valor": [
+            2,
+            "6.40"
+          ],
+          "erro_comum": "Confundir meio litro com um litro."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "São quatro frascos A, total 2 L e 12,80 reais. Frascos B não podem fornecer exatamente 2 L em quantidade inteira: 2÷0,8=2,5 frascos. Apesar de B custar menos por litro, essa compra não permite abrir frascos.",
+      "habilidade": "Conciliar custo, quantidade discreta e volume exato.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Conciliar custo, quantidade discreta e volume exato."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual escolha atende ao pedido pelo menor preço?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa conciliar custo, quantidade discreta e volume exato.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ND",
+        "visual_relevante": true,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-ND-09",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ND-09-NDV1",
+          "tipo": "svg",
+          "dados": {
+            "frasco_A_l": "0.5",
+            "frasco_A_reais": "3.20",
+            "frasco_B_l": "0.8",
+            "frasco_B_reais": "4.80",
+            "pedido_l": 2
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 426\" width=\"320\" height=\"426\" class=\"mfc-nd-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ND-09-NDV1-titulo\" aria-describedby=\"MFC6-B1-I-ND-09-NDV1-descricao\"><title id=\"MFC6-B1-I-ND-09-NDV1-titulo\">Mesma tinta, dois tamanhos</title><desc id=\"MFC6-B1-I-ND-09-NDV1-descricao\">Um frasco A com capacidade de 0,5 L e preço de R$ 3,20; um frasco B com capacidade de 0,8 L e preço de R$ 4,80. Os corpos retangulares têm a mesma largura e alturas proporcionais às capacidades; pequenas tampas são símbolos de embalagem. O volume exigido é exatamente 2 L, em frascos inteiros de um único tamanho. Nenhuma quantidade de frascos a comprar está desenhada.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"426\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"pedido_l\" data-valor=\"2\">Volume exigido: exatamente 2 L</text><text x=\"82\" y=\"64\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >Frasco A</text><rect x=\"68\" y=\"149.0\" width=\"28\" height=\"15\" fill=\"#d6d6d6\" stroke=\"#263d4d\" /><rect x=\"43\" y=\"164.0\" width=\"78\" height=\"75.0\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-frasco=\"A\"/><text x=\"82\" y=\"278\" text-anchor=\"middle\" font-size=\"23\" fill=\"#172b3a\" data-campo=\"frasco_A_l\" data-valor=\"0.5\">0,5 L</text><text x=\"82\" y=\"316\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-campo=\"frasco_A_reais\" data-valor=\"3.20\">R$ 3,20</text><text x=\"238\" y=\"64\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" >Frasco B</text><rect x=\"224\" y=\"104.0\" width=\"28\" height=\"15\" fill=\"#d6d6d6\" stroke=\"#263d4d\" /><rect x=\"199\" y=\"119.0\" width=\"78\" height=\"120.0\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-frasco=\"B\"/><text x=\"238\" y=\"278\" text-anchor=\"middle\" font-size=\"23\" fill=\"#172b3a\" data-campo=\"frasco_B_l\" data-valor=\"0.8\">0,8 L</text><text x=\"238\" y=\"316\" text-anchor=\"middle\" font-size=\"24\" fill=\"#172b3a\" data-campo=\"frasco_B_reais\" data-valor=\"4.80\">R$ 4,80</text><text x=\"160\" y=\"367\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Frascos inteiros, todos de um tamanho</text><text x=\"160\" y=\"398\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Sem falta nem excedente de volume</text></svg>",
+          "css": ".mfc-nd-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Um frasco A com capacidade de 0,5 L e preço de R$ 3,20; um frasco B com capacidade de 0,8 L e preço de R$ 4,80. Os corpos retangulares têm a mesma largura e alturas proporcionais às capacidades; pequenas tampas são símbolos de embalagem. O volume exigido é exatamente 2 L, em frascos inteiros de um único tamanho. Nenhuma quantidade de frascos a comprar está desenhada.",
+          "acessibilidade": "Um frasco A com capacidade de 0,5 L e preço de R$ 3,20; um frasco B com capacidade de 0,8 L e preço de R$ 4,80. Os corpos retangulares têm a mesma largura e alturas proporcionais às capacidades; pequenas tampas são símbolos de embalagem. O volume exigido é exatamente 2 L, em frascos inteiros de um único tamanho. Nenhuma quantidade de frascos a comprar está desenhada.",
+          "geometria": {
+            "tipo": "nd_revisao",
+            "modelo": "frascos_compra",
+            "escala_altura_px_por_l": 150,
+            "largura_corpo": 78
+          },
+          "arquivo": "recursos/MFC6-B1-I-ND-09.svg"
+        }
+      ],
+      "assunto_nome": "Números decimais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Números Decimais solicitada pelo usuário",
+          "recurso_visual": "SVG matemático substitui tabela; reta de ND-10 preservada e aprimorada",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "correcoes_textuais": "Referência ao novo esquema; ND-01 sem antecipar a comparação; ND-09 frascos inteiros, de um único tamanho e volume exatamente 2 L",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ND-10",
+      "numero": 10,
+      "titulo": "Passos de uma peça de precisão",
+      "assunto": "ND",
+      "enunciado": "Uma máquina faz cortes somente nas marcas de uma escala com passo fixo. A peça pedida tem uma medida intermediária. Observe a reta decimal e a posição do pedido. Qual marca permitida fica mais perto da medida pedida?",
+      "dados": {
+        "passo_cm": "0.05",
+        "medida_pedida_cm": "1.13"
+      },
+      "modelo_verificacao": "(F(D['medida_pedida_cm'])/F(D['passo_cm'])+F(1,2))//1*F(D['passo_cm'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1,10 cm.",
+          "valor": "1.10",
+          "erro_comum": "Escolher sempre a marca inferior sem comparar distâncias."
+        },
+        {
+          "letra": "B",
+          "texto": "1,15 cm.",
+          "valor": "1.15",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "1,13 cm.",
+          "valor": "1.13",
+          "erro_comum": "Ignorar a restrição das marcas."
+        },
+        {
+          "letra": "D",
+          "texto": "1,20 cm.",
+          "valor": "1.20",
+          "erro_comum": "Pular a marca vizinha superior."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "As marcas vizinhas são 1,10 e 1,15. As distâncias ao pedido são 0,03 e 0,02, respectivamente. A marca 1,15 é a mais próxima; 1,13 não é múltipla do passo 0,05.",
+      "habilidade": "Selecionar aproximação permitida em uma escala discreta.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Selecionar aproximação permitida em uma escala discreta."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual marca permitida fica mais perto da medida pedida?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa selecionar aproximação permitida em uma escala discreta.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ND",
+        "visual_relevante": true,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-ND-10",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ND-10-NDV1",
+          "tipo": "svg",
+          "dados": {
+            "passo_cm": "0.05",
+            "medida_pedida_cm": "1.13"
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 245\" width=\"320\" height=\"245\" class=\"mfc-nd-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ND-10-NDV1-titulo\" aria-describedby=\"MFC6-B1-I-ND-10-NDV1-descricao\"><title id=\"MFC6-B1-I-ND-10-NDV1-titulo\">Passos de uma peça de precisão</title><desc id=\"MFC6-B1-I-ND-10-NDV1-descricao\">Reta decimal com marcas em 1,05, 1,10, 1,15 e 1,20 cm, igualmente espaçadas, com passo de 0,05 cm. Uma seta indica o pedido de 1,13 cm entre 1,10 e 1,15, a três quintos do intervalo. Rótulos de 18 pixels têm margem nas extremidades. Nenhuma marca permitida está selecionada como resposta.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"245\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" data-campo=\"passo_cm\" data-valor=\"0.05\">Passo das marcas: 0,05 cm</text><text x=\"160\" y=\"58\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-campo=\"medida_pedida_cm\" data-valor=\"1.13\">Pedido: 1,13 cm</text><path d=\"M30 136H285\" stroke=\"#263d4d\" stroke-width=\"2\"/><path d=\"M30 127V145\" stroke=\"#263d4d\" data-marca=\"1.05\" data-x=\"30\"/><text x=\"30\" y=\"178\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-rotulo-marca=\"1.05\">1,05</text><path d=\"M115 127V145\" stroke=\"#263d4d\" data-marca=\"1.10\" data-x=\"115\"/><text x=\"115\" y=\"178\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-rotulo-marca=\"1.10\">1,10</text><path d=\"M200 127V145\" stroke=\"#263d4d\" data-marca=\"1.15\" data-x=\"200\"/><text x=\"200\" y=\"178\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-rotulo-marca=\"1.15\">1,15</text><path d=\"M285 127V145\" stroke=\"#263d4d\" data-marca=\"1.20\" data-x=\"285\"/><text x=\"285\" y=\"178\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172b3a\" data-rotulo-marca=\"1.20\">1,20</text><path d=\"M166.0 81V116M161.0 110L166.0 116L171.0 110\" stroke=\"#8a2d20\" fill=\"none\" stroke-width=\"2\" data-pedido=\"1.13\" data-x=\"166.0\"/><text x=\"160\" y=\"217\" text-anchor=\"middle\" font-size=\"15\" fill=\"#172b3a\" >Marcas permitidas igualmente espaçadas</text></svg>",
+          "css": ".mfc-nd-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Reta decimal com marcas em 1,05, 1,10, 1,15 e 1,20 cm, igualmente espaçadas, com passo de 0,05 cm. Uma seta indica o pedido de 1,13 cm entre 1,10 e 1,15, a três quintos do intervalo. Rótulos de 18 pixels têm margem nas extremidades. Nenhuma marca permitida está selecionada como resposta.",
+          "acessibilidade": "Reta decimal com marcas em 1,05, 1,10, 1,15 e 1,20 cm, igualmente espaçadas, com passo de 0,05 cm. Uma seta indica o pedido de 1,13 cm entre 1,10 e 1,15, a três quintos do intervalo. Rótulos de 18 pixels têm margem nas extremidades. Nenhuma marca permitida está selecionada como resposta.",
+          "geometria": {
+            "tipo": "nd_revisao",
+            "modelo": "reta_cortes",
+            "origem_x": 30,
+            "passo_x": 85,
+            "marcas": [
+              "1.05",
+              "1.10",
+              "1.15",
+              "1.20"
+            ]
+          },
+          "arquivo": "recursos/MFC6-B1-I-ND-10.svg"
+        }
+      ],
+      "assunto_nome": "Números decimais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Números Decimais solicitada pelo usuário",
+          "recurso_visual": "SVG matemático substitui tabela; reta de ND-10 preservada e aprimorada",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "correcoes_textuais": "Referência ao novo esquema; ND-01 sem antecipar a comparação; ND-09 frascos inteiros, de um único tamanho e volume exatamente 2 L",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ND-11",
+      "numero": 11,
+      "titulo": "Comparar sem antecipar arredondamentos",
+      "assunto": "ND",
+      "enunciado": "Um orçamento soma três itens e arredonda somente o total para reais inteiros, com centavos a partir de 50 arredondando para cima. Observe as três etiquetas de preços e o esquema da regra. Qual valor inteiro deve ser divulgado?",
+      "dados": {
+        "itens_reais": [
+          "4.49",
+          "4.49",
+          "4.49"
+        ]
+      },
+      "modelo_verificacao": "arredonda(sum(F(v) for v in D['itens_reais']),1)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "R$ 12,00.",
+          "valor": 12,
+          "erro_comum": "Arredondar cada parcela primeiro."
+        },
+        {
+          "letra": "B",
+          "texto": "R$ 14,00.",
+          "valor": 14,
+          "erro_comum": "Arredondar qualquer parte decimal para cima."
+        },
+        {
+          "letra": "C",
+          "texto": "R$ 13,00.",
+          "valor": 13,
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "R$ 15,00.",
+          "valor": 15,
+          "erro_comum": "Arredondar cada item para cinco."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "O total exato é 13,47, que arredonda para 13 reais. Arredondar cada item para quatro antes da soma daria 12, que não é a regra combinada.",
+      "habilidade": "Distinguir arredondamento por parcela e arredondamento do total.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Distinguir arredondamento por parcela e arredondamento do total."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual valor inteiro deve ser divulgado?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa distinguir arredondamento por parcela e arredondamento do total.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ND",
+        "visual_relevante": true,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-ND-11",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ND-11-NDV1",
+          "tipo": "svg",
+          "dados": {
+            "itens_reais": [
+              "4.49",
+              "4.49",
+              "4.49"
+            ]
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 404\" width=\"320\" height=\"404\" class=\"mfc-nd-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ND-11-NDV1-titulo\" aria-describedby=\"MFC6-B1-I-ND-11-NDV1-descricao\"><title id=\"MFC6-B1-I-ND-11-NDV1-titulo\">Comparar sem antecipar arredondamentos</title><desc id=\"MFC6-B1-I-ND-11-NDV1-descricao\">Três etiquetas de itens, cada uma com preço de R$ 4,49. Setas indicam primeiro somar para obter o total exato desconhecido e depois arredondar somente esse total. A regra mantém os reais quando os centavos vão de 00 a 49 e sobe um real quando vão de 50 a 99. Nenhum item arredondado, soma ou resultado final é apresentado.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"404\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" >Três itens do orçamento</text><rect x=\"12\" y=\"49\" width=\"90\" height=\"75\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"57\" y=\"74\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Item 1</text><text x=\"57\" y=\"106\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-campo=\"itens_reais.0\" data-valor=\"4.49\">R$ 4,49</text><rect x=\"115\" y=\"49\" width=\"90\" height=\"75\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"160\" y=\"74\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Item 2</text><text x=\"160\" y=\"106\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-campo=\"itens_reais.1\" data-valor=\"4.49\">R$ 4,49</text><rect x=\"218\" y=\"49\" width=\"90\" height=\"75\" fill=\"#edf4f8\" stroke=\"#263d4d\" /><text x=\"263\" y=\"74\" text-anchor=\"middle\" font-size=\"17\" fill=\"#172b3a\" >Item 3</text><text x=\"263\" y=\"106\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" data-campo=\"itens_reais.2\" data-valor=\"4.49\">R$ 4,49</text><path d=\"M160 137V173M156 168L160 173L164 168\" stroke=\"#263d4d\" stroke-width=\"2\" fill=\"none\"/><rect x=\"39\" y=\"187\" width=\"242\" height=\"55\" fill=\"white\" stroke=\"#263d4d\" /><text x=\"160\" y=\"222\" text-anchor=\"middle\" font-size=\"21\" fill=\"#172b3a\" >Somar: total exato ?</text><path d=\"M160 243V275M156 270L160 275L164 270\" stroke=\"#263d4d\" stroke-width=\"2\" fill=\"none\"/><text x=\"160\" y=\"308\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" >Arredondar somente o total</text><text x=\"160\" y=\"344\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Centavos de 00 a 49: manter os reais</text><text x=\"160\" y=\"374\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Centavos de 50 a 99: subir um real</text></svg>",
+          "css": ".mfc-nd-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Três etiquetas de itens, cada uma com preço de R$ 4,49. Setas indicam primeiro somar para obter o total exato desconhecido e depois arredondar somente esse total. A regra mantém os reais quando os centavos vão de 00 a 49 e sobe um real quando vão de 50 a 99. Nenhum item arredondado, soma ou resultado final é apresentado.",
+          "acessibilidade": "Três etiquetas de itens, cada uma com preço de R$ 4,49. Setas indicam primeiro somar para obter o total exato desconhecido e depois arredondar somente esse total. A regra mantém os reais quando os centavos vão de 00 a 49 e sobe um real quando vão de 50 a 99. Nenhum item arredondado, soma ou resultado final é apresentado.",
+          "geometria": {
+            "tipo": "nd_revisao",
+            "modelo": "precos_arredondamento"
+          },
+          "arquivo": "recursos/MFC6-B1-I-ND-11.svg"
+        }
+      ],
+      "assunto_nome": "Números decimais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Números Decimais solicitada pelo usuário",
+          "recurso_visual": "SVG matemático substitui tabela; reta de ND-10 preservada e aprimorada",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "correcoes_textuais": "Referência ao novo esquema; ND-01 sem antecipar a comparação; ND-09 frascos inteiros, de um único tamanho e volume exatamente 2 L",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ND-12",
+      "numero": 12,
+      "titulo": "Reserva mínima em uma medida",
+      "assunto": "ND",
+      "enunciado": "Um rolo deve fornecer quatro tiras de igual tamanho, deixando uma sobra mínima de segurança. Observe o esquema do rolo, das tiras e da reserva mínima. Qual é o maior tamanho permitido de cada tira?",
+      "dados": {
+        "rolo_m": "3.50",
+        "sobra_minima_m": "0.10",
+        "tiras": 4
+      },
+      "modelo_verificacao": "(F(D['rolo_m'])-F(D['sobra_minima_m']))/D['tiras']",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0,875 m.",
+          "valor": "0.875",
+          "erro_comum": "Ignorar reserva."
+        },
+        {
+          "letra": "B",
+          "texto": "0,825 m.",
+          "valor": "0.825",
+          "erro_comum": "Retirar a reserva duas vezes."
+        },
+        {
+          "letra": "C",
+          "texto": "3,4 m.",
+          "valor": "3.4",
+          "erro_comum": "Não repartir entre as quatro tiras."
+        },
+        {
+          "letra": "D",
+          "texto": "0,85 m.",
+          "valor": "0.85",
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Podem ser usados 3,40 m depois da reserva. Dividindo em quatro, cada tira mede até 0,85 m. Dividir 3,50 direto por quatro consumiria a sobra obrigatória.",
+      "habilidade": "Dividir uma disponibilidade decimal após retirar uma reserva.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Dividir uma disponibilidade decimal após retirar uma reserva."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Qual é o maior tamanho permitido de cada tira?",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa dividir uma disponibilidade decimal após retirar uma reserva.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ND",
+        "visual_relevante": true,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-ND-12",
+        "ativo": true
+      },
+      "recursos_visuais": [
+        {
+          "id": "MFC6-B1-I-ND-12-NDV1",
+          "tipo": "svg",
+          "dados": {
+            "rolo_m": "3.50",
+            "sobra_minima_m": "0.10",
+            "tiras": 4
+          },
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 353\" width=\"320\" height=\"353\" class=\"mfc-nd-svg\" style=\"font-family:Arial,sans-serif\" role=\"img\" aria-labelledby=\"MFC6-B1-I-ND-12-NDV1-titulo\" aria-describedby=\"MFC6-B1-I-ND-12-NDV1-descricao\"><title id=\"MFC6-B1-I-ND-12-NDV1-titulo\">Reserva mínima em uma medida</title><desc id=\"MFC6-B1-I-ND-12-NDV1-descricao\">Rolo inteiro de 3,50 m, representado por uma barra com quatro tiras iguais de comprimento desconhecido e uma faixa final de reserva mínima de 0,10 m. Todos os comprimentos usam a mesma escala de 80 pixels por metro. As tiras têm interrogações, sem valores numéricos ou comprimento disponível calculado. O esquema mostra a configuração com a reserva mínima.</desc><rect x=\"0\" y=\"0\" width=\"320\" height=\"353\" fill=\"white\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"22\" fill=\"#172b3a\" data-campo=\"rolo_m\" data-valor=\"3.50\">Rolo inteiro: 3,50 m</text><text x=\"160\" y=\"63\" text-anchor=\"middle\" font-size=\"20\" fill=\"#172b3a\" data-campo=\"tiras\" data-valor=\"4\">4 tiras de igual tamanho</text><rect x=\"20.0\" y=\"107\" width=\"68.0\" height=\"65\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tira=\"0\"/><text x=\"54.0\" y=\"146\" text-anchor=\"middle\" font-size=\"28\" fill=\"#172b3a\" >?</text><rect x=\"88.0\" y=\"107\" width=\"68.0\" height=\"65\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tira=\"1\"/><text x=\"122.0\" y=\"146\" text-anchor=\"middle\" font-size=\"28\" fill=\"#172b3a\" >?</text><rect x=\"156.0\" y=\"107\" width=\"68.0\" height=\"65\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tira=\"2\"/><text x=\"190.0\" y=\"146\" text-anchor=\"middle\" font-size=\"28\" fill=\"#172b3a\" >?</text><rect x=\"224.0\" y=\"107\" width=\"68.0\" height=\"65\" fill=\"#edf4f8\" stroke=\"#263d4d\" data-tira=\"3\"/><text x=\"258.0\" y=\"146\" text-anchor=\"middle\" font-size=\"28\" fill=\"#172b3a\" >?</text><rect x=\"292.0\" y=\"107\" width=\"8.0\" height=\"65\" fill=\"#fff3df\" stroke=\"#263d4d\" data-reserva=\"sim\"/><path d=\"M296.0 178V212H160\" stroke=\"#263d4d\" fill=\"none\"/><text x=\"160\" y=\"248\" text-anchor=\"middle\" font-size=\"19\" fill=\"#172b3a\" data-campo=\"sobra_minima_m\" data-valor=\"0.10\">Reserva mínima: 0,10 m</text><text x=\"160\" y=\"294\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Cada tira: comprimento a determinar</text><text x=\"160\" y=\"325\" text-anchor=\"middle\" font-size=\"16\" fill=\"#172b3a\" >Rolo, tiras e reserva na mesma escala</text></svg>",
+          "css": ".mfc-nd-svg{display:block;width:100%;max-width:32rem;height:auto}",
+          "relevancia": "Rolo inteiro de 3,50 m, representado por uma barra com quatro tiras iguais de comprimento desconhecido e uma faixa final de reserva mínima de 0,10 m. Todos os comprimentos usam a mesma escala de 80 pixels por metro. As tiras têm interrogações, sem valores numéricos ou comprimento disponível calculado. O esquema mostra a configuração com a reserva mínima.",
+          "acessibilidade": "Rolo inteiro de 3,50 m, representado por uma barra com quatro tiras iguais de comprimento desconhecido e uma faixa final de reserva mínima de 0,10 m. Todos os comprimentos usam a mesma escala de 80 pixels por metro. As tiras têm interrogações, sem valores numéricos ou comprimento disponível calculado. O esquema mostra a configuração com a reserva mínima.",
+          "geometria": {
+            "tipo": "nd_revisao",
+            "modelo": "rolo_tiras",
+            "escala_px_por_m": 80,
+            "reserva_representada": "minima"
+          },
+          "arquivo": "recursos/MFC6-B1-I-ND-12.svg"
+        }
+      ],
+      "assunto_nome": "Números decimais",
+      "historico_revisoes": [
+        {
+          "etapa": "Revisão pedagógica de Números Decimais solicitada pelo usuário",
+          "recurso_visual": "SVG matemático substitui tabela; reta de ND-10 preservada e aprimorada",
+          "dados_habilidade_dificuldade_gabarito": "Preservados",
+          "alternativas": "Preservadas",
+          "correcoes_textuais": "Referência ao novo esquema; ND-01 sem antecipar a comparação; ND-09 frascos inteiros, de um único tamanho e volume exatamente 2 L",
+          "aprovacao_final": "Aguardar conferência do material atualizado pelo usuário."
+        }
+      ]
+    },
+    {
+      "id": "MFC6-B1-I-ND-13",
+      "numero": 13,
+      "titulo": "Quando dobrar não é somar um",
+      "assunto": "ND",
+      "enunciado": "Uma etiqueta tem largura de 1,25 cm. Ela será ampliada pelo fator 2 e precisa ficar em um espaço de 2,60 cm, deixando 0,10 cm livre de cada lado. A etiqueta ampliada cabe com as margens exigidas?",
+      "dados": {
+        "largura_cm": "1.25",
+        "fator": 2,
+        "espaco_cm": "2.60",
+        "margem_por_lado_cm": "0.10"
+      },
+      "modelo_verificacao": "F(D['espaco_cm'])-F(D['largura_cm'])*D['fator']-2*F(D['margem_por_lado_cm'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Não; faltam 0,10 cm para preservar as duas margens.",
+          "valor": "-0.10",
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Sim; sobram 0,10 cm depois das duas margens.",
+          "valor": "0.10",
+          "erro_comum": "Ignorar margens e usar só a sobra bruta."
+        },
+        {
+          "letra": "C",
+          "texto": "Cabe exatamente; a sobra de 0,10 cm é suficiente para as duas margens.",
+          "valor": "0",
+          "erro_comum": "Reservar 0,10 no total, não em cada lado."
+        },
+        {
+          "letra": "D",
+          "texto": "Não; faltam 0,20 cm.",
+          "valor": "-0.20",
+          "erro_comum": "Tomar o total das margens como déficit sem considerar a sobra bruta."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "A ampliação produz 2,50 cm. As margens exigem mais 0,20 cm, totalizando 2,70 cm. O espaço tem 2,60 cm, então faltam 0,10 cm. Sem margens a etiqueta caberia, mas essa não é a condição do problema.",
+      "habilidade": "Combinar fator de escala, medidas decimais e margens mínimas.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Compara largura ampliada mais duas margens com um limite físico."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa combinar fator de escala, medidas decimais e margens mínimas.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ND",
+        "visual_relevante": false,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-ND-13",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Números decimais"
+    },
+    {
+      "id": "MFC6-B1-I-ND-14",
+      "numero": 14,
+      "titulo": "Desvio para o lado certo",
+      "assunto": "ND",
+      "enunciado": "Uma peça deveria medir 2,00 cm, mas mede 2,04 cm. Para chegar à medida prevista, o que deve ser feito? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "medida_atual_cm": "2.04",
+        "meta_cm": "2.00"
+      },
+      "modelo_verificacao": "F(D['meta_cm'])-F(D['medida_atual_cm'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Aumentar 0,04 cm.",
+          "valor": "0.04",
+          "erro_comum": "Inverter o sentido do ajuste."
+        },
+        {
+          "letra": "B",
+          "texto": "Reduzir 0,04 cm.",
+          "valor": "-0.04",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Reduzir 0,4 cm.",
+          "valor": "-0.4",
+          "erro_comum": "Confundir centésimos e décimos."
+        },
+        {
+          "letra": "D",
+          "texto": "Reduzir 4 cm.",
+          "valor": -4,
+          "erro_comum": "Ignorar a parte decimal."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "A peça está 0,04 cm maior. É preciso reduzir quatro centésimos de centímetro, não quatro décimos. O ajuste é −0,04 cm.",
+      "habilidade": "Interpretar sentido e unidade de uma correção decimal.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Uma decisão com dados explícitos e uma relação principal: Interpretar sentido e unidade de uma correção decimal."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa interpretar sentido e unidade de uma correção decimal.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ND",
+        "visual_relevante": false,
+        "nivel": "facil",
+        "grupo_equivalencia": "MFC6-B1-I-ND-14",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Números decimais"
+    },
+    {
+      "id": "MFC6-B1-I-ND-15",
+      "numero": 15,
+      "titulo": "Distância com unidade trocada",
+      "assunto": "ND",
+      "enunciado": "Um mapa informa 0,35 km e um aviso diz 350 m para o mesmo trajeto. Há contradição? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "mapa_km": "0.35",
+        "aviso_m": 350,
+        "metros_por_km": 1000
+      },
+      "modelo_verificacao": "F(D['mapa_km'])*D['metros_por_km']==D['aviso_m']",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sim; o aviso mostra mil vezes a distância.",
+          "valor": false,
+          "erro_comum": "Comparar só números, ignorando as unidades."
+        },
+        {
+          "letra": "B",
+          "texto": "Sim; 0,35 km são 35 m.",
+          "valor": false,
+          "erro_comum": "Usar conversão por cem."
+        },
+        {
+          "letra": "C",
+          "texto": "Não; os dois indicam o mesmo trajeto.",
+          "valor": true,
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Sim; decimais não podem representar quilômetros.",
+          "valor": false,
+          "erro_comum": "Excluir parte de unidade do sistema de medidas."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Não: 0,35×1.000=350 m. Os registros usam unidades diferentes para a mesma distância. Comparar 0,35 diretamente com 350, sem converter, não faz sentido.",
+      "habilidade": "Verificar equivalência de medidas em unidades diferentes.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Verificar equivalência de medidas em unidades diferentes."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa verificar equivalência de medidas em unidades diferentes.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ND",
+        "visual_relevante": false,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-ND-15",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Números decimais"
+    },
+    {
+      "id": "MFC6-B1-I-ND-16",
+      "numero": 16,
+      "titulo": "Comprar pelo peso, não pela embalagem",
+      "assunto": "ND",
+      "enunciado": "Duas embalagens do mesmo produto têm preço por quantidade. Uma tem 0,4 kg por R$ 6,00; outra 0,6 kg por R$ 8,40. Qual tem menor preço por quilograma? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "embalagem_A_kg": "0.4",
+        "A_reais": "6.00",
+        "embalagem_B_kg": "0.6",
+        "B_reais": "8.40"
+      },
+      "modelo_verificacao": "[F(D['A_reais'])/F(D['embalagem_A_kg']),F(D['B_reais'])/F(D['embalagem_B_kg'])]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A: R$ 6,00/kg; B: R$ 8,40/kg.",
+          "valor": [
+            6,
+            "8.4"
+          ],
+          "erro_comum": "Comparar preços das embalagens como preços por quilograma."
+        },
+        {
+          "letra": "B",
+          "texto": "A: R$ 2,40/kg; B: R$ 5,04/kg.",
+          "valor": [
+            "2.4",
+            "5.04"
+          ],
+          "erro_comum": "Multiplicar preço pela massa em vez de dividir."
+        },
+        {
+          "letra": "C",
+          "texto": "B: R$ 1,40/kg; A: R$ 1,50/kg.",
+          "valor": [
+            "1.5",
+            "1.4"
+          ],
+          "erro_comum": "Deslocar a vírgula indevidamente na divisão."
+        },
+        {
+          "letra": "D",
+          "texto": "B: R$ 14,00/kg; A: R$ 15,00/kg.",
+          "valor": [
+            15,
+            14
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "A custa 6÷0,4=15 reais por kg; B custa 8,40÷0,6=14. A embalagem B é mais econômica por quantidade, apesar do preço individual maior.",
+      "habilidade": "Comparar preços unitários com massas decimais.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Comparar preços unitários com massas decimais."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa comparar preços unitários com massas decimais.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ND",
+        "visual_relevante": false,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-ND-16",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Números decimais"
+    },
+    {
+      "id": "MFC6-B1-I-ND-17",
+      "numero": 17,
+      "titulo": "Somar leituras com unidades distintas",
+      "assunto": "ND",
+      "enunciado": "Um laboratório usa 250 mL de líquido e depois mais 0,4 L. Qual é o total em litros? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "primeira_ml": 250,
+        "segunda_l": "0.4",
+        "ml_por_l": 1000
+      },
+      "modelo_verificacao": "F(D['primeira_ml'],D['ml_por_l'])+F(D['segunda_l'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0,65 L.",
+          "valor": "0.65",
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "250,4 L.",
+          "valor": "250.4",
+          "erro_comum": "Somar sem converter unidade."
+        },
+        {
+          "letra": "C",
+          "texto": "2,9 L.",
+          "valor": "2.9",
+          "erro_comum": "Converter 250 mL em 2,5 L."
+        },
+        {
+          "letra": "D",
+          "texto": "0,15 L.",
+          "valor": "0.15",
+          "erro_comum": "Subtrair as parcelas em vez de somar."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "250 mL=0,25 L. Somando 0,4 L, obtém-se 0,65 L. Primeiro é necessário colocar os dados na mesma unidade.",
+      "habilidade": "Compatibilizar unidades antes de somar medidas.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Compatibilizar unidades antes de somar medidas."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa compatibilizar unidades antes de somar medidas.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ND",
+        "visual_relevante": false,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-ND-17",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Números decimais"
+    },
+    {
+      "id": "MFC6-B1-I-ND-18",
+      "numero": 18,
+      "titulo": "A igualdade perdida na cópia",
+      "assunto": "ND",
+      "enunciado": "Uma planilha registra 6,08 m. Ao copiar para um campo com uma casa decimal, o operador arredonda ao décimo mais próximo. Quanto a nova indicação difere da original? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "original_m": "6.08",
+        "passo": "0.1"
+      },
+      "modelo_verificacao": "arredonda(F(D['original_m']),F(D['passo']))-F(D['original_m'])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Fica 0,08 m menor.",
+          "valor": "-0.08",
+          "erro_comum": "Truncar a indicação para seis."
+        },
+        {
+          "letra": "B",
+          "texto": "Fica 0,02 m maior.",
+          "valor": "0.02",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Fica 0,2 m maior.",
+          "valor": "0.2",
+          "erro_comum": "Confundir centésimos com décimos."
+        },
+        {
+          "letra": "D",
+          "texto": "Não muda o valor.",
+          "valor": "0",
+          "erro_comum": "Confundir retirar algarismo significativo com retirar zero final."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "6,08 arredonda para 6,1. A diferença é 6,10−6,08=0,02 m a mais. Reduzir casas decimais não é simplesmente cortar o último algarismo.",
+      "habilidade": "Avaliar efeito do arredondamento sobre uma medida.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpretação de mais de uma condição ou etapa: Avaliar efeito do arredondamento sobre uma medida."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa avaliar efeito do arredondamento sobre uma medida.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ND",
+        "visual_relevante": false,
+        "nivel": "media",
+        "grupo_equivalencia": "MFC6-B1-I-ND-18",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Números decimais"
+    },
+    {
+      "id": "MFC6-B1-I-ND-19",
+      "numero": 19,
+      "titulo": "Uma taxa muda a escolha",
+      "assunto": "ND",
+      "enunciado": "Um serviço A cobra R$ 1,80 por hora; outro B cobra R$ 1,50 por hora mais taxa fixa de R$ 2,00. Para seis horas, qual é o mais barato e por quanto? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "A_por_hora": "1.80",
+        "B_por_hora": "1.50",
+        "B_taxa": "2.00",
+        "horas": 6
+      },
+      "modelo_verificacao": "F(D['B_por_hora'])*D['horas']+F(D['B_taxa'])-F(D['A_por_hora'])*D['horas']",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "B, por R$ 1,80.",
+          "valor": "-1.80",
+          "erro_comum": "Ignorar taxa fixa de B."
+        },
+        {
+          "letra": "B",
+          "texto": "B, por R$ 0,20.",
+          "valor": "-0.20",
+          "erro_comum": "Inverter o plano mais econômico."
+        },
+        {
+          "letra": "C",
+          "texto": "A, por R$ 0,20.",
+          "valor": "0.20",
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "A, por R$ 2,00.",
+          "valor": "2.00",
+          "erro_comum": "Tomar a taxa inteira como diferença sem comparar preços por hora."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "A custa 10,80 reais; B custa 9+2=11. A economiza 0,20 real. O preço por hora mais baixo de B não garante custo final mais baixo.",
+      "habilidade": "Comparar tarifa variável e tarifa com taxa fixa em um período.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Comparar tarifa variável e tarifa com taxa fixa em um período."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa comparar tarifa variável e tarifa com taxa fixa em um período.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ND",
+        "visual_relevante": false,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-ND-19",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Números decimais"
+    },
+    {
+      "id": "MFC6-B1-I-ND-20",
+      "numero": 20,
+      "titulo": "Tolerância após um arredondamento",
+      "assunto": "ND",
+      "enunciado": "Uma leitura real é 1,246 m. Um relatório guarda apenas centésimos, arredondando ao mais próximo. A tolerância admite diferença de no máximo 0,005 m entre valor real e guardado. O relatório atende? Escolha a alternativa que responde à situação.",
+      "dados": {
+        "real_m": "1.246",
+        "passo": "0.01",
+        "tolerancia_m": "0.005"
+      },
+      "modelo_verificacao": "abs(arredonda(F(D['real_m']),F(D['passo']))-F(D['real_m']))",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Não; a diferença é 0,006 m.",
+          "valor": "0.006",
+          "erro_comum": "Truncar em vez de arredondar."
+        },
+        {
+          "letra": "B",
+          "texto": "Não; a diferença é 0,04 m.",
+          "valor": "0.04",
+          "erro_comum": "Comparar casas decimais de ordens diferentes."
+        },
+        {
+          "letra": "C",
+          "texto": "Sim; a diferença é zero.",
+          "valor": "0",
+          "erro_comum": "Tratar aproximação como valor exato."
+        },
+        {
+          "letra": "D",
+          "texto": "Sim; a diferença é 0,004 m.",
+          "valor": "0.004",
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "O valor guardado é 1,25 m; a diferença é 0,004 m. Como 0,004≤0,005, atende. Truncar em 1,24 produziria diferença 0,006, fora da tolerância.",
+      "habilidade": "Cruzar arredondamento decimal e limite de erro admissível.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Coordenação de restrições, comparação de estratégias ou prova de impossibilidade: Cruzar arredondamento decimal e limite de erro admissível."
+      },
+      "autoria": "Elaboração original para este banco; sem transcrição de atividades anteriores.",
+      "originalidade": {
+        "estrutura": "Problema de decisão/condições: Escolha a alternativa que responde à situação.",
+        "referencia": "Conteúdos curriculares e regras pedagógicas; não derivado de um enunciado das listas.",
+        "diferenca_em_relacao_a_listas": "O problema usa cruzar arredondamento decimal e limite de erro admissível.; não reutiliza enunciados das listas nem é gerado por troca de nomes/números."
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": null,
+        "registro_aprovacao": "Revisão dos 100 itens concluída pelo usuário e alinhamento dos metadados autorizado para implementar a seleção.",
+        "data_aprovacao": "2026-10-13"
+      },
+      "sorteio": {
+        "assunto": "ND",
+        "visual_relevante": false,
+        "nivel": "dificil",
+        "grupo_equivalencia": "MFC6-B1-I-ND-20",
+        "ativo": true
+      },
+      "recursos_visuais": [],
+      "assunto_nome": "Números decimais"
+    }
+  ]
+}

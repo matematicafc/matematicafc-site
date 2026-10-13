@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <meta name="theme-color" content="#123e4a">
+  <title>Simulado do 6º ano — MatemáticaFC</title>
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+<body style="margin:0;background:#f2f6f6">
+  <div class="mfc-simulado" id="mfc-simulado"></div>
+  <script type="module">
+    import { montarSimulado } from './estudante.mjs';
+    montarSimulado(document.querySelector('#mfc-simulado'));
+  </script>
+</body>
+</html>

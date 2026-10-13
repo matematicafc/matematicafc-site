@@ -1,0 +1,62 @@
+{
+  "commitOrigem": "aa2219dc537d532085140a63c3d4804e5014669c",
+  "branchPublicacao": "publicacao-simulados",
+  "pacote": {
+    "arquivosAplicacaoELicencas": 24,
+    "bytes": 1867465,
+    "arquivosIdenticosAOrigem": 24,
+    "referenciasRelativasConferidas": 29,
+    "cnamePresente": false,
+    "githubPagesConfiguradoNestaEtapa": false
+  },
+  "suiteOrigem": {
+    "arquivo": "atividades-interativas/simulados/6-ano/bloco-1/interface/testes/interface.test.mjs",
+    "sha256": "8207e266f3788c0bd8efdc6e91361c7eebf2d19a3da6e6ca2cba07a8eae6c455",
+    "adaptacoes": "Somente caminhos de módulos, arquivos do banco, raiz do servidor e prefixo da URL. Asserções preservadas."
+  },
+  "execucoes": [
+    {
+      "caminho": "/6-ano/bloco-1/interface/",
+      "testes": 10,
+      "aprovados": 10,
+      "falhas": 0,
+      "ignorados": 0,
+      "duracaoMs": 40765.878903
+    },
+    {
+      "caminho": "/matematicafc-site/6-ano/bloco-1/interface/",
+      "testes": 10,
+      "aprovados": 10,
+      "falhas": 0,
+      "ignorados": 0,
+      "duracaoMs": 41805.800851
+    }
+  ],
+  "total": {
+    "testes": 20,
+    "aprovados": 20,
+    "falhas": 0,
+    "ignorados": 0
+  },
+  "ambiente": "Node.js 24, Chromium 154, Playwright 1.61.1, Python HTTP server, Poppler",
+  "limites": "Validação HTTP local. GitHub Pages, DNS e Blogger não foram configurados. Não substitui os testes futuros no HTTPS real e em aparelhos móveis físicos.",
+  "evidenciasTemporariasForaDoGit": [
+    "/tmp/mfc-publicacao-raiz",
+    "/tmp/mfc-publicacao-prefixo"
+  ],
+  "funcionalidadesConferidas": [
+    "Nome opcional e início sem nome",
+    "Navegação, alteração, limpeza e estabilidade de questões e alternativas",
+    "Cotas de assuntos, dificuldades e recursos visuais",
+    "Cancelamento e confirmação da finalização, inclusive com questões em branco",
+    "Contagem de acertos, erros e não respondidas; percentual e desempenho por assunto",
+    "Gabarito e resoluções somente após a finalização",
+    "PDF efetivamente baixado, com 30 questões, ordem, alternativas, escolhas, gabaritos, resoluções e imagens conferidos",
+    "Documento de impressão A4 e chamada à API de impressão",
+    "Consulta na tela e nova aplicação",
+    "Recuperação após falhas no banco e na fonte do PDF",
+    "Recursos dos 100 itens e responsividade em 320, 768 e 1280 pixels",
+    "Navegação por teclado e foco do diálogo",
+    "Nome/resultados não enviados por HTTP ou armazenados em localStorage/sessionStorage"
+  ]
+}
