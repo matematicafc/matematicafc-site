@@ -13,7 +13,7 @@
 .mfc-simulado .mfc-primary{background:var(--mfc-teal);border-color:var(--mfc-teal);color:white}
 .mfc-simulado .mfc-primary:hover{background:#065451}
 .mfc-simulado .mfc-brand{display:flex;align-items:center;gap:12px;font-size:1.25rem;font-weight:750;letter-spacing:-.025em;margin-bottom:28px}
-.mfc-simulado .mfc-logo{display:grid;place-items:center;inline-size:44px;block-size:44px;border-radius:12px;background:#123e4a;color:#fff;font-size:14px;letter-spacing:0}
+.mfc-simulado .mfc-logo{display:block;flex-shrink:0;inline-size:44px;block-size:44px;object-fit:contain}
 .mfc-simulado .mfc-subtitle,.mfc-simulado .mfc-note{color:var(--mfc-muted)}
 .mfc-simulado .mfc-kicker{font-size:14px;font-weight:750;color:var(--mfc-teal);text-transform:uppercase;letter-spacing:.08em;margin-bottom:10px}
 .mfc-simulado .mfc-card{background:#fff;border:1px solid var(--mfc-line);border-radius:20px;padding:32px;box-shadow:0 5px 20px #123e4a08;min-width:0}
@@ -67,3 +67,10 @@
 .mfc-simulado .mfc-resolution{border-top:1px solid var(--mfc-line);padding-top:16px;margin-top:20px;white-space:pre-wrap}
 @media(max-width:760px){.mfc-simulado{padding:18px 12px 32px}.mfc-simulado .mfc-layout{grid-template-columns:minmax(0,1fr)}.mfc-simulado .mfc-card{padding:20px;border-radius:16px}.mfc-simulado .mfc-numbers{grid-template-columns:repeat(5,minmax(0,1fr))}.mfc-simulado .mfc-question-map{padding:18px}.mfc-simulado .mfc-brand{margin-bottom:22px}.mfc-simulado .mfc-toolbar{align-items:flex-start}.mfc-simulado .mfc-toolbar>button{width:100%}.mfc-simulado .mfc-option{padding:12px;gap:9px}.mfc-simulado .mfc-stats{gap:10px}.mfc-simulado .mfc-stat{padding:14px}.mfc-simulado .mfc-stat strong{font-size:1.7rem}}
 @media(prefers-reduced-motion:reduce){.mfc-simulado *{scroll-behavior:auto!important}}
+
+.mfc-simulado .mfc-identificacao{margin:24px 0}
+.mfc-simulado .mfc-identificacao label{display:block;font-weight:650;margin-bottom:8px}
+.mfc-simulado .mfc-identificacao input{display:block;width:100%;min-height:46px;border:1px solid var(--mfc-line);border-radius:10px;padding:10px 12px;color:var(--mfc-ink);background:white}
+.mfc-simulado .mfc-identificacao .mfc-note{font-size:14px;margin-top:8px}
+.mfc-simulado [data-nome-estudante]{overflow-wrap:anywhere}
+@media(min-width:1000px){.mfc-simulado .mfc-stats{grid-template-columns:repeat(4,minmax(0,1fr))}}

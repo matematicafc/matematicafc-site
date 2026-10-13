@@ -1,5 +1,8 @@
 import { carregarBanco, criarMecanismo } from '../mecanismo/index.mjs';
-import { calcularResultados, formatarPercentual } from './resultados.mjs';
+import { formatarPercentual } from './resultados.mjs';
+
+import { criarBoletim } from './boletim.mjs';
+import { imprimirBoletim } from './impressao.mjs';
 
 let numeroMontagem = 0;
 
@@ -29,8 +32,8 @@ function recursos(q, destino) {
 export async function montarSimulado(container, { baseBanco = new URL('../banco-inedito/', import.meta.url), buscar = globalThis.fetch } = {}) {
   if (!container) throw new Error('Contêiner do simulado não encontrado.');
   container.classList.add('mfc-simulado');
-  let mecanismo, aplicacao, questoes, indice = 0, correcao, contador, progresso, mapa;
-  const marca = elemento('header', { classe: 'mfc-brand' }, [elemento('span', { classe: 'mfc-logo', texto: 'MFC', 'aria-hidden': 'true' }), elemento('span', { texto: 'MatemáticaFC' })]);
+  let mecanismo, aplicacao, questoes, indice = 0, correcao, contador, progresso, mapa, campoNome, nome = '', boletim;
+  const marca = elemento('header', { classe: 'mfc-brand' }, [elemento('img', { classe: 'mfc-logo', src: new URL('./imagens/favicon-matematicafc.ico', import.meta.url).href, alt: '', width: 44, height: 44, 'aria-hidden': 'true' }), elemento('span', { texto: 'MatemáticaFC' })]);
   const main = elemento('main');
   const status = elemento('p', { classe: 'mfc-status', role: 'status', 'aria-live': 'polite' });
   const dialog = elemento('dialog', { 'aria-labelledby': 'mfc-confirmar-titulo-' + ++numeroMontagem });
@@ -58,6 +61,12 @@ export async function montarSimulado(container, { baseBanco = new URL('../banco-
 
   function mostrarInicio() {
     container.dataset.etapa = 'inicio';
+    const nomeId = `mfc-nome-${numeroMontagem}`;
+    campoNome = elemento('input', { id: nomeId, type: 'text', maxlength: 120, autocomplete: 'off', 'aria-describedby': `${nomeId}-ajuda` });
+    const identificacao = elemento('div', { classe: 'mfc-identificacao' }, [
+      elemento('label', { for: nomeId, texto: 'Nome do estudante (opcional)' }), campoNome,
+      elemento('p', { id: `${nomeId}-ajuda`, classe: 'mfc-note', texto: 'Usado apenas para personalizar seu boletim. Você pode começar sem preencher. Nome e resultados ficam somente no navegador.' }),
+    ]);
     const iniciar = botao('Iniciar simulado', iniciarAplicacao, { classe: 'mfc-primary', disabled: true });
     const textoCarga = elemento('p', { classe: 'mfc-note', texto: 'Preparando as questões…' });
     const card = elemento('section', { classe: 'mfc-card mfc-intro' }, [
@@ -69,7 +78,7 @@ export async function montarSimulado(container, { baseBanco = new URL('../banco-
         elemento('li', { texto: 'Escolha uma alternativa por questão. Você pode mudar suas respostas antes de finalizar.' }),
         elemento('li', { texto: 'Use Anterior, Próxima ou os números para navegar. As questões respondidas serão identificadas.' }),
         elemento('li', { texto: 'O resultado e o gabarito comentado aparecem somente depois da finalização.' }),
-      ]), iniciar, textoCarga,
+      ]), identificacao, iniciar, textoCarga,
       elemento('p', { classe: 'mfc-note', texto: 'Suas respostas ficam nesta página. Recarregar ou fechar a página encerra a aplicação atual.' }),
     ]);
     main.replaceChildren(card);
@@ -89,6 +98,7 @@ export async function montarSimulado(container, { baseBanco = new URL('../banco-
     }
   }
   function iniciarAplicacao() {
+    nome = campoNome.value; boletim = null;
     aplicacao = mecanismo.novaAplicacao();
     questoes = aplicacao.obterQuestoes(); indice = 0; correcao = null;
     container.dataset.etapa = 'aplicacao'; status.textContent = '';
@@ -148,7 +158,8 @@ export async function montarSimulado(container, { baseBanco = new URL('../banco-
   }
   function mostrarResultado() {
     container.dataset.etapa = 'resultado'; status.textContent = 'Simulado finalizado. Resultado disponível.';
-    const resultado = calcularResultados(questoes, correcao);
+    boletim = criarBoletim(aplicacao, { nome });
+    const resultado = boletim.resultado;
     const heading = elemento('h1', { tabindex: -1, texto: 'Seu resultado' });
     const lista = elemento('ul', { classe: 'mfc-performance', 'aria-label': 'Desempenho por assunto' });
     for (const a of resultado.assuntos) lista.append(elemento('li', { 'data-assunto': a.codigo }, [elemento('span', { texto: a.nome }), elemento('strong', { texto: `${a.acertos} de ${a.total} · ${formatarPercentual(a.percentual)}` })]));
@@ -160,22 +171,49 @@ export async function montarSimulado(container, { baseBanco = new URL('../banco-
       gabarito.setAttribute('aria-expanded', String(!revisao.hidden));
       gabarito.textContent = revisao.hidden ? 'Ver gabarito comentado' : 'Ocultar gabarito comentado';
     }, { 'aria-expanded': false });
+    const mensagemExportacao = elemento('p', { classe: 'mfc-status', role: 'status', 'aria-live': 'polite' });
+    const snapshot = boletim;
+    async function exportar(button, acao) {
+      button.disabled = true; mensagemExportacao.textContent = 'Preparando o boletim…';
+      try { mensagemExportacao.textContent = await acao(); }
+      catch { mensagemExportacao.textContent = 'Não foi possível preparar o boletim. Tente novamente ou consulte os resultados na tela.'; }
+      finally { button.disabled = false; }
+    }
+    const pdf = botao('Baixar PDF', () => exportar(pdf, async () => {
+      const { gerarPDF, baixarPDF } = await import('./pdf.mjs');
+      const arquivo = await gerarPDF(snapshot); baixarPDF(arquivo.blob);
+      return arquivo.avisos.length ? 'PDF preparado. Algumas imagens foram substituídas por suas descrições acessíveis.' : 'PDF preparado para download.';
+    }));
+    const imprimir = botao('Imprimir', () => exportar(imprimir, async () => {
+      await imprimirBoletim(snapshot); return 'Versão de impressão preparada.';
+    }));
+    const consultar = botao('Consultar na tela', () => {
+      if (revisao.hidden) gabarito.click();
+      revisao.querySelector('h2').focus(); revisao.scrollIntoView({ block: 'start' });
+    });
     const card = elemento('section', { classe: 'mfc-card' }, [
       elemento('p', { classe: 'mfc-kicker', texto: 'Simulado concluído' }), heading,
       elemento('p', { texto: '6º ano · Bloco 1 — Números e Operações' }),
+      ...(boletim.nome ? [elemento('p', { 'data-nome-estudante': true, texto: `Nome do estudante: ${boletim.nome}` })] : []),
+      elemento('p', { texto: `Data de realização: ${boletim.dataFormatada}` }),
       elemento('div', { classe: 'mfc-stats' }, [
         elemento('div', { classe: 'mfc-stat' }, [elemento('span', { texto: 'Acertos' }), elemento('strong', { 'data-total-acertos': true, texto: `${resultado.acertos} de ${resultado.total}` })]),
+        elemento('div', { classe: 'mfc-stat' }, [elemento('span', { texto: 'Erros' }), elemento('strong', { 'data-total-erros': true, texto: resultado.erros })]),
+        elemento('div', { classe: 'mfc-stat' }, [elemento('span', { texto: 'Não respondidas' }), elemento('strong', { 'data-total-branco': true, texto: resultado.semResposta })]),
         elemento('div', { classe: 'mfc-stat' }, [elemento('span', { texto: 'Aproveitamento' }), elemento('strong', { 'data-percentual': true, texto: formatarPercentual(resultado.percentual) })]),
       ]),
       elemento('p', { texto: `${resultado.respondidas} ${resultado.respondidas === 1 ? 'questão respondida' : 'questões respondidas'}; ${resultado.semResposta} sem resposta.` }),
       elemento('h2', { texto: 'Desempenho por assunto' }), lista,
       elemento('p', { classe: 'mfc-note', texto: 'Confira as resoluções para compreender as estratégias e retomar os assuntos que precisam de estudo.' }),
+      elemento('h2', { texto: 'Como deseja guardar ou consultar seu resultado?' }),
+      elemento('p', { classe: 'mfc-note', texto: 'Escolha livremente: não é necessário baixar ou imprimir. O PDF é gerado neste navegador, sem envio de dados pessoais.' }),
+      elemento('div', { classe: 'mfc-result-actions' }, [pdf, imprimir, consultar]), mensagemExportacao,
       elemento('div', { classe: 'mfc-result-actions' }, [gabarito, botao('Iniciar nova aplicação', iniciarAplicacao, { classe: 'mfc-primary' })]),
     ]);
     main.replaceChildren(card, revisao); heading.focus({ preventScroll: true }); container.scrollIntoView({ block: 'start' });
   }
   function montarGabarito(destino) {
-    destino.append(elemento('h2', { texto: 'Gabarito comentado' }));
+    destino.append(elemento('h2', { tabindex: -1, texto: 'Gabarito comentado' }));
     const porId = new Map(correcao.map(c => [c.questaoId, c]));
     questoes.forEach((q, i) => {
       const c = porId.get(q.id), certo = c.respostaId === c.opcaoCorretaId;

@@ -1,0 +1,11 @@
+{
+  "questoesConferidas": 30,
+  "imagensPDF": 22,
+  "acertos": 2,
+  "erros": 1,
+  "naoRespondidas": 27,
+  "ordemAlternativasResolucoes": "conferidas contra a aplicação",
+  "requisicoesSomenteGETLocais": true,
+  "nomeOpcional": true,
+  "impressao": true
+}

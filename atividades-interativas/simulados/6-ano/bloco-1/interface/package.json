@@ -2,6 +2,12 @@
   "name": "matematicafc-interface-6-ano-bloco-1",
   "private": true,
   "type": "module",
-  "scripts": { "test": "node --test testes/*.test.mjs" },
-  "devDependencies": { "playwright": "1.61.1" }
+  "scripts": {
+    "test": "node --test testes/*.test.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.0",
+    "jspdf": "3.0.4",
+    "playwright": "1.61.1"
+  }
 }

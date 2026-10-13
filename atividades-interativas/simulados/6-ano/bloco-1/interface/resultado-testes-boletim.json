@@ -1,0 +1,52 @@
+{
+  "ambiente": "Chromium 154, Node.js 24, Playwright 1.61.1, Poppler",
+  "comando": "MFC_CAPTURAS=/tmp/mfc-boletim-regressao MFC_BOLETIM_CAPTURAS=.../interface/inspecao/boletim npm test --prefix atividades-interativas/simulados/6-ano/bloco-1/interface",
+  "testes": 10,
+  "aprovados": 10,
+  "falhas": 0,
+  "ignorados": 0,
+  "duracaoMs": 32643.914024,
+  "validacaoBoletim": {
+    "questoesConferidas": 30,
+    "imagensPDF": 22,
+    "acertos": 2,
+    "erros": 1,
+    "naoRespondidas": 27,
+    "ordemAlternativasResolucoes": "conferidas contra a aplicação",
+    "requisicoesSomenteGETLocais": true,
+    "nomeOpcional": true,
+    "impressao": true,
+    "paginasPDF": 31
+  },
+  "preservacao": {
+    "arquivosBancosEMecanismoSHA256": 92,
+    "alterados": 0
+  },
+  "revalidacaoAntesDoEnvio": {
+    "comando": "MFC_CAPTURAS=/tmp/mfc-publicacao-regressao MFC_BOLETIM_CAPTURAS=/tmp/mfc-publicacao-boletim npm test --prefix atividades-interativas/simulados/6-ano/bloco-1/interface",
+    "testes": 10,
+    "aprovados": 10,
+    "falhas": 0,
+    "ignorados": 0,
+    "duracaoMs": 34902.415461,
+    "pdfAprovadoPreservado": true
+  },
+  "revalidacaoMecanismo": {
+    "testes": 8,
+    "aprovados": 8,
+    "falhas": 0,
+    "ignorados": 0,
+    "duracaoMs": 17711.152396,
+    "aplicacoes": 10000,
+    "questoesSelecionadas": 300000,
+    "visuaisMinimo": 15,
+    "visuaisMaximo": 27,
+    "dificuldades": [
+      8,
+      14,
+      8
+    ],
+    "questoesPorAssunto": 6,
+    "violacoes": 0
+  }
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "tela": "computador",
+    "texto": "MatemáticaFC",
+    "larguraImagem": 44,
+    "alturaImagem": 44,
+    "larguraOriginal": 48,
+    "alturaOriginal": 48,
+    "espacamento": 12,
+    "alinhamento": 0,
+    "semRolagemHorizontal": true
+  },
+  {
+    "tela": "celular-320",
+    "texto": "MatemáticaFC",
+    "larguraImagem": 44,
+    "alturaImagem": 44,
+    "larguraOriginal": 48,
+    "alturaOriginal": 48,
+    "espacamento": 12,
+    "alinhamento": 0,
+    "semRolagemHorizontal": true
+  }
+]

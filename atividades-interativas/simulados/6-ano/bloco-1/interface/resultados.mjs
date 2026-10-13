@@ -11,7 +11,7 @@ export function calcularResultados(questoes, correcao) {
     if (!assuntos.has(q.assunto)) assuntos.set(q.assunto, { codigo: q.assunto, nome: q.assuntoNome, acertos: 0, total: 0 });
     const a = assuntos.get(q.assunto); a.total++; a.acertos += Number(certo);
   }
-  return { acertos, total: questoes.length, respondidas, semResposta: questoes.length - respondidas,
+  return { acertos, erros: respondidas - acertos, total: questoes.length, respondidas, semResposta: questoes.length - respondidas,
     percentual: acertos / questoes.length * 100,
     assuntos: ['SN', 'ON', 'MD', 'FR', 'ND'].filter(c => assuntos.has(c)).map(c => { const a = assuntos.get(c); return { ...a, percentual: a.acertos / a.total * 100 }; }) };
 }
