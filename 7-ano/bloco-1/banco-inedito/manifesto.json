@@ -1,0 +1,62 @@
+{
+  "banco_id": "MFC7-B1-INEDITO-V1",
+  "estado": "rascunho_para_revisao_pedagogica",
+  "questoes": 100,
+  "visuais": 60,
+  "questoes_por_assunto": 20,
+  "dificuldades_banco_por_assunto": {
+    "facil": 6,
+    "media": 8,
+    "dificil": 6
+  },
+  "visuais_por_nivel_por_assunto": {
+    "facil": 3,
+    "media": 5,
+    "dificil": 4
+  },
+  "regras_selecao": {
+    "total": 30,
+    "por_assunto": 6,
+    "dificuldade_por_assunto": {
+      "DP": {
+        "facil": 1,
+        "media": 3,
+        "dificil": 2
+      },
+      "NI": {
+        "facil": 2,
+        "media": 3,
+        "dificil": 1
+      },
+      "OI": {
+        "facil": 1,
+        "media": 3,
+        "dificil": 2
+      },
+      "FR": {
+        "facil": 2,
+        "media": 3,
+        "dificil": 1
+      },
+      "NR": {
+        "facil": 2,
+        "media": 2,
+        "dificil": 2
+      }
+    },
+    "dificuldade_total": {
+      "facil": 8,
+      "media": 14,
+      "dificil": 8
+    },
+    "minimo_visuais_por_assunto": 3,
+    "minimo_visuais": 15
+  },
+  "arquivos_sha256": {
+    "divisibilidade-primos-mmc-mdc.json": "e78de557b020a8ea6f595e518adc901be20a92c5c51de7309c030552d1b66cf9",
+    "inteiros-representacao.json": "441c1b6adb5ccd629091dcf0f361e12a75f1fb405c571807cf741f355680ba81",
+    "operacoes-inteiros.json": "35c5c2ee1680c8b48a83191f05803c0817e935da34837466cb381df3fc0ea8a4",
+    "fracoes.json": "e0b8e8be468782a714eb6c107448bac7e6df95783f1440aaa9c9ae01e634ed8b",
+    "racionais-representacoes.json": "71b89795c96d573729f088d444d0482dc2fb6ae16e8e233b1c252138c91a0505"
+  }
+}

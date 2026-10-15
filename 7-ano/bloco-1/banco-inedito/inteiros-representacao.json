@@ -1,0 +1,2337 @@
+{
+  "versao_formato": 1,
+  "banco_id": "MFC7-B1-INEDITO-V1",
+  "assunto": "Números inteiros: representação, comparação e ordenação",
+  "codigo_assunto": "NI",
+  "questoes": [
+    {
+      "id": "MFC7-B1-I-NI-01",
+      "numero": 1,
+      "titulo": "O zero do indicador é uma referência",
+      "assunto": "NI",
+      "assunto_nome": "Números inteiros: representação, comparação e ordenação",
+      "subtema": "sinais",
+      "habilidade": "Interpretar um registro inteiro relativo a uma referência.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "O indicador não mostra diretamente a temperatura: mostra quantos graus ela está acima ou abaixo da referência indicada. Qual leitura da situação representada é correta?",
+      "dados": {
+        "referencia": 20,
+        "registro": -3
+      },
+      "modelo_verificacao": "referencia+registro",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A temperatura é 23 °C, três graus acima da referência.",
+          "valor": "23",
+          "erro_comum": "Inverte o significado do sinal negativo."
+        },
+        {
+          "letra": "B",
+          "texto": "A temperatura é 3 °C, pois o módulo do registro é 3.",
+          "valor": "3",
+          "erro_comum": "Descarta a referência e interpreta o módulo como temperatura."
+        },
+        {
+          "letra": "C",
+          "texto": "A temperatura é 17 °C, três graus abaixo da referência.",
+          "valor": "17",
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "A temperatura é −3 °C, pois esse é o registro do indicador.",
+          "valor": "-3",
+          "erro_comum": "Confunde a diferença em relação à referência com a temperatura."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "O zero do indicador corresponde a 20 °C. O registro −3 informa uma temperatura 3 °C abaixo desse valor: 20 − 3 = 17 °C. Portanto, um registro negativo não significa, neste instrumento, temperatura abaixo de zero grau Celsius.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-inteiros-representacao.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "O zero do indicador é uma referência"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NI",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NI-01"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 224\" role=\"img\" aria-label=\"Referência: 20 °C; Registro: −3 °C em relação à referência\"><title>Como ler o indicador</title><desc>Referência: 20 °C; Registro: −3 °C em relação à referência</desc><rect width=\"320\" height=\"224\" fill=\"#fff\"/><text x=\"12\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Como ler o indicador</text><rect x=\"10\" y=\"64\" width=\"145\" height=\"138\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"20\" y=\"89\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Referência</text><text x=\"20\" y=\"123\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">20 °C</text><rect x=\"165\" y=\"64\" width=\"145\" height=\"138\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"175\" y=\"89\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Registro</text><text x=\"175\" y=\"123\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">−3 °C em</text><text x=\"175\" y=\"147\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">relação à</text><text x=\"175\" y=\"171\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">referência</text></svg>",
+          "acessibilidade": "Referência: 20 °C; Registro: −3 °C em relação à referência",
+          "geometria": {
+            "tipo": "cartoes",
+            "items": [
+              {
+                "nome": "Referência",
+                "valor": "20 °C"
+              },
+              {
+                "nome": "Registro",
+                "valor": "−3 °C em relação à referência"
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-NI-01-visual",
+          "arquivo": "recursos/NI-01.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-NI-02",
+      "numero": 2,
+      "titulo": "Roteiro de baixo para cima",
+      "assunto": "NI",
+      "assunto_nome": "Números inteiros: representação, comparação e ordenação",
+      "subtema": "comparacao",
+      "habilidade": "Ordenar posições inteiras mantendo os rótulos correspondentes.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "No museu, os depósitos L, M, N e P ficam, respectivamente, nos pisos −8, −2, +3 e 0. A equipe começará pelo mais baixo e seguirá sempre para cima, visitando todos uma vez. Qual é a ordem dos depósitos?",
+      "dados": {
+        "nomes": [
+          "L",
+          "M",
+          "N",
+          "P"
+        ],
+        "valores": [
+          -8,
+          -2,
+          3,
+          0
+        ]
+      },
+      "modelo_verificacao": "ordenar(nomes,valores)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "M → L → P → N.",
+          "valor": [
+            "M",
+            "L",
+            "P",
+            "N"
+          ],
+          "erro_comum": "Inverte a ordem dos dois pisos negativos."
+        },
+        {
+          "letra": "B",
+          "texto": "L → M → P → N.",
+          "valor": [
+            "L",
+            "M",
+            "P",
+            "N"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "N → P → M → L.",
+          "valor": [
+            "N",
+            "P",
+            "M",
+            "L"
+          ],
+          "erro_comum": "Ordena os pisos do maior para o menor."
+        },
+        {
+          "letra": "D",
+          "texto": "P → M → N → L.",
+          "valor": [
+            "P",
+            "M",
+            "N",
+            "L"
+          ],
+          "erro_comum": "Organiza pela proximidade do zero em vez da altura."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Na ordem crescente, −8 < −2 < 0 < +3. Os depósitos correspondentes são L, M, P e N. Entre negativos, o que está mais à esquerda na reta é menor.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-inteiros-representacao.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Roteiro de baixo para cima"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NI",
+        "nivel": "facil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-NI-02"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-NI-03",
+      "numero": 3,
+      "titulo": "Portões simétricos ao posto",
+      "assunto": "NI",
+      "assunto_nome": "Números inteiros: representação, comparação e ordenação",
+      "subtema": "modulo",
+      "habilidade": "Reconhecer posições opostas e interpretar a escala da reta numérica.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "O posto de apoio fica na posição zero da reta. O portão P está cinco unidades à esquerda do posto.\n\nUm segundo portão deve ficar à mesma distância do posto, mas do lado oposto. Qual dos pontos indicados representa a posição desse segundo portão?",
+      "dados": {
+        "p": -5
+      },
+      "modelo_verificacao": "-p",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Q.",
+          "valor": "5",
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "R.",
+          "valor": "-2",
+          "erro_comum": "Escolhe outro ponto do mesmo lado do posto."
+        },
+        {
+          "letra": "C",
+          "texto": "S.",
+          "valor": "1",
+          "erro_comum": "Muda de lado, mas não conserva a distância."
+        },
+        {
+          "letra": "D",
+          "texto": "P.",
+          "valor": "-5",
+          "erro_comum": "Conserva o ponto em vez de escolher seu oposto."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "P está na posição −5, cinco unidades à esquerda do zero. A posição que fica cinco unidades à direita é +5, representada por Q. Portanto, Q e P são posições opostas.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-inteiros-representacao.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Portões simétricos ao posto"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de NI-03, NI-05, NI-08, NI-11, NI-16 e NI-17; melhorias visuais de NI-10, NI-14 e NI-15.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NI",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NI-03"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Portões e posto de apoio. Escala de -6 a 6, intervalo 2. P em -5; Q em 5; R em -2; S em 1\"><title>Portões e posto de apoio</title><desc>Portões e posto de apoio. Escala de -6 a 6, intervalo 2. P em -5; Q em 5; R em -2; S em 1</desc><rect width=\"320\" height=\"190\" fill=\"#fff\"/><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Portões e posto de apoio</text><line x1=\"30\" x2=\"290\" y1=\"100\" y2=\"100\" stroke=\"#173746\" stroke-width=\"2\"/><line x1=\"30.0000\" x2=\"30.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"30.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-6</text><line x1=\"73.3333\" x2=\"73.3333\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"73.3333\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-4</text><line x1=\"116.6667\" x2=\"116.6667\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"116.6667\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-2</text><line x1=\"160.0000\" x2=\"160.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"160.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">0</text><line x1=\"203.3333\" x2=\"203.3333\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"203.3333\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">2</text><line x1=\"246.6667\" x2=\"246.6667\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"246.6667\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">4</text><line x1=\"290.0000\" x2=\"290.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"290.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">6</text><circle cx=\"51.6667\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"51.6667\" x2=\"51.6667\" y1=\"100\" y2=\"70\" stroke=\"#086a68\"/><text x=\"51.6667\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">P</text><circle cx=\"268.3333\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"268.3333\" x2=\"268.3333\" y1=\"100\" y2=\"147\" stroke=\"#086a68\"/><text x=\"268.3333\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">Q</text><circle cx=\"116.6667\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"116.6667\" x2=\"116.6667\" y1=\"100\" y2=\"70\" stroke=\"#086a68\"/><text x=\"116.6667\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">R</text><circle cx=\"181.6667\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"181.6667\" x2=\"181.6667\" y1=\"100\" y2=\"147\" stroke=\"#086a68\"/><text x=\"181.6667\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">S</text><line data-subdivisao=\"true\" x1=\"51.6667\" x2=\"51.6667\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"95.0000\" x2=\"95.0000\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"138.3333\" x2=\"138.3333\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"181.6667\" x2=\"181.6667\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"225.0000\" x2=\"225.0000\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"268.3333\" x2=\"268.3333\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/></svg>",
+          "acessibilidade": "Portões e posto de apoio. Escala de -6 a 6, intervalo 2. P em -5; Q em 5; R em -2; S em 1 As marcas principais estão espaçadas de duas em duas unidades; há uma marca menor a cada unidade.",
+          "geometria": {
+            "tipo": "reta",
+            "inicio": "-6",
+            "fim": "6",
+            "passo": "2",
+            "pontos": [
+              {
+                "nome": "P",
+                "valor": "-5",
+                "x": 51.66666666666667
+              },
+              {
+                "nome": "Q",
+                "valor": "5",
+                "x": 268.33333333333337
+              },
+              {
+                "nome": "R",
+                "valor": "-2",
+                "x": 116.66666666666667
+              },
+              {
+                "nome": "S",
+                "valor": "1",
+                "x": 181.66666666666666
+              }
+            ],
+            "marcas": [
+              {
+                "valor": "-6",
+                "x": 30.0
+              },
+              {
+                "valor": "-4",
+                "x": 73.33333333333334
+              },
+              {
+                "valor": "-2",
+                "x": 116.66666666666667
+              },
+              {
+                "valor": "0",
+                "x": 160.0
+              },
+              {
+                "valor": "2",
+                "x": 203.33333333333334
+              },
+              {
+                "valor": "4",
+                "x": 246.66666666666666
+              },
+              {
+                "valor": "6",
+                "x": 290.0
+              }
+            ],
+            "subdivisoes": [
+              {
+                "valor": "-5",
+                "x": 51.666666666666664
+              },
+              {
+                "valor": "-3",
+                "x": 95.0
+              },
+              {
+                "valor": "-1",
+                "x": 138.33333333333334
+              },
+              {
+                "valor": "1",
+                "x": 181.66666666666669
+              },
+              {
+                "valor": "3",
+                "x": 225.0
+              },
+              {
+                "valor": "5",
+                "x": 268.3333333333333
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-NI-03-visual",
+          "arquivo": "recursos/NI-03.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-NI-04",
+      "numero": 4,
+      "titulo": "Nenhuma alteração não é nenhum ponto",
+      "assunto": "NI",
+      "assunto_nome": "Números inteiros: representação, comparação e ordenação",
+      "subtema": "sinais",
+      "habilidade": "Interpretar zero como ausência de variação, sem apagar o estado inicial.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "Uma equipe tinha 18 pontos antes de uma rodada. O boletim dessa rodada informa variação de 0 ponto. Um colega concluiu que a equipe ficou sem pontos. Qual registro deve aparecer no placar após a rodada?",
+      "dados": {
+        "inicial": 18,
+        "variacao": 0
+      },
+      "modelo_verificacao": "inicial+variacao",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0 ponto: toda ocorrência de zero apaga o valor anterior.",
+          "valor": "0",
+          "erro_comum": "Confunde ausência de variação com ausência de pontos."
+        },
+        {
+          "letra": "B",
+          "texto": "−18 pontos: o zero transforma o total em seu oposto.",
+          "valor": "-18",
+          "erro_comum": "Atribui ao zero a função de mudar o sinal."
+        },
+        {
+          "letra": "C",
+          "texto": "36 pontos: conservar a pontuação significa somá-la outra vez.",
+          "valor": "36",
+          "erro_comum": "Duplica o estado inicial sem alteração prevista."
+        },
+        {
+          "letra": "D",
+          "texto": "18 pontos: o zero informa que a pontuação não mudou.",
+          "valor": "18",
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "A informação é uma variação de zero, não um novo total igual a zero. A pontuação final é 18 + 0 = 18. A equipe preserva os pontos anteriores.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-inteiros-representacao.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Nenhuma alteração não é nenhum ponto"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NI",
+        "nivel": "facil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-NI-04"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-NI-05",
+      "numero": 5,
+      "titulo": "A câmara permitida mais fria",
+      "assunto": "NI",
+      "assunto_nome": "Números inteiros: representação, comparação e ordenação",
+      "subtema": "comparacao",
+      "habilidade": "Comparar temperaturas negativas e interpretar um limite mínimo.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "Um material só pode ser guardado em câmaras com temperatura de pelo menos −3 °C.\n\nO desenho apresenta as três câmaras disponíveis. Entre as que atendem à condição, a equipe quer escolher a mais fria. Qual deve escolher?",
+      "dados": {
+        "temperaturas": [
+          -8,
+          -2,
+          4
+        ],
+        "limite": -3
+      },
+      "modelo_verificacao": "min([t for t in temperaturas if t>=limite])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A câmara C.",
+          "valor": "4",
+          "erro_comum": "Confunde maior temperatura com mais fria."
+        },
+        {
+          "letra": "B",
+          "texto": "Nenhuma das câmaras, porque nenhuma está exatamente a −3 °C.",
+          "valor": "nenhuma",
+          "erro_comum": "Interpreta o limite mínimo como exigência de igualdade."
+        },
+        {
+          "letra": "C",
+          "texto": "A câmara B.",
+          "valor": "-2",
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "A câmara A.",
+          "valor": "-8",
+          "erro_comum": "Escolhe a menor temperatura sem respeitar o limite."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "“Pelo menos −3 °C” significa temperatura maior ou igual a −3 °C. A câmara A, a −8 °C, não pode ser usada. B, a −2 °C, e C, a +4 °C, atendem à condição. Entre elas, −2 °C é a menor temperatura; portanto, B é a mais fria permitida.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-inteiros-representacao.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "A câmara permitida mais fria"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de NI-03, NI-05, NI-08, NI-11, NI-16 e NI-17; melhorias visuais de NI-10, NI-14 e NI-15.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NI",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NI-05"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 360\" role=\"img\" aria-label=\"Temperaturas das câmaras. A: -8 graus Celsius; B: -2 graus Celsius; C: 4 graus Celsius. Escala linear de -8 a 4 °C.\"><title>Temperaturas das câmaras</title><desc>Temperaturas das câmaras. A: -8 graus Celsius; B: -2 graus Celsius; C: 4 graus Celsius. Escala linear de -8 a 4 °C.</desc><rect width=\"320\" height=\"360\" fill=\"#fff\"/><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Temperaturas das câmaras</text><text x=\"65\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">A</text><rect x=\"57\" y=\"90\" width=\"16\" height=\"200\" rx=\"8\" fill=\"#fff\" stroke=\"#173746\"/><rect x=\"59\" y=\"290.00000\" width=\"12\" height=\"0.00000\" fill=\"#086a68\"/><circle cx=\"65\" cy=\"300\" r=\"13\" fill=\"#086a68\"/><line x1=\"74\" x2=\"81\" y1=\"290.00000\" y2=\"290.00000\" stroke=\"#173746\"/><text x=\"85\" y=\"295.0\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#173746\">-8</text><line x1=\"74\" x2=\"81\" y1=\"223.33333\" y2=\"223.33333\" stroke=\"#173746\"/><text x=\"85\" y=\"228.33333333333334\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#173746\">-4</text><line x1=\"74\" x2=\"81\" y1=\"156.66667\" y2=\"156.66667\" stroke=\"#173746\"/><text x=\"85\" y=\"161.66666666666669\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#173746\">0</text><line x1=\"74\" x2=\"81\" y1=\"90.00000\" y2=\"90.00000\" stroke=\"#173746\"/><text x=\"85\" y=\"95.0\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#173746\">4</text><text x=\"65\" y=\"337\" font-family=\"Arial, sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#173746\">-8 °C</text><text x=\"160\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">B</text><rect x=\"152\" y=\"90\" width=\"16\" height=\"200\" rx=\"8\" fill=\"#fff\" stroke=\"#173746\"/><rect x=\"154\" y=\"190.00000\" width=\"12\" height=\"100.00000\" fill=\"#086a68\"/><circle cx=\"160\" cy=\"300\" r=\"13\" fill=\"#086a68\"/><line x1=\"169\" x2=\"176\" y1=\"290.00000\" y2=\"290.00000\" stroke=\"#173746\"/><text x=\"180\" y=\"295.0\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#173746\">-8</text><line x1=\"169\" x2=\"176\" y1=\"223.33333\" y2=\"223.33333\" stroke=\"#173746\"/><text x=\"180\" y=\"228.33333333333334\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#173746\">-4</text><line x1=\"169\" x2=\"176\" y1=\"156.66667\" y2=\"156.66667\" stroke=\"#173746\"/><text x=\"180\" y=\"161.66666666666669\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#173746\">0</text><line x1=\"169\" x2=\"176\" y1=\"90.00000\" y2=\"90.00000\" stroke=\"#173746\"/><text x=\"180\" y=\"95.0\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#173746\">4</text><text x=\"160\" y=\"337\" font-family=\"Arial, sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#173746\">-2 °C</text><text x=\"255\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">C</text><rect x=\"247\" y=\"90\" width=\"16\" height=\"200\" rx=\"8\" fill=\"#fff\" stroke=\"#173746\"/><rect x=\"249\" y=\"90.00000\" width=\"12\" height=\"200.00000\" fill=\"#086a68\"/><circle cx=\"255\" cy=\"300\" r=\"13\" fill=\"#086a68\"/><line x1=\"264\" x2=\"271\" y1=\"290.00000\" y2=\"290.00000\" stroke=\"#173746\"/><text x=\"275\" y=\"295.0\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#173746\">-8</text><line x1=\"264\" x2=\"271\" y1=\"223.33333\" y2=\"223.33333\" stroke=\"#173746\"/><text x=\"275\" y=\"228.33333333333334\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#173746\">-4</text><line x1=\"264\" x2=\"271\" y1=\"156.66667\" y2=\"156.66667\" stroke=\"#173746\"/><text x=\"275\" y=\"161.66666666666669\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#173746\">0</text><line x1=\"264\" x2=\"271\" y1=\"90.00000\" y2=\"90.00000\" stroke=\"#173746\"/><text x=\"275\" y=\"95.0\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#173746\">4</text><text x=\"255\" y=\"337\" font-family=\"Arial, sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#173746\">4 °C</text></svg>",
+          "acessibilidade": "Temperaturas das câmaras. A: -8 graus Celsius; B: -2 graus Celsius; C: 4 graus Celsius. Escala linear de -8 a 4 °C.",
+          "geometria": {
+            "tipo": "termometros",
+            "inicio": -8,
+            "fim": 4,
+            "pontos": [
+              {
+                "nome": "A",
+                "valor": -8,
+                "y": 290.0
+              },
+              {
+                "nome": "B",
+                "valor": -2,
+                "y": 190.0
+              },
+              {
+                "nome": "C",
+                "valor": 4,
+                "y": 90.0
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-NI-05-visual",
+          "arquivo": "recursos/NI-05.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-NI-06",
+      "numero": 6,
+      "titulo": "Posições que não incluem as bordas",
+      "assunto": "NI",
+      "assunto_nome": "Números inteiros: representação, comparação e ordenação",
+      "subtema": "intervalos",
+      "habilidade": "Contar inteiros em um intervalo aberto, incluindo o zero.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "Um controle aceita qualquer posição inteira estritamente maior que −4 e estritamente menor que +3. As duas bordas não são aceitas. Quantas posições inteiras diferentes podem ser registradas?",
+      "dados": {
+        "a": -4,
+        "b": 3
+      },
+      "modelo_verificacao": "len([n for n in range(a,b+1) if a<n<b])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5 posições.",
+          "valor": "5",
+          "erro_comum": "Exclui o zero, embora ele pertença ao intervalo."
+        },
+        {
+          "letra": "B",
+          "texto": "6 posições.",
+          "valor": "6",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "8 posições.",
+          "valor": "8",
+          "erro_comum": "Inclui as duas bordas que foram excluídas."
+        },
+        {
+          "letra": "D",
+          "texto": "7 posições.",
+          "valor": "7",
+          "erro_comum": "Inclui indevidamente uma das bordas."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "As posições aceitas são −3, −2, −1, 0, +1 e +2. Há seis posições. O zero está entre os limites e deve ser contado, enquanto −4 e +3 ficam de fora.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-inteiros-representacao.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Posições que não incluem as bordas"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NI",
+        "nivel": "facil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-NI-06"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-NI-07",
+      "numero": 7,
+      "titulo": "Sequência dos pontos de coleta",
+      "assunto": "NI",
+      "assunto_nome": "Números inteiros: representação, comparação e ordenação",
+      "subtema": "comparacao",
+      "habilidade": "Ordenar inteiros apresentados com rótulos em um registro.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Os pontos de coleta serão inspecionados da menor para a maior coordenada. O gráfico informa a posição de cada um em relação à base zero. Qual sequência segue essa regra?",
+      "dados": {
+        "nomes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "valores": [
+          -14,
+          -6,
+          2,
+          -11
+        ]
+      },
+      "modelo_verificacao": "ordenar(nomes,valores)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A → D → B → C.",
+          "valor": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "C → B → D → A.",
+          "valor": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ],
+          "erro_comum": "Faz a ordenação decrescente."
+        },
+        {
+          "letra": "C",
+          "texto": "B → D → A → C.",
+          "valor": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ],
+          "erro_comum": "Entre negativos, coloca primeiro o menor módulo."
+        },
+        {
+          "letra": "D",
+          "texto": "C → B → A → D.",
+          "valor": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ],
+          "erro_comum": "Mistura ordenação por valor com ordenação por módulo."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "As coordenadas em ordem crescente são −14, −11, −6 e +2. Substituindo pelos rótulos, a sequência é A, D, B, C. O maior módulo de um número negativo não o torna maior.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-inteiros-representacao.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Sequência dos pontos de coleta"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NI",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NI-07"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 394\" role=\"img\" aria-label=\"Posições em relação à base. A: -14; B: -6; C: 2; D: -11. Barras à esquerda do zero indicam negativos e à direita, positivos; a escala é linear.\"><title>Posições em relação à base</title><desc>Posições em relação à base. A: -14; B: -6; C: 2; D: -11. Barras à esquerda do zero indicam negativos e à direita, positivos; a escala é linear.</desc><rect width=\"320\" height=\"394\" fill=\"#fff\"/><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Posições em relação à base</text><text x=\"10\" y=\"108\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">A</text><rect x=\"64.80000\" y=\"90\" width=\"173.60000\" height=\"25\" fill=\"#b7dbd8\" stroke=\"#456775\" data-valor=\"-14\"/><text x=\"68.8\" y=\"109\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">-14</text><text x=\"10\" y=\"166\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">B</text><rect x=\"164.00000\" y=\"148\" width=\"74.40000\" height=\"25\" fill=\"#b7dbd8\" stroke=\"#456775\" data-valor=\"-6\"/><text x=\"168.0\" y=\"167\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">-6</text><text x=\"10\" y=\"224\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">C</text><rect x=\"238.40000\" y=\"206\" width=\"24.80000\" height=\"25\" fill=\"#b7dbd8\" stroke=\"#456775\" data-valor=\"2\"/><text x=\"242.4\" y=\"225\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">+2</text><text x=\"10\" y=\"282\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">D</text><rect x=\"102.00000\" y=\"264\" width=\"136.40000\" height=\"25\" fill=\"#b7dbd8\" stroke=\"#456775\" data-valor=\"-11\"/><text x=\"106.0\" y=\"283\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">-11</text><line x1=\"238.40000\" x2=\"238.40000\" y1=\"70\" y2=\"322\" stroke=\"#173746\" stroke-width=\"2\"/><line x1=\"40\" x2=\"288\" y1=\"322\" y2=\"322\" stroke=\"#173746\"/><line x1=\"40.00000\" x2=\"40.00000\" y1=\"322\" y2=\"327\" stroke=\"#173746\"/><text x=\"40.0\" y=\"349\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-16</text><line x1=\"89.60000\" x2=\"89.60000\" y1=\"322\" y2=\"327\" stroke=\"#173746\"/><text x=\"89.6\" y=\"349\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-12</text><line x1=\"139.20000\" x2=\"139.20000\" y1=\"322\" y2=\"327\" stroke=\"#173746\"/><text x=\"139.2\" y=\"349\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-8</text><line x1=\"188.80000\" x2=\"188.80000\" y1=\"322\" y2=\"327\" stroke=\"#173746\"/><text x=\"188.79999999999998\" y=\"349\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-4</text><line x1=\"238.40000\" x2=\"238.40000\" y1=\"322\" y2=\"327\" stroke=\"#173746\"/><text x=\"238.4\" y=\"349\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">0</text><line x1=\"288.00000\" x2=\"288.00000\" y1=\"322\" y2=\"327\" stroke=\"#173746\"/><text x=\"288.0\" y=\"349\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">4</text><text x=\"160\" y=\"379\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">Coordenada em relação ao zero</text></svg>",
+          "acessibilidade": "Posições em relação à base. A: -14; B: -6; C: 2; D: -11. Barras à esquerda do zero indicam negativos e à direita, positivos; a escala é linear.",
+          "geometria": {
+            "tipo": "grafico_inteiros",
+            "inicio": -16,
+            "fim": 4,
+            "zero_x": 238.4,
+            "pontos": [
+              {
+                "nome": "A",
+                "valor": -14,
+                "x": 64.8
+              },
+              {
+                "nome": "B",
+                "valor": -6,
+                "x": 164.0
+              },
+              {
+                "nome": "C",
+                "valor": 2,
+                "x": 263.20000000000005
+              },
+              {
+                "nome": "D",
+                "valor": -11,
+                "x": 102.0
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-NI-07-visual",
+          "arquivo": "recursos/NI-07.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-NI-08",
+      "numero": 8,
+      "titulo": "Dentro da faixa de operação",
+      "assunto": "NI",
+      "assunto_nome": "Números inteiros: representação, comparação e ordenação",
+      "subtema": "intervalos",
+      "habilidade": "Identificar pontos pertencentes a um intervalo fechado, incluindo seus extremos.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Uma rota autoriza paradas com coordenadas de −6 a +6, incluindo os dois limites.\n\nOs pontos disponíveis aparecem na reta. Quais deles podem ser utilizados como paradas?",
+      "dados": {
+        "nomes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "valores": [
+          -8,
+          -6,
+          6,
+          8
+        ],
+        "a": -6,
+        "b": 6
+      },
+      "modelo_verificacao": "em_intervalo(nomes,valores,a,b)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A, B e C.",
+          "valor": [
+            "A",
+            "B",
+            "C"
+          ],
+          "erro_comum": "Inclui um ponto abaixo do limite inferior."
+        },
+        {
+          "letra": "B",
+          "texto": "B, C e D.",
+          "valor": [
+            "B",
+            "C",
+            "D"
+          ],
+          "erro_comum": "Inclui um ponto acima do limite superior."
+        },
+        {
+          "letra": "C",
+          "texto": "Nenhum dos pontos, porque os que estão nas bordas não são permitidos.",
+          "valor": [],
+          "erro_comum": "Interpreta indevidamente o intervalo fechado como aberto."
+        },
+        {
+          "letra": "D",
+          "texto": "B e C.",
+          "valor": [
+            "B",
+            "C"
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "O intervalo inclui −6 e +6. Portanto, B e C estão autorizados, mesmo estando exatamente nas bordas. A, em −8, fica abaixo do limite inferior; D, em +8, ultrapassa o limite superior. Logo, podem ser utilizados B e C.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-inteiros-representacao.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Dentro da faixa de operação"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de NI-03, NI-05, NI-08, NI-11, NI-16 e NI-17; melhorias visuais de NI-10, NI-14 e NI-15.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NI",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NI-08"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Pontos da rota. Escala de -10 a 10, intervalo 2. A em -8; B em -6; C em 6; D em 8\"><title>Pontos da rota</title><desc>Pontos da rota. Escala de -10 a 10, intervalo 2. A em -8; B em -6; C em 6; D em 8</desc><rect width=\"320\" height=\"190\" fill=\"#fff\"/><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Pontos da rota</text><line x1=\"30\" x2=\"290\" y1=\"100\" y2=\"100\" stroke=\"#173746\" stroke-width=\"2\"/><line x1=\"30.0000\" x2=\"30.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"30.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-10</text><line x1=\"56.0000\" x2=\"56.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"56.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-8</text><line x1=\"82.0000\" x2=\"82.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"82.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-6</text><line x1=\"108.0000\" x2=\"108.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"108.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-4</text><line x1=\"134.0000\" x2=\"134.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"134.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-2</text><line x1=\"160.0000\" x2=\"160.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"160.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">0</text><line x1=\"186.0000\" x2=\"186.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"186.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">2</text><line x1=\"212.0000\" x2=\"212.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"212.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">4</text><line x1=\"238.0000\" x2=\"238.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"238.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">6</text><line x1=\"264.0000\" x2=\"264.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"264.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">8</text><line x1=\"290.0000\" x2=\"290.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"290.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">10</text><circle cx=\"56.0000\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"56.0000\" x2=\"56.0000\" y1=\"100\" y2=\"70\" stroke=\"#086a68\"/><text x=\"56.0000\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">A</text><circle cx=\"82.0000\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"82.0000\" x2=\"82.0000\" y1=\"100\" y2=\"147\" stroke=\"#086a68\"/><text x=\"82.0000\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">B</text><circle cx=\"238.0000\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"238.0000\" x2=\"238.0000\" y1=\"100\" y2=\"70\" stroke=\"#086a68\"/><text x=\"238.0000\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">C</text><circle cx=\"264.0000\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"264.0000\" x2=\"264.0000\" y1=\"100\" y2=\"147\" stroke=\"#086a68\"/><text x=\"264.0000\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">D</text></svg>",
+          "acessibilidade": "Pontos da rota. Escala de -10 a 10, intervalo 2. A em -8; B em -6; C em 6; D em 8",
+          "geometria": {
+            "tipo": "reta",
+            "inicio": "-10",
+            "fim": "10",
+            "passo": "2",
+            "pontos": [
+              {
+                "nome": "A",
+                "valor": "-8",
+                "x": 56.0
+              },
+              {
+                "nome": "B",
+                "valor": "-6",
+                "x": 82.0
+              },
+              {
+                "nome": "C",
+                "valor": "6",
+                "x": 238.0
+              },
+              {
+                "nome": "D",
+                "valor": "8",
+                "x": 264.0
+              }
+            ],
+            "marcas": [
+              {
+                "valor": "-10",
+                "x": 30.0
+              },
+              {
+                "valor": "-8",
+                "x": 56.0
+              },
+              {
+                "valor": "-6",
+                "x": 82.0
+              },
+              {
+                "valor": "-4",
+                "x": 108.0
+              },
+              {
+                "valor": "-2",
+                "x": 134.0
+              },
+              {
+                "valor": "0",
+                "x": 160.0
+              },
+              {
+                "valor": "2",
+                "x": 186.0
+              },
+              {
+                "valor": "4",
+                "x": 212.0
+              },
+              {
+                "valor": "6",
+                "x": 238.0
+              },
+              {
+                "valor": "8",
+                "x": 264.0
+              },
+              {
+                "valor": "10",
+                "x": 290.0
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-NI-08-visual",
+          "arquivo": "recursos/NI-08.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-NI-09",
+      "numero": 9,
+      "titulo": "Alerta por distância da referência",
+      "assunto": "NI",
+      "assunto_nome": "Números inteiros: representação, comparação e ordenação",
+      "subtema": "modulo",
+      "habilidade": "Selecionar o maior módulo sem confundi-lo com o maior número.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "O programa deve destacar o sensor mais afastado da referência zero. Os registros são P = −17, Q = +12 e R = −9. Qual sensor precisa ser destacado, independentemente do lado em que está?",
+      "dados": {
+        "nomes": [
+          "P",
+          "Q",
+          "R"
+        ],
+        "valores": [
+          -17,
+          12,
+          -9
+        ]
+      },
+      "modelo_verificacao": "rotulo_max(nomes,[abs(v) for v in valores])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "R.",
+          "valor": "R",
+          "erro_comum": "Seleciona o negativo mais próximo de zero."
+        },
+        {
+          "letra": "B",
+          "texto": "P e Q, pois estão igualmente afastados.",
+          "valor": "P e Q",
+          "erro_comum": "Confunde lados opostos com igualdade de módulos."
+        },
+        {
+          "letra": "C",
+          "texto": "P.",
+          "valor": "P",
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Q.",
+          "valor": "Q",
+          "erro_comum": "Escolhe o maior número, em vez da maior distância ao zero."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "As distâncias ao zero são |−17| = 17, |+12| = 12 e |−9| = 9. A maior distância é 17, correspondente ao sensor P. Estar do lado negativo não reduz uma distância.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-inteiros-representacao.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Alerta por distância da referência"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NI",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-NI-09"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-NI-10",
+      "numero": 10,
+      "titulo": "O dia zero do cronograma",
+      "assunto": "NI",
+      "assunto_nome": "Números inteiros: representação, comparação e ordenação",
+      "subtema": "sinais",
+      "habilidade": "Interpretar datas relativas a um marco temporal.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "O cronograma usa o dia da abertura como dia zero. O painel informa a data da abertura e os registros relativos das duas entregas, todas no mesmo mês. Quais são as datas reais da remessa e da retirada, nessa ordem?",
+      "dados": {
+        "dia_zero": 10,
+        "remessa": -3,
+        "retirada": 2
+      },
+      "modelo_verificacao": "[dia_zero+remessa,dia_zero+retirada]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Dias 13 e 8.",
+          "valor": [
+            "13",
+            "8"
+          ],
+          "erro_comum": "Inverte o significado de antes e depois do marco."
+        },
+        {
+          "letra": "B",
+          "texto": "Dias 7 e 12.",
+          "valor": [
+            "7",
+            "12"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Dias 8 e 12.",
+          "valor": [
+            "8",
+            "12"
+          ],
+          "erro_comum": "Conta o marco zero como primeiro dia do deslocamento."
+        },
+        {
+          "letra": "D",
+          "texto": "Dias −3 e 2.",
+          "valor": [
+            "-3",
+            "2"
+          ],
+          "erro_comum": "Trata registros relativos como datas do mês."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "O registro −3 significa três dias antes do dia 10: dia 7. O registro +2 significa dois dias depois: dia 12. O dia zero identifica o marco e não acrescenta um dia à contagem.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-inteiros-representacao.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "O dia zero do cronograma"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de NI-03, NI-05, NI-08, NI-11, NI-16 e NI-17; melhorias visuais de NI-10, NI-14 e NI-15.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NI",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NI-10"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Abertura: 10 de setembro. Escala de -4 a 3, intervalo 1. Remessa em -3; Abertura em 0; Retirada em 2\"><title>Abertura: 10 de setembro</title><desc>Abertura: 10 de setembro. Escala de -4 a 3, intervalo 1. Remessa em -3; Abertura em 0; Retirada em 2</desc><rect width=\"320\" height=\"190\" fill=\"#fff\"/><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Abertura: 10 de setembro</text><line x1=\"30\" x2=\"290\" y1=\"100\" y2=\"100\" stroke=\"#173746\" stroke-width=\"2\"/><line x1=\"30.0000\" x2=\"30.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"30.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-4</text><line x1=\"67.1429\" x2=\"67.1429\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"67.1429\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-3</text><line x1=\"104.2857\" x2=\"104.2857\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"104.2857\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-2</text><line x1=\"141.4286\" x2=\"141.4286\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"141.4286\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-1</text><line x1=\"178.5714\" x2=\"178.5714\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"178.5714\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">0</text><line x1=\"215.7143\" x2=\"215.7143\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"215.7143\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">1</text><line x1=\"252.8571\" x2=\"252.8571\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"252.8571\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">2</text><line x1=\"290.0000\" x2=\"290.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"290.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">3</text><circle cx=\"67.1429\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"67.1429\" x2=\"67.1429\" y1=\"100\" y2=\"70\" stroke=\"#086a68\"/><text x=\"67.1429\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">Remessa</text><circle cx=\"178.5714\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"178.5714\" x2=\"178.5714\" y1=\"100\" y2=\"147\" stroke=\"#086a68\"/><text x=\"178.5714\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">Abertura</text><circle cx=\"252.8571\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"252.8571\" x2=\"252.8571\" y1=\"100\" y2=\"70\" stroke=\"#086a68\"/><text x=\"252.8571\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">Retirada</text></svg>",
+          "acessibilidade": "Abertura: 10 de setembro. Escala de -4 a 3, intervalo 1. Remessa em -3; Abertura em 0; Retirada em 2",
+          "geometria": {
+            "tipo": "reta",
+            "inicio": "-4",
+            "fim": "3",
+            "passo": "1",
+            "pontos": [
+              {
+                "nome": "Remessa",
+                "valor": "-3",
+                "x": 67.14285714285714
+              },
+              {
+                "nome": "Abertura",
+                "valor": "0",
+                "x": 178.57142857142858
+              },
+              {
+                "nome": "Retirada",
+                "valor": "2",
+                "x": 252.85714285714286
+              }
+            ],
+            "marcas": [
+              {
+                "valor": "-4",
+                "x": 30.0
+              },
+              {
+                "valor": "-3",
+                "x": 67.14285714285714
+              },
+              {
+                "valor": "-2",
+                "x": 104.28571428571429
+              },
+              {
+                "valor": "-1",
+                "x": 141.42857142857144
+              },
+              {
+                "valor": "0",
+                "x": 178.57142857142858
+              },
+              {
+                "valor": "1",
+                "x": 215.71428571428572
+              },
+              {
+                "valor": "2",
+                "x": 252.85714285714286
+              },
+              {
+                "valor": "3",
+                "x": 290.0
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-NI-10-visual",
+          "arquivo": "recursos/NI-10.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-NI-11",
+      "numero": 11,
+      "titulo": "Mais baixo ou mais distante?",
+      "assunto": "NI",
+      "assunto_nome": "Números inteiros: representação, comparação e ordenação",
+      "subtema": "comparacao",
+      "habilidade": "Distinguir comparação de valores e comparação de módulos.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Dois instrumentos estão instalados em posições medidas a partir do mesmo nível de referência: P está a −7 m e Q está a +15 m.\n\nO relatório deve identificar:\n1. o instrumento que está mais baixo;\n2. o instrumento que está mais distante do nível de referência.\n\nQual alternativa apresenta essas identificações, nessa ordem?",
+      "dados": {
+        "nomes": [
+          "P",
+          "Q"
+        ],
+        "valores": [
+          -7,
+          15
+        ]
+      },
+      "modelo_verificacao": "[rotulo_min(nomes,valores),rotulo_max(nomes,[abs(v) for v in valores])]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "P e Q.",
+          "valor": [
+            "P",
+            "Q"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Q e P.",
+          "valor": [
+            "Q",
+            "P"
+          ],
+          "erro_comum": "Inverte as comparações de coordenadas e de distâncias ao zero."
+        },
+        {
+          "letra": "C",
+          "texto": "P e P.",
+          "valor": [
+            "P",
+            "P"
+          ],
+          "erro_comum": "Identifica o mais baixo, mas associa automaticamente a posição negativa à maior distância."
+        },
+        {
+          "letra": "D",
+          "texto": "Q e Q.",
+          "valor": [
+            "Q",
+            "Q"
+          ],
+          "erro_comum": "Identifica o mais distante, mas também o considera mais baixo."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Como −7 < +15, P está mais baixo. Para comparar as distâncias ao nível de referência, consideramos os módulos: P está a 7 m e Q, a 15 m. Portanto, Q está mais distante. A resposta é P e Q.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-inteiros-representacao.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Mais baixo ou mais distante?"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de NI-03, NI-05, NI-08, NI-11, NI-16 e NI-17; melhorias visuais de NI-10, NI-14 e NI-15.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NI",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-NI-11"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-NI-12",
+      "numero": 12,
+      "titulo": "A última parada antes da borda",
+      "assunto": "NI",
+      "assunto_nome": "Números inteiros: representação, comparação e ordenação",
+      "subtema": "intervalos",
+      "habilidade": "Combinar pertencimento a intervalo aberto e ordenação.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "As coordenadas dos pontos estão no quadro. Somente paradas estritamente entre −7 e −3 são autorizadas. Entre as autorizadas, o veículo deve usar a de maior coordenada. Qual ponto deve escolher?",
+      "dados": {
+        "valores": [
+          -6,
+          -4,
+          -3,
+          4
+        ],
+        "a": -7,
+        "b": -3
+      },
+      "modelo_verificacao": "max([v for v in valores if a<v<b])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A.",
+          "valor": "-6",
+          "erro_comum": "Escolhe uma parada permitida, mas não a de maior coordenada."
+        },
+        {
+          "letra": "B",
+          "texto": "C.",
+          "valor": "-3",
+          "erro_comum": "Inclui a borda superior, que foi excluída."
+        },
+        {
+          "letra": "C",
+          "texto": "D.",
+          "valor": "4",
+          "erro_comum": "Escolhe a maior coordenada do quadro sem testar o intervalo."
+        },
+        {
+          "letra": "D",
+          "texto": "B.",
+          "valor": "-4",
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "−6 e −4 estão estritamente entre −7 e −3. O ponto C, em −3, fica na borda e não é permitido. Como −4 > −6, o ponto B é o de maior coordenada entre os autorizados.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-inteiros-representacao.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "A última parada antes da borda"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NI",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NI-12"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela_html",
+          "html": "<table class=\"mfc-tabela-responsiva\" role=\"table\"><caption>Paradas disponíveis</caption><thead role=\"rowgroup\"><tr role=\"row\"><th role=\"columnheader\" scope=\"col\">Ponto</th><th role=\"columnheader\" scope=\"col\">Coordenada</th></tr></thead><tbody role=\"rowgroup\"><tr role=\"row\"><th role=\"rowheader\" scope=\"row\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Ponto\"></span><span>A</span></th><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Coordenada\"></span><span>-6</span></td></tr><tr role=\"row\"><th role=\"rowheader\" scope=\"row\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Ponto\"></span><span>B</span></th><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Coordenada\"></span><span>-4</span></td></tr><tr role=\"row\"><th role=\"rowheader\" scope=\"row\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Ponto\"></span><span>C</span></th><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Coordenada\"></span><span>-3</span></td></tr><tr role=\"row\"><th role=\"rowheader\" scope=\"row\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Ponto\"></span><span>D</span></th><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Coordenada\"></span><span>4</span></td></tr></tbody></table>",
+          "acessibilidade": "Paradas disponíveis. Ponto: A, Coordenada: -6; Ponto: B, Coordenada: -4; Ponto: C, Coordenada: -3; Ponto: D, Coordenada: 4",
+          "geometria": {
+            "tipo": "tabela",
+            "cabecalhos": [
+              "Ponto",
+              "Coordenada"
+            ],
+            "linhas": [
+              [
+                "A",
+                -6
+              ],
+              [
+                "B",
+                -4
+              ],
+              [
+                "C",
+                -3
+              ],
+              [
+                "D",
+                4
+              ]
+            ]
+          },
+          "id": "MFC7-B1-I-NI-12-visual",
+          "arquivo": "recursos/NI-12.html",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-NI-13",
+      "numero": 13,
+      "titulo": "Uma margem em cada lado",
+      "assunto": "NI",
+      "assunto_nome": "Números inteiros: representação, comparação e ordenação",
+      "subtema": "modulo",
+      "habilidade": "Relacionar posições opostas à distância entre elas.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Duas barreiras ficam em posições opostas e cada uma está a 13 m do posto zero. Um responsável afirmou que a distância entre elas é zero porque os números das posições se anulam na soma. Uma faixa de 20 m conseguiria ligar as duas barreiras? Qual justificativa é correta?",
+      "dados": {
+        "distancia_ao_posto": 13
+      },
+      "modelo_verificacao": "abs(distancia_ao_posto-(-distancia_ao_posto))",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sim; a distância é 13 m, igual a um dos módulos.",
+          "valor": "13",
+          "erro_comum": "Conta somente um dos lados do posto."
+        },
+        {
+          "letra": "B",
+          "texto": "Não; a distância é −26 m.",
+          "valor": "-26",
+          "erro_comum": "Atribui sinal negativo a uma distância."
+        },
+        {
+          "letra": "C",
+          "texto": "Não; a distância entre elas é 26 m.",
+          "valor": "26",
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Sim; a distância é 0 m porque a soma das posições é zero.",
+          "valor": "0",
+          "erro_comum": "Confunde a soma das coordenadas com a distância."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "As posições são −13 m e +13 m. Para ir de uma barreira à outra, percorrem-se 13 m até o posto e mais 13 m até a outra: 26 m. A soma das coordenadas é zero, mas não mede o percurso. Uma faixa de 20 m não é suficiente.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-inteiros-representacao.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Uma margem em cada lado"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NI",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-NI-13"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-NI-14",
+      "numero": 14,
+      "titulo": "Três condições na mesma faixa",
+      "assunto": "NI",
+      "assunto_nome": "Números inteiros: representação, comparação e ordenação",
+      "subtema": "intervalos",
+      "habilidade": "Aplicar simultaneamente limite, desigualdade e paridade.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "O mecanismo só aceita coordenadas inteiras que cumpram todas as condições do quadro. Qual lista contém exatamente as posições aceitas?",
+      "dados": {
+        "minimo": -9,
+        "maximo": -2,
+        "limite_estrito": -7
+      },
+      "modelo_verificacao": "[n for n in range(minimo,maximo+1) if n>limite_estrito and n%2==0]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "−5 e −3.",
+          "valor": [
+            "-5",
+            "-3"
+          ],
+          "erro_comum": "Seleciona os ímpares em vez dos pares."
+        },
+        {
+          "letra": "B",
+          "texto": "−6, −4 e −2.",
+          "valor": [
+            "-6",
+            "-4",
+            "-2"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "−8, −6, −4 e −2.",
+          "valor": [
+            "-8",
+            "-6",
+            "-4",
+            "-2"
+          ],
+          "erro_comum": "Ignora a condição de ser maior que −7."
+        },
+        {
+          "letra": "D",
+          "texto": "−6 e −4.",
+          "valor": [
+            "-6",
+            "-4"
+          ],
+          "erro_comum": "Exclui o limite −2, embora ele esteja incluído."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Primeiro, consideram-se os inteiros de −9 a −2. A condição de serem maiores que −7 deixa −6, −5, −4, −3 e −2. Entre esses, os pares são −6, −4 e −2. O limite superior −2 é aceito.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-inteiros-representacao.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Três condições na mesma faixa"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de NI-03, NI-05, NI-08, NI-11, NI-16 e NI-17; melhorias visuais de NI-10, NI-14 e NI-15.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NI",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NI-14"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 345\" role=\"img\" aria-label=\"As três condições devem ser atendidas ao mesmo tempo: coordenada de −9 a −2, inclusive; maior que −7; número par.\"><title>Condições simultâneas</title><desc>As três condições devem ser atendidas ao mesmo tempo: coordenada de −9 a −2, inclusive; maior que −7; número par.</desc><rect width=\"320\" height=\"345\" fill=\"#fff\"/><text x=\"12\" y=\"26\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Condições simultâneas</text><rect x=\"12\" y=\"60\" width=\"296\" height=\"75\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"25\" y=\"87\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Faixa permitida</text><text x=\"25\" y=\"115\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">De −9 a −2, inclusive</text><rect x=\"12\" y=\"155\" width=\"296\" height=\"75\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"25\" y=\"182\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Limite adicional</text><text x=\"25\" y=\"210\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Maior que −7</text><rect x=\"12\" y=\"250\" width=\"296\" height=\"75\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"25\" y=\"277\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Tipo de coordenada</text><text x=\"25\" y=\"305\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Número par</text></svg>",
+          "acessibilidade": "As três condições devem ser atendidas ao mesmo tempo: coordenada de −9 a −2, inclusive; maior que −7; número par.",
+          "geometria": {
+            "tipo": "restricoes_ni",
+            "minimo": -9,
+            "maximo": -2,
+            "limite_estrito": -7,
+            "paridade": 0
+          },
+          "id": "MFC7-B1-I-NI-14-visual",
+          "arquivo": "recursos/NI-14.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-NI-15",
+      "numero": 15,
+      "titulo": "Réguas com zeros diferentes",
+      "assunto": "NI",
+      "assunto_nome": "Números inteiros: representação, comparação e ordenação",
+      "subtema": "comparacao",
+      "habilidade": "Comparar posições após compatibilizar as referências.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "As duas réguas do desenho usam zeros diferentes. Para comparar os instrumentos, converta os registros para alturas em relação ao chão. Qual relatório apresenta as alturas corretas de A e B, nessa ordem?",
+      "dados": {
+        "origem_a": 12,
+        "registro_a": -5,
+        "origem_b": 0,
+        "registro_b": 6
+      },
+      "modelo_verificacao": "[origem_a+registro_a,origem_b+registro_b]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A: 7 m; B: 6 m. A está 1 m mais alto.",
+          "valor": [
+            "7",
+            "6"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "A: −5 m; B: 6 m. B está mais alto.",
+          "valor": [
+            "-5",
+            "6"
+          ],
+          "erro_comum": "Compara registros sem compatibilizar os zeros."
+        },
+        {
+          "letra": "C",
+          "texto": "A: 7 m; B: 18 m. B está mais alto.",
+          "valor": [
+            "7",
+            "18"
+          ],
+          "erro_comum": "Aplica a referência de A também ao instrumento B."
+        },
+        {
+          "letra": "D",
+          "texto": "A: 5 m; B: 6 m. B está 1 m mais alto.",
+          "valor": [
+            "5",
+            "6"
+          ],
+          "erro_comum": "Usa o módulo do registro de A como altura absoluta."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Na régua A, o zero fica a 12 m do chão; o registro −5 corresponde a 12 − 5 = 7 m. Na régua B, o zero é o chão, portanto +6 corresponde a 6 m. Assim, A está a 7 m e B a 6 m: A fica 1 m mais alto. Registros relativos a zeros diferentes não podem ser comparados diretamente.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-inteiros-representacao.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Réguas com zeros diferentes"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de NI-03, NI-05, NI-08, NI-11, NI-16 e NI-17; melhorias visuais de NI-10, NI-14 e NI-15.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NI",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NI-15"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 520\" role=\"img\" aria-label=\"Duas réguas verticais na mesma escala, um metro a cada graduação, alinhadas ao mesmo chão. O zero de A está 12 m acima do chão: o registro de A é −5 m. O zero de B é o chão: o registro de B é +6 m. Os instrumentos não estão posicionados e as alturas finais não são fornecidas.\"><title>Réguas com zeros diferentes</title><desc>Duas réguas verticais na mesma escala, um metro a cada graduação, alinhadas ao mesmo chão. O zero de A está 12 m acima do chão: o registro de A é −5 m. O zero de B é o chão: o registro de B é +6 m. Os instrumentos não estão posicionados e as alturas finais não são fornecidas.</desc><rect width=\"320\" height=\"520\" fill=\"#fff\"/><text x=\"12\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Réguas com zeros diferentes</text><text x=\"70\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">Régua A</text><text x=\"220\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">Régua B</text><line x1=\"70\" x2=\"70\" y1=\"95\" y2=\"335\" stroke=\"#173746\" stroke-width=\"3\"/><line data-regua=\"A\" data-valor=\"-12\" x1=\"64\" x2=\"76\" y1=\"335\" y2=\"335\" stroke=\"#173746\"/><text x=\"56\" y=\"340\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">-12</text><line data-regua=\"A\" data-valor=\"-11\" x1=\"64\" x2=\"76\" y1=\"315\" y2=\"315\" stroke=\"#173746\"/><line data-regua=\"A\" data-valor=\"-10\" x1=\"64\" x2=\"76\" y1=\"295\" y2=\"295\" stroke=\"#173746\"/><line data-regua=\"A\" data-valor=\"-9\" x1=\"64\" x2=\"76\" y1=\"275\" y2=\"275\" stroke=\"#173746\"/><line data-regua=\"A\" data-valor=\"-8\" x1=\"64\" x2=\"76\" y1=\"255\" y2=\"255\" stroke=\"#173746\"/><text x=\"56\" y=\"260\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">-8</text><line data-regua=\"A\" data-valor=\"-7\" x1=\"64\" x2=\"76\" y1=\"235\" y2=\"235\" stroke=\"#173746\"/><line data-regua=\"A\" data-valor=\"-6\" x1=\"64\" x2=\"76\" y1=\"215\" y2=\"215\" stroke=\"#173746\"/><line data-regua=\"A\" data-valor=\"-5\" x1=\"64\" x2=\"76\" y1=\"195\" y2=\"195\" stroke=\"#173746\"/><line data-regua=\"A\" data-valor=\"-4\" x1=\"64\" x2=\"76\" y1=\"175\" y2=\"175\" stroke=\"#173746\"/><text x=\"56\" y=\"180\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">-4</text><line data-regua=\"A\" data-valor=\"-3\" x1=\"64\" x2=\"76\" y1=\"155\" y2=\"155\" stroke=\"#173746\"/><line data-regua=\"A\" data-valor=\"-2\" x1=\"64\" x2=\"76\" y1=\"135\" y2=\"135\" stroke=\"#173746\"/><line data-regua=\"A\" data-valor=\"-1\" x1=\"64\" x2=\"76\" y1=\"115\" y2=\"115\" stroke=\"#173746\"/><line data-regua=\"A\" data-valor=\"0\" x1=\"64\" x2=\"76\" y1=\"95\" y2=\"95\" stroke=\"#173746\"/><text x=\"56\" y=\"100\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">0</text><line x1=\"220\" x2=\"220\" y1=\"95\" y2=\"335\" stroke=\"#173746\" stroke-width=\"3\"/><line data-regua=\"B\" data-valor=\"0\" x1=\"214\" x2=\"226\" y1=\"335\" y2=\"335\" stroke=\"#173746\"/><text x=\"234\" y=\"340\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">0</text><line data-regua=\"B\" data-valor=\"1\" x1=\"214\" x2=\"226\" y1=\"315\" y2=\"315\" stroke=\"#173746\"/><line data-regua=\"B\" data-valor=\"2\" x1=\"214\" x2=\"226\" y1=\"295\" y2=\"295\" stroke=\"#173746\"/><line data-regua=\"B\" data-valor=\"3\" x1=\"214\" x2=\"226\" y1=\"275\" y2=\"275\" stroke=\"#173746\"/><line data-regua=\"B\" data-valor=\"4\" x1=\"214\" x2=\"226\" y1=\"255\" y2=\"255\" stroke=\"#173746\"/><text x=\"234\" y=\"260\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">+4</text><line data-regua=\"B\" data-valor=\"5\" x1=\"214\" x2=\"226\" y1=\"235\" y2=\"235\" stroke=\"#173746\"/><line data-regua=\"B\" data-valor=\"6\" x1=\"214\" x2=\"226\" y1=\"215\" y2=\"215\" stroke=\"#173746\"/><line data-regua=\"B\" data-valor=\"7\" x1=\"214\" x2=\"226\" y1=\"195\" y2=\"195\" stroke=\"#173746\"/><line data-regua=\"B\" data-valor=\"8\" x1=\"214\" x2=\"226\" y1=\"175\" y2=\"175\" stroke=\"#173746\"/><text x=\"234\" y=\"180\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">+8</text><line data-regua=\"B\" data-valor=\"9\" x1=\"214\" x2=\"226\" y1=\"155\" y2=\"155\" stroke=\"#173746\"/><line data-regua=\"B\" data-valor=\"10\" x1=\"214\" x2=\"226\" y1=\"135\" y2=\"135\" stroke=\"#173746\"/><line data-regua=\"B\" data-valor=\"11\" x1=\"214\" x2=\"226\" y1=\"115\" y2=\"115\" stroke=\"#173746\"/><line data-regua=\"B\" data-valor=\"12\" x1=\"214\" x2=\"226\" y1=\"95\" y2=\"95\" stroke=\"#173746\"/><text x=\"234\" y=\"100\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">+12</text><line x1=\"70\" x2=\"220\" y1=\"335\" y2=\"335\" stroke=\"#173746\" stroke-width=\"2\"/><text x=\"160\" y=\"362\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">Chão</text><text x=\"12\" y=\"398\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Zero A: 12 m acima do chão</text><text x=\"12\" y=\"428\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Registro A: −5 m</text><text x=\"12\" y=\"470\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Zero B: no chão</text><text x=\"12\" y=\"500\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Registro B: +6 m</text></svg>",
+          "acessibilidade": "Duas réguas verticais na mesma escala, um metro a cada graduação, alinhadas ao mesmo chão. O zero de A está 12 m acima do chão: o registro de A é −5 m. O zero de B é o chão: o registro de B é +6 m. Os instrumentos não estão posicionados e as alturas finais não são fornecidas.",
+          "geometria": {
+            "tipo": "reguas_referencias",
+            "origem_a": 12,
+            "registro_a": -5,
+            "origem_b": 0,
+            "registro_b": 6,
+            "chao_y": 335,
+            "escala_px_por_metro": 20,
+            "marcas": [
+              {
+                "regua": "A",
+                "valor": -12,
+                "altura": 0,
+                "y": 335
+              },
+              {
+                "regua": "A",
+                "valor": -11,
+                "altura": 1,
+                "y": 315
+              },
+              {
+                "regua": "A",
+                "valor": -10,
+                "altura": 2,
+                "y": 295
+              },
+              {
+                "regua": "A",
+                "valor": -9,
+                "altura": 3,
+                "y": 275
+              },
+              {
+                "regua": "A",
+                "valor": -8,
+                "altura": 4,
+                "y": 255
+              },
+              {
+                "regua": "A",
+                "valor": -7,
+                "altura": 5,
+                "y": 235
+              },
+              {
+                "regua": "A",
+                "valor": -6,
+                "altura": 6,
+                "y": 215
+              },
+              {
+                "regua": "A",
+                "valor": -5,
+                "altura": 7,
+                "y": 195
+              },
+              {
+                "regua": "A",
+                "valor": -4,
+                "altura": 8,
+                "y": 175
+              },
+              {
+                "regua": "A",
+                "valor": -3,
+                "altura": 9,
+                "y": 155
+              },
+              {
+                "regua": "A",
+                "valor": -2,
+                "altura": 10,
+                "y": 135
+              },
+              {
+                "regua": "A",
+                "valor": -1,
+                "altura": 11,
+                "y": 115
+              },
+              {
+                "regua": "A",
+                "valor": 0,
+                "altura": 12,
+                "y": 95
+              },
+              {
+                "regua": "B",
+                "valor": 0,
+                "altura": 0,
+                "y": 335
+              },
+              {
+                "regua": "B",
+                "valor": 1,
+                "altura": 1,
+                "y": 315
+              },
+              {
+                "regua": "B",
+                "valor": 2,
+                "altura": 2,
+                "y": 295
+              },
+              {
+                "regua": "B",
+                "valor": 3,
+                "altura": 3,
+                "y": 275
+              },
+              {
+                "regua": "B",
+                "valor": 4,
+                "altura": 4,
+                "y": 255
+              },
+              {
+                "regua": "B",
+                "valor": 5,
+                "altura": 5,
+                "y": 235
+              },
+              {
+                "regua": "B",
+                "valor": 6,
+                "altura": 6,
+                "y": 215
+              },
+              {
+                "regua": "B",
+                "valor": 7,
+                "altura": 7,
+                "y": 195
+              },
+              {
+                "regua": "B",
+                "valor": 8,
+                "altura": 8,
+                "y": 175
+              },
+              {
+                "regua": "B",
+                "valor": 9,
+                "altura": 9,
+                "y": 155
+              },
+              {
+                "regua": "B",
+                "valor": 10,
+                "altura": 10,
+                "y": 135
+              },
+              {
+                "regua": "B",
+                "valor": 11,
+                "altura": 11,
+                "y": 115
+              },
+              {
+                "regua": "B",
+                "valor": 12,
+                "altura": 12,
+                "y": 95
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-NI-15-visual",
+          "arquivo": "recursos/NI-15.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-NI-16",
+      "numero": 16,
+      "titulo": "A marca apagada e as duas distâncias",
+      "assunto": "NI",
+      "assunto_nome": "Números inteiros: representação, comparação e ordenação",
+      "subtema": "intervalos",
+      "habilidade": "Inferir coordenadas inteiras a partir de um intervalo e de uma relação entre distâncias, considerando duas possibilidades.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "Em uma régua de manutenção, a marca M foi apagada. Ela representava um número inteiro estritamente entre as posições −8 e −4.\n\nO registro da equipe informa que a distância de M a um desses extremos era duas unidades maior que a distância ao outro extremo. O registro não informa qual extremo estava mais perto.\n\nQual lista contém todas as coordenadas possíveis de M?",
+      "dados": {
+        "a": -8,
+        "b": -4,
+        "diferenca_distancias": 2
+      },
+      "modelo_verificacao": "[n for n in range(a,b+1) if a<n<b and abs(abs(n-a)-abs(n-b))==diferenca_distancias]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "−8, −7, −5 e −4.",
+          "valor": [
+            "-8",
+            "-7",
+            "-5",
+            "-4"
+          ],
+          "erro_comum": "Inclui os extremos, contrariando o intervalo e a relação entre distâncias."
+        },
+        {
+          "letra": "B",
+          "texto": "−7, −6 e −5.",
+          "valor": [
+            "-7",
+            "-6",
+            "-5"
+          ],
+          "erro_comum": "Inclui o ponto central, cujas distâncias são iguais."
+        },
+        {
+          "letra": "C",
+          "texto": "−5 e −3.",
+          "valor": [
+            "-5",
+            "-3"
+          ],
+          "erro_comum": "Inclui −3, que está fora do intervalo."
+        },
+        {
+          "letra": "D",
+          "texto": "−7 e −5.",
+          "valor": [
+            "-7",
+            "-5"
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Os inteiros estritamente entre −8 e −4 são −7, −6 e −5.\n\nEm −7, as distâncias aos extremos são 1 e 3 unidades: a diferença é 2. Em −6, as duas distâncias são 2 unidades: a diferença é zero. Em −5, as distâncias são 3 e 1 unidades: a diferença é 2.\n\nComo não sabemos qual extremo estava mais perto, as duas possibilidades são −7 e −5.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-inteiros-representacao.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "A marca apagada e as duas distâncias"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de NI-03, NI-05, NI-08, NI-11, NI-16 e NI-17; melhorias visuais de NI-10, NI-14 e NI-15.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NI",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NI-16"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Região da marca apagada. Escala de -10 a -2, intervalo 2. L em -8; R em -4\"><title>Região da marca apagada</title><desc>Região da marca apagada. Escala de -10 a -2, intervalo 2. L em -8; R em -4</desc><rect width=\"320\" height=\"190\" fill=\"#fff\"/><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Região da marca apagada</text><line x1=\"30\" x2=\"290\" y1=\"100\" y2=\"100\" stroke=\"#173746\" stroke-width=\"2\"/><line x1=\"30.0000\" x2=\"30.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"30.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-10</text><line x1=\"95.0000\" x2=\"95.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"95.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-8</text><line x1=\"160.0000\" x2=\"160.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"160.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-6</text><line x1=\"225.0000\" x2=\"225.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"225.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-4</text><line x1=\"290.0000\" x2=\"290.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"290.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-2</text><circle cx=\"95.0000\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"95.0000\" x2=\"95.0000\" y1=\"100\" y2=\"70\" stroke=\"#086a68\"/><text x=\"95.0000\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">L</text><circle cx=\"225.0000\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"225.0000\" x2=\"225.0000\" y1=\"100\" y2=\"147\" stroke=\"#086a68\"/><text x=\"225.0000\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">R</text><line data-subdivisao=\"true\" x1=\"62.5000\" x2=\"62.5000\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"127.5000\" x2=\"127.5000\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"192.5000\" x2=\"192.5000\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"257.5000\" x2=\"257.5000\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/></svg>",
+          "acessibilidade": "Região da marca apagada. Escala de -10 a -2, intervalo 2. L em -8; R em -4 As marcas principais estão espaçadas de duas em duas unidades; há uma marca menor a cada unidade.",
+          "geometria": {
+            "tipo": "reta",
+            "inicio": "-10",
+            "fim": "-2",
+            "passo": "2",
+            "pontos": [
+              {
+                "nome": "L",
+                "valor": "-8",
+                "x": 95.0
+              },
+              {
+                "nome": "R",
+                "valor": "-4",
+                "x": 225.0
+              }
+            ],
+            "marcas": [
+              {
+                "valor": "-10",
+                "x": 30.0
+              },
+              {
+                "valor": "-8",
+                "x": 95.0
+              },
+              {
+                "valor": "-6",
+                "x": 160.0
+              },
+              {
+                "valor": "-4",
+                "x": 225.0
+              },
+              {
+                "valor": "-2",
+                "x": 290.0
+              }
+            ],
+            "subdivisoes": [
+              {
+                "valor": "-9",
+                "x": 62.5
+              },
+              {
+                "valor": "-7",
+                "x": 127.5
+              },
+              {
+                "valor": "-5",
+                "x": 192.5
+              },
+              {
+                "valor": "-3",
+                "x": 257.5
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-NI-16-visual",
+          "arquivo": "recursos/NI-16.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-NI-17",
+      "numero": 17,
+      "titulo": "Uma queda determina a temperatura final?",
+      "assunto": "NI",
+      "assunto_nome": "Números inteiros: representação, comparação e ordenação",
+      "subtema": "sinais",
+      "habilidade": "Distinguir uma variação negativa do sinal do estado final, analisando as condições para cada sinal.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "O painel de uma estação informa: “Variação da temperatura: −6 °C”. A temperatura inicial não aparece.\n\nUma estudante afirma: “Então a temperatura final ficou abaixo de zero”.\n\nQual análise avalia corretamente a relação entre a temperatura inicial e o sinal da temperatura final?",
+      "dados": {
+        "iniciais_representativas": [
+          -4,
+          6,
+          10
+        ],
+        "variacao": -6
+      },
+      "modelo_verificacao": "[['negativa','zero','positiva'][1+(v+variacao>0)-(v+variacao<0)] for v in iniciais_representativas]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Inicial abaixo de +6 °C: final negativa; inicial igual a +6 °C: final negativa; inicial acima de +6 °C: final negativa.",
+          "valor": [
+            "negativa",
+            "negativa",
+            "negativa"
+          ],
+          "erro_comum": "Confunde uma queda com a obrigatoriedade de temperatura final negativa."
+        },
+        {
+          "letra": "B",
+          "texto": "Inicial abaixo de +6 °C: final −6 °C; inicial igual a +6 °C: final −6 °C; inicial acima de +6 °C: final −6 °C.",
+          "valor": [
+            "−6 °C",
+            "−6 °C",
+            "−6 °C"
+          ],
+          "erro_comum": "Confunde a variação mostrada no painel com a temperatura final."
+        },
+        {
+          "letra": "C",
+          "texto": "Inicial abaixo de +6 °C: final negativa; inicial igual a +6 °C: final zero; inicial acima de +6 °C: final positiva.",
+          "valor": [
+            "negativa",
+            "zero",
+            "positiva"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Inicial abaixo de 0 °C: final negativa; inicial igual a 0 °C: final zero; inicial acima de 0 °C: final positiva.",
+          "valor": [
+            "negativa",
+            "positiva",
+            "positiva"
+          ],
+          "erro_comum": "Supõe que a queda conserva o sinal inicial; uma temperatura inicial de +6 °C chega a zero e uma inicial entre 0 e +6 °C torna-se negativa."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "A variação de −6 °C informa uma queda, não a temperatura final. Uma temperatura inicial de +6 °C chegaria exatamente a zero. Se a inicial fosse menor que +6 °C, a queda levaria a uma temperatura negativa; se fosse maior, a temperatura permaneceria positiva.\n\nPor exemplo, entre as temperaturas iniciais −4 °C, +4 °C e +10 °C, apenas +10 °C está acima desse limite. Portanto, o sinal da variação, sozinho, não determina o sinal da temperatura final.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-inteiros-representacao.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Uma queda determina a temperatura final?"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de NI-03, NI-05, NI-08, NI-11, NI-16 e NI-17; melhorias visuais de NI-10, NI-14 e NI-15.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NI",
+        "nivel": "dificil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-NI-17"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-NI-18",
+      "numero": 18,
+      "titulo": "Distância permitida, lado preferido",
+      "assunto": "NI",
+      "assunto_nome": "Números inteiros: representação, comparação e ordenação",
+      "subtema": "modulo",
+      "habilidade": "Conciliar módulo, intervalo de distâncias e comparação de posições.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "O posto zero pode comunicar-se com sondas a mais de 3 e no máximo 8 unidades de distância. Entre as sondas permitidas, será escolhida a de menor coordenada. Qual ponto da reta atende à regra?",
+      "dados": {
+        "valores": [
+          3,
+          -7,
+          8,
+          -9
+        ]
+      },
+      "modelo_verificacao": "min([v for v in valores if 3<abs(v)<=8])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A.",
+          "valor": "3",
+          "erro_comum": "Inclui a distância 3, que foi excluída."
+        },
+        {
+          "letra": "B",
+          "texto": "B.",
+          "valor": "-7",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "C.",
+          "valor": "8",
+          "erro_comum": "Escolhe uma sonda permitida, mas não a de menor coordenada."
+        },
+        {
+          "letra": "D",
+          "texto": "D.",
+          "valor": "-9",
+          "erro_comum": "Ignora a distância máxima de 8 unidades."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "As distâncias das sondas A, B, C e D são 3, 7, 8 e 9. Somente B e C satisfazem 3 < distância ≤ 8. Entre suas coordenadas, −7 é menor que +8; assim, escolhe-se B.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-inteiros-representacao.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Distância permitida, lado preferido"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NI",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NI-18"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Posições das sondas. Escala de -10 a 10, intervalo 5. A em 3; B em -7; C em 8; D em -9\"><title>Posições das sondas</title><desc>Posições das sondas. Escala de -10 a 10, intervalo 5. A em 3; B em -7; C em 8; D em -9</desc><rect width=\"320\" height=\"190\" fill=\"#fff\"/><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Posições das sondas</text><line x1=\"30\" x2=\"290\" y1=\"100\" y2=\"100\" stroke=\"#173746\" stroke-width=\"2\"/><line x1=\"30.0000\" x2=\"30.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"30.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-10</text><line x1=\"95.0000\" x2=\"95.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"95.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-5</text><line x1=\"160.0000\" x2=\"160.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"160.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">0</text><line x1=\"225.0000\" x2=\"225.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"225.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">5</text><line x1=\"290.0000\" x2=\"290.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"290.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">10</text><circle cx=\"199.0000\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"199.0000\" x2=\"199.0000\" y1=\"100\" y2=\"70\" stroke=\"#086a68\"/><text x=\"199.0000\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">A</text><circle cx=\"69.0000\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"69.0000\" x2=\"69.0000\" y1=\"100\" y2=\"147\" stroke=\"#086a68\"/><text x=\"69.0000\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">B</text><circle cx=\"264.0000\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"264.0000\" x2=\"264.0000\" y1=\"100\" y2=\"70\" stroke=\"#086a68\"/><text x=\"264.0000\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">C</text><circle cx=\"43.0000\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"43.0000\" x2=\"43.0000\" y1=\"100\" y2=\"147\" stroke=\"#086a68\"/><text x=\"43.0000\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">D</text></svg>",
+          "acessibilidade": "Posições das sondas. Escala de -10 a 10, intervalo 5. A em 3; B em -7; C em 8; D em -9",
+          "geometria": {
+            "tipo": "reta",
+            "inicio": "-10",
+            "fim": "10",
+            "passo": "5",
+            "pontos": [
+              {
+                "nome": "A",
+                "valor": "3",
+                "x": 199.0
+              },
+              {
+                "nome": "B",
+                "valor": "-7",
+                "x": 69.0
+              },
+              {
+                "nome": "C",
+                "valor": "8",
+                "x": 264.0
+              },
+              {
+                "nome": "D",
+                "valor": "-9",
+                "x": 43.0
+              }
+            ],
+            "marcas": [
+              {
+                "valor": "-10",
+                "x": 30.0
+              },
+              {
+                "valor": "-5",
+                "x": 95.0
+              },
+              {
+                "valor": "0",
+                "x": 160.0
+              },
+              {
+                "valor": "5",
+                "x": 225.0
+              },
+              {
+                "valor": "10",
+                "x": 290.0
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-NI-18-visual",
+          "arquivo": "recursos/NI-18.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-NI-19",
+      "numero": 19,
+      "titulo": "Restrições para a coordenada de retorno",
+      "assunto": "NI",
+      "assunto_nome": "Números inteiros: representação, comparação e ordenação",
+      "subtema": "intervalos",
+      "habilidade": "Relacionar oposto, intervalo aberto, paridade e proximidade do zero.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "O registro de retorno é um inteiro negativo. Seu oposto fica estritamente entre 4 e 9, e seu módulo é ímpar. Entre os registros que atendem a essas condições, o controle escolhe o mais próximo de zero. Qual será o registro?",
+      "dados": {
+        "a": 4,
+        "b": 9
+      },
+      "modelo_verificacao": "max([n for n in range(-20,0) if a<abs(n)<b and abs(n)%2==1])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "−5.",
+          "valor": "-5",
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "−7.",
+          "valor": "-7",
+          "erro_comum": "Encontra uma possibilidade, mas não a mais próxima do zero."
+        },
+        {
+          "letra": "C",
+          "texto": "−9.",
+          "valor": "-9",
+          "erro_comum": "Inclui um extremo que foi excluído."
+        },
+        {
+          "letra": "D",
+          "texto": "+5.",
+          "valor": "5",
+          "erro_comum": "Usa o oposto no lugar do registro negativo pedido."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "O oposto positivo pode ser 5, 6, 7 ou 8. Como o módulo é ímpar, restam 5 e 7; os registros são −5 e −7. A distância de −5 ao zero é 5, menor que 7. Por isso, o controle escolhe −5.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-inteiros-representacao.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Restrições para a coordenada de retorno"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NI",
+        "nivel": "dificil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-NI-19"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-NI-20",
+      "numero": 20,
+      "titulo": "Três indicadores no painel",
+      "assunto": "NI",
+      "assunto_nome": "Números inteiros: representação, comparação e ordenação",
+      "subtema": "comparacao",
+      "habilidade": "Distinguir maior valor, maior módulo e menor valor em um conjunto.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "O painel deve mostrar, nessa ordem: o ponto de maior coordenada, o mais distante do zero e o de menor coordenada. Usando os registros do quadro, qual sequência de rótulos preenche corretamente o painel?",
+      "dados": {
+        "nomes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "valores": [
+          -12,
+          -5,
+          3,
+          8
+        ]
+      },
+      "modelo_verificacao": "[rotulo_max(nomes,valores),rotulo_max(nomes,[abs(v) for v in valores]),rotulo_min(nomes,valores)]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "D, D e A.",
+          "valor": [
+            "D",
+            "D",
+            "A"
+          ],
+          "erro_comum": "Confunde a maior coordenada com a maior distância ao zero."
+        },
+        {
+          "letra": "B",
+          "texto": "A, A e D.",
+          "valor": [
+            "A",
+            "A",
+            "D"
+          ],
+          "erro_comum": "Inverte os significados de maior e menor entre as coordenadas."
+        },
+        {
+          "letra": "C",
+          "texto": "D, A e B.",
+          "valor": [
+            "D",
+            "A",
+            "B"
+          ],
+          "erro_comum": "Escolhe o negativo mais próximo de zero como menor coordenada."
+        },
+        {
+          "letra": "D",
+          "texto": "D, A e A.",
+          "valor": [
+            "D",
+            "A",
+            "A"
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "A maior coordenada é +8, de D. Os módulos são 12, 5, 3 e 8; o mais distante é A. A menor coordenada é −12, também de A. Portanto, o painel deve mostrar D, A e A. Um mesmo ponto pode atender a critérios diferentes.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-inteiros-representacao.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Três indicadores no painel"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NI",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NI-20"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela_html",
+          "html": "<table class=\"mfc-tabela-responsiva\" role=\"table\"><caption>Registros do painel</caption><thead role=\"rowgroup\"><tr role=\"row\"><th role=\"columnheader\" scope=\"col\">Ponto</th><th role=\"columnheader\" scope=\"col\">Coordenada</th></tr></thead><tbody role=\"rowgroup\"><tr role=\"row\"><th role=\"rowheader\" scope=\"row\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Ponto\"></span><span>A</span></th><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Coordenada\"></span><span>-12</span></td></tr><tr role=\"row\"><th role=\"rowheader\" scope=\"row\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Ponto\"></span><span>B</span></th><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Coordenada\"></span><span>-5</span></td></tr><tr role=\"row\"><th role=\"rowheader\" scope=\"row\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Ponto\"></span><span>C</span></th><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Coordenada\"></span><span>3</span></td></tr><tr role=\"row\"><th role=\"rowheader\" scope=\"row\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Ponto\"></span><span>D</span></th><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Coordenada\"></span><span>8</span></td></tr></tbody></table>",
+          "acessibilidade": "Registros do painel. Ponto: A, Coordenada: -12; Ponto: B, Coordenada: -5; Ponto: C, Coordenada: 3; Ponto: D, Coordenada: 8",
+          "geometria": {
+            "tipo": "tabela",
+            "cabecalhos": [
+              "Ponto",
+              "Coordenada"
+            ],
+            "linhas": [
+              [
+                "A",
+                -12
+              ],
+              [
+                "B",
+                -5
+              ],
+              [
+                "C",
+                3
+              ],
+              [
+                "D",
+                8
+              ]
+            ]
+          },
+          "id": "MFC7-B1-I-NI-20-visual",
+          "arquivo": "recursos/NI-20.html",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    }
+  ]
+}

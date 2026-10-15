@@ -1,0 +1,2379 @@
+{
+  "versao_formato": 1,
+  "banco_id": "MFC7-B1-INEDITO-V1",
+  "assunto": "Números racionais: representações fracionária e decimal",
+  "codigo_assunto": "NR",
+  "questoes": [
+    {
+      "id": "MFC7-B1-I-NR-01",
+      "numero": 1,
+      "titulo": "Registrar os milésimos sem mudar a medida",
+      "assunto": "NR",
+      "assunto_nome": "Números racionais: representações fracionária e decimal",
+      "subtema": "conversao",
+      "habilidade": "Relacionar casas decimais e frações decimais, sem exigir simplificação.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "Na oficina escolar, um equipamento mostra no visor o comprimento de uma peça.\n\nO formulário de registro pede uma fração decimal, isto é, uma fração com denominador 10, 100, 1.000 ou outra potência de dez.\n\nQual registro conserva exatamente a medida mostrada?",
+      "dados": {
+        "milimetros": 375
+      },
+      "modelo_verificacao": "frac(milimetros,1000)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "375/100 m.",
+          "valor": "15/4",
+          "erro_comum": "Interpreta os milésimos como centésimos."
+        },
+        {
+          "letra": "B",
+          "texto": "375/10 m.",
+          "valor": "75/2",
+          "erro_comum": "Interpreta os milésimos como décimos."
+        },
+        {
+          "letra": "C",
+          "texto": "37/100 m.",
+          "valor": "37/100",
+          "erro_comum": "Elimina o último algarismo, registrando 0,37 em vez de 0,375."
+        },
+        {
+          "letra": "D",
+          "texto": "375/1.000 m.",
+          "valor": "3/8",
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "A leitura possui três casas decimais: são 375 milésimos de metro. Assim, 0,375 = 375/1.000. Não é necessário simplificar. O objetivo é reconhecer o significado das casas decimais e conservar exatamente a medida.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-racionais-e-operacoes.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Registrar os milésimos sem mudar a medida"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Onze reformulações NR aprovadas; NR-09 identifica explicitamente o procedimento incorreto; NR-17 explicita a sobreposição longitudinal e exige forma irredutível.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NR",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NR-01"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 224\" role=\"img\" aria-label=\"Visor: 0,375 m; Campo: Fração decimal em metros\"><title>Registro da oficina</title><desc>Visor: 0,375 m; Campo: Fração decimal em metros</desc><rect width=\"320\" height=\"224\" fill=\"#fff\"/><text x=\"12\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Registro da oficina</text><rect x=\"10\" y=\"64\" width=\"145\" height=\"138\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"20\" y=\"89\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Visor</text><text x=\"20\" y=\"123\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">0,375 m</text><rect x=\"165\" y=\"64\" width=\"145\" height=\"138\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"175\" y=\"89\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Campo</text><text x=\"175\" y=\"123\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Fração</text><text x=\"175\" y=\"147\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">decimal em</text><text x=\"175\" y=\"171\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">metros</text></svg>",
+          "acessibilidade": "Visor: 0,375 m; Campo: Fração decimal em metros",
+          "geometria": {
+            "tipo": "cartoes",
+            "items": [
+              {
+                "nome": "Visor",
+                "valor": "0,375 m"
+              },
+              {
+                "nome": "Campo",
+                "valor": "Fração decimal em metros"
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-NR-01-visual",
+          "arquivo": "recursos/NR-01.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-NR-02",
+      "numero": 2,
+      "titulo": "Etiquetas na mesma posição",
+      "assunto": "NR",
+      "assunto_nome": "Números racionais: representações fracionária e decimal",
+      "subtema": "posicao",
+      "habilidade": "Reconhecer que representações equivalentes ocupam o mesmo ponto.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "Quatro etiquetas devem ser colocadas em uma reta: −0,6; 1/4; −3/5 e 0. Duas delas precisam ocupar exatamente a mesma marca. Qual é a coordenada dessa marca?",
+      "dados": {
+        "valores": [
+          {
+            "fracao": [
+              -3,
+              5
+            ]
+          },
+          {
+            "fracao": [
+              1,
+              4
+            ]
+          },
+          {
+            "fracao": [
+              -3,
+              5
+            ]
+          },
+          0
+        ]
+      },
+      "modelo_verificacao": "min([v for v in valores if sum([1 for x in valores if x==v])>1])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0.",
+          "valor": "0",
+          "erro_comum": "Confunde dois sinais negativos com cancelamento na posição."
+        },
+        {
+          "letra": "B",
+          "texto": "+3/5.",
+          "valor": "3/5",
+          "erro_comum": "Descarta o sinal negativo das duas representações equivalentes."
+        },
+        {
+          "letra": "C",
+          "texto": "−3/5.",
+          "valor": "-3/5",
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "1/4.",
+          "valor": "1/4",
+          "erro_comum": "Supõe coincidência com uma coordenada positiva."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "−0,6 = −6/10 = −3/5. Portanto, essas duas etiquetas indicam o mesmo ponto negativo. 1/4 é positivo e 0 é a referência, logo não coincidem com ele.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-racionais-e-operacoes.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Etiquetas na mesma posição"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NR",
+        "nivel": "facil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-NR-02"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-NR-03",
+      "numero": 3,
+      "titulo": "O mesmo algarismo em posições diferentes",
+      "assunto": "NR",
+      "assunto_nome": "Números racionais: representações fracionária e decimal",
+      "subtema": "valor_posicional",
+      "habilidade": "Interpretar o valor posicional decimal sem depender de conversão de unidades.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "Duas etiquetas registram massas na mesma unidade:\nA: 2,040 kg\nB: 2,004 kg\n\nUma estudante afirma que as massas são iguais porque as duas escritas apresentam os mesmos algarismos.\n\nQual análise corrige essa interpretação?",
+      "dados": {
+        "nomes": [
+          "A",
+          "B"
+        ],
+        "massas": [
+          {
+            "fracao": [
+              51,
+              25
+            ]
+          },
+          {
+            "fracao": [
+              501,
+              250
+            ]
+          }
+        ],
+        "algarismo": 4,
+        "posicao_a": 2,
+        "posicao_b": 3
+      },
+      "modelo_verificacao": "[rotulo_max(nomes,massas),frac(algarismo,10**posicao_a),frac(algarismo,10**posicao_b)]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A é maior; o 4 representa quatro décimos em A e quatro centésimos em B.",
+          "valor": [
+            "A",
+            "2/5",
+            "1/25"
+          ],
+          "erro_comum": "Desloca as duas posições uma casa para a esquerda."
+        },
+        {
+          "letra": "B",
+          "texto": "A é maior; o 4 representa quatro centésimos em A e quatro milésimos em B.",
+          "valor": [
+            "A",
+            "1/25",
+            "1/250"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "As massas são iguais; os zeros não alteram o valor do algarismo 4.",
+          "valor": [
+            "iguais",
+            "1/250",
+            "1/250"
+          ],
+          "erro_comum": "Trata zeros posicionais como se fossem dispensáveis."
+        },
+        {
+          "letra": "D",
+          "texto": "B é maior; o 4 representa quatro milésimos em A e quatro centésimos em B.",
+          "valor": [
+            "B",
+            "1/250",
+            "1/25"
+          ],
+          "erro_comum": "Troca as posições ocupadas pelo algarismo 4 e inverte a comparação."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Em 2,040, o algarismo 4 ocupa a posição dos centésimos e vale 0,04. Em 2,004, ocupa a posição dos milésimos e vale 0,004. Como as partes inteiras são iguais e 0,040 > 0,004, A registra a maior massa. Não é necessário converter quilogramas em gramas.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-racionais-e-operacoes.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "O mesmo algarismo em posições diferentes"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Onze reformulações NR aprovadas; NR-09 identifica explicitamente o procedimento incorreto; NR-17 explicita a sobreposição longitudinal e exige forma irredutível.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NR",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NR-03"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 335\" role=\"img\" aria-label=\"Quadro posicional. Colunas: unidades, décimos, centésimos, milésimos. A: 2, 0, 4, 0; massa 2,040 kg. B: 2, 0, 0, 4; massa 2,004 kg. O algarismo 4 ocupa colunas diferentes.\"><title>Valor posicional</title><desc>Quadro posicional. Colunas: unidades, décimos, centésimos, milésimos. A: 2, 0, 4, 0; massa 2,040 kg. B: 2, 0, 0, 4; massa 2,004 kg. O algarismo 4 ocupa colunas diferentes.</desc><rect width=\"320\" height=\"335\" fill=\"#fff\"/><text x=\"12\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Valor posicional</text><text x=\"70\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">U</text><text x=\"130\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">d</text><text x=\"190\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">c</text><text x=\"250\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">m</text><text x=\"20\" y=\"120\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">A</text><text x=\"70\" y=\"120\" font-family=\"Arial, sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#173746\">2</text><text x=\"130\" y=\"120\" font-family=\"Arial, sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#173746\">0</text><text x=\"190\" y=\"120\" font-family=\"Arial, sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#173746\">4</text><text x=\"250\" y=\"120\" font-family=\"Arial, sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#173746\">0</text><text x=\"20\" y=\"170\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">B</text><text x=\"70\" y=\"170\" font-family=\"Arial, sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#173746\">2</text><text x=\"130\" y=\"170\" font-family=\"Arial, sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#173746\">0</text><text x=\"190\" y=\"170\" font-family=\"Arial, sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#173746\">0</text><text x=\"250\" y=\"170\" font-family=\"Arial, sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#173746\">4</text><text x=\"20\" y=\"220\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">U: unidades</text><text x=\"20\" y=\"250\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">d: décimos</text><text x=\"20\" y=\"280\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">c: centésimos</text><text x=\"20\" y=\"310\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">m: milésimos</text></svg>",
+          "acessibilidade": "Quadro posicional. Colunas: unidades, décimos, centésimos, milésimos. A: 2, 0, 4, 0; massa 2,040 kg. B: 2, 0, 0, 4; massa 2,004 kg. O algarismo 4 ocupa colunas diferentes.",
+          "geometria": {
+            "tipo": "quadro_posicional_nr",
+            "linhas": [
+              [
+                2,
+                0,
+                4,
+                0
+              ],
+              [
+                2,
+                0,
+                0,
+                4
+              ]
+            ],
+            "potencias": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "id": "MFC7-B1-I-NR-03-visual",
+          "arquivo": "recursos/NR-03.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-NR-04",
+      "numero": 4,
+      "titulo": "A duração da vinheta",
+      "assunto": "NR",
+      "assunto_nome": "Números racionais: representações fracionária e decimal",
+      "subtema": "comparacao",
+      "habilidade": "Comparar representações fracionárias e decimais exatas.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "A rádio da escola precisa de uma vinheta com duração de exatamente 3/5 de minuto.\n\nO arquivo A dura 0,6 minuto e o arquivo B dura 0,06 minuto.\n\nConsiderando apenas a duração, qual arquivo atende à exigência?",
+      "dados": {
+        "nomes": [
+          "A",
+          "B"
+        ],
+        "duracoes": [
+          {
+            "fracao": [
+              3,
+              5
+            ]
+          },
+          {
+            "fracao": [
+              3,
+              50
+            ]
+          }
+        ],
+        "exigida": {
+          "fracao": [
+            3,
+            5
+          ]
+        }
+      },
+      "modelo_verificacao": "[nomes[i] for i in range(len(nomes)) if duracoes[i]==exigida]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Somente A.",
+          "valor": [
+            "A"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Somente B.",
+          "valor": [
+            "B"
+          ],
+          "erro_comum": "Confunde décimos com centésimos."
+        },
+        {
+          "letra": "C",
+          "texto": "A e B.",
+          "valor": [
+            "A",
+            "B"
+          ],
+          "erro_comum": "Ignora a posição do zero e a diferença entre as capacidades."
+        },
+        {
+          "letra": "D",
+          "texto": "Nenhum dos dois.",
+          "valor": [],
+          "erro_comum": "Não reconhece 3/5 = 6/10 = 0,6."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "3/5 = 6/10 = 0,6 minuto. A duração de A é exatamente a solicitada. B corresponde a seis centésimos de minuto, não a seis décimos. Não é necessário converter as durações em segundos.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-racionais-e-operacoes.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "A duração da vinheta"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Onze reformulações NR aprovadas; NR-09 identifica explicitamente o procedimento incorreto; NR-17 explicita a sobreposição longitudinal e exige forma irredutível.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NR",
+        "nivel": "facil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-NR-04"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-NR-05",
+      "numero": 5,
+      "titulo": "O progresso no formato do visor",
+      "assunto": "NR",
+      "assunto_nome": "Números racionais: representações fracionária e decimal",
+      "subtema": "conversao",
+      "habilidade": "Interpretar uma representação visual e convertê-la para decimal.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "O aplicativo considera a barra inteira como 1 e informa o progresso por um número decimal. A parte azul mostra o que foi concluído. Qual leitura deve aparecer no visor?",
+      "dados": {
+        "concluidas": 7,
+        "total": 20
+      },
+      "modelo_verificacao": "frac(concluidas,total)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0,7.",
+          "valor": "7/10",
+          "erro_comum": "Trata as vinte partes como se fossem dez."
+        },
+        {
+          "letra": "B",
+          "texto": "0,035.",
+          "valor": "7/200",
+          "erro_comum": "Desloca a vírgula uma casa a mais."
+        },
+        {
+          "letra": "C",
+          "texto": "0,65.",
+          "valor": "13/20",
+          "erro_comum": "Informa a parte que falta, em vez da concluída."
+        },
+        {
+          "letra": "D",
+          "texto": "0,35.",
+          "valor": "7/20",
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Foram concluídas sete das vinte partes iguais: 7/20. Multiplicando os dois termos por 5, obtemos 35/100 = 0,35. A barra completa continua sendo a unidade 1.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-racionais-e-operacoes.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "O progresso no formato do visor"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NR",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NR-05"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 156\" role=\"img\" aria-label=\"Progresso: 7 de 20 partes iguais pintadas; barra inteira = 1 As partes com pontos representam as regiões preenchidas; as partes brancas lisas não estão preenchidas.\"><title>Progresso concluído em azul</title><desc>Progresso: 7 de 20 partes iguais pintadas; barra inteira = 1 As partes com pontos representam as regiões preenchidas; as partes brancas lisas não estão preenchidas.</desc><defs><pattern id=\"MFC7-B1-I-NR-05-contraste-pontos\" patternUnits=\"userSpaceOnUse\" width=\"8\" height=\"8\"><rect width=\"8\" height=\"8\" fill=\"#83c6c1\" /><circle cx=\"4\" cy=\"4\" r=\"1.5\" fill=\"#173746\" /></pattern></defs><rect width=\"320\" height=\"156\" fill=\"#fff\" /><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Progresso concluído em azul</text><text x=\"10\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Progresso</text><text x=\"310\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">barra inteira = 1</text><rect x=\"20.00000\" y=\"78\" width=\"14.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-NR-05-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"34.00000\" y=\"78\" width=\"14.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-NR-05-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"48.00000\" y=\"78\" width=\"14.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-NR-05-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"62.00000\" y=\"78\" width=\"14.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-NR-05-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"76.00000\" y=\"78\" width=\"14.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-NR-05-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"90.00000\" y=\"78\" width=\"14.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-NR-05-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"104.00000\" y=\"78\" width=\"14.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-NR-05-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"118.00000\" y=\"78\" width=\"14.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"132.00000\" y=\"78\" width=\"14.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"146.00000\" y=\"78\" width=\"14.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"160.00000\" y=\"78\" width=\"14.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"174.00000\" y=\"78\" width=\"14.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"188.00000\" y=\"78\" width=\"14.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"202.00000\" y=\"78\" width=\"14.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"216.00000\" y=\"78\" width=\"14.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"230.00000\" y=\"78\" width=\"14.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"244.00000\" y=\"78\" width=\"14.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"258.00000\" y=\"78\" width=\"14.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"272.00000\" y=\"78\" width=\"14.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"286.00000\" y=\"78\" width=\"14.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /></svg>",
+          "acessibilidade": "Progresso: 7 de 20 partes iguais pintadas; barra inteira = 1 As partes com pontos representam as regiões preenchidas; as partes brancas lisas não estão preenchidas.",
+          "geometria": {
+            "tipo": "barras",
+            "barras": [
+              {
+                "nome": "Progresso",
+                "partes": 20,
+                "pintadas": 7,
+                "largura": 280,
+                "x": 20,
+                "y": 78
+              }
+            ]
+          },
+          "acessibilidade_grafica": {
+            "codificacao": "textura_e_contorno",
+            "independente_de_cor": true,
+            "marcacoes": [
+              {
+                "padrao": "MFC7-B1-I-NR-05-contraste-pontos",
+                "tipo": "pontos",
+                "fundo": "#83c6c1",
+                "marca": "#173746",
+                "regioes": 7
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-NR-05-visual",
+          "arquivo": "recursos/NR-05.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-NR-06",
+      "numero": 6,
+      "titulo": "Um zero retirado indevidamente",
+      "assunto": "NR",
+      "assunto_nome": "Números racionais: representações fracionária e decimal",
+      "subtema": "valor_posicional",
+      "habilidade": "Distinguir zeros posicionais de zeros finais em uma escrita decimal.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "Uma medida de fio foi registrada como 4,08 m. Ao copiar, um programa eliminou o zero e passou a mostrar 4,8 m, alegando que “zeros não alteram decimais”. Quanto o novo registro supera a medida original?",
+      "dados": {
+        "original": {
+          "fracao": [
+            102,
+            25
+          ]
+        },
+        "novo": {
+          "fracao": [
+            24,
+            5
+          ]
+        }
+      },
+      "modelo_verificacao": "novo-original",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0,08 m.",
+          "valor": "2/25",
+          "erro_comum": "Usa apenas a parte decimal da medida original."
+        },
+        {
+          "letra": "B",
+          "texto": "−0,72 m.",
+          "valor": "-18/25",
+          "erro_comum": "Inverte a ordem novo menos original."
+        },
+        {
+          "letra": "C",
+          "texto": "0,72 m.",
+          "valor": "18/25",
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "0 m.",
+          "valor": "0",
+          "erro_comum": "Aplica a regra dos zeros finais a um zero entre algarismos."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "4,8 m = 4,80 m. A diferença é 4,80 − 4,08 = 0,72 m. Acrescentar ou retirar zeros à direita da parte decimal pode conservar o valor; retirar o zero dos décimos em 4,08 muda a posição do 8 e altera a medida.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-racionais-e-operacoes.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Um zero retirado indevidamente"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NR",
+        "nivel": "facil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-NR-06"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-NR-07",
+      "numero": 7,
+      "titulo": "O empate precisa aparecer",
+      "assunto": "NR",
+      "assunto_nome": "Números racionais: representações fracionária e decimal",
+      "subtema": "posicao",
+      "habilidade": "Interpretar coordenadas decimais e comparar suas distâncias ao zero.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "No painel de uma atividade de orientação, os pontos A, B, C e D estão posicionados em uma mesma reta.\n\nO monitor deve destacar todos os pontos com a menor distância ao zero. Quando houver empate, todos os pontos empatados devem ser destacados.\n\nQuais pontos atendem à regra?",
+      "dados": {
+        "nomes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "valores": [
+          {
+            "fracao": [
+              -4,
+              5
+            ]
+          },
+          {
+            "fracao": [
+              -1,
+              5
+            ]
+          },
+          {
+            "fracao": [
+              1,
+              5
+            ]
+          },
+          {
+            "fracao": [
+              3,
+              5
+            ]
+          }
+        ]
+      },
+      "modelo_verificacao": "[nomes[i] for i in range(len(nomes)) if abs(valores[i])==min([abs(v) for v in valores])]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Somente A.",
+          "valor": [
+            "A"
+          ],
+          "erro_comum": "Confunde a menor coordenada com a menor distância ao zero."
+        },
+        {
+          "letra": "B",
+          "texto": "B e C.",
+          "valor": [
+            "B",
+            "C"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Somente B.",
+          "valor": [
+            "B"
+          ],
+          "erro_comum": "Escolhe apenas o lado negativo e ignora o empate de módulos."
+        },
+        {
+          "letra": "D",
+          "texto": "Somente C.",
+          "valor": [
+            "C"
+          ],
+          "erro_comum": "Escolhe apenas o lado positivo e ignora o empate de módulos."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "As coordenadas decimais de A, B, C e D são −0,8; −0,2; +0,2 e +0,6. As distâncias ao zero são, respectivamente, 0,8; 0,2; 0,2 e 0,6. A menor distância é 0,2. B e C estão em lados diferentes, mas igualmente próximos do zero. Portanto, ambos devem ser destacados.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-racionais-e-operacoes.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "O empate precisa aparecer"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Onze reformulações NR aprovadas; NR-09 identifica explicitamente o procedimento incorreto; NR-17 explicita a sobreposição longitudinal e exige forma irredutível.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NR",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NR-07"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Reta de −1 a +1, com subdivisões de 0,1 e marcas principais a cada 0,5. A em −0,8; B em −0,2; C em +0,2; D em +0,6. As coordenadas estão escritas na forma decimal e nenhuma distância está destacada.\"><title>Coordenadas decimais</title><desc>Reta de −1 a +1, com subdivisões de 0,1 e marcas principais a cada 0,5. A em −0,8; B em −0,2; C em +0,2; D em +0,6. As coordenadas estão escritas na forma decimal e nenhuma distância está destacada.</desc><rect width=\"320\" height=\"190\" fill=\"#fff\"/><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Coordenadas decimais</text><line x1=\"30\" x2=\"290\" y1=\"100\" y2=\"100\" stroke=\"#173746\" stroke-width=\"2\"/><line x1=\"30.0000\" x2=\"30.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"30.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-1</text><line x1=\"95.0000\" x2=\"95.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"95.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-0,5</text><line x1=\"160.0000\" x2=\"160.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"160.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">0</text><line x1=\"225.0000\" x2=\"225.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"225.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">0,5</text><line x1=\"290.0000\" x2=\"290.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"290.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">1</text><circle cx=\"56.0000\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"56.0000\" x2=\"56.0000\" y1=\"100\" y2=\"70\" stroke=\"#086a68\"/><text x=\"56.0000\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">A: −0,8</text><circle cx=\"134.0000\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"134.0000\" x2=\"134.0000\" y1=\"100\" y2=\"147\" stroke=\"#086a68\"/><text x=\"134.0000\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">B: −0,2</text><circle cx=\"186.0000\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"186.0000\" x2=\"186.0000\" y1=\"100\" y2=\"70\" stroke=\"#086a68\"/><text x=\"186.0000\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">C: +0,2</text><circle cx=\"238.0000\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"238.0000\" x2=\"238.0000\" y1=\"100\" y2=\"147\" stroke=\"#086a68\"/><text x=\"238.0000\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">D: +0,6</text><line data-subdivisao=\"true\" x1=\"43.0000\" x2=\"43.0000\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"56.0000\" x2=\"56.0000\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"69.0000\" x2=\"69.0000\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"82.0000\" x2=\"82.0000\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"108.0000\" x2=\"108.0000\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"121.0000\" x2=\"121.0000\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"134.0000\" x2=\"134.0000\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"147.0000\" x2=\"147.0000\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"173.0000\" x2=\"173.0000\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"186.0000\" x2=\"186.0000\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"199.0000\" x2=\"199.0000\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"212.0000\" x2=\"212.0000\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"238.0000\" x2=\"238.0000\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"251.0000\" x2=\"251.0000\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"264.0000\" x2=\"264.0000\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"277.0000\" x2=\"277.0000\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/></svg>",
+          "acessibilidade": "Reta de −1 a +1, com subdivisões de 0,1 e marcas principais a cada 0,5. A em −0,8; B em −0,2; C em +0,2; D em +0,6. As coordenadas estão escritas na forma decimal e nenhuma distância está destacada.",
+          "geometria": {
+            "tipo": "reta",
+            "inicio": "-1",
+            "fim": "1",
+            "passo": "1/2",
+            "pontos": [
+              {
+                "nome": "A: −0,8",
+                "valor": "-4/5",
+                "x": 56.0
+              },
+              {
+                "nome": "B: −0,2",
+                "valor": "-1/5",
+                "x": 134.0
+              },
+              {
+                "nome": "C: +0,2",
+                "valor": "1/5",
+                "x": 186.0
+              },
+              {
+                "nome": "D: +0,6",
+                "valor": "3/5",
+                "x": 238.0
+              }
+            ],
+            "marcas": [
+              {
+                "valor": "-1",
+                "x": 30.0
+              },
+              {
+                "valor": "-1/2",
+                "x": 95.0
+              },
+              {
+                "valor": "0",
+                "x": 160.0
+              },
+              {
+                "valor": "1/2",
+                "x": 225.0
+              },
+              {
+                "valor": "1",
+                "x": 290.0
+              }
+            ],
+            "subdivisoes": [
+              {
+                "valor": "-9/10",
+                "x": 43.0
+              },
+              {
+                "valor": "-4/5",
+                "x": 56.0
+              },
+              {
+                "valor": "-7/10",
+                "x": 69.0
+              },
+              {
+                "valor": "-3/5",
+                "x": 82.0
+              },
+              {
+                "valor": "-2/5",
+                "x": 108.0
+              },
+              {
+                "valor": "-3/10",
+                "x": 121.0
+              },
+              {
+                "valor": "-1/5",
+                "x": 134.0
+              },
+              {
+                "valor": "-1/10",
+                "x": 147.0
+              },
+              {
+                "valor": "1/10",
+                "x": 173.0
+              },
+              {
+                "valor": "1/5",
+                "x": 186.0
+              },
+              {
+                "valor": "3/10",
+                "x": 199.0
+              },
+              {
+                "valor": "2/5",
+                "x": 212.0
+              },
+              {
+                "valor": "3/5",
+                "x": 238.0
+              },
+              {
+                "valor": "7/10",
+                "x": 251.0
+              },
+              {
+                "valor": "4/5",
+                "x": 264.0
+              },
+              {
+                "valor": "9/10",
+                "x": 277.0
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-NR-07-visual",
+          "arquivo": "recursos/NR-07.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-NR-08",
+      "numero": 8,
+      "titulo": "Quanto espaço a ilustração pode ocupar?",
+      "assunto": "NR",
+      "assunto_nome": "Números racionais: representações fracionária e decimal",
+      "subtema": "comparacao",
+      "habilidade": "Comparar frações e decimais exatos sob um limite máximo.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Na revista escolar, uma ilustração pode ocupar no máximo 0,37 da área de uma página.\n\nO quadro apresenta duas propostas para páginas de mesmo tamanho. As medidas são exatas e não podem ser arredondadas para decidir a aprovação.\n\nQuais propostas atendem ao limite?",
+      "dados": {
+        "nomes": [
+          "A",
+          "B"
+        ],
+        "areas": [
+          {
+            "fracao": [
+              3,
+              8
+            ]
+          },
+          {
+            "fracao": [
+              9,
+              25
+            ]
+          }
+        ],
+        "limite": {
+          "fracao": [
+            37,
+            100
+          ]
+        }
+      },
+      "modelo_verificacao": "[nomes[i] for i in range(len(nomes)) if areas[i]<=limite]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Somente B.",
+          "valor": [
+            "B"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Somente A.",
+          "valor": [
+            "A"
+          ],
+          "erro_comum": "Interpreta incorretamente 3/8 como um valor abaixo do limite."
+        },
+        {
+          "letra": "C",
+          "texto": "A e B.",
+          "valor": [
+            "A",
+            "B"
+          ],
+          "erro_comum": "Aproxima 0,375 para baixo e trata a aproximação como igualdade exata."
+        },
+        {
+          "letra": "D",
+          "texto": "Nenhuma das duas.",
+          "valor": [],
+          "erro_comum": "Compara incorretamente 0,36 e 0,37."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "3/8 = 0,375. Como 0,375 > 0,370, A ultrapassa o limite. B ocupa 0,360 da página, abaixo de 0,370. Portanto, somente B atende. Arredondar ou cortar algarismos de A alteraria a informação usada na decisão.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-racionais-e-operacoes.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Quanto espaço a ilustração pode ocupar?"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Onze reformulações NR aprovadas; NR-09 identifica explicitamente o procedimento incorreto; NR-17 explicita a sobreposição longitudinal e exige forma irredutível.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NR",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NR-08"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela_html",
+          "html": "<table class=\"mfc-tabela-responsiva\" role=\"table\"><caption>Propostas para páginas de mesmo tamanho</caption><thead role=\"rowgroup\"><tr role=\"row\"><th role=\"columnheader\" scope=\"col\">Proposta</th><th role=\"columnheader\" scope=\"col\">Parte da área da página</th></tr></thead><tbody role=\"rowgroup\"><tr role=\"row\"><th role=\"rowheader\" scope=\"row\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Proposta\"></span><span>A</span></th><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Parte da área da página\"></span><span>3/8</span></td></tr><tr role=\"row\"><th role=\"rowheader\" scope=\"row\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Proposta\"></span><span>B</span></th><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Parte da área da página\"></span><span>0,36</span></td></tr></tbody></table>",
+          "acessibilidade": "Propostas para páginas de mesmo tamanho. Proposta: A, Parte da área da página: 3/8; Proposta: B, Parte da área da página: 0,36",
+          "geometria": {
+            "tipo": "tabela",
+            "cabecalhos": [
+              "Proposta",
+              "Parte da área da página"
+            ],
+            "linhas": [
+              [
+                "A",
+                "3/8"
+              ],
+              [
+                "B",
+                "0,36"
+              ]
+            ]
+          },
+          "id": "MFC7-B1-I-NR-08-visual",
+          "arquivo": "recursos/NR-08.html",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-NR-09",
+      "numero": 9,
+      "titulo": "A parte inteira também entra na fração",
+      "assunto": "NR",
+      "assunto_nome": "Números racionais: representações fracionária e decimal",
+      "subtema": "conversao",
+      "habilidade": "Converter uma medida com parte inteira por decomposição e analisar uma transformação incorreta.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Uma peça mede 2,125 m. Um estudante sabe que 0,125 = 1/8.\n\nEle registrou o seguinte procedimento incorreto; a sequência abaixo não é uma identidade matemática válida:\n“2,125 = 2 + 1/8 = (2 + 1)/8 = 3/8”.\n\nO erro está na passagem de 2 + 1/8 para (2 + 1)/8. Qual fração corrige o registro, conservando todo o comprimento da peça?",
+      "dados": {
+        "medida": {
+          "fracao": [
+            17,
+            8
+          ]
+        }
+      },
+      "modelo_verificacao": "medida",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "17/80 m.",
+          "valor": "17/80",
+          "erro_comum": "Altera a ordem de grandeza, representando 0,2125 m."
+        },
+        {
+          "letra": "B",
+          "texto": "3/8 m.",
+          "valor": "3/8",
+          "erro_comum": "Mantém o procedimento incorreto apresentado."
+        },
+        {
+          "letra": "C",
+          "texto": "9/8 m.",
+          "valor": "9/8",
+          "erro_comum": "Conta apenas um dos dois metros inteiros."
+        },
+        {
+          "letra": "D",
+          "texto": "17/8 m.",
+          "valor": "17/8",
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Os dois metros inteiros precisam ser representados em oitavos: 2 = 16/8, e não 2/8. Logo, 2 + 1/8 = 16/8 + 1/8 = 17/8. O primeiro passo 2,125 = 2 + 1/8 é correto. O erro do estudante foi somar o número 2 diretamente ao numerador sem converter os inteiros em oitavos.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-racionais-e-operacoes.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "A parte inteira também entra na fração"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Onze reformulações NR aprovadas; NR-09 identifica explicitamente o procedimento incorreto; NR-17 explicita a sobreposição longitudinal e exige forma irredutível.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NR",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-NR-09"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-NR-10",
+      "numero": 10,
+      "titulo": "Só a parte acima de um metro",
+      "assunto": "NR",
+      "assunto_nome": "Números racionais: representações fracionária e decimal",
+      "subtema": "valor_posicional",
+      "habilidade": "Interpretar a parte decimal em uma conversão de unidade.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "O relatório deve registrar, em milímetros, apenas quanto o comprimento do visor ultrapassa 1 metro. Qual valor deve ser preenchido?",
+      "dados": {
+        "comprimento_m": {
+          "fracao": [
+            51,
+            40
+          ]
+        },
+        "referencia_m": 1,
+        "fator_mm": 1000
+      },
+      "modelo_verificacao": "(comprimento_m-referencia_m)*fator_mm",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "27,5 mm.",
+          "valor": "55/2",
+          "erro_comum": "Desloca uma casa decimal a menos ao converter o excesso."
+        },
+        {
+          "letra": "B",
+          "texto": "127,5 mm.",
+          "valor": "255/2",
+          "erro_comum": "Usa incorretamente o comprimento total e o fator de conversão."
+        },
+        {
+          "letra": "C",
+          "texto": "275 mm.",
+          "valor": "275",
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "1.275 mm.",
+          "valor": "1275",
+          "erro_comum": "Converte o comprimento total em vez do excesso em relação a 1 m."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "O excesso é 1,275 − 1 = 0,275 m. Como 1 m = 1.000 mm, o excesso corresponde a 275 mm. O comprimento total seria 1.275 mm, mas essa não é a informação solicitada.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-racionais-e-operacoes.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Só a parte acima de um metro"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NR",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NR-10"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 302\" role=\"img\" aria-label=\"Visor: 1,275 m; Referência: 1 m; Conversão: 1 m = 1.000 mm\"><title>Leitura e referência</title><desc>Visor: 1,275 m; Referência: 1 m; Conversão: 1 m = 1.000 mm</desc><rect width=\"320\" height=\"302\" fill=\"#fff\"/><text x=\"12\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Leitura e referência</text><rect x=\"10\" y=\"64\" width=\"145\" height=\"90\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"20\" y=\"89\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Visor</text><text x=\"20\" y=\"123\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">1,275 m</text><rect x=\"165\" y=\"64\" width=\"145\" height=\"90\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"175\" y=\"89\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Referência</text><text x=\"175\" y=\"123\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">1 m</text><rect x=\"10\" y=\"166\" width=\"145\" height=\"114\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"20\" y=\"191\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Conversão</text><text x=\"20\" y=\"225\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">1 m = 1.000</text><text x=\"20\" y=\"249\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">mm</text></svg>",
+          "acessibilidade": "Visor: 1,275 m; Referência: 1 m; Conversão: 1 m = 1.000 mm",
+          "geometria": {
+            "tipo": "cartoes",
+            "items": [
+              {
+                "nome": "Visor",
+                "valor": "1,275 m"
+              },
+              {
+                "nome": "Referência",
+                "valor": "1 m"
+              },
+              {
+                "nome": "Conversão",
+                "valor": "1 m = 1.000 mm"
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-NR-10-visual",
+          "arquivo": "recursos/NR-10.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-NR-11",
+      "numero": 11,
+      "titulo": "Escolher uma peça entre dois limites",
+      "assunto": "NR",
+      "assunto_nome": "Números racionais: representações fracionária e decimal",
+      "subtema": "posicao",
+      "habilidade": "Localizar um decimal em um intervalo com limite fracionário.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Para montar um suporte da exposição escolar, uma peça precisa ter comprimento maior que 3/8 m e menor que 0,4 m.\n\nEstão disponíveis peças de 0,35 m; 0,39 m; 0,4 m e 0,45 m.\n\nQual peça pode ser utilizada?",
+      "dados": {
+        "valores": [
+          {
+            "fracao": [
+              7,
+              20
+            ]
+          },
+          {
+            "fracao": [
+              39,
+              100
+            ]
+          },
+          {
+            "fracao": [
+              2,
+              5
+            ]
+          },
+          {
+            "fracao": [
+              9,
+              20
+            ]
+          }
+        ],
+        "a": {
+          "fracao": [
+            3,
+            8
+          ]
+        },
+        "b": {
+          "fracao": [
+            2,
+            5
+          ]
+        }
+      },
+      "modelo_verificacao": "min([v for v in valores if a<v<b])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A peça de 0,45 m.",
+          "valor": "9/20",
+          "erro_comum": "Verifica somente a exigência de superar o limite inferior."
+        },
+        {
+          "letra": "B",
+          "texto": "A peça de 0,39 m.",
+          "valor": "39/100",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "A peça de 0,35 m.",
+          "valor": "7/20",
+          "erro_comum": "Lê 3/8 como 0,3 e aceita um valor abaixo do limite real."
+        },
+        {
+          "letra": "D",
+          "texto": "A peça de 0,4 m.",
+          "valor": "2/5",
+          "erro_comum": "Inclui o limite superior, que foi excluído."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "3/8 = 0,375. Precisamos de um comprimento estritamente entre 0,375 m e 0,400 m. Somente 0,390 m atende. O valor 0,400 m coincide com um limite excluído, enquanto 0,350 m está abaixo do mínimo e 0,450 m supera o máximo.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-racionais-e-operacoes.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Escolher uma peça entre dois limites"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Onze reformulações NR aprovadas; NR-09 identifica explicitamente o procedimento incorreto; NR-17 explicita a sobreposição longitudinal e exige forma irredutível.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NR",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-NR-11"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-NR-12",
+      "numero": 12,
+      "titulo": "Dois campos para a mesma leitura",
+      "assunto": "NR",
+      "assunto_nome": "Números racionais: representações fracionária e decimal",
+      "subtema": "conversao",
+      "habilidade": "Relacionar decimal, fração decimal e fração irredutível.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "O laboratório deve copiar a leitura do recipiente para dois campos: o primeiro exige uma fração com denominador 100; o segundo exige a forma irredutível. Qual par preenche corretamente esses campos, nessa ordem?",
+      "dados": {
+        "centesimos_litro": 28
+      },
+      "modelo_verificacao": "[[centesimos_litro,100],reduzir(centesimos_litro,100)]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "28/100 L e 7/25 L.",
+          "valor": [
+            [
+              "28",
+              "100"
+            ],
+            [
+              "7",
+              "25"
+            ]
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "28/10 L e 7/25 L.",
+          "valor": [
+            [
+              "28",
+              "10"
+            ],
+            [
+              "7",
+              "25"
+            ]
+          ],
+          "erro_comum": "Escreve décimos no primeiro campo em vez de centésimos."
+        },
+        {
+          "letra": "C",
+          "texto": "28/100 L e 7/20 L.",
+          "valor": [
+            [
+              "28",
+              "100"
+            ],
+            [
+              "7",
+              "20"
+            ]
+          ],
+          "erro_comum": "Simplifica o numerador e o denominador por fatores diferentes."
+        },
+        {
+          "letra": "D",
+          "texto": "28/100 L e 25/7 L.",
+          "valor": [
+            [
+              "28",
+              "100"
+            ],
+            [
+              "25",
+              "7"
+            ]
+          ],
+          "erro_comum": "Inverte a fração na segunda representação."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "A leitura é 0,28 L, ou 28/100 L. Dividindo os dois termos por 4, obtemos 7/25 L. Como 7 e 25 não têm divisor comum maior que 1, a segunda fração é irredutível. As duas escritas representam a mesma medida.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-racionais-e-operacoes.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Dois campos para a mesma leitura"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NR",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NR-12"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 355\" role=\"img\" aria-label=\"Volume lido no laboratório. Recipiente de 500 mL, com 280 mL, ou 0,28 L. Escala linear. A região com pontos representa o líquido; a parte branca lisa acima representa a região sem líquido.\"><title>Volume lido no laboratório</title><desc>Volume lido no laboratório. Recipiente de 500 mL, com 280 mL, ou 0,28 L. Escala linear. A região com pontos representa o líquido; a parte branca lisa acima representa a região sem líquido.</desc><defs><pattern id=\"MFC7-B1-I-NR-12-contraste-pontos\" patternUnits=\"userSpaceOnUse\" width=\"8\" height=\"8\"><rect width=\"8\" height=\"8\" fill=\"#83c6c1\" /><circle cx=\"4\" cy=\"4\" r=\"1.5\" fill=\"#173746\" /></pattern></defs><rect width=\"320\" height=\"355\" fill=\"#fff\" /><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Volume lido no laboratório</text><rect x=\"100\" y=\"70\" width=\"80\" height=\"220\" fill=\"#fff\" stroke=\"#173746\" stroke-width=\"2\" /><rect x=\"102\" y=\"166.80000\" width=\"76\" height=\"123.20000\" fill=\"url(#MFC7-B1-I-NR-12-contraste-pontos)\" data-marcacao-acessivel=\"pontos\" stroke=\"#173746\" stroke-width=\"1.5\" /><line x1=\"180\" x2=\"190\" y1=\"290.00000\" y2=\"290.00000\" stroke=\"#173746\" /><text x=\"196\" y=\"296.0\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">0,0 L</text><line x1=\"180\" x2=\"190\" y1=\"246.00000\" y2=\"246.00000\" stroke=\"#173746\" /><text x=\"196\" y=\"252.0\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">0,1 L</text><line x1=\"180\" x2=\"190\" y1=\"202.00000\" y2=\"202.00000\" stroke=\"#173746\" /><text x=\"196\" y=\"208.0\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">0,2 L</text><line x1=\"180\" x2=\"190\" y1=\"158.00000\" y2=\"158.00000\" stroke=\"#173746\" /><text x=\"196\" y=\"164.0\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">0,3 L</text><line x1=\"180\" x2=\"190\" y1=\"114.00000\" y2=\"114.00000\" stroke=\"#173746\" /><text x=\"196\" y=\"120.0\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">0,4 L</text><line x1=\"180\" x2=\"190\" y1=\"70.00000\" y2=\"70.00000\" stroke=\"#173746\" /><text x=\"196\" y=\"76.0\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">0,5 L</text><text x=\"160\" y=\"330\" font-family=\"Arial, sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#173746\">Leitura: 0,28 L</text></svg>",
+          "acessibilidade": "Volume lido no laboratório. Recipiente de 500 mL, com 280 mL, ou 0,28 L. Escala linear. A região com pontos representa o líquido; a parte branca lisa acima representa a região sem líquido.",
+          "geometria": {
+            "tipo": "recipiente",
+            "volume_ml": 280,
+            "capacidade_ml": 500,
+            "y_volume": 166.79999999999998
+          },
+          "acessibilidade_grafica": {
+            "codificacao": "textura_e_contorno",
+            "independente_de_cor": true,
+            "marcacoes": [
+              {
+                "padrao": "MFC7-B1-I-NR-12-contraste-pontos",
+                "tipo": "pontos",
+                "fundo": "#83c6c1",
+                "marca": "#173746",
+                "regioes": 1
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-NR-12-visual",
+          "arquivo": "recursos/NR-12.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-NR-13",
+      "numero": 13,
+      "titulo": "Quais registros são exatamente iguais?",
+      "assunto": "NR",
+      "assunto_nome": "Números racionais: representações fracionária e decimal",
+      "subtema": "comparacao",
+      "habilidade": "Identificar um conjunto de representações equivalentes, incluindo sinal e zeros finais.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "O arquivo de referência registra −7/10. Os sensores enviaram A = −0,7; B = −0,07; C = −0,70. Quais registros são exatamente iguais à referência, sem arredondamento?",
+      "dados": {
+        "nomes": [
+          "A",
+          "B",
+          "C"
+        ],
+        "valores": [
+          {
+            "fracao": [
+              -7,
+              10
+            ]
+          },
+          {
+            "fracao": [
+              -7,
+              100
+            ]
+          },
+          {
+            "fracao": [
+              -7,
+              10
+            ]
+          }
+        ],
+        "referencia": {
+          "fracao": [
+            -7,
+            10
+          ]
+        }
+      },
+      "modelo_verificacao": "[nomes[i] for i in range(len(nomes)) if valores[i]==referencia]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A, B e C.",
+          "valor": [
+            "A",
+            "B",
+            "C"
+          ],
+          "erro_comum": "Ignora a posição do zero à esquerda do 7 no registro B."
+        },
+        {
+          "letra": "B",
+          "texto": "Somente B.",
+          "valor": [
+            "B"
+          ],
+          "erro_comum": "Lê os sete décimos negativos como sete centésimos negativos."
+        },
+        {
+          "letra": "C",
+          "texto": "Somente C.",
+          "valor": [
+            "C"
+          ],
+          "erro_comum": "Supõe que o número de casas decimais precisa ser igual ao do denominador escrito."
+        },
+        {
+          "letra": "D",
+          "texto": "A e C.",
+          "valor": [
+            "A",
+            "C"
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "−7/10 = −0,7 = −0,70. Acrescentar um zero no final da parte decimal conserva o valor. Já −0,07 = −7/100, que é diferente. Portanto, A e C coincidem exatamente com a referência.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-racionais-e-operacoes.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Quais registros são exatamente iguais?"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NR",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-NR-13"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-NR-14",
+      "numero": 14,
+      "titulo": "Inserindo um registro decimal na reta",
+      "assunto": "NR",
+      "assunto_nome": "Números racionais: representações fracionária e decimal",
+      "subtema": "posicao",
+      "habilidade": "Compatibilizar uma leitura decimal com marcações fracionárias.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Um novo registro de −0,6 precisa ser colocado na reta fracionária. Entre quais duas marcas consecutivas do desenho ele ficará?",
+      "dados": {
+        "marcas": [
+          {
+            "fracao": [
+              -1,
+              1
+            ]
+          },
+          {
+            "fracao": [
+              -3,
+              4
+            ]
+          },
+          {
+            "fracao": [
+              -1,
+              2
+            ]
+          },
+          {
+            "fracao": [
+              -1,
+              4
+            ]
+          },
+          0,
+          {
+            "fracao": [
+              1,
+              4
+            ]
+          }
+        ],
+        "novo": {
+          "fracao": [
+            -3,
+            5
+          ]
+        }
+      },
+      "modelo_verificacao": "[max([v for v in marcas if v<novo]),min([v for v in marcas if v>novo])]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Entre 0 e 1/4.",
+          "valor": [
+            "0",
+            "1/4"
+          ],
+          "erro_comum": "Descarta o sinal negativo."
+        },
+        {
+          "letra": "B",
+          "texto": "Entre −1 e −3/4.",
+          "valor": [
+            "-1",
+            "-3/4"
+          ],
+          "erro_comum": "Interpreta −0,6 como menor que −0,75."
+        },
+        {
+          "letra": "C",
+          "texto": "Entre −3/4 e −1/2.",
+          "valor": [
+            "-3/4",
+            "-1/2"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Entre −1/2 e 0.",
+          "valor": [
+            "-1/2",
+            "0"
+          ],
+          "erro_comum": "Subestima o módulo da leitura negativa."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "As marcas −3/4 e −1/2 correspondem a −0,75 e −0,50. Como −0,75 < −0,60 < −0,50, o novo registro ficará entre essas marcas. Entre negativos, aumentar o módulo desloca o ponto para a esquerda.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-racionais-e-operacoes.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Inserindo um registro decimal na reta"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NR",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NR-14"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Marcas da escala fracionária. Escala de -1 a 1/4, intervalo 1/4. \"><title>Marcas da escala fracionária</title><desc>Marcas da escala fracionária. Escala de -1 a 1/4, intervalo 1/4. </desc><rect width=\"320\" height=\"190\" fill=\"#fff\"/><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Marcas da escala fracionária</text><line x1=\"30\" x2=\"290\" y1=\"100\" y2=\"100\" stroke=\"#173746\" stroke-width=\"2\"/><line x1=\"30.0000\" x2=\"30.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"30.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-1</text><line x1=\"82.0000\" x2=\"82.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"82.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-3/4</text><line x1=\"134.0000\" x2=\"134.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"134.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-1/2</text><line x1=\"186.0000\" x2=\"186.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"186.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-1/4</text><line x1=\"238.0000\" x2=\"238.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"238.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">0</text><line x1=\"290.0000\" x2=\"290.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"290.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">1/4</text></svg>",
+          "acessibilidade": "Marcas da escala fracionária. Escala de -1 a 1/4, intervalo 1/4. ",
+          "geometria": {
+            "tipo": "reta",
+            "inicio": "-1",
+            "fim": "1/4",
+            "passo": "1/4",
+            "pontos": [],
+            "marcas": [
+              {
+                "valor": "-1",
+                "x": 30.0
+              },
+              {
+                "valor": "-3/4",
+                "x": 82.0
+              },
+              {
+                "valor": "-1/2",
+                "x": 134.0
+              },
+              {
+                "valor": "-1/4",
+                "x": 186.0
+              },
+              {
+                "valor": "0",
+                "x": 238.0
+              },
+              {
+                "valor": "1/4",
+                "x": 290.0
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-NR-14-visual",
+          "arquivo": "recursos/NR-14.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-NR-15",
+      "numero": 15,
+      "titulo": "Uma graduação que alcance os dois pontos",
+      "assunto": "NR",
+      "assunto_nome": "Números racionais: representações fracionária e decimal",
+      "subtema": "representacao",
+      "habilidade": "Reconhecer uma unidade fracionária comum por equivalências e contagem de passos.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "Em uma régua de montagem, dois encaixes ficam nas posições 0,375 m e 0,625 m.\n\nA turma quer refazer a graduação com um único espaçamento, começando no zero. Os dois encaixes precisam coincidir exatamente com marcas.\n\nEntre as opções, qual é o maior espaçamento que atende à condição?",
+      "dados": {
+        "a": {
+          "fracao": [
+            3,
+            8
+          ]
+        },
+        "b": {
+          "fracao": [
+            5,
+            8
+          ]
+        },
+        "candidatos": [
+          {
+            "fracao": [
+              1,
+              5
+            ]
+          },
+          {
+            "fracao": [
+              1,
+              8
+            ]
+          },
+          {
+            "fracao": [
+              1,
+              4
+            ]
+          },
+          {
+            "fracao": [
+              1,
+              16
+            ]
+          }
+        ]
+      },
+      "modelo_verificacao": "max([passo for passo in candidatos if inteiro(a/passo) and inteiro(b/passo)])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1/5 m.",
+          "valor": "1/5",
+          "erro_comum": "Escolhe uma subdivisão decimal conhecida sem conferir os encaixes."
+        },
+        {
+          "letra": "B",
+          "texto": "1/8 m.",
+          "valor": "1/8",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "1/4 m.",
+          "valor": "1/4",
+          "erro_comum": "Escolhe um espaçamento maior, mas que não alcança as posições."
+        },
+        {
+          "letra": "D",
+          "texto": "1/16 m.",
+          "valor": "1/16",
+          "erro_comum": "Encontra um espaçamento válido, ignorando a exigência de ser o maior."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "As posições correspondem a 0,375 = 3/8 e 0,625 = 5/8. Com espaçamento de 1/8 m, os encaixes ficam na terceira e na quinta marca. O espaçamento de 1/16 m também funciona: seriam seis e dez passos, mas ele é menor. As marcas de 1/4 m passam por 0,25 e 0,50, sem atingir 0,375; as de 1/5 m passam por 0,20 e 0,40, também sem atingir essa posição. Portanto, 1/8 m é o maior entre os propostos. Não é necessário calcular formalmente um MDC.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-racionais-e-operacoes.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Uma graduação que alcance os dois pontos"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Onze reformulações NR aprovadas; NR-09 identifica explicitamente o procedimento incorreto; NR-17 explicita a sobreposição longitudinal e exige forma irredutível.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NR",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NR-15"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Régua de 0 a 1 metro, com marcas igualmente espaçadas em 0, um quarto, metade, três quartos e 1. O ponto A tem etiqueta 0,375 m e fica entre as marcas de um quarto e metade. O ponto B tem etiqueta 0,625 m e fica entre metade e três quartos. A etiqueta de A aparece acima da régua; a de B, abaixo. Não está indicada uma nova graduação.\"><title>Encaixes da régua</title><desc>Régua de 0 a 1 metro, com marcas igualmente espaçadas em 0, um quarto, metade, três quartos e 1. O ponto A tem etiqueta 0,375 m e fica entre as marcas de um quarto e metade. O ponto B tem etiqueta 0,625 m e fica entre metade e três quartos. A etiqueta de A aparece acima da régua; a de B, abaixo. Não está indicada uma nova graduação.</desc><rect width=\"320\" height=\"190\" fill=\"#fff\" /><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Encaixes da régua</text><line x1=\"30\" x2=\"290\" y1=\"100\" y2=\"100\" stroke=\"#173746\" stroke-width=\"2\" /><line x1=\"30.0000\" x2=\"30.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\" /><text x=\"30.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">0</text><line x1=\"95.0000\" x2=\"95.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\" /><text x=\"95.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">1/4</text><line x1=\"160.0000\" x2=\"160.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\" /><text x=\"160.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">1/2</text><line x1=\"225.0000\" x2=\"225.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\" /><text x=\"225.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">3/4</text><line x1=\"290.0000\" x2=\"290.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\" /><text x=\"290.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">1</text><circle cx=\"127.5000\" cy=\"100\" r=\"4\" fill=\"#086a68\" /><line x1=\"127.5000\" x2=\"127.5000\" y1=\"100\" y2=\"70\" stroke=\"#086a68\" /><text x=\"127.5000\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">A: 0,375</text><circle cx=\"192.5000\" cy=\"100\" r=\"4\" fill=\"#086a68\" /><line x1=\"192.5000\" x2=\"192.5000\" y1=\"100\" y2=\"147\" stroke=\"#086a68\" /><text x=\"192.5000\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">B: 0,625</text></svg>",
+          "acessibilidade": "Régua de 0 a 1 metro, com marcas igualmente espaçadas em 0, um quarto, metade, três quartos e 1. O ponto A tem etiqueta 0,375 m e fica entre as marcas de um quarto e metade. O ponto B tem etiqueta 0,625 m e fica entre metade e três quartos. A etiqueta de A aparece acima da régua; a de B, abaixo. Não está indicada uma nova graduação.",
+          "geometria": {
+            "tipo": "reta",
+            "inicio": "0",
+            "fim": "1",
+            "passo": "1/4",
+            "pontos": [
+              {
+                "nome": "A: 0,375",
+                "valor": "3/8",
+                "x": 127.5
+              },
+              {
+                "nome": "B: 0,625",
+                "valor": "5/8",
+                "x": 192.5
+              }
+            ],
+            "marcas": [
+              {
+                "valor": "0",
+                "x": 30.0
+              },
+              {
+                "valor": "1/4",
+                "x": 95.0
+              },
+              {
+                "valor": "1/2",
+                "x": 160.0
+              },
+              {
+                "valor": "3/4",
+                "x": 225.0
+              },
+              {
+                "valor": "1",
+                "x": 290.0
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-NR-15-visual",
+          "arquivo": "recursos/NR-15.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-NR-16",
+      "numero": 16,
+      "titulo": "Dois algarismos precisam concordar",
+      "assunto": "NR",
+      "assunto_nome": "Números racionais: representações fracionária e decimal",
+      "subtema": "valor_posicional",
+      "habilidade": "Combinar valor posicional, desigualdades e uma relação entre algarismos.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "O visor de uma balança perdeu os algarismos dos centésimos e dos milésimos. A leitura tem a forma 1,0ab kg: a é o algarismo dos centésimos e b é o dos milésimos.\n\nA inspeção sabe que:\n• a massa é maior que 1,025 kg e menor que 1,045 kg;\n• o algarismo dos milésimos é duas unidades maior que o dos centésimos, isto é, b = a + 2.\n\nQual par de algarismos atende às duas informações?",
+      "dados": {
+        "minimo": {
+          "fracao": [
+            41,
+            40
+          ]
+        },
+        "maximo": {
+          "fracao": [
+            209,
+            200
+          ]
+        },
+        "diferenca_algarismos": 2
+      },
+      "modelo_verificacao": "[[a,b] for a in range(10) for b in range(10) if minimo<frac(1000+10*a+b,1000)<maximo and b==a+diferenca_algarismos][0]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "a = 3 e b = 5.",
+          "valor": [
+            "3",
+            "5"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "a = 2 e b = 4.",
+          "valor": [
+            "2",
+            "4"
+          ],
+          "erro_comum": "Respeita a relação entre algarismos, mas não o limite inferior."
+        },
+        {
+          "letra": "C",
+          "texto": "a = 4 e b = 6.",
+          "valor": [
+            "4",
+            "6"
+          ],
+          "erro_comum": "Respeita a relação entre algarismos, mas não o limite superior."
+        },
+        {
+          "letra": "D",
+          "texto": "a = 3 e b = 4.",
+          "valor": [
+            "3",
+            "4"
+          ],
+          "erro_comum": "Respeita o intervalo, mas ignora a relação entre as posições."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Precisamos conferir a posição dos algarismos e as duas condições. A produz 1,035 kg: está dentro do intervalo e 5 = 3 + 2. B produz 1,024 kg: fica abaixo do limite inferior. C produz 1,046 kg: ultrapassa o limite superior. D produz 1,034 kg: está no intervalo, mas 4 ≠ 3 + 2. Somente A atende simultaneamente às informações.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-racionais-e-operacoes.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Dois algarismos precisam concordar"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Onze reformulações NR aprovadas; NR-09 identifica explicitamente o procedimento incorreto; NR-17 explicita a sobreposição longitudinal e exige forma irredutível.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NR",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NR-16"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 340\" role=\"img\" aria-label=\"Visor 1,0ab kg: a é o algarismo dos centésimos e b é o dos milésimos. Massa estritamente maior que 1,025 kg e menor que 1,045 kg. O algarismo b deve ser duas unidades maior que a. Os algarismos não estão preenchidos.\"><title>Dois algarismos desconhecidos</title><desc>Visor 1,0ab kg: a é o algarismo dos centésimos e b é o dos milésimos. Massa estritamente maior que 1,025 kg e menor que 1,045 kg. O algarismo b deve ser duas unidades maior que a. Os algarismos não estão preenchidos.</desc><rect width=\"320\" height=\"340\" fill=\"#fff\"/><text x=\"12\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Conferência do visor</text><text x=\"160\" y=\"80\" font-family=\"Arial, sans-serif\" font-size=\"27\" text-anchor=\"middle\" fill=\"#173746\">1,0 a b kg</text><text x=\"12\" y=\"130\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">a: algarismo dos centésimos</text><text x=\"12\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">b: algarismo dos milésimos</text><text x=\"12\" y=\"225\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">1,025 kg &lt; massa</text><text x=\"12\" y=\"260\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">massa &lt; 1,045 kg</text><text x=\"12\" y=\"315\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Relação: b = a + 2</text></svg>",
+          "acessibilidade": "Visor 1,0ab kg: a é o algarismo dos centésimos e b é o dos milésimos. Massa estritamente maior que 1,025 kg e menor que 1,045 kg. O algarismo b deve ser duas unidades maior que a. Os algarismos não estão preenchidos.",
+          "geometria": {
+            "tipo": "visor_dois_algarismos_nr",
+            "posicao_a": 2,
+            "posicao_b": 3,
+            "minimo": "41/40",
+            "maximo": "209/200",
+            "diferenca_algarismos": 2
+          },
+          "id": "MFC7-B1-I-NR-16-visual",
+          "arquivo": "recursos/NR-16.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-NR-17",
+      "numero": 17,
+      "titulo": "O comprimento do conjunto e a forma do registro",
+      "assunto": "NR",
+      "assunto_nome": "Números racionais: representações fracionária e decimal",
+      "subtema": "conversao",
+      "habilidade": "Construir uma medida exata com representações diferentes e conferir a forma irredutível exigida.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "Para montar uma estrutura da feira escolar, duas barras de 0,75 m e 0,5 m serão alinhadas longitudinalmente, na mesma direção. Uma extremidade de cada barra ficará sobreposta à outra, compartilhando um trecho de 1/8 m, sem outra sobreposição.\n\nO comprimento do conjunto será medido entre suas duas extremidades externas. O trecho compartilhado pertence às duas barras e deve ser contado apenas uma vez.\n\nO arquivo de montagem exige esse comprimento exato, escrito como uma fração irredutível de metro, sem arredondamento.\n\nQual registro atende a todas as condições?",
+      "dados": {
+        "barra_a": {
+          "fracao": [
+            3,
+            4
+          ]
+        },
+        "barra_b": {
+          "fracao": [
+            1,
+            2
+          ]
+        },
+        "sobreposicao": {
+          "fracao": [
+            1,
+            8
+          ]
+        },
+        "exige_irredutivel": true
+      },
+      "modelo_verificacao": "reduzir(barra_a+barra_b-sobreposicao,1)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "11/10 m.",
+          "valor": [
+            "11",
+            "10"
+          ],
+          "erro_comum": "Usa a aproximação 1,1 m como se fosse a medida exata de 1,125 m."
+        },
+        {
+          "letra": "B",
+          "texto": "5/4 m.",
+          "valor": [
+            "5",
+            "4"
+          ],
+          "erro_comum": "Soma os comprimentos sem descontar a sobreposição."
+        },
+        {
+          "letra": "C",
+          "texto": "18/16 m.",
+          "valor": [
+            "18",
+            "16"
+          ],
+          "erro_comum": "Conserva corretamente a medida, mas não apresenta a fração irredutível exigida."
+        },
+        {
+          "letra": "D",
+          "texto": "9/8 m.",
+          "valor": [
+            "9",
+            "8"
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Em oitavos, 0,75 = 6/8 e 0,5 = 4/8. Somamos os comprimentos e descontamos uma vez a sobreposição, pois ela foi incluída nas duas barras: 6/8 + 4/8 − 1/8 = 9/8 m. A fração 9/8 é irredutível. Já 18/16 representa exatamente o mesmo comprimento, mas seus termos ainda podem ser divididos por 2; portanto, não está na forma exigida.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-racionais-e-operacoes.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "O comprimento do conjunto e a forma do registro"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Onze reformulações NR aprovadas; NR-09 identifica explicitamente o procedimento incorreto; NR-17 explicita a sobreposição longitudinal e exige forma irredutível.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NR",
+        "nivel": "dificil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-NR-17"
+      },
+      "recursos_visuais": [],
+      "criterio_resposta": {
+        "tipo": "fracao_irredutivel",
+        "valor_e_forma_obrigatorios": true,
+        "valores_estruturados": "pares numerador e denominador, preservando a representação escrita"
+      }
+    },
+    {
+      "id": "MFC7-B1-I-NR-18",
+      "numero": 18,
+      "titulo": "A tolerância inclui a borda",
+      "assunto": "NR",
+      "assunto_nome": "Números racionais: representações fracionária e decimal",
+      "subtema": "comparacao",
+      "habilidade": "Comparar desvios exatos em representações fracionárias e decimais.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "O alvo de um controle é −0,5 m. São aceitos registros cuja distância ao alvo seja de no máximo 0,05 m, incluindo essa distância. Quais sensores do quadro devem ser aceitos?",
+      "dados": {
+        "nomes": [
+          "A",
+          "B",
+          "C"
+        ],
+        "valores": [
+          {
+            "fracao": [
+              -23,
+              50
+            ]
+          },
+          {
+            "fracao": [
+              -3,
+              5
+            ]
+          },
+          {
+            "fracao": [
+              -9,
+              20
+            ]
+          }
+        ],
+        "alvo": {
+          "fracao": [
+            -1,
+            2
+          ]
+        },
+        "tolerancia": {
+          "fracao": [
+            1,
+            20
+          ]
+        }
+      },
+      "modelo_verificacao": "[nomes[i] for i in range(len(nomes)) if abs(valores[i]-alvo)<=tolerancia]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Somente B.",
+          "valor": [
+            "B"
+          ],
+          "erro_comum": "Seleciona o valor mais negativo, sem medir a distância ao alvo."
+        },
+        {
+          "letra": "B",
+          "texto": "A, B e C.",
+          "valor": [
+            "A",
+            "B",
+            "C"
+          ],
+          "erro_comum": "Considera suficiente todos os valores serem negativos."
+        },
+        {
+          "letra": "C",
+          "texto": "A e C.",
+          "valor": [
+            "A",
+            "C"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Somente A.",
+          "valor": [
+            "A"
+          ],
+          "erro_comum": "Exclui a borda, embora a tolerância seja inclusiva."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "A distância de A ao alvo é |−0,46 − (−0,5)| = 0,04 m. B registra −3/5 = −0,6, a 0,1 m do alvo. C registra −9/20 = −0,45, a 0,05 m do alvo. A e C são aceitos; C está exatamente na borda permitida. Os cálculos usam valores exatos.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-racionais-e-operacoes.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "A tolerância inclui a borda"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NR",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NR-18"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela_html",
+          "html": "<table class=\"mfc-tabela-responsiva\" role=\"table\"><caption>Registros dos sensores</caption><thead role=\"rowgroup\"><tr role=\"row\"><th role=\"columnheader\" scope=\"col\">Sensor</th><th role=\"columnheader\" scope=\"col\">Registro</th></tr></thead><tbody role=\"rowgroup\"><tr role=\"row\"><th role=\"rowheader\" scope=\"row\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Sensor\"></span><span>A</span></th><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Registro\"></span><span>−0,46 m</span></td></tr><tr role=\"row\"><th role=\"rowheader\" scope=\"row\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Sensor\"></span><span>B</span></th><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Registro\"></span><span>−3/5 m</span></td></tr><tr role=\"row\"><th role=\"rowheader\" scope=\"row\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Sensor\"></span><span>C</span></th><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Registro\"></span><span>−9/20 m</span></td></tr></tbody></table>",
+          "acessibilidade": "Registros dos sensores. Sensor: A, Registro: −0,46 m; Sensor: B, Registro: −3/5 m; Sensor: C, Registro: −9/20 m",
+          "geometria": {
+            "tipo": "tabela",
+            "cabecalhos": [
+              "Sensor",
+              "Registro"
+            ],
+            "linhas": [
+              [
+                "A",
+                "−0,46 m"
+              ],
+              [
+                "B",
+                "−3/5 m"
+              ],
+              [
+                "C",
+                "−9/20 m"
+              ]
+            ]
+          },
+          "id": "MFC7-B1-I-NR-18-visual",
+          "arquivo": "recursos/NR-18.html",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-NR-19",
+      "numero": 19,
+      "titulo": "Completar com zeros recupera a precisão?",
+      "assunto": "NR",
+      "assunto_nome": "Números racionais: representações fracionária e decimal",
+      "subtema": "representacao",
+      "habilidade": "Distinguir medida exata, aproximação e perda de informação no registro decimal.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "Uma cortadora precisa receber exatamente a medida 5/16 m.\n\nO arquivo exportado copia somente os algarismos mostrados no visor. Atualmente, o visor apresenta três casas decimais.\n\nUma pessoa propõe gravar 0,312 m; outra propõe 0,313 m. Também sugerem acrescentar um zero ao final dessas escritas quando o arquivo pedir quatro casas.\n\nQual é a configuração mínima que realmente conserva a medida exata?",
+      "dados": {
+        "medida": {
+          "fracao": [
+            5,
+            16
+          ]
+        }
+      },
+      "modelo_verificacao": "[min([n for n in range(6) if inteiro(medida*10**n)]),medida]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Usar 16 casas decimais, pois o denominador determina a quantidade necessária.",
+          "valor": [
+            "16",
+            "5/16"
+          ],
+          "erro_comum": "Confunde denominador com quantidade mínima de casas decimais."
+        },
+        {
+          "letra": "B",
+          "texto": "Usar quatro casas decimais e registrar 0,3125 m, sem cortar ou arredondar.",
+          "valor": [
+            "4",
+            "5/16"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Manter três casas e registrar 0,312 m; escrever 0,3120 m recupera a medida exata.",
+          "valor": [
+            "3",
+            "39/125"
+          ],
+          "erro_comum": "Supõe que acrescentar zeros recupera informação eliminada."
+        },
+        {
+          "letra": "D",
+          "texto": "Manter três casas e registrar 0,313 m; o arredondamento conserva a igualdade exata.",
+          "valor": [
+            "3",
+            "313/1000"
+          ],
+          "erro_comum": "Confunde aproximação por arredondamento com igualdade exata."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "5/16 = 3125/10000 = 0,3125. Quatro casas são suficientes e necessárias, pois o último algarismo não nulo ocupa a quarta casa. 0,312 e 0,313 são aproximações: cada uma difere da medida exata em 0,0005 m, para menos ou para mais. Acrescentar zeros não recupera o algarismo perdido: 0,3120 continua igual a 0,312, e não a 0,3125. É necessário configurar o visor para conservar a leitura exata antes da exportação.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-racionais-e-operacoes.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Completar com zeros recupera a precisão?"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Onze reformulações NR aprovadas; NR-09 identifica explicitamente o procedimento incorreto; NR-17 explicita a sobreposição longitudinal e exige forma irredutível.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NR",
+        "nivel": "dificil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-NR-19"
+      },
+      "recursos_visuais": [],
+      "criterio_resposta": {
+        "tipo": "precisao_minima_e_medida_exata",
+        "valores_estruturados": "quantidade de casas e medida registrada; zeros acrescentados não recuperam informação"
+      }
+    },
+    {
+      "id": "MFC7-B1-I-NR-20",
+      "numero": 20,
+      "titulo": "Um ponto igualmente distante das marcas",
+      "assunto": "NR",
+      "assunto_nome": "Números racionais: representações fracionária e decimal",
+      "subtema": "posicao",
+      "habilidade": "Determinar e representar uma posição entre referências em formatos diferentes.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "O ponto de calibração deve ficar entre A e B, à mesma distância dos dois. A corresponde a −0,875 e B a 1/4. Qual leitura decimal deve ser atribuída ao ponto de calibração, na mesma escala?",
+      "dados": {
+        "a": {
+          "fracao": [
+            -7,
+            8
+          ]
+        },
+        "b": {
+          "fracao": [
+            1,
+            4
+          ]
+        }
+      },
+      "modelo_verificacao": "(a+b)/2",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "−0,3125.",
+          "valor": "-5/16",
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "+0,3125.",
+          "valor": "5/16",
+          "erro_comum": "Descarta o sinal da posição encontrada."
+        },
+        {
+          "letra": "C",
+          "texto": "+0,5625.",
+          "valor": "9/16",
+          "erro_comum": "Usa metade da distância entre as marcas como se fosse a coordenada."
+        },
+        {
+          "letra": "D",
+          "texto": "−0,625.",
+          "valor": "-5/8",
+          "erro_comum": "Soma as coordenadas, mas não divide a soma por dois."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "B = 1/4 = 0,25. A distância entre as marcas é 0,25 − (−0,875) = 1,125. Metade dela é 0,5625. Partindo de A, avançamos essa distância: −0,875 + 0,5625 = −0,3125. Conferindo, as distâncias até A e B são ambas 0,5625. A coordenada não é apenas a metade da distância.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/numeros-racionais-e-operacoes.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Um ponto igualmente distante das marcas"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "NR",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-NR-20"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Reta de −1 a 0,5, com marcas igualmente espaçadas em −1, −0,5, 0 e 0,5. A está na coordenada −0,875; B está em 1/4. Apenas as posições A e B estão assinaladas.\"><title>Marcas de calibração</title><desc>Reta de −1 a 0,5, com marcas igualmente espaçadas em −1, −0,5, 0 e 0,5. A está na coordenada −0,875; B está em 1/4. Apenas as posições A e B estão assinaladas.</desc><rect width=\"320\" height=\"190\" fill=\"#fff\" /><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Marcas de calibração</text><line x1=\"30\" x2=\"290\" y1=\"100\" y2=\"100\" stroke=\"#173746\" stroke-width=\"2\" /><line x1=\"30.0000\" x2=\"30.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\" /><text x=\"30.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-1</text><line x1=\"116.6667\" x2=\"116.6667\" y1=\"93\" y2=\"107\" stroke=\"#173746\" /><text x=\"116.6667\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-0,5</text><line x1=\"203.3333\" x2=\"203.3333\" y1=\"93\" y2=\"107\" stroke=\"#173746\" /><text x=\"203.3333\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">0</text><line x1=\"290.0000\" x2=\"290.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\" /><text x=\"290.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">0,5</text><circle cx=\"51.6667\" cy=\"100\" r=\"4\" fill=\"#086a68\" /><line x1=\"51.6667\" x2=\"51.6667\" y1=\"100\" y2=\"70\" stroke=\"#086a68\" /><text x=\"51.6667\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">A</text><circle cx=\"246.6667\" cy=\"100\" r=\"4\" fill=\"#086a68\" /><line x1=\"246.6667\" x2=\"246.6667\" y1=\"100\" y2=\"147\" stroke=\"#086a68\" /><text x=\"246.6667\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">B</text></svg>",
+          "acessibilidade": "Reta de −1 a 0,5, com marcas igualmente espaçadas em −1, −0,5, 0 e 0,5. A está na coordenada −0,875; B está em 1/4. Apenas as posições A e B estão assinaladas.",
+          "geometria": {
+            "tipo": "reta",
+            "inicio": "-1",
+            "fim": "1/2",
+            "passo": "1/2",
+            "pontos": [
+              {
+                "nome": "A",
+                "valor": "-7/8",
+                "x": 51.66666666666667
+              },
+              {
+                "nome": "B",
+                "valor": "1/4",
+                "x": 246.66666666666666
+              }
+            ],
+            "marcas": [
+              {
+                "valor": "-1",
+                "x": 30.0
+              },
+              {
+                "valor": "-1/2",
+                "x": 116.66666666666667
+              },
+              {
+                "valor": "0",
+                "x": 203.33333333333334
+              },
+              {
+                "valor": "1/2",
+                "x": 290.0
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-NR-20-visual",
+          "arquivo": "recursos/NR-20.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    }
+  ]
+}

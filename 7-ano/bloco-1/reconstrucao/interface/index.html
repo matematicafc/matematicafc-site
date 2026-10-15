@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="icon" href="./imagens/favicon-matematicafc.ico" type="image/x-icon">
+  <title>Revisão — Simulado do 7º ano — MatemáticaFC</title>
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+<body style="margin:0;background:#f2f6f6">
+  <div class="mfc-simulado" id="mfc-simulado"></div>
+  <script type="module">
+    import { montarSimulado } from './estudante.mjs';
+    // Opt-in explícito: o motor de produção continua recusando o banco pendente.
+    montarSimulado(document.querySelector('#mfc-simulado'), { modoRevisao:true });
+  </script>
+</body>
+</html>

@@ -1,0 +1,1813 @@
+{
+  "versao_formato": 1,
+  "banco_id": "MFC7-B1-INEDITO-V1",
+  "assunto": "Operações com números inteiros",
+  "codigo_assunto": "OI",
+  "questoes": [
+    {
+      "id": "MFC7-B1-I-OI-01",
+      "numero": 1,
+      "titulo": "Voltar à temperatura inicial",
+      "assunto": "OI",
+      "assunto_nome": "Operações com números inteiros",
+      "subtema": "adicao_subtracao",
+      "habilidade": "Reconhecer alterações opostas, preservando o estado inicial.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "Em um experimento escolar, uma câmara começa a −5 °C. Primeiro, sua temperatura diminui 8 °C. Depois, aumenta 8 °C, sem outras alterações.\n\nQual é a temperatura ao final do experimento?",
+      "dados": {
+        "inicial": -5,
+        "resfriamento": -8,
+        "aquecimento": 8
+      },
+      "modelo_verificacao": "inicial+resfriamento+aquecimento",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0 °C.",
+          "valor": "0",
+          "erro_comum": "Confunde alteração total igual a zero com temperatura final igual a zero."
+        },
+        {
+          "letra": "B",
+          "texto": "−5 °C.",
+          "valor": "-5",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "−21 °C.",
+          "valor": "-21",
+          "erro_comum": "Interpreta o aquecimento como uma segunda diminuição: −5 − 8 − 8."
+        },
+        {
+          "letra": "D",
+          "texto": "+11 °C.",
+          "valor": "11",
+          "erro_comum": "Interpreta as duas alterações como aumentos: −5 + 8 + 8."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "As alterações de −8 °C e +8 °C se anulam. Portanto, a temperatura retorna ao valor inicial: −5 + (−8) + 8 = −5 °C. Anular as alterações não significa transformar a temperatura inicial em zero.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/operacoes-e-expressoes-com-numeros.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Voltar à temperatura inicial"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de OI-01, OI-05, OI-09, OI-10, OI-12, OI-15, OI-17, OI-18 e OI-20; OI-20 mostra apenas o primeiro comando em reta graduada, distinguindo coordenada e deslocamento.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "OI",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-OI-01"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 325\" role=\"img\" aria-label=\"Etapas do experimento. Temperatura inicial: −5 °C; depois, Resfriamento: Variação: −8 °C; depois, Aquecimento: Variação: +8 °C\"><title>Etapas do experimento</title><desc>Etapas do experimento. Temperatura inicial: −5 °C; depois, Resfriamento: Variação: −8 °C; depois, Aquecimento: Variação: +8 °C</desc><rect width=\"320\" height=\"325\" fill=\"#fff\"/><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Etapas do experimento</text><rect x=\"20\" y=\"55\" width=\"280\" height=\"67\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"32\" y=\"80\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Temperatura inicial</text><text x=\"32\" y=\"106\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">−5 °C</text><path d=\"M160 122 v20 m-5 -5 l5 5 l5 -5\" fill=\"none\" stroke=\"#173746\"/><rect x=\"20\" y=\"145\" width=\"280\" height=\"67\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"32\" y=\"170\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Resfriamento</text><text x=\"32\" y=\"196\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Variação: −8 °C</text><path d=\"M160 212 v20 m-5 -5 l5 5 l5 -5\" fill=\"none\" stroke=\"#173746\"/><rect x=\"20\" y=\"235\" width=\"280\" height=\"67\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"32\" y=\"260\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Aquecimento</text><text x=\"32\" y=\"286\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Variação: +8 °C</text></svg>",
+          "acessibilidade": "Etapas do experimento. Temperatura inicial: −5 °C; depois, Resfriamento: Variação: −8 °C; depois, Aquecimento: Variação: +8 °C",
+          "geometria": {
+            "tipo": "etapas",
+            "items": [
+              [
+                "Temperatura inicial",
+                "−5 °C"
+              ],
+              [
+                "Resfriamento",
+                "Variação: −8 °C"
+              ],
+              [
+                "Aquecimento",
+                "Variação: +8 °C"
+              ]
+            ]
+          },
+          "id": "MFC7-B1-I-OI-01-visual",
+          "arquivo": "recursos/OI-01.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-OI-02",
+      "numero": 2,
+      "titulo": "Cancelar não é cobrar novamente",
+      "assunto": "OI",
+      "assunto_nome": "Operações com números inteiros",
+      "subtema": "multiplicacao_divisao",
+      "habilidade": "Interpretar a inversão do efeito de débitos repetidos.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "Uma conta fictícia sofreu cinco cobranças indevidas de 7 reais, cada uma registrada como −7. A auditoria cancela as cinco cobranças. Qual é a alteração do saldo causada apenas pelo cancelamento?",
+      "dados": {
+        "quantidade": 5,
+        "debito": -7
+      },
+      "modelo_verificacao": "-(quantidade*debito)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Aumento de 35 reais.",
+          "valor": "35",
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Diminuição de 35 reais.",
+          "valor": "-35",
+          "erro_comum": "Aplica novamente os débitos em vez de cancelá-los."
+        },
+        {
+          "letra": "C",
+          "texto": "Diminuição de 12 reais.",
+          "valor": "-12",
+          "erro_comum": "Soma a quantidade de cobranças ao valor com sinais negativos."
+        },
+        {
+          "letra": "D",
+          "texto": "Aumento de 12 reais.",
+          "valor": "12",
+          "erro_comum": "Soma os módulos, sem representar a repetição das cobranças."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "As cobranças produziram 5 × (−7) = −35 reais. Cancelar esse efeito acrescenta seu oposto, +35 reais, ao saldo. Não é necessário conhecer o saldo anterior para calcular a alteração causada pelo estorno.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/operacoes-e-expressoes-com-numeros.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Cancelar não é cobrar novamente"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "OI",
+        "nivel": "facil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-OI-02"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-OI-03",
+      "numero": 3,
+      "titulo": "Uma taxa em cada atendimento",
+      "assunto": "OI",
+      "assunto_nome": "Operações com números inteiros",
+      "subtema": "expressoes",
+      "habilidade": "Distinguir uma cobrança por grupo de uma cobrança única.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "Uma oficina começa o turno com o saldo indicado. Cada atendimento acrescenta 7 créditos e consome 2 créditos em material. Serão realizados três atendimentos iguais, conforme o esquema. Qual será o saldo final?",
+      "dados": {
+        "inicial": -6,
+        "atendimentos": 3,
+        "entrada": 7,
+        "consumo": 2
+      },
+      "modelo_verificacao": "inicial+atendimentos*(entrada-consumo)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "13 créditos.",
+          "valor": "13",
+          "erro_comum": "Desconta o material uma única vez, em vez de uma vez por atendimento."
+        },
+        {
+          "letra": "B",
+          "texto": "15 créditos.",
+          "valor": "15",
+          "erro_comum": "Calcula o ganho dos atendimentos, mas ignora o saldo inicial."
+        },
+        {
+          "letra": "C",
+          "texto": "−15 créditos.",
+          "valor": "-15",
+          "erro_comum": "Agrupa indevidamente o saldo inicial com o número de atendimentos."
+        },
+        {
+          "letra": "D",
+          "texto": "9 créditos.",
+          "valor": "9",
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Cada atendimento gera 7 − 2 = 5 créditos líquidos. Três atendimentos geram 15 créditos. Considerando o saldo inicial de −6, temos −6 + 3 × (7 − 2) = −6 + 15 = 9 créditos.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/operacoes-e-expressoes-com-numeros.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Uma taxa em cada atendimento"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "OI",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-OI-03"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 325\" role=\"img\" aria-label=\"Organização do turno. Saldo inicial: −6 créditos; depois, Cada atendimento: Entrada +7; consumo −2; depois, Quantidade: 3 atendimentos\"><title>Organização do turno</title><desc>Organização do turno. Saldo inicial: −6 créditos; depois, Cada atendimento: Entrada +7; consumo −2; depois, Quantidade: 3 atendimentos</desc><rect width=\"320\" height=\"325\" fill=\"#fff\"/><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Organização do turno</text><rect x=\"20\" y=\"55\" width=\"280\" height=\"67\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"32\" y=\"80\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Saldo inicial</text><text x=\"32\" y=\"106\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">−6 créditos</text><path d=\"M160 122 v20 m-5 -5 l5 5 l5 -5\" fill=\"none\" stroke=\"#173746\"/><rect x=\"20\" y=\"145\" width=\"280\" height=\"67\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"32\" y=\"170\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Cada atendimento</text><text x=\"32\" y=\"196\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Entrada +7; consumo −2</text><path d=\"M160 212 v20 m-5 -5 l5 5 l5 -5\" fill=\"none\" stroke=\"#173746\"/><rect x=\"20\" y=\"235\" width=\"280\" height=\"67\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"32\" y=\"260\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Quantidade</text><text x=\"32\" y=\"286\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">3 atendimentos</text></svg>",
+          "acessibilidade": "Organização do turno. Saldo inicial: −6 créditos; depois, Cada atendimento: Entrada +7; consumo −2; depois, Quantidade: 3 atendimentos",
+          "geometria": {
+            "tipo": "etapas",
+            "items": [
+              [
+                "Saldo inicial",
+                "−6 créditos"
+              ],
+              [
+                "Cada atendimento",
+                "Entrada +7; consumo −2"
+              ],
+              [
+                "Quantidade",
+                "3 atendimentos"
+              ]
+            ]
+          },
+          "id": "MFC7-B1-I-OI-03-visual",
+          "arquivo": "recursos/OI-03.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-OI-04",
+      "numero": 4,
+      "titulo": "Quatro inversões de sinal",
+      "assunto": "OI",
+      "assunto_nome": "Operações com números inteiros",
+      "subtema": "potencias_raizes",
+      "habilidade": "Usar a paridade do expoente em uma transformação de sinal.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "Um simulador começa com o registro −9. Cada comando de inversão multiplica o registro por −1. Depois de quatro comandos consecutivos, qual valor aparece e por quê?",
+      "dados": {
+        "inicial": -9,
+        "inversoes": 4
+      },
+      "modelo_verificacao": "inicial*((-1)**inversoes)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "−36, porque quatro comandos multiplicam o registro por 4.",
+          "valor": "-36",
+          "erro_comum": "Confunde multiplicações por −1 com multiplicação por 4."
+        },
+        {
+          "letra": "B",
+          "texto": "+36, porque o módulo precisa ser multiplicado por 4.",
+          "valor": "36",
+          "erro_comum": "Altera o módulo, que deveria ser conservado."
+        },
+        {
+          "letra": "C",
+          "texto": "−9, porque quatro inversões formam dois pares que restauram o sinal inicial.",
+          "valor": "-9",
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "+9, porque qualquer inversão deixa o resultado positivo.",
+          "valor": "9",
+          "erro_comum": "Ignora a paridade da quantidade de inversões."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Cada par de inversões tem fator (−1) × (−1) = +1. Como são quatro comandos, o fator total é (−1)⁴ = 1. O registro final é (−9) × 1 = −9; o módulo continua sendo 9.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/operacoes-e-expressoes-com-numeros.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Quatro inversões de sinal"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "OI",
+        "nivel": "facil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-OI-04"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-OI-05",
+      "numero": 5,
+      "titulo": "Quantos acionamentos da plataforma?",
+      "assunto": "OI",
+      "assunto_nome": "Operações com números inteiros",
+      "subtema": "multiplicacao_divisao",
+      "habilidade": "Interpretar a divisão de dois números negativos como quantidade positiva de ocorrências.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "No projeto de uma plataforma móvel da escola, cada acionamento provoca um deslocamento de −3 cm, indicando uma descida.\n\nDurante um teste, a plataforma apresentou deslocamento total de −24 cm. Todos os acionamentos foram iguais e não houve movimentos de subida.\n\nQuantos acionamentos foram realizados?",
+      "dados": {
+        "total": -24,
+        "por_ocorrencia": -3
+      },
+      "modelo_verificacao": "total//por_ocorrencia",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "72 acionamentos.",
+          "valor": "72",
+          "erro_comum": "Multiplica os módulos, em vez de recuperar a quantidade de acionamentos."
+        },
+        {
+          "letra": "B",
+          "texto": "8 acionamentos.",
+          "valor": "8",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "−8 acionamentos.",
+          "valor": "-8",
+          "erro_comum": "Atribui sinal negativo à contagem por causa do sentido do deslocamento."
+        },
+        {
+          "letra": "D",
+          "texto": "21 acionamentos.",
+          "valor": "21",
+          "erro_comum": "Subtrai os módulos 24 e 3."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Cada acionamento corresponde a −3 cm. Para descobrir quantos produziram −24 cm, calculamos (−24) ÷ (−3) = 8. A conferência é 8 × (−3) = −24. O resultado positivo é coerente com uma contagem de acionamentos.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/operacoes-e-expressoes-com-numeros.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Quantos acionamentos da plataforma?"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de OI-01, OI-05, OI-09, OI-10, OI-12, OI-15, OI-17, OI-18 e OI-20; OI-20 mostra apenas o primeiro comando em reta graduada, distinguindo coordenada e deslocamento.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "OI",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-OI-05"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 255\" role=\"img\" aria-label=\"Uma plataforma e uma seta para baixo: cada acionamento corresponde a −3 cm. Deslocamento total registrado: −24 cm. A quantidade de acionamentos não está desenhada.\"><title>Teste da plataforma</title><desc>Uma plataforma e uma seta para baixo: cada acionamento corresponde a −3 cm. Deslocamento total registrado: −24 cm. A quantidade de acionamentos não está desenhada.</desc><rect width=\"320\" height=\"255\" fill=\"#fff\"/><text x=\"12\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Teste da plataforma</text><rect x=\"115\" y=\"55\" width=\"90\" height=\"30\" fill=\"#eef6f5\" stroke=\"#173746\"/><line x1=\"160\" x2=\"160\" y1=\"95\" y2=\"145\" stroke=\"#086a68\" stroke-width=\"3\"/><path d=\"M153 137 L160 149 L167 137\" fill=\"#086a68\"/><text x=\"12\" y=\"190\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Por acionamento: −3 cm</text><text x=\"12\" y=\"225\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Deslocamento total: −24 cm</text></svg>",
+          "acessibilidade": "Uma plataforma e uma seta para baixo: cada acionamento corresponde a −3 cm. Deslocamento total registrado: −24 cm. A quantidade de acionamentos não está desenhada.",
+          "geometria": {
+            "tipo": "plataforma_oi",
+            "por_ocorrencia": -3,
+            "total": -24
+          },
+          "id": "MFC7-B1-I-OI-05-visual",
+          "arquivo": "recursos/OI-05.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-OI-06",
+      "numero": 6,
+      "titulo": "Corrigir um lançamento",
+      "assunto": "OI",
+      "assunto_nome": "Operações com números inteiros",
+      "subtema": "adicao_subtracao",
+      "habilidade": "Calcular a diferença necessária para substituir um registro.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "Um lançamento isolado deveria acrescentar 4 créditos, mas foi registrado como −9. O sistema permite corrigir por um único acréscimo, sem apagar a linha antiga. Qual acréscimo transforma o efeito de −9 no efeito desejado de +4?",
+      "dados": {
+        "registrado": -9,
+        "desejado": 4
+      },
+      "modelo_verificacao": "desejado-registrado",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "+13 créditos.",
+          "valor": "13",
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "+5 créditos.",
+          "valor": "5",
+          "erro_comum": "Subtrai os módulos em vez de calcular a diferença entre os estados."
+        },
+        {
+          "letra": "C",
+          "texto": "−13 créditos.",
+          "valor": "-13",
+          "erro_comum": "Aplica a correção na direção contrária."
+        },
+        {
+          "letra": "D",
+          "texto": "+4 créditos.",
+          "valor": "4",
+          "erro_comum": "Acrescenta o valor desejado sem desfazer o erro já lançado."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Precisamos de um acréscimo x tal que −9 + x = 4. Logo, x = 4 − (−9) = 13. Conferindo: −9 + 13 = 4. Acrescentar apenas 4 deixaria o efeito final em −5.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/operacoes-e-expressoes-com-numeros.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Corrigir um lançamento"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "OI",
+        "nivel": "facil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-OI-06"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-OI-07",
+      "numero": 7,
+      "titulo": "O ajuste é individual",
+      "assunto": "OI",
+      "assunto_nome": "Operações com números inteiros",
+      "subtema": "expressoes",
+      "habilidade": "Distinguir repartição de um total e alteração aplicada a cada participante.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "A perda coletiva do quadro será repartida igualmente entre os quatro participantes. Depois da repartição, cada participante receberá uma penalidade adicional de 2 pontos. Qual será a alteração total na pontuação de cada participante?",
+      "dados": {
+        "total": -28,
+        "participantes": 4,
+        "individual": -2
+      },
+      "modelo_verificacao": "frac(total,participantes)+individual",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "−7 pontos.",
+          "valor": "-7",
+          "erro_comum": "Considera somente a repartição da perda coletiva."
+        },
+        {
+          "letra": "B",
+          "texto": "−30 pontos.",
+          "valor": "-30",
+          "erro_comum": "Mantém o total coletivo como se fosse a parcela individual."
+        },
+        {
+          "letra": "C",
+          "texto": "−14 pontos.",
+          "valor": "-14",
+          "erro_comum": "Retira 2 do divisor, em vez de aplicar a penalidade após a divisão."
+        },
+        {
+          "letra": "D",
+          "texto": "−9 pontos.",
+          "valor": "-9",
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Cada participante recebe (−28) ÷ 4 = −7 pontos da perda coletiva. A penalidade adicional é individual, portanto −7 + (−2) = −9 pontos. A expressão adequada é (−28) ÷ 4 − 2.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/operacoes-e-expressoes-com-numeros.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "O ajuste é individual"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "OI",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-OI-07"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 346\" role=\"img\" aria-label=\"Perda coletiva: −28 pontos; Participantes: 4; Depois da divisão: −2 para cada pessoa\"><title>Repartição e ajuste</title><desc>Perda coletiva: −28 pontos; Participantes: 4; Depois da divisão: −2 para cada pessoa</desc><rect width=\"320\" height=\"346\" fill=\"#fff\"/><text x=\"12\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Repartição e ajuste</text><rect x=\"10\" y=\"64\" width=\"145\" height=\"112\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"20\" y=\"89\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Perda</text><text x=\"20\" y=\"113\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">coletiva</text><text x=\"20\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">−28 pontos</text><rect x=\"165\" y=\"64\" width=\"145\" height=\"112\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"175\" y=\"89\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Participantes</text><text x=\"175\" y=\"123\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">4</text><rect x=\"10\" y=\"188\" width=\"145\" height=\"136\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"20\" y=\"213\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Depois da</text><text x=\"20\" y=\"237\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">divisão</text><text x=\"20\" y=\"269\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">−2 para cada</text><text x=\"20\" y=\"293\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">pessoa</text></svg>",
+          "acessibilidade": "Perda coletiva: −28 pontos; Participantes: 4; Depois da divisão: −2 para cada pessoa",
+          "geometria": {
+            "tipo": "cartoes",
+            "items": [
+              {
+                "nome": "Perda coletiva",
+                "valor": "−28 pontos"
+              },
+              {
+                "nome": "Participantes",
+                "valor": "4"
+              },
+              {
+                "nome": "Depois da divisão",
+                "valor": "−2 para cada pessoa"
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-OI-07-visual",
+          "arquivo": "recursos/OI-07.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-OI-08",
+      "numero": 8,
+      "titulo": "Reconstruindo a leitura inicial",
+      "assunto": "OI",
+      "assunto_nome": "Operações com números inteiros",
+      "subtema": "adicao_subtracao",
+      "habilidade": "Desfazer variações sucessivas para determinar um estado anterior.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "O registro inicial de um sensor foi perdido, mas as três variações e a leitura final foram preservadas no esquema. Qual era a leitura inicial?",
+      "dados": {
+        "variacoes": [
+          5,
+          -12,
+          4
+        ],
+        "final": -6
+      },
+      "modelo_verificacao": "final-sum(variacoes)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "+3.",
+          "valor": "3",
+          "erro_comum": "Troca o sinal do estado inicial obtido."
+        },
+        {
+          "letra": "B",
+          "texto": "−6.",
+          "valor": "-6",
+          "erro_comum": "Confunde a leitura final com a inicial."
+        },
+        {
+          "letra": "C",
+          "texto": "−3.",
+          "valor": "-3",
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "−9.",
+          "valor": "-9",
+          "erro_comum": "Aplica de novo a variação total em vez de desfazê-la."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "As variações somam 5 − 12 + 4 = −3. Assim, a leitura final é a inicial menos 3. Para chegar ao final −6, a inicial era −6 − (−3) = −3. Conferindo: −3 + 5 − 12 + 4 = −6.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/operacoes-e-expressoes-com-numeros.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Reconstruindo a leitura inicial"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "OI",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-OI-08"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 415\" role=\"img\" aria-label=\"Histórico preservado. Primeira variação: +5; depois, Segunda variação: −12; depois, Terceira variação: +4; depois, Leitura final: −6\"><title>Histórico preservado</title><desc>Histórico preservado. Primeira variação: +5; depois, Segunda variação: −12; depois, Terceira variação: +4; depois, Leitura final: −6</desc><rect width=\"320\" height=\"415\" fill=\"#fff\"/><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Histórico preservado</text><rect x=\"20\" y=\"55\" width=\"280\" height=\"67\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"32\" y=\"80\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Primeira variação</text><text x=\"32\" y=\"106\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">+5</text><path d=\"M160 122 v20 m-5 -5 l5 5 l5 -5\" fill=\"none\" stroke=\"#173746\"/><rect x=\"20\" y=\"145\" width=\"280\" height=\"67\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"32\" y=\"170\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Segunda variação</text><text x=\"32\" y=\"196\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">−12</text><path d=\"M160 212 v20 m-5 -5 l5 5 l5 -5\" fill=\"none\" stroke=\"#173746\"/><rect x=\"20\" y=\"235\" width=\"280\" height=\"67\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"32\" y=\"260\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Terceira variação</text><text x=\"32\" y=\"286\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">+4</text><path d=\"M160 302 v20 m-5 -5 l5 5 l5 -5\" fill=\"none\" stroke=\"#173746\"/><rect x=\"20\" y=\"325\" width=\"280\" height=\"67\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"32\" y=\"350\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Leitura final</text><text x=\"32\" y=\"376\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">−6</text></svg>",
+          "acessibilidade": "Histórico preservado. Primeira variação: +5; depois, Segunda variação: −12; depois, Terceira variação: +4; depois, Leitura final: −6",
+          "geometria": {
+            "tipo": "etapas",
+            "items": [
+              [
+                "Primeira variação",
+                "+5"
+              ],
+              [
+                "Segunda variação",
+                "−12"
+              ],
+              [
+                "Terceira variação",
+                "+4"
+              ],
+              [
+                "Leitura final",
+                "−6"
+              ]
+            ]
+          },
+          "id": "MFC7-B1-I-OI-08-visual",
+          "arquivo": "recursos/OI-08.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-OI-09",
+      "numero": 9,
+      "titulo": "Recuperar a entrada de um programa",
+      "assunto": "OI",
+      "assunto_nome": "Operações com números inteiros",
+      "subtema": "multiplicacao_divisao",
+      "habilidade": "Reconhecer a divisão como operação inversa de uma multiplicação por inteiro negativo.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "No clube de programação da escola, um programa transforma um número inteiro de entrada multiplicando-o por −3.\n\nEm um teste, a saída foi −27. Para descobrir a entrada usada, uma estudante propôs multiplicar novamente a saída por −3.\n\nQual entrada realmente reproduz esse teste?",
+      "dados": {
+        "saida": -27,
+        "fator": -3
+      },
+      "modelo_verificacao": "saida//fator",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "−81.",
+          "valor": "-81",
+          "erro_comum": "Multiplica os módulos e mantém indevidamente o sinal da saída."
+        },
+        {
+          "letra": "B",
+          "texto": "+9.",
+          "valor": "9",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "−9.",
+          "valor": "-9",
+          "erro_comum": "Divide os módulos, mas erra a regra dos sinais."
+        },
+        {
+          "letra": "D",
+          "texto": "+81.",
+          "valor": "81",
+          "erro_comum": "Repete a multiplicação em vez de usar a operação inversa."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Precisamos encontrar o número que, multiplicado por −3, produz −27. Desfazemos a multiplicação por meio da divisão: (−27) ÷ (−3) = 9. Conferindo: 9 × (−3) = −27. Multiplicar novamente a saída aplica outra transformação, em vez de recuperar a entrada.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/operacoes-e-expressoes-com-numeros.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Recuperar a entrada de um programa"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de OI-01, OI-05, OI-09, OI-10, OI-12, OI-15, OI-17, OI-18 e OI-20; OI-20 mostra apenas o primeiro comando em reta graduada, distinguindo coordenada e deslocamento.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "OI",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-OI-09"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-OI-10",
+      "numero": 10,
+      "titulo": "O quadrado e o seu oposto",
+      "assunto": "OI",
+      "assunto_nome": "Operações com números inteiros",
+      "subtema": "potencias_raizes",
+      "habilidade": "Interpretar corretamente a base de uma potência e o sinal exterior à expressão.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Em um jogo de percurso, resultados positivos indicam avançar casas e resultados negativos indicam recuar.\n\nDois cartões apresentam as seguintes instruções:\nCartão A: executar o deslocamento indicado por −[(−3)²].\nCartão B: executar o deslocamento indicado por (−3)².\n\nQual alternativa apresenta os deslocamentos dos cartões A e B, nessa ordem?",
+      "dados": {
+        "base": -3
+      },
+      "modelo_verificacao": "[-(base**2),base**2]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A: −9 casas; B: +9 casas.",
+          "valor": [
+            "-9",
+            "9"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "A: +9 casas; B: +9 casas.",
+          "valor": [
+            "9",
+            "9"
+          ],
+          "erro_comum": "Ignora o sinal exterior do cartão A."
+        },
+        {
+          "letra": "C",
+          "texto": "A: −9 casas; B: −9 casas.",
+          "valor": [
+            "-9",
+            "-9"
+          ],
+          "erro_comum": "Considera negativo o quadrado de uma base negativa."
+        },
+        {
+          "letra": "D",
+          "texto": "A: +9 casas; B: −9 casas.",
+          "valor": [
+            "9",
+            "-9"
+          ],
+          "erro_comum": "Troca os resultados das duas instruções."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Nos dois cartões, a base da potência é −3: (−3)² = (−3) × (−3) = 9. No cartão A, existe ainda um sinal negativo fora da potência: −[(−3)²] = −[9] = −9. Assim, A determina recuar nove casas; B determina avançar nove casas.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/operacoes-e-expressoes-com-numeros.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "O quadrado e o seu oposto"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de OI-01, OI-05, OI-09, OI-10, OI-12, OI-15, OI-17, OI-18 e OI-20; OI-20 mostra apenas o primeiro comando em reta graduada, distinguindo coordenada e deslocamento.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "OI",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-OI-10"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 275\" role=\"img\" aria-label=\"Dois cartões: A indica o oposto do quadrado de menos três, −[(−3)²]; B indica o quadrado de menos três, (−3)². Positivo significa avançar, negativo significa recuar.\"><title>Cartões do percurso</title><desc>Dois cartões: A indica o oposto do quadrado de menos três, −[(−3)²]; B indica o quadrado de menos três, (−3)². Positivo significa avançar, negativo significa recuar.</desc><rect width=\"320\" height=\"275\" fill=\"#fff\"/><text x=\"12\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Cartões do percurso</text><rect x=\"10\" y=\"60\" width=\"145\" height=\"120\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#173746\"/><text x=\"82\" y=\"95\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">Cartão A</text><text x=\"82\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"23\" text-anchor=\"middle\" fill=\"#173746\">−[(−3)²]</text><rect x=\"165\" y=\"60\" width=\"145\" height=\"120\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#173746\"/><text x=\"237\" y=\"95\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">Cartão B</text><text x=\"237\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"23\" text-anchor=\"middle\" fill=\"#173746\">(−3)²</text><text x=\"12\" y=\"220\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Positivo: avançar casas</text><text x=\"12\" y=\"250\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Negativo: recuar casas</text></svg>",
+          "acessibilidade": "Dois cartões: A indica o oposto do quadrado de menos três, −[(−3)²]; B indica o quadrado de menos três, (−3)². Positivo significa avançar, negativo significa recuar.",
+          "geometria": {
+            "tipo": "cartoes_potencias_oi",
+            "base": -3,
+            "expressoes": [
+              "−[(−3)²]",
+              "(−3)²"
+            ]
+          },
+          "id": "MFC7-B1-I-OI-10-visual",
+          "arquivo": "recursos/OI-10.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-OI-11",
+      "numero": 11,
+      "titulo": "Compensar antes de multiplicar",
+      "assunto": "OI",
+      "assunto_nome": "Operações com números inteiros",
+      "subtema": "expressoes",
+      "habilidade": "Aplicar agrupamento e distributividade em alterações repetidas.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Em um jogo, a reserva de energia começa com 17 unidades e pode ficar negativa, indicando energia a repor. Durante nove ciclos, cada ciclo consome 4 unidades e recupera 2. Para conferir o saldo, a equipe quer considerar o efeito líquido de cada ciclo antes de multiplicar. Qual saldo final será obtido?",
+      "dados": {
+        "inicial": 17,
+        "ciclos": 9,
+        "consumo": -4,
+        "recuperacao": 2
+      },
+      "modelo_verificacao": "inicial+ciclos*(consumo+recuperacao)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "−37 unidades.",
+          "valor": "-37",
+          "erro_comum": "Soma as perdas e recuperações como se ambas fossem perdas."
+        },
+        {
+          "letra": "B",
+          "texto": "+35 unidades.",
+          "valor": "35",
+          "erro_comum": "Inverte o sinal do efeito líquido negativo."
+        },
+        {
+          "letra": "C",
+          "texto": "−18 unidades.",
+          "valor": "-18",
+          "erro_comum": "Calcula a alteração dos ciclos, mas não considera a reserva inicial."
+        },
+        {
+          "letra": "D",
+          "texto": "−1 unidade.",
+          "valor": "-1",
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "O efeito de cada ciclo é −4 + 2 = −2. Em nove ciclos, a alteração é 9 × (−2) = −18. O saldo final é 17 − 18 = −1. Também é possível conferir por 17 + 9 × (−4) + 9 × 2 = −1.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/operacoes-e-expressoes-com-numeros.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Compensar antes de multiplicar"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "OI",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-OI-11"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-OI-12",
+      "numero": 12,
+      "titulo": "Desfazer duas etapas",
+      "assunto": "OI",
+      "assunto_nome": "Operações com números inteiros",
+      "subtema": "multiplicacao_divisao",
+      "habilidade": "Recuperar entradas desfazendo operações em ordem inversa.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Um dispositivo usado na oficina de programação transforma cada entrada em duas etapas:\n1. multiplica o número por −2;\n2. subtrai 6 do resultado.\n\nEm dois testes independentes, a saída A foi −18 e a saída B foi +2.\n\nQuais entradas produziram essas saídas, respectivamente?",
+      "dados": {
+        "fator": -2,
+        "ajuste": -6,
+        "saida_a": -18,
+        "saida_b": 2
+      },
+      "modelo_verificacao": "[(saida_a-ajuste)//fator,(saida_b-ajuste)//fator]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Entrada A: +9; entrada B: −1.",
+          "valor": [
+            "9",
+            "-1"
+          ],
+          "erro_comum": "Divide diretamente as saídas por −2, ignorando a segunda etapa."
+        },
+        {
+          "letra": "B",
+          "texto": "Entrada A: +15; entrada B: +5.",
+          "valor": [
+            "15",
+            "5"
+          ],
+          "erro_comum": "Desfaz as operações na ordem errada: divide primeiro e soma 6 depois."
+        },
+        {
+          "letra": "C",
+          "texto": "Entrada A: +6; entrada B: −4.",
+          "valor": [
+            "6",
+            "-4"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Entrada A: −6; entrada B: +4.",
+          "valor": [
+            "-6",
+            "4"
+          ],
+          "erro_comum": "Soma 6 corretamente, mas divide por +2."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Para recuperar cada entrada, primeiro desfazemos a subtração de 6, somando 6. Depois, desfazemos a multiplicação por −2, dividindo por −2. Para A: [−18 + 6] ÷ (−2) = (−12) ÷ (−2) = 6. Para B: [2 + 6] ÷ (−2) = 8 ÷ (−2) = −4. Conferindo: 6 × (−2) − 6 = −18 e (−4) × (−2) − 6 = 2.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/operacoes-e-expressoes-com-numeros.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Desfazer duas etapas"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de OI-01, OI-05, OI-09, OI-10, OI-12, OI-15, OI-17, OI-18 e OI-20; OI-20 mostra apenas o primeiro comando em reta graduada, distinguindo coordenada e deslocamento.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "OI",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-OI-12"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 410\" role=\"img\" aria-label=\"Regra: multiplicar a entrada por −2 e depois subtrair 6. Em dois testes independentes, a saída A é −18 e a saída B é +2. As entradas não são fornecidas.\"><title>Regra em duas etapas</title><desc>Regra: multiplicar a entrada por −2 e depois subtrair 6. Em dois testes independentes, a saída A é −18 e a saída B é +2. As entradas não são fornecidas.</desc><rect width=\"320\" height=\"410\" fill=\"#fff\"/><text x=\"12\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Regra e saídas observadas</text><text x=\"160\" y=\"64\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">Entrada desconhecida</text><rect x=\"50\" y=\"90\" width=\"220\" height=\"60\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"160\" y=\"126\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">Multiplicar por −2</text><rect x=\"50\" y=\"180\" width=\"220\" height=\"60\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"160\" y=\"216\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">Subtrair 6</text><path d=\"M160 150 v24 m-5 -5 l5 5 l5 -5\" fill=\"none\" stroke=\"#173746\"/><text x=\"160\" y=\"278\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">Testes independentes</text><rect x=\"10\" y=\"300\" width=\"145\" height=\"85\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"82\" y=\"328\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">Saída A</text><text x=\"82\" y=\"365\" font-family=\"Arial, sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#173746\">−18</text><rect x=\"165\" y=\"300\" width=\"145\" height=\"85\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"237\" y=\"328\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">Saída B</text><text x=\"237\" y=\"365\" font-family=\"Arial, sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#173746\">+2</text></svg>",
+          "acessibilidade": "Regra: multiplicar a entrada por −2 e depois subtrair 6. Em dois testes independentes, a saída A é −18 e a saída B é +2. As entradas não são fornecidas.",
+          "geometria": {
+            "tipo": "fluxo_entradas_oi",
+            "fator": -2,
+            "ajuste": -6,
+            "saida_a": -18,
+            "saida_b": 2
+          },
+          "id": "MFC7-B1-I-OI-12-visual",
+          "arquivo": "recursos/OI-12.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-OI-13",
+      "numero": 13,
+      "titulo": "Movimento com alteração final zero",
+      "assunto": "OI",
+      "assunto_nome": "Operações com números inteiros",
+      "subtema": "adicao_subtracao",
+      "habilidade": "Distinguir soma dos deslocamentos e comprimento percorrido.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Um veículo de teste parte do posto zero e executa os deslocamentos +9 m, −13 m e +4 m, nessa ordem. O relatório registra 26 m percorridos. Qual é a alteração final da posição, e o que isso informa?",
+      "dados": {
+        "movimentos": [
+          9,
+          -13,
+          4
+        ]
+      },
+      "modelo_verificacao": "sum(movimentos)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "+13 m; basta somar os dois trechos positivos.",
+          "valor": "13",
+          "erro_comum": "Desconsidera o deslocamento negativo."
+        },
+        {
+          "letra": "B",
+          "texto": "0 m; o veículo retorna ao posto, embora tenha percorrido 26 m.",
+          "valor": "0",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "+26 m; o percurso total é também a alteração da posição.",
+          "valor": "26",
+          "erro_comum": "Soma os módulos e usa o resultado como deslocamento."
+        },
+        {
+          "letra": "D",
+          "texto": "−26 m; todo trecho negativo torna o percurso final negativo.",
+          "valor": "-26",
+          "erro_comum": "Aplica um único sinal ao total percorrido."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "A alteração final é 9 − 13 + 4 = 0 m, portanto o veículo retorna ao posto. O comprimento do percurso é diferente: |9| + |−13| + |4| = 9 + 13 + 4 = 26 m. Voltar ao início não significa ter ficado parado.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/operacoes-e-expressoes-com-numeros.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Movimento com alteração final zero"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "OI",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-OI-13"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-OI-14",
+      "numero": 14,
+      "titulo": "Comparar ciclos sem repetir contas",
+      "assunto": "OI",
+      "assunto_nome": "Operações com números inteiros",
+      "subtema": "expressoes",
+      "habilidade": "Comparar expressões usando fatores comuns.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Cada ciclo dos dois planos tem perda de 7 unidades e recuperação de 5. O quadro mostra quantos ciclos cada plano executará, partindo da mesma reserva inicial. Qual é a diferença “saldo final de P menos saldo final de Q”?",
+      "dados": {
+        "ciclos_p": 12,
+        "ciclos_q": 10,
+        "perda": -7,
+        "ganho": 5
+      },
+      "modelo_verificacao": "(ciclos_p-ciclos_q)*(perda+ganho)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "−4 unidades.",
+          "valor": "-4",
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "+4 unidades.",
+          "valor": "4",
+          "erro_comum": "Inverte a ordem da diferença ou o sinal do efeito líquido."
+        },
+        {
+          "letra": "C",
+          "texto": "−14 unidades.",
+          "valor": "-14",
+          "erro_comum": "Conta as perdas dos ciclos extras, mas não suas recuperações."
+        },
+        {
+          "letra": "D",
+          "texto": "+10 unidades.",
+          "valor": "10",
+          "erro_comum": "Conta somente as recuperações dos ciclos extras."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Cada ciclo altera o saldo em −7 + 5 = −2 unidades. P executa dois ciclos a mais, então sua alteração adicional é 2 × (−2) = −4. A reserva inicial é igual e se cancela na comparação. Conferência: P varia −24 e Q varia −20; −24 − (−20) = −4.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/operacoes-e-expressoes-com-numeros.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Comparar ciclos sem repetir contas"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "OI",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-OI-14"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela_html",
+          "html": "<table class=\"mfc-tabela-responsiva\" role=\"table\"><caption>Planos de funcionamento</caption><thead role=\"rowgroup\"><tr role=\"row\"><th role=\"columnheader\" scope=\"col\">Plano</th><th role=\"columnheader\" scope=\"col\">Ciclos</th><th role=\"columnheader\" scope=\"col\">Perda/ciclo</th><th role=\"columnheader\" scope=\"col\">Recuperação/ciclo</th></tr></thead><tbody role=\"rowgroup\"><tr role=\"row\"><th role=\"rowheader\" scope=\"row\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Plano\"></span><span>P</span></th><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Ciclos\"></span><span>12</span></td><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Perda/ciclo\"></span><span>−7</span></td><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Recuperação/ciclo\"></span><span>+5</span></td></tr><tr role=\"row\"><th role=\"rowheader\" scope=\"row\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Plano\"></span><span>Q</span></th><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Ciclos\"></span><span>10</span></td><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Perda/ciclo\"></span><span>−7</span></td><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Recuperação/ciclo\"></span><span>+5</span></td></tr></tbody></table>",
+          "acessibilidade": "Planos de funcionamento. Plano: P, Ciclos: 12, Perda/ciclo: −7, Recuperação/ciclo: +5; Plano: Q, Ciclos: 10, Perda/ciclo: −7, Recuperação/ciclo: +5",
+          "geometria": {
+            "tipo": "tabela",
+            "cabecalhos": [
+              "Plano",
+              "Ciclos",
+              "Perda/ciclo",
+              "Recuperação/ciclo"
+            ],
+            "linhas": [
+              [
+                "P",
+                12,
+                "−7",
+                "+5"
+              ],
+              [
+                "Q",
+                10,
+                "−7",
+                "+5"
+              ]
+            ]
+          },
+          "id": "MFC7-B1-I-OI-14-visual",
+          "arquivo": "recursos/OI-14.html",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-OI-15",
+      "numero": 15,
+      "titulo": "A temperatura final não conta toda a história",
+      "assunto": "OI",
+      "assunto_nome": "Operações com números inteiros",
+      "subtema": "potencias_raizes",
+      "habilidade": "Comparar sequências de operações com inteiros, considerando estados intermediários.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "Em uma simulação do laboratório escolar, uma câmara começa a −4 °C. Cada etapa de resfriamento diminui a temperatura em 3 °C, e cada etapa de aquecimento aumenta a temperatura em 3 °C.\n\nA equipe compara dois planos:\nPlano P: realizar 2² resfriamentos consecutivos e, depois, 2² aquecimentos consecutivos.\nPlano Q: repetir 2² vezes o par “um resfriamento seguido de um aquecimento”.\n\nPara proteger o material, a temperatura não pode ficar abaixo de −10 °C em nenhuma etapa.\n\nQual relatório identifica corretamente o plano permitido e as menores temperaturas atingidas?",
+      "dados": {
+        "inicial": -4,
+        "base": 2,
+        "expoente": 2,
+        "resfriamento": -3,
+        "aquecimento": 3,
+        "limite": -10,
+        "nomes": [
+          "P",
+          "Q"
+        ]
+      },
+      "modelo_verificacao": "[em_intervalo(nomes,[inicial+(base**expoente)*resfriamento,inicial+resfriamento],limite,inicial),inicial+(base**expoente)*resfriamento,inicial+resfriamento]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ambos são permitidos; a menor temperatura é −4 °C nos dois planos.",
+          "valor": [
+            [
+              "P",
+              "Q"
+            ],
+            "-4",
+            "-4"
+          ],
+          "erro_comum": "Considera apenas a temperatura final e ignora os estados intermediários."
+        },
+        {
+          "letra": "B",
+          "texto": "Nenhum é permitido; a menor temperatura é −16 °C nos dois planos.",
+          "valor": [
+            [],
+            "-16",
+            "-16"
+          ],
+          "erro_comum": "Acumula os resfriamentos de Q sem considerar os aquecimentos intercalados."
+        },
+        {
+          "letra": "C",
+          "texto": "Somente P é permitido; as menores temperaturas são −7 °C em P e −16 °C em Q.",
+          "valor": [
+            [
+              "P"
+            ],
+            "-7",
+            "-16"
+          ],
+          "erro_comum": "Troca os comportamentos dos dois planos."
+        },
+        {
+          "letra": "D",
+          "texto": "Somente Q é permitido; as menores temperaturas são −16 °C em P e −7 °C em Q.",
+          "valor": [
+            [
+              "Q"
+            ],
+            "-16",
+            "-7"
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Como 2² = 4, P começa com quatro resfriamentos: −4 + 4 × (−3) = −16 °C. Portanto, ultrapassa o limite antes dos aquecimentos. Em Q, cada par leva a temperatura de −4 °C para −7 °C e depois de volta a −4 °C. A menor temperatura é −7 °C, respeitando o limite. Os dois planos terminam a −4 °C, mas somente Q respeita a condição durante todo o processo.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/operacoes-e-expressoes-com-numeros.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "A temperatura final não conta toda a história"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de OI-01, OI-05, OI-09, OI-10, OI-12, OI-15, OI-17, OI-18 e OI-20; OI-20 mostra apenas o primeiro comando em reta graduada, distinguindo coordenada e deslocamento.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "OI",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-OI-15"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 475\" role=\"img\" aria-label=\"Inicial −4 °C, limite mínimo −10 °C. Plano P: 2² resfriamentos de −3 °C, depois 2² aquecimentos de +3 °C. Plano Q: repetir 2² vezes o par resfriar −3 °C e aquecer +3 °C. Não são fornecidas temperaturas intermediárias.\"><title>Planos de temperatura</title><desc>Inicial −4 °C, limite mínimo −10 °C. Plano P: 2² resfriamentos de −3 °C, depois 2² aquecimentos de +3 °C. Plano Q: repetir 2² vezes o par resfriar −3 °C e aquecer +3 °C. Não são fornecidas temperaturas intermediárias.</desc><rect width=\"320\" height=\"475\" fill=\"#fff\"/><text x=\"12\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Planos de temperatura</text><text x=\"12\" y=\"60\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Início: −4 °C; limite: −10 °C</text><rect x=\"12\" y=\"95\" width=\"296\" height=\"165\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"25\" y=\"123\" font-family=\"Arial, sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#173746\">Plano P</text><rect x=\"12\" y=\"285\" width=\"296\" height=\"165\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"25\" y=\"313\" font-family=\"Arial, sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#173746\">Plano Q</text><text x=\"25\" y=\"155\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">2² resfriamentos de −3 °C</text><text x=\"25\" y=\"190\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">depois</text><text x=\"25\" y=\"225\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">2² aquecimentos de +3 °C</text><text x=\"25\" y=\"345\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Repetir 2² vezes o par:</text><text x=\"25\" y=\"385\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">resfriar −3 °C</text><text x=\"25\" y=\"420\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">depois aquecer +3 °C</text></svg>",
+          "acessibilidade": "Inicial −4 °C, limite mínimo −10 °C. Plano P: 2² resfriamentos de −3 °C, depois 2² aquecimentos de +3 °C. Plano Q: repetir 2² vezes o par resfriar −3 °C e aquecer +3 °C. Não são fornecidas temperaturas intermediárias.",
+          "geometria": {
+            "tipo": "planos_termicos_oi",
+            "inicial": -4,
+            "base": 2,
+            "expoente": 2,
+            "resfriamento": -3,
+            "aquecimento": 3,
+            "limite": -10
+          },
+          "id": "MFC7-B1-I-OI-15-visual",
+          "arquivo": "recursos/OI-15.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-OI-16",
+      "numero": 16,
+      "titulo": "A ordem altera o resultado",
+      "assunto": "OI",
+      "assunto_nome": "Operações com números inteiros",
+      "subtema": "expressoes",
+      "habilidade": "Comparar duas composições de operações com uma entrada negativa.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "Dois planos atuam sobre uma pontuação inicial de −4. As regras estão no esquema, e cada plano começa novamente da pontuação inicial. Qual par corresponde aos resultados de P e Q, nessa ordem?",
+      "dados": {
+        "inicial": -4,
+        "retirada": 9
+      },
+      "modelo_verificacao": "[2*inicial-retirada,2*(inicial-retirada)]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "P: −1; Q: −10.",
+          "valor": [
+            "-1",
+            "-10"
+          ],
+          "erro_comum": "Usa +4 no lugar da pontuação inicial −4."
+        },
+        {
+          "letra": "B",
+          "texto": "P: −17; Q: −17.",
+          "valor": [
+            "-17",
+            "-17"
+          ],
+          "erro_comum": "Supõe que trocar a ordem entre dobrar e retirar não muda o resultado."
+        },
+        {
+          "letra": "C",
+          "texto": "P: −17; Q: −26.",
+          "valor": [
+            "-17",
+            "-26"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "P: −26; Q: −17.",
+          "valor": [
+            "-26",
+            "-17"
+          ],
+          "erro_comum": "Troca a ordem das regras entre os planos."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Em P, primeiro se dobra −4, obtendo −8, e depois se retira 9: −8 − 9 = −17. Em Q, primeiro se retira 9, obtendo −13, e depois se dobra: 2 × (−13) = −26. As expressões são 2 × (−4) − 9 e 2 × (−4 − 9).",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/operacoes-e-expressoes-com-numeros.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "A ordem altera o resultado"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "OI",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-OI-16"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 525\" role=\"img\" aria-label=\"Dois planos independentes partem de menos 4. Plano P: primeiro dobrar; depois retirar 9. Plano Q: primeiro retirar 9; depois dobrar. Há uma seta dentro de cada plano, sem ligação entre os planos. Os resultados não estão indicados.\"><title>Planos independentes</title><desc>Dois planos independentes partem de menos 4. Plano P: primeiro dobrar; depois retirar 9. Plano Q: primeiro retirar 9; depois dobrar. Há uma seta dentro de cada plano, sem ligação entre os planos. Os resultados não estão indicados.</desc><rect width=\"320\" height=\"525\" fill=\"#fff\"/><text x=\"12\" y=\"26\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Planos independentes</text><rect x=\"12\" y=\"52\" width=\"296\" height=\"198\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"26\" y=\"79\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Plano P: início em −4</text><text x=\"26\" y=\"117\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">1. Dobrar</text><path data-plano=\"P\" d=\"M160 131 v30 m-5 -5 l5 5 l5 -5\" fill=\"none\" stroke=\"#173746\"/><text x=\"26\" y=\"195\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">2. Retirar 9</text><rect x=\"12\" y=\"272\" width=\"296\" height=\"198\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"26\" y=\"299\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Plano Q: início em −4</text><text x=\"26\" y=\"337\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">1. Retirar 9</text><path data-plano=\"Q\" d=\"M160 351 v30 m-5 -5 l5 5 l5 -5\" fill=\"none\" stroke=\"#173746\"/><text x=\"26\" y=\"415\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">2. Dobrar</text><text x=\"12\" y=\"503\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Cada plano recomeça em −4.</text></svg>",
+          "acessibilidade": "Dois planos independentes partem de menos 4. Plano P: primeiro dobrar; depois retirar 9. Plano Q: primeiro retirar 9; depois dobrar. Há uma seta dentro de cada plano, sem ligação entre os planos. Os resultados não estão indicados.",
+          "geometria": {
+            "tipo": "planos_independentes",
+            "inicial": -4,
+            "planos": {
+              "P": [
+                "dobrar",
+                "retirar 9"
+              ],
+              "Q": [
+                "retirar 9",
+                "dobrar"
+              ]
+            }
+          },
+          "id": "MFC7-B1-I-OI-16-visual",
+          "arquivo": "recursos/OI-16.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-OI-17",
+      "numero": 17,
+      "titulo": "Corrigir o balanço da feira escolar",
+      "assunto": "OI",
+      "assunto_nome": "Operações com números inteiros",
+      "subtema": "adicao_subtracao",
+      "habilidade": "Corrigir um efeito já incluído e determinar uma compensação posterior.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "O balanço da feira escolar apresenta resultado de −23 reais, calculado como receitas menos despesas.\n\nEsse resultado já inclui uma despesa registrada como −17 reais. Ao conferir o comprovante, a equipe descobre que o valor correto dessa despesa era −9 reais.\n\nDepois de corrigir o registro, qual será o resultado do balanço? Qual receita adicional será necessária para que esse resultado passe a zero, sem outras despesas?",
+      "dados": {
+        "saldo": -23,
+        "antigo": -17,
+        "novo": -9
+      },
+      "modelo_verificacao": "[saldo-antigo+novo,-(saldo-antigo+novo)]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Resultado de −6 reais; receita adicional de 6 reais.",
+          "valor": [
+            "-6",
+            "6"
+          ],
+          "erro_comum": "Cancela a despesa antiga, mas não inclui a correta."
+        },
+        {
+          "letra": "B",
+          "texto": "Resultado de −15 reais; receita adicional de 15 reais.",
+          "valor": [
+            "-15",
+            "15"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Resultado de −49 reais; receita adicional de 49 reais.",
+          "valor": [
+            "-49",
+            "49"
+          ],
+          "erro_comum": "Acrescenta novamente a despesa antiga e depois inclui a nova."
+        },
+        {
+          "letra": "D",
+          "texto": "Resultado de −32 reais; receita adicional de 32 reais.",
+          "valor": [
+            "-32",
+            "32"
+          ],
+          "erro_comum": "Inclui a despesa correta sem retirar o efeito da incorreta."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "A despesa incorreta já está incluída. Primeiro, retiramos seu efeito; depois, incluímos o valor correto: −23 − (−17) + (−9) = −23 + 17 − 9 = −15 reais. Para compensar o resultado de −15 reais, será necessária receita adicional de +15 reais: −15 + 15 = 0.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/operacoes-e-expressoes-com-numeros.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Corrigir o balanço da feira escolar"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de OI-01, OI-05, OI-09, OI-10, OI-12, OI-15, OI-17, OI-18 e OI-20; OI-20 mostra apenas o primeiro comando em reta graduada, distinguindo coordenada e deslocamento.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "OI",
+        "nivel": "dificil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-OI-17"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-OI-18",
+      "numero": 18,
+      "titulo": "Os ajustes entre as sequências",
+      "assunto": "OI",
+      "assunto_nome": "Operações com números inteiros",
+      "subtema": "multiplicacao_divisao",
+      "habilidade": "Combinar operações repetidas e interpretar a quantidade de intervalos entre grupos.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "Em uma simulação de calibração, o indicador de um sensor começa em 63 unidades. Sua escala permite leituras positivas, zero e negativas.\n\nSerão realizadas três sequências de quatro testes. Cada teste diminui a leitura em 7 unidades.\n\nEntre uma sequência e a seguinte, será feito um ajuste que aumenta a leitura em 7 unidades. Não há ajuste antes da primeira sequência nem depois da última.\n\nQual será a leitura após o último teste?",
+      "dados": {
+        "inicial": 63,
+        "sequencias": 3,
+        "testes_por_sequencia": 4,
+        "por_teste": -7,
+        "ajuste": 7
+      },
+      "modelo_verificacao": "inicial+sequencias*testes_por_sequencia*por_teste+(sequencias-1)*ajuste",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "−7 unidades.",
+          "valor": "-7",
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "0 unidade.",
+          "valor": "0",
+          "erro_comum": "Realiza três ajustes, incluindo indevidamente um após a última sequência."
+        },
+        {
+          "letra": "C",
+          "texto": "−21 unidades.",
+          "valor": "-21",
+          "erro_comum": "Considera os testes, mas ignora os dois ajustes."
+        },
+        {
+          "letra": "D",
+          "texto": "+7 unidades.",
+          "valor": "7",
+          "erro_comum": "Encontra o módulo da leitura final e descarta o sinal negativo."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "São 3 × 4 = 12 testes, com alteração total 12 × (−7) = −84 unidades. Entre três sequências existem dois intervalos. Portanto, os ajustes acrescentam 2 × 7 = 14 unidades. A leitura final será 63 + (−84) + 14 = −7 unidades.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/operacoes-e-expressoes-com-numeros.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Os ajustes entre as sequências"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de OI-01, OI-05, OI-09, OI-10, OI-12, OI-15, OI-17, OI-18 e OI-20; OI-20 mostra apenas o primeiro comando em reta graduada, distinguindo coordenada e deslocamento.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "OI",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-OI-18"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 470\" role=\"img\" aria-label=\"Leitura inicial 63 unidades. Três sequências de quatro testes, cada teste altera a leitura em −7 unidades. Há ajuste de +7 somente entre a primeira e a segunda e entre a segunda e a terceira sequências; não há ajuste após a última.\"><title>Sequências e ajustes</title><desc>Leitura inicial 63 unidades. Três sequências de quatro testes, cada teste altera a leitura em −7 unidades. Há ajuste de +7 somente entre a primeira e a segunda e entre a segunda e a terceira sequências; não há ajuste após a última.</desc><rect width=\"320\" height=\"470\" fill=\"#fff\"/><text x=\"12\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Sequências e ajustes</text><text x=\"12\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Leitura inicial: 63 unidades</text><rect x=\"20\" y=\"95\" width=\"280\" height=\"70\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"35\" y=\"121\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Sequência 1</text><text x=\"35\" y=\"150\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">4 testes de −7 unidades</text><text x=\"160\" y=\"193\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">Ajuste: +7 unidades</text><rect x=\"20\" y=\"215\" width=\"280\" height=\"70\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"35\" y=\"241\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Sequência 2</text><text x=\"35\" y=\"270\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">4 testes de −7 unidades</text><text x=\"160\" y=\"313\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">Ajuste: +7 unidades</text><rect x=\"20\" y=\"335\" width=\"280\" height=\"70\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"35\" y=\"361\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Sequência 3</text><text x=\"35\" y=\"390\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">4 testes de −7 unidades</text><text x=\"12\" y=\"445\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Fim: sem novo ajuste</text></svg>",
+          "acessibilidade": "Leitura inicial 63 unidades. Três sequências de quatro testes, cada teste altera a leitura em −7 unidades. Há ajuste de +7 somente entre a primeira e a segunda e entre a segunda e a terceira sequências; não há ajuste após a última.",
+          "geometria": {
+            "tipo": "sequencias_sensor_oi",
+            "inicial": 63,
+            "sequencias": 3,
+            "testes_por_sequencia": 4,
+            "por_teste": -7,
+            "ajuste": 7,
+            "intervalos_com_ajuste": 2
+          },
+          "id": "MFC7-B1-I-OI-18-visual",
+          "arquivo": "recursos/OI-18.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-OI-19",
+      "numero": 19,
+      "titulo": "Comparação por compensação",
+      "assunto": "OI",
+      "assunto_nome": "Operações com números inteiros",
+      "subtema": "expressoes",
+      "habilidade": "Comparar expressões negativas sem calcular primeiro os dois produtos completos.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "Dois planos começam com o mesmo saldo. P recebe 17 penalidades de 8 pontos. Q recebe 16 penalidades de 8 pontos e uma penalidade adicional de 5. Qual é a diferença “saldo de P menos saldo de Q”? Use a compensação dos efeitos comuns para conferir.",
+      "dados": {
+        "quant_p": 17,
+        "quant_q": 16,
+        "penalidade": -8,
+        "adicional_q": -5
+      },
+      "modelo_verificacao": "quant_p*penalidade-(quant_q*penalidade+adicional_q)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "+3 pontos.",
+          "valor": "3",
+          "erro_comum": "Inverte a ordem de P menos Q."
+        },
+        {
+          "letra": "B",
+          "texto": "−13 pontos.",
+          "valor": "-13",
+          "erro_comum": "Soma as duas penalidades não comuns em vez de compará-las."
+        },
+        {
+          "letra": "C",
+          "texto": "+13 pontos.",
+          "valor": "13",
+          "erro_comum": "Soma os módulos das penalidades restantes e troca o sinal."
+        },
+        {
+          "letra": "D",
+          "texto": "−3 pontos.",
+          "valor": "-3",
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Os saldos iniciais e 16 penalidades de −8 são comuns e se cancelam na comparação. Restam −8 em P e −5 em Q. A diferença é −8 − (−5) = −3. Conferindo por cálculo completo, P varia −136 e Q varia −133; −136 − (−133) = −3. P termina três pontos abaixo de Q.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/operacoes-e-expressoes-com-numeros.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Comparação por compensação"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "OI",
+        "nivel": "dificil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-OI-19"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-OI-20",
+      "numero": 20,
+      "titulo": "O robô e o tapete quadrado",
+      "assunto": "OI",
+      "assunto_nome": "Operações com números inteiros",
+      "subtema": "potencias_raizes",
+      "habilidade": "Interpretar uma transformação da coordenada por multiplicação negativa e utilizar uma raiz quadrada exata como distância.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "Na oficina de programação, um robô se desloca sobre uma reta graduada em centímetros. Ele começa na coordenada +1 cm, medida em relação à origem zero.\n\nUm comando faz o robô ir para a nova coordenada obtida multiplicando sua coordenada atual por −2. A origem permanece fixa: o comando muda a posição em relação a ela, invertendo o lado e dobrando a distância ao zero. Ele não significa deslocar o robô sempre duas unidades. A reta do desenho exemplifica apenas o primeiro comando.\n\nEsse comando será executado quatro vezes ao todo, sempre usando a coordenada obtida no comando anterior.\n\nDepois, o robô se deslocará para a esquerda uma distância igual ao lado de um tapete quadrado de área 81 cm².\n\nQual será a coordenada final do robô?",
+      "dados": {
+        "inicial": 1,
+        "fator": -2,
+        "etapas": 4,
+        "area": 81
+      },
+      "modelo_verificacao": "inicial*(fator**etapas)-isqrt(area)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "+25 cm.",
+          "valor": "25",
+          "erro_comum": "Soma a distância final, deslocando o robô para a direita."
+        },
+        {
+          "letra": "B",
+          "texto": "−7 cm.",
+          "valor": "-7",
+          "erro_comum": "Inverte a ordem da subtração, calculando 9 − 16."
+        },
+        {
+          "letra": "C",
+          "texto": "+7 cm.",
+          "valor": "7",
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "−25 cm.",
+          "valor": "-25",
+          "erro_comum": "Considera negativa a quarta potência de −2 e depois subtrai 9."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Cada comando calcula uma nova coordenada em relação à mesma origem: +1 → −2 → +4 → −8 → +16 cm. Os deslocamentos entre essas posições não são todos iguais a −2 cm. Após quatro comandos, a coordenada é 1 × (−2)⁴ = 16 cm. O lado do tapete mede √(81 cm²) = 9 cm. O deslocamento final é de −9 cm, para a esquerda: 16 − 9 = 7 cm.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/operacoes-e-expressoes-com-numeros.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "O robô e o tapete quadrado"
+      },
+      "revisao_pedagogica": {
+        "status": "pendente",
+        "impedimento_identificado": false,
+        "registro": "Validação técnica não constitui aprovação pedagógica.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de OI-01, OI-05, OI-09, OI-10, OI-12, OI-15, OI-17, OI-18 e OI-20; OI-20 mostra apenas o primeiro comando em reta graduada, distinguindo coordenada e deslocamento.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "OI",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-OI-20"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 585\" role=\"img\" aria-label=\"Reta de −4 a +4 cm, graduada de uma em uma unidade. Apenas o primeiro comando está representado: +1 cm vai para −2 cm, com origem fixa em zero, invertendo o lado e dobrando a distância ao zero. Restam três comandos. Em esquema separado, sem escala comum com a reta, tapete quadrado de área 81 cm² e lado L desconhecido. Depois dos quatro comandos, deslocar L cm à esquerda. A posição final não é marcada.\"><title>Transformação da coordenada</title><desc>Reta de −4 a +4 cm, graduada de uma em uma unidade. Apenas o primeiro comando está representado: +1 cm vai para −2 cm, com origem fixa em zero, invertendo o lado e dobrando a distância ao zero. Restam três comandos. Em esquema separado, sem escala comum com a reta, tapete quadrado de área 81 cm² e lado L desconhecido. Depois dos quatro comandos, deslocar L cm à esquerda. A posição final não é marcada.</desc><rect width=\"320\" height=\"585\" fill=\"#fff\"/><text x=\"12\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Exemplo: primeiro comando</text><line x1=\"30\" x2=\"290\" y1=\"130\" y2=\"130\" stroke=\"#173746\" stroke-width=\"2\"/><line data-marca=\"-4\" x1=\"30.0\" x2=\"30.0\" y1=\"123\" y2=\"137\" stroke=\"#173746\"/><text x=\"30.0\" y=\"160\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#173746\">-4</text><line data-marca=\"-3\" x1=\"62.5\" x2=\"62.5\" y1=\"123\" y2=\"137\" stroke=\"#173746\"/><text x=\"62.5\" y=\"160\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#173746\">-3</text><line data-marca=\"-2\" x1=\"95.0\" x2=\"95.0\" y1=\"123\" y2=\"137\" stroke=\"#173746\"/><text x=\"95.0\" y=\"160\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#173746\">-2</text><line data-marca=\"-1\" x1=\"127.5\" x2=\"127.5\" y1=\"123\" y2=\"137\" stroke=\"#173746\"/><text x=\"127.5\" y=\"160\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#173746\">-1</text><line data-marca=\"0\" x1=\"160.0\" x2=\"160.0\" y1=\"123\" y2=\"137\" stroke=\"#173746\"/><text x=\"160.0\" y=\"160\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#173746\">0</text><line data-marca=\"1\" x1=\"192.5\" x2=\"192.5\" y1=\"123\" y2=\"137\" stroke=\"#173746\"/><text x=\"192.5\" y=\"160\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#173746\">+1</text><line data-marca=\"2\" x1=\"225.0\" x2=\"225.0\" y1=\"123\" y2=\"137\" stroke=\"#173746\"/><text x=\"225.0\" y=\"160\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#173746\">+2</text><line data-marca=\"3\" x1=\"257.5\" x2=\"257.5\" y1=\"123\" y2=\"137\" stroke=\"#173746\"/><text x=\"257.5\" y=\"160\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#173746\">+3</text><line data-marca=\"4\" x1=\"290.0\" x2=\"290.0\" y1=\"123\" y2=\"137\" stroke=\"#173746\"/><text x=\"290.0\" y=\"160\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#173746\">+4</text><path d=\"M192.5 118 V90 H95 V118\" fill=\"none\" stroke=\"#086a68\" stroke-width=\"2\"/><path d=\"M90 116 L95 124 L100 116\" fill=\"#086a68\"/><circle data-posicao=\"inicial\" cx=\"192.5\" cy=\"130\" r=\"4\" fill=\"#173746\"/><circle data-posicao=\"primeira\" cx=\"95\" cy=\"130\" r=\"4\" fill=\"#086a68\"/><text x=\"160\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">× (−2)</text><text x=\"12\" y=\"200\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Inicial: +1 cm</text><text x=\"12\" y=\"230\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Após 1 comando: −2 cm</text><text x=\"12\" y=\"260\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Restam 3 comandos iguais.</text><text x=\"12\" y=\"290\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">A origem permanece em 0.</text><text x=\"12\" y=\"338\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Tapete: esquema separado</text><text x=\"12\" y=\"364\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#173746\">Sem escala comum com a reta</text><rect x=\"85\" y=\"390\" width=\"140\" height=\"140\" fill=\"#eef6f5\" stroke=\"#173746\" stroke-width=\"2\"/><text x=\"155\" y=\"465\" font-family=\"Arial, sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#173746\">81 cm²</text><text x=\"245\" y=\"465\" font-family=\"Arial, sans-serif\" font-size=\"20\" text-anchor=\"start\" fill=\"#173746\">L</text><text x=\"12\" y=\"560\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Depois: andar L cm à esquerda.</text></svg>",
+          "acessibilidade": "Reta de −4 a +4 cm, graduada de uma em uma unidade. Apenas o primeiro comando está representado: +1 cm vai para −2 cm, com origem fixa em zero, invertendo o lado e dobrando a distância ao zero. Restam três comandos. Em esquema separado, sem escala comum com a reta, tapete quadrado de área 81 cm² e lado L desconhecido. Depois dos quatro comandos, deslocar L cm à esquerda. A posição final não é marcada.",
+          "geometria": {
+            "tipo": "robo_coordenadas_oi",
+            "inicio": -4,
+            "fim": 4,
+            "x_inicio": 30,
+            "escala_px_por_cm": 32.5,
+            "inicial": 1,
+            "fator": -2,
+            "primeira": -2,
+            "etapas": 4,
+            "area": 81,
+            "marcas": [
+              {
+                "valor": -4,
+                "x": 30.0
+              },
+              {
+                "valor": -3,
+                "x": 62.5
+              },
+              {
+                "valor": -2,
+                "x": 95.0
+              },
+              {
+                "valor": -1,
+                "x": 127.5
+              },
+              {
+                "valor": 0,
+                "x": 160.0
+              },
+              {
+                "valor": 1,
+                "x": 192.5
+              },
+              {
+                "valor": 2,
+                "x": 225.0
+              },
+              {
+                "valor": 3,
+                "x": 257.5
+              },
+              {
+                "valor": 4,
+                "x": 290.0
+              }
+            ],
+            "pontos": [
+              {
+                "nome": "inicial",
+                "valor": 1,
+                "x": 192.5
+              },
+              {
+                "nome": "primeira",
+                "valor": -2,
+                "x": 95
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-OI-20-visual",
+          "arquivo": "recursos/OI-20.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    }
+  ]
+}
