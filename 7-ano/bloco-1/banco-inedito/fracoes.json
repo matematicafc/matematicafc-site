@@ -1,0 +1,2275 @@
+{
+  "versao_formato": 1,
+  "banco_id": "MFC7-B1-INEDITO-V1",
+  "assunto": "Frações: significados, equivalência e comparação",
+  "codigo_assunto": "FR",
+  "questoes": [
+    {
+      "id": "MFC7-B1-I-FR-01",
+      "numero": 1,
+      "titulo": "A metade exigida no contrato",
+      "assunto": "FR",
+      "assunto_nome": "Frações: significados, equivalência e comparação",
+      "subtema": "significados",
+      "habilidade": "Interpretar parte-todo e identificar a parte adicional necessária.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "O desenho mostra a parte já restaurada de um painel, dividido em dez regiões iguais. O contrato exige que exatamente metade do painel esteja restaurada na primeira entrega. Que fração do painel inteiro ainda precisa ser restaurada para atingir essa meta?",
+      "dados": {
+        "restauradas": 4,
+        "total": 10
+      },
+      "modelo_verificacao": "frac(1,2)-frac(restauradas,total)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1/10 do painel.",
+          "valor": "1/10",
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "2/5 do painel.",
+          "valor": "2/5",
+          "erro_comum": "Informa a parte já restaurada em vez da que falta para a meta."
+        },
+        {
+          "letra": "C",
+          "texto": "3/5 do painel.",
+          "valor": "3/5",
+          "erro_comum": "Informa tudo o que falta restaurar, não apenas até a metade."
+        },
+        {
+          "letra": "D",
+          "texto": "1/2 do painel.",
+          "valor": "1/2",
+          "erro_comum": "Repete a meta sem descontar a parte pronta."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Metade de dez regiões corresponde a cinco regiões. O desenho mostra quatro restauradas. Falta uma região das dez: 1/10 do painel. Pela conta, 1/2 − 4/10 = 5/10 − 4/10 = 1/10.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/fracoes-e-seus-diferentes-significados.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "A metade exigida no contrato"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "FR",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-FR-01"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 156\" role=\"img\" aria-label=\"Painel: 4 de 10 partes iguais pintadas; inteiro: o painel todo As partes com pontos representam as regiões preenchidas; as partes brancas lisas não estão preenchidas.\"><title>Parte restaurada em azul</title><desc>Painel: 4 de 10 partes iguais pintadas; inteiro: o painel todo As partes com pontos representam as regiões preenchidas; as partes brancas lisas não estão preenchidas.</desc><defs><pattern id=\"MFC7-B1-I-FR-01-contraste-pontos\" patternUnits=\"userSpaceOnUse\" width=\"8\" height=\"8\"><rect width=\"8\" height=\"8\" fill=\"#83c6c1\" /><circle cx=\"4\" cy=\"4\" r=\"1.5\" fill=\"#173746\" /></pattern></defs><rect width=\"320\" height=\"156\" fill=\"#fff\" /><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Parte restaurada em azul</text><text x=\"10\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Painel</text><text x=\"310\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">inteiro: o painel todo</text><rect x=\"20.00000\" y=\"78\" width=\"28.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-01-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"48.00000\" y=\"78\" width=\"28.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-01-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"76.00000\" y=\"78\" width=\"28.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-01-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"104.00000\" y=\"78\" width=\"28.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-01-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"132.00000\" y=\"78\" width=\"28.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"160.00000\" y=\"78\" width=\"28.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"188.00000\" y=\"78\" width=\"28.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"216.00000\" y=\"78\" width=\"28.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"244.00000\" y=\"78\" width=\"28.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"272.00000\" y=\"78\" width=\"28.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /></svg>",
+          "acessibilidade": "Painel: 4 de 10 partes iguais pintadas; inteiro: o painel todo As partes com pontos representam as regiões preenchidas; as partes brancas lisas não estão preenchidas.",
+          "geometria": {
+            "tipo": "barras",
+            "barras": [
+              {
+                "nome": "Painel",
+                "partes": 10,
+                "pintadas": 4,
+                "largura": 280,
+                "x": 20,
+                "y": 78
+              }
+            ]
+          },
+          "acessibilidade_grafica": {
+            "codificacao": "textura_e_contorno",
+            "independente_de_cor": true,
+            "marcacoes": [
+              {
+                "padrao": "MFC7-B1-I-FR-01-contraste-pontos",
+                "tipo": "pontos",
+                "fundo": "#83c6c1",
+                "marca": "#173746",
+                "regioes": 4
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-FR-01-visual",
+          "arquivo": "recursos/FR-01.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-FR-02",
+      "numero": 2,
+      "titulo": "A pintura continua no mesmo lugar",
+      "assunto": "FR",
+      "assunto_nome": "Frações: significados, equivalência e comparação",
+      "subtema": "equivalencia",
+      "habilidade": "Reconhecer equivalência ao reagrupar partes iguais, conservando a região pintada.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "Uma etiqueta retangular foi dividida em 16 faixas verticais de mesma largura. As seis primeiras faixas, contando da esquerda para a direita, foram pintadas.\n\nSem mover ou alterar a pintura, a turma apagou algumas linhas para reunir as faixas em pares consecutivos, começando pela borda esquerda. Assim, cada nova faixa passou a reunir exatamente duas antigas.\n\nQuantas das oito novas faixas ficaram completamente pintadas?",
+      "dados": {
+        "pintadas": 6,
+        "antigas": 16,
+        "novas": 8,
+        "primeira_pintada": 1,
+        "pareamento_inicio": 1
+      },
+      "modelo_verificacao": "frac(pintadas,antigas)*novas",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6 faixas.",
+          "valor": "6",
+          "erro_comum": "Conserva a quantidade de faixas pintadas, ignorando que cada nova faixa reúne duas antigas."
+        },
+        {
+          "letra": "B",
+          "texto": "8 faixas.",
+          "valor": "8",
+          "erro_comum": "Confunde o total de novas faixas com a quantidade pintada."
+        },
+        {
+          "letra": "C",
+          "texto": "4 faixas.",
+          "valor": "4",
+          "erro_comum": "Escolhe metade das oito faixas, embora a região original 6/16 seja menor que a metade."
+        },
+        {
+          "letra": "D",
+          "texto": "3 faixas.",
+          "valor": "3",
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "As seis faixas pintadas são consecutivas e começam na mesma borda usada para formar os pares. Portanto, elas formam três pares inteiramente pintados. Cada faixa nova tem o dobro da largura de uma antiga. A mesma região corresponde a 6/16 = 3/8. Não houve deslocamento nem ampliação da pintura.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/fracoes-e-seus-diferentes-significados.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "A pintura continua no mesmo lugar"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de FR-02, FR-05, FR-07, FR-10, FR-12, FR-14, FR-17, FR-18 e FR-19; fitas proporcionais em FR-14; igualdade incluída em FR-07; participante imóvel na troca de unidade em FR-19.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "FR",
+        "nivel": "facil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-FR-02"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-FR-03",
+      "numero": 3,
+      "titulo": "Contando além de uma unidade",
+      "assunto": "FR",
+      "assunto_nome": "Frações: significados, equivalência e comparação",
+      "subtema": "inteiro",
+      "habilidade": "Interpretar uma fração imprópria a partir de unidades fracionadas.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "Cada barra do desenho representa uma fita inteira, e todas têm o mesmo comprimento. A parte azul mostra o material disponível. Qual descrição informa essa quantidade tomando uma fita como unidade?",
+      "dados": {
+        "partes": 9,
+        "por_unidade": 4
+      },
+      "modelo_verificacao": "frac(partes,por_unidade)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1 fita inteira e 1/4 de fita.",
+          "valor": "5/4",
+          "erro_comum": "Deixa de contar uma das barras completas."
+        },
+        {
+          "letra": "B",
+          "texto": "9 fitas inteiras.",
+          "valor": "9",
+          "erro_comum": "Trata cada quarto de fita como uma unidade inteira."
+        },
+        {
+          "letra": "C",
+          "texto": "2 fitas inteiras e 1/4 de fita.",
+          "valor": "9/4",
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "2 fitas inteiras e 3/4 de fita.",
+          "valor": "11/4",
+          "erro_comum": "Conta como disponível a parte branca da última barra."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Cada fita corresponde a quatro partes iguais. Há duas barras completas, com oito quartos, e mais um quarto: 9/4 = 8/4 + 1/4 = 2 + 1/4. Assim, são duas fitas inteiras e um quarto.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/fracoes-e-seus-diferentes-significados.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Contando além de uma unidade"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "FR",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-FR-03"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 336\" role=\"img\" aria-label=\"Fita 1: 4 de 4 partes iguais pintadas; uma unidade; Fita 2: 4 de 4 partes iguais pintadas; uma unidade; Fita 3: 1 de 4 partes iguais pintadas; uma unidade As partes com pontos representam as regiões preenchidas; as partes brancas lisas não estão preenchidas.\"><title>Material disponível em azul</title><desc>Fita 1: 4 de 4 partes iguais pintadas; uma unidade; Fita 2: 4 de 4 partes iguais pintadas; uma unidade; Fita 3: 1 de 4 partes iguais pintadas; uma unidade As partes com pontos representam as regiões preenchidas; as partes brancas lisas não estão preenchidas.</desc><defs><pattern id=\"MFC7-B1-I-FR-03-contraste-pontos\" patternUnits=\"userSpaceOnUse\" width=\"8\" height=\"8\"><rect width=\"8\" height=\"8\" fill=\"#83c6c1\" /><circle cx=\"4\" cy=\"4\" r=\"1.5\" fill=\"#173746\" /></pattern></defs><rect width=\"320\" height=\"336\" fill=\"#fff\" /><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Material disponível em azul</text><text x=\"10\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Fita 1</text><text x=\"310\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">uma unidade</text><rect x=\"20.00000\" y=\"78\" width=\"70.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-03-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"90.00000\" y=\"78\" width=\"70.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-03-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"160.00000\" y=\"78\" width=\"70.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-03-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"230.00000\" y=\"78\" width=\"70.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-03-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><text x=\"10\" y=\"156\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Fita 2</text><text x=\"310\" y=\"156\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">uma unidade</text><rect x=\"20.00000\" y=\"168\" width=\"70.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-03-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"90.00000\" y=\"168\" width=\"70.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-03-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"160.00000\" y=\"168\" width=\"70.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-03-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"230.00000\" y=\"168\" width=\"70.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-03-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><text x=\"10\" y=\"246\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Fita 3</text><text x=\"310\" y=\"246\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">uma unidade</text><rect x=\"20.00000\" y=\"258\" width=\"70.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-03-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"90.00000\" y=\"258\" width=\"70.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"160.00000\" y=\"258\" width=\"70.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"230.00000\" y=\"258\" width=\"70.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /></svg>",
+          "acessibilidade": "Fita 1: 4 de 4 partes iguais pintadas; uma unidade; Fita 2: 4 de 4 partes iguais pintadas; uma unidade; Fita 3: 1 de 4 partes iguais pintadas; uma unidade As partes com pontos representam as regiões preenchidas; as partes brancas lisas não estão preenchidas.",
+          "geometria": {
+            "tipo": "barras",
+            "barras": [
+              {
+                "nome": "Fita 1",
+                "partes": 4,
+                "pintadas": 4,
+                "largura": 280,
+                "x": 20,
+                "y": 78
+              },
+              {
+                "nome": "Fita 2",
+                "partes": 4,
+                "pintadas": 4,
+                "largura": 280,
+                "x": 20,
+                "y": 168
+              },
+              {
+                "nome": "Fita 3",
+                "partes": 4,
+                "pintadas": 1,
+                "largura": 280,
+                "x": 20,
+                "y": 258
+              }
+            ]
+          },
+          "acessibilidade_grafica": {
+            "codificacao": "textura_e_contorno",
+            "independente_de_cor": true,
+            "marcacoes": [
+              {
+                "padrao": "MFC7-B1-I-FR-03-contraste-pontos",
+                "tipo": "pontos",
+                "fundo": "#83c6c1",
+                "marca": "#173746",
+                "regioes": 9
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-FR-03-visual",
+          "arquivo": "recursos/FR-03.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-FR-04",
+      "numero": 4,
+      "titulo": "Comparação na mesma medida",
+      "assunto": "FR",
+      "assunto_nome": "Frações: significados, equivalência e comparação",
+      "subtema": "comparacao",
+      "habilidade": "Comparar frações positivas por uma unidade comum.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "Duas misturas usam o mesmo tipo de copo como unidade. A receita A pede 5/12 de copo de um ingrediente, e B pede 3/8. O responsável precisa identificar qual utiliza mais desse ingrediente. Qual análise está correta?",
+      "dados": {
+        "nomes": [
+          "A",
+          "B"
+        ],
+        "valores": [
+          {
+            "fracao": [
+              5,
+              12
+            ]
+          },
+          {
+            "fracao": [
+              3,
+              8
+            ]
+          }
+        ]
+      },
+      "modelo_verificacao": "rotulo_max(nomes,valores)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Não é possível comparar frações com denominadores diferentes.",
+          "valor": "incomparaveis",
+          "erro_comum": "Desconsidera a possibilidade de usar partes de mesmo tamanho."
+        },
+        {
+          "letra": "B",
+          "texto": "A usa mais: 5/12 = 10/24 e 3/8 = 9/24.",
+          "valor": "A",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "B usa mais, pois oitavos são maiores que doze avos.",
+          "valor": "B",
+          "erro_comum": "Compara o tamanho das partes, mas ignora quantas partes são usadas."
+        },
+        {
+          "letra": "D",
+          "texto": "As duas usam a mesma quantidade.",
+          "valor": "iguais",
+          "erro_comum": "Confunde denominadores diferentes com representações equivalentes."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Como o copo de referência é o mesmo, podemos comparar as frações diretamente. Em vinte e quatro avos, 5/12 = 10/24 e 3/8 = 9/24. Portanto, A usa a maior quantidade. Olhar somente para os denominadores não resolve a comparação.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/fracoes-e-seus-diferentes-significados.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Comparação na mesma medida"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "FR",
+        "nivel": "facil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-FR-04"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-FR-05",
+      "numero": 5,
+      "titulo": "Uma tira como unidade de medida",
+      "assunto": "FR",
+      "assunto_nome": "Frações: significados, equivalência e comparação",
+      "subtema": "significados",
+      "habilidade": "Interpretar uma fração como medida em relação a um inteiro de referência.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "Em uma oficina de montagem, uma turma adotou uma tira de papel de 7 cm como uma unidade de comprimento.\n\nUm recorte do mesmo material mede 5 cm. Tomando a tira de 7 cm como um inteiro, que fração dessa unidade corresponde ao comprimento do recorte?",
+      "dados": {
+        "unidade_cm": 7,
+        "recorte_cm": 5
+      },
+      "modelo_verificacao": "frac(recorte_cm,unidade_cm)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5/7.",
+          "valor": "5/7",
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "5/12.",
+          "valor": "5/12",
+          "erro_comum": "Soma 7 e 5 para criar um total que não corresponde à unidade escolhida."
+        },
+        {
+          "letra": "C",
+          "texto": "7/5.",
+          "valor": "7/5",
+          "erro_comum": "Inverte o comprimento medido e o comprimento da unidade."
+        },
+        {
+          "letra": "D",
+          "texto": "7/12.",
+          "valor": "7/12",
+          "erro_comum": "Usa a unidade de 7 cm como parte de um total indevidamente formado por 12 cm."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "A unidade escolhida mede 7 cm. Cada centímetro corresponde, portanto, a 1/7 dessa unidade. Como o recorte mede 5 cm, ele corresponde a cinco dessas partes: 5 × 1/7 = 5/7. O inteiro de referência é a tira de 7 cm, não a soma dos dois comprimentos.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/fracoes-e-seus-diferentes-significados.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Uma tira como unidade de medida"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de FR-02, FR-05, FR-07, FR-10, FR-12, FR-14, FR-17, FR-18 e FR-19; fitas proporcionais em FR-14; igualdade incluída em FR-07; participante imóvel na troca de unidade em FR-19.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "FR",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-FR-05"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 305\" role=\"img\" aria-label=\"Uma tira de 7 cm representa uma unidade e está dividida em sete segmentos de 1 cm. Abaixo, um recorte de 5 cm tem cinco segmentos de 1 cm, na mesma escala e alinhado à esquerda.\"><title>Uma tira como unidade</title><desc>Uma tira de 7 cm representa uma unidade e está dividida em sete segmentos de 1 cm. Abaixo, um recorte de 5 cm tem cinco segmentos de 1 cm, na mesma escala e alinhado à esquerda.</desc><rect width=\"320\" height=\"305\" fill=\"#fff\"/><text x=\"12\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Uma tira como unidade</text><text x=\"20\" y=\"80\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Unidade: 7 cm</text><rect data-tira=\"7\" x=\"20\" y=\"100\" width=\"36\" height=\"32\" fill=\"#b7dbd8\" stroke=\"#173746\"/><rect data-tira=\"7\" x=\"56\" y=\"100\" width=\"36\" height=\"32\" fill=\"#b7dbd8\" stroke=\"#173746\"/><rect data-tira=\"7\" x=\"92\" y=\"100\" width=\"36\" height=\"32\" fill=\"#b7dbd8\" stroke=\"#173746\"/><rect data-tira=\"7\" x=\"128\" y=\"100\" width=\"36\" height=\"32\" fill=\"#b7dbd8\" stroke=\"#173746\"/><rect data-tira=\"7\" x=\"164\" y=\"100\" width=\"36\" height=\"32\" fill=\"#b7dbd8\" stroke=\"#173746\"/><rect data-tira=\"7\" x=\"200\" y=\"100\" width=\"36\" height=\"32\" fill=\"#b7dbd8\" stroke=\"#173746\"/><rect data-tira=\"7\" x=\"236\" y=\"100\" width=\"36\" height=\"32\" fill=\"#b7dbd8\" stroke=\"#173746\"/><text x=\"20\" y=\"190\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Recorte: 5 cm</text><rect data-tira=\"5\" x=\"20\" y=\"210\" width=\"36\" height=\"32\" fill=\"#b7dbd8\" stroke=\"#173746\"/><rect data-tira=\"5\" x=\"56\" y=\"210\" width=\"36\" height=\"32\" fill=\"#b7dbd8\" stroke=\"#173746\"/><rect data-tira=\"5\" x=\"92\" y=\"210\" width=\"36\" height=\"32\" fill=\"#b7dbd8\" stroke=\"#173746\"/><rect data-tira=\"5\" x=\"128\" y=\"210\" width=\"36\" height=\"32\" fill=\"#b7dbd8\" stroke=\"#173746\"/><rect data-tira=\"5\" x=\"164\" y=\"210\" width=\"36\" height=\"32\" fill=\"#b7dbd8\" stroke=\"#173746\"/><text x=\"12\" y=\"280\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Cada segmento mede 1 cm.</text></svg>",
+          "acessibilidade": "Uma tira de 7 cm representa uma unidade e está dividida em sete segmentos de 1 cm. Abaixo, um recorte de 5 cm tem cinco segmentos de 1 cm, na mesma escala e alinhado à esquerda.",
+          "geometria": {
+            "tipo": "tiras_unidade_fr",
+            "unidade_cm": 7,
+            "recorte_cm": 5,
+            "escala_px_por_cm": 36,
+            "tiras": [
+              {
+                "comprimento_cm": 7,
+                "partes": 7,
+                "x": 20,
+                "y": 100,
+                "largura": 252
+              },
+              {
+                "comprimento_cm": 5,
+                "partes": 5,
+                "x": 20,
+                "y": 210,
+                "largura": 180
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-FR-05-visual",
+          "arquivo": "recursos/FR-05.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-FR-06",
+      "numero": 6,
+      "titulo": "Um indicador em sua forma reduzida",
+      "assunto": "FR",
+      "assunto_nome": "Frações: significados, equivalência e comparação",
+      "subtema": "equivalencia",
+      "habilidade": "Reconhecer a mesma proporção em registros com totais diferentes.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "Dois indicadores de conclusão registram 36 de 48 etapas e 27 de 36 etapas. O programa só pode mostrar uma fração irredutível quando os dois indicadores representam a mesma proporção. Qual fração pode mostrar neste caso?",
+      "dados": {
+        "a": 36,
+        "b": 48,
+        "c": 27,
+        "d": 36
+      },
+      "modelo_verificacao": "frac(a,b)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "4/3.",
+          "valor": "4/3",
+          "erro_comum": "Inverte a relação entre etapas concluídas e total."
+        },
+        {
+          "letra": "B",
+          "texto": "1/4.",
+          "valor": "1/4",
+          "erro_comum": "Mostra a parte não concluída."
+        },
+        {
+          "letra": "C",
+          "texto": "2/3.",
+          "valor": "2/3",
+          "erro_comum": "Reduz os números sem conservar a proporção original."
+        },
+        {
+          "letra": "D",
+          "texto": "3/4.",
+          "valor": "3/4",
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "36/48 pode ser simplificada por 12, resultando em 3/4. Já 27/36 pode ser simplificada por 9, também resultando em 3/4. Como 3 e 4 não têm divisor comum maior que 1, essa é a forma irredutível e serve para os dois registros.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/fracoes-e-seus-diferentes-significados.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Um indicador em sua forma reduzida"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "FR",
+        "nivel": "facil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-FR-06"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-FR-07",
+      "numero": 7,
+      "titulo": "Atingiu o mínimo exigido?",
+      "assunto": "FR",
+      "assunto_nome": "Frações: significados, equivalência e comparação",
+      "subtema": "comparacao",
+      "habilidade": "Comparar frações com um limite, incluindo a igualdade.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Na mostra de projetos da escola, um trabalho só pode ser liberado para apresentação quando pelo menos 2/3 de suas etapas estão concluídas.\n\nAs barras mostram o andamento dos projetos A, B e C. Cada barra representa todas as etapas do respectivo projeto, divididas em partes iguais.\n\nQuais projetos já podem ser liberados?",
+      "dados": {
+        "nomes": [
+          "A",
+          "B",
+          "C"
+        ],
+        "valores": [
+          {
+            "fracao": [
+              5,
+              8
+            ]
+          },
+          {
+            "fracao": [
+              3,
+              4
+            ]
+          },
+          {
+            "fracao": [
+              2,
+              3
+            ]
+          }
+        ],
+        "limiar": {
+          "fracao": [
+            2,
+            3
+          ]
+        }
+      },
+      "modelo_verificacao": "[nomes[i] for i in range(len(nomes)) if valores[i]>=limiar]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A, B e C.",
+          "valor": [
+            "A",
+            "B",
+            "C"
+          ],
+          "erro_comum": "Considera suficiente ultrapassar a metade."
+        },
+        {
+          "letra": "B",
+          "texto": "Somente B.",
+          "valor": [
+            "B"
+          ],
+          "erro_comum": "Exclui indevidamente o projeto que atingiu exatamente o limite."
+        },
+        {
+          "letra": "C",
+          "texto": "B e C.",
+          "valor": [
+            "B",
+            "C"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Somente C.",
+          "valor": [
+            "C"
+          ],
+          "erro_comum": "Interpreta a condição como igualdade obrigatória, excluindo quem ultrapassou o mínimo."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Em vinte e quatro avos, 5/8 = 15/24, 3/4 = 18/24 e 2/3 = 16/24. A está abaixo do limite. B está acima, e C está exatamente no limite. “Pelo menos” significa maior ou igual. Portanto, B e C podem ser liberados.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/fracoes-e-seus-diferentes-significados.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Atingiu o mínimo exigido?"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de FR-02, FR-05, FR-07, FR-10, FR-12, FR-14, FR-17, FR-18 e FR-19; fitas proporcionais em FR-14; igualdade incluída em FR-07; participante imóvel na troca de unidade em FR-19.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "FR",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-FR-07"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 336\" role=\"img\" aria-label=\"Projeto A: 5 de 8 partes iguais pintadas; inteiro: seu projeto; Projeto B: 3 de 4 partes iguais pintadas; inteiro: seu projeto; Projeto C: 2 de 3 partes iguais pintadas; inteiro: seu projeto As partes com pontos representam as regiões preenchidas; as partes brancas lisas não estão preenchidas.\"><title>Etapas concluídas em azul</title><desc>Projeto A: 5 de 8 partes iguais pintadas; inteiro: seu projeto; Projeto B: 3 de 4 partes iguais pintadas; inteiro: seu projeto; Projeto C: 2 de 3 partes iguais pintadas; inteiro: seu projeto As partes com pontos representam as regiões preenchidas; as partes brancas lisas não estão preenchidas.</desc><defs><pattern id=\"MFC7-B1-I-FR-07-contraste-pontos\" patternUnits=\"userSpaceOnUse\" width=\"8\" height=\"8\"><rect width=\"8\" height=\"8\" fill=\"#83c6c1\" /><circle cx=\"4\" cy=\"4\" r=\"1.5\" fill=\"#173746\" /></pattern></defs><rect width=\"320\" height=\"336\" fill=\"#fff\" /><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Etapas concluídas em azul</text><text x=\"10\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Projeto A</text><text x=\"310\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">inteiro: seu projeto</text><rect x=\"20.00000\" y=\"78\" width=\"35.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-07-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"55.00000\" y=\"78\" width=\"35.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-07-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"90.00000\" y=\"78\" width=\"35.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-07-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"125.00000\" y=\"78\" width=\"35.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-07-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"160.00000\" y=\"78\" width=\"35.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-07-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"195.00000\" y=\"78\" width=\"35.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"230.00000\" y=\"78\" width=\"35.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"265.00000\" y=\"78\" width=\"35.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><text x=\"10\" y=\"156\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Projeto B</text><text x=\"310\" y=\"156\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">inteiro: seu projeto</text><rect x=\"20.00000\" y=\"168\" width=\"70.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-07-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"90.00000\" y=\"168\" width=\"70.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-07-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"160.00000\" y=\"168\" width=\"70.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-07-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"230.00000\" y=\"168\" width=\"70.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><text x=\"10\" y=\"246\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Projeto C</text><text x=\"310\" y=\"246\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">inteiro: seu projeto</text><rect x=\"20.00000\" y=\"258\" width=\"93.33333\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-07-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"113.33333\" y=\"258\" width=\"93.33333\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-07-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"206.66667\" y=\"258\" width=\"93.33333\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /></svg>",
+          "acessibilidade": "Projeto A: 5 de 8 partes iguais pintadas; inteiro: seu projeto; Projeto B: 3 de 4 partes iguais pintadas; inteiro: seu projeto; Projeto C: 2 de 3 partes iguais pintadas; inteiro: seu projeto As partes com pontos representam as regiões preenchidas; as partes brancas lisas não estão preenchidas.",
+          "geometria": {
+            "tipo": "barras",
+            "barras": [
+              {
+                "nome": "Projeto A",
+                "partes": 8,
+                "pintadas": 5,
+                "largura": 280,
+                "x": 20,
+                "y": 78
+              },
+              {
+                "nome": "Projeto B",
+                "partes": 4,
+                "pintadas": 3,
+                "largura": 280,
+                "x": 20,
+                "y": 168
+              },
+              {
+                "nome": "Projeto C",
+                "partes": 3,
+                "pintadas": 2,
+                "largura": 280,
+                "x": 20,
+                "y": 258
+              }
+            ]
+          },
+          "acessibilidade_grafica": {
+            "codificacao": "textura_e_contorno",
+            "independente_de_cor": true,
+            "marcacoes": [
+              {
+                "padrao": "MFC7-B1-I-FR-07-contraste-pontos",
+                "tipo": "pontos",
+                "fundo": "#83c6c1",
+                "marca": "#173746",
+                "regioes": 10
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-FR-07-visual",
+          "arquivo": "recursos/FR-07.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-FR-08",
+      "numero": 8,
+      "titulo": "Meias folhas para três grupos",
+      "assunto": "FR",
+      "assunto_nome": "Frações: significados, equivalência e comparação",
+      "subtema": "significados",
+      "habilidade": "Interpretar quociente quando a unidade do estoque é fracionária.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Cada barra do desenho representa uma folha inteira; a parte azul é o estoque disponível. Esse papel será repartido igualmente entre três grupos, podendo ser cortado e sem sobras. Que quantidade, em folhas inteiras como unidade, receberá cada grupo?",
+      "dados": {
+        "meias_folhas": 7,
+        "grupos": 3
+      },
+      "modelo_verificacao": "frac(meias_folhas,2*grupos)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1/6 de folha.",
+          "valor": "1/6",
+          "erro_comum": "Reparte somente a meia folha final e ignora as folhas completas."
+        },
+        {
+          "letra": "B",
+          "texto": "7/6 de folha.",
+          "valor": "7/6",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "7/3 de folha.",
+          "valor": "7/3",
+          "erro_comum": "Trata cada meia folha como uma folha inteira."
+        },
+        {
+          "letra": "D",
+          "texto": "3/7 de folha.",
+          "valor": "3/7",
+          "erro_comum": "Inverte a divisão entre estoque e grupos."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "O desenho mostra sete meias folhas, ou 7/2 de folha. A repartição por três grupos dá (7/2) ÷ 3 = 7/6 de folha para cada grupo. Isso equivale a uma folha inteira e mais 1/6. A conferência é 3 × 7/6 = 7/2.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/fracoes-e-seus-diferentes-significados.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Meias folhas para três grupos"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "FR",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-FR-08"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 426\" role=\"img\" aria-label=\"Folha 1: 2 de 2 partes iguais pintadas; uma folha; Folha 2: 2 de 2 partes iguais pintadas; uma folha; Folha 3: 2 de 2 partes iguais pintadas; uma folha; Folha 4: 1 de 2 partes iguais pintadas; uma folha As partes com pontos representam as regiões preenchidas; as partes brancas lisas não estão preenchidas.\"><title>Estoque de papel em azul</title><desc>Folha 1: 2 de 2 partes iguais pintadas; uma folha; Folha 2: 2 de 2 partes iguais pintadas; uma folha; Folha 3: 2 de 2 partes iguais pintadas; uma folha; Folha 4: 1 de 2 partes iguais pintadas; uma folha As partes com pontos representam as regiões preenchidas; as partes brancas lisas não estão preenchidas.</desc><defs><pattern id=\"MFC7-B1-I-FR-08-contraste-pontos\" patternUnits=\"userSpaceOnUse\" width=\"8\" height=\"8\"><rect width=\"8\" height=\"8\" fill=\"#83c6c1\" /><circle cx=\"4\" cy=\"4\" r=\"1.5\" fill=\"#173746\" /></pattern></defs><rect width=\"320\" height=\"426\" fill=\"#fff\" /><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Estoque de papel em azul</text><text x=\"10\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Folha 1</text><text x=\"310\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">uma folha</text><rect x=\"20.00000\" y=\"78\" width=\"140.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-08-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"160.00000\" y=\"78\" width=\"140.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-08-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><text x=\"10\" y=\"156\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Folha 2</text><text x=\"310\" y=\"156\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">uma folha</text><rect x=\"20.00000\" y=\"168\" width=\"140.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-08-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"160.00000\" y=\"168\" width=\"140.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-08-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><text x=\"10\" y=\"246\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Folha 3</text><text x=\"310\" y=\"246\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">uma folha</text><rect x=\"20.00000\" y=\"258\" width=\"140.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-08-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"160.00000\" y=\"258\" width=\"140.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-08-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><text x=\"10\" y=\"336\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Folha 4</text><text x=\"310\" y=\"336\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">uma folha</text><rect x=\"20.00000\" y=\"348\" width=\"140.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-08-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"160.00000\" y=\"348\" width=\"140.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /></svg>",
+          "acessibilidade": "Folha 1: 2 de 2 partes iguais pintadas; uma folha; Folha 2: 2 de 2 partes iguais pintadas; uma folha; Folha 3: 2 de 2 partes iguais pintadas; uma folha; Folha 4: 1 de 2 partes iguais pintadas; uma folha As partes com pontos representam as regiões preenchidas; as partes brancas lisas não estão preenchidas.",
+          "geometria": {
+            "tipo": "barras",
+            "barras": [
+              {
+                "nome": "Folha 1",
+                "partes": 2,
+                "pintadas": 2,
+                "largura": 280,
+                "x": 20,
+                "y": 78
+              },
+              {
+                "nome": "Folha 2",
+                "partes": 2,
+                "pintadas": 2,
+                "largura": 280,
+                "x": 20,
+                "y": 168
+              },
+              {
+                "nome": "Folha 3",
+                "partes": 2,
+                "pintadas": 2,
+                "largura": 280,
+                "x": 20,
+                "y": 258
+              },
+              {
+                "nome": "Folha 4",
+                "partes": 2,
+                "pintadas": 1,
+                "largura": 280,
+                "x": 20,
+                "y": 348
+              }
+            ]
+          },
+          "acessibilidade_grafica": {
+            "codificacao": "textura_e_contorno",
+            "independente_de_cor": true,
+            "marcacoes": [
+              {
+                "padrao": "MFC7-B1-I-FR-08-contraste-pontos",
+                "tipo": "pontos",
+                "fundo": "#83c6c1",
+                "marca": "#173746",
+                "regioes": 7
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-FR-08-visual",
+          "arquivo": "recursos/FR-08.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-FR-09",
+      "numero": 9,
+      "titulo": "Uma simplificação que mudou a medida",
+      "assunto": "FR",
+      "assunto_nome": "Frações: significados, equivalência e comparação",
+      "subtema": "equivalencia",
+      "habilidade": "Identificar por que subtrair o mesmo valor não produz equivalência.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Um programa converteu corretamente 20/30 de uma medida em 10/15. Depois, subtraiu 5 do numerador e do denominador e passou a mostrar 5/10. Qual fração irredutível deveria continuar representando a medida original?",
+      "dados": {
+        "numerador": 20,
+        "denominador": 30
+      },
+      "modelo_verificacao": "frac(numerador,denominador)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2/3; é preciso dividir numerador e denominador pelo mesmo fator.",
+          "valor": "2/3",
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "1/2; subtrair 5 dos dois termos sempre conserva a fração.",
+          "valor": "1/2",
+          "erro_comum": "Supõe que subtrações iguais conservam a razão."
+        },
+        {
+          "letra": "C",
+          "texto": "1/3; basta reduzir apenas o numerador.",
+          "valor": "1/3",
+          "erro_comum": "Altera um só termo da fração."
+        },
+        {
+          "letra": "D",
+          "texto": "3/2; inverter os termos é uma forma de simplificar.",
+          "valor": "3/2",
+          "erro_comum": "Confunde simplificação com inversão."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "A medida original é 20/30 = 2/3, dividindo os dois termos por 10. O passo 20/30 = 10/15 é correto, pois dividiu ambos por 2. Mas 5/10 = 1/2 não é equivalente a 2/3. Subtrair o mesmo número dos dois termos, em geral, altera a fração.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/fracoes-e-seus-diferentes-significados.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Uma simplificação que mudou a medida"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "FR",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-FR-09"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-FR-10",
+      "numero": 10,
+      "titulo": "Qual registro está na faixa permitida?",
+      "assunto": "FR",
+      "assunto_nome": "Frações: significados, equivalência e comparação",
+      "subtema": "negativas",
+      "habilidade": "Interpretar frações negativas em uma reta e reconhecer limites excluídos.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Durante uma calibração, um controle aceita somente registros maiores que −1 e menores que −1/2. Os dois limites estão excluídos.\n\nA reta apresenta os registros dos instrumentos L, M e N. Quais registros podem ser aceitos?",
+      "dados": {
+        "nomes": [
+          "L",
+          "M",
+          "N"
+        ],
+        "valores": [
+          {
+            "fracao": [
+              -5,
+              6
+            ]
+          },
+          {
+            "fracao": [
+              -1,
+              3
+            ]
+          },
+          {
+            "fracao": [
+              2,
+              3
+            ]
+          }
+        ],
+        "a": -1,
+        "b": {
+          "fracao": [
+            -1,
+            2
+          ]
+        }
+      },
+      "modelo_verificacao": "[nomes[i] for i in range(len(nomes)) if a<valores[i]<b]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Somente M.",
+          "valor": [
+            "M"
+          ],
+          "erro_comum": "Considera o negativo mais próximo de zero como se fosse menor que −1/2."
+        },
+        {
+          "letra": "B",
+          "texto": "L e M.",
+          "valor": [
+            "L",
+            "M"
+          ],
+          "erro_comum": "Verifica apenas que os dois registros são negativos."
+        },
+        {
+          "letra": "C",
+          "texto": "Somente N.",
+          "valor": [
+            "N"
+          ],
+          "erro_comum": "Inverte o lado negativo e positivo da escala."
+        },
+        {
+          "letra": "D",
+          "texto": "Somente L.",
+          "valor": [
+            "L"
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Escrevendo os limites em sextos, −1 = −6/6 e −1/2 = −3/6. L está em −5/6, entre os dois limites. M está em −1/3 = −2/6, à direita do limite superior. N é positivo e também está fora da faixa. Logo, somente L é aceito.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/fracoes-e-seus-diferentes-significados.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Qual registro está na faixa permitida?"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de FR-02, FR-05, FR-07, FR-10, FR-12, FR-14, FR-17, FR-18 e FR-19; fitas proporcionais em FR-14; igualdade incluída em FR-07; participante imóvel na troca de unidade em FR-19.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "FR",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-FR-10"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Registros fracionários. Escala de -1 a 1, intervalo 1/2. L em -5/6; M em -1/3; N em 2/3. Marcas principais a cada 1/2 e subdivisões exatas a cada 1/6. Os limites −1 e −1/2 estão excluídos.\"><title>Registros fracionários</title><desc>Registros fracionários. Escala de -1 a 1, intervalo 1/2. L em -5/6; M em -1/3; N em 2/3. Marcas principais a cada 1/2 e subdivisões exatas a cada 1/6. Os limites −1 e −1/2 estão excluídos.</desc><rect width=\"320\" height=\"190\" fill=\"#fff\"/><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Registros fracionários</text><line x1=\"30\" x2=\"290\" y1=\"100\" y2=\"100\" stroke=\"#173746\" stroke-width=\"2\"/><line x1=\"30.0000\" x2=\"30.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"30.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-1</text><line x1=\"95.0000\" x2=\"95.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"95.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">-1/2</text><line x1=\"160.0000\" x2=\"160.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"160.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">0</text><line x1=\"225.0000\" x2=\"225.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"225.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">1/2</text><line x1=\"290.0000\" x2=\"290.0000\" y1=\"93\" y2=\"107\" stroke=\"#173746\"/><text x=\"290.0000\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">1</text><circle cx=\"51.6667\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"51.6667\" x2=\"51.6667\" y1=\"100\" y2=\"70\" stroke=\"#086a68\"/><text x=\"51.6667\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">L</text><circle cx=\"116.6667\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"116.6667\" x2=\"116.6667\" y1=\"100\" y2=\"147\" stroke=\"#086a68\"/><text x=\"116.6667\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">M</text><circle cx=\"246.6667\" cy=\"100\" r=\"4\" fill=\"#086a68\"/><line x1=\"246.6667\" x2=\"246.6667\" y1=\"100\" y2=\"70\" stroke=\"#086a68\"/><text x=\"246.6667\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">N</text><line data-subdivisao=\"true\" x1=\"51.6667\" x2=\"51.6667\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"73.3333\" x2=\"73.3333\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"116.6667\" x2=\"116.6667\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"138.3333\" x2=\"138.3333\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"181.6667\" x2=\"181.6667\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"203.3333\" x2=\"203.3333\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"246.6667\" x2=\"246.6667\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/><line data-subdivisao=\"true\" x1=\"268.3333\" x2=\"268.3333\" y1=\"97\" y2=\"103\" stroke=\"#173746\"/></svg>",
+          "acessibilidade": "Registros fracionários. Escala de -1 a 1, intervalo 1/2. L em -5/6; M em -1/3; N em 2/3. Marcas principais a cada 1/2 e subdivisões exatas a cada 1/6. Os limites −1 e −1/2 estão excluídos.",
+          "geometria": {
+            "tipo": "reta",
+            "inicio": "-1",
+            "fim": "1",
+            "passo": "1/2",
+            "pontos": [
+              {
+                "nome": "L",
+                "valor": "-5/6",
+                "x": 51.66666666666667
+              },
+              {
+                "nome": "M",
+                "valor": "-1/3",
+                "x": 116.66666666666667
+              },
+              {
+                "nome": "N",
+                "valor": "2/3",
+                "x": 246.66666666666666
+              }
+            ],
+            "marcas": [
+              {
+                "valor": "-1",
+                "x": 30.0
+              },
+              {
+                "valor": "-1/2",
+                "x": 95.0
+              },
+              {
+                "valor": "0",
+                "x": 160.0
+              },
+              {
+                "valor": "1/2",
+                "x": 225.0
+              },
+              {
+                "valor": "1",
+                "x": 290.0
+              }
+            ],
+            "subdivisoes": [
+              {
+                "valor": "-5/6",
+                "x": 51.666666666666664
+              },
+              {
+                "valor": "-2/3",
+                "x": 73.33333333333333
+              },
+              {
+                "valor": "-1/3",
+                "x": 116.66666666666666
+              },
+              {
+                "valor": "-1/6",
+                "x": 138.33333333333334
+              },
+              {
+                "valor": "1/6",
+                "x": 181.66666666666669
+              },
+              {
+                "valor": "1/3",
+                "x": 203.33333333333331
+              },
+              {
+                "valor": "2/3",
+                "x": 246.66666666666669
+              },
+              {
+                "valor": "5/6",
+                "x": 268.3333333333333
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-FR-10-visual",
+          "arquivo": "recursos/FR-10.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-FR-11",
+      "numero": 11,
+      "titulo": "Recuperando o inteiro de referência",
+      "assunto": "FR",
+      "assunto_nome": "Frações: significados, equivalência e comparação",
+      "subtema": "inteiro",
+      "habilidade": "Determinar o inteiro a partir da medida de uma fração dele.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Um recorte tem 6 cm de comprimento e corresponde a 3/8 de uma faixa original. O responsável precisa identificar o comprimento da faixa inteira antes de registrar a perda de material. Qual era esse comprimento?",
+      "dados": {
+        "recorte": 6,
+        "fracao": {
+          "fracao": [
+            3,
+            8
+          ]
+        }
+      },
+      "modelo_verificacao": "frac(recorte)/fracao",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "8 cm.",
+          "valor": "8",
+          "erro_comum": "Confunde o denominador com a medida do inteiro."
+        },
+        {
+          "letra": "B",
+          "texto": "48 cm.",
+          "valor": "48",
+          "erro_comum": "Multiplica por 8 sem dividir pelos três oitavos representados."
+        },
+        {
+          "letra": "C",
+          "texto": "16 cm.",
+          "valor": "16",
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "2,25 cm.",
+          "valor": "9/4",
+          "erro_comum": "Calcula 3/8 de 6, embora 6 já seja a parte."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Se três oitavos medem 6 cm, um oitavo mede 6 ÷ 3 = 2 cm. O inteiro possui oito oitavos, portanto mede 8 × 2 = 16 cm. Também podemos calcular 6 ÷ (3/8) = 16.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/fracoes-e-seus-diferentes-significados.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Recuperando o inteiro de referência"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "FR",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-FR-11"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-FR-12",
+      "numero": 12,
+      "titulo": "A mesma metade, avanços diferentes",
+      "assunto": "FR",
+      "assunto_nome": "Frações: significados, equivalência e comparação",
+      "subtema": "comparacao",
+      "habilidade": "Comparar frações com uma parte comum e inferir a ordem dos complementos.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Três projetos escolares já haviam concluído metade de suas etapas. Depois disso, cada um avançou a fração adicional indicada no quadro, sempre em relação ao projeto inteiro.\n\nO responsável visitará primeiro o projeto com a maior fração ainda não concluída e terminará pelo que tiver a menor.\n\nQual deve ser a ordem das visitas?",
+      "dados": {
+        "nomes": [
+          "P",
+          "Q",
+          "R"
+        ],
+        "parte_comum": {
+          "fracao": [
+            1,
+            2
+          ]
+        },
+        "adicionais": [
+          {
+            "fracao": [
+              1,
+              18
+            ]
+          },
+          {
+            "fracao": [
+              1,
+              12
+            ]
+          },
+          {
+            "fracao": [
+              1,
+              9
+            ]
+          }
+        ]
+      },
+      "modelo_verificacao": "ordenar(nomes,[parte_comum+v for v in adicionais])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "P → R → Q.",
+          "valor": [
+            "P",
+            "R",
+            "Q"
+          ],
+          "erro_comum": "Troca a comparação entre 1/12 e 1/9."
+        },
+        {
+          "letra": "B",
+          "texto": "P → Q → R.",
+          "valor": [
+            "P",
+            "Q",
+            "R"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "R → Q → P.",
+          "valor": [
+            "R",
+            "Q",
+            "P"
+          ],
+          "erro_comum": "Prioriza o maior avanço, invertendo o critério de visita."
+        },
+        {
+          "letra": "D",
+          "texto": "Q → P → R.",
+          "valor": [
+            "Q",
+            "P",
+            "R"
+          ],
+          "erro_comum": "Compara inadequadamente os denominadores das frações unitárias."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Os três projetos partiram da mesma metade. Basta comparar seus avanços adicionais: 1/18 < 1/12 < 1/9. P avançou menos e, portanto, tem mais a concluir. R avançou mais e tem menos a concluir. A ordem é P, Q e R. As partes concluídas são 1/2 + 1/18 = 5/9, 1/2 + 1/12 = 7/12 e 1/2 + 1/9 = 11/18. A comparação usa a parte comum sem exigir calcular três complementos separadamente.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/fracoes-e-seus-diferentes-significados.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "A mesma metade, avanços diferentes"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de FR-02, FR-05, FR-07, FR-10, FR-12, FR-14, FR-17, FR-18 e FR-19; fitas proporcionais em FR-14; igualdade incluída em FR-07; participante imóvel na troca de unidade em FR-19.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "FR",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-FR-12"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela_html",
+          "html": "<table class=\"mfc-tabela-responsiva\" role=\"table\"><caption>Metade concluída por todos; avanço adicional</caption><thead role=\"rowgroup\"><tr role=\"row\"><th role=\"columnheader\" scope=\"col\">Projeto</th><th role=\"columnheader\" scope=\"col\">Fração adicional do inteiro</th></tr></thead><tbody role=\"rowgroup\"><tr role=\"row\"><th role=\"rowheader\" scope=\"row\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Projeto\"></span><span>P</span></th><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Fração adicional do inteiro\"></span><span>1/18</span></td></tr><tr role=\"row\"><th role=\"rowheader\" scope=\"row\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Projeto\"></span><span>Q</span></th><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Fração adicional do inteiro\"></span><span>1/12</span></td></tr><tr role=\"row\"><th role=\"rowheader\" scope=\"row\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Projeto\"></span><span>R</span></th><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Fração adicional do inteiro\"></span><span>1/9</span></td></tr></tbody></table>",
+          "acessibilidade": "Metade concluída por todos; avanço adicional. Projeto: P, Fração adicional do inteiro: 1/18; Projeto: Q, Fração adicional do inteiro: 1/12; Projeto: R, Fração adicional do inteiro: 1/9",
+          "geometria": {
+            "tipo": "tabela",
+            "cabecalhos": [
+              "Projeto",
+              "Fração adicional do inteiro"
+            ],
+            "linhas": [
+              [
+                "P",
+                "1/18"
+              ],
+              [
+                "Q",
+                "1/12"
+              ],
+              [
+                "R",
+                "1/9"
+              ]
+            ]
+          },
+          "id": "MFC7-B1-I-FR-12-visual",
+          "arquivo": "recursos/FR-12.html",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-FR-13",
+      "numero": 13,
+      "titulo": "O acervo ganhou novas fotos",
+      "assunto": "FR",
+      "assunto_nome": "Frações: significados, equivalência e comparação",
+      "subtema": "significados",
+      "habilidade": "Aplicar uma fração a uma quantidade e atualizar numerador e total.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Um acervo tinha 30 fotos, das quais 2/5 eram diurnas. Foram acrescentadas seis fotos novas, todas diurnas. Qual fração do acervo atualizado é formada por fotos diurnas?",
+      "dados": {
+        "total": 30,
+        "fracao": {
+          "fracao": [
+            2,
+            5
+          ]
+        },
+        "novas": 6
+      },
+      "modelo_verificacao": "(total*fracao+novas)/(total+novas)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1/2.",
+          "valor": "1/2",
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "3/5.",
+          "valor": "3/5",
+          "erro_comum": "Acrescenta as fotos ao numerador, mas mantém o total antigo."
+        },
+        {
+          "letra": "C",
+          "texto": "2/5.",
+          "valor": "2/5",
+          "erro_comum": "Supõe que acrescentar apenas fotos diurnas conserva a proporção."
+        },
+        {
+          "letra": "D",
+          "texto": "1/3.",
+          "valor": "1/3",
+          "erro_comum": "Atualiza o total, mas não acrescenta as fotos diurnas ao numerador."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Inicialmente havia (2/5) × 30 = 12 fotos diurnas. Agora são 12 + 6 = 18 fotos diurnas em 30 + 6 = 36 fotos. A fração atualizada é 18/36 = 1/2. Tanto a quantidade de fotos diurnas como o total mudaram.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/fracoes-e-seus-diferentes-significados.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "O acervo ganhou novas fotos"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "FR",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-FR-13"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-FR-14",
+      "numero": 14,
+      "titulo": "Frações iguais, comprimentos diferentes",
+      "assunto": "FR",
+      "assunto_nome": "Frações: significados, equivalência e comparação",
+      "subtema": "equivalencia",
+      "habilidade": "Reconhecer equivalência sem confundir frações iguais com quantidades físicas iguais.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Para decorar a escola, duas equipes pintaram partes de fitas.\n\nA fita A mede 60 cm e foi dividida em seis partes iguais, das quais quatro foram pintadas.\nA fita B mede 90 cm e foi dividida em nove partes iguais, das quais seis foram pintadas.\n\nQual registro compara corretamente as frações e os comprimentos pintados?",
+      "dados": {
+        "nomes": [
+          "A",
+          "B"
+        ],
+        "comprimentos": [
+          60,
+          90
+        ],
+        "partes": [
+          6,
+          9
+        ],
+        "pintadas": [
+          4,
+          6
+        ]
+      },
+      "modelo_verificacao": "[frac(pintadas[0],partes[0])==frac(pintadas[1],partes[1]),rotulo_max(nomes,[comprimentos[i]*frac(pintadas[i],partes[i]) for i in range(2)]),abs(comprimentos[0]*frac(pintadas[0],partes[0])-comprimentos[1]*frac(pintadas[1],partes[1]))]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "B tem a maior fração pintada e 20 cm a mais de comprimento pintado.",
+          "valor": [
+            false,
+            "B",
+            "20"
+          ],
+          "erro_comum": "Compara numeradores sem reconhecer a equivalência."
+        },
+        {
+          "letra": "B",
+          "texto": "As frações são equivalentes e os comprimentos pintados são iguais.",
+          "valor": [
+            true,
+            "iguais",
+            "0"
+          ],
+          "erro_comum": "Conclui que frações equivalentes sempre correspondem à mesma quantidade física."
+        },
+        {
+          "letra": "C",
+          "texto": "A tem a maior fração pintada e 20 cm a mais de comprimento pintado.",
+          "valor": [
+            false,
+            "A",
+            "20"
+          ],
+          "erro_comum": "Compara denominadores isoladamente e inverte a comparação dos comprimentos."
+        },
+        {
+          "letra": "D",
+          "texto": "As frações são equivalentes, mas B tem 20 cm a mais de comprimento pintado.",
+          "valor": [
+            true,
+            "B",
+            "20"
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "As frações são equivalentes: 4/6 = 6/9 = 2/3. Entretanto, os inteiros têm comprimentos diferentes. Em A, cada parte mede 60 ÷ 6 = 10 cm; quatro partes correspondem a 40 cm. Em B, cada parte mede 90 ÷ 9 = 10 cm; seis partes correspondem a 60 cm. Portanto, B possui 60 − 40 = 20 cm a mais de pintura, embora as frações sejam equivalentes.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/fracoes-e-seus-diferentes-significados.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Frações iguais, comprimentos diferentes"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de FR-02, FR-05, FR-07, FR-10, FR-12, FR-14, FR-17, FR-18 e FR-19; fitas proporcionais em FR-14; igualdade incluída em FR-07; participante imóvel na troca de unidade em FR-19.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "FR",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-FR-14"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 320\" role=\"img\" aria-label=\"Duas fitas alinhadas à esquerda e representadas na mesma escala. A tem 60 cm e está dividida em seis partes iguais, das quais quatro estão pintadas. B tem 90 cm e está dividida em nove partes iguais, das quais seis estão pintadas. As partes com pontos representam as regiões preenchidas; as partes brancas lisas não estão preenchidas.\"><title>Fitas proporcionais</title><desc>Duas fitas alinhadas à esquerda e representadas na mesma escala. A tem 60 cm e está dividida em seis partes iguais, das quais quatro estão pintadas. B tem 90 cm e está dividida em nove partes iguais, das quais seis estão pintadas. As partes com pontos representam as regiões preenchidas; as partes brancas lisas não estão preenchidas.</desc><defs><pattern id=\"MFC7-B1-I-FR-14-contraste-pontos\" patternUnits=\"userSpaceOnUse\" width=\"8\" height=\"8\"><rect width=\"8\" height=\"8\" fill=\"#83c6c1\" /><circle cx=\"4\" cy=\"4\" r=\"1.5\" fill=\"#173746\" /></pattern></defs><rect width=\"320\" height=\"320\" fill=\"#fff\" /><text x=\"12\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Fitas com inteiros diferentes</text><text x=\"20\" y=\"80\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Fita A: 60 cm</text><rect data-fita=\"A\" data-pintada=\"true\" x=\"20.0\" y=\"100\" width=\"30.0\" height=\"34\" fill=\"url(#MFC7-B1-I-FR-14-contraste-pontos)\" stroke=\"#173746\" data-marcacao-acessivel=\"pontos\" /><rect data-fita=\"A\" data-pintada=\"true\" x=\"50.0\" y=\"100\" width=\"30.0\" height=\"34\" fill=\"url(#MFC7-B1-I-FR-14-contraste-pontos)\" stroke=\"#173746\" data-marcacao-acessivel=\"pontos\" /><rect data-fita=\"A\" data-pintada=\"true\" x=\"80.0\" y=\"100\" width=\"30.0\" height=\"34\" fill=\"url(#MFC7-B1-I-FR-14-contraste-pontos)\" stroke=\"#173746\" data-marcacao-acessivel=\"pontos\" /><rect data-fita=\"A\" data-pintada=\"true\" x=\"110.0\" y=\"100\" width=\"30.0\" height=\"34\" fill=\"url(#MFC7-B1-I-FR-14-contraste-pontos)\" stroke=\"#173746\" data-marcacao-acessivel=\"pontos\" /><rect data-fita=\"A\" data-pintada=\"false\" x=\"140.0\" y=\"100\" width=\"30.0\" height=\"34\" fill=\"#fff\" stroke=\"#173746\" /><rect data-fita=\"A\" data-pintada=\"false\" x=\"170.0\" y=\"100\" width=\"30.0\" height=\"34\" fill=\"#fff\" stroke=\"#173746\" /><text x=\"20\" y=\"200\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Fita B: 90 cm</text><rect data-fita=\"B\" data-pintada=\"true\" x=\"20.0\" y=\"220\" width=\"30.0\" height=\"34\" fill=\"url(#MFC7-B1-I-FR-14-contraste-pontos)\" stroke=\"#173746\" data-marcacao-acessivel=\"pontos\" /><rect data-fita=\"B\" data-pintada=\"true\" x=\"50.0\" y=\"220\" width=\"30.0\" height=\"34\" fill=\"url(#MFC7-B1-I-FR-14-contraste-pontos)\" stroke=\"#173746\" data-marcacao-acessivel=\"pontos\" /><rect data-fita=\"B\" data-pintada=\"true\" x=\"80.0\" y=\"220\" width=\"30.0\" height=\"34\" fill=\"url(#MFC7-B1-I-FR-14-contraste-pontos)\" stroke=\"#173746\" data-marcacao-acessivel=\"pontos\" /><rect data-fita=\"B\" data-pintada=\"true\" x=\"110.0\" y=\"220\" width=\"30.0\" height=\"34\" fill=\"url(#MFC7-B1-I-FR-14-contraste-pontos)\" stroke=\"#173746\" data-marcacao-acessivel=\"pontos\" /><rect data-fita=\"B\" data-pintada=\"true\" x=\"140.0\" y=\"220\" width=\"30.0\" height=\"34\" fill=\"url(#MFC7-B1-I-FR-14-contraste-pontos)\" stroke=\"#173746\" data-marcacao-acessivel=\"pontos\" /><rect data-fita=\"B\" data-pintada=\"true\" x=\"170.0\" y=\"220\" width=\"30.0\" height=\"34\" fill=\"url(#MFC7-B1-I-FR-14-contraste-pontos)\" stroke=\"#173746\" data-marcacao-acessivel=\"pontos\" /><rect data-fita=\"B\" data-pintada=\"false\" x=\"200.0\" y=\"220\" width=\"30.0\" height=\"34\" fill=\"#fff\" stroke=\"#173746\" /><rect data-fita=\"B\" data-pintada=\"false\" x=\"230.0\" y=\"220\" width=\"30.0\" height=\"34\" fill=\"#fff\" stroke=\"#173746\" /><rect data-fita=\"B\" data-pintada=\"false\" x=\"260.0\" y=\"220\" width=\"30.0\" height=\"34\" fill=\"#fff\" stroke=\"#173746\" /><text x=\"12\" y=\"295\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Pontos: parte pintada.</text></svg>",
+          "acessibilidade": "Duas fitas alinhadas à esquerda e representadas na mesma escala. A tem 60 cm e está dividida em seis partes iguais, das quais quatro estão pintadas. B tem 90 cm e está dividida em nove partes iguais, das quais seis estão pintadas. As partes com pontos representam as regiões preenchidas; as partes brancas lisas não estão preenchidas.",
+          "geometria": {
+            "tipo": "fitas_proporcionais_fr",
+            "escala_px_por_cm": 3,
+            "fitas": [
+              {
+                "nome": "A",
+                "comprimento_cm": 60,
+                "partes": 6,
+                "pintadas": 4,
+                "largura": 180,
+                "x": 20,
+                "y": 100
+              },
+              {
+                "nome": "B",
+                "comprimento_cm": 90,
+                "partes": 9,
+                "pintadas": 6,
+                "largura": 270,
+                "x": 20,
+                "y": 220
+              }
+            ]
+          },
+          "acessibilidade_grafica": {
+            "codificacao": "textura_e_contorno",
+            "independente_de_cor": true,
+            "marcacoes": [
+              {
+                "padrao": "MFC7-B1-I-FR-14-contraste-pontos",
+                "tipo": "pontos",
+                "fundo": "#83c6c1",
+                "marca": "#173746",
+                "regioes": 10
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-FR-14-visual",
+          "arquivo": "recursos/FR-14.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-FR-15",
+      "numero": 15,
+      "titulo": "Duas unidades para o mesmo estoque",
+      "assunto": "FR",
+      "assunto_nome": "Frações: significados, equivalência e comparação",
+      "subtema": "inteiro",
+      "habilidade": "Interpretar uma quantidade usando uma unidade simples e uma composta.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "As duas folhas do desenho são iguais. Um relatório usa uma folha como unidade; outro usa o conjunto das duas folhas como uma unidade. Qual par representa a parte azul, primeiro na unidade “uma folha” e depois na unidade “conjunto das duas folhas”?",
+      "dados": {
+        "pintadas": 9,
+        "partes_por_folha": 6,
+        "folhas": 2
+      },
+      "modelo_verificacao": "[frac(pintadas,partes_por_folha),frac(pintadas,partes_por_folha*folhas)]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3/2 e 3/2.",
+          "valor": [
+            "3/2",
+            "3/2"
+          ],
+          "erro_comum": "Mantém a fração apesar de o inteiro de referência dobrar."
+        },
+        {
+          "letra": "B",
+          "texto": "3/4 e 3/4.",
+          "valor": [
+            "3/4",
+            "3/4"
+          ],
+          "erro_comum": "Usa o conjunto de duas folhas como referência também no primeiro relatório."
+        },
+        {
+          "letra": "C",
+          "texto": "3/2 e 3/4.",
+          "valor": [
+            "3/2",
+            "3/4"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "3/4 e 3/2.",
+          "valor": [
+            "3/4",
+            "3/2"
+          ],
+          "erro_comum": "Inverte as unidades de referência."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "A parte azul contém nove sextos de uma folha: 9/6 = 3/2 de folha. O conjunto completo tem doze dessas partes; em relação a ele, a mesma quantidade é 9/12 = 3/4. O material não mudou; mudou o que cada relatório considera uma unidade.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/fracoes-e-seus-diferentes-significados.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Duas unidades para o mesmo estoque"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "FR",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-FR-15"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 246\" role=\"img\" aria-label=\"Folha A: 6 de 6 partes iguais pintadas; uma folha; Folha B: 3 de 6 partes iguais pintadas; uma folha As partes com pontos representam as regiões preenchidas; as partes brancas lisas não estão preenchidas.\"><title>Parte azul do estoque</title><desc>Folha A: 6 de 6 partes iguais pintadas; uma folha; Folha B: 3 de 6 partes iguais pintadas; uma folha As partes com pontos representam as regiões preenchidas; as partes brancas lisas não estão preenchidas.</desc><defs><pattern id=\"MFC7-B1-I-FR-15-contraste-pontos\" patternUnits=\"userSpaceOnUse\" width=\"8\" height=\"8\"><rect width=\"8\" height=\"8\" fill=\"#83c6c1\" /><circle cx=\"4\" cy=\"4\" r=\"1.5\" fill=\"#173746\" /></pattern></defs><rect width=\"320\" height=\"246\" fill=\"#fff\" /><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Parte azul do estoque</text><text x=\"10\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Folha A</text><text x=\"310\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">uma folha</text><rect x=\"20.00000\" y=\"78\" width=\"46.66667\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-15-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"66.66667\" y=\"78\" width=\"46.66667\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-15-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"113.33333\" y=\"78\" width=\"46.66667\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-15-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"160.00000\" y=\"78\" width=\"46.66667\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-15-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"206.66667\" y=\"78\" width=\"46.66667\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-15-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"253.33333\" y=\"78\" width=\"46.66667\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-15-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><text x=\"10\" y=\"156\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Folha B</text><text x=\"310\" y=\"156\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">uma folha</text><rect x=\"20.00000\" y=\"168\" width=\"46.66667\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-15-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"66.66667\" y=\"168\" width=\"46.66667\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-15-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"113.33333\" y=\"168\" width=\"46.66667\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-15-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"160.00000\" y=\"168\" width=\"46.66667\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"206.66667\" y=\"168\" width=\"46.66667\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"253.33333\" y=\"168\" width=\"46.66667\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /></svg>",
+          "acessibilidade": "Folha A: 6 de 6 partes iguais pintadas; uma folha; Folha B: 3 de 6 partes iguais pintadas; uma folha As partes com pontos representam as regiões preenchidas; as partes brancas lisas não estão preenchidas.",
+          "geometria": {
+            "tipo": "barras",
+            "barras": [
+              {
+                "nome": "Folha A",
+                "partes": 6,
+                "pintadas": 6,
+                "largura": 280,
+                "x": 20,
+                "y": 78
+              },
+              {
+                "nome": "Folha B",
+                "partes": 6,
+                "pintadas": 3,
+                "largura": 280,
+                "x": 20,
+                "y": 168
+              }
+            ]
+          },
+          "acessibilidade_grafica": {
+            "codificacao": "textura_e_contorno",
+            "independente_de_cor": true,
+            "marcacoes": [
+              {
+                "padrao": "MFC7-B1-I-FR-15-contraste-pontos",
+                "tipo": "pontos",
+                "fundo": "#83c6c1",
+                "marca": "#173746",
+                "regioes": 9
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-FR-15-visual",
+          "arquivo": "recursos/FR-15.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-FR-16",
+      "numero": 16,
+      "titulo": "Do que foi recebido, o que está guardado?",
+      "assunto": "FR",
+      "assunto_nome": "Frações: significados, equivalência e comparação",
+      "subtema": "significados",
+      "habilidade": "Recuperar uma quantidade e interpretar uma fração de um total acumulado.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "O registro mostra uma retirada do lote inicial, o que restou e uma chegada posterior. Considerando como inteiro todas as peças recebidas desde o início, incluindo a chegada posterior, que fração desse total ainda está guardada?",
+      "dados": {
+        "fracao_usada": {
+          "fracao": [
+            2,
+            3
+          ]
+        },
+        "restaram": 6,
+        "chegaram": 3
+      },
+      "modelo_verificacao": "frac(restaram+chegaram)/(frac(restaram)/(1-fracao_usada)+chegaram)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2/7.",
+          "valor": "2/7",
+          "erro_comum": "Atualiza o total recebido, mas não inclui as três novas peças no estoque."
+        },
+        {
+          "letra": "B",
+          "texto": "3/7.",
+          "valor": "3/7",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "1/2.",
+          "valor": "1/2",
+          "erro_comum": "Compara as nove peças atuais apenas com as 18 recebidas inicialmente."
+        },
+        {
+          "letra": "D",
+          "texto": "1/3.",
+          "valor": "1/3",
+          "erro_comum": "Mantém a fração restante anterior à nova chegada."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Se foram usados 2/3, os seis que restaram eram 1/3 do lote inicial. Logo, o lote inicial tinha 18 peças. Ao todo, foram recebidas 18 + 3 = 21 peças, das quais 6 + 3 = 9 estão guardadas. A fração é 9/21 = 3/7.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/fracoes-e-seus-diferentes-significados.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Do que foi recebido, o que está guardado?"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "FR",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-FR-16"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 325\" role=\"img\" aria-label=\"Histórico do material. Uso inicial: Foram usados 2/3 do lote; depois, Depois do uso: Restaram 6 peças; depois, Nova chegada: Mais 3 peças, todas guardadas\"><title>Histórico do material</title><desc>Histórico do material. Uso inicial: Foram usados 2/3 do lote; depois, Depois do uso: Restaram 6 peças; depois, Nova chegada: Mais 3 peças, todas guardadas</desc><rect width=\"320\" height=\"325\" fill=\"#fff\"/><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Histórico do material</text><rect x=\"20\" y=\"55\" width=\"280\" height=\"67\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"32\" y=\"80\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Uso inicial</text><text x=\"32\" y=\"106\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Foram usados 2/3 do lote</text><path d=\"M160 122 v20 m-5 -5 l5 5 l5 -5\" fill=\"none\" stroke=\"#173746\"/><rect x=\"20\" y=\"145\" width=\"280\" height=\"67\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"32\" y=\"170\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Depois do uso</text><text x=\"32\" y=\"196\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Restaram 6 peças</text><path d=\"M160 212 v20 m-5 -5 l5 5 l5 -5\" fill=\"none\" stroke=\"#173746\"/><rect x=\"20\" y=\"235\" width=\"280\" height=\"67\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"32\" y=\"260\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Nova chegada</text><text x=\"32\" y=\"286\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Mais 3 peças, todas guardadas</text></svg>",
+          "acessibilidade": "Histórico do material. Uso inicial: Foram usados 2/3 do lote; depois, Depois do uso: Restaram 6 peças; depois, Nova chegada: Mais 3 peças, todas guardadas",
+          "geometria": {
+            "tipo": "etapas",
+            "items": [
+              [
+                "Uso inicial",
+                "Foram usados 2/3 do lote"
+              ],
+              [
+                "Depois do uso",
+                "Restaram 6 peças"
+              ],
+              [
+                "Nova chegada",
+                "Mais 3 peças, todas guardadas"
+              ]
+            ]
+          },
+          "id": "MFC7-B1-I-FR-16-visual",
+          "arquivo": "recursos/FR-16.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-FR-17",
+      "numero": 17,
+      "titulo": "Comparar e indicar o ajuste",
+      "assunto": "FR",
+      "assunto_nome": "Frações: significados, equivalência e comparação",
+      "subtema": "negativas",
+      "habilidade": "Comparar frações negativas, determinar a diferença e interpretar o sentido de um ajuste.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "Em um painel de treinamento, dois instrumentos usam a mesma referência zero. A registra −4/7 de unidade e B registra −5/9.\n\nO programa deve escolher o maior registro como referência. Depois, deve indicar o ajuste que será aplicado ao outro registro para igualá-lo à referência escolhida.\n\nQual relatório está correto?",
+      "dados": {
+        "nomes": [
+          "A",
+          "B"
+        ],
+        "valores": [
+          {
+            "fracao": [
+              -4,
+              7
+            ]
+          },
+          {
+            "fracao": [
+              -5,
+              9
+            ]
+          }
+        ]
+      },
+      "modelo_verificacao": "[rotulo_max(nomes,valores),rotulo_min(nomes,valores),max(valores)-min(valores)]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Usar B como referência e acrescentar 1/63 de unidade ao registro de A.",
+          "valor": [
+            "B",
+            "A",
+            "1/63"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Usar A como referência e acrescentar 1/63 de unidade ao registro de B.",
+          "valor": [
+            "A",
+            "B",
+            "1/63"
+          ],
+          "erro_comum": "Inverte a comparação entre os registros negativos."
+        },
+        {
+          "letra": "C",
+          "texto": "Usar B como referência e acrescentar 1/2 de unidade ao registro de A.",
+          "valor": [
+            "B",
+            "A",
+            "1/2"
+          ],
+          "erro_comum": "Obtém 1/2 ao trabalhar indevidamente com diferenças de numeradores e denominadores."
+        },
+        {
+          "letra": "D",
+          "texto": "Usar B como referência e retirar 1/63 de unidade do registro de A.",
+          "valor": [
+            "B",
+            "A",
+            "-1/63"
+          ],
+          "erro_comum": "Identifica a diferença, mas aplica o ajuste no sentido contrário."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Com denominador comum, −4/7 = −36/63 e −5/9 = −35/63. Como −35 > −36, B apresenta o maior registro. Para levar A até B, precisamos acrescentar −35/63 − (−36/63) = 1/63. A escolha exige distinguir maior valor de maior módulo e interpretar a direção da correção.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/fracoes-e-seus-diferentes-significados.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Comparar e indicar o ajuste"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de FR-02, FR-05, FR-07, FR-10, FR-12, FR-14, FR-17, FR-18 e FR-19; fitas proporcionais em FR-14; igualdade incluída em FR-07; participante imóvel na troca de unidade em FR-19.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "FR",
+        "nivel": "dificil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-FR-17"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-FR-18",
+      "numero": 18,
+      "titulo": "O próximo avanço será suficiente?",
+      "assunto": "FR",
+      "assunto_nome": "Frações: significados, equivalência e comparação",
+      "subtema": "comparacao",
+      "habilidade": "Interpretar um avanço adicional como fração do trajeto inteiro e avaliar a conclusão de um percurso.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "Duas equipes participam de uma caminhada em trajetos de mesmo comprimento total. A equipe A já percorreu 5/8 de seu trajeto; a equipe B, 7/12.\n\nNa próxima etapa, cada equipe poderá percorrer mais uma distância correspondente a 3/8 do trajeto inteiro. Quem alcançar a chegada encerra o percurso.\n\nQual será a situação depois dessa etapa?",
+      "dados": {
+        "nomes": [
+          "A",
+          "B"
+        ],
+        "percorridas": [
+          {
+            "fracao": [
+              5,
+              8
+            ]
+          },
+          {
+            "fracao": [
+              7,
+              12
+            ]
+          }
+        ],
+        "avanco": {
+          "fracao": [
+            3,
+            8
+          ]
+        }
+      },
+      "modelo_verificacao": "[[nomes[i] for i in range(len(nomes)) if percorridas[i]+avanco>=1],1-percorridas[1]-avanco]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "B termina; A ainda precisa percorrer 1/24 do trajeto.",
+          "valor": [
+            [
+              "B"
+            ],
+            "1/24"
+          ],
+          "erro_comum": "Inverte qual equipe alcança a chegada."
+        },
+        {
+          "letra": "B",
+          "texto": "A termina; B ainda precisa percorrer 1/2 do trajeto.",
+          "valor": [
+            [
+              "A"
+            ],
+            "1/2"
+          ],
+          "erro_comum": "Subtrai indevidamente numeradores e denominadores ao calcular 5/12 − 3/8, obtendo 2/4."
+        },
+        {
+          "letra": "C",
+          "texto": "B termina; A ainda precisa percorrer 1/2 do trajeto.",
+          "valor": [
+            [
+              "B"
+            ],
+            "1/2"
+          ],
+          "erro_comum": "Combina a inversão das equipes com a subtração incorreta."
+        },
+        {
+          "letra": "D",
+          "texto": "A termina; B ainda precisa percorrer 1/24 do trajeto.",
+          "valor": [
+            [
+              "A"
+            ],
+            "1/24"
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Para A, 5/8 + 3/8 = 1: a equipe alcança exatamente a chegada. Para B, 7/12 + 3/8 = 14/24 + 9/24 = 23/24. Portanto, B ainda precisa percorrer 1/24 do trajeto. É necessário verificar se o avanço disponível, medido em relação ao trajeto inteiro, completa cada percurso.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/fracoes-e-seus-diferentes-significados.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "O próximo avanço será suficiente?"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de FR-02, FR-05, FR-07, FR-10, FR-12, FR-14, FR-17, FR-18 e FR-19; fitas proporcionais em FR-14; igualdade incluída em FR-07; participante imóvel na troca de unidade em FR-19.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "FR",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-FR-18"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 336\" role=\"img\" aria-label=\"Equipe A: 5 de 8 partes iguais pintadas; trajeto inteiro; Equipe B: 7 de 12 partes iguais pintadas; trajeto inteiro; Avanço: 3 de 8 partes iguais pintadas; para cada equipe. A textura da terceira barra indica avanço disponível de 3/8 do trajeto inteiro para cada equipe, ainda não percorrido. Todos os inteiros desenhados têm o mesmo comprimento. Pontos identificam o percurso já realizado; hachuras identificam somente o avanço disponível. As partes brancas lisas não estão destacadas.\"><title>Percursos e avanço disponível</title><desc>Equipe A: 5 de 8 partes iguais pintadas; trajeto inteiro; Equipe B: 7 de 12 partes iguais pintadas; trajeto inteiro; Avanço: 3 de 8 partes iguais pintadas; para cada equipe. A textura da terceira barra indica avanço disponível de 3/8 do trajeto inteiro para cada equipe, ainda não percorrido. Todos os inteiros desenhados têm o mesmo comprimento. Pontos identificam o percurso já realizado; hachuras identificam somente o avanço disponível. As partes brancas lisas não estão destacadas.</desc><defs><pattern id=\"MFC7-B1-I-FR-18-contraste-pontos\" patternUnits=\"userSpaceOnUse\" width=\"8\" height=\"8\"><rect width=\"8\" height=\"8\" fill=\"#83c6c1\" /><circle cx=\"4\" cy=\"4\" r=\"1.5\" fill=\"#173746\" /></pattern></defs><rect width=\"320\" height=\"336\" fill=\"#fff\" /><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Percursos e avanço disponível</text><text x=\"10\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Equipe A</text><text x=\"310\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">trajeto inteiro</text><rect x=\"20.00000\" y=\"78\" width=\"35.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-18-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"55.00000\" y=\"78\" width=\"35.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-18-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"90.00000\" y=\"78\" width=\"35.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-18-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"125.00000\" y=\"78\" width=\"35.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-18-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"160.00000\" y=\"78\" width=\"35.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-18-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"195.00000\" y=\"78\" width=\"35.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"230.00000\" y=\"78\" width=\"35.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"265.00000\" y=\"78\" width=\"35.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><text x=\"10\" y=\"156\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Equipe B</text><text x=\"310\" y=\"156\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">trajeto inteiro</text><rect x=\"20.00000\" y=\"168\" width=\"23.33333\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-18-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"43.33333\" y=\"168\" width=\"23.33333\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-18-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"66.66667\" y=\"168\" width=\"23.33333\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-18-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"90.00000\" y=\"168\" width=\"23.33333\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-18-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"113.33333\" y=\"168\" width=\"23.33333\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-18-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"136.66667\" y=\"168\" width=\"23.33333\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-18-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"160.00000\" y=\"168\" width=\"23.33333\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-18-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"183.33333\" y=\"168\" width=\"23.33333\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"206.66667\" y=\"168\" width=\"23.33333\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"230.00000\" y=\"168\" width=\"23.33333\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"253.33333\" y=\"168\" width=\"23.33333\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"276.66667\" y=\"168\" width=\"23.33333\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><text x=\"10\" y=\"246\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Avanço</text><text x=\"310\" y=\"246\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">para cada equipe</text><rect x=\"20.00000\" y=\"258\" width=\"35.00000\" height=\"32\" fill=\"url(#fr18-avanco)\" stroke=\"#173746\" data-pintada=\"true\" /><rect x=\"55.00000\" y=\"258\" width=\"35.00000\" height=\"32\" fill=\"url(#fr18-avanco)\" stroke=\"#173746\" data-pintada=\"true\" /><rect x=\"90.00000\" y=\"258\" width=\"35.00000\" height=\"32\" fill=\"url(#fr18-avanco)\" stroke=\"#173746\" data-pintada=\"true\" /><rect x=\"125.00000\" y=\"258\" width=\"35.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"160.00000\" y=\"258\" width=\"35.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"195.00000\" y=\"258\" width=\"35.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"230.00000\" y=\"258\" width=\"35.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"265.00000\" y=\"258\" width=\"35.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><defs><pattern id=\"fr18-avanco\" patternUnits=\"userSpaceOnUse\" width=\"6\" height=\"6\"><rect width=\"6\" height=\"6\" fill=\"#d7e8ed\" /><path d=\"M-1 1 L1 -1 M0 6 L6 0 M5 7 L7 5\" stroke=\"#456775\" stroke-width=\"1\" /></pattern></defs></svg>",
+          "acessibilidade": "Equipe A: 5 de 8 partes iguais pintadas; trajeto inteiro; Equipe B: 7 de 12 partes iguais pintadas; trajeto inteiro; Avanço: 3 de 8 partes iguais pintadas; para cada equipe. A textura da terceira barra indica avanço disponível de 3/8 do trajeto inteiro para cada equipe, ainda não percorrido. Todos os inteiros desenhados têm o mesmo comprimento. Pontos identificam o percurso já realizado; hachuras identificam somente o avanço disponível. As partes brancas lisas não estão destacadas.",
+          "geometria": {
+            "tipo": "barras",
+            "barras": [
+              {
+                "nome": "Equipe A",
+                "partes": 8,
+                "pintadas": 5,
+                "largura": 280,
+                "x": 20,
+                "y": 78
+              },
+              {
+                "nome": "Equipe B",
+                "partes": 12,
+                "pintadas": 7,
+                "largura": 280,
+                "x": 20,
+                "y": 168
+              },
+              {
+                "nome": "Avanço",
+                "partes": 8,
+                "pintadas": 3,
+                "largura": 280,
+                "x": 20,
+                "y": 258
+              }
+            ]
+          },
+          "acessibilidade_grafica": {
+            "codificacao": "textura_e_contorno",
+            "independente_de_cor": true,
+            "marcacoes": [
+              {
+                "padrao": "MFC7-B1-I-FR-18-contraste-pontos",
+                "tipo": "pontos",
+                "fundo": "#83c6c1",
+                "marca": "#173746",
+                "regioes": 12
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-FR-18-visual",
+          "arquivo": "recursos/FR-18.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-FR-19",
+      "numero": 19,
+      "titulo": "A posição mudou; a unidade também",
+      "assunto": "FR",
+      "assunto_nome": "Frações: significados, equivalência e comparação",
+      "subtema": "negativas",
+      "habilidade": "Combinar deslocamento fracionário e mudança de unidade, preservando origem e orientação.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "Em uma atividade de localização no corredor da escola, a origem está marcada no chão e o sentido positivo aponta para a direita.\n\nUma participante está na coordenada −3/4 da unidade usada na atividade. Ela caminha para a esquerda uma distância de 1/2 dessa mesma unidade.\n\nDepois, o painel passa a usar uma nova unidade de comprimento, equivalente a duas unidades antigas. A origem e o sentido positivo permanecem iguais. A participante permanece exatamente na mesma posição física durante a mudança da unidade de medida.\n\nQual coordenada o painel deve mostrar na nova unidade?",
+      "dados": {
+        "inicial": {
+          "fracao": [
+            -3,
+            4
+          ]
+        },
+        "deslocamento": {
+          "fracao": [
+            -1,
+            2
+          ]
+        },
+        "unidade_nova_em_antigas": 2,
+        "participante_imovel_na_troca": true,
+        "origem_fixa": true
+      },
+      "modelo_verificacao": "(inicial+deslocamento)/unidade_nova_em_antigas",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "−1/8.",
+          "valor": "-1/8",
+          "erro_comum": "Interpreta o movimento como sendo para a direita e depois converte a unidade."
+        },
+        {
+          "letra": "B",
+          "texto": "−5/4.",
+          "valor": "-5/4",
+          "erro_comum": "Calcula a nova posição, mas não faz a mudança de unidade."
+        },
+        {
+          "letra": "C",
+          "texto": "−5/8.",
+          "valor": "-5/8",
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "−7/8.",
+          "valor": "-7/8",
+          "erro_comum": "Converte a posição inicial para −3/8, mas trata o deslocamento antigo de 1/2 como se já estivesse na unidade nova."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Primeiro, calculamos a posição após caminhar para a esquerda: −3/4 − 1/2 = −3/4 − 2/4 = −5/4 na unidade antiga. A unidade nova é duas vezes maior. Assim, a mesma posição física corresponde à metade do valor numérico anterior: (−5/4) ÷ 2 = −5/8. O sinal permanece negativo porque a participante continua à esquerda da mesma origem; ela não se move durante a troca de unidade.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/fracoes-e-seus-diferentes-significados.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "A posição mudou; a unidade também"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de FR-02, FR-05, FR-07, FR-10, FR-12, FR-14, FR-17, FR-18 e FR-19; fitas proporcionais em FR-14; igualdade incluída em FR-07; participante imóvel na troca de unidade em FR-19.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "FR",
+        "nivel": "dificil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-FR-19"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-FR-20",
+      "numero": 20,
+      "titulo": "A reserva não é a pintura pronta",
+      "assunto": "FR",
+      "assunto_nome": "Frações: significados, equivalência e comparação",
+      "subtema": "comparacao",
+      "habilidade": "Compatibilizar significados antes de comparar frações de um mesmo inteiro.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "Os painéis A e B têm o mesmo tamanho. Em A, a parte azul do desenho é apenas a região reservada; serão pintados 2/3 dessa região. Em B, o azul já representa a pintura pronta. Depois de concluir a pintura prevista para A, qual painel terá a maior parte pintada e qual será a diferença em relação ao painel inteiro?",
+      "dados": {
+        "nomes": [
+          "A",
+          "B"
+        ],
+        "reserva_a": {
+          "fracao": [
+            3,
+            4
+          ]
+        },
+        "pintura_na_reserva": {
+          "fracao": [
+            2,
+            3
+          ]
+        },
+        "pintura_b": {
+          "fracao": [
+            3,
+            5
+          ]
+        }
+      },
+      "modelo_verificacao": "[rotulo_max(nomes,[reserva_a*pintura_na_reserva,pintura_b]),abs(reserva_a*pintura_na_reserva-pintura_b)]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A; a diferença será 1/10 do painel.",
+          "valor": [
+            "A",
+            "1/10"
+          ],
+          "erro_comum": "Obtém a diferença correta, mas inverte a comparação."
+        },
+        {
+          "letra": "B",
+          "texto": "B; a diferença será 1/10 do painel.",
+          "valor": [
+            "B",
+            "1/10"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "A; a diferença será 3/20 do painel.",
+          "valor": [
+            "A",
+            "3/20"
+          ],
+          "erro_comum": "Compara toda a reserva de A com a pintura pronta de B."
+        },
+        {
+          "letra": "D",
+          "texto": "B; a diferença será 3/20 do painel.",
+          "valor": [
+            "B",
+            "3/20"
+          ],
+          "erro_comum": "Escolhe o painel correto, mas usa a reserva na subtração."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "A região reservada de A corresponde a 3/4 do painel. A pintura ocupará 2/3 dessa reserva, isto é, (2/3) × (3/4) = 1/2 do painel. Em B, a pintura já ocupa 3/5. Como 3/5 = 6/10 e 1/2 = 5/10, B terá a maior parte pintada, com diferença de 1/10. As duas áreas azuis do desenho têm significados diferentes, explicitados nas legendas.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/fracoes-e-seus-diferentes-significados.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "A reserva não é a pintura pronta"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "FR",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-FR-20"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 246\" role=\"img\" aria-label=\"Painéis A e B de mesmo tamanho. A: 3 de 4 partes iguais reservadas, em azul claro hachurado; a hachura representa apenas reserva, não pintura concluída. B: 3 de 5 partes iguais já pintadas, em preenchimento azul uniforme. As legendas distinguem os dois significados; a pintura futura de A não está desenhada. A reserva do painel A tem hachuras; a pintura concluída do painel B tem pontos. As partes brancas lisas não estão destacadas.\"><title>Atenção às legendas</title><desc>Painéis A e B de mesmo tamanho. A: 3 de 4 partes iguais reservadas, em azul claro hachurado; a hachura representa apenas reserva, não pintura concluída. B: 3 de 5 partes iguais já pintadas, em preenchimento azul uniforme. As legendas distinguem os dois significados; a pintura futura de A não está desenhada. A reserva do painel A tem hachuras; a pintura concluída do painel B tem pontos. As partes brancas lisas não estão destacadas.</desc><defs><pattern id=\"MFC7-B1-I-FR-20-contraste-pontos\" patternUnits=\"userSpaceOnUse\" width=\"8\" height=\"8\"><rect width=\"8\" height=\"8\" fill=\"#83c6c1\" /><circle cx=\"4\" cy=\"4\" r=\"1.5\" fill=\"#173746\" /></pattern></defs><defs><pattern id=\"fr20-reserva\" width=\"8\" height=\"8\" patternUnits=\"userSpaceOnUse\"><rect width=\"8\" height=\"8\" fill=\"#e4f3f5\" /><path d=\"M-2 2 L2 -2 M0 8 L8 0 M6 10 L10 6\" stroke=\"#315c70\" stroke-width=\"1.2\" /></pattern></defs><rect width=\"320\" height=\"246\" fill=\"#fff\" /><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Atenção às legendas</text><text x=\"10\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Painel A</text><text x=\"310\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">só reserva</text><rect x=\"20.00000\" y=\"78\" width=\"70.00000\" height=\"32\" fill=\"url(#fr20-reserva)\" stroke=\"#173746\" data-pintada=\"true\" /><rect x=\"90.00000\" y=\"78\" width=\"70.00000\" height=\"32\" fill=\"url(#fr20-reserva)\" stroke=\"#173746\" data-pintada=\"true\" /><rect x=\"160.00000\" y=\"78\" width=\"70.00000\" height=\"32\" fill=\"url(#fr20-reserva)\" stroke=\"#173746\" data-pintada=\"true\" /><rect x=\"230.00000\" y=\"78\" width=\"70.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><text x=\"10\" y=\"156\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Painel B</text><text x=\"310\" y=\"156\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#173746\">pintura pronta</text><rect x=\"20.00000\" y=\"168\" width=\"56.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-20-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"76.00000\" y=\"168\" width=\"56.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-20-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"132.00000\" y=\"168\" width=\"56.00000\" height=\"32\" fill=\"url(#MFC7-B1-I-FR-20-contraste-pontos)\" stroke=\"#173746\" data-pintada=\"true\" data-marcacao-acessivel=\"pontos\" /><rect x=\"188.00000\" y=\"168\" width=\"56.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /><rect x=\"244.00000\" y=\"168\" width=\"56.00000\" height=\"32\" fill=\"#fff\" stroke=\"#173746\" data-pintada=\"false\" /></svg>",
+          "acessibilidade": "Painéis A e B de mesmo tamanho. A: 3 de 4 partes iguais reservadas, em azul claro hachurado; a hachura representa apenas reserva, não pintura concluída. B: 3 de 5 partes iguais já pintadas, em preenchimento azul uniforme. As legendas distinguem os dois significados; a pintura futura de A não está desenhada. A reserva do painel A tem hachuras; a pintura concluída do painel B tem pontos. As partes brancas lisas não estão destacadas.",
+          "geometria": {
+            "tipo": "barras",
+            "barras": [
+              {
+                "nome": "Painel A",
+                "partes": 4,
+                "pintadas": 3,
+                "largura": 280,
+                "x": 20,
+                "y": 78
+              },
+              {
+                "nome": "Painel B",
+                "partes": 5,
+                "pintadas": 3,
+                "largura": 280,
+                "x": 20,
+                "y": 168
+              }
+            ],
+            "significados": {
+              "A": "reserva_nao_pintura",
+              "B": "pintura_concluida"
+            }
+          },
+          "acessibilidade_grafica": {
+            "codificacao": "textura_e_contorno",
+            "independente_de_cor": true,
+            "marcacoes": [
+              {
+                "padrao": "MFC7-B1-I-FR-20-contraste-pontos",
+                "tipo": "pontos",
+                "fundo": "#83c6c1",
+                "marca": "#173746",
+                "regioes": 3
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-FR-20-visual",
+          "arquivo": "recursos/FR-20.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    }
+  ]
+}

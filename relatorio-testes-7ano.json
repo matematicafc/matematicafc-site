@@ -1,0 +1,177 @@
+{
+  "data": "2026-10-15",
+  "origem": "8495ccf19fff00146e8b9a549d92e462e8f44860",
+  "arquivos_execucao": 29,
+  "questoes": 100,
+  "conteudo_pedagogico": "Comparado com o commit de inspeção; sem alterações em enunciados, alternativas, respostas, resoluções, classificações ou recursos. Somente metadados de revisão/ativação promovidos pela autorização de publicação.",
+  "sorteio_producao": {
+    "aplicacoes": 10000,
+    "selecoes": 300000,
+    "visuais": {
+      "minimo": 15,
+      "maximo": 26,
+      "media": 19.5777
+    },
+    "dificuldadesPorAplicacao": [
+      8,
+      14,
+      8
+    ],
+    "questoesPorAssunto": 6,
+    "conjuntosDistintos": 10000,
+    "permutacoes": 24,
+    "gabaritos": {
+      "A": 74988,
+      "B": 74884,
+      "C": 75154,
+      "D": 74974
+    },
+    "violacoes": 0
+  },
+  "testes_unitarios_selecao": {
+    "aprovados": 8,
+    "falhas": 0
+  },
+  "regressao_6ano": {
+    "aprovados": 10,
+    "falhas": 0,
+    "24_arquivos_preservados": true
+  },
+  "navegador": [
+    {
+      "publicacao": true,
+      "prefixo": "",
+      "arquivos": 29,
+      "questoesBanco": 100,
+      "porAssunto": {
+        "DP": 6,
+        "NI": 6,
+        "OI": 6,
+        "FR": 6,
+        "NR": 6
+      },
+      "dificuldades": {
+        "facil": 8,
+        "media": 14,
+        "dificil": 8
+      },
+      "selecionadas": 30,
+      "visuais": 19,
+      "acertos": 8,
+      "erros": 22,
+      "resolucoesPDF": 30,
+      "resolucoesImpressao": 30,
+      "fonteImpressaoCarregada": true,
+      "novaAplicacao": true,
+      "requisicoesExternas": [],
+      "falhas": [],
+      "WindowsTestado": false
+    },
+    {
+      "publicacao": true,
+      "prefixo": "/matematicafc-site",
+      "arquivos": 29,
+      "questoesBanco": 100,
+      "porAssunto": {
+        "DP": 6,
+        "NI": 6,
+        "OI": 6,
+        "FR": 6,
+        "NR": 6
+      },
+      "dificuldades": {
+        "facil": 8,
+        "media": 14,
+        "dificil": 8
+      },
+      "selecionadas": 30,
+      "visuais": 19,
+      "acertos": 8,
+      "erros": 22,
+      "resolucoesPDF": 30,
+      "resolucoesImpressao": 30,
+      "fonteImpressaoCarregada": true,
+      "novaAplicacao": true,
+      "requisicoesExternas": [],
+      "falhas": [],
+      "WindowsTestado": false
+    }
+  ],
+  "acessibilidade": {
+    "axe": "4.10.3",
+    "estados": [
+      {
+        "nome": "início",
+        "violacoes": [],
+        "incompletos": []
+      },
+      {
+        "nome": "questão",
+        "violacoes": [],
+        "incompletos": []
+      },
+      {
+        "nome": "diálogo",
+        "violacoes": [],
+        "incompletos": []
+      },
+      {
+        "nome": "questão-320",
+        "violacoes": [],
+        "incompletos": [
+          {
+            "id": "color-contrast",
+            "nos": 1
+          }
+        ]
+      },
+      {
+        "nome": "resultado-320",
+        "violacoes": [],
+        "incompletos": []
+      },
+      {
+        "nome": "gabarito-320",
+        "violacoes": [],
+        "incompletos": []
+      }
+    ],
+    "recursos": 60,
+    "violacoes_recursos": 0,
+    "teclado_30_questoes": true,
+    "leitor_tela_humano": false,
+    "observacao": "Axe, inspeção DOM e teclado automatizado não substituem testes humanos com tecnologias assistivas."
+  },
+  "dependencias": {
+    "faltantes": [],
+    "referencias_indevidas": [],
+    "jsPDF": "4.2.1",
+    "plugins_opcionais_nao_utilizados": [
+      {
+        "de": "7-ano/bloco-1/interface/vendor/jspdf.mjs",
+        "para": "html2canvas",
+        "tipo": "ImportExpression"
+      },
+      {
+        "de": "7-ano/bloco-1/interface/vendor/jspdf.mjs",
+        "para": "dompurify",
+        "tipo": "ImportExpression"
+      },
+      {
+        "de": "7-ano/bloco-1/interface/vendor/jspdf.mjs",
+        "para": "canvg",
+        "tipo": "ImportExpression"
+      }
+    ]
+  },
+  "preservacao": {
+    "main": true,
+    "originais_workspace": true,
+    "6ano": true,
+    "CNAME": true,
+    "DNS_sem_alteracao": true,
+    "Blogger_sem_alteracao": true
+  },
+  "seguranca": "A inspeção informada pelo usuário no Windows não detectou ameaças. A causa da detecção histórica Ulthar não foi confirmada e estes testes não a esclarecem.",
+  "implantacao_publica": "A confirmar após push: acesso à API e ao domínio bloqueado pela política de rede do ambiente na data destes testes."
+}

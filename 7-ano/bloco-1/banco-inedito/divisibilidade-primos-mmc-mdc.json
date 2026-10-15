@@ -1,0 +1,1818 @@
+{
+  "versao_formato": 1,
+  "banco_id": "MFC7-B1-INEDITO-V1",
+  "assunto": "Divisibilidade, números primos, MMC e MDC",
+  "codigo_assunto": "DP",
+  "questoes": [
+    {
+      "id": "MFC7-B1-I-DP-01",
+      "numero": 1,
+      "titulo": "Conferência antes do transporte",
+      "assunto": "DP",
+      "assunto_nome": "Divisibilidade, números primos, MMC e MDC",
+      "subtema": "criterios",
+      "habilidade": "Aplicar simultaneamente critérios de divisibilidade em uma decisão.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "O transporte pode levar um lote inteiro em bandejas de 6 peças ou em caixas de 10, sem sobrar peças em nenhuma das duas organizações. Pelos registros do painel, qual lote pode ser liberado?",
+      "dados": {
+        "lotes": [
+          1450,
+          1530,
+          1625,
+          1774
+        ]
+      },
+      "modelo_verificacao": "[n for n in lotes if n%6==0 and n%10==0][0]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O lote de 1.450 peças.",
+          "valor": "1450",
+          "erro_comum": "Verifica apenas o final zero, sem testar divisibilidade por 3."
+        },
+        {
+          "letra": "B",
+          "texto": "O lote de 1.625 peças.",
+          "valor": "1625",
+          "erro_comum": "Confunde divisibilidade por 5 com divisibilidade por 10 e por 6."
+        },
+        {
+          "letra": "C",
+          "texto": "O lote de 1.774 peças.",
+          "valor": "1774",
+          "erro_comum": "Considera suficiente o número ser par."
+        },
+        {
+          "letra": "D",
+          "texto": "O lote de 1.530 peças.",
+          "valor": "1530",
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Para ser divisível por 6, o número deve ser par e ter soma dos algarismos múltipla de 3; para ser divisível por 10, deve terminar em zero. Entre os dois que terminam em zero, 1.450 tem soma 10 e 1.530 tem soma 9. Assim, apenas 1.530 atende às duas condições: 1.530 ÷ 6 = 255 e 1.530 ÷ 10 = 153.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/multiplos-divisores-e-resolucao-de.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Conferência antes do transporte"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "DP",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-DP-01"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Registro A: 1.450 peças; Registro B: 1.530 peças; Registro C: 1.625 peças; Registro D: 1.774 peças\"><title>Lotes disponíveis</title><desc>Registro A: 1.450 peças; Registro B: 1.530 peças; Registro C: 1.625 peças; Registro D: 1.774 peças</desc><rect width=\"320\" height=\"278\" fill=\"#fff\"/><text x=\"12\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Lotes disponíveis</text><rect x=\"10\" y=\"64\" width=\"145\" height=\"90\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"20\" y=\"89\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Registro A</text><text x=\"20\" y=\"123\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">1.450 peças</text><rect x=\"165\" y=\"64\" width=\"145\" height=\"90\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"175\" y=\"89\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Registro B</text><text x=\"175\" y=\"123\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">1.530 peças</text><rect x=\"10\" y=\"166\" width=\"145\" height=\"90\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"20\" y=\"191\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Registro C</text><text x=\"20\" y=\"225\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">1.625 peças</text><rect x=\"165\" y=\"166\" width=\"145\" height=\"90\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"175\" y=\"191\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Registro D</text><text x=\"175\" y=\"225\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">1.774 peças</text></svg>",
+          "acessibilidade": "Registro A: 1.450 peças; Registro B: 1.530 peças; Registro C: 1.625 peças; Registro D: 1.774 peças",
+          "geometria": {
+            "tipo": "cartoes",
+            "items": [
+              {
+                "nome": "Registro A",
+                "valor": "1.450 peças"
+              },
+              {
+                "nome": "Registro B",
+                "valor": "1.530 peças"
+              },
+              {
+                "nome": "Registro C",
+                "valor": "1.625 peças"
+              },
+              {
+                "nome": "Registro D",
+                "valor": "1.774 peças"
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-DP-01-visual",
+          "arquivo": "recursos/DP-01.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-DP-02",
+      "numero": 2,
+      "titulo": "Uma correção no classificador",
+      "assunto": "DP",
+      "assunto_nome": "Divisibilidade, números primos, MMC e MDC",
+      "subtema": "primos",
+      "habilidade": "Usar a quantidade de divisores para justificar a classificação de 1.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "Um programa da oficina marca como primo qualquer número que não tenha divisores naturais além de 1 e dele próprio. Com essa regra, marcou o número 1 como primo. Qual ajuste explica corretamente por que essa marcação deve ser retirada?",
+      "dados": {
+        "numero": 1
+      },
+      "modelo_verificacao": "len(divisores(numero))",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Retirar a marcação porque 1 não possui divisores naturais.",
+          "valor": "0",
+          "erro_comum": "Esquece que 1 divide a si mesmo."
+        },
+        {
+          "letra": "B",
+          "texto": "Retirar a marcação porque todo número ímpar possui três divisores.",
+          "valor": "3",
+          "erro_comum": "Atribui aos números ímpares uma quantidade fixa de divisores."
+        },
+        {
+          "letra": "C",
+          "texto": "Exigir exatamente dois divisores distintos: o número 1 possui apenas um.",
+          "valor": "1",
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "Exigir dois divisores, pois 1 e ele próprio são dois divisores distintos.",
+          "valor": "2",
+          "erro_comum": "Conta o mesmo divisor duas vezes."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Os divisores naturais de 1 formam o conjunto {1}. A expressão “1 e ele próprio” nomeia o mesmo divisor neste caso. Um primo precisa ter exatamente dois divisores distintos e ser maior que 1. Portanto, a regra deve exigir dois divisores distintos, o que exclui 1.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/multiplos-divisores-e-resolucao-de.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Uma correção no classificador"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "DP",
+        "nivel": "facil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-DP-02"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-DP-03",
+      "numero": 3,
+      "titulo": "Entrada nas oficinas da feira de ciências",
+      "assunto": "DP",
+      "assunto_nome": "Divisibilidade, números primos, MMC e MDC",
+      "subtema": "mmc",
+      "habilidade": "Relacionar períodos simultâneos e interpretar um horário de chegada.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "Na feira de ciências da escola, duas demonstrações começam juntas no minuto zero e se repetem continuamente, sem pausas. A demonstração A dura 4 minutos e a B dura 6 minutos.\n\nNovos visitantes só podem entrar quando as duas demonstrações terminam ao mesmo tempo. Um grupo chega no minuto 13. Em que minuto poderá entrar pela primeira vez?",
+      "dados": {
+        "a": 4,
+        "b": 6,
+        "chegada": 13
+      },
+      "modelo_verificacao": "ceil(frac(chegada,lcm(a,b)))*lcm(a,b)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "No minuto 12.",
+          "valor": "12",
+          "erro_comum": "Encontra uma coincidência anterior à chegada do grupo."
+        },
+        {
+          "letra": "B",
+          "texto": "No minuto 24.",
+          "valor": "24",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "No minuto 18.",
+          "valor": "18",
+          "erro_comum": "Acompanha somente as demonstrações de 6 minutos."
+        },
+        {
+          "letra": "D",
+          "texto": "No minuto 16.",
+          "valor": "16",
+          "erro_comum": "Acompanha somente as demonstrações de 4 minutos."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Os términos conjuntos ocorrem nos múltiplos comuns de 4 e 6: 12, 24, 36, … Quando o grupo chega, o minuto 12 já passou. Portanto, a primeira entrada possível será no minuto 24.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/multiplos-divisores-e-resolucao-de.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Entrada nas oficinas da feira de ciências"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de DP-03, DP-06, DP-09, DP-11, DP-17 e DP-20; transferência visual de DP-14 para DP-11.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "DP",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-DP-03"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 385\" role=\"img\" aria-label=\"Demonstrações A e B começam juntas no minuto zero e repetem ciclos de 4 e 6 minutos, respectivamente. As duas linhas usam a mesma escala: 35 unidades gráficas por minuto. Mostra-se apenas o primeiro ciclo de cada uma; não são marcados términos conjuntos. O grupo chega no minuto 13.\"><title>Oficinas simultâneas</title><desc>Demonstrações A e B começam juntas no minuto zero e repetem ciclos de 4 e 6 minutos, respectivamente. As duas linhas usam a mesma escala: 35 unidades gráficas por minuto. Mostra-se apenas o primeiro ciclo de cada uma; não são marcados términos conjuntos. O grupo chega no minuto 13.</desc><rect width=\"320\" height=\"385\" fill=\"#fff\"/><text x=\"12\" y=\"26\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Oficinas simultâneas</text><text x=\"12\" y=\"54\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#173746\">Mesma escala nas duas linhas</text><text x=\"12\" y=\"110\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">A</text><line data-ciclo=\"A\" x1=\"65\" x2=\"205\" y1=\"110\" y2=\"110\" stroke=\"#086a68\" stroke-width=\"3\"/><line x1=\"65\" x2=\"65\" y1=\"104\" y2=\"116\" stroke=\"#173746\"/><line x1=\"205\" x2=\"205\" y1=\"104\" y2=\"116\" stroke=\"#173746\"/><text x=\"135.0\" y=\"95\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">Ciclo: 4 min</text><text x=\"65\" y=\"136\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">0</text><text x=\"205\" y=\"136\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">4</text><text x=\"12\" y=\"205\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">B</text><line data-ciclo=\"B\" x1=\"65\" x2=\"275\" y1=\"205\" y2=\"205\" stroke=\"#086a68\" stroke-width=\"3\"/><line x1=\"65\" x2=\"65\" y1=\"199\" y2=\"211\" stroke=\"#173746\"/><line x1=\"275\" x2=\"275\" y1=\"199\" y2=\"211\" stroke=\"#173746\"/><text x=\"170.0\" y=\"190\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">Ciclo: 6 min</text><text x=\"65\" y=\"231\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">0</text><text x=\"275\" y=\"231\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">6</text><text x=\"12\" y=\"270\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Início simultâneo: minuto 0</text><text x=\"12\" y=\"298\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Os ciclos se repetem.</text><text x=\"12\" y=\"334\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Chegada do grupo: minuto 13</text><text x=\"12\" y=\"362\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Entrada: términos conjuntos</text></svg>",
+          "acessibilidade": "Demonstrações A e B começam juntas no minuto zero e repetem ciclos de 4 e 6 minutos, respectivamente. As duas linhas usam a mesma escala: 35 unidades gráficas por minuto. Mostra-se apenas o primeiro ciclo de cada uma; não são marcados términos conjuntos. O grupo chega no minuto 13.",
+          "geometria": {
+            "tipo": "oficinas_paralelas",
+            "periodos": [
+              4,
+              6
+            ],
+            "inicio": 0,
+            "chegada": 13,
+            "escala_px_por_minuto": 35,
+            "ciclos": [
+              {
+                "nome": "A",
+                "x0": 65,
+                "x1": 205,
+                "duracao": 4
+              },
+              {
+                "nome": "B",
+                "x0": 65,
+                "x1": 275,
+                "duracao": 6
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-DP-03-visual",
+          "arquivo": "recursos/DP-03.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-DP-04",
+      "numero": 4,
+      "titulo": "A régua de passo único",
+      "assunto": "DP",
+      "assunto_nome": "Divisibilidade, números primos, MMC e MDC",
+      "subtema": "mdc",
+      "habilidade": "Reconhecer o maior divisor comum como medida de uma graduação.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "Uma técnica precisa de uma régua com marcas igualmente espaçadas por um número inteiro de centímetros. Partindo do zero, ela quer que 42 cm e 66 cm coincidam exatamente com marcas. Qual é o maior espaçamento que serve para as duas medidas?",
+      "dados": {
+        "a": 42,
+        "b": 66
+      },
+      "modelo_verificacao": "gcd(a,b)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6 cm.",
+          "valor": "6",
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "12 cm.",
+          "valor": "12",
+          "erro_comum": "Escolhe um passo que não divide nenhuma das duas medidas exatamente."
+        },
+        {
+          "letra": "C",
+          "texto": "3 cm.",
+          "valor": "3",
+          "erro_comum": "Encontra um divisor comum, mas não o maior."
+        },
+        {
+          "letra": "D",
+          "texto": "22 cm.",
+          "valor": "22",
+          "erro_comum": "Usa um divisor apenas da segunda medida."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "O espaçamento precisa dividir 42 e 66 sem resto. Como 42 = 2 × 3 × 7 e 66 = 2 × 3 × 11, o maior divisor comum é 2 × 3 = 6. Com esse passo, as medidas ficam na 7ª e na 11ª marca, respectivamente.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/multiplos-divisores-e-resolucao-de.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "A régua de passo único"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "DP",
+        "nivel": "facil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-DP-04"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-DP-05",
+      "numero": 5,
+      "titulo": "Duas regulagens de uma máquina",
+      "assunto": "DP",
+      "assunto_nome": "Divisibilidade, números primos, MMC e MDC",
+      "subtema": "criterios",
+      "habilidade": "Distinguir divisibilidade por 4 e por 8.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "A máquina pode processar um lote em ciclos de 4 ou de 8 unidades. A equipe procura um registro que permita ciclos completos de 4, mas deixe sobra nos ciclos de 8. Qual quantidade do painel atende à procura?",
+      "dados": {
+        "lotes": [
+          1228,
+          1232,
+          1240,
+          1246
+        ]
+      },
+      "modelo_verificacao": "[n for n in lotes if n%4==0 and n%8!=0][0]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1.232 unidades.",
+          "valor": "1232",
+          "erro_comum": "Não verifica que o lote também é divisível por 8."
+        },
+        {
+          "letra": "B",
+          "texto": "1.240 unidades.",
+          "valor": "1240",
+          "erro_comum": "Considera apenas os ciclos de 4 e ignora a segunda condição."
+        },
+        {
+          "letra": "C",
+          "texto": "1.246 unidades.",
+          "valor": "1246",
+          "erro_comum": "Supõe que todo número par é divisível por 4."
+        },
+        {
+          "letra": "D",
+          "texto": "1.228 unidades.",
+          "valor": "1228",
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Os dois últimos algarismos de 1.228 formam 28, múltiplo de 4. Entretanto, 228 não é múltiplo de 8: 8 × 28 = 224 e sobram 4. Já 1.232 e 1.240 são divisíveis por 8, e 1.246 nem sequer é divisível por 4.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/multiplos-divisores-e-resolucao-de.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Duas regulagens de uma máquina"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "DP",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-DP-05"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Lote P: 1.228; Lote Q: 1.232; Lote R: 1.240; Lote S: 1.246\"><title>Registros de produção</title><desc>Lote P: 1.228; Lote Q: 1.232; Lote R: 1.240; Lote S: 1.246</desc><rect width=\"320\" height=\"278\" fill=\"#fff\"/><text x=\"12\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Registros de produção</text><rect x=\"10\" y=\"64\" width=\"145\" height=\"90\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"20\" y=\"89\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Lote P</text><text x=\"20\" y=\"123\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">1.228</text><rect x=\"165\" y=\"64\" width=\"145\" height=\"90\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"175\" y=\"89\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Lote Q</text><text x=\"175\" y=\"123\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">1.232</text><rect x=\"10\" y=\"166\" width=\"145\" height=\"90\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"20\" y=\"191\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Lote R</text><text x=\"20\" y=\"225\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">1.240</text><rect x=\"165\" y=\"166\" width=\"145\" height=\"90\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"175\" y=\"191\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Lote S</text><text x=\"175\" y=\"225\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">1.246</text></svg>",
+          "acessibilidade": "Lote P: 1.228; Lote Q: 1.232; Lote R: 1.240; Lote S: 1.246",
+          "geometria": {
+            "tipo": "cartoes",
+            "items": [
+              {
+                "nome": "Lote P",
+                "valor": "1.228"
+              },
+              {
+                "nome": "Lote Q",
+                "valor": "1.232"
+              },
+              {
+                "nome": "Lote R",
+                "valor": "1.240"
+              },
+              {
+                "nome": "Lote S",
+                "valor": "1.246"
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-DP-05-visual",
+          "arquivo": "recursos/DP-05.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-DP-06",
+      "numero": 6,
+      "titulo": "Cartões para a mostra de Matemática",
+      "assunto": "DP",
+      "assunto_nome": "Divisibilidade, números primos, MMC e MDC",
+      "subtema": "primos",
+      "habilidade": "Decompor um número em fatores primos e interpretar a multiplicidade dos fatores.",
+      "dificuldade": {
+        "nivel": "facil",
+        "rotulo": "Básico",
+        "justificativa": "Interpretar os dados e estabelecer uma relação matemática central."
+      },
+      "enunciado": "Para a mostra de Matemática, uma turma vai representar o número 72 usando cartões. Cada cartão deve mostrar um único número primo, e o produto de todos os números dos cartões deve ser exatamente 72.\n\nQual conjunto de cartões atende à proposta?",
+      "dados": {
+        "numero": 72
+      },
+      "modelo_verificacao": "sum([1 for p in primos_lista(range(2,numero+1)) for k in range(1,7) if numero%(p**k)==0])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6 cartões: quatro com o número 2 e dois com o número 3.",
+          "valor": "6",
+          "erro_comum": "Acrescenta um fator 2 indevido: o produto é 144, e não 72."
+        },
+        {
+          "letra": "B",
+          "texto": "3 cartões, todos com o número 2.",
+          "valor": "3",
+          "erro_comum": "Considera apenas fatores 2 e omite os fatores 3; o produto é 8."
+        },
+        {
+          "letra": "C",
+          "texto": "5 cartões: três com o número 2 e dois com o número 3.",
+          "valor": "5",
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "2 cartões: um com o número 2 e um com o número 3.",
+          "valor": "2",
+          "erro_comum": "Confunde os dois primos distintos com a quantidade total de fatores, contando as repetições."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Podemos decompor 72 começando por divisões sucessivas por 2: 72 = 2 × 36 = 2 × 2 × 18 = 2 × 2 × 2 × 9. Como 9 = 3 × 3, temos 72 = 2 × 2 × 2 × 3 × 3. Portanto, são necessários cinco cartões: três com 2 e dois com 3.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/multiplos-divisores-e-resolucao-de.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Cartões para a mostra de Matemática"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de DP-03, DP-06, DP-09, DP-11, DP-17 e DP-20; transferência visual de DP-14 para DP-11.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "DP",
+        "nivel": "facil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-DP-06"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-DP-07",
+      "numero": 7,
+      "titulo": "Balizas em rotas independentes",
+      "assunto": "DP",
+      "assunto_nome": "Divisibilidade, números primos, MMC e MDC",
+      "subtema": "mdc",
+      "habilidade": "Determinar o maior espaçamento comum e distinguir intervalos de pontos.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Duas rotas independentes receberão balizas no início, no fim e em pontos intermediários. As distâncias entre balizas consecutivas devem ser iguais nas duas rotas, inteiras em metros e as maiores possíveis. As rotas não compartilham nenhum ponto. Qual plano informa o espaçamento e o total de balizas, contando os dois extremos de cada rota?",
+      "dados": {
+        "a": 96,
+        "b": 156
+      },
+      "modelo_verificacao": "[gcd(a,b),a//gcd(a,b)+1+b//gcd(a,b)+1]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Espaçamento de 24 m; 12 balizas.",
+          "valor": [
+            "24",
+            "12"
+          ],
+          "erro_comum": "Arredonda uma contagem e aceita um último trecho de tamanho diferente."
+        },
+        {
+          "letra": "B",
+          "texto": "Espaçamento de 12 m; 23 balizas.",
+          "valor": [
+            "12",
+            "23"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Espaçamento de 12 m; 21 balizas.",
+          "valor": [
+            "12",
+            "21"
+          ],
+          "erro_comum": "Conta os intervalos, mas não acrescenta um ponto em cada rota."
+        },
+        {
+          "letra": "D",
+          "texto": "Espaçamento de 6 m; 44 balizas.",
+          "valor": [
+            "6",
+            "44"
+          ],
+          "erro_comum": "Encontra um plano possível, porém não usa o maior espaçamento."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "O espaçamento precisa dividir 96 e 156. O maior é MDC(96,156) = 12 m. Na rota A há 96 ÷ 12 = 8 intervalos e 9 balizas. Na B há 156 ÷ 12 = 13 intervalos e 14 balizas. Como não há pontos compartilhados, o total é 9 + 14 = 23. Contar apenas os 21 intervalos deixaria duas balizas de fora.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/multiplos-divisores-e-resolucao-de.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Balizas em rotas independentes"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "DP",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-DP-07"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 313\" role=\"img\" aria-label=\"Rotas sem pontos compartilhados. Rota A: 96 metros; Rota B: 156 metros. Os pontos marcam os extremos de cada rota; as rotas não compartilham pontos. Os comprimentos usam a mesma escala.\"><title>Rotas sem pontos compartilhados</title><desc>Rotas sem pontos compartilhados. Rota A: 96 metros; Rota B: 156 metros. Os pontos marcam os extremos de cada rota; as rotas não compartilham pontos. Os comprimentos usam a mesma escala.</desc><rect width=\"320\" height=\"313\" fill=\"#fff\"/><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Rotas sem pontos</text><text x=\"10\" y=\"48\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">compartilhados</text><text x=\"15\" y=\"93\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Rota A: 96 m</text><line x1=\"30\" x2=\"190.00000\" y1=\"113\" y2=\"113\" stroke=\"#456775\" stroke-width=\"4\"/><circle cx=\"30\" cy=\"113\" r=\"5\" fill=\"#086a68\"/><circle cx=\"190.00000\" cy=\"113\" r=\"5\" fill=\"#086a68\"/><text x=\"30\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#173746\">Início</text><text x=\"190.0\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#173746\">Fim</text><text x=\"15\" y=\"193\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Rota B: 156 m</text><line x1=\"30\" x2=\"290.00000\" y1=\"213\" y2=\"213\" stroke=\"#456775\" stroke-width=\"4\"/><circle cx=\"30\" cy=\"213\" r=\"5\" fill=\"#086a68\"/><circle cx=\"290.00000\" cy=\"213\" r=\"5\" fill=\"#086a68\"/><text x=\"30\" y=\"245\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#173746\">Início</text><text x=\"290.0\" y=\"245\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#173746\">Fim</text></svg>",
+          "acessibilidade": "Rotas sem pontos compartilhados. Rota A: 96 metros; Rota B: 156 metros. Os pontos marcam os extremos de cada rota; as rotas não compartilham pontos. Os comprimentos usam a mesma escala.",
+          "geometria": {
+            "tipo": "rotas",
+            "maior": 156,
+            "rotas": [
+              {
+                "nome": "Rota A",
+                "comprimento": 96,
+                "largura": 160.0
+              },
+              {
+                "nome": "Rota B",
+                "comprimento": 156,
+                "largura": 260.0
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-DP-07-visual",
+          "arquivo": "recursos/DP-07.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-DP-08",
+      "numero": 8,
+      "titulo": "Qual fatoração atende ao contrato?",
+      "assunto": "DP",
+      "assunto_nome": "Divisibilidade, números primos, MMC e MDC",
+      "subtema": "primos",
+      "habilidade": "Interpretar fatores primos sem efetuar todos os produtos.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Um contrato exige que a quantidade de um lote possa ser repartida em 18 grupos iguais. O painel mostra as fatorações de quatro lotes. Qual deles atende ao contrato?",
+      "dados": {
+        "quantidades": [
+          84,
+          90,
+          70,
+          98
+        ]
+      },
+      "modelo_verificacao": "[n for n in quantidades if n%18==0][0]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O lote B.",
+          "valor": "90",
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "O lote A.",
+          "valor": "84",
+          "erro_comum": "Vê um fator 2 e um fator 3, mas não exige dois fatores 3."
+        },
+        {
+          "letra": "C",
+          "texto": "O lote C.",
+          "valor": "70",
+          "erro_comum": "Considera suficiente haver fator 2."
+        },
+        {
+          "letra": "D",
+          "texto": "O lote D.",
+          "valor": "98",
+          "erro_comum": "Confunde dois fatores iguais quaisquer com os fatores de 18."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Como 18 = 2 × 3², é necessário haver pelo menos um fator 2 e dois fatores 3. Somente o lote B tem esses fatores: 2 × 3² × 5 = 90. De fato, 90 ÷ 18 = 5.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/multiplos-divisores-e-resolucao-de.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Qual fatoração atende ao contrato?"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "DP",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-DP-08"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Lote A: 2² × 3 × 7; Lote B: 2 × 3² × 5; Lote C: 2 × 5 × 7; Lote D: 2 × 7²\"><title>Fatores dos lotes</title><desc>Lote A: 2² × 3 × 7; Lote B: 2 × 3² × 5; Lote C: 2 × 5 × 7; Lote D: 2 × 7²</desc><rect width=\"320\" height=\"278\" fill=\"#fff\"/><text x=\"12\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Fatores dos lotes</text><rect x=\"10\" y=\"64\" width=\"145\" height=\"90\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"20\" y=\"89\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Lote A</text><text x=\"20\" y=\"123\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">2² × 3 × 7</text><rect x=\"165\" y=\"64\" width=\"145\" height=\"90\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"175\" y=\"89\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Lote B</text><text x=\"175\" y=\"123\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">2 × 3² × 5</text><rect x=\"10\" y=\"166\" width=\"145\" height=\"90\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"20\" y=\"191\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Lote C</text><text x=\"20\" y=\"225\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">2 × 5 × 7</text><rect x=\"165\" y=\"166\" width=\"145\" height=\"90\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"175\" y=\"191\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Lote D</text><text x=\"175\" y=\"225\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">2 × 7²</text></svg>",
+          "acessibilidade": "Lote A: 2² × 3 × 7; Lote B: 2 × 3² × 5; Lote C: 2 × 5 × 7; Lote D: 2 × 7²",
+          "geometria": {
+            "tipo": "cartoes",
+            "items": [
+              {
+                "nome": "Lote A",
+                "valor": "2² × 3 × 7"
+              },
+              {
+                "nome": "Lote B",
+                "valor": "2 × 3² × 5"
+              },
+              {
+                "nome": "Lote C",
+                "valor": "2 × 5 × 7"
+              },
+              {
+                "nome": "Lote D",
+                "valor": "2 × 7²"
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-DP-08-visual",
+          "arquivo": "recursos/DP-08.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-DP-09",
+      "numero": 9,
+      "titulo": "Folhas para duas organizações",
+      "assunto": "DP",
+      "assunto_nome": "Divisibilidade, números primos, MMC e MDC",
+      "subtema": "mmc",
+      "habilidade": "Determinar a menor quantidade múltipla de dois números e superior a um limite.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "A comissão de uma oficina escolar precisa separar um lote de folhas. Dependendo da organização das turmas, esse mesmo lote deverá poder ser repartido em conjuntos de 10 folhas ou em conjuntos de 15 folhas, sem sobrar nenhuma folha em qualquer uma das duas opções.\n\nA comissão precisa de mais de 40 folhas e quer separar a menor quantidade possível. Quantas folhas deverá reservar?",
+      "dados": {
+        "a": 10,
+        "b": 15,
+        "limite": 40
+      },
+      "modelo_verificacao": "(limite//lcm(a,b)+1)*lcm(a,b)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "45 folhas.",
+          "valor": "45",
+          "erro_comum": "Verifica apenas a repartição em conjuntos de 15 folhas."
+        },
+        {
+          "letra": "B",
+          "texto": "50 folhas.",
+          "valor": "50",
+          "erro_comum": "Verifica apenas a repartição em conjuntos de 10 folhas."
+        },
+        {
+          "letra": "C",
+          "texto": "30 folhas.",
+          "valor": "30",
+          "erro_comum": "Encontra o MMC, mas ignora que o lote deve ter mais de 40 folhas."
+        },
+        {
+          "letra": "D",
+          "texto": "60 folhas.",
+          "valor": "60",
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "A quantidade precisa ser múltipla de 10 e de 15. Como MMC(10, 15) = 30, as quantidades possíveis são 30, 60, 90, … O lote de 30 folhas não atende à exigência de ter mais de 40. A menor quantidade que atende a todas as condições é 60 folhas.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/multiplos-divisores-e-resolucao-de.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Folhas para duas organizações"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de DP-03, DP-06, DP-09, DP-11, DP-17 e DP-20; transferência visual de DP-14 para DP-11.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "DP",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-DP-09"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-DP-10",
+      "numero": 10,
+      "titulo": "Uma regra para os dois arquivos",
+      "assunto": "DP",
+      "assunto_nome": "Divisibilidade, números primos, MMC e MDC",
+      "subtema": "criterios",
+      "habilidade": "Comparar critérios de divisibilidade aplicáveis a diferentes números.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "O setor quer dividir cada arquivo em blocos de mesmo tamanho, sem sobras. Entre os tamanhos 3, 6, 9 e 10 páginas, qual é o maior que funciona para os dois arquivos do quadro?",
+      "dados": {
+        "a": 936,
+        "b": 945,
+        "candidatos": [
+          3,
+          6,
+          9,
+          10
+        ]
+      },
+      "modelo_verificacao": "max([d for d in candidatos if a%d==0 and b%d==0])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6 páginas.",
+          "valor": "6",
+          "erro_comum": "Ignora que o segundo arquivo tem quantidade ímpar de páginas."
+        },
+        {
+          "letra": "B",
+          "texto": "10 páginas.",
+          "valor": "10",
+          "erro_comum": "Aplica divisibilidade por 10 sem verificar o algarismo final."
+        },
+        {
+          "letra": "C",
+          "texto": "9 páginas.",
+          "valor": "9",
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "3 páginas.",
+          "valor": "3",
+          "erro_comum": "Encontra uma opção válida, mas não a maior entre as propostas."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "As somas dos algarismos são 9 + 3 + 6 = 18 e 9 + 4 + 5 = 18. Os dois números são divisíveis por 9 e, portanto, por 3. O segundo é ímpar, o que exclui 6; nenhum termina em zero, o que exclui 10. A maior opção é 9.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/multiplos-divisores-e-resolucao-de.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Uma regra para os dois arquivos"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "DP",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-DP-10"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela_html",
+          "html": "<table class=\"mfc-tabela-responsiva\" role=\"table\"><caption>Arquivos para impressão</caption><thead role=\"rowgroup\"><tr role=\"row\"><th role=\"columnheader\" scope=\"col\">Arquivo</th><th role=\"columnheader\" scope=\"col\">Páginas</th></tr></thead><tbody role=\"rowgroup\"><tr role=\"row\"><th role=\"rowheader\" scope=\"row\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Arquivo\"></span><span>Pesquisa</span></th><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Páginas\"></span><span>936</span></td></tr><tr role=\"row\"><th role=\"rowheader\" scope=\"row\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Arquivo\"></span><span>Inventário</span></th><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Páginas\"></span><span>945</span></td></tr></tbody></table>",
+          "acessibilidade": "Arquivos para impressão. Arquivo: Pesquisa, Páginas: 936; Arquivo: Inventário, Páginas: 945",
+          "geometria": {
+            "tipo": "tabela",
+            "cabecalhos": [
+              "Arquivo",
+              "Páginas"
+            ],
+            "linhas": [
+              [
+                "Pesquisa",
+                936
+              ],
+              [
+                "Inventário",
+                945
+              ]
+            ]
+          },
+          "id": "MFC7-B1-I-DP-10-visual",
+          "arquivo": "recursos/DP-10.html",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-DP-11",
+      "numero": 11,
+      "titulo": "Revestimento do painel da exposição",
+      "assunto": "DP",
+      "assunto_nome": "Divisibilidade, números primos, MMC e MDC",
+      "subtema": "mdc",
+      "habilidade": "Relacionar a maior medida comum à cobertura de uma área.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Um painel retangular da exposição escolar mede 90 cm por 126 cm. Ele será totalmente coberto por peças quadradas iguais, alinhadas às bordas, sem sobreposição e sem cortes.\n\nO lado de cada peça deve medir um número inteiro de centímetros e ser o maior possível. Qual plano é correto?",
+      "dados": {
+        "a": 90,
+        "b": 126
+      },
+      "modelo_verificacao": "[gcd(a,b),(a//gcd(a,b))*(b//gcd(a,b))]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Lado de 36 cm e 6 quadrados.",
+          "valor": [
+            "36",
+            "6"
+          ],
+          "erro_comum": "Usa uma medida que não divide os comprimentos das bordas."
+        },
+        {
+          "letra": "B",
+          "texto": "Lado de 18 cm e 35 quadrados.",
+          "valor": [
+            "18",
+            "35"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Lado de 9 cm e 140 quadrados.",
+          "valor": [
+            "9",
+            "140"
+          ],
+          "erro_comum": "Escolhe uma cobertura possível, mas com quadrados menores que o máximo."
+        },
+        {
+          "letra": "D",
+          "texto": "Lado de 18 cm e 12 quadrados.",
+          "valor": [
+            "18",
+            "12"
+          ],
+          "erro_comum": "Soma as quantidades ao longo das bordas em vez de multiplicá-las."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "O lado das peças precisa dividir exatamente as duas medidas do painel. O maior valor possível é MDC(90, 126) = 18 cm. Cabem 90 ÷ 18 = 5 peças em uma direção e 126 ÷ 18 = 7 na outra. Portanto, serão necessárias 5 × 7 = 35 peças.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/multiplos-divisores-e-resolucao-de.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Revestimento do painel da exposição"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de DP-03, DP-06, DP-09, DP-11, DP-17 e DP-20; transferência visual de DP-14 para DP-11.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "DP",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-DP-11"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 265\" role=\"img\" aria-label=\"Painel retangular: 126 cm na horizontal e 90 cm na vertical, desenhados na mesma escala, sem divisões. Não são indicadas as dimensões nem a quantidade das peças.\"><title>Painel da exposição</title><desc>Painel retangular: 126 cm na horizontal e 90 cm na vertical, desenhados na mesma escala, sem divisões. Não são indicadas as dimensões nem a quantidade das peças.</desc><rect width=\"320\" height=\"265\" fill=\"#fff\"/><text x=\"12\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Painel da exposição</text><text x=\"180\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#173746\">126 cm</text><rect x=\"75\" y=\"85\" width=\"210\" height=\"150\" fill=\"#e2efed\" stroke=\"#173746\" stroke-width=\"2\"/><text x=\"36\" y=\"150\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">90 cm</text></svg>",
+          "acessibilidade": "Painel retangular: 126 cm na horizontal e 90 cm na vertical, desenhados na mesma escala, sem divisões. Não são indicadas as dimensões nem a quantidade das peças.",
+          "geometria": {
+            "tipo": "painel_retangular",
+            "horizontal_cm": 126,
+            "vertical_cm": 90,
+            "largura_svg": 210,
+            "altura_svg": 150
+          },
+          "id": "MFC7-B1-I-DP-11-visual",
+          "arquivo": "recursos/DP-11.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-DP-12",
+      "numero": 12,
+      "titulo": "Visitas com inícios diferentes",
+      "assunto": "DP",
+      "assunto_nome": "Divisibilidade, números primos, MMC e MDC",
+      "subtema": "mmc",
+      "habilidade": "Investigar coincidências entre sequências com defasagem.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Duas equipes visitam uma estação segundo o quadro. A visita conjunta exige presença das duas na mesma semana. Qual será a primeira semana em que isso acontecerá? As visitas continuam com os mesmos intervalos após a primeira.",
+      "dados": {
+        "inicio_a": 3,
+        "periodo_a": 12,
+        "inicio_b": 7,
+        "periodo_b": 20
+      },
+      "modelo_verificacao": "min([t for t in range(8,100) if (t-inicio_a)%periodo_a==0 and (t-inicio_b)%periodo_b==0])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Semana 27.",
+          "valor": "27",
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Semana 60.",
+          "valor": "60",
+          "erro_comum": "Usa o MMC dos intervalos como data, ignorando os inícios diferentes."
+        },
+        {
+          "letra": "C",
+          "texto": "Semana 23.",
+          "valor": "23",
+          "erro_comum": "Soma os intervalos a um início sem conferir a outra sequência."
+        },
+        {
+          "letra": "D",
+          "texto": "Semana 15.",
+          "valor": "15",
+          "erro_comum": "Considera a segunda visita apenas da equipe A."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "A equipe A visita nas semanas 3, 15, 27, 39, ...; a equipe B, nas semanas 7, 27, 47, ... A primeira semana comum é 27. O MMC de 12 e 20 informa o intervalo entre coincidências quando elas existem, mas não permite ignorar a defasagem inicial.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/multiplos-divisores-e-resolucao-de.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Visitas com inícios diferentes"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "DP",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-DP-12"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela_html",
+          "html": "<table class=\"mfc-tabela-responsiva\" role=\"table\"><caption>Calendário das equipes</caption><thead role=\"rowgroup\"><tr role=\"row\"><th role=\"columnheader\" scope=\"col\">Equipe</th><th role=\"columnheader\" scope=\"col\">Primeira semana</th><th role=\"columnheader\" scope=\"col\">Intervalo</th></tr></thead><tbody role=\"rowgroup\"><tr role=\"row\"><th role=\"rowheader\" scope=\"row\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Equipe\"></span><span>A</span></th><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Primeira semana\"></span><span>3</span></td><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Intervalo\"></span><span>12 semanas</span></td></tr><tr role=\"row\"><th role=\"rowheader\" scope=\"row\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Equipe\"></span><span>B</span></th><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Primeira semana\"></span><span>7</span></td><td role=\"cell\"><span class=\"mfc-rotulo-celula\" aria-hidden=\"true\" data-rotulo=\"Intervalo\"></span><span>20 semanas</span></td></tr></tbody></table>",
+          "acessibilidade": "Calendário das equipes. Equipe: A, Primeira semana: 3, Intervalo: 12 semanas; Equipe: B, Primeira semana: 7, Intervalo: 20 semanas",
+          "geometria": {
+            "tipo": "tabela",
+            "cabecalhos": [
+              "Equipe",
+              "Primeira semana",
+              "Intervalo"
+            ],
+            "linhas": [
+              [
+                "A",
+                3,
+                "12 semanas"
+              ],
+              [
+                "B",
+                7,
+                "20 semanas"
+              ]
+            ]
+          },
+          "id": "MFC7-B1-I-DP-12-visual",
+          "arquivo": "recursos/DP-12.html",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-DP-13",
+      "numero": 13,
+      "titulo": "O teste que ficou faltando",
+      "assunto": "DP",
+      "assunto_nome": "Divisibilidade, números primos, MMC e MDC",
+      "subtema": "primos",
+      "habilidade": "Usar um contraexemplo para avaliar uma investigação de primalidade.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Para conferir o número de um protocolo, uma estudante testou a divisibilidade de 143 por 2, 3, 5 e 7. Como nenhuma divisão foi exata, concluiu que 143 era primo. Qual multiplicação basta para mostrar que a conclusão foi precipitada?",
+      "dados": {
+        "n": 143
+      },
+      "modelo_verificacao": "[min([d for d in range(2,n) if n%d==0]),n//min([d for d in range(2,n) if n%d==0])]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1 × 143 = 143.",
+          "valor": [
+            "1",
+            "143"
+          ],
+          "erro_comum": "Usa uma decomposição que também existe para qualquer primo."
+        },
+        {
+          "letra": "B",
+          "texto": "7 × 20 = 140.",
+          "valor": [
+            "7",
+            "20"
+          ],
+          "erro_comum": "Aceita um produto próximo, mas diferente do número analisado."
+        },
+        {
+          "letra": "C",
+          "texto": "13 × 13 = 169.",
+          "valor": [
+            "13",
+            "13"
+          ],
+          "erro_comum": "Escolhe fatores primos cujo produto é outro número."
+        },
+        {
+          "letra": "D",
+          "texto": "11 × 13 = 143.",
+          "valor": [
+            "11",
+            "13"
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "143 = 11 × 13. Portanto, 11 e 13 são divisores diferentes de 1 e de 143, suficientes para provar que 143 é composto. Testar alguns primos e não encontrar divisor não autoriza concluir sem verificar se os testes foram suficientes.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/multiplos-divisores-e-resolucao-de.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "O teste que ficou faltando"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "DP",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-DP-13"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-DP-14",
+      "numero": 14,
+      "titulo": "Limite de maletas",
+      "assunto": "DP",
+      "assunto_nome": "Divisibilidade, números primos, MMC e MDC",
+      "subtema": "mdc",
+      "habilidade": "Maximizar um divisor comum sob uma restrição adicional.",
+      "dificuldade": {
+        "nivel": "media",
+        "rotulo": "Intermediário",
+        "justificativa": "Relacionar informações e selecionar uma estratégia, com etapas encadeadas."
+      },
+      "enunciado": "Serão distribuídos 168 marcadores e 120 presilhas em maletas idênticas, usando todos os itens e mantendo a mesma composição em cada maleta. O veículo leva no máximo 10 maletas. Qual é a maior quantidade de maletas que pode ser preparada?",
+      "dados": {
+        "a": 168,
+        "b": 120,
+        "limite": 10
+      },
+      "modelo_verificacao": "max([d for d in divisores(gcd(a,b)) if d<=limite])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "24 maletas.",
+          "valor": "24",
+          "erro_comum": "Calcula o MDC, mas ignora o limite do veículo."
+        },
+        {
+          "letra": "B",
+          "texto": "6 maletas.",
+          "valor": "6",
+          "erro_comum": "Encontra uma possibilidade, porém não a maior permitida."
+        },
+        {
+          "letra": "C",
+          "texto": "8 maletas.",
+          "valor": "8",
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "10 maletas.",
+          "valor": "10",
+          "erro_comum": "Usa a capacidade do veículo sem verificar divisibilidade."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "O número de maletas deve dividir 168 e 120. O MDC é 24, cujos divisores são 1, 2, 3, 4, 6, 8, 12 e 24. Entre os que não ultrapassam 10, o maior é 8. Cada maleta terá 21 marcadores e 15 presilhas.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/multiplos-divisores-e-resolucao-de.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Limite de maletas"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de DP-03, DP-06, DP-09, DP-11, DP-17 e DP-20; transferência visual de DP-14 para DP-11.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "DP",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-DP-14"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-DP-15",
+      "numero": 15,
+      "titulo": "Janelas para uma medição conjunta",
+      "assunto": "DP",
+      "assunto_nome": "Divisibilidade, números primos, MMC e MDC",
+      "subtema": "mmc",
+      "habilidade": "Conciliar periodicidade, intervalo de observação e contagem.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "Três sensores começam juntos no minuto zero e repetem as medições nos intervalos do painel. Uma pesquisa só aceita medições conjuntas do minuto 100 ao 300, incluindo os limites. Quantas medições serão aceitas e em que minuto ocorrerá a última?",
+      "dados": {
+        "periodos": [
+          6,
+          9,
+          14
+        ],
+        "inicio": 100,
+        "fim": 300
+      },
+      "modelo_verificacao": "[len(comuns_intervalo(inicio,fim,periodos)),max(comuns_intervalo(inicio,fim,periodos))]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1 medição; a última no minuto 126.",
+          "valor": [
+            "1",
+            "126"
+          ],
+          "erro_comum": "Para na primeira coincidência dentro da janela."
+        },
+        {
+          "letra": "B",
+          "texto": "2 medições; a última no minuto 252.",
+          "valor": [
+            "2",
+            "252"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "3 medições; a última no minuto 252.",
+          "valor": [
+            "3",
+            "252"
+          ],
+          "erro_comum": "Inclui a medição do minuto zero, fora da janela."
+        },
+        {
+          "letra": "D",
+          "texto": "2 medições; a última no minuto 300.",
+          "valor": [
+            "2",
+            "300"
+          ],
+          "erro_comum": "Considera o encerramento como coincidência sem verificar os períodos."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "O MMC de 6, 9 e 14 é 126. As medições conjuntas ocorrem em 0, 126, 252, 378, ... Na janela fechada de 100 a 300, apenas 126 e 252 são aceitas. São duas medições, sendo a última no minuto 252.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/multiplos-divisores-e-resolucao-de.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Janelas para uma medição conjunta"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "DP",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-DP-15"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 278\" role=\"img\" aria-label=\"Sensor A: 6 minutos; Sensor B: 9 minutos; Sensor C: 14 minutos\"><title>Intervalos de medição</title><desc>Sensor A: 6 minutos; Sensor B: 9 minutos; Sensor C: 14 minutos</desc><rect width=\"320\" height=\"278\" fill=\"#fff\"/><text x=\"12\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Intervalos de medição</text><rect x=\"10\" y=\"64\" width=\"145\" height=\"90\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"20\" y=\"89\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Sensor A</text><text x=\"20\" y=\"123\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">6 minutos</text><rect x=\"165\" y=\"64\" width=\"145\" height=\"90\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"175\" y=\"89\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Sensor B</text><text x=\"175\" y=\"123\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">9 minutos</text><rect x=\"10\" y=\"166\" width=\"145\" height=\"90\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"20\" y=\"191\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Sensor C</text><text x=\"20\" y=\"225\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">14 minutos</text></svg>",
+          "acessibilidade": "Sensor A: 6 minutos; Sensor B: 9 minutos; Sensor C: 14 minutos",
+          "geometria": {
+            "tipo": "cartoes",
+            "items": [
+              {
+                "nome": "Sensor A",
+                "valor": "6 minutos"
+              },
+              {
+                "nome": "Sensor B",
+                "valor": "9 minutos"
+              },
+              {
+                "nome": "Sensor C",
+                "valor": "14 minutos"
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-DP-15-visual",
+          "arquivo": "recursos/DP-15.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-DP-16",
+      "numero": 16,
+      "titulo": "O módulo cabe no molde?",
+      "assunto": "DP",
+      "assunto_nome": "Divisibilidade, números primos, MMC e MDC",
+      "subtema": "mdc",
+      "habilidade": "Escolher o maior divisor comum dentro de um intervalo.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "As fitas do desenho devem ser cortadas em pedaços iguais, sem sobras. Cada pedaço precisa medir de 8 a 20 cm, incluindo os limites. Qual plano usa o maior comprimento permitido e informa corretamente o total de pedaços?",
+      "dados": {
+        "a": 72,
+        "b": 120,
+        "minimo": 8,
+        "maximo": 20
+      },
+      "modelo_verificacao": "[max([d for d in divisores(gcd(a,b)) if minimo<=d<=maximo]),(a+b)//max([d for d in divisores(gcd(a,b)) if minimo<=d<=maximo])]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Pedaços de 12 cm; 16 pedaços.",
+          "valor": [
+            "12",
+            "16"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Pedaços de 24 cm; 8 pedaços.",
+          "valor": [
+            "24",
+            "8"
+          ],
+          "erro_comum": "Usa o MDC sem respeitar o tamanho máximo."
+        },
+        {
+          "letra": "C",
+          "texto": "Pedaços de 8 cm; 24 pedaços.",
+          "valor": [
+            "8",
+            "24"
+          ],
+          "erro_comum": "Encontra uma medida permitida, mas não a maior."
+        },
+        {
+          "letra": "D",
+          "texto": "Pedaços de 20 cm; 9 pedaços.",
+          "valor": [
+            "20",
+            "9"
+          ],
+          "erro_comum": "Escolhe o limite superior e descarta sobras indevidamente."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "O MDC de 72 e 120 é 24. Seus divisores entre 8 e 20 são 8 e 12; 24 está fora do intervalo. Logo, o maior comprimento permitido é 12 cm. A primeira fita fornece 6 pedaços e a segunda, 10, totalizando 16.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/multiplos-divisores-e-resolucao-de.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "O módulo cabe no molde?"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "DP",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-DP-16"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 238\" role=\"img\" aria-label=\"Fitas antes do corte. Fita A: 72 cm; Fita B: 120 cm. Comprimentos representados na mesma escala.\"><title>Fitas antes do corte</title><desc>Fitas antes do corte. Fita A: 72 cm; Fita B: 120 cm. Comprimentos representados na mesma escala.</desc><rect width=\"320\" height=\"238\" fill=\"#fff\"/><text x=\"10\" y=\"24\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Fitas antes do corte</text><text x=\"15\" y=\"68\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Fita A: 72 cm</text><rect x=\"20\" y=\"80\" width=\"162.00000\" height=\"30\" fill=\"#b7dbd8\" stroke=\"#173746\"/><text x=\"15\" y=\"153\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Fita B: 120 cm</text><rect x=\"20\" y=\"165\" width=\"270.00000\" height=\"30\" fill=\"#b7dbd8\" stroke=\"#173746\"/></svg>",
+          "acessibilidade": "Fitas antes do corte. Fita A: 72 cm; Fita B: 120 cm. Comprimentos representados na mesma escala.",
+          "geometria": {
+            "tipo": "fitas",
+            "maximo": "120",
+            "barras": [
+              {
+                "nome": "Fita A",
+                "valor": "72",
+                "largura": 162.0
+              },
+              {
+                "nome": "Fita B",
+                "valor": "120",
+                "largura": 270.0
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-DP-16-visual",
+          "arquivo": "recursos/DP-16.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-DP-17",
+      "numero": 17,
+      "titulo": "Duas decisões no laboratório escolar",
+      "assunto": "DP",
+      "assunto_nome": "Divisibilidade, números primos, MMC e MDC",
+      "subtema": "estrategia",
+      "habilidade": "Distinguir o papel do MDC e do MMC em problemas relacionados.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "No laboratório escolar, uma equipe precisa resolver dois problemas.\n\nSituação 1 — Organização das amostras\nHá dois registros, um com 36 amostras e outro com 54. Cada registro será dividido em blocos com a mesma quantidade de amostras, sem sobras. Qual é a maior quantidade de amostras que cada bloco pode ter?\n\nSituação 2 — Funcionamento dos equipamentos\nDois equipamentos começam juntos e repetem ciclos de 36 e 54 segundos. Depois da partida, em quantos segundos ocorrerá o primeiro término conjunto?\n\nQual alternativa apresenta, nessa ordem, as respostas às situações 1 e 2?",
+      "dados": {
+        "a": 36,
+        "b": 54
+      },
+      "modelo_verificacao": "[gcd(a,b),lcm(a,b)]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "108 amostras e 18 segundos.",
+          "valor": [
+            "108",
+            "18"
+          ],
+          "erro_comum": "Troca as funções do MMC e do MDC."
+        },
+        {
+          "letra": "B",
+          "texto": "6 amostras e 90 segundos.",
+          "valor": [
+            "6",
+            "90"
+          ],
+          "erro_comum": "Usa um divisor comum não máximo e soma os períodos."
+        },
+        {
+          "letra": "C",
+          "texto": "18 amostras e 90 segundos.",
+          "valor": [
+            "18",
+            "90"
+          ],
+          "erro_comum": "Resolve o primeiro problema, mas soma os períodos no segundo."
+        },
+        {
+          "letra": "D",
+          "texto": "18 amostras e 108 segundos.",
+          "valor": [
+            "18",
+            "108"
+          ],
+          "erro_comum": null
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Na situação 1, procuramos a maior quantidade que divide 36 e 54 sem resto: MDC(36, 54) = 18. Na situação 2, procuramos o primeiro tempo positivo que é múltiplo de 36 e de 54: MMC(36, 54) = 108. A resposta é, portanto, 18 amostras e 108 segundos.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/multiplos-divisores-e-resolucao-de.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Duas decisões no laboratório escolar"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de DP-03, DP-06, DP-09, DP-11, DP-17 e DP-20; transferência visual de DP-14 para DP-11.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "DP",
+        "nivel": "dificil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-DP-17"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-DP-18",
+      "numero": 18,
+      "titulo": "Algarismo perdido no inventário",
+      "assunto": "DP",
+      "assunto_nome": "Divisibilidade, números primos, MMC e MDC",
+      "subtema": "criterios",
+      "habilidade": "Conciliar critérios de divisibilidade e uma posição decimal desconhecida.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "Uma etiqueta do inventário perdeu o algarismo das centenas. A quantidade deve permitir repartições exatas tanto em grupos de 8 como em grupos de 9. Qual algarismo pode ocupar o espaço, mantendo os demais como aparecem no desenho?",
+      "dados": {
+        "milhares": 5,
+        "dezenas": 8,
+        "unidades": 4
+      },
+      "modelo_verificacao": "min([d for d in range(10) if (1000*milhares+100*d+10*dezenas+unidades)%8==0 and (1000*milhares+100*d+10*dezenas+unidades)%9==0])",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5.",
+          "valor": "5",
+          "erro_comum": "Confunde final par com divisibilidade por 8 e ignora a soma dos algarismos."
+        },
+        {
+          "letra": "B",
+          "texto": "7.",
+          "valor": "7",
+          "erro_comum": "Escolhe um preenchimento sem conferir simultaneamente os dois critérios."
+        },
+        {
+          "letra": "C",
+          "texto": "1.",
+          "valor": "1",
+          "erro_comum": null
+        },
+        {
+          "letra": "D",
+          "texto": "3.",
+          "valor": "3",
+          "erro_comum": "Verifica apenas que os três últimos algarismos são pares."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "A soma dos algarismos é 5 + d + 8 + 4 = 17 + d. Para ser múltipla de 9, entre d = 0 e d = 9, ela só pode ser 18; assim, d = 1. É necessário conferir o outro critério: os três últimos algarismos formam 184, e 184 ÷ 8 = 23. Portanto, 5.184 atende às duas condições.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/multiplos-divisores-e-resolucao-de.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Algarismo perdido no inventário"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "DP",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-DP-18"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 268\" role=\"img\" aria-label=\"Quantidade: 5 □ 8 4. O espaço representa o algarismo das centenas.\"><title>Etiqueta parcialmente apagada</title><desc>Quantidade: 5 □ 8 4. O espaço representa o algarismo das centenas.</desc><rect width=\"320\" height=\"268\" fill=\"#fff\"/><text x=\"12\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Etiqueta parcialmente</text><text x=\"12\" y=\"49\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">apagada</text><rect x=\"10\" y=\"88\" width=\"145\" height=\"90\" rx=\"8\" fill=\"#eef6f5\" stroke=\"#456775\"/><text x=\"20\" y=\"113\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Quantidade</text><text x=\"20\" y=\"147\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">5 □ 8 4</text><text x=\"12\" y=\"210\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">O espaço representa o</text><text x=\"12\" y=\"234\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">algarismo das centenas.</text></svg>",
+          "acessibilidade": "Quantidade: 5 □ 8 4. O espaço representa o algarismo das centenas.",
+          "geometria": {
+            "tipo": "cartoes",
+            "items": [
+              {
+                "nome": "Quantidade",
+                "valor": "5 □ 8 4"
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-DP-18-visual",
+          "arquivo": "recursos/DP-18.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    },
+    {
+      "id": "MFC7-B1-I-DP-19",
+      "numero": 19,
+      "titulo": "Um resultado que funciona não basta",
+      "assunto": "DP",
+      "assunto_nome": "Divisibilidade, números primos, MMC e MDC",
+      "subtema": "estrategia",
+      "habilidade": "Analisar a minimalidade de um múltiplo comum.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "Em uma animação, dois contadores reiniciam após 24 e 40 quadros, respectivamente. Partem juntos no quadro zero. Uma equipe propõe esperar 960 quadros, pois 24 × 40 = 960. O valor funciona, mas a edição exige o primeiro reinício conjunto após o início. Qual é a correção?",
+      "dados": {
+        "a": 24,
+        "b": 40
+      },
+      "modelo_verificacao": "lcm(a,b)",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Usar 8 quadros, o maior divisor comum.",
+          "valor": "8",
+          "erro_comum": "Utiliza MDC em uma situação de periodicidade."
+        },
+        {
+          "letra": "B",
+          "texto": "Usar 120 quadros, o menor múltiplo positivo comum.",
+          "valor": "120",
+          "erro_comum": null
+        },
+        {
+          "letra": "C",
+          "texto": "Usar 64 quadros, somando as durações.",
+          "valor": "64",
+          "erro_comum": "Soma os ciclos em vez de encontrar uma coincidência."
+        },
+        {
+          "letra": "D",
+          "texto": "Manter 960 quadros, pois o produto sempre é a primeira coincidência.",
+          "valor": "960",
+          "erro_comum": "Confunde um múltiplo comum com o menor deles."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "24 = 2³ × 3 e 40 = 2³ × 5. O MMC é 2³ × 3 × 5 = 120. Em 120 quadros, o primeiro contador completa 5 ciclos e o segundo, 3. O produto 960 também é múltiplo dos dois, mas corresponde a oito intervalos de 120 e não é a primeira coincidência.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/multiplos-divisores-e-resolucao-de.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Um resultado que funciona não basta"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "DP",
+        "nivel": "dificil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC7-B1-I-DP-19"
+      },
+      "recursos_visuais": []
+    },
+    {
+      "id": "MFC7-B1-I-DP-20",
+      "numero": 20,
+      "titulo": "Testes durante uma interrupção",
+      "assunto": "DP",
+      "assunto_nome": "Divisibilidade, números primos, MMC e MDC",
+      "subtema": "mmc",
+      "habilidade": "Relacionar coincidências periódicas a uma janela de indisponibilidade e contar os testes realizados.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "rotulo": "Desafiador",
+        "justificativa": "Conciliar condições ou comparar estratégias e conferir a conclusão."
+      },
+      "enunciado": "Dois sistemas começam juntos no minuto zero. O sistema A completa um ciclo a cada 8 minutos e o sistema B, a cada 12 minutos.\n\nUm teste só pode ser realizado quando os dois ciclos terminam simultaneamente. Entretanto, nenhum teste pode ocorrer do minuto 40 ao minuto 75, incluindo esses dois limites.\n\nConsidere que será realizado um teste em cada término conjunto permitido, sem contar o minuto zero.\n\nEm que minuto ocorrerá o primeiro teste depois da interrupção? Quantos testes terão sido realizados desde o início até esse instante, incluindo o próprio teste de retomada?",
+      "dados": {
+        "a": 8,
+        "b": 12,
+        "bloqueio_inicio": 40,
+        "bloqueio_fim": 75
+      },
+      "modelo_verificacao": "[(bloqueio_fim//lcm(a,b)+1)*lcm(a,b),len([t for t in range(1,(bloqueio_fim//lcm(a,b)+1)*lcm(a,b)+1) if t%a==0 and t%b==0 and not bloqueio_inicio<=t<=bloqueio_fim])]",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Minuto 96; 2 testes realizados.",
+          "valor": [
+            "96",
+            "2"
+          ],
+          "erro_comum": null
+        },
+        {
+          "letra": "B",
+          "texto": "Minuto 96; 4 testes realizados.",
+          "valor": [
+            "96",
+            "4"
+          ],
+          "erro_comum": "Conta também as coincidências durante a interrupção, quando os testes são proibidos."
+        },
+        {
+          "letra": "C",
+          "texto": "Minuto 84; 2 testes realizados.",
+          "valor": [
+            "84",
+            "2"
+          ],
+          "erro_comum": "Escolhe um múltiplo apenas de 12 após a interrupção, sem conferir o ciclo de 8 minutos."
+        },
+        {
+          "letra": "D",
+          "texto": "Minuto 72; 3 testes realizados.",
+          "valor": [
+            "72",
+            "3"
+          ],
+          "erro_comum": "Usa uma coincidência ainda dentro do período bloqueado e conta ocorrências proibidas."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "O MMC de 8 e 12 é 24. Assim, os términos conjuntos positivos ocorrem nos minutos 24, 48, 72, 96, …\n\nMinuto 24: teste permitido, antes da interrupção. Minutos 48 e 72: testes proibidos, dentro da interrupção. Minuto 96: primeiro teste permitido depois da interrupção.\n\nContando o teste anterior à interrupção e o teste de retomada, serão dois testes: nos minutos 24 e 96.",
+      "autoria": "MatemáticaFC — proposta autoral para revisão pedagógica",
+      "originalidade": {
+        "referencia": "https://www.matematicafc.com/2026/08/multiplos-divisores-e-resolucao-de.html",
+        "uso": "Referência conceitual; enunciado, dados, alternativas e resolução elaborados para este banco.",
+        "estrutura": "Testes durante uma interrupção"
+      },
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Publicação autorizada pelo responsável pelo projeto nesta conversa em 15/10/2026, após revisão e inspeção funcional no Windows.",
+        "reformulacao": {
+          "situacao": "implementada_conforme_aprovacao_do_usuario",
+          "escopo": "Reformulações de DP-03, DP-06, DP-09, DP-11, DP-17 e DP-20; transferência visual de DP-14 para DP-11.",
+          "aprovacao_definitiva": "pendente"
+        }
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "DP",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC7-B1-I-DP-20"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 290\" role=\"img\" aria-label=\"Ciclos: A, 8 minutos; B, 12 minutos. Linha do tempo de 0 a 100 minutos, com bloqueio de 40 a 75, incluindo ambos os limites. As coincidências não estão marcadas. A área de bloqueio tem hachuras e contorno tracejado escuro; as regiões fora do bloqueio não têm hachuras.\"><title>Intervalo sem testes</title><desc>Ciclos: A, 8 minutos; B, 12 minutos. Linha do tempo de 0 a 100 minutos, com bloqueio de 40 a 75, incluindo ambos os limites. As coincidências não estão marcadas. A área de bloqueio tem hachuras e contorno tracejado escuro; as regiões fora do bloqueio não têm hachuras.</desc><defs><pattern id=\"MFC7-B1-I-DP-20-contraste-hachuras\" patternUnits=\"userSpaceOnUse\" width=\"8\" height=\"8\"><rect width=\"8\" height=\"8\" fill=\"#f3dfbc\" /><path d=\"M-2 2 L2 -2 M0 8 L8 0 M6 10 L10 6\" stroke=\"#173746\" stroke-width=\"1.5\" /></pattern></defs><rect width=\"320\" height=\"290\" fill=\"#fff\" /><text x=\"12\" y=\"26\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">Condições dos testes</text><text x=\"12\" y=\"60\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#173746\">A: 8 min   |   B: 12 min</text><rect x=\"133.0\" y=\"95\" width=\"94.5\" height=\"45\" fill=\"url(#MFC7-B1-I-DP-20-contraste-hachuras)\" data-marcacao-acessivel=\"hachuras\" stroke=\"#173746\" stroke-width=\"1.5\" stroke-dasharray=\"4 2\" /><line x1=\"25\" x2=\"295\" y1=\"140\" y2=\"140\" stroke=\"#173746\" stroke-width=\"2\" /><line x1=\"25.0\" x2=\"25.0\" y1=\"133\" y2=\"147\" stroke=\"#173746\" /><text x=\"25.0\" y=\"168\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">0</text><line x1=\"133.0\" x2=\"133.0\" y1=\"133\" y2=\"147\" stroke=\"#173746\" /><text x=\"133.0\" y=\"168\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">40</text><line x1=\"227.5\" x2=\"227.5\" y1=\"133\" y2=\"147\" stroke=\"#173746\" /><text x=\"227.5\" y=\"168\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">75</text><line x1=\"295.0\" x2=\"295.0\" y1=\"133\" y2=\"147\" stroke=\"#173746\" /><text x=\"295.0\" y=\"195\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#173746\">100</text><text x=\"12\" y=\"230\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">Bloqueio: de 40 a 75 min,</text><text x=\"12\" y=\"254\" font-family=\"Arial, sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#173746\">incluindo os limites.</text></svg>",
+          "acessibilidade": "Ciclos: A, 8 minutos; B, 12 minutos. Linha do tempo de 0 a 100 minutos, com bloqueio de 40 a 75, incluindo ambos os limites. As coincidências não estão marcadas. A área de bloqueio tem hachuras e contorno tracejado escuro; as regiões fora do bloqueio não têm hachuras.",
+          "geometria": {
+            "tipo": "interrupcao_testes",
+            "inicio": 0,
+            "fim": 100,
+            "bloqueio_inicio": 40,
+            "bloqueio_fim": 75,
+            "x_inicio": 25,
+            "escala": 2.7,
+            "x_bloqueio": 133.0,
+            "largura_bloqueio": 94.5
+          },
+          "acessibilidade_grafica": {
+            "codificacao": "textura_e_contorno",
+            "independente_de_cor": true,
+            "marcacoes": [
+              {
+                "padrao": "MFC7-B1-I-DP-20-contraste-hachuras",
+                "tipo": "hachuras",
+                "fundo": "#f3dfbc",
+                "marca": "#173746",
+                "regioes": 1
+              }
+            ]
+          },
+          "id": "MFC7-B1-I-DP-20-visual",
+          "arquivo": "recursos/DP-20.svg",
+          "relevancia": "A representação fornece os dados ou relações que devem ser interpretados para resolver a situação."
+        }
+      ]
+    }
+  ]
+}

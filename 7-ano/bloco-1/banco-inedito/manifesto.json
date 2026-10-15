@@ -1,0 +1,62 @@
+{
+  "banco_id": "MFC7-B1-INEDITO-V1",
+  "estado": "aprovado_para_publicacao",
+  "questoes": 100,
+  "visuais": 60,
+  "questoes_por_assunto": 20,
+  "dificuldades_banco_por_assunto": {
+    "facil": 6,
+    "media": 8,
+    "dificil": 6
+  },
+  "visuais_por_nivel_por_assunto": {
+    "facil": 3,
+    "media": 5,
+    "dificil": 4
+  },
+  "regras_selecao": {
+    "total": 30,
+    "por_assunto": 6,
+    "dificuldade_por_assunto": {
+      "DP": {
+        "facil": 1,
+        "media": 3,
+        "dificil": 2
+      },
+      "NI": {
+        "facil": 2,
+        "media": 3,
+        "dificil": 1
+      },
+      "OI": {
+        "facil": 1,
+        "media": 3,
+        "dificil": 2
+      },
+      "FR": {
+        "facil": 2,
+        "media": 3,
+        "dificil": 1
+      },
+      "NR": {
+        "facil": 2,
+        "media": 2,
+        "dificil": 2
+      }
+    },
+    "dificuldade_total": {
+      "facil": 8,
+      "media": 14,
+      "dificil": 8
+    },
+    "minimo_visuais_por_assunto": 3,
+    "minimo_visuais": 15
+  },
+  "arquivos_sha256": {
+    "divisibilidade-primos-mmc-mdc.json": "6391e8d8734e8d87f4e048f586315da33e77580395442c03de42cd678fecd924",
+    "inteiros-representacao.json": "e42ed782e572574c85f822748a4f1d907cb5e90975b5e3e2c4179902587dec65",
+    "operacoes-inteiros.json": "9fce3b33465a4696155718ae54716a2946d1b5c36b4e23047a14f305a492b9fd",
+    "fracoes.json": "de401e3315ff116ba2d01f3f4870287be863f4533dff5365fe820e4c3e77e578",
+    "racionais-representacoes.json": "ee224f5a07738ae34313e0a3c79301e754b2bfd767f298cd69d8a3a780e8b910"
+  }
+}
