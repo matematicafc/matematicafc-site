@@ -1,7 +1,7 @@
 # MatemáticaFC — inspeção da reconstrução do 7º ano no Windows
 
 Esta branch contém os 29 arquivos da versão validada, duas documentações de
-inspeção e o README original da main. Não inclui ZIPs, a interface antiga,
+inspeção, a configuração `.gitattributes` e o README original da main. Não inclui ZIPs, a interface antiga,
 o simulado do 6º ano, dependências de desenvolvimento ou resultados pessoais.
 A revisão pedagógica definitiva permanece pendente. Não é publicação do simulado.
 
@@ -13,12 +13,15 @@ Com todas as proteções do Windows ativas, abra o Terminal ou PowerShell na
 pasta em que deseja guardar uma cópia NOVA e execute:
 
 ```powershell
-git clone --single-branch --branch inspecao-reconstrucao-7ano https://github.com/matematicafc/matematicafc-site.git matematicafc-inspecao-7ano
-cd matematicafc-inspecao-7ano
+git clone --single-branch --branch inspecao-reconstrucao-7ano https://github.com/matematicafc/matematicafc-site.git matematicafc-inspecao-7ano-lf
+cd matematicafc-inspecao-7ano-lf
 git branch --show-current
 ```
 
 A branch informada deve ser `inspecao-reconstrucao-7ano`.
+Use uma pasta NOVA. Se `matematicafc-inspecao-7ano-lf` já existir, escolha outro
+nome para o destino e para o comando `cd`. Preserve a pasta da avaliação anterior.
+Não é necessário alterar a configuração global `core.autocrlf` do Git.
 Não baixe só a pasta `reconstrucao`: ela depende do banco, motor, configuração e
 utilidade incluídos nesta branch. Não mova arquivos nem misture cópias antigas.
 Não use Download ZIP para este procedimento.
@@ -31,6 +34,29 @@ método para superar o bloqueio do antivírus. A detecção anterior
 não foi aprovada pelo Microsoft Defender.
 
 ## 2. Conferir antes de abrir
+
+A `.gitattributes` desta branch fixa LF para textos e preserva os binários:
+
+```gitattributes
+* text=auto eol=lf
+*.ttf -text
+*.ico -text
+```
+
+A regra do repositório evita a conversão para CRLF mesmo com `core.autocrlf=true`.
+Os hashes aprovados do manifesto não foram alterados. O texto é UTF-8 e a
+conversão de finais de linha não deve ser confundida com mudança de codificação.
+
+Para conferir o arquivo que apresentou divergência:
+
+```powershell
+git ls-files --eol -- 7-ano/bloco-1/banco-inedito/divisibilidade-primos-mmc-mdc.json
+```
+
+O resultado deve indicar `i/lf` e `w/lf`, com atributo `eol=lf`.
+Se indicar `w/crlf`, não edite o JSON: confira a branch, a nova pasta e a presença
+da `.gitattributes`, mantendo a cópia anterior preservada.
+
 
 Execute uma verificação da pasta com o Microsoft Defender. Se necessário, use
 Segurança do Windows → Proteção contra vírus e ameaças → Opções de verificação
@@ -54,7 +80,11 @@ Se faltar arquivo ou houver divergência/alerta, não prossiga para a execução
 
 ## 3. Iniciar o servidor neste notebook
 
-Após as verificações, na MESMA pasta raiz da cópia:
+Se o servidor da avaliação anterior ainda estiver aberto, encerre-o com Ctrl+C
+no terminal em que ele foi iniciado. Isso evita consultar a pasta antiga pela
+mesma porta. Nenhum arquivo antigo precisa ser excluído.
+
+Após as verificações, na MESMA pasta raiz da NOVA cópia:
 
 ```powershell
 py -3 --version
@@ -99,6 +129,10 @@ Os dados do estudante permanecem no navegador; não há envio de resultados.
 ## Evidências e limites
 
 Os 29 arquivos foram comparados byte por byte com a cópia mínima testada.
+A correção altera somente `.gitattributes` e este guia; os arquivos de execução
+e todos os hashes aprovados permanecem iguais. Foi testado checkout com
+`core.autocrlf=true` e `core.eol=crlf`: os 29 hashes devem permanecer iguais ao
+manifesto e os 27 arquivos de texto devem continuar em LF.
 A validação anterior executou 51 testes e 10.000 sorteios sem violações.
 Esses testes foram realizados em Linux/Chromium, não constituem aprovação do
 Defender, teste humano com leitor de tela ou teste de impressora física.
