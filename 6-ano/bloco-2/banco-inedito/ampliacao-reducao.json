@@ -1,0 +1,4231 @@
+{
+  "versao_formato": 1,
+  "banco_id": "MFC6-B2-INEDITO-V1",
+  "tipo": "definitivo",
+  "assunto": "Ampliação e redução de figuras",
+  "codigo_assunto": "AR",
+  "topico_curricular": 9,
+  "estado": "aprovado_pedagogicamente",
+  "quantidade_prevista": 25,
+  "revisao_pedagogica": "aprovada",
+  "questoes": [
+    {
+      "id": "MFC6-B2-I-AR-01",
+      "numero": 1,
+      "topico_curricular": 9,
+      "titulo": "Um cartaz com a mesma forma",
+      "enunciado": "O desenho de um cartaz mede 4 cm de largura e 3 cm de altura. A turma quer ampliá-lo duplicando todos os comprimentos, sem girar nem deformar a figura. Quais devem ser as novas dimensões?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Aplicar o mesmo fator às duas dimensões de um retângulo.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Reconhece a duplicação em duas medidas simples."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6 cm de largura e 5 cm de altura.",
+          "valor": [
+            6,
+            5
+          ],
+          "erro_comum": "Soma dois às medidas em vez de duplicá-las."
+        },
+        {
+          "letra": "B",
+          "texto": "8 cm de largura e 6 cm de altura.",
+          "valor": [
+            8,
+            6
+          ],
+          "erro_comum": ""
+        },
+        {
+          "letra": "C",
+          "texto": "8 cm de largura e 3 cm de altura.",
+          "valor": [
+            8,
+            3
+          ],
+          "erro_comum": "Duplica apenas a largura."
+        },
+        {
+          "letra": "D",
+          "texto": "4 cm de largura e 6 cm de altura.",
+          "valor": [
+            4,
+            6
+          ],
+          "erro_comum": "Duplica apenas a altura."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Duplicar significa multiplicar cada comprimento por 2. A largura passa a 4 × 2 = 8 cm e a altura a 3 × 2 = 6 cm. A nova figura mede 8 por 6 cm. Somar dois a cada medida não preservaria as proporções.",
+      "justificativa_pedagogica": "Distingue multiplicar todas as medidas de acrescentar a mesma quantidade.",
+      "dados": {
+        "original": [
+          4,
+          3
+        ],
+        "fator": [
+          2,
+          1
+        ]
+      },
+      "modelo_verificacao": {
+        "tipo": "dimensoes_dobro"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 215\" role=\"img\" aria-label=\"Retângulo original com largura de 4 cm e altura de 3 cm. A ampliação não aparece.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Desenho original</text><path d=\"M 65 150 L 185 150 L 185 60 L 65 60 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"125.0\" y=\"184.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">4 cm</text><text x=\"213.0\" y=\"111.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">3 cm</text></svg>",
+          "css": "",
+          "acessibilidade": "Retângulo original com largura de 4 cm e altura de 3 cm. A ampliação não aparece.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 30,
+            "figuras": [
+              {
+                "titulo": "Desenho original",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    4,
+                    0
+                  ],
+                  [
+                    4,
+                    3
+                  ],
+                  [
+                    0,
+                    3
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "4 cm",
+                  "1": "3 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  150
+                ],
+                "unidade_svg": 30
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-01-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-02",
+      "numero": 2,
+      "topico_curricular": 9,
+      "titulo": "Uma etiqueta menor",
+      "enunciado": "Uma etiqueta retangular de 10 cm por 6 cm precisa caber numa embalagem menor. A impressão reduzirá cada comprimento à metade, mantendo a orientação. Quais medidas terá a etiqueta?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Interpretar uma redução à metade em medidas correspondentes.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Divide duas medidas conhecidas por dois."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5 cm por 6 cm.",
+          "valor": [
+            5,
+            6
+          ],
+          "erro_comum": "Reduz apenas a primeira dimensão."
+        },
+        {
+          "letra": "B",
+          "texto": "10 cm por 3 cm.",
+          "valor": [
+            10,
+            3
+          ],
+          "erro_comum": "Reduz apenas a segunda dimensão."
+        },
+        {
+          "letra": "C",
+          "texto": "8 cm por 4 cm.",
+          "valor": [
+            8,
+            4
+          ],
+          "erro_comum": "Subtrai dois das duas medidas, usando fatores diferentes."
+        },
+        {
+          "letra": "D",
+          "texto": "5 cm por 3 cm.",
+          "valor": [
+            5,
+            3
+          ],
+          "erro_comum": ""
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Cada comprimento deve ser dividido por 2: 10 ÷ 2 = 5 e 6 ÷ 2 = 3. A etiqueta fica com 5 cm por 3 cm. Reduzir só um lado achataria ou alongaria a figura.",
+      "justificativa_pedagogica": "Relaciona a redução à preservação da forma, sem alterar apenas uma direção.",
+      "dados": {
+        "original": [
+          10,
+          6
+        ],
+        "fator": [
+          1,
+          2
+        ]
+      },
+      "modelo_verificacao": {
+        "tipo": "dimensoes_metade"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 251.0\" role=\"img\" aria-label=\"Etiqueta original retangular de 10 cm de largura e 6 cm de altura; a cópia reduzida ainda não está desenhada.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Etiqueta original</text><path d=\"M 65.0 186.0 L 275.0 186.0 L 275.0 60.0 L 65.0 60.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"170.0\" y=\"220.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">10 cm</text><text x=\"303.0\" y=\"129.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">6 cm</text></svg>",
+          "css": "",
+          "acessibilidade": "Etiqueta original retangular de 10 cm de largura e 6 cm de altura; a cópia reduzida ainda não está desenhada.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 21.0,
+            "figuras": [
+              {
+                "titulo": "Etiqueta original",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    10,
+                    0
+                  ],
+                  [
+                    10,
+                    6
+                  ],
+                  [
+                    0,
+                    6
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "10 cm",
+                  "1": "6 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  186.0
+                ],
+                "unidade_svg": 21.0
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-02-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-03",
+      "numero": 3,
+      "topico_curricular": 9,
+      "titulo": "Um símbolo em duas malhas",
+      "enunciado": "O símbolo em L aparece no modelo e na cópia. Nos dois desenhos, cada quadradinho tem o mesmo lado de uma unidade. Qual fator foi usado em todos os comprimentos para passar do modelo à cópia?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Identificar um fator de ampliação por contagem de intervalos em uma malha.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Compara comprimentos correspondentes e não o número total de quadradinhos."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2.",
+          "valor": 2,
+          "erro_comum": ""
+        },
+        {
+          "letra": "B",
+          "texto": "3.",
+          "valor": 3,
+          "erro_comum": "Usa apenas a diferença entre as larguras."
+        },
+        {
+          "letra": "C",
+          "texto": "Metade.",
+          "valor": [
+            1,
+            2
+          ],
+          "erro_comum": "Confunde ampliação com redução."
+        },
+        {
+          "letra": "D",
+          "texto": "4.",
+          "valor": 4,
+          "erro_comum": "Confunde a mudança de comprimentos com a quantidade de quadradinhos internos."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "A largura passa de 3 para 6 unidades e a altura de 2 para 4. Os trechos curtos de uma unidade passam a dois. Todos os comprimentos dobram: o fator é 2. Contar quadradinhos internos não é o mesmo que comparar comprimentos.",
+      "justificativa_pedagogica": "Usa uma figura não retangular para verificar que todos os trechos devem acompanhar o fator.",
+      "dados": {
+        "original": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "copia": [
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      "modelo_verificacao": {
+        "tipo": "fator_malha_L"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 430\" role=\"img\" aria-label=\"Dois símbolos em L sobre malhas de mesma unidade. O modelo tem largura 3, altura 2 e braços de espessura 1; a cópia tem largura 6, altura 4 e espessura 2.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Modelo</text><line x1=\"65\" y1=\"120\" x2=\"65\" y2=\"60\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"95\" y1=\"120\" x2=\"95\" y2=\"60\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"125\" y1=\"120\" x2=\"125\" y2=\"60\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"155\" y1=\"120\" x2=\"155\" y2=\"60\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"65\" y1=\"120\" x2=\"155\" y2=\"120\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"65\" y1=\"90\" x2=\"155\" y2=\"90\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"65\" y1=\"60\" x2=\"155\" y2=\"60\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><path d=\"M 65 120 L 155 120 L 155 90 L 95 90 L 95 60 L 65 60 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"180\" y=\"211\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Cópia</text><line x1=\"65\" y1=\"365\" x2=\"65\" y2=\"245\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"95\" y1=\"365\" x2=\"95\" y2=\"245\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"125\" y1=\"365\" x2=\"125\" y2=\"245\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"155\" y1=\"365\" x2=\"155\" y2=\"245\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"185\" y1=\"365\" x2=\"185\" y2=\"245\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"215\" y1=\"365\" x2=\"215\" y2=\"245\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"245\" y1=\"365\" x2=\"245\" y2=\"245\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"65\" y1=\"365\" x2=\"245\" y2=\"365\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"65\" y1=\"335\" x2=\"245\" y2=\"335\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"65\" y1=\"305\" x2=\"245\" y2=\"305\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"65\" y1=\"275\" x2=\"245\" y2=\"275\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"65\" y1=\"245\" x2=\"245\" y2=\"245\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><path d=\"M 65 365 L 245 365 L 245 305 L 125 305 L 125 245 L 65 245 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/></svg>",
+          "css": "",
+          "acessibilidade": "Dois símbolos em L sobre malhas de mesma unidade. O modelo tem largura 3, altura 2 e braços de espessura 1; a cópia tem largura 6, altura 4 e espessura 2.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 30,
+            "figuras": [
+              {
+                "titulo": "Modelo",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    3,
+                    0
+                  ],
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    1,
+                    2
+                  ],
+                  [
+                    0,
+                    2
+                  ]
+                ],
+                "rotulos_lados": {},
+                "nomes": [],
+                "malha": true,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  120
+                ],
+                "unidade_svg": 30
+              },
+              {
+                "titulo": "Cópia",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    6,
+                    0
+                  ],
+                  [
+                    6,
+                    2
+                  ],
+                  [
+                    2,
+                    2
+                  ],
+                  [
+                    2,
+                    4
+                  ],
+                  [
+                    0,
+                    4
+                  ]
+                ],
+                "rotulos_lados": {},
+                "nomes": [],
+                "malha": true,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  365
+                ],
+                "unidade_svg": 30
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-03-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-04",
+      "numero": 4,
+      "topico_curricular": 9,
+      "titulo": "Lados que ocupam a mesma posição",
+      "enunciado": "Uma bandeirinha triangular foi ampliada sem giro, como mostra o desenho. A, B e C são os cantos da original; D, E e F são os da cópia. Qual lado da cópia corresponde ao lado AC?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Identificar lados correspondentes pela posição de seus vértices.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Relaciona os dois cantos de um lado a seus correspondentes."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "DE.",
+          "valor": "DE",
+          "erro_comum": "Escolhe a base, em vez do lado vertical."
+        },
+        {
+          "letra": "B",
+          "texto": "EF.",
+          "valor": "EF",
+          "erro_comum": "Escolhe o lado inclinado."
+        },
+        {
+          "letra": "C",
+          "texto": "DF.",
+          "valor": "DF",
+          "erro_comum": ""
+        },
+        {
+          "letra": "D",
+          "texto": "AB.",
+          "valor": "AB",
+          "erro_comum": "Indica um lado da figura original, não da cópia."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "A corresponde a D, no canto inferior esquerdo; C corresponde a F, no canto superior esquerdo. Por isso, AC corresponde a DF. DE é a base, e EF é o lado inclinado da cópia.",
+      "justificativa_pedagogica": "Mostra que comparar figuras exige identificar corretamente quais lados estão sendo relacionados.",
+      "dados": {
+        "original": [
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "copia": [
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "nomes_original": [
+          "A",
+          "B",
+          "C"
+        ],
+        "nomes_copia": [
+          "D",
+          "E",
+          "F"
+        ],
+        "lado": [
+          "A",
+          "C"
+        ]
+      },
+      "modelo_verificacao": {
+        "tipo": "lado_correspondente"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 475.0\" role=\"img\" aria-label=\"Dois triângulos retângulos na mesma orientação. A e D são os cantos inferiores esquerdos, B e E os inferiores direitos e C e F os superiores esquerdos. A cópia possui o dobro de cada comprimento.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Original</text><path d=\"M 65.0 135.0 L 165.0 135.0 L 65.0 60.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"51.0\" y=\"157.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">A</text><text x=\"179.0\" y=\"157.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">B</text><text x=\"51.0\" y=\"50.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">C</text><text x=\"180\" y=\"226.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Cópia</text><path d=\"M 65.0 410.0 L 265.0 410.0 L 65.0 260.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"51.0\" y=\"432.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">D</text><text x=\"279.0\" y=\"432.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">E</text><text x=\"51.0\" y=\"250.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">F</text></svg>",
+          "css": "",
+          "acessibilidade": "Dois triângulos retângulos na mesma orientação. A e D são os cantos inferiores esquerdos, B e E os inferiores direitos e C e F os superiores esquerdos. A cópia possui o dobro de cada comprimento.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 25.0,
+            "figuras": [
+              {
+                "titulo": "Original",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    4,
+                    0
+                  ],
+                  [
+                    0,
+                    3
+                  ]
+                ],
+                "rotulos_lados": {},
+                "nomes": [
+                  "A",
+                  "B",
+                  "C"
+                ],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  135.0
+                ],
+                "unidade_svg": 25.0
+              },
+              {
+                "titulo": "Cópia",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    8,
+                    0
+                  ],
+                  [
+                    0,
+                    6
+                  ]
+                ],
+                "rotulos_lados": {},
+                "nomes": [
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  410.0
+                ],
+                "unidade_svg": 25.0
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-04-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-05",
+      "numero": 5,
+      "topico_curricular": 9,
+      "titulo": "O selo quadrado da campanha",
+      "enunciado": "O selo quadrado de uma campanha tinha lado de 4 cm. Na versão para o mural, seu lado mede 12 cm. Qual transformação foi aplicada a cada lado?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Determinar um fator linear a partir de lados correspondentes.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Reconhece quantas vezes uma medida cabe na outra."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Redução à metade.",
+          "valor": "metade",
+          "erro_comum": "Confunde o aumento com uma diminuição."
+        },
+        {
+          "letra": "B",
+          "texto": "Ampliação pelo fator 2.",
+          "valor": 2,
+          "erro_comum": "Usa um fator que produziria lado de 8 cm."
+        },
+        {
+          "letra": "C",
+          "texto": "Acréscimo de 12 cm.",
+          "valor": "mais12",
+          "erro_comum": "Confunde a medida final com a quantidade acrescentada."
+        },
+        {
+          "letra": "D",
+          "texto": "Ampliação pelo fator 3.",
+          "valor": 3,
+          "erro_comum": ""
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "12 ÷ 4 = 3. Cada lado passou a ter três vezes a medida original, portanto houve ampliação pelo fator 3. Não foram acrescentados 12 cm: o aumento foi de 8 cm.",
+      "justificativa_pedagogica": "Relaciona a mudança do lado à transformação do quadrado inteiro.",
+      "dados": {
+        "lado_original": 4,
+        "lado_copia": 12
+      },
+      "modelo_verificacao": {
+        "tipo": "fator_lado_quadrado"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 450.0\" role=\"img\" aria-label=\"Quadrado original de lado 4 cm e quadrado do mural de lado 12 cm, desenhados com a mesma unidade gráfica.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Selo original</text><path d=\"M 65.0 110.0 L 115.0 110.0 L 115.0 60.0 L 65.0 60.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"90.0\" y=\"144.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">4 cm</text><text x=\"180\" y=\"201.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Selo do mural</text><path d=\"M 65.0 385.0 L 215.0 385.0 L 215.0 235.0 L 65.0 235.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"140.0\" y=\"419.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">12 cm</text></svg>",
+          "css": "",
+          "acessibilidade": "Quadrado original de lado 4 cm e quadrado do mural de lado 12 cm, desenhados com a mesma unidade gráfica.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 12.5,
+            "figuras": [
+              {
+                "titulo": "Selo original",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    4,
+                    0
+                  ],
+                  [
+                    4,
+                    4
+                  ],
+                  [
+                    0,
+                    4
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "4 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  110.0
+                ],
+                "unidade_svg": 12.5
+              },
+              {
+                "titulo": "Selo do mural",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    12,
+                    0
+                  ],
+                  [
+                    12,
+                    12
+                  ],
+                  [
+                    0,
+                    12
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "12 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  385.0
+                ],
+                "unidade_svg": 12.5
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-05-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-06",
+      "numero": 6,
+      "topico_curricular": 9,
+      "titulo": "A foto ficou esticada?",
+      "enunciado": "Uma foto tem 6 cm de largura e 4 cm de altura. Ao editar o arquivo, um estudante passa a largura para 12 cm, mas mantém a altura em 4 cm. Essa mudança é uma ampliação proporcional?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Distinguir ampliação proporcional de alongamento em uma só direção.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Compara dois fatores simples, incluindo uma medida que não mudou."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sim, porque a largura aumentou.",
+          "valor": "sim_largura",
+          "erro_comum": "Considera suficiente aumentar apenas uma medida."
+        },
+        {
+          "letra": "B",
+          "texto": "Não, porque só a largura foi duplicada.",
+          "valor": "nao_largura",
+          "erro_comum": ""
+        },
+        {
+          "letra": "C",
+          "texto": "Sim, porque a altura continuou igual.",
+          "valor": "sim_altura",
+          "erro_comum": "Confunde manter uma dimensão com preservar a proporção entre as duas."
+        },
+        {
+          "letra": "D",
+          "texto": "Não, porque as duas medidas foram reduzidas.",
+          "valor": "nao_reducao",
+          "erro_comum": "Classifica como redução uma mudança que aumenta a largura."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "A largura foi multiplicada por 2: de 6 para 12. A altura foi multiplicada por 1: continuou em 4. Como os fatores são diferentes, a foto ficou mais alongada. Não é uma ampliação proporcional.",
+      "justificativa_pedagogica": "Evita considerar qualquer aumento como preservação da forma.",
+      "dados": {
+        "original": [
+          6,
+          4
+        ],
+        "copia": [
+          12,
+          4
+        ]
+      },
+      "modelo_verificacao": {
+        "tipo": "deformacao_uma_direcao"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 390.0\" role=\"img\" aria-label=\"Dois retângulos com altura de 4 cm. A largura do primeiro é 6 cm e a do segundo é 12 cm. Ambos usam a mesma unidade no desenho.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Foto original</text><path d=\"M 65.0 130.0 L 170.0 130.0 L 170.0 60.0 L 65.0 60.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"117.5\" y=\"164.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">6 cm</text><text x=\"198.0\" y=\"101.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">4 cm</text><text x=\"180\" y=\"221.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Arquivo editado</text><path d=\"M 65.0 325.0 L 275.0 325.0 L 275.0 255.0 L 65.0 255.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"170.0\" y=\"359.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">12 cm</text><text x=\"303.0\" y=\"296.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">4 cm</text></svg>",
+          "css": "",
+          "acessibilidade": "Dois retângulos com altura de 4 cm. A largura do primeiro é 6 cm e a do segundo é 12 cm. Ambos usam a mesma unidade no desenho.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 17.5,
+            "figuras": [
+              {
+                "titulo": "Foto original",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    6,
+                    0
+                  ],
+                  [
+                    6,
+                    4
+                  ],
+                  [
+                    0,
+                    4
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "6 cm",
+                  "1": "4 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  130.0
+                ],
+                "unidade_svg": 17.5
+              },
+              {
+                "titulo": "Arquivo editado",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    12,
+                    0
+                  ],
+                  [
+                    12,
+                    4
+                  ],
+                  [
+                    0,
+                    4
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "12 cm",
+                  "1": "4 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  325.0
+                ],
+                "unidade_svg": 17.5
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-06-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-07",
+      "numero": 7,
+      "topico_curricular": 9,
+      "titulo": "Barbante para o contorno",
+      "enunciado": "Um cartão quadrado de lado 3 cm será ampliado para um quadrado de lado 6 cm. A turma quer passar barbante uma vez por toda a borda da cópia, sem sobra para amarrar. De quantos centímetros precisará?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Relacionar a ampliação do lado ao perímetro de um quadrado.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Reúne as quatro medidas da borda após reconhecer o novo lado."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "24 cm.",
+          "valor": 24,
+          "erro_comum": ""
+        },
+        {
+          "letra": "B",
+          "texto": "12 cm.",
+          "valor": 12,
+          "erro_comum": "Mantém o perímetro do cartão original."
+        },
+        {
+          "letra": "C",
+          "texto": "18 cm.",
+          "valor": 18,
+          "erro_comum": "Conta apenas três lados da cópia."
+        },
+        {
+          "letra": "D",
+          "texto": "36 cm.",
+          "valor": 36,
+          "erro_comum": "Confunde a medida do contorno com a do interior."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "O barbante acompanha o contorno da cópia. Essa medida é o perímetro: 6 + 6 + 6 + 6 = 24 cm. O contorno original media 12 cm e também dobrou. Já a área mede a superfície interna do quadrado: 6 × 6 = 36 cm². Portanto, o perímetro é 24 cm e a área é 36 cm². São grandezas diferentes, com unidades diferentes; para contornar a borda, usamos 24 cm de barbante.",
+      "justificativa_pedagogica": "Distingue o contorno de uma figura de seu interior.",
+      "dados": {
+        "lado_original": 3,
+        "lado_copia": 6
+      },
+      "modelo_verificacao": {
+        "tipo": "perimetro_quadrado"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 475.0\" role=\"img\" aria-label=\"Dois quadrados: original de lado 3 cm e cópia de lado 6 cm. A borda completa de cada um está desenhada.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Cartão original</text><path d=\"M 65.0 135.0 L 140.0 135.0 L 140.0 60.0 L 65.0 60.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"102.5\" y=\"169.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">3 cm</text><text x=\"180\" y=\"226.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Cópia</text><path d=\"M 65.0 410.0 L 215.0 410.0 L 215.0 260.0 L 65.0 260.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"140.0\" y=\"444.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">6 cm</text></svg>",
+          "css": "",
+          "acessibilidade": "Dois quadrados: original de lado 3 cm e cópia de lado 6 cm. A borda completa de cada um está desenhada.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 25.0,
+            "figuras": [
+              {
+                "titulo": "Cartão original",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    3,
+                    0
+                  ],
+                  [
+                    3,
+                    3
+                  ],
+                  [
+                    0,
+                    3
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "3 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  135.0
+                ],
+                "unidade_svg": 25.0
+              },
+              {
+                "titulo": "Cópia",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    6,
+                    0
+                  ],
+                  [
+                    6,
+                    6
+                  ],
+                  [
+                    0,
+                    6
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "6 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  410.0
+                ],
+                "unidade_svg": 25.0
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-07-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-08",
+      "numero": 8,
+      "topico_curricular": 9,
+      "titulo": "O papel encolhe, o caminho não",
+      "enunciado": "No mapa da escola, um caminho de 24 metros é representado por um segmento de 8 cm. O mapa inteiro foi impresso com todos os comprimentos reduzidos à metade, e esse segmento ficou com 4 cm. Qual é o comprimento do caminho real representado na nova impressão?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Distinguir medida do desenho e medida real após mudar a impressão.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Interpreta o que muda e o que permanece, sem conversões complexas."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "12 metros.",
+          "valor": 12,
+          "erro_comum": "Aplica a redução do papel ao caminho real."
+        },
+        {
+          "letra": "B",
+          "texto": "48 metros.",
+          "valor": 48,
+          "erro_comum": "Duplica o caminho real ao perceber que o segmento diminuiu."
+        },
+        {
+          "letra": "C",
+          "texto": "24 metros.",
+          "valor": 24,
+          "erro_comum": ""
+        },
+        {
+          "letra": "D",
+          "texto": "4 metros.",
+          "valor": 4,
+          "erro_comum": "Troca centímetros do desenho por metros do caminho."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "O caminho real continua com 24 metros. Apenas sua representação no papel passou de 8 para 4 cm. Reduzir o mapa não reduz o caminho da escola; muda a relação entre centímetros no papel e metros reais.",
+      "justificativa_pedagogica": "Evita aplicar a redução do papel ao objeto real.",
+      "dados": {
+        "real": 24,
+        "desenho_original": 8,
+        "desenho_copia": 4
+      },
+      "modelo_verificacao": {
+        "tipo": "objeto_real_invariante"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 250.0\" role=\"img\" aria-label=\"Dois segmentos representam o mesmo caminho real. O primeiro mede 8 cm no papel e o segundo, 4 cm. As medidas gráficas seguem a mesma unidade.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Mapa original</text><path d=\"M 65.0 60.0 L 275.0 60.0\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"170.0\" y=\"94.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">8 cm</text><text x=\"180\" y=\"151.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Nova impressão</text><path d=\"M 65.0 185.0 L 170.0 185.0\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"117.5\" y=\"219.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">4 cm</text></svg>",
+          "css": "",
+          "acessibilidade": "Dois segmentos representam o mesmo caminho real. O primeiro mede 8 cm no papel e o segundo, 4 cm. As medidas gráficas seguem a mesma unidade.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 26.25,
+            "figuras": [
+              {
+                "titulo": "Mapa original",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    8,
+                    0
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "8 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": false,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  60.0
+                ],
+                "unidade_svg": 26.25
+              },
+              {
+                "titulo": "Nova impressão",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    4,
+                    0
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "4 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": false,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  185.0
+                ],
+                "unidade_svg": 26.25
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-08-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-09",
+      "numero": 9,
+      "topico_curricular": 9,
+      "titulo": "A lateral inclinada da bandeira",
+      "enunciado": "Uma bandeira triangular tem base de 4 cm, lado vertical de 3 cm e lado inclinado de 5 cm. A cópia preserva a forma e tem base de 12 cm. Qual será o comprimento de seu lado inclinado?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Usar uma medida correspondente para descobrir outra em uma figura ampliada.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Deduz o fator pela base e o aplica a um lado diferente."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10 cm.",
+          "valor": 10,
+          "erro_comum": "Duplica o lado sem usar a relação entre as bases."
+        },
+        {
+          "letra": "B",
+          "texto": "15 cm.",
+          "valor": 15,
+          "erro_comum": ""
+        },
+        {
+          "letra": "C",
+          "texto": "13 cm.",
+          "valor": 13,
+          "erro_comum": "Soma ao lado inclinado o aumento de oito da base."
+        },
+        {
+          "letra": "D",
+          "texto": "20 cm.",
+          "valor": 20,
+          "erro_comum": "Usa o comprimento 4 como fator em vez de comparar as bases."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "A base passou de 4 para 12 cm: foi triplicada. O lado inclinado também precisa ser triplicado: 5 × 3 = 15 cm. Não somamos os 8 cm de aumento da base ao lado inclinado, pois ampliação proporcional usa um fator, não um acréscimo fixo.",
+      "justificativa_pedagogica": "Exige identificar o lado correspondente, sem calcular a inclinação ou usar teoremas.",
+      "dados": {
+        "lados_original": [
+          4,
+          3,
+          5
+        ],
+        "base_copia": 12
+      },
+      "modelo_verificacao": {
+        "tipo": "lado_triangular"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 450.0\" role=\"img\" aria-label=\"Triângulo original retângulo com base 4 cm, lado vertical 3 cm e lado inclinado 5 cm. A cópia proporcional tem base 12 cm; os outros dois lados estão indicados por interrogações.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Original</text><path d=\"M 65.0 110.0 L 131.6667 110.0 L 65.0 60.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"98.3333\" y=\"144.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">4 cm</text><text x=\"115.1333\" y=\"68.6\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">5 cm</text><text x=\"37.0\" y=\"91.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">3 cm</text><text x=\"180\" y=\"201.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Cópia</text><path d=\"M 65.0 385.0 L 265.0 385.0 L 65.0 235.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"165.0\" y=\"419.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">12 cm</text><text x=\"181.8\" y=\"293.6\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">?</text><text x=\"37.0\" y=\"316.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">?</text></svg>",
+          "css": "",
+          "acessibilidade": "Triângulo original retângulo com base 4 cm, lado vertical 3 cm e lado inclinado 5 cm. A cópia proporcional tem base 12 cm; os outros dois lados estão indicados por interrogações.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 16.666666666666668,
+            "figuras": [
+              {
+                "titulo": "Original",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    4,
+                    0
+                  ],
+                  [
+                    0,
+                    3
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "4 cm",
+                  "1": "5 cm",
+                  "2": "3 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  110.0
+                ],
+                "unidade_svg": 16.666666666666668
+              },
+              {
+                "titulo": "Cópia",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    12,
+                    0
+                  ],
+                  [
+                    0,
+                    9
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "12 cm",
+                  "1": "?",
+                  "2": "?"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  385.0
+                ],
+                "unidade_svg": 16.666666666666668
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-09-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-10",
+      "numero": 10,
+      "topico_curricular": 9,
+      "titulo": "A borda do símbolo em L",
+      "enunciado": "Um símbolo em L tem contorno de 10 unidades. Na malha de mesma unidade, sua largura passa de 3 para 9, e todos os demais comprimentos são ampliados na mesma proporção. Quantas unidades terá o contorno da cópia?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Relacionar o fator linear ao perímetro de uma figura não retangular.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Deduz o fator e o estende a todos os segmentos do contorno."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10.",
+          "valor": 10,
+          "erro_comum": "Mantém o contorno apesar da ampliação."
+        },
+        {
+          "letra": "B",
+          "texto": "16.",
+          "valor": 16,
+          "erro_comum": "Soma ao contorno apenas o aumento da largura."
+        },
+        {
+          "letra": "C",
+          "texto": "90.",
+          "valor": 90,
+          "erro_comum": "Aplica duas vezes o fator linear."
+        },
+        {
+          "letra": "D",
+          "texto": "30.",
+          "valor": 30,
+          "erro_comum": ""
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "A largura passa de 3 para 9, portanto o fator é 3. Cada trecho da borda é triplicado. Somando todos esses trechos, o contorno inteiro também triplica: 10 × 3 = 30 unidades. O número 90 aplicaria o fator 3 duas vezes, o que não é a regra dos comprimentos.",
+      "justificativa_pedagogica": "Mostra que a relação entre perímetros não depende de a figura ser um retângulo.",
+      "dados": {
+        "original": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "copia": [
+          [
+            0,
+            0
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            9,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "perimetro_original": 10
+      },
+      "modelo_verificacao": {
+        "tipo": "perimetro_L"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 436.6667\" role=\"img\" aria-label=\"Símbolo em L com largura 3, altura 2 e espessura 1; cópia com largura 9, altura 6 e espessura 3. As malhas têm a mesma unidade.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Modelo</text><line x1=\"65.0\" y1=\"106.6667\" x2=\"65.0\" y2=\"60.0\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"88.3333\" y1=\"106.6667\" x2=\"88.3333\" y2=\"60.0\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"111.6667\" y1=\"106.6667\" x2=\"111.6667\" y2=\"60.0\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"135.0\" y1=\"106.6667\" x2=\"135.0\" y2=\"60.0\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"65.0\" y1=\"106.6667\" x2=\"135.0\" y2=\"106.6667\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"65.0\" y1=\"83.3333\" x2=\"135.0\" y2=\"83.3333\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"65.0\" y1=\"60.0\" x2=\"135.0\" y2=\"60.0\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><path d=\"M 65.0 106.6667 L 135.0 106.6667 L 135.0 83.3333 L 88.3333 83.3333 L 88.3333 60.0 L 65.0 60.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"180\" y=\"197.6667\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Cópia</text><line x1=\"65.0\" y1=\"371.6667\" x2=\"65.0\" y2=\"231.6667\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"88.3333\" y1=\"371.6667\" x2=\"88.3333\" y2=\"231.6667\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"111.6667\" y1=\"371.6667\" x2=\"111.6667\" y2=\"231.6667\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"135.0\" y1=\"371.6667\" x2=\"135.0\" y2=\"231.6667\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"158.3333\" y1=\"371.6667\" x2=\"158.3333\" y2=\"231.6667\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"181.6667\" y1=\"371.6667\" x2=\"181.6667\" y2=\"231.6667\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"205.0\" y1=\"371.6667\" x2=\"205.0\" y2=\"231.6667\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"228.3333\" y1=\"371.6667\" x2=\"228.3333\" y2=\"231.6667\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"251.6667\" y1=\"371.6667\" x2=\"251.6667\" y2=\"231.6667\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"275.0\" y1=\"371.6667\" x2=\"275.0\" y2=\"231.6667\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"65.0\" y1=\"371.6667\" x2=\"275.0\" y2=\"371.6667\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"65.0\" y1=\"348.3333\" x2=\"275.0\" y2=\"348.3333\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"65.0\" y1=\"325.0\" x2=\"275.0\" y2=\"325.0\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"65.0\" y1=\"301.6667\" x2=\"275.0\" y2=\"301.6667\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"65.0\" y1=\"278.3333\" x2=\"275.0\" y2=\"278.3333\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"65.0\" y1=\"255.0\" x2=\"275.0\" y2=\"255.0\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><line x1=\"65.0\" y1=\"231.6667\" x2=\"275.0\" y2=\"231.6667\" stroke=\"#81979d\" stroke-width=\"1.3\" class=\"ar-grade\"/><path d=\"M 65.0 371.6667 L 275.0 371.6667 L 275.0 301.6667 L 135.0 301.6667 L 135.0 231.6667 L 65.0 231.6667 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/></svg>",
+          "css": "",
+          "acessibilidade": "Símbolo em L com largura 3, altura 2 e espessura 1; cópia com largura 9, altura 6 e espessura 3. As malhas têm a mesma unidade.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 23.333333333333332,
+            "figuras": [
+              {
+                "titulo": "Modelo",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    3,
+                    0
+                  ],
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    1,
+                    2
+                  ],
+                  [
+                    0,
+                    2
+                  ]
+                ],
+                "rotulos_lados": {},
+                "nomes": [],
+                "malha": true,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  106.6667
+                ],
+                "unidade_svg": 23.333333333333332
+              },
+              {
+                "titulo": "Cópia",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    9,
+                    0
+                  ],
+                  [
+                    9,
+                    3
+                  ],
+                  [
+                    3,
+                    3
+                  ],
+                  [
+                    3,
+                    6
+                  ],
+                  [
+                    0,
+                    6
+                  ]
+                ],
+                "rotulos_lados": {},
+                "nomes": [],
+                "malha": true,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  371.6667
+                ],
+                "unidade_svg": 23.333333333333332
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-10-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-11",
+      "numero": 11,
+      "topico_curricular": 9,
+      "titulo": "Duas ampliações diferentes podem servir",
+      "enunciado": "Um cartaz de 4 cm por 6 cm será reproduzido sem giro. Foram propostos três projetos: I, de 8 por 12 cm; II, de 6 por 9 cm; III, de 8 por 10 cm. Quais preservam a forma original?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Verificar a igualdade de fatores em mais de uma proposta de reprodução.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Compara dois fatores válidos diferentes e rejeita uma alteração parcial."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Somente I.",
+          "valor": [
+            "I"
+          ],
+          "erro_comum": "Reconhece somente a duplicação e descarta a ampliação de uma vez e meia."
+        },
+        {
+          "letra": "B",
+          "texto": "Somente III.",
+          "valor": [
+            "III"
+          ],
+          "erro_comum": "Escolhe o projeto que usa fatores diferentes."
+        },
+        {
+          "letra": "C",
+          "texto": "I e II.",
+          "valor": [
+            "I",
+            "II"
+          ],
+          "erro_comum": ""
+        },
+        {
+          "letra": "D",
+          "texto": "I, II e III.",
+          "valor": [
+            "I",
+            "II",
+            "III"
+          ],
+          "erro_comum": "Supõe que qualquer aumento das duas dimensões é proporcional."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Em I, as duas dimensões dobram: 4 para 8 e 6 para 12. Em II, cada medida aumenta pela própria metade: 4 para 6 e 6 para 9, ou uma vez e meia. Em III, a largura dobra, mas a altura não: deveria ser 12, não 10. Portanto, I e II preservam a forma.",
+      "justificativa_pedagogica": "Evita supor que só a duplicação pode preservar proporções.",
+      "dados": {
+        "original": [
+          4,
+          6
+        ],
+        "projetos": {
+          "I": [
+            8,
+            12
+          ],
+          "II": [
+            6,
+            9
+          ],
+          "III": [
+            8,
+            10
+          ]
+        }
+      },
+      "modelo_verificacao": {
+        "tipo": "projetos_proporcionais"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 962.5\" role=\"img\" aria-label=\"Retângulo original de largura 4 cm e altura 6 cm; projetos I, 8 por 12 cm; II, 6 por 9 cm; III, 8 por 10 cm. As medidas são largura e altura nessa ordem, e todos os desenhos usam a mesma unidade e o mesmo estilo.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Original</text><path d=\"M 65.0 135.0 L 115.0 135.0 L 115.0 60.0 L 65.0 60.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"90.0\" y=\"169.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">4 cm</text><text x=\"143.0\" y=\"103.5\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">6 cm</text><text x=\"180\" y=\"226.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Projeto I</text><path d=\"M 65.0 410.0 L 165.0 410.0 L 165.0 260.0 L 65.0 260.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"115.0\" y=\"444.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">8 cm</text><text x=\"193.0\" y=\"341.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">12 cm</text><text x=\"180\" y=\"501.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Projeto II</text><path d=\"M 65.0 647.5 L 140.0 647.5 L 140.0 535.0 L 65.0 535.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"102.5\" y=\"681.5\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">6 cm</text><text x=\"168.0\" y=\"597.25\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">9 cm</text><text x=\"180\" y=\"738.5\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Projeto III</text><path d=\"M 65.0 897.5 L 165.0 897.5 L 165.0 772.5 L 65.0 772.5 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"115.0\" y=\"931.5\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">8 cm</text><text x=\"193.0\" y=\"841.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">10 cm</text></svg>",
+          "css": "",
+          "acessibilidade": "Retângulo original de largura 4 cm e altura 6 cm; projetos I, 8 por 12 cm; II, 6 por 9 cm; III, 8 por 10 cm. As medidas são largura e altura nessa ordem, e todos os desenhos usam a mesma unidade e o mesmo estilo.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 12.5,
+            "figuras": [
+              {
+                "titulo": "Original",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    4,
+                    0
+                  ],
+                  [
+                    4,
+                    6
+                  ],
+                  [
+                    0,
+                    6
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "4 cm",
+                  "1": "6 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  135.0
+                ],
+                "unidade_svg": 12.5
+              },
+              {
+                "titulo": "Projeto I",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    8,
+                    0
+                  ],
+                  [
+                    8,
+                    12
+                  ],
+                  [
+                    0,
+                    12
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "8 cm",
+                  "1": "12 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  410.0
+                ],
+                "unidade_svg": 12.5
+              },
+              {
+                "titulo": "Projeto II",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    6,
+                    0
+                  ],
+                  [
+                    6,
+                    9
+                  ],
+                  [
+                    0,
+                    9
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "6 cm",
+                  "1": "9 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  647.5
+                ],
+                "unidade_svg": 12.5
+              },
+              {
+                "titulo": "Projeto III",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    8,
+                    0
+                  ],
+                  [
+                    8,
+                    10
+                  ],
+                  [
+                    0,
+                    10
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "8 cm",
+                  "1": "10 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  897.5
+                ],
+                "unidade_svg": 12.5
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-11-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-12",
+      "numero": 12,
+      "topico_curricular": 9,
+      "titulo": "Uma regra nova para ler o mapa",
+      "enunciado": "No mapa original, um trecho de 4 cm representa 12 metros reais. O mapa será ampliado duplicando todos os comprimentos, sem mudar o caminho real. Qual regra corresponde à nova impressão?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Atualizar a relação entre desenho e realidade após uma ampliação da impressão.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Distingue aumento no papel de manutenção da medida real."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2 cm no papel representam 3 metros reais.",
+          "valor": [
+            2,
+            3
+          ],
+          "erro_comum": ""
+        },
+        {
+          "letra": "B",
+          "texto": "1 cm no papel representa 6 metros reais.",
+          "valor": [
+            1,
+            6
+          ],
+          "erro_comum": "Aumenta também os metros representados por um centímetro."
+        },
+        {
+          "letra": "C",
+          "texto": "2 cm no papel representam 12 metros reais.",
+          "valor": [
+            2,
+            12
+          ],
+          "erro_comum": "Usa só uma parte do desenho para representar o trecho inteiro."
+        },
+        {
+          "letra": "D",
+          "texto": "1 cm no papel representa 3 metros reais.",
+          "valor": [
+            1,
+            3
+          ],
+          "erro_comum": "Mantém a regra antiga apesar de a impressão ter mudado."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "O trecho passa a medir 8 cm no papel, mas continua representando 12 metros reais. Dividindo o trecho em quatro partes iguais, cada parte tem 2 cm no papel e representa 3 metros. Portanto, 2 cm representam 3 metros no novo mapa. Metade desse segmento, de 1 cm, representa metade dos 3 metros: 1,5 metro real. Assim, na nova impressão, 1 cm representa 1,5 metro real, e 2 cm representam 3 metros. A regra antiga de 1 cm para 3 metros não vale mais.",
+      "justificativa_pedagogica": "Relaciona escala à leitura de uma representação, sem exigir notação formal de razão.",
+      "dados": {
+        "desenho_original": 4,
+        "real": 12,
+        "fator": 2
+      },
+      "modelo_verificacao": {
+        "tipo": "regra_escala_nova"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 250.0\" role=\"img\" aria-label=\"Dois segmentos para o mesmo caminho real: 4 cm no mapa original e 8 cm na nova impressão. O caminho real mede 12 metros nas duas versões.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Mapa original</text><path d=\"M 65.0 60.0 L 170.0 60.0\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"117.5\" y=\"94.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">4 cm</text><text x=\"180\" y=\"151.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Mapa ampliado</text><path d=\"M 65.0 185.0 L 275.0 185.0\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"170.0\" y=\"219.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">8 cm</text></svg>",
+          "css": "",
+          "acessibilidade": "Dois segmentos para o mesmo caminho real: 4 cm no mapa original e 8 cm na nova impressão. O caminho real mede 12 metros nas duas versões.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 26.25,
+            "figuras": [
+              {
+                "titulo": "Mapa original",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    4,
+                    0
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "4 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": false,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  60.0
+                ],
+                "unidade_svg": 26.25
+              },
+              {
+                "titulo": "Mapa ampliado",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    8,
+                    0
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "8 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": false,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  185.0
+                ],
+                "unidade_svg": 26.25
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-12-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-13",
+      "numero": 13,
+      "topico_curricular": 9,
+      "titulo": "Duas reduções sucessivas",
+      "enunciado": "Uma imagem retangular de 12 cm por 8 cm é reduzida à metade. Depois, essa cópia é novamente reduzida à metade. Ao comparar a imagem final com a original, que parte de cada comprimento original restou?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Interpretar a composição de duas reduções em sequência.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Precisa aplicar a segunda redução à cópia intermediária, não ao original."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A metade.",
+          "valor": [
+            1,
+            2
+          ],
+          "erro_comum": "Considera apenas a primeira redução."
+        },
+        {
+          "letra": "B",
+          "texto": "A terça parte.",
+          "valor": [
+            1,
+            3
+          ],
+          "erro_comum": "Conta as versões como se fossem três partes de uma medida."
+        },
+        {
+          "letra": "C",
+          "texto": "O comprimento inteiro.",
+          "valor": 1,
+          "erro_comum": "Supõe que duas reduções se anulam."
+        },
+        {
+          "letra": "D",
+          "texto": "A quarta parte.",
+          "valor": [
+            1,
+            4
+          ],
+          "erro_comum": ""
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "A primeira cópia mede 6 por 4 cm. A segunda mede 3 por 2 cm. Na largura, 3 é a quarta parte de 12; na altura, 2 é a quarta parte de 8. Assim, resta a quarta parte de cada comprimento original. A segunda metade foi calculada sobre uma medida que já havia diminuído.",
+      "justificativa_pedagogica": "Evita concluir que repetir metade mantém a mesma redução inicial.",
+      "dados": {
+        "original": [
+          12,
+          8
+        ],
+        "divisoes": [
+          2,
+          2
+        ]
+      },
+      "modelo_verificacao": {
+        "tipo": "reducoes_sucessivas"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 620.0\" role=\"img\" aria-label=\"Sequência de três retângulos com mesma forma: original de 12 por 8 cm; primeira cópia de 6 por 4 cm; cópia final, novamente reduzida à metade, com medidas ocultadas por interrogações.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Original</text><path d=\"M 65.0 200.0 L 275.0 200.0 L 275.0 60.0 L 65.0 60.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"170.0\" y=\"234.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">12 cm</text><text x=\"303.0\" y=\"136.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">8 cm</text><text x=\"180\" y=\"291.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Primeira cópia</text><path d=\"M 65.0 395.0 L 170.0 395.0 L 170.0 325.0 L 65.0 325.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"117.5\" y=\"429.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">6 cm</text><text x=\"198.0\" y=\"366.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">4 cm</text><text x=\"180\" y=\"486.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Cópia final</text><path d=\"M 65.0 555.0 L 117.5 555.0 L 117.5 520.0 L 65.0 520.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"91.25\" y=\"589.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">?</text><text x=\"145.5\" y=\"543.5\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">?</text></svg>",
+          "css": "",
+          "acessibilidade": "Sequência de três retângulos com mesma forma: original de 12 por 8 cm; primeira cópia de 6 por 4 cm; cópia final, novamente reduzida à metade, com medidas ocultadas por interrogações.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 17.5,
+            "figuras": [
+              {
+                "titulo": "Original",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    12,
+                    0
+                  ],
+                  [
+                    12,
+                    8
+                  ],
+                  [
+                    0,
+                    8
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "12 cm",
+                  "1": "8 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  200.0
+                ],
+                "unidade_svg": 17.5
+              },
+              {
+                "titulo": "Primeira cópia",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    6,
+                    0
+                  ],
+                  [
+                    6,
+                    4
+                  ],
+                  [
+                    0,
+                    4
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "6 cm",
+                  "1": "4 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  395.0
+                ],
+                "unidade_svg": 17.5
+              },
+              {
+                "titulo": "Cópia final",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    3,
+                    0
+                  ],
+                  [
+                    3,
+                    2
+                  ],
+                  [
+                    0,
+                    2
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "?",
+                  "1": "?"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  555.0
+                ],
+                "unidade_svg": 17.5
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-13-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-14",
+      "numero": 14,
+      "topico_curricular": 9,
+      "titulo": "O trecho interno do recorte",
+      "enunciado": "O recorte em L do desenho tem base de 6 cm e o trecho horizontal interno marcado mede 4 cm. A cópia preserva a forma e sua base mede 9 cm. Quanto deve medir o trecho interno correspondente?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Aplicar o fator deduzido de uma base a um segmento interno do contorno.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Relaciona medidas em posições diferentes, com ampliação de uma vez e meia."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "7 cm.",
+          "valor": 7,
+          "erro_comum": "Soma o aumento da base ao trecho interno."
+        },
+        {
+          "letra": "B",
+          "texto": "6 cm.",
+          "valor": 6,
+          "erro_comum": ""
+        },
+        {
+          "letra": "C",
+          "texto": "8 cm.",
+          "valor": 8,
+          "erro_comum": "Duplica o trecho, embora a base não tenha dobrado."
+        },
+        {
+          "letra": "D",
+          "texto": "4 cm.",
+          "valor": 4,
+          "erro_comum": "Mantém o trecho interno sem ampliá-lo."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "De 6 para 9, a medida aumenta pela própria metade: 6 + 3 = 9. O trecho interno também aumenta pela metade: 4 + 2 = 6 cm. Somar os mesmos 3 cm daria 7 e usaria outro fator para esse trecho.",
+      "justificativa_pedagogica": "Mostra que a proporcionalidade alcança também os trechos reentrantes de uma figura.",
+      "dados": {
+        "original": [
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "copia": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            9.0,
+            0.0
+          ],
+          [
+            9.0,
+            3.0
+          ],
+          [
+            3.0,
+            3.0
+          ],
+          [
+            3.0,
+            6.0
+          ],
+          [
+            0.0,
+            6.0
+          ]
+        ],
+        "base_original": 6,
+        "base_copia": 9,
+        "interno_original": 4
+      },
+      "modelo_verificacao": {
+        "tipo": "trecho_interno_L"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 483.3333\" role=\"img\" aria-label=\"Dois recortes em L semelhantes. No original, a base mede 6 cm e o trecho horizontal reentrante, 4 cm. Na cópia proporcional, a base mede 9 cm e o trecho reentrante está com interrogação.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Recorte original</text><path d=\"M 65.0 153.3333 L 205.0 153.3333 L 205.0 106.6667 L 111.6667 106.6667 L 111.6667 60.0 L 65.0 60.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"135.0\" y=\"187.3333\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">6 cm</text><text x=\"158.3333\" y=\"84.6667\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">4 cm</text><text x=\"180\" y=\"244.3333\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Cópia</text><path d=\"M 65.0 418.3333 L 275.0 418.3333 L 275.0 348.3333 L 135.0 348.3333 L 135.0 278.3333 L 65.0 278.3333 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"170.0\" y=\"452.3333\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">9 cm</text><text x=\"205.0\" y=\"326.3333\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">?</text></svg>",
+          "css": "",
+          "acessibilidade": "Dois recortes em L semelhantes. No original, a base mede 6 cm e o trecho horizontal reentrante, 4 cm. Na cópia proporcional, a base mede 9 cm e o trecho reentrante está com interrogação.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 23.333333333333332,
+            "figuras": [
+              {
+                "titulo": "Recorte original",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    6,
+                    0
+                  ],
+                  [
+                    6,
+                    2
+                  ],
+                  [
+                    2,
+                    2
+                  ],
+                  [
+                    2,
+                    4
+                  ],
+                  [
+                    0,
+                    4
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "6 cm",
+                  "2": "4 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  153.3333
+                ],
+                "unidade_svg": 23.333333333333332
+              },
+              {
+                "titulo": "Cópia",
+                "vertices": [
+                  [
+                    0.0,
+                    0.0
+                  ],
+                  [
+                    9.0,
+                    0.0
+                  ],
+                  [
+                    9.0,
+                    3.0
+                  ],
+                  [
+                    3.0,
+                    3.0
+                  ],
+                  [
+                    3.0,
+                    6.0
+                  ],
+                  [
+                    0.0,
+                    6.0
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "9 cm",
+                  "2": "?"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  418.3333
+                ],
+                "unidade_svg": 23.333333333333332
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-14-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-15",
+      "numero": 15,
+      "topico_curricular": 9,
+      "titulo": "A maior cópia que cabe no painel",
+      "enunciado": "Uma foto de 4 cm por 3 cm será ampliada sem giro nem corte e sem borda. O espaço disponível tem 18 cm de largura e 13 cm de altura. Entre os fatores 2, 3, 4 e 5, qual é o maior que permite colocar a cópia inteira nesse espaço?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Testar simultaneamente largura e altura ao escolher um fator de ampliação.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Compara fatores possíveis e verifica duas restrições de espaço."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2.",
+          "valor": 2,
+          "erro_comum": "Escolhe um fator que cabe, mas não o maior."
+        },
+        {
+          "letra": "B",
+          "texto": "3.",
+          "valor": 3,
+          "erro_comum": "Escolhe outro fator que cabe, mas ainda pode aumentar."
+        },
+        {
+          "letra": "C",
+          "texto": "5.",
+          "valor": 5,
+          "erro_comum": "Escolhe o maior número sem conferir os limites."
+        },
+        {
+          "letra": "D",
+          "texto": "4.",
+          "valor": 4,
+          "erro_comum": ""
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Com fator 4, a foto mede 16 por 12 cm, dentro de 18 por 13. Com fator 5, mediria 20 por 15, ultrapassando as duas medidas. Os fatores 2 e 3 também cabem, mas não são os maiores entre os permitidos. A escolha é 4.",
+      "justificativa_pedagogica": "Evita verificar só um comprimento ou escolher automaticamente o maior fator oferecido.",
+      "dados": {
+        "original": [
+          4,
+          3
+        ],
+        "limites": [
+          18,
+          13
+        ],
+        "fatores": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "modelo_verificacao": {
+        "tipo": "maior_fator_que_cabe"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 434.6154\" role=\"img\" aria-label=\"Foto original com largura 4 cm e altura 3 cm; espaço disponível de largura 18 cm e altura 13 cm, na mesma unidade gráfica. Não há uma cópia já escolhida dentro do espaço.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Foto original</text><path d=\"M 65.0 94.6154 L 111.1538 94.6154 L 111.1538 60.0 L 65.0 60.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"88.0769\" y=\"128.6154\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">4 cm</text><text x=\"139.1538\" y=\"83.3077\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">3 cm</text><text x=\"180\" y=\"185.6154\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Espaço disponível</text><path d=\"M 65.0 369.6154 L 272.6923 369.6154 L 272.6923 219.6154 L 65.0 219.6154 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"168.8462\" y=\"403.6154\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">18 cm</text><text x=\"300.6923\" y=\"300.6154\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">13 cm</text></svg>",
+          "css": "",
+          "acessibilidade": "Foto original com largura 4 cm e altura 3 cm; espaço disponível de largura 18 cm e altura 13 cm, na mesma unidade gráfica. Não há uma cópia já escolhida dentro do espaço.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 11.538461538461538,
+            "figuras": [
+              {
+                "titulo": "Foto original",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    4,
+                    0
+                  ],
+                  [
+                    4,
+                    3
+                  ],
+                  [
+                    0,
+                    3
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "4 cm",
+                  "1": "3 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  94.6154
+                ],
+                "unidade_svg": 11.538461538461538
+              },
+              {
+                "titulo": "Espaço disponível",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    18,
+                    0
+                  ],
+                  [
+                    18,
+                    13
+                  ],
+                  [
+                    0,
+                    13
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "18 cm",
+                  "1": "13 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  369.6154
+                ],
+                "unidade_svg": 11.538461538461538
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-15-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-16",
+      "numero": 16,
+      "topico_curricular": 9,
+      "titulo": "O contorno informa a redução",
+      "enunciado": "A bandeira original tem lados de 6, 8 e 10 cm. Uma cópia com a mesma forma tem perímetro de 12 cm. Qual é a medida do lado correspondente ao de 8 cm?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Deduzir um fator linear pela comparação de perímetros.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Precisa calcular o contorno original e usar a mesma relação em um lado."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "8 cm.",
+          "valor": 8,
+          "erro_comum": "Mantém o lado original apesar da redução."
+        },
+        {
+          "letra": "B",
+          "texto": "2 cm.",
+          "valor": 2,
+          "erro_comum": "Aplica a redução duas vezes."
+        },
+        {
+          "letra": "C",
+          "texto": "4 cm.",
+          "valor": 4,
+          "erro_comum": ""
+        },
+        {
+          "letra": "D",
+          "texto": "16 cm.",
+          "valor": 16,
+          "erro_comum": "Amplia em vez de reduzir."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "O perímetro original é 6 + 8 + 10 = 24 cm. O perímetro de 12 cm é a metade de 24, então todos os lados foram reduzidos à metade. O lado correspondente a 8 cm mede 8 ÷ 2 = 4 cm.",
+      "justificativa_pedagogica": "Relaciona o contorno completo às medidas correspondentes sem confundir parte e total.",
+      "dados": {
+        "lados": [
+          6,
+          8,
+          10
+        ],
+        "perimetro_copia": 12,
+        "lado_alvo": 8
+      },
+      "modelo_verificacao": {
+        "tipo": "lado_por_perimetros"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 475.0\" role=\"img\" aria-label=\"Triângulo original retângulo com lados 6, 8 e 10 cm; cópia semelhante de perímetro 12 cm, com os três lados marcados por interrogações.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Original</text><path d=\"M 65.0 210.0 L 265.0 210.0 L 65.0 60.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"165.0\" y=\"244.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">8 cm</text><text x=\"181.8\" y=\"118.6\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">10 cm</text><text x=\"37.0\" y=\"141.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">6 cm</text><text x=\"180\" y=\"301.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Cópia: perímetro 12 cm</text><path d=\"M 65.0 410.0 L 165.0 410.0 L 65.0 335.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"115.0\" y=\"444.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">?</text><text x=\"131.8\" y=\"356.1\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">?</text><text x=\"37.0\" y=\"378.5\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">?</text></svg>",
+          "css": "",
+          "acessibilidade": "Triângulo original retângulo com lados 6, 8 e 10 cm; cópia semelhante de perímetro 12 cm, com os três lados marcados por interrogações.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 25.0,
+            "figuras": [
+              {
+                "titulo": "Original",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    8,
+                    0
+                  ],
+                  [
+                    0,
+                    6
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "8 cm",
+                  "1": "10 cm",
+                  "2": "6 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  210.0
+                ],
+                "unidade_svg": 25.0
+              },
+              {
+                "titulo": "Cópia: perímetro 12 cm",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    4,
+                    0
+                  ],
+                  [
+                    0,
+                    3
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "?",
+                  "1": "?",
+                  "2": "?"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  410.0
+                ],
+                "unidade_svg": 25.0
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-16-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-17",
+      "numero": 17,
+      "topico_curricular": 9,
+      "titulo": "A cópia foi girada",
+      "enunciado": "Uma foto retangular mede 6 cm de largura e 4 cm de altura. A aluna fez uma cópia e a girou um quarto de volta para colocar no caderno. Na posição mostrada, a cópia mede 2 cm na horizontal e 3 cm na vertical. Qual análise está correta?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Reconhecer lados correspondentes após mudar a orientação de uma figura.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Precisa comparar lado maior com lado maior e menor com menor."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A forma foi deformada, pois 2 não é a metade de 6.",
+          "valor": "deformada",
+          "erro_comum": "Compara lados em direções iguais na página sem considerar o giro."
+        },
+        {
+          "letra": "B",
+          "texto": "A cópia foi ampliada pelo fator 2.",
+          "valor": 2,
+          "erro_comum": "Confunde redução com ampliação."
+        },
+        {
+          "letra": "C",
+          "texto": "A cópia foi reduzida à metade e girada, preservando a forma.",
+          "valor": "metade_giro",
+          "erro_comum": ""
+        },
+        {
+          "letra": "D",
+          "texto": "A cópia foi reduzida à terça parte em todas as medidas.",
+          "valor": [
+            1,
+            3
+          ],
+          "erro_comum": "Usa a comparação entre lados que não são correspondentes."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "O lado maior da original, de 6 cm, corresponde ao lado maior da cópia, de 3 cm. O menor, de 4 cm, corresponde ao de 2 cm. Os dois foram reduzidos à metade. O giro mudou a posição na página, mas não deformou a foto.",
+      "justificativa_pedagogica": "Evita tratar largura na página como o único critério de correspondência.",
+      "dados": {
+        "original": [
+          6,
+          4
+        ],
+        "copia_girada": [
+          2,
+          3
+        ]
+      },
+      "modelo_verificacao": {
+        "tipo": "correspondencia_com_giro"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 460\" role=\"img\" aria-label=\"Retângulo original de largura 6 cm e altura 4 cm; cópia girada de largura 2 cm e altura 3 cm. O lado maior da cópia está vertical e o da original, horizontal.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Foto original</text><path d=\"M 65 180 L 245 180 L 245 60 L 65 60 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"155.0\" y=\"214.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">6 cm</text><text x=\"273.0\" y=\"126.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">4 cm</text><text x=\"180\" y=\"271\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Cópia após o giro</text><path d=\"M 65 395 L 125 395 L 125 305 L 65 305 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"95.0\" y=\"429.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">2 cm</text><text x=\"153.0\" y=\"356.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">3 cm</text></svg>",
+          "css": "",
+          "acessibilidade": "Retângulo original de largura 6 cm e altura 4 cm; cópia girada de largura 2 cm e altura 3 cm. O lado maior da cópia está vertical e o da original, horizontal.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 30,
+            "figuras": [
+              {
+                "titulo": "Foto original",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    6,
+                    0
+                  ],
+                  [
+                    6,
+                    4
+                  ],
+                  [
+                    0,
+                    4
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "6 cm",
+                  "1": "4 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  180
+                ],
+                "unidade_svg": 30
+              },
+              {
+                "titulo": "Cópia após o giro",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    2,
+                    0
+                  ],
+                  [
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    3
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "2 cm",
+                  "1": "3 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  395
+                ],
+                "unidade_svg": 30
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-17-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-18",
+      "numero": 18,
+      "topico_curricular": 9,
+      "titulo": "Só largura e altura totais bastam?",
+      "enunciado": "A turma desenhou uma casa geométrica e uma cópia, separando parede e telhado por uma linha tracejada. No modelo, a parede tem altura 2 cm e o telhado acrescenta outros 2 cm. Na cópia, essas alturas são 6 e 2 cm. A largura e a altura totais passaram de 4 para 8 cm. A cópia é uma ampliação proporcional de fator 2?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Verificar medidas correspondentes de partes internas, além das dimensões totais.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Examina um caso em que o retângulo externo sugere um fator que não vale nas partes."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sim, pois a largura e a altura totais dobraram.",
+          "valor": "sim_totais",
+          "erro_comum": "Confere apenas o tamanho externo e ignora as partes."
+        },
+        {
+          "letra": "B",
+          "texto": "Não: a parede triplicou de altura, mas a altura do telhado não mudou.",
+          "valor": "nao_partes",
+          "erro_comum": ""
+        },
+        {
+          "letra": "C",
+          "texto": "Sim, pois a base aumentou, mesmo que outras partes mudem de outro modo.",
+          "valor": "sim_base",
+          "erro_comum": "Aceita aumentar somente algumas medidas com fatores diferentes."
+        },
+        {
+          "letra": "D",
+          "texto": "Não: todas as alturas foram reduzidas à metade.",
+          "valor": "nao_metade",
+          "erro_comum": "Inverte o sentido das alterações e aplica uma redução inexistente."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "A largura e a altura externas dobraram, mas as partes internas não acompanharam o mesmo fator. A parede passou de 2 para 6 cm: ficou três vezes mais alta. A altura do telhado permaneceu em 2 cm. Para uma ampliação pelo fator 2, cada uma dessas alturas deveria passar de 2 para 4 cm. Por isso, a cópia não preservou a forma.",
+      "justificativa_pedagogica": "Evita validar uma ampliação usando somente largura e altura externas.",
+      "dados": {
+        "original": [
+          4,
+          2,
+          2
+        ],
+        "copia": [
+          8,
+          6,
+          2
+        ]
+      },
+      "modelo_verificacao": {
+        "tipo": "deformacao_partes"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 475.0\" role=\"img\" aria-label=\"Casa geométrica original com largura 4 cm, parede de altura 2 cm e telhado de altura 2 cm. A cópia proposta tem largura 8 cm, parede de altura 6 cm e telhado de altura 2 cm. Linhas tracejadas separam parede e telhado; as alturas das partes aparecem à direita.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Modelo</text><path d=\"M 65.0 135.0 L 140.0 135.0 L 140.0 97.5 L 102.5 60.0 L 65.0 97.5 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"102.5\" y=\"169.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">4 cm</text><line x1=\"65.0\" y1=\"97.5\" x2=\"140.0\" y2=\"97.5\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ar-corte\" stroke-dasharray=\"5 4\"/><line x1=\"275\" y1=\"135.0\" x2=\"275\" y2=\"60.0\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ar-cota-partes\"/><line x1=\"140.0\" y1=\"135.0\" x2=\"270\" y2=\"135.0\" stroke=\"#81979d\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"270\" y1=\"135.0\" x2=\"280\" y2=\"135.0\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"140.0\" y1=\"97.5\" x2=\"270\" y2=\"97.5\" stroke=\"#81979d\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"270\" y1=\"97.5\" x2=\"280\" y2=\"97.5\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"140.0\" y1=\"60.0\" x2=\"270\" y2=\"60.0\" stroke=\"#81979d\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"270\" y1=\"60.0\" x2=\"280\" y2=\"60.0\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"310\" y=\"122.25\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">2 cm</text><text x=\"310\" y=\"84.75\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">2 cm</text><text x=\"180\" y=\"226.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Cópia proposta</text><path d=\"M 65.0 410.0 L 215.0 410.0 L 215.0 297.5 L 140.0 260.0 L 65.0 297.5 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"140.0\" y=\"444.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">8 cm</text><line x1=\"65.0\" y1=\"297.5\" x2=\"215.0\" y2=\"297.5\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ar-corte\" stroke-dasharray=\"5 4\"/><line x1=\"275\" y1=\"410.0\" x2=\"275\" y2=\"260.0\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ar-cota-partes\"/><line x1=\"215.0\" y1=\"410.0\" x2=\"270\" y2=\"410.0\" stroke=\"#81979d\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"270\" y1=\"410.0\" x2=\"280\" y2=\"410.0\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"215.0\" y1=\"297.5\" x2=\"270\" y2=\"297.5\" stroke=\"#81979d\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"270\" y1=\"297.5\" x2=\"280\" y2=\"297.5\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"215.0\" y1=\"260.0\" x2=\"270\" y2=\"260.0\" stroke=\"#81979d\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"270\" y1=\"260.0\" x2=\"280\" y2=\"260.0\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"310\" y=\"359.75\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">6 cm</text><text x=\"310\" y=\"284.75\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">2 cm</text></svg>",
+          "css": "",
+          "acessibilidade": "Casa geométrica original com largura 4 cm, parede de altura 2 cm e telhado de altura 2 cm. A cópia proposta tem largura 8 cm, parede de altura 6 cm e telhado de altura 2 cm. Linhas tracejadas separam parede e telhado; as alturas das partes aparecem à direita.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 18.75,
+            "figuras": [
+              {
+                "titulo": "Modelo",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    4,
+                    0
+                  ],
+                  [
+                    4,
+                    2
+                  ],
+                  [
+                    2,
+                    4
+                  ],
+                  [
+                    0,
+                    2
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "4 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": 2,
+                "origem_svg": [
+                  65,
+                  135.0
+                ],
+                "unidade_svg": 18.75
+              },
+              {
+                "titulo": "Cópia proposta",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    8,
+                    0
+                  ],
+                  [
+                    8,
+                    6
+                  ],
+                  [
+                    4,
+                    8
+                  ],
+                  [
+                    0,
+                    6
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "8 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": 6,
+                "origem_svg": [
+                  65,
+                  410.0
+                ],
+                "unidade_svg": 18.75
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-18-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-19",
+      "numero": 19,
+      "topico_curricular": 9,
+      "titulo": "Ajustar a largura sem achatar",
+      "enunciado": "Uma capa mede 9 cm de largura e 6 cm de altura. Para caber num convite, a largura deve passar a 6 cm, sem giro nem deformação. Qual altura deve ser usada?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Encontrar uma medida por um fator de redução simples não unitário.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpreta uma redução para duas de três partes iguais em cada comprimento."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "4 cm.",
+          "valor": 4,
+          "erro_comum": ""
+        },
+        {
+          "letra": "B",
+          "texto": "3 cm.",
+          "valor": 3,
+          "erro_comum": "Subtrai da altura os mesmos três centímetros retirados da largura."
+        },
+        {
+          "letra": "C",
+          "texto": "6 cm.",
+          "valor": 6,
+          "erro_comum": "Mantém a altura e deforma a capa."
+        },
+        {
+          "letra": "D",
+          "texto": "9 cm.",
+          "valor": 9,
+          "erro_comum": "Usa a largura original como altura final."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "A largura de 9 cm pode ser dividida em três partes de 3 cm. Os 6 cm finais correspondem a duas dessas partes. Na altura, cada terça parte de 6 vale 2 cm; duas partes valem 4 cm. Portanto, a altura deve ser 4 cm.",
+      "justificativa_pedagogica": "Permite raciocinar por dividir em três e tomar duas partes, sem fórmula de proporção.",
+      "dados": {
+        "original": [
+          9,
+          6
+        ],
+        "largura_final": 6
+      },
+      "modelo_verificacao": {
+        "tipo": "altura_por_reducao"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 483.3333\" role=\"img\" aria-label=\"Retângulo original de largura 9 cm e altura 6 cm; cópia proporcional com largura 6 cm e altura indicada por interrogação. As dimensões do desenho seguem a mesma unidade.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Capa original</text><path d=\"M 65.0 200.0 L 275.0 200.0 L 275.0 60.0 L 65.0 60.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"170.0\" y=\"234.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">9 cm</text><text x=\"303.0\" y=\"136.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">6 cm</text><text x=\"180\" y=\"291.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Cópia proporcional</text><path d=\"M 65.0 418.3333 L 205.0 418.3333 L 205.0 325.0 L 65.0 325.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"135.0\" y=\"452.3333\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">6 cm</text><text x=\"233.0\" y=\"377.6667\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">?</text></svg>",
+          "css": "",
+          "acessibilidade": "Retângulo original de largura 9 cm e altura 6 cm; cópia proporcional com largura 6 cm e altura indicada por interrogação. As dimensões do desenho seguem a mesma unidade.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 23.333333333333332,
+            "figuras": [
+              {
+                "titulo": "Capa original",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    9,
+                    0
+                  ],
+                  [
+                    9,
+                    6
+                  ],
+                  [
+                    0,
+                    6
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "9 cm",
+                  "1": "6 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  200.0
+                ],
+                "unidade_svg": 23.333333333333332
+              },
+              {
+                "titulo": "Cópia proporcional",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    6,
+                    0
+                  ],
+                  [
+                    6,
+                    4
+                  ],
+                  [
+                    0,
+                    4
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "6 cm",
+                  "1": "?"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  418.3333
+                ],
+                "unidade_svg": 23.333333333333332
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-19-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-20",
+      "numero": 20,
+      "topico_curricular": 9,
+      "titulo": "O trajeto numa impressão menor",
+      "enunciado": "No desenho original, um trajeto tem um trecho horizontal de 3 cm e, em seguida, um vertical de 2 cm. A impressão inteira será reduzida à metade, preservando a forma. Qual será o comprimento total dos dois trechos no papel reduzido? Não há atalho diagonal.",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Aplicar a redução a um percurso formado por segmentos e reunir seus comprimentos.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Combina redução e soma, distinguindo o trajeto de uma ligação diagonal."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5 cm.",
+          "valor": 5,
+          "erro_comum": "Mantém o trajeto original."
+        },
+        {
+          "letra": "B",
+          "texto": "10 cm.",
+          "valor": 10,
+          "erro_comum": "Amplia pelo dobro em vez de reduzir."
+        },
+        {
+          "letra": "C",
+          "texto": "1,25 cm.",
+          "valor": 1.25,
+          "erro_comum": "Reduz duas vezes o comprimento total."
+        },
+        {
+          "letra": "D",
+          "texto": "2,5 cm.",
+          "valor": 2.5,
+          "erro_comum": ""
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "O caminho original mede 3 + 2 = 5 cm. Cada trecho fica com a metade: 1,5 cm e 1 cm. A soma passa a 1,5 + 1 = 2,5 cm. Isso também é a metade dos 5 cm originais. Não calculamos uma diagonal nem aplicamos a redução duas vezes.",
+      "justificativa_pedagogica": "Relaciona a escala à representação de um caminho sem aplicar a mudança a uma área.",
+      "dados": {
+        "trechos": [
+          3,
+          2
+        ],
+        "fator": [
+          1,
+          2
+        ]
+      },
+      "modelo_verificacao": {
+        "tipo": "trajeto_reduzido"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 340\" role=\"img\" aria-label=\"Dois trajetos em ângulo reto, sem diagonal. O original tem 3 cm horizontais e 2 cm verticais; a cópia tem cada trecho reduzido à metade, com medidas ocultadas por interrogações.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Trajeto original</text><path d=\"M 65 120 L 155 120 L 155 60\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"110.0\" y=\"154.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">3 cm</text><text x=\"183.0\" y=\"96.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">2 cm</text><text x=\"180\" y=\"211\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Impressão menor</text><path d=\"M 65 275 L 110.0 275 L 110.0 245\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"87.5\" y=\"309.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">?</text><text x=\"138.0\" y=\"266.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">?</text></svg>",
+          "css": "",
+          "acessibilidade": "Dois trajetos em ângulo reto, sem diagonal. O original tem 3 cm horizontais e 2 cm verticais; a cópia tem cada trecho reduzido à metade, com medidas ocultadas por interrogações.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 30,
+            "figuras": [
+              {
+                "titulo": "Trajeto original",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    3,
+                    0
+                  ],
+                  [
+                    3,
+                    2
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "3 cm",
+                  "1": "2 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": false,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  120
+                ],
+                "unidade_svg": 30
+              },
+              {
+                "titulo": "Impressão menor",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    1.5,
+                    0
+                  ],
+                  [
+                    1.5,
+                    1
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "?",
+                  "1": "?"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": false,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  275
+                ],
+                "unidade_svg": 30
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-20-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-21",
+      "numero": 21,
+      "topico_curricular": 9,
+      "titulo": "Duas etapas para o recorte do mural",
+      "enunciado": "Um recorte em L tem contorno de 20 cm e base de 6 cm. Para preparar um arquivo, a escola reduz todos os comprimentos à metade, obtendo base de 3 cm. Depois amplia esse arquivo proporcionalmente até a base medir 9 cm. Qual é o contorno da última versão?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Compor transformações sucessivas e relacioná-las ao perímetro final.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Precisa interpretar cada fator em relação à versão anterior e acompanhar o contorno."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10 cm.",
+          "valor": 10,
+          "erro_comum": "Considera apenas a redução inicial."
+        },
+        {
+          "letra": "B",
+          "texto": "60 cm.",
+          "valor": 60,
+          "erro_comum": "Aplica o fator da última etapa diretamente ao original."
+        },
+        {
+          "letra": "C",
+          "texto": "30 cm.",
+          "valor": 30,
+          "erro_comum": ""
+        },
+        {
+          "letra": "D",
+          "texto": "90 cm.",
+          "valor": 90,
+          "erro_comum": "Confunde a base final com um fator de ampliação."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Na redução à metade, o contorno passa de 20 para 10 cm. Da base 3 para a base 9, a segunda etapa triplica todos os comprimentos do arquivo. Assim, o contorno final é 10 × 3 = 30 cm. Ele não é 60, pois o fator 3 foi aplicado à cópia já reduzida, não ao original.",
+      "justificativa_pedagogica": "Distingue o tamanho final em relação ao original do fator aplicado só na última etapa.",
+      "dados": {
+        "original": [
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "intermediaria": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            3.0,
+            0.0
+          ],
+          [
+            3.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            2.0
+          ],
+          [
+            0.0,
+            2.0
+          ]
+        ],
+        "final": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            9.0,
+            0.0
+          ],
+          [
+            9.0,
+            3.0
+          ],
+          [
+            3.0,
+            3.0
+          ],
+          [
+            3.0,
+            6.0
+          ],
+          [
+            0.0,
+            6.0
+          ]
+        ],
+        "perimetro_original": 20,
+        "bases": [
+          6,
+          3,
+          9
+        ]
+      },
+      "modelo_verificacao": {
+        "tipo": "perimetro_duas_etapas"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 655.0\" role=\"img\" aria-label=\"Três recortes em L semelhantes: bases de 6, 3 e 9 cm, respectivamente. Cada parte acompanha a mudança de tamanho. O contorno original informado é de 20 cm.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Original</text><path d=\"M 65.0 153.3333 L 205.0 153.3333 L 205.0 106.6667 L 111.6667 106.6667 L 111.6667 60.0 L 65.0 60.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"135.0\" y=\"187.3333\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">6 cm</text><text x=\"180\" y=\"244.3333\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Arquivo reduzido</text><path d=\"M 65.0 325.0 L 135.0 325.0 L 135.0 301.6667 L 88.3333 301.6667 L 88.3333 278.3333 L 65.0 278.3333 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"100.0\" y=\"359.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">3 cm</text><text x=\"180\" y=\"416.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Versão final</text><path d=\"M 65.0 590.0 L 275.0 590.0 L 275.0 520.0 L 135.0 520.0 L 135.0 450.0 L 65.0 450.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"170.0\" y=\"624.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">9 cm</text></svg>",
+          "css": "",
+          "acessibilidade": "Três recortes em L semelhantes: bases de 6, 3 e 9 cm, respectivamente. Cada parte acompanha a mudança de tamanho. O contorno original informado é de 20 cm.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 23.333333333333332,
+            "figuras": [
+              {
+                "titulo": "Original",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    6,
+                    0
+                  ],
+                  [
+                    6,
+                    2
+                  ],
+                  [
+                    2,
+                    2
+                  ],
+                  [
+                    2,
+                    4
+                  ],
+                  [
+                    0,
+                    4
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "6 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  153.3333
+                ],
+                "unidade_svg": 23.333333333333332
+              },
+              {
+                "titulo": "Arquivo reduzido",
+                "vertices": [
+                  [
+                    0.0,
+                    0.0
+                  ],
+                  [
+                    3.0,
+                    0.0
+                  ],
+                  [
+                    3.0,
+                    1.0
+                  ],
+                  [
+                    1.0,
+                    1.0
+                  ],
+                  [
+                    1.0,
+                    2.0
+                  ],
+                  [
+                    0.0,
+                    2.0
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "3 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  325.0
+                ],
+                "unidade_svg": 23.333333333333332
+              },
+              {
+                "titulo": "Versão final",
+                "vertices": [
+                  [
+                    0.0,
+                    0.0
+                  ],
+                  [
+                    9.0,
+                    0.0
+                  ],
+                  [
+                    9.0,
+                    3.0
+                  ],
+                  [
+                    3.0,
+                    3.0
+                  ],
+                  [
+                    3.0,
+                    6.0
+                  ],
+                  [
+                    0.0,
+                    6.0
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "9 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  590.0
+                ],
+                "unidade_svg": 23.333333333333332
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-21-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-22",
+      "numero": 22,
+      "topico_curricular": 9,
+      "titulo": "A moldura é acrescentada depois",
+      "enunciado": "Uma imagem de 8 cm por 5 cm é ampliada pelo fator 2. Só depois recebe uma moldura com 1 cm de largura em cada uma das quatro bordas, para fora da imagem. Qual é o perímetro externo do conjunto pronto?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Distinguir uma ampliação proporcional de um acréscimo posterior nas bordas.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Combina medidas ampliadas, duas bordas por dimensão e contorno externo."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "60 cm.",
+          "valor": 60,
+          "erro_comum": ""
+        },
+        {
+          "letra": "B",
+          "texto": "52 cm.",
+          "valor": 52,
+          "erro_comum": "Calcula somente o contorno da imagem ampliada."
+        },
+        {
+          "letra": "C",
+          "texto": "56 cm.",
+          "valor": 56,
+          "erro_comum": "Acrescenta apenas uma borda a cada dimensão."
+        },
+        {
+          "letra": "D",
+          "texto": "104 cm.",
+          "valor": 104,
+          "erro_comum": "Duplica novamente o perímetro da imagem ampliada."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "A imagem ampliada mede 16 por 10 cm. A moldura acrescenta 1 cm à esquerda e 1 à direita: largura externa 18 cm. Também acrescenta 1 em cima e 1 embaixo: altura externa 12 cm. O perímetro externo é 18 + 12 + 18 + 12 = 60 cm. Os 52 cm seriam apenas o contorno da imagem sem moldura.",
+      "justificativa_pedagogica": "Evita ampliar uma moldura que ainda não existia ou contar só uma borda em cada dimensão.",
+      "dados": {
+        "original": [
+          8,
+          5
+        ],
+        "fator": 2,
+        "borda": 1
+      },
+      "modelo_verificacao": {
+        "tipo": "moldura_apos_ampliar"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 446.875\" role=\"img\" aria-label=\"Imagem original de 8 por 5 cm e imagem ampliada de 16 por 10 cm, ainda sem a moldura. As bordas de 1 cm descritas no enunciado serão acrescentadas depois e não aparecem como parte da imagem.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Imagem original</text><path d=\"M 65.0 125.625 L 170.0 125.625 L 170.0 60.0 L 65.0 60.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"117.5\" y=\"159.625\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">8 cm</text><text x=\"198.0\" y=\"98.8125\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">5 cm</text><text x=\"180\" y=\"216.625\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Imagem ampliada, sem moldura</text><path d=\"M 65.0 381.875 L 275.0 381.875 L 275.0 250.625 L 65.0 250.625 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"170.0\" y=\"415.875\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">16 cm</text><text x=\"303.0\" y=\"322.25\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">10 cm</text></svg>",
+          "css": "",
+          "acessibilidade": "Imagem original de 8 por 5 cm e imagem ampliada de 16 por 10 cm, ainda sem a moldura. As bordas de 1 cm descritas no enunciado serão acrescentadas depois e não aparecem como parte da imagem.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 13.125,
+            "figuras": [
+              {
+                "titulo": "Imagem original",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    8,
+                    0
+                  ],
+                  [
+                    8,
+                    5
+                  ],
+                  [
+                    0,
+                    5
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "8 cm",
+                  "1": "5 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  125.625
+                ],
+                "unidade_svg": 13.125
+              },
+              {
+                "titulo": "Imagem ampliada, sem moldura",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    16,
+                    0
+                  ],
+                  [
+                    16,
+                    10
+                  ],
+                  [
+                    0,
+                    10
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "16 cm",
+                  "1": "10 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  381.875
+                ],
+                "unidade_svg": 13.125
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-22-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-23",
+      "numero": 23,
+      "topico_curricular": 9,
+      "titulo": "O barbante e o espaço da parede",
+      "enunciado": "Um painel retangular de referência mede 6 cm por 4 cm. A turma quer fazer uma ampliação com a mesma orientação e proporções, usando exatamente 60 cm de barbante na borda, sem sobra. O espaço disponível tem 20 cm de largura e 11 cm de altura. É possível atender às duas condições?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Conciliar semelhança, contorno fixado e limites de uma região disponível.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Deduz o fator pelo perímetro e confere duas restrições, rejeitando uma solução deformada."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sim: um painel de 20 por 10 cm usa o barbante e preserva a forma.",
+          "valor": "sim20x10",
+          "erro_comum": "Verifica o contorno, mas aceita uma deformação."
+        },
+        {
+          "letra": "B",
+          "texto": "Não: uma ampliação proporcional não pode mudar o perímetro.",
+          "valor": "nao_perimetro_fixo",
+          "erro_comum": "Supõe que o perímetro não pode mudar quando a forma é preservada."
+        },
+        {
+          "letra": "C",
+          "texto": "Não: a cópia proporcional teria 18 por 12 cm e ultrapassaria a altura disponível.",
+          "valor": "nao_altura",
+          "erro_comum": ""
+        },
+        {
+          "letra": "D",
+          "texto": "Sim: a cópia de 18 por 12 cm cabe no espaço indicado.",
+          "valor": "sim18x12",
+          "erro_comum": "Ignora o limite de altura."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "O painel original tem perímetro 6 + 4 + 6 + 4 = 20 cm. Para usar 60 cm mantendo a forma, os comprimentos devem triplicar: largura 18 cm e altura 12 cm. A largura cabe nos 20 cm, mas a altura ultrapassa o limite de 11 cm. O retângulo de 20 por 10 também teria contorno 60, porém não conserva as proporções de 6 por 4. Portanto, não é possível atender a tudo.",
+      "justificativa_pedagogica": "Mostra que atender ao contorno não garante atender à forma e ao espaço.",
+      "dados": {
+        "original": [
+          6,
+          4
+        ],
+        "perimetro_alvo": 60,
+        "limites": [
+          20,
+          11
+        ]
+      },
+      "modelo_verificacao": {
+        "tipo": "perimetro_e_limite"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 407.5\" role=\"img\" aria-label=\"Painel original com largura 6 cm e altura 4 cm e espaço disponível com largura 20 cm e altura 11 cm. Não há uma solução já marcada dentro do espaço.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Painel de referência</text><path d=\"M 65.0 102.0 L 128.0 102.0 L 128.0 60.0 L 65.0 60.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"96.5\" y=\"136.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">6 cm</text><text x=\"156.0\" y=\"87.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">4 cm</text><text x=\"180\" y=\"193.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Espaço disponível</text><path d=\"M 65.0 342.5 L 275.0 342.5 L 275.0 227.0 L 65.0 227.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"170.0\" y=\"376.5\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">20 cm</text><text x=\"303.0\" y=\"290.75\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">11 cm</text></svg>",
+          "css": "",
+          "acessibilidade": "Painel original com largura 6 cm e altura 4 cm e espaço disponível com largura 20 cm e altura 11 cm. Não há uma solução já marcada dentro do espaço.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 10.5,
+            "figuras": [
+              {
+                "titulo": "Painel de referência",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    6,
+                    0
+                  ],
+                  [
+                    6,
+                    4
+                  ],
+                  [
+                    0,
+                    4
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "6 cm",
+                  "1": "4 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  102.0
+                ],
+                "unidade_svg": 10.5
+              },
+              {
+                "titulo": "Espaço disponível",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    20,
+                    0
+                  ],
+                  [
+                    20,
+                    11
+                  ],
+                  [
+                    0,
+                    11
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "20 cm",
+                  "1": "11 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  342.5
+                ],
+                "unidade_svg": 10.5
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-23-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-24",
+      "numero": 24,
+      "topico_curricular": 9,
+      "titulo": "Ampliar mantendo um canto fixo",
+      "enunciado": "Na malha, o triângulo tem A = (1, 1), B = (4, 1) e C = (1, 3). A turma fará uma ampliação pelo fator 2 mantendo A no mesmo lugar. Para isso, duplica os deslocamentos horizontal e vertical medidos a partir de A, não da origem dos eixos. Quais serão as novas posições de B e C?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Relacionar ampliação em malha a deslocamentos medidos a partir de um ponto fixo.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Distingue a origem dos eixos do canto usado na construção e atualiza dois vértices."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "B = (8, 2) e C = (2, 6).",
+          "valor": [
+            [
+              8,
+              2
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          "erro_comum": "Duplica as coordenadas em relação à origem e desloca também o canto que deveria ficar fixo."
+        },
+        {
+          "letra": "B",
+          "texto": "B = (7, 1) e C = (1, 5).",
+          "valor": [
+            [
+              7,
+              1
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "erro_comum": ""
+        },
+        {
+          "letra": "C",
+          "texto": "B = (7, 1) e C = (1, 3).",
+          "valor": [
+            [
+              7,
+              1
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "erro_comum": "Amplia apenas o deslocamento até B."
+        },
+        {
+          "letra": "D",
+          "texto": "B = (4, 1) e C = (1, 5).",
+          "valor": [
+            [
+              4,
+              1
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "erro_comum": "Amplia apenas o deslocamento até C."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "De A até B há três unidades à direita. Duplicando, serão seis, sempre a partir de A: 1 + 6 = 7, com y = 1. Logo, B fica em (7, 1). De A até C há duas unidades para cima. Duplicando, serão quatro: 1 + 4 = 5, com x = 1. Logo, C fica em (1, 5). Duplicar diretamente todas as coordenadas também moveria A, contrariando a condição de canto fixo.",
+      "justificativa_pedagogica": "Integra o plano cartesiano já estudado sem exigir formalismo de transformações geométricas.",
+      "dados": {
+        "ancora": [
+          1,
+          1
+        ],
+        "b": [
+          4,
+          1
+        ],
+        "c": [
+          1,
+          3
+        ],
+        "fator": 2
+      },
+      "modelo_verificacao": {
+        "tipo": "ampliar_com_ancora"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 400\" role=\"img\" aria-label=\"Malha unitária de 0 a 8 nos dois eixos. O triângulo inicial tem A em x 1, y 1; B em x 4, y 1; C em x 1, y 3. A é o canto que permanecerá fixo. A figura ampliada não está desenhada.\"><line x1=\"50.0\" y1=\"310.0\" x2=\"50.0\" y2=\"58.0\" stroke=\"#81979d\" stroke-width=\"1.3\"/><line x1=\"50.0\" y1=\"310.0\" x2=\"302.0\" y2=\"310.0\" stroke=\"#81979d\" stroke-width=\"1.3\"/><text x=\"50.0\" y=\"338\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">0</text><line x1=\"81.5\" y1=\"310.0\" x2=\"81.5\" y2=\"58.0\" stroke=\"#81979d\" stroke-width=\"1.3\"/><line x1=\"50.0\" y1=\"278.5\" x2=\"302.0\" y2=\"278.5\" stroke=\"#81979d\" stroke-width=\"1.3\"/><text x=\"81.5\" y=\"338\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">1</text><text x=\"29\" y=\"285.5\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">1</text><line x1=\"113.0\" y1=\"310.0\" x2=\"113.0\" y2=\"58.0\" stroke=\"#81979d\" stroke-width=\"1.3\"/><line x1=\"50.0\" y1=\"247.0\" x2=\"302.0\" y2=\"247.0\" stroke=\"#81979d\" stroke-width=\"1.3\"/><text x=\"113.0\" y=\"338\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">2</text><text x=\"29\" y=\"254.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">2</text><line x1=\"144.5\" y1=\"310.0\" x2=\"144.5\" y2=\"58.0\" stroke=\"#81979d\" stroke-width=\"1.3\"/><line x1=\"50.0\" y1=\"215.5\" x2=\"302.0\" y2=\"215.5\" stroke=\"#81979d\" stroke-width=\"1.3\"/><text x=\"144.5\" y=\"338\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">3</text><text x=\"29\" y=\"222.5\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">3</text><line x1=\"176.0\" y1=\"310.0\" x2=\"176.0\" y2=\"58.0\" stroke=\"#81979d\" stroke-width=\"1.3\"/><line x1=\"50.0\" y1=\"184.0\" x2=\"302.0\" y2=\"184.0\" stroke=\"#81979d\" stroke-width=\"1.3\"/><text x=\"176.0\" y=\"338\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">4</text><text x=\"29\" y=\"191.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">4</text><line x1=\"207.5\" y1=\"310.0\" x2=\"207.5\" y2=\"58.0\" stroke=\"#81979d\" stroke-width=\"1.3\"/><line x1=\"50.0\" y1=\"152.5\" x2=\"302.0\" y2=\"152.5\" stroke=\"#81979d\" stroke-width=\"1.3\"/><text x=\"207.5\" y=\"338\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">5</text><text x=\"29\" y=\"159.5\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">5</text><line x1=\"239.0\" y1=\"310.0\" x2=\"239.0\" y2=\"58.0\" stroke=\"#81979d\" stroke-width=\"1.3\"/><line x1=\"50.0\" y1=\"121.0\" x2=\"302.0\" y2=\"121.0\" stroke=\"#81979d\" stroke-width=\"1.3\"/><text x=\"239.0\" y=\"338\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">6</text><text x=\"29\" y=\"128.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">6</text><line x1=\"270.5\" y1=\"310.0\" x2=\"270.5\" y2=\"58.0\" stroke=\"#81979d\" stroke-width=\"1.3\"/><line x1=\"50.0\" y1=\"89.5\" x2=\"302.0\" y2=\"89.5\" stroke=\"#81979d\" stroke-width=\"1.3\"/><text x=\"270.5\" y=\"338\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">7</text><text x=\"29\" y=\"96.5\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">7</text><line x1=\"302.0\" y1=\"310.0\" x2=\"302.0\" y2=\"58.0\" stroke=\"#81979d\" stroke-width=\"1.3\"/><line x1=\"50.0\" y1=\"58.0\" x2=\"302.0\" y2=\"58.0\" stroke=\"#81979d\" stroke-width=\"1.3\"/><text x=\"302.0\" y=\"338\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">8</text><text x=\"29\" y=\"65.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">8</text><line x1=\"50\" y1=\"310\" x2=\"330\" y2=\"310\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"50\" y1=\"310\" x2=\"50\" y2=\"30\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"335\" y=\"318\" font-size=\"21\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">x</text><text x=\"50\" y=\"23\" font-size=\"21\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">y</text><path d=\"M 81.5 278.5 L 176.0 278.5 L 81.5 215.5 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-ancora\"/><circle cx=\"81.5\" cy=\"278.5\" r=\"4\" fill=\"#123e4a\"/><text x=\"94.5\" y=\"266.5\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">A</text><circle cx=\"176.0\" cy=\"278.5\" r=\"4\" fill=\"#123e4a\"/><text x=\"189.0\" y=\"266.5\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">B</text><circle cx=\"81.5\" cy=\"215.5\" r=\"4\" fill=\"#123e4a\"/><text x=\"94.5\" y=\"203.5\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">C</text><text x=\"180\" y=\"378\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">A permanece fixo</text></svg>",
+          "css": "",
+          "acessibilidade": "Malha unitária de 0 a 8 nos dois eixos. O triângulo inicial tem A em x 1, y 1; B em x 4, y 1; C em x 1, y 3. A é o canto que permanecerá fixo. A figura ampliada não está desenhada.",
+          "geometria": {
+            "tipo": "malha_ancora",
+            "pontos": [
+              [
+                1,
+                1
+              ],
+              [
+                4,
+                1
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "origem_svg": [
+              50,
+              310
+            ],
+            "unidade_svg": 31.5
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-24-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-AR-25",
+      "numero": 25,
+      "topico_curricular": 9,
+      "titulo": "O mesmo contorno não garante a mesma forma",
+      "enunciado": "Uma placa retangular de referência mede 6 cm por 4 cm. Para uma reprodução sem giro, a turma dispõe de exatamente 30 cm de fita para contornar a borda uma vez, sem sobra. Os quatro projetos estão ilustrados. Qual usa essa fita e preserva as proporções da placa?",
+      "assunto": "AR",
+      "assunto_nome": "Ampliação e redução de figuras",
+      "habilidade": "Verificar simultaneamente igualdade de fatores e um perímetro exigido.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Compara propostas com o mesmo contorno e precisa selecionar a única proporcional."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Projeto IV: 12 por 3 cm.",
+          "valor": "IV",
+          "erro_comum": "Verifica apenas o perímetro e aceita uma placa mais alongada."
+        },
+        {
+          "letra": "B",
+          "texto": "Projeto I: 9 por 6 cm.",
+          "valor": "I",
+          "erro_comum": ""
+        },
+        {
+          "letra": "C",
+          "texto": "Projeto III: 8 por 7 cm.",
+          "valor": "III",
+          "erro_comum": "Confere o contorno, mas ignora a mudança da proporção."
+        },
+        {
+          "letra": "D",
+          "texto": "Projeto II: 10 por 5 cm.",
+          "valor": "II",
+          "erro_comum": "Confere o contorno, mas usa fatores diferentes na largura e na altura."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Todos os projetos têm soma de largura e altura igual a 15, logo contorno de 30 cm. Porém, no projeto I, 6 passa para 9 e 4 passa para 6: os dois comprimentos aumentam pela própria metade. Nos outros projetos, largura e altura mudam por fatores diferentes. Assim, apenas I, de 9 por 6 cm, usa os 30 cm de fita e mantém a forma da placa.",
+      "justificativa_pedagogica": "Evita usar o perímetro como critério suficiente para reconhecer figuras semelhantes.",
+      "dados": {
+        "original": [
+          6,
+          4
+        ],
+        "perimetro_alvo": 30,
+        "projetos": {
+          "I": [
+            9,
+            6
+          ],
+          "II": [
+            10,
+            5
+          ],
+          "III": [
+            8,
+            7
+          ],
+          "IV": [
+            12,
+            3
+          ]
+        }
+      },
+      "modelo_verificacao": {
+        "tipo": "forma_e_mesmo_contorno"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 1062.5\" role=\"img\" aria-label=\"Retângulo de referência de largura 6 cm e altura 4 cm. Projetos I, 9 por 6; II, 10 por 5; III, 8 por 7; IV, 12 por 3, todos em centímetros. Os projetos têm o mesmo estilo visual, sem destaque de resposta.\"><text x=\"180\" y=\"26\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Referência</text><path d=\"M 65.0 130.0 L 170.0 130.0 L 170.0 60.0 L 65.0 60.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"117.5\" y=\"164.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">6 cm</text><text x=\"198.0\" y=\"101.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">4 cm</text><text x=\"180\" y=\"221.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Projeto I</text><path d=\"M 65.0 360.0 L 222.5 360.0 L 222.5 255.0 L 65.0 255.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"143.75\" y=\"394.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">9 cm</text><text x=\"250.5\" y=\"313.5\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">6 cm</text><text x=\"180\" y=\"451.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Projeto II</text><path d=\"M 65.0 572.5 L 240.0 572.5 L 240.0 485.0 L 65.0 485.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"152.5\" y=\"606.5\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">10 cm</text><text x=\"268.0\" y=\"534.75\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">5 cm</text><text x=\"180\" y=\"663.5\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Projeto III</text><path d=\"M 65.0 820.0 L 205.0 820.0 L 205.0 697.5 L 65.0 697.5 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"135.0\" y=\"854.0\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">8 cm</text><text x=\"233.0\" y=\"764.75\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">7 cm</text><text x=\"180\" y=\"911.0\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Projeto IV</text><path d=\"M 65.0 997.5 L 275.0 997.5 L 275.0 945.0 L 65.0 945.0 Z\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2.5\" class=\"ar-figura\"/><text x=\"170.0\" y=\"1031.5\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">12 cm</text><text x=\"303.0\" y=\"977.25\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">3 cm</text></svg>",
+          "css": "",
+          "acessibilidade": "Retângulo de referência de largura 6 cm e altura 4 cm. Projetos I, 9 por 6; II, 10 por 5; III, 8 por 7; IV, 12 por 3, todos em centímetros. Os projetos têm o mesmo estilo visual, sem destaque de resposta.",
+          "geometria": {
+            "tipo": "figuras_proporcionais",
+            "unidade_svg": 17.5,
+            "figuras": [
+              {
+                "titulo": "Referência",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    6,
+                    0
+                  ],
+                  [
+                    6,
+                    4
+                  ],
+                  [
+                    0,
+                    4
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "6 cm",
+                  "1": "4 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  130.0
+                ],
+                "unidade_svg": 17.5
+              },
+              {
+                "titulo": "Projeto I",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    9,
+                    0
+                  ],
+                  [
+                    9,
+                    6
+                  ],
+                  [
+                    0,
+                    6
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "9 cm",
+                  "1": "6 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  360.0
+                ],
+                "unidade_svg": 17.5
+              },
+              {
+                "titulo": "Projeto II",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    10,
+                    0
+                  ],
+                  [
+                    10,
+                    5
+                  ],
+                  [
+                    0,
+                    5
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "10 cm",
+                  "1": "5 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  572.5
+                ],
+                "unidade_svg": 17.5
+              },
+              {
+                "titulo": "Projeto III",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    8,
+                    0
+                  ],
+                  [
+                    8,
+                    7
+                  ],
+                  [
+                    0,
+                    7
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "8 cm",
+                  "1": "7 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  820.0
+                ],
+                "unidade_svg": 17.5
+              },
+              {
+                "titulo": "Projeto IV",
+                "vertices": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    12,
+                    0
+                  ],
+                  [
+                    12,
+                    3
+                  ],
+                  [
+                    0,
+                    3
+                  ]
+                ],
+                "rotulos_lados": {
+                  "0": "12 cm",
+                  "1": "3 cm"
+                },
+                "nomes": [],
+                "malha": false,
+                "fechada": true,
+                "corte": null,
+                "origem_svg": [
+                  65,
+                  997.5
+                ],
+                "unidade_svg": 17.5
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação expressa pelo usuário na autorização da validação integrada, após os ajustes de AR-07, AR-12 e AR-18. Sorteio público permanece desativado."
+      },
+      "sorteio": {
+        "ativo": true,
+        "assunto": "AR",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-AR-25-G1"
+      }
+    }
+  ]
+}
