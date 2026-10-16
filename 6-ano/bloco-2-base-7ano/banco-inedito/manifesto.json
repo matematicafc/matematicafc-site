@@ -1,0 +1,61 @@
+{
+  "banco_id": "MFC6-B2-INEDITO-V1",
+  "estado": "aprovado_pedagogicamente_em_validacao_local",
+  "publicavel": false,
+  "quantidade_prevista": 100,
+  "quantidade_atual": 100,
+  "assuntos": [
+    {
+      "codigo": "EA",
+      "nome": "Estimativas e aproximações",
+      "arquivo": "estimativas-aproximacoes.json",
+      "previstas": 25,
+      "atuais": 25,
+      "aprovadas": 25
+    },
+    {
+      "codigo": "IP",
+      "nome": "Igualdade e partilha",
+      "arquivo": "igualdade-partilha.json",
+      "previstas": 25,
+      "atuais": 25,
+      "aprovadas": 25
+    },
+    {
+      "codigo": "PC",
+      "nome": "Plano cartesiano",
+      "arquivo": "plano-cartesiano.json",
+      "previstas": 25,
+      "atuais": 25,
+      "aprovadas": 25
+    },
+    {
+      "codigo": "AR",
+      "nome": "Ampliação e redução de figuras",
+      "arquivo": "ampliacao-reducao.json",
+      "previstas": 25,
+      "atuais": 25,
+      "aprovadas": 25
+    }
+  ],
+  "selecao": {
+    "total": 30,
+    "quantidades_por_assunto": [
+      8,
+      8,
+      7,
+      7
+    ],
+    "rotacao": "Par inicial aleatório; tentativa seguinte usa o par complementar.",
+    "dificuldade_herdada": [
+      8,
+      14,
+      8
+    ],
+    "minimo_visual_total": 15,
+    "minimo_visual_assunto": 3
+  },
+  "revisao_pedagogica": "aprovada",
+  "dados_tecnicos": "Somente em testes/fixtures; rejeitados pela execução normal.",
+  "quantidade_aprovada": 100
+}

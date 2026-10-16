@@ -1,0 +1,2215 @@
+{
+  "versao_formato": 1,
+  "banco_id": "MFC6-B2-INEDITO-V1",
+  "tipo": "definitivo",
+  "assunto": "Estimativas e aproximações",
+  "codigo_assunto": "EA",
+  "topico_curricular": 6,
+  "estado": "aprovado_pedagogicamente",
+  "quantidade_prevista": 25,
+  "revisao_pedagogica": "aprovada",
+  "convencao_arredondamento": "Ao múltiplo mais próximo da ordem indicada; nos pontos médios, para cima.",
+  "questoes": [
+    {
+      "id": "MFC6-B2-I-EA-01",
+      "numero": 1,
+      "topico_curricular": 6,
+      "titulo": "Uma referência para a estante",
+      "enunciado": "Na biblioteca, uma prateleira cheia comporta cerca de 40 livros de espessuras semelhantes. As três faixas do desenho indicam o espaço ocupado por livros em prateleiras iguais: duas estão cheias e a terceira está aproximadamente pela metade. As faixas não representam livros individuais. Qual é uma estimativa razoável para o total de livros nessas três prateleiras?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Estimar uma quantidade usando uma referência conhecida e uma parte dessa referência.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Exige reconhecer duas ocupações completas e uma meia ocupação, com apoio direto do desenho."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Cerca de 60 livros.",
+          "valor": 60,
+          "erro_comum": "Conta somente uma prateleira cheia e a meia prateleira."
+        },
+        {
+          "letra": "B",
+          "texto": "Cerca de 80 livros.",
+          "valor": 80,
+          "erro_comum": "Desconsidera a prateleira parcialmente ocupada."
+        },
+        {
+          "letra": "C",
+          "texto": "Cerca de 100 livros.",
+          "valor": 100,
+          "erro_comum": ""
+        },
+        {
+          "letra": "D",
+          "texto": "Cerca de 120 livros.",
+          "valor": 120,
+          "erro_comum": "Trata as três prateleiras como completamente cheias."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "As duas prateleiras cheias correspondem a cerca de 40 + 40 = 80 livros. Metade de uma prateleira corresponde a cerca de 20 livros. Portanto, a estimativa é 80 + 20 = 100 livros. Como a ocupação e as espessuras são aproximadas, esse não é um total exato.",
+      "justificativa_pedagogica": "Trabalha a referência de quantidade sem exigir contagem individual nem tratar uma estimativa como contagem exata.",
+      "dados": {
+        "referencia": 40,
+        "cheias": 2,
+        "parte": [
+          1,
+          2
+        ]
+      },
+      "modelo_verificacao": {
+        "tipo": "referencia_parcial"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 250\" role=\"img\" aria-label=\"Três prateleiras iguais, identificadas por A, B e C. A e B estão totalmente ocupadas; C tem metade do espaço ocupada. Referência: uma prateleira cheia comporta cerca de 40 livros.\"><text x=\"180\" y=\"30\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Cheia: 40 livros</text><text x=\"25\" y=\"92\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">A</text><rect x=\"60\" y=\"65\" width=\"260\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><rect x=\"60\" y=\"65\" width=\"260\" height=\"35\" fill=\"#d9edeb\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"25\" y=\"152\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">B</text><rect x=\"60\" y=\"125\" width=\"260\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><rect x=\"60\" y=\"125\" width=\"260\" height=\"35\" fill=\"#d9edeb\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"25\" y=\"212\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">C</text><rect x=\"60\" y=\"185\" width=\"260\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><rect x=\"60\" y=\"185\" width=\"130.0\" height=\"35\" fill=\"#d9edeb\" stroke=\"#123e4a\" stroke-width=\"2\"/></svg>",
+          "css": "",
+          "acessibilidade": "Três prateleiras iguais, identificadas por A, B e C. A e B estão totalmente ocupadas; C tem metade do espaço ocupada. Referência: uma prateleira cheia comporta cerca de 40 livros.",
+          "geometria": {
+            "tipo": "ocupacao",
+            "largura_inteiro": 260,
+            "ocupacoes": [
+              260,
+              260,
+              130
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-EA-01-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-02",
+      "numero": 2,
+      "topico_curricular": 6,
+      "titulo": "A dezena mais próxima na contagem",
+      "enunciado": "Um clube de observação de aves contou 438 registros válidos em um mês. Para publicar uma quantidade aproximada, usará a dezena mais próxima. Na reta, o ponto marca a contagem realizada. Qual número deve aparecer na publicação?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Reconhecer a dezena mais próxima pela comparação de distâncias na reta numérica.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Compara duas dezenas vizinhas com apoio da posição do número."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "430 registros.",
+          "valor": 430,
+          "erro_comum": "Escolhe sempre a dezena inferior, sem comparar as distâncias."
+        },
+        {
+          "letra": "B",
+          "texto": "440 registros.",
+          "valor": 440,
+          "erro_comum": ""
+        },
+        {
+          "letra": "C",
+          "texto": "400 registros.",
+          "valor": 400,
+          "erro_comum": "Arredonda à centena, embora a publicação peça dezenas."
+        },
+        {
+          "letra": "D",
+          "texto": "450 registros.",
+          "valor": 450,
+          "erro_comum": "Ultrapassa a dezena vizinha superior e escolhe outra marca da reta."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "438 está a 8 unidades de 430 e a 2 unidades de 440. A dezena mais próxima é 440, pois a distância até ela é menor.",
+      "justificativa_pedagogica": "Relaciona arredondamento à proximidade, em vez de apresentar apenas uma regra sobre algarismos.",
+      "dados": {
+        "numero": 438,
+        "base": 10
+      },
+      "modelo_verificacao": {
+        "tipo": "arredondamento"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 200\" role=\"img\" aria-label=\"Reta de 420 a 450, com dezenas igualmente espaçadas. O ponto 438 fica entre 430 e 440.\"><line x1=\"40\" y1=\"135\" x2=\"320\" y2=\"135\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"40.0\" y1=\"128\" x2=\"40.0\" y2=\"143\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"40.0\" y=\"177\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">420</text><line x1=\"133.333\" y1=\"128\" x2=\"133.333\" y2=\"143\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"133.333\" y=\"177\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">430</text><line x1=\"226.667\" y1=\"128\" x2=\"226.667\" y2=\"143\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"226.667\" y=\"177\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">440</text><line x1=\"320.0\" y1=\"128\" x2=\"320.0\" y2=\"143\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"320.0\" y=\"177\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">450</text><circle cx=\"208.0\" cy=\"135\" r=\"5\" fill=\"#123e4a\"/><line x1=\"208.0\" y1=\"78\" x2=\"208.0\" y2=\"125\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"208.0\" y=\"70\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">438</text></svg>",
+          "css": "",
+          "acessibilidade": "Reta de 420 a 450, com dezenas igualmente espaçadas. O ponto 438 fica entre 430 e 440.",
+          "geometria": {
+            "tipo": "reta",
+            "minimo": 420,
+            "maximo": 450,
+            "x_inicial": 40,
+            "x_final": 320,
+            "y": 135,
+            "pontos": [
+              {
+                "valor": 438,
+                "x": 208.0,
+                "rotulo": "438"
+              }
+            ],
+            "marcas": [
+              {
+                "valor": 420,
+                "x": 40.0,
+                "rotulo": "420"
+              },
+              {
+                "valor": 430,
+                "x": 133.333,
+                "rotulo": "430"
+              },
+              {
+                "valor": 440,
+                "x": 226.667,
+                "rotulo": "440"
+              },
+              {
+                "valor": 450,
+                "x": 320.0,
+                "rotulo": "450"
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-EA-02-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-03",
+      "numero": 3,
+      "topico_curricular": 6,
+      "titulo": "Um cartaz em centenas",
+      "enunciado": "Uma campanha recebeu 1.476 livros. O cartaz de divulgação deve informar a quantidade arredondada à centena mais próxima, sem sugerir que a contagem aproximada seja exata. Qual texto atende a essa orientação?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Arredondar uma quantidade natural à centena mais próxima e comunicar seu caráter aproximado.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Aplica a comparação com centenas vizinhas em uma comunicação cotidiana."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Recebemos cerca de 1.400 livros.",
+          "valor": 1400,
+          "erro_comum": "Elimina dezenas e unidades sem verificar a proximidade."
+        },
+        {
+          "letra": "B",
+          "texto": "Recebemos cerca de 1.000 livros.",
+          "valor": 1000,
+          "erro_comum": "Usa milhares em vez de centenas e escolhe o milhar inferior."
+        },
+        {
+          "letra": "C",
+          "texto": "Recebemos cerca de 2.000 livros.",
+          "valor": 2000,
+          "erro_comum": "Usa milhares e escolhe o milhar superior."
+        },
+        {
+          "letra": "D",
+          "texto": "Recebemos cerca de 1.500 livros.",
+          "valor": 1500,
+          "erro_comum": ""
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "As centenas vizinhas de 1.476 são 1.400 e 1.500. As distâncias são 76 e 24, respectivamente. Logo, a aproximação é 1.500. A expressão «cerca de» indica que esse é o número arredondado.",
+      "justificativa_pedagogica": "Explora a escolha da ordem e a linguagem «cerca de», distinguindo quantidade recebida de quantidade divulgada.",
+      "dados": {
+        "numero": 1476,
+        "base": 100
+      },
+      "modelo_verificacao": {
+        "tipo": "arredondamento"
+      },
+      "recursos_visuais": [],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "facil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC6-B2-I-EA-03-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-04",
+      "numero": 4,
+      "topico_curricular": 6,
+      "titulo": "Previsão para os kits da horta",
+      "enunciado": "O grêmio vai comprar um kit A e um kit B para a horta. Os preços estão nas etiquetas. Para uma primeira previsão, decidiu arredondar cada preço à centena de reais mais próxima e depois somar. Qual é o gasto previsto por esse procedimento?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Estimar o resultado de uma adição arredondando suas parcelas conforme uma precisão definida.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Arredonda dois preços próximos de uma mesma centena e soma referências simples."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "R$ 400.",
+          "valor": 400,
+          "erro_comum": ""
+        },
+        {
+          "letra": "B",
+          "texto": "R$ 200.",
+          "valor": 200,
+          "erro_comum": "Considera apenas um dos kits."
+        },
+        {
+          "letra": "C",
+          "texto": "R$ 401.",
+          "valor": 401,
+          "erro_comum": "Calcula o total exato, sem seguir o procedimento de estimativa pedido."
+        },
+        {
+          "letra": "D",
+          "texto": "R$ 500.",
+          "valor": 500,
+          "erro_comum": "Arredonda 203 para 300, embora ele esteja muito mais perto de 200."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "198 e 203 são mais próximos de 200 do que das outras centenas. Assim, a previsão é 200 + 200 = R$ 400. O total exato seria R$ 401, mas a pergunta solicita a estimativa feita com os preços arredondados.",
+      "justificativa_pedagogica": "Mostra uma finalidade concreta da estimativa e diferencia previsão pelo método solicitado de soma exata.",
+      "dados": {
+        "precos": [
+          198,
+          203
+        ],
+        "base": 100
+      },
+      "modelo_verificacao": {
+        "tipo": "soma_arredondada"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 180\" role=\"img\" aria-label=\"Duas etiquetas de preços: kit A, R$ 198; kit B, R$ 203.\"><rect x=\"20\" y=\"15\" width=\"320\" height=\"65\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"38\" y=\"55\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"start\" fill=\"#123e4a\">Kit A</text><text x=\"322\" y=\"55\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"end\" fill=\"#123e4a\">R$ 198</text><rect x=\"20\" y=\"100\" width=\"320\" height=\"65\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"38\" y=\"140\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"start\" fill=\"#123e4a\">Kit B</text><text x=\"322\" y=\"140\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"end\" fill=\"#123e4a\">R$ 203</text></svg>",
+          "css": "",
+          "acessibilidade": "Duas etiquetas de preços: kit A, R$ 198; kit B, R$ 203.",
+          "geometria": {
+            "tipo": "etiquetas",
+            "precos": [
+              198,
+              203
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-EA-04-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-05",
+      "numero": 5,
+      "topico_curricular": 6,
+      "titulo": "Uma previsão para os ônibus",
+      "enunciado": "Há 198 estudantes inscritos em uma visita. Para estimar a quantidade de ônibus, a escola aproxima esse número para 200. Cada ônibus oferece 50 lugares para estudantes, além dos assentos da equipe. Quantos ônibus essa estimativa indica, de modo que haja lugares para todos os 198 estudantes?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Interpretar uma divisão com números aproximados em um planejamento de capacidade.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Usa uma aproximação fornecida e um agrupamento de cálculo mental simples."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3 ônibus.",
+          "valor": 3,
+          "erro_comum": "Prevê apenas 150 lugares, quantidade insuficiente."
+        },
+        {
+          "letra": "B",
+          "texto": "5 ônibus.",
+          "valor": 5,
+          "erro_comum": "Acrescenta um veículo além do necessário para a previsão apresentada."
+        },
+        {
+          "letra": "C",
+          "texto": "4 ônibus.",
+          "valor": 4,
+          "erro_comum": ""
+        },
+        {
+          "letra": "D",
+          "texto": "40 ônibus.",
+          "valor": 40,
+          "erro_comum": "Erra a ordem de grandeza na divisão por 50."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Na estimativa, usamos 200 estudantes em vez de 198. Como 200 ÷ 50 = 4, a previsão indica quatro ônibus. Conferindo a capacidade, 4 × 50 = 200 lugares: os 198 estudantes ficam acomodados e ainda sobram 2 lugares. Três ônibus ofereceriam apenas 150 lugares, o que não seria suficiente. Assim, a estimativa ajuda no planejamento e, neste caso, atende à quantidade real de estudantes.",
+      "justificativa_pedagogica": "Relaciona a estimativa à capacidade disponível, sem confundir o número de pessoas com o número de veículos.",
+      "dados": {
+        "aproximacao": 200,
+        "capacidade": 50,
+        "inscritos": 198
+      },
+      "modelo_verificacao": {
+        "tipo": "divisao_prevista"
+      },
+      "recursos_visuais": [],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "facil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC6-B2-I-EA-05-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-06",
+      "numero": 6,
+      "topico_curricular": 6,
+      "titulo": "Uma placa para o percurso",
+      "enunciado": "Um percurso de caminhada mede 12.420 metros. A placa de orientação deve apresentar essa medida arredondada ao milhar mais próximo. A reta mostra os dois milhares vizinhos e seu ponto médio. Qual medida deve constar na placa?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Aproximar uma medida natural ao milhar mais próximo usando o ponto médio como referência.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Identifica em qual lado do ponto médio a medida se encontra."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "12.000 m.",
+          "valor": 12000,
+          "erro_comum": ""
+        },
+        {
+          "letra": "B",
+          "texto": "13.000 m.",
+          "valor": 13000,
+          "erro_comum": "Escolhe o milhar superior apesar de a medida estar abaixo do ponto médio."
+        },
+        {
+          "letra": "C",
+          "texto": "12.400 m.",
+          "valor": 12400,
+          "erro_comum": "Arredonda às centenas em vez de aos milhares."
+        },
+        {
+          "letra": "D",
+          "texto": "12.500 m.",
+          "valor": 12500,
+          "erro_comum": "Confunde a referência de decisão com um resultado arredondado ao milhar."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "O ponto médio entre 12.000 e 13.000 é 12.500. Como 12.420 está abaixo desse ponto médio, está mais perto de 12.000: as distâncias são 420 e 580 metros. Portanto, a placa deve indicar 12.000 m.",
+      "justificativa_pedagogica": "Trabalha a ordem dos milhares em uma medida de percurso, sem confundi-la com centenas ou com o próprio ponto médio.",
+      "dados": {
+        "numero": 12420,
+        "base": 1000
+      },
+      "modelo_verificacao": {
+        "tipo": "arredondamento"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 200\" role=\"img\" aria-label=\"Reta de 12.000 a 13.000 metros. O ponto médio é 12.500. A medida de 12.420 é marcada na escala proporcional.\"><line x1=\"40\" y1=\"135\" x2=\"320\" y2=\"135\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"40.0\" y1=\"128\" x2=\"40.0\" y2=\"143\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"40.0\" y=\"177\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">12.000</text><line x1=\"180.0\" y1=\"128\" x2=\"180.0\" y2=\"143\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"180.0\" y=\"177\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">12.500</text><line x1=\"320.0\" y1=\"128\" x2=\"320.0\" y2=\"143\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"320.0\" y=\"177\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">13.000</text><circle cx=\"157.6\" cy=\"135\" r=\"5\" fill=\"#123e4a\"/><line x1=\"157.6\" y1=\"83\" x2=\"157.6\" y2=\"125\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"157.6\" y=\"75\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">12.420</text></svg>",
+          "css": "",
+          "acessibilidade": "Reta de 12.000 a 13.000 metros. O ponto médio é 12.500. A medida de 12.420 é marcada na escala proporcional.",
+          "geometria": {
+            "tipo": "reta",
+            "minimo": 12000,
+            "maximo": 13000,
+            "x_inicial": 40,
+            "x_final": 320,
+            "y": 135,
+            "pontos": [
+              {
+                "valor": 12420,
+                "x": 157.6,
+                "rotulo": "12.420"
+              }
+            ],
+            "marcas": [
+              {
+                "valor": 12000,
+                "x": 40.0,
+                "rotulo": "12.000"
+              },
+              {
+                "valor": 12500,
+                "x": 180.0,
+                "rotulo": "12.500"
+              },
+              {
+                "valor": 13000,
+                "x": 320.0,
+                "rotulo": "13.000"
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-EA-06-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-07",
+      "numero": 7,
+      "topico_curricular": 6,
+      "titulo": "Quanto falta para a meta?",
+      "enunciado": "Uma rede de escolas pretende arrecadar 3.000 kg de alimentos e já reuniu 1.984 kg. Para comunicar aproximadamente quanto ainda falta, a equipe arredonda a quantidade arrecadada ao milhar mais próximo e a compara com a meta. Qual quantidade deve anunciar como estimativa do que falta?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Estimar uma diferença usando o arredondamento de uma quantidade natural.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Reconhece uma quantidade próxima de 2.000 e a distância até a meta de 3.000."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Cerca de 100 kg.",
+          "valor": 100,
+          "erro_comum": "Reduz indevidamente a ordem de grandeza do restante."
+        },
+        {
+          "letra": "B",
+          "texto": "Cerca de 1.000 kg.",
+          "valor": 1000,
+          "erro_comum": ""
+        },
+        {
+          "letra": "C",
+          "texto": "Cerca de 2.000 kg.",
+          "valor": 2000,
+          "erro_comum": "Informa aproximadamente o que já foi arrecadado, e não o que falta."
+        },
+        {
+          "letra": "D",
+          "texto": "Cerca de 5.000 kg.",
+          "valor": 5000,
+          "erro_comum": "Soma meta e arrecadação em vez de comparar a diferença."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "1.984 kg ficam próximos de 2.000 kg. Pela estimativa, faltam 3.000 − 2.000 = 1.000 kg. O restante exato é 1.016 kg, por isso o anúncio deve dizer «cerca de 1.000 kg».",
+      "justificativa_pedagogica": "Dá sentido à estimativa de subtração em uma meta coletiva e evita confundir arrecadado com restante.",
+      "dados": {
+        "meta": 3000,
+        "arrecadado": 1984,
+        "base": 1000
+      },
+      "modelo_verificacao": {
+        "tipo": "diferenca_estimada"
+      },
+      "recursos_visuais": [],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "facil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC6-B2-I-EA-07-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-08",
+      "numero": 8,
+      "topico_curricular": 6,
+      "titulo": "Uma amostra na feira escolar",
+      "enunciado": "A área ocupada por visitantes de uma feira foi dividida nos seis setores de mesma área mostrados no desenho. A ocupação é aproximadamente semelhante entre eles. Em um setor foram contadas 28 pessoas. Para uma estimativa rápida, a equipe usará 30 pessoas por setor. Qual total deve prever seguindo essa referência?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Estimar um total a partir de uma amostra e de setores com ocupação semelhante.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Identifica os seis setores e aplica uma referência arredondada já indicada."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "28 pessoas.",
+          "valor": 28,
+          "erro_comum": "Considera somente o setor observado."
+        },
+        {
+          "letra": "B",
+          "texto": "168 pessoas.",
+          "valor": 168,
+          "erro_comum": "Multiplica a amostra original, sem aplicar a referência de 30 pedida."
+        },
+        {
+          "letra": "C",
+          "texto": "300 pessoas.",
+          "valor": 300,
+          "erro_comum": "Usa dez setores em vez dos seis representados."
+        },
+        {
+          "letra": "D",
+          "texto": "180 pessoas.",
+          "valor": 180,
+          "erro_comum": ""
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "O desenho tem seis setores. Usando a referência escolhida de 30 pessoas por setor, obtemos 6 × 30 = 180 pessoas. 168 seria o produto de 6 por 28, sem usar a referência arredondada solicitada. Em ambos os casos, a semelhança de ocupação sustenta apenas uma estimativa.",
+      "justificativa_pedagogica": "Introduz a ideia de amostragem com a hipótese de ocupação semelhante explicitada, sem apresentar o total como contagem exata.",
+      "dados": {
+        "setores": 6,
+        "amostra": 28,
+        "referencia": 30
+      },
+      "modelo_verificacao": {
+        "tipo": "extrapolacao_amostra"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 295\" role=\"img\" aria-label=\"Seis retângulos de mesma área, em três linhas de dois. Um setor é identificado como amostra com 28 pessoas. Os demais são os setores 2 a 6.\"><text x=\"180\" y=\"28\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Setores de mesma área</text><rect x=\"20\" y=\"50\" width=\"150\" height=\"65\" fill=\"#d9edeb\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"95\" y=\"77\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Amostra</text><text x=\"95\" y=\"103\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">28 pessoas</text><rect x=\"190\" y=\"50\" width=\"150\" height=\"65\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"265\" y=\"77\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Setor 2</text><rect x=\"20\" y=\"130\" width=\"150\" height=\"65\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"95\" y=\"157\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Setor 3</text><rect x=\"190\" y=\"130\" width=\"150\" height=\"65\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"265\" y=\"157\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Setor 4</text><rect x=\"20\" y=\"210\" width=\"150\" height=\"65\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"95\" y=\"237\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Setor 5</text><rect x=\"190\" y=\"210\" width=\"150\" height=\"65\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"265\" y=\"237\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Setor 6</text></svg>",
+          "css": "",
+          "acessibilidade": "Seis retângulos de mesma área, em três linhas de dois. Um setor é identificado como amostra com 28 pessoas. Os demais são os setores 2 a 6.",
+          "geometria": {
+            "tipo": "setores",
+            "quantidade": 6,
+            "largura": 150,
+            "altura": 65,
+            "amostra": 28
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-EA-08-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-09",
+      "numero": 9,
+      "topico_curricular": 6,
+      "titulo": "O saldo previsto para os jogos",
+      "enunciado": "Uma turma tem R$ 200 para comprar os três jogos da tabela. Para prever o gasto, arredondará cada preço à dezena de reais mais próxima antes de somar. Qual opção apresenta o gasto e o saldo obtidos nessa previsão? A pergunta trata do saldo estimado, não do troco exato.",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Combinar arredondamentos, soma e comparação com um orçamento, distinguindo saldo estimado e exato.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Articula três arredondamentos e interpreta o saldo de uma previsão."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Gasto de R$ 190 e saldo previsto de R$ 10.",
+          "valor": [
+            190,
+            10
+          ],
+          "erro_comum": "Arredonda 47 para 40, embora 47 esteja mais perto de 50."
+        },
+        {
+          "letra": "B",
+          "texto": "Gasto de R$ 210 e falta prevista de R$ 10.",
+          "valor": [
+            210,
+            -10
+          ],
+          "erro_comum": "Arredonda também 62 para cima, sem usar a dezena mais próxima."
+        },
+        {
+          "letra": "C",
+          "texto": "Gasto de R$ 197 e saldo previsto de R$ 3.",
+          "valor": [
+            197,
+            3
+          ],
+          "erro_comum": "Apresenta os valores exatos, em vez dos produzidos pelo método pedido."
+        },
+        {
+          "letra": "D",
+          "texto": "Gasto de R$ 200 e saldo previsto de R$ 0.",
+          "valor": [
+            200,
+            0
+          ],
+          "erro_comum": ""
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Os preços se aproximam de R$ 50, R$ 60 e R$ 90. A soma prevista é 50 + 60 + 90 = R$ 200. Comparando com a verba de R$ 200, o saldo previsto é zero. O gasto exato seria R$ 197, com R$ 3 de troco, mas esses não são os valores pedidos para a previsão.",
+      "justificativa_pedagogica": "Explora uma consequência do método: saldo estimado zero não significa que o troco real seja zero.",
+      "dados": {
+        "precos": [
+          47,
+          62,
+          88
+        ],
+        "base": 10,
+        "verba": 200
+      },
+      "modelo_verificacao": {
+        "tipo": "orcamento_estimado"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela_html",
+          "html": "<table><caption>Preços dos jogos</caption><thead><tr><th scope=\"col\">Jogo</th><th scope=\"col\">Preço (R$)</th></tr></thead><tbody><tr><th scope=\"row\">A</th><td>47</td></tr><tr><th scope=\"row\">B</th><td>62</td></tr><tr><th scope=\"row\">C</th><td>88</td></tr></tbody></table>",
+          "css": "",
+          "acessibilidade": "Tabela: jogo A custa R$ 47, jogo B custa R$ 62 e jogo C custa R$ 88.",
+          "geometria": {
+            "tipo": "tabela",
+            "cabecalho": [
+              "Jogo",
+              "Preço (R$)"
+            ],
+            "linhas": [
+              [
+                "A",
+                "47"
+              ],
+              [
+                "B",
+                "62"
+              ],
+              [
+                "C",
+                "88"
+              ]
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-EA-09-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-10",
+      "numero": 10,
+      "topico_curricular": 6,
+      "titulo": "Escolher números compatíveis",
+      "enunciado": "A escola precisa guardar 236 kits. O desenho mostra uma caixa, com um kit por compartimento. Para estimar a quantidade de caixas, o responsável quer manter a capacidade real de cada caixa e trocar 236 por um múltiplo dessa capacidade que seja próximo de 236, permitindo uma divisão mental exata. Qual proposta atende melhor a esses critérios?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Escolher números compatíveis para estimar uma divisão sem alterar uma capacidade física.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpreta a grade, identifica 24 lugares e compara proximidade e manutenção do divisor."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Usar 240 ÷ 24 e estimar 10 caixas.",
+          "valor": [
+            240,
+            24,
+            10
+          ],
+          "erro_comum": ""
+        },
+        {
+          "letra": "B",
+          "texto": "Usar 240 ÷ 20 e estimar 12 caixas.",
+          "valor": [
+            240,
+            20,
+            12
+          ],
+          "erro_comum": "Modifica a capacidade da caixa para facilitar a conta."
+        },
+        {
+          "letra": "C",
+          "texto": "Usar 192 ÷ 24 e estimar 8 caixas.",
+          "valor": [
+            192,
+            24,
+            8
+          ],
+          "erro_comum": "Mantém a capacidade, mas usa um múltiplo muito mais distante de 236."
+        },
+        {
+          "letra": "D",
+          "texto": "Usar 240 ÷ 12 e estimar 20 caixas.",
+          "valor": [
+            240,
+            12,
+            20
+          ],
+          "erro_comum": "Confunde a capacidade total com metade dos compartimentos."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "A caixa possui 3 linhas de 8 compartimentos, portanto comporta 24 kits. 240 é múltiplo de 24 e difere de 236 por apenas 4; já 192 difere por 44. Assim, 240 ÷ 24 = 10 é a melhor proposta. Alterar o divisor para 20 ou 12 mudaria a capacidade da caixa. Neste caso, dez caixas também acomodam os 236 kits.",
+      "justificativa_pedagogica": "Exige avaliar uma estratégia, em vez de apenas efetuar uma divisão com dados já prontos.",
+      "dados": {
+        "kits": 236,
+        "linhas": 3,
+        "colunas": 8,
+        "candidatos": [
+          240,
+          192
+        ]
+      },
+      "modelo_verificacao": {
+        "tipo": "numeros_compativeis"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"Uma caixa desenhada como grade de três linhas e oito colunas, com um kit por compartimento.\"><text x=\"180\" y=\"28\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Uma caixa</text><rect x=\"40\" y=\"50\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"75\" y=\"50\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"110\" y=\"50\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"145\" y=\"50\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"180\" y=\"50\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"215\" y=\"50\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"250\" y=\"50\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"285\" y=\"50\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"40\" y=\"85\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"75\" y=\"85\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"110\" y=\"85\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"145\" y=\"85\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"180\" y=\"85\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"215\" y=\"85\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"250\" y=\"85\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"285\" y=\"85\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"40\" y=\"120\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"75\" y=\"120\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"110\" y=\"120\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"145\" y=\"120\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"180\" y=\"120\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"215\" y=\"120\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"250\" y=\"120\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><rect x=\"285\" y=\"120\" width=\"35\" height=\"35\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-compartimento\"/><text x=\"180\" y=\"192\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">1 kit por compartimento</text></svg>",
+          "css": "",
+          "acessibilidade": "Uma caixa desenhada como grade de três linhas e oito colunas, com um kit por compartimento.",
+          "geometria": {
+            "tipo": "grade_caixa",
+            "linhas": 3,
+            "colunas": 8,
+            "largura_celula": 35,
+            "altura_celula": 35
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-EA-10-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-11",
+      "numero": 11,
+      "topico_curricular": 6,
+      "titulo": "Quando contagens diferentes ficam iguais",
+      "enunciado": "As quatro ruas da tabela participaram de uma coleta de garrafas. No painel de divulgação, cada quantidade será arredondada à centena mais próxima. Quais duas ruas terão o mesmo número aproximado no painel?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Comparar o efeito de arredondamentos sobre contagens diferentes, observando limites entre centenas.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Exige conferir quatro contagens e encontrar o par com aproximação comum."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ruas A e B.",
+          "valor": [
+            "A",
+            "B"
+          ],
+          "erro_comum": "Agrupa ruas pela proximidade dos números originais sem conferir a centena de cada uma."
+        },
+        {
+          "letra": "B",
+          "texto": "Ruas B e C.",
+          "valor": [
+            "B",
+            "C"
+          ],
+          "erro_comum": ""
+        },
+        {
+          "letra": "C",
+          "texto": "Ruas C e D.",
+          "valor": [
+            "C",
+            "D"
+          ],
+          "erro_comum": "Considera que 1.448 e 1.451 ficam na mesma faixa, desconsiderando o ponto médio."
+        },
+        {
+          "letra": "D",
+          "texto": "Ruas A e D.",
+          "valor": [
+            "A",
+            "D"
+          ],
+          "erro_comum": "Confunde a semelhança de algarismos com igualdade de aproximação."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "A rua A fica com 1.300; B, com 1.400; C, com 1.400; e D, com 1.500. Portanto, B e C terão o mesmo número aproximado, embora suas contagens originais sejam diferentes. 1.448 ainda está abaixo do ponto médio de 1.450; 1.451 já está acima dele.",
+      "justificativa_pedagogica": "Mostra que uma apresentação aproximada pode reunir valores diferentes e que a mudança de faixa depende da proximidade.",
+      "dados": {
+        "contagens": {
+          "A": 1342,
+          "B": 1371,
+          "C": 1448,
+          "D": 1451
+        },
+        "base": 100
+      },
+      "modelo_verificacao": {
+        "tipo": "mesmo_arredondamento"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela_html",
+          "html": "<table><caption>Garrafas recolhidas</caption><thead><tr><th scope=\"col\">Rua</th><th scope=\"col\">Garrafas</th></tr></thead><tbody><tr><th scope=\"row\">A</th><td>1.342</td></tr><tr><th scope=\"row\">B</th><td>1.371</td></tr><tr><th scope=\"row\">C</th><td>1.448</td></tr><tr><th scope=\"row\">D</th><td>1.451</td></tr></tbody></table>",
+          "css": "",
+          "acessibilidade": "Tabela: rua A, 1.342 garrafas; B, 1.371; C, 1.448; D, 1.451.",
+          "geometria": {
+            "tipo": "tabela",
+            "cabecalho": [
+              "Rua",
+              "Garrafas"
+            ],
+            "linhas": [
+              [
+                "A",
+                "1.342"
+              ],
+              [
+                "B",
+                "1.371"
+              ],
+              [
+                "C",
+                "1.448"
+              ],
+              [
+                "D",
+                "1.451"
+              ]
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-EA-11-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-12",
+      "numero": 12,
+      "topico_curricular": 6,
+      "titulo": "A estimativa cabe, mas a compra cabe?",
+      "enunciado": "A coordenação dispõe de R$ 1.000 para comprar três conjuntos de materiais, cada um a R$ 334. Uma estudante arredonda cada preço para R$ 330 e prevê R$ 990, afirmando que a verba é suficiente. Qual análise confere corretamente essa conclusão?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Reconhecer quando uma estimativa próxima de um limite exige cálculo exato para decidir.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Compara previsão e valor exato e interpreta um pequeno déficit no orçamento."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "É preciso conferir: o total exato é R$ 1.002 e faltam R$ 2.",
+          "valor": [
+            1002,
+            -2
+          ],
+          "erro_comum": ""
+        },
+        {
+          "letra": "B",
+          "texto": "A previsão de R$ 990 garante que sobrarão exatamente R$ 10.",
+          "valor": [
+            990,
+            10
+          ],
+          "erro_comum": "Trata a previsão arredondada como um total exato garantido."
+        },
+        {
+          "letra": "C",
+          "texto": "O total exato é R$ 1.002 e sobram R$ 2.",
+          "valor": [
+            1002,
+            2
+          ],
+          "erro_comum": "Encontra o total, mas inverte o sentido da diferença em relação ao orçamento."
+        },
+        {
+          "letra": "D",
+          "texto": "O total exato é R$ 1.020 e faltam R$ 20.",
+          "valor": [
+            1020,
+            -20
+          ],
+          "erro_comum": "Erra o valor posicional ao somar a correção ao total estimado."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "A previsão 3 × 330 = R$ 990 fica abaixo do orçamento, mas cada conjunto custa R$ 4 a mais que 330. Nos três conjuntos são R$ 12 a mais: 990 + 12 = R$ 1.002. Faltam R$ 2. Quando o valor estimado fica muito perto do limite, ele não basta para garantir a compra.",
+      "justificativa_pedagogica": "Evita transformar uma previsão arredondada para baixo em garantia de compra.",
+      "dados": {
+        "quantidade": 3,
+        "preco": 334,
+        "verba": 1000
+      },
+      "modelo_verificacao": {
+        "tipo": "compra_limite"
+      },
+      "recursos_visuais": [],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC6-B2-I-EA-12-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-13",
+      "numero": 13,
+      "topico_curricular": 6,
+      "titulo": "Uma precisão que preserva a comparação",
+      "enunciado": "As equipes Coral e Vento recolheram as quantidades marcadas na reta. A escola quer divulgar números arredondados, sem escrever as unidades, mas ainda permitir identificar qual equipe recolheu mais. Qual proposta arredonda corretamente e preserva essa comparação?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Escolher uma precisão de arredondamento adequada ao objetivo de uma comparação.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Articula a aplicação da regra com a preservação de informação relevante."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Às centenas: 1.400 para Coral e 1.400 para Vento.",
+          "valor": {
+            "base": 100,
+            "valores": [
+              1400,
+              1400
+            ]
+          },
+          "erro_comum": "Arredonda corretamente, mas elimina a diferença que a divulgação deve preservar."
+        },
+        {
+          "letra": "B",
+          "texto": "Às dezenas: 1.420 para Coral e 1.440 para Vento.",
+          "valor": {
+            "base": 10,
+            "valores": [
+              1420,
+              1440
+            ]
+          },
+          "erro_comum": ""
+        },
+        {
+          "letra": "C",
+          "texto": "Às dezenas: 1.420 para Coral e 1.450 para Vento.",
+          "valor": {
+            "base": 10,
+            "valores": [
+              1420,
+              1450
+            ]
+          },
+          "erro_comum": "Arredonda 1.444 para a dezena superior apesar de ele estar mais perto da inferior."
+        },
+        {
+          "letra": "D",
+          "texto": "Aos milhares: 1.000 para Coral e 1.000 para Vento.",
+          "valor": {
+            "base": 1000,
+            "valores": [
+              1000,
+              1000
+            ]
+          },
+          "erro_comum": "Usa uma precisão ainda mais grosseira, que também oculta a diferença."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Às dezenas, Coral fica com 1.420 e Vento com 1.440; a ordem entre as equipes continua visível. Às centenas, ambas ficariam com 1.400, e aos milhares, com 1.000: essas aproximações esconderiam a diferença. 1.444 se aproxima de 1.440, não de 1.450.",
+      "justificativa_pedagogica": "Mostra que um arredondamento matematicamente correto pode ser inadequado para comunicar uma diferença.",
+      "dados": {
+        "contagens": [
+          1421,
+          1444
+        ]
+      },
+      "modelo_verificacao": {
+        "tipo": "precisao_comparacao"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 200\" role=\"img\" aria-label=\"Reta de 1.400 a 1.500, com ponto médio em 1.450. A equipe Coral está em 1.421 e a equipe Vento em 1.444.\"><line x1=\"40\" y1=\"135\" x2=\"320\" y2=\"135\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"40.0\" y1=\"128\" x2=\"40.0\" y2=\"143\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"40.0\" y=\"177\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">1.400</text><line x1=\"180.0\" y1=\"128\" x2=\"180.0\" y2=\"143\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"180.0\" y=\"177\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">1.450</text><line x1=\"320.0\" y1=\"128\" x2=\"320.0\" y2=\"143\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"320.0\" y=\"177\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">1.500</text><circle cx=\"98.8\" cy=\"135\" r=\"5\" fill=\"#123e4a\"/><line x1=\"98.8\" y1=\"53\" x2=\"98.8\" y2=\"125\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"98.8\" y=\"21\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Coral</text><text x=\"98.8\" y=\"45\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">1.421</text><circle cx=\"163.2\" cy=\"135\" r=\"5\" fill=\"#123e4a\"/><line x1=\"163.2\" y1=\"96\" x2=\"163.2\" y2=\"125\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"163.2\" y=\"64\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Vento</text><text x=\"163.2\" y=\"88\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">1.444</text></svg>",
+          "css": "",
+          "acessibilidade": "Reta de 1.400 a 1.500, com ponto médio em 1.450. A equipe Coral está em 1.421 e a equipe Vento em 1.444.",
+          "geometria": {
+            "tipo": "reta",
+            "minimo": 1400,
+            "maximo": 1500,
+            "x_inicial": 40,
+            "x_final": 320,
+            "y": 135,
+            "pontos": [
+              {
+                "valor": 1421,
+                "x": 98.8,
+                "rotulo": "1.421"
+              },
+              {
+                "valor": 1444,
+                "x": 163.2,
+                "rotulo": "1.444"
+              }
+            ],
+            "marcas": [
+              {
+                "valor": 1400,
+                "x": 40.0,
+                "rotulo": "1.400"
+              },
+              {
+                "valor": 1450,
+                "x": 180.0,
+                "rotulo": "1.450"
+              },
+              {
+                "valor": 1500,
+                "x": 320.0,
+                "rotulo": "1.500"
+              }
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-EA-13-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-14",
+      "numero": 14,
+      "topico_curricular": 6,
+      "titulo": "Um resultado plausível não é uma prova",
+      "enunciado": "Ao conferir o número de etiquetas de 19 pacotes com 42 etiquetas cada, uma estudante vê o resultado 798 no visor. Antes de fazer a multiplicação exata, usa apenas a estimativa 20 × 40 = 800. Qual conclusão essa estimativa, sozinha, permite?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Distinguir uma verificação de razoabilidade de uma comprovação de resultado exato.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Exige avaliar o alcance lógico de uma estimativa, sem substituir a conferência exata."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "798 está confirmado como exato porque é próximo de 800.",
+          "valor": "comprova_exatidao",
+          "erro_comum": "Confunde proximidade de uma estimativa com demonstração de exatidão."
+        },
+        {
+          "letra": "B",
+          "texto": "798 está errado porque toda estimativa deve ser igual ao resultado exato.",
+          "valor": "exige_igualdade",
+          "erro_comum": "Exige que estimativas coincidam sempre com os valores exatos."
+        },
+        {
+          "letra": "C",
+          "texto": "798 é impossível porque uma multiplicação desse tipo deve dar menos de 100.",
+          "valor": "rejeita_por_centena",
+          "erro_comum": "Erra a ordem de grandeza esperada para o produto."
+        },
+        {
+          "letra": "D",
+          "texto": "798 é plausível, mas a estimativa sozinha não comprova sua exatidão.",
+          "valor": "plausivel_nao_prova",
+          "erro_comum": ""
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "20 × 40 = 800 indica a ordem de grandeza esperada, e 798 está muito próximo dela. Por isso, o registro é plausível. Entretanto, vários valores próximos de 800 também seriam plausíveis: a estimativa não prova qual é o produto exato. Uma conferência exata, feita depois, daria 19 × 42 = 798.",
+      "justificativa_pedagogica": "Contrapõe plausibilidade e prova, evitando que uma resposta próxima seja aceita automaticamente.",
+      "dados": {
+        "fatores": [
+          19,
+          42
+        ],
+        "fatores_estimados": [
+          20,
+          40
+        ],
+        "visor": 798
+      },
+      "modelo_verificacao": {
+        "tipo": "limite_evidencia"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 190\" role=\"img\" aria-label=\"Visor com a operação 19 vezes 42 e o resultado registrado 798. O desenho não informa se houve conferência exata.\"><rect x=\"25\" y=\"15\" width=\"310\" height=\"155\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"180\" y=\"62\" font-size=\"28\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">19 × 42</text><line x1=\"45\" y1=\"80\" x2=\"315\" y2=\"80\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"180\" y=\"135\" font-size=\"36\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">798</text></svg>",
+          "css": "",
+          "acessibilidade": "Visor com a operação 19 vezes 42 e o resultado registrado 798. O desenho não informa se houve conferência exata.",
+          "geometria": {
+            "tipo": "visor",
+            "fatores": [
+              19,
+              42
+            ],
+            "resultado_registrado": 798
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-EA-14-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-15",
+      "numero": 15,
+      "topico_curricular": 6,
+      "titulo": "Corrigir a previsão da sobra",
+      "enunciado": "Uma oficina escolar tem 3.012 folhas reaproveitadas e vai usar 1.997. Uma estudante estima a sobra por 3.000 − 2.000 = 1.000. Sem precisar fazer a subtração original completa, como a sobra real se compara com essa estimativa?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Analisar conjuntamente os efeitos de duas aproximações em uma subtração.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Coordena dois efeitos com sentidos diferentes sobre estoque e consumo."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "É 15 folhas menor.",
+          "valor": -15,
+          "erro_comum": "Inverte o efeito das duas correções sobre a sobra."
+        },
+        {
+          "letra": "B",
+          "texto": "É 9 folhas maior.",
+          "valor": 9,
+          "erro_comum": "Subtrai as correções 12 e 3, embora ambas aumentem a sobra."
+        },
+        {
+          "letra": "C",
+          "texto": "É 15 folhas maior.",
+          "valor": 15,
+          "erro_comum": ""
+        },
+        {
+          "letra": "D",
+          "texto": "É igual à estimativa.",
+          "valor": 0,
+          "erro_comum": "Supõe que dois arredondamentos necessariamente se compensem."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Há 12 folhas a mais no estoque do que na previsão de 3.000. Além disso, serão usadas 3 folhas a menos que 2.000. Os dois efeitos aumentam a sobra: 12 + 3 = 15. Assim, a sobra real é 15 folhas maior, isto é, 1.015 folhas.",
+      "justificativa_pedagogica": "Trabalha raciocínio de compensação: estoque maior e consumo menor aumentam a sobra.",
+      "dados": {
+        "estoque": 3012,
+        "consumo": 1997,
+        "estoque_estimado": 3000,
+        "consumo_estimado": 2000
+      },
+      "modelo_verificacao": {
+        "tipo": "compensacao_diferenca"
+      },
+      "recursos_visuais": [],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC6-B2-I-EA-15-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-16",
+      "numero": 16,
+      "topico_curricular": 6,
+      "titulo": "O que as caixas fechadas permitem afirmar",
+      "enunciado": "Cada caixa fechada do desenho contém uma quantidade inteira de peças, entre 90 e 110, incluindo esses limites. Não sabemos a quantidade exata de nenhuma delas. Qual é o menor intervalo que contém todos os totais possíveis de peças no conjunto das caixas?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Combinar limites de quantidades para avaliar o alcance de uma estimativa.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Exige obter os extremos e distinguir intervalo garantido, estimativa central e intervalo excessivamente amplo."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "De 90 a 110 peças.",
+          "valor": [
+            90,
+            110
+          ],
+          "erro_comum": "Usa os limites de uma única caixa."
+        },
+        {
+          "letra": "B",
+          "texto": "Exatamente 500 peças.",
+          "valor": [
+            500,
+            500
+          ],
+          "erro_comum": "Transforma uma referência central em quantidade exata garantida."
+        },
+        {
+          "letra": "C",
+          "texto": "De 450 a 550 peças.",
+          "valor": [
+            450,
+            550
+          ],
+          "erro_comum": ""
+        },
+        {
+          "letra": "D",
+          "texto": "De 400 a 600 peças.",
+          "valor": [
+            400,
+            600
+          ],
+          "erro_comum": "Apresenta um intervalo que contém os totais, mas não é o menor solicitado."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Há cinco caixas. O menor total possível é 5 × 90 = 450; o maior é 5 × 110 = 550. Logo, todos os totais ficam entre 450 e 550, incluindo os extremos. 500 é uma possibilidade, não uma certeza. O intervalo de 400 a 600 contém os totais, mas é mais amplo que o necessário.",
+      "justificativa_pedagogica": "Explicita a incerteza: 500 pode ser uma referência, mas não substitui os limites conhecidos.",
+      "dados": {
+        "caixas": 5,
+        "minimo": 90,
+        "maximo": 110
+      },
+      "modelo_verificacao": {
+        "tipo": "intervalo_total"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 275\" role=\"img\" aria-label=\"Cinco caixas, organizadas em duas linhas de duas e uma terceira linha com uma caixa. Em cada caixa aparece a indicação de 90 a 110 peças, com limites incluídos.\"><text x=\"180\" y=\"28\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Quantidade por caixa</text><rect x=\"20\" y=\"45\" width=\"150\" height=\"60\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-caixa\"/><text x=\"95\" y=\"82\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">90 a 110</text><rect x=\"190\" y=\"45\" width=\"150\" height=\"60\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-caixa\"/><text x=\"265\" y=\"82\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">90 a 110</text><rect x=\"20\" y=\"125\" width=\"150\" height=\"60\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-caixa\"/><text x=\"95\" y=\"162\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">90 a 110</text><rect x=\"190\" y=\"125\" width=\"150\" height=\"60\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-caixa\"/><text x=\"265\" y=\"162\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">90 a 110</text><rect x=\"20\" y=\"205\" width=\"150\" height=\"60\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-caixa\"/><text x=\"95\" y=\"242\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">90 a 110</text></svg>",
+          "css": "",
+          "acessibilidade": "Cinco caixas, organizadas em duas linhas de duas e uma terceira linha com uma caixa. Em cada caixa aparece a indicação de 90 a 110 peças, com limites incluídos.",
+          "geometria": {
+            "tipo": "caixas_intervalo",
+            "caixas": 5,
+            "minimo": 90,
+            "maximo": 110
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-EA-16-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-17",
+      "numero": 17,
+      "topico_curricular": 6,
+      "titulo": "O erro de uma folha se acumula",
+      "enunciado": "Uma turma receberá 12 pacotes de 49 folhas. Para estimar, Caio calculou 12 × 50 = 600. Qual total exato pode encontrar corrigindo essa estimativa, sem multiplicar diretamente 12 por 49?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Corrigir uma estimativa de multiplicação considerando o erro por grupo.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Reconhece que a diferença unitária se repete nos 12 pacotes."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "599 folhas.",
+          "valor": 599,
+          "erro_comum": "Retira uma folha apenas uma vez, em vez de uma por pacote."
+        },
+        {
+          "letra": "B",
+          "texto": "612 folhas.",
+          "valor": 612,
+          "erro_comum": "Soma a correção, apesar de a estimativa já estar acima do real."
+        },
+        {
+          "letra": "C",
+          "texto": "600 folhas.",
+          "valor": 600,
+          "erro_comum": "Mantém a aproximação como se fosse o total exato."
+        },
+        {
+          "letra": "D",
+          "texto": "588 folhas.",
+          "valor": 588,
+          "erro_comum": ""
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "A previsão contou uma folha a mais em cada pacote: 50 em vez de 49. Nos 12 pacotes, contou 12 folhas a mais. A correção é 600 − 12 = 588 folhas.",
+      "justificativa_pedagogica": "Evita corrigir uma única vez um erro que se repete a cada grupo.",
+      "dados": {
+        "pacotes": 12,
+        "folhas": 49,
+        "referencia": 50
+      },
+      "modelo_verificacao": {
+        "tipo": "compensacao_produto"
+      },
+      "recursos_visuais": [],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC6-B2-I-EA-17-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-18",
+      "numero": 18,
+      "topico_curricular": 6,
+      "titulo": "Um zero a mais no relatório",
+      "enunciado": "Os três pontos de visitação registraram as contagens da tabela. Ao copiar o total para um relatório, um funcionário escreveu 59.530 visitantes. Sem efetuar a soma exata, que análise do registro é correta?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Usar estimativas e limites simples para rejeitar um resultado com erro de ordem de grandeza.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Relaciona três contagens próximas de 2.000 com um total registrado aproximadamente dez vezes maior."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "É plausível, porque a soma deve ficar perto de 60.000.",
+          "valor": {
+            "estimativa": 60000,
+            "conclusao": "plausivel"
+          },
+          "erro_comum": "Aumenta as parcelas para dezenas de milhar, sem respeitar seus valores."
+        },
+        {
+          "letra": "B",
+          "texto": "Deve ser rejeitado: a soma fica perto de 6.000, e 59.530 tem ordem de grandeza incompatível.",
+          "valor": {
+            "estimativa": 6000,
+            "conclusao": "rejeitar"
+          },
+          "erro_comum": ""
+        },
+        {
+          "letra": "C",
+          "texto": "Deve ser rejeitado, porque a soma fica perto de 600.",
+          "valor": {
+            "estimativa": 600,
+            "conclusao": "rejeitar"
+          },
+          "erro_comum": "Reduz indevidamente as parcelas para centenas."
+        },
+        {
+          "letra": "D",
+          "texto": "Está confirmado como exato, porque a soma aproximada é 6.000.",
+          "valor": {
+            "estimativa": 6000,
+            "conclusao": "confirmar_exato"
+          },
+          "erro_comum": "Confunde uma referência aproximada com comprovação de um total exato."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Cada contagem é próxima de 2.000, então a soma fica perto de 6.000. Além disso, cada ponto tem menos de 3.000 visitantes, logo o total dos três é menor que 9.000. Assim, 59.530 é impossível para esses dados e deve ser conferido. O total exato, se calculado depois, é 5.953.",
+      "justificativa_pedagogica": "Complementa EA-14: uma estimativa não comprova exatidão, mas pode revelar uma incompatibilidade evidente.",
+      "dados": {
+        "contagens": [
+          1897,
+          2104,
+          1952
+        ],
+        "base": 1000,
+        "publicado": 59530
+      },
+      "modelo_verificacao": {
+        "tipo": "razoabilidade_soma"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela_html",
+          "html": "<table><caption>Visitas registradas</caption><thead><tr><th scope=\"col\">Ponto</th><th scope=\"col\">Visitantes</th></tr></thead><tbody><tr><th scope=\"row\">A</th><td>1.897</td></tr><tr><th scope=\"row\">B</th><td>2.104</td></tr><tr><th scope=\"row\">C</th><td>1.952</td></tr></tbody></table>",
+          "css": "",
+          "acessibilidade": "Tabela dos três pontos: A, 1.897 visitantes; B, 2.104; C, 1.952.",
+          "geometria": {
+            "tipo": "tabela",
+            "cabecalho": [
+              "Ponto",
+              "Visitantes"
+            ],
+            "linhas": [
+              [
+                "A",
+                "1.897"
+              ],
+              [
+                "B",
+                "2.104"
+              ],
+              [
+                "C",
+                "1.952"
+              ]
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-EA-18-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-19",
+      "numero": 19,
+      "topico_curricular": 6,
+      "titulo": "Qual estratégia ficou mais perto?",
+      "enunciado": "Uma gráfica produziu 26 lotes de 397 etiquetas. Antes da conferência, Luan estimou 400 × 25 = 10.000 etiquetas, e Rebeca estimou 400 × 30 = 12.000. Depois, a conferência encontrou 10.322 etiquetas. Qual estimativa ficou mais perto do total conferido e qual foi sua diferença?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Avaliar a precisão de estratégias de estimativa comparando seus erros absolutos.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Compara duas previsões e interpreta a menor distância ao total conferido."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A de Luan, com diferença de 322 etiquetas.",
+          "valor": [
+            10000,
+            322
+          ],
+          "erro_comum": ""
+        },
+        {
+          "letra": "B",
+          "texto": "A de Rebeca, com diferença de 1.678 etiquetas.",
+          "valor": [
+            12000,
+            1678
+          ],
+          "erro_comum": "Calcula uma diferença válida para Rebeca, mas escolhe a estimativa menos próxima."
+        },
+        {
+          "letra": "C",
+          "texto": "A de Luan, com diferença de 678 etiquetas.",
+          "valor": [
+            10000,
+            678
+          ],
+          "erro_comum": "Encontra incorretamente a distância entre 10.322 e 10.000."
+        },
+        {
+          "letra": "D",
+          "texto": "A de Rebeca, com diferença de 322 etiquetas.",
+          "valor": [
+            12000,
+            322
+          ],
+          "erro_comum": "Atribui à estimativa de Rebeca a diferença da estimativa de Luan."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "A diferença da estimativa de Luan é 10.322 − 10.000 = 322. A de Rebeca é 12.000 − 10.322 = 1.678. Como 322 é menor que 1.678, Luan obteve a estimativa mais próxima. Isso não significa que sua previsão fosse o total exato.",
+      "justificativa_pedagogica": "Mostra que números compatíveis, como 25 e 400, podem produzir uma estimativa melhor que arredondar todos os fatores às dezenas.",
+      "dados": {
+        "fatores": [
+          26,
+          397
+        ],
+        "total_conferido": 10322,
+        "estimativas": [
+          10000,
+          12000
+        ]
+      },
+      "modelo_verificacao": {
+        "tipo": "comparar_erros"
+      },
+      "recursos_visuais": [],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC6-B2-I-EA-19-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-20",
+      "numero": 20,
+      "topico_curricular": 6,
+      "titulo": "Duas etapas podem mudar a aproximação",
+      "enunciado": "Um arquivo escolar contém 345 fichas. Dois estudantes fazem os caminhos do esquema: um arredonda 345 diretamente à centena mais próxima; o outro arredonda primeiro à dezena mais próxima e, em seguida, arredonda o número obtido à centena mais próxima. Em qualquer ponto médio, arredondam para cima. Quais resultados encontram, nessa ordem?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Analisar a diferença entre arredondamento direto e arredondamentos sucessivos.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Exige acompanhar dois processos e reconhecer o efeito de atingir o ponto médio na etapa intermediária."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "300 e 300.",
+          "valor": [
+            300,
+            300
+          ],
+          "erro_comum": "Ignora que a primeira etapa leva ao ponto médio da segunda."
+        },
+        {
+          "letra": "B",
+          "texto": "400 e 400.",
+          "valor": [
+            400,
+            400
+          ],
+          "erro_comum": "Aplica o resultado da primeira etapa também ao caminho direto."
+        },
+        {
+          "letra": "C",
+          "texto": "300 e 400.",
+          "valor": [
+            300,
+            400
+          ],
+          "erro_comum": ""
+        },
+        {
+          "letra": "D",
+          "texto": "400 e 300.",
+          "valor": [
+            400,
+            300
+          ],
+          "erro_comum": "Inverte os resultados dos dois procedimentos."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Diretamente à centena, 345 está abaixo de 350 e fica em 300. No outro caminho, 345 é ponto médio entre 340 e 350, então vai para 350. Depois, 350 é ponto médio entre 300 e 400, então vai para 400. Os resultados são 300 e 400. Para obter a centena mais próxima do número original, deve-se arredondar diretamente.",
+      "justificativa_pedagogica": "Previne a suposição de que arredondar por etapas sempre preserva a aproximação solicitada.",
+      "dados": {
+        "numero": 345,
+        "base_intermediaria": 10,
+        "base_final": 100
+      },
+      "modelo_verificacao": {
+        "tipo": "duplo_arredondamento"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 310\" role=\"img\" aria-label=\"O número 345 se divide em dois caminhos. À esquerda, há somente a etapa Centena. À direita, há a etapa Dezena seguida da etapa Centena. As caixas de resultados estão vazias.\"><rect x=\"125\" y=\"10\" width=\"110\" height=\"50\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"180\" y=\"45\" font-size=\"28\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">345</text><line x1=\"145\" y1=\"60\" x2=\"85\" y2=\"95\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"215\" y1=\"60\" x2=\"275\" y2=\"95\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"85\" y=\"132\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Centena</text><text x=\"275\" y=\"132\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Dezena</text><line x1=\"85\" y1=\"145\" x2=\"85\" y2=\"245\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"275\" y1=\"145\" x2=\"275\" y2=\"185\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"275\" y=\"220\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Centena</text><line x1=\"275\" y1=\"232\" x2=\"275\" y2=\"245\" stroke=\"#123e4a\" stroke-width=\"2\"/><rect x=\"20\" y=\"250\" width=\"130\" height=\"40\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><rect x=\"210\" y=\"250\" width=\"130\" height=\"40\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/></svg>",
+          "css": "",
+          "acessibilidade": "O número 345 se divide em dois caminhos. À esquerda, há somente a etapa Centena. À direita, há a etapa Dezena seguida da etapa Centena. As caixas de resultados estão vazias.",
+          "geometria": {
+            "tipo": "fluxo",
+            "inicial": 345,
+            "caminhos": [
+              [
+                100
+              ],
+              [
+                10,
+                100
+              ]
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-EA-20-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-21",
+      "numero": 21,
+      "topico_curricular": 6,
+      "titulo": "Duas correções no mesmo orçamento",
+      "enunciado": "A escola tem R$ 1.100 para a compra da tabela. Uma aluna estimou o gasto arredondando o preço de cada caderno para R$ 20 e o de cada pasta para R$ 30. Assim, calculou 28 × 20 + 17 × 30 = R$ 1.070. Corrigindo os efeitos desses dois arredondamentos, sem precisar fazer os produtos originais, qual é o gasto exato e quanto sobra?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Corrigir uma estimativa com erros de sentidos opostos e repetições diferentes em duas parcelas.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Exige ponderar cada erro pela quantidade comprada, combinar efeitos opostos e determinar o saldo."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Gasto de R$ 1.059 e sobra de R$ 41.",
+          "valor": [
+            1059,
+            41
+          ],
+          "erro_comum": ""
+        },
+        {
+          "letra": "B",
+          "texto": "Gasto de R$ 1.081 e sobra de R$ 19.",
+          "valor": [
+            1081,
+            19
+          ],
+          "erro_comum": "Inverte os sinais das duas correções: acrescenta 28 e retira 17."
+        },
+        {
+          "letra": "C",
+          "texto": "Gasto de R$ 1.070 e sobra de R$ 30.",
+          "valor": [
+            1070,
+            30
+          ],
+          "erro_comum": "Não corrige a estimativa antes de calcular o saldo."
+        },
+        {
+          "letra": "D",
+          "texto": "Gasto de R$ 1.025 e sobra de R$ 75.",
+          "valor": [
+            1025,
+            75
+          ],
+          "erro_comum": "Retira as duas correções, embora o preço das pastas tenha sido subestimado."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Nos cadernos, a previsão contou R$ 1 a mais por unidade: é preciso retirar R$ 28. Nas pastas, contou R$ 1 a menos por unidade: é preciso acrescentar R$ 17. Logo, o gasto é 1.070 − 28 + 17 = R$ 1.059. Da verba de R$ 1.100 sobram 1.100 − 1.059 = R$ 41.",
+      "justificativa_pedagogica": "Amplia a compensação para uma decisão financeira com duas categorias, em vez de repetir a correção de um único grupo.",
+      "dados": {
+        "quantidades": [
+          28,
+          17
+        ],
+        "precos": [
+          19,
+          31
+        ],
+        "referencias": [
+          20,
+          30
+        ],
+        "verba": 1100
+      },
+      "modelo_verificacao": {
+        "tipo": "compensacao_orcamento"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela_html",
+          "html": "<table><caption>Preços em reais</caption><thead><tr><th scope=\"col\">Material</th><th scope=\"col\">Qtd.</th><th scope=\"col\">Preço</th></tr></thead><tbody><tr><th scope=\"row\">Cadernos</th><td>28</td><td>19</td></tr><tr><th scope=\"row\">Pastas</th><td>17</td><td>31</td></tr></tbody></table>",
+          "css": "",
+          "acessibilidade": "Tabela: 28 cadernos a R$ 19 cada e 17 pastas a R$ 31 cada.",
+          "geometria": {
+            "tipo": "tabela",
+            "cabecalho": [
+              "Material",
+              "Qtd.",
+              "Preço"
+            ],
+            "linhas": [
+              [
+                "Cadernos",
+                "28",
+                "19"
+              ],
+              [
+                "Pastas",
+                "17",
+                "31"
+              ]
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-EA-21-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-22",
+      "numero": 22,
+      "topico_curricular": 6,
+      "titulo": "Uma informação aproximada garante o transporte?",
+      "enunciado": "Um relatório informa «cerca de 3.000 livros», obtidos arredondando a contagem ao milhar mais próximo. No ponto médio, o arredondamento é para cima. O transporte disponível fará oito viagens, levando no máximo 400 livros em cada uma. Apenas com o relatório, é possível garantir o transporte de todos os livros?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Usar a faixa de valores de um arredondamento para avaliar uma garantia de capacidade.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Combina regra de arredondamento, limite de transporte e construção de um contraexemplo."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sim, porque a capacidade de 3.200 é maior que o número aproximado 3.000.",
+          "valor": "garante_pelo_valor_arredondado",
+          "erro_comum": "Compara a capacidade apenas com a aproximação, ignorando contagens maiores compatíveis."
+        },
+        {
+          "letra": "B",
+          "texto": "Não: uma contagem de 3.499 é compatível com o relatório e ultrapassa a capacidade de 3.200.",
+          "valor": "contraexemplo_3499",
+          "erro_comum": ""
+        },
+        {
+          "letra": "C",
+          "texto": "Não: o relatório significa que há pelo menos 3.500 livros.",
+          "valor": "minimo_3500",
+          "erro_comum": "Inverte o limite superior da faixa e o apresenta como mínimo."
+        },
+        {
+          "letra": "D",
+          "texto": "Sim, porque qualquer contagem arredondada para 3.000 é menor ou igual a 3.000.",
+          "valor": "arredondamento_so_aumenta",
+          "erro_comum": "Supõe que arredondar sempre aumenta o valor."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "A capacidade total é 8 × 400 = 3.200 livros. Contagens inteiras de 2.500 a 3.499 podem ser arredondadas para 3.000 pela regra dada. Por exemplo, 3.499 é compatível com o relatório, mas não cabe no transporte. Portanto, o relatório sozinho não garante que todos os livros poderão ser levados; é necessário obter uma contagem ou limite mais preciso.",
+      "justificativa_pedagogica": "Distingue uma estimativa operacional de uma garantia válida para todas as contagens compatíveis.",
+      "dados": {
+        "publicado": 3000,
+        "base": 1000,
+        "viagens": 8,
+        "capacidade": 400,
+        "contraexemplo": 3499
+      },
+      "modelo_verificacao": {
+        "tipo": "garantia_capacidade"
+      },
+      "recursos_visuais": [],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "dificil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC6-B2-I-EA-22-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-23",
+      "numero": 23,
+      "topico_curricular": 6,
+      "titulo": "Ocupações diferentes no mesmo mapa",
+      "enunciado": "O mapa representa setores de mesma área de uma feira. Os setores A têm ocupação aproximadamente semelhante entre si, e o mesmo vale para os setores B. Uma amostra em um setor A contou 18 pessoas; em um setor B, 32. Os setores X estão fechados e não têm pessoas. Para planejar o atendimento, a equipe arredondará cada amostra à dezena mais próxima e usará a referência correspondente a cada tipo de setor. Qual total deve estimar para a área do mapa?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Estimar um total combinando referências de ocupação diferentes e excluindo áreas sem ocupação.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Exige interpretar três categorias na malha, selecionar os setores ocupados e aplicar duas referências arredondadas."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "160 pessoas.",
+          "valor": 160,
+          "erro_comum": "Aplica a referência 20 a todos os oito setores ocupados."
+        },
+        {
+          "letra": "B",
+          "texto": "240 pessoas.",
+          "valor": 240,
+          "erro_comum": "Aplica a referência 30 a todos os oito setores ocupados."
+        },
+        {
+          "letra": "C",
+          "texto": "190 pessoas.",
+          "valor": 190,
+          "erro_comum": ""
+        },
+        {
+          "letra": "D",
+          "texto": "300 pessoas.",
+          "valor": 300,
+          "erro_comum": "Aplica uma referência única de 25 aos 12 setores, incluindo os fechados."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "O mapa tem cinco setores A, três B e quatro X. A referência dos A é 20 pessoas, pois 18 se aproxima de 20; a dos B é 30, pois 32 se aproxima de 30. Os X não entram na contagem. A estimativa é 5 × 20 + 3 × 30 = 100 + 90 = 190 pessoas. Trata-se de estimativa baseada na semelhança de ocupação dentro de cada tipo.",
+      "justificativa_pedagogica": "Evita extrapolar uma única amostra a uma área com ocupações diferentes ou incluir áreas fechadas.",
+      "dados": {
+        "celulas": [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "B",
+          "B",
+          "X",
+          "X",
+          "X",
+          "X"
+        ],
+        "amostras": {
+          "A": 18,
+          "B": 32
+        },
+        "base": 10
+      },
+      "modelo_verificacao": {
+        "tipo": "amostragem_estratificada"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 355\" role=\"img\" aria-label=\"Malha de três linhas e quatro colunas com células iguais. Primeira linha: A, A, A, A. Segunda: A, B, B, B. Terceira: X, X, X, X. Amostra de A: 18 pessoas; de B: 32. X significa fechado, sem pessoas.\"><defs><pattern id=\"ea23-hachura\" width=\"8\" height=\"8\" patternUnits=\"userSpaceOnUse\"><path d=\"M 0 8 L 8 0\" stroke=\"#84999f\" stroke-width=\"1\"/></pattern></defs><rect x=\"40\" y=\"15\" width=\"70\" height=\"70\" fill=\"#eef4f4\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-setor\"/><text x=\"75\" y=\"58\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">A</text><rect x=\"110\" y=\"15\" width=\"70\" height=\"70\" fill=\"#eef4f4\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-setor\"/><text x=\"145\" y=\"58\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">A</text><rect x=\"180\" y=\"15\" width=\"70\" height=\"70\" fill=\"#eef4f4\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-setor\"/><text x=\"215\" y=\"58\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">A</text><rect x=\"250\" y=\"15\" width=\"70\" height=\"70\" fill=\"#eef4f4\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-setor\"/><text x=\"285\" y=\"58\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">A</text><rect x=\"40\" y=\"85\" width=\"70\" height=\"70\" fill=\"#eef4f4\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-setor\"/><text x=\"75\" y=\"128\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">A</text><rect x=\"110\" y=\"85\" width=\"70\" height=\"70\" fill=\"url(#ea23-hachura)\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-setor\"/><text x=\"145\" y=\"128\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">B</text><rect x=\"180\" y=\"85\" width=\"70\" height=\"70\" fill=\"url(#ea23-hachura)\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-setor\"/><text x=\"215\" y=\"128\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">B</text><rect x=\"250\" y=\"85\" width=\"70\" height=\"70\" fill=\"url(#ea23-hachura)\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-setor\"/><text x=\"285\" y=\"128\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">B</text><rect x=\"40\" y=\"155\" width=\"70\" height=\"70\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-setor\"/><text x=\"75\" y=\"198\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">X</text><rect x=\"110\" y=\"155\" width=\"70\" height=\"70\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-setor\"/><text x=\"145\" y=\"198\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">X</text><rect x=\"180\" y=\"155\" width=\"70\" height=\"70\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-setor\"/><text x=\"215\" y=\"198\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">X</text><rect x=\"250\" y=\"155\" width=\"70\" height=\"70\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\" class=\"ea-setor\"/><text x=\"285\" y=\"198\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">X</text><text x=\"35\" y=\"263\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"start\" fill=\"#123e4a\">A: amostra de 18 pessoas</text><text x=\"35\" y=\"298\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"start\" fill=\"#123e4a\">B: amostra de 32 pessoas</text><text x=\"35\" y=\"333\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"start\" fill=\"#123e4a\">X: fechado, sem pessoas</text></svg>",
+          "css": "",
+          "acessibilidade": "Malha de três linhas e quatro colunas com células iguais. Primeira linha: A, A, A, A. Segunda: A, B, B, B. Terceira: X, X, X, X. Amostra de A: 18 pessoas; de B: 32. X significa fechado, sem pessoas.",
+          "geometria": {
+            "tipo": "malha_ocupacao",
+            "linhas": 3,
+            "colunas": 4,
+            "lado": 70,
+            "celulas": [
+              "A",
+              "A",
+              "A",
+              "A",
+              "A",
+              "B",
+              "B",
+              "B",
+              "X",
+              "X",
+              "X",
+              "X"
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-EA-23-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-24",
+      "numero": 24,
+      "topico_curricular": 6,
+      "titulo": "Qual taxa completa a previsão?",
+      "enunciado": "Para um torneio, serão compradas 16 bandeiras a R$ 98 cada. A primeira previsão, usando R$ 100 por bandeira, foi de R$ 1.600. O fornecedor ainda cobrará uma única taxa de instalação. Qual deve ser essa taxa para que o valor final exato coincida com a previsão de R$ 1.600, e por quê?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Determinar um valor desconhecido a partir da diferença acumulada entre uma estimativa e um custo real.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Exige reconstruir a diferença total e interpretar uma taxa única que produz coincidência entre previsão e total exato."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "R$ 2, pois essa é a diferença no preço de uma bandeira.",
+          "valor": 2,
+          "erro_comum": "Considera a diferença de somente uma bandeira."
+        },
+        {
+          "letra": "B",
+          "texto": "R$ 16, pois há 16 bandeiras.",
+          "valor": 16,
+          "erro_comum": "Usa a quantidade de bandeiras como taxa, sem multiplicar a diferença por unidade."
+        },
+        {
+          "letra": "C",
+          "texto": "R$ 64, pois é preciso contar duas vezes a diferença das 16 bandeiras.",
+          "valor": 64,
+          "erro_comum": "Conta a compensação duas vezes."
+        },
+        {
+          "letra": "D",
+          "texto": "R$ 32, pois as 16 diferenças de R$ 2 completam a previsão.",
+          "valor": 32,
+          "erro_comum": ""
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Cada bandeira custa R$ 2 a menos que os R$ 100 usados na previsão. Em 16 bandeiras, o custo dos produtos fica 16 × 2 = R$ 32 abaixo de R$ 1.600. Uma taxa única de R$ 32 completa exatamente essa diferença. Assim, 16 × 98 + 32 = R$ 1.600. A coincidência depende dessa taxa específica, não de uma regra geral sobre estimativas.",
+      "justificativa_pedagogica": "Investiga a compensação como relação, sem supor que estimativas são sempre exatas ou confundir taxa única com taxa por item.",
+      "dados": {
+        "quantidade": 16,
+        "preco": 98,
+        "referencia": 100,
+        "previsao": 1600
+      },
+      "modelo_verificacao": {
+        "tipo": "taxa_completamento"
+      },
+      "recursos_visuais": [],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "dificil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC6-B2-I-EA-24-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-EA-25",
+      "numero": 25,
+      "topico_curricular": 6,
+      "titulo": "Estimar sem contar participantes duas vezes",
+      "enunciado": "No evento da escola, cerca de 600 estudantes participaram da oficina A e cerca de 400 da B. A contagem dos que participaram das duas oficinas foi exata: 75. No diagrama, os totais aproximados de A e B referem-se a todos os participantes de cada oficina, incluindo os da interseção. Para planejar outra edição, a equipe quer estimar quantos estudantes diferentes participaram de pelo menos uma oficina e apresentar essa estimativa na centena mais próxima. Usando os totais aproximados disponíveis, descontando a repetição antes do arredondamento final e arredondando para cima no ponto médio, qual valor deve usar?",
+      "assunto": "EA",
+      "assunto_nome": "Estimativas e aproximações",
+      "habilidade": "Combinar estimativas de conjuntos com sobreposição e arredondar uma previsão sem dupla contagem.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Exige interpretar totais que incluem a interseção, descontar a repetição uma vez e arredondar somente depois."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Cerca de 1.000 estudantes.",
+          "valor": 1000,
+          "erro_comum": "Soma os totais sem retirar os participantes contados duas vezes."
+        },
+        {
+          "letra": "B",
+          "texto": "Cerca de 900 estudantes.",
+          "valor": 900,
+          "erro_comum": ""
+        },
+        {
+          "letra": "C",
+          "texto": "Cerca de 1.100 estudantes.",
+          "valor": 1100,
+          "erro_comum": "Acrescenta a interseção em vez de descontá-la."
+        },
+        {
+          "letra": "D",
+          "texto": "Cerca de 800 estudantes.",
+          "valor": 800,
+          "erro_comum": "Aproxima 75 para 100 e retira esse valor de cada oficina, descontando a sobreposição duas vezes."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Quem participou das duas oficinas já aparece no total da oficina A e também no total da oficina B. Ao somar 600 + 400 = 1.000, contamos cada um desses 75 estudantes duas vezes, embora seja uma única pessoa. Por isso, retiramos apenas a contagem repetida: 1.000 − 75 = 925. Cada participante comum continua contado uma vez no total. Se descontássemos 75 duas vezes, deixaríamos de contar esses estudantes. Agora arredondamos a estimativa 925 à centena mais próxima: ela fica a 25 de 900 e a 75 de 1.000. Portanto, usamos cerca de 900 estudantes. Como os totais das oficinas são aproximados, esse resultado é uma previsão, não uma contagem exata de pessoas diferentes.",
+      "justificativa_pedagogica": "Integra estimativa e organização de informações, distinguindo a previsão de planejamento da contagem exata de participantes.",
+      "dados": {
+        "totais_aproximados": [
+          600,
+          400
+        ],
+        "intersecao_exata": 75,
+        "base_final": 100
+      },
+      "modelo_verificacao": {
+        "tipo": "uniao_estimada"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 250\" role=\"img\" aria-label=\"Dois círculos parcialmente sobrepostos, identificados por A e B. A interseção mostra 75. Abaixo dos círculos, os totais de cada oficina, incluindo a interseção: A, aproximadamente 600; B, aproximadamente 400.\"><circle cx=\"125\" cy=\"95\" r=\"73\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2\"/><circle cx=\"235\" cy=\"95\" r=\"73\" fill=\"none\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"90\" y=\"103\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">A</text><text x=\"270\" y=\"103\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">B</text><text x=\"180\" y=\"103\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">75</text><text x=\"90\" y=\"200\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Total A</text><text x=\"90\" y=\"230\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">≈ 600</text><text x=\"270\" y=\"200\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Total B</text><text x=\"270\" y=\"230\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">≈ 400</text></svg>",
+          "css": "",
+          "acessibilidade": "Dois círculos parcialmente sobrepostos, identificados por A e B. A interseção mostra 75. Abaixo dos círculos, os totais de cada oficina, incluindo a interseção: A, aproximadamente 600; B, aproximadamente 400.",
+          "geometria": {
+            "tipo": "intersecao",
+            "centros": [
+              [
+                125,
+                95
+              ],
+              [
+                235,
+                95
+              ]
+            ],
+            "raio": 73,
+            "intersecao": 75,
+            "totais": [
+              600,
+              400
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa do usuário ao autorizar a Etapa 2B. Conteúdo revisado preservado; sorteio desativado enquanto o simulado geral estiver em preparação."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "EA",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-EA-25-G1"
+      }
+    }
+  ]
+}

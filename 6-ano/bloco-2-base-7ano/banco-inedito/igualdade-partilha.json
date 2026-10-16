@@ -1,0 +1,1925 @@
+{
+  "versao_formato": 1,
+  "banco_id": "MFC6-B2-INEDITO-V1",
+  "tipo": "definitivo",
+  "assunto": "Igualdade e partilha",
+  "codigo_assunto": "IP",
+  "topico_curricular": 7,
+  "estado": "aprovado_pedagogicamente",
+  "quantidade_prevista": 25,
+  "revisao_pedagogica": "aprovada",
+  "questoes": [
+    {
+      "id": "MFC6-B2-I-IP-01",
+      "numero": 1,
+      "topico_curricular": 7,
+      "titulo": "Uma embalagem na balança",
+      "enunciado": "Na aula de Ciências, uma embalagem fechada e uma massa de 100 g equilibram uma massa de 350 g. A balança está regulada e não há outros objetos nos pratos. Qual é a massa da embalagem fechada?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Interpretar uma igualdade de massas e determinar uma parcela desconhecida.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Relaciona diretamente a massa conhecida ao total equilibrado."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "100 g.",
+          "valor": 100,
+          "erro_comum": "Confunde a massa acrescentada com a massa desconhecida."
+        },
+        {
+          "letra": "B",
+          "texto": "250 g.",
+          "valor": 250,
+          "erro_comum": ""
+        },
+        {
+          "letra": "C",
+          "texto": "350 g.",
+          "valor": 350,
+          "erro_comum": "Atribui à embalagem a massa do prato inteiro."
+        },
+        {
+          "letra": "D",
+          "texto": "450 g.",
+          "valor": 450,
+          "erro_comum": "Soma as massas conhecidas em vez de retirar a parcela adicional."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Os dois pratos têm a mesma massa. Retirando 100 g de cada lado, a embalagem fica sozinha de um lado e restam 350 − 100 = 250 g do outro. Logo, a embalagem fechada tem 250 g.",
+      "justificativa_pedagogica": "Apresenta o sinal de igualdade como equivalência, apoiada em um equilíbrio físico.",
+      "dados": {
+        "adicional": 100,
+        "total": 350
+      },
+      "modelo_verificacao": {
+        "tipo": "complemento_massa"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 260\" role=\"img\" aria-label=\"Balança equilibrada. No prato esquerdo, uma embalagem fechada mais 100 g; no direito, 350 g. Os pratos estão à mesma altura.\"><line x1=\"40\" y1=\"100\" x2=\"320\" y2=\"100\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"180\" y1=\"100\" x2=\"180\" y2=\"235\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"135\" y1=\"235\" x2=\"225\" y2=\"235\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"85\" y1=\"100\" x2=\"30\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"85\" y1=\"100\" x2=\"140\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"30\" y1=\"175\" x2=\"140\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"85\" y=\"55\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Caixa + 100 g</text><line x1=\"275\" y1=\"100\" x2=\"220\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"275\" y1=\"100\" x2=\"330\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"220\" y1=\"175\" x2=\"330\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"275\" y=\"55\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">350 g</text></svg>",
+          "css": "",
+          "acessibilidade": "Balança equilibrada. No prato esquerdo, uma embalagem fechada mais 100 g; no direito, 350 g. Os pratos estão à mesma altura.",
+          "geometria": {
+            "tipo": "balanca",
+            "esquerda": "Caixa + 100 g",
+            "direita": "350 g",
+            "viga_y": 100
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-IP-01-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-02",
+      "numero": 2,
+      "topico_curricular": 7,
+      "titulo": "Troca sem mudar o total",
+      "enunciado": "No painel de ingressos de uma mostra escolar, a primeira turma aparece com 17 visitantes de manhã e 8 à tarde. A segunda tem 9 visitantes à tarde. Para que as duas turmas tenham o mesmo total, quantos visitantes devem constar no espaço vazio do painel?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Reconhecer que os dois membros de uma igualdade representam o mesmo total.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Compara duas somas, com uma parcela desconhecida."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "8 visitantes.",
+          "valor": 8,
+          "erro_comum": "Repete uma parcela do outro membro sem comparar os totais."
+        },
+        {
+          "letra": "B",
+          "texto": "17 visitantes.",
+          "valor": 17,
+          "erro_comum": "Ignora que as quantidades da tarde são diferentes."
+        },
+        {
+          "letra": "C",
+          "texto": "25 visitantes.",
+          "valor": 25,
+          "erro_comum": "Usa o total como se fosse apenas a parcela da manhã."
+        },
+        {
+          "letra": "D",
+          "texto": "16 visitantes.",
+          "valor": 16,
+          "erro_comum": ""
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "A primeira turma tem 17 + 8 = 25 visitantes. A segunda também precisa totalizar 25. Como 9 são da tarde, faltam 25 − 9 = 16 visitantes de manhã. A conferência é 17 + 8 = 16 + 9.",
+      "justificativa_pedagogica": "Evita interpretar a igualdade apenas como uma ordem para escrever o resultado à direita.",
+      "dados": {
+        "primeira": [
+          17,
+          8
+        ],
+        "segunda_tarde": 9
+      },
+      "modelo_verificacao": {
+        "tipo": "igualar_totais"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 199\" role=\"img\" aria-label=\"Painel com duas turmas: turma 1, 17 mais 8 visitantes; turma 2, quantidade desconhecida mais 9. Os totais devem ser iguais.\"><text x=\"180\" y=\"30\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Mesmo total de visitantes</text><rect x=\"15\" y=\"52\" width=\"330\" height=\"52\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"180\" y=\"85\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Turma 1: 17 + 8</text><rect x=\"15\" y=\"119\" width=\"330\" height=\"52\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"180\" y=\"152\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Turma 2: ? + 9</text></svg>",
+          "css": "",
+          "acessibilidade": "Painel com duas turmas: turma 1, 17 mais 8 visitantes; turma 2, quantidade desconhecida mais 9. Os totais devem ser iguais.",
+          "geometria": {
+            "tipo": "cartoes",
+            "titulo": "Mesmo total de visitantes",
+            "linhas": [
+              "Turma 1: 17 + 8",
+              "Turma 2: ? + 9"
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-IP-02-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-03",
+      "numero": 3,
+      "topico_curricular": 7,
+      "titulo": "Acrescentar sem desequilibrar",
+      "enunciado": "Dois pratos de uma balança estão equilibrados. Uma estudante quer acrescentar uma massa de 40 g ao prato esquerdo e manter o equilíbrio. Qual ação deve realizar no prato direito?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Reconhecer a preservação da igualdade ao adicionar a mesma quantidade aos dois membros.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Usa uma alteração única e concreta em uma igualdade já estabelecida."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Acrescentar 40 g.",
+          "valor": 40,
+          "erro_comum": ""
+        },
+        {
+          "letra": "B",
+          "texto": "Retirar 40 g.",
+          "valor": -40,
+          "erro_comum": "Aplica operações opostas, aumentando a diferença entre os lados."
+        },
+        {
+          "letra": "C",
+          "texto": "Não fazer nada.",
+          "valor": 0,
+          "erro_comum": "Altera somente um membro da igualdade."
+        },
+        {
+          "letra": "D",
+          "texto": "Acrescentar 80 g.",
+          "valor": 80,
+          "erro_comum": "Duplica o acréscimo apenas no prato direito."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Como as massas iniciais são iguais, aumentar os dois lados em 40 g mantém a igualdade. Portanto, é preciso acrescentar 40 g ao prato direito também. Retirar massa ou acrescentar uma quantidade diferente desequilibra a balança.",
+      "justificativa_pedagogica": "Dá significado físico à propriedade aditiva da igualdade.",
+      "dados": {
+        "acrescimo": 40
+      },
+      "modelo_verificacao": {
+        "tipo": "adicionar_ambos"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 260\" role=\"img\" aria-label=\"Balança inicialmente equilibrada, com uma mesma massa total em cada prato. O acréscimo de 40 g descrito no enunciado ainda não foi realizado.\"><line x1=\"40\" y1=\"100\" x2=\"320\" y2=\"100\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"180\" y1=\"100\" x2=\"180\" y2=\"235\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"135\" y1=\"235\" x2=\"225\" y2=\"235\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"85\" y1=\"100\" x2=\"30\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"85\" y1=\"100\" x2=\"140\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"30\" y1=\"175\" x2=\"140\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"85\" y=\"55\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Massa inicial</text><line x1=\"275\" y1=\"100\" x2=\"220\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"275\" y1=\"100\" x2=\"330\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"220\" y1=\"175\" x2=\"330\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"275\" y=\"55\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Massa inicial</text></svg>",
+          "css": "",
+          "acessibilidade": "Balança inicialmente equilibrada, com uma mesma massa total em cada prato. O acréscimo de 40 g descrito no enunciado ainda não foi realizado.",
+          "geometria": {
+            "tipo": "balanca",
+            "esquerda": "Massa inicial",
+            "direita": "Massa inicial",
+            "viga_y": 100
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-IP-03-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-04",
+      "numero": 4,
+      "topico_curricular": 7,
+      "titulo": "Materiais para quatro mesas",
+      "enunciado": "A professora reservou 36 pincéis para quatro mesas de trabalho. Nenhum pincel ficará guardado, e todas as mesas receberão a mesma quantidade. Quantos pincéis devem ser colocados em cada mesa?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Interpretar a divisão como partilha em partes iguais sem sobra.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Relaciona um total e um número pequeno de grupos iguais."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "4 pincéis.",
+          "valor": 4,
+          "erro_comum": "Confunde o número de grupos com a quantidade em cada grupo."
+        },
+        {
+          "letra": "B",
+          "texto": "8 pincéis.",
+          "valor": 8,
+          "erro_comum": "Distribui 32 pincéis e deixa quatro sem destino, contrariando o enunciado."
+        },
+        {
+          "letra": "C",
+          "texto": "9 pincéis.",
+          "valor": 9,
+          "erro_comum": ""
+        },
+        {
+          "letra": "D",
+          "texto": "32 pincéis.",
+          "valor": 32,
+          "erro_comum": "Subtrai o número de mesas do total em vez de repartir."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "As quatro mesas precisam receber partes iguais dos 36 pincéis. Como 36 ÷ 4 = 9, cada mesa recebe 9 pincéis. A conferência é 4 × 9 = 36, sem sobras.",
+      "justificativa_pedagogica": "Exige considerar simultaneamente igualdade entre grupos e uso de todo o material.",
+      "dados": {
+        "total": 36,
+        "grupos": 4
+      },
+      "modelo_verificacao": {
+        "tipo": "partilha_igual"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"Quatro mesas representadas por retângulos de mesmo tamanho, cada uma com um ponto de interrogação. O cabeçalho informa 36 pincéis para partes iguais, sem sobra.\"><text x=\"180\" y=\"28\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">36 pincéis: partes iguais</text><rect x=\"20\" y=\"60\" width=\"150\" height=\"65\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"95\" y=\"87\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Mesa 1</text><text x=\"95\" y=\"113\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">?</text><rect x=\"190\" y=\"60\" width=\"150\" height=\"65\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"265\" y=\"87\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Mesa 2</text><text x=\"265\" y=\"113\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">?</text><rect x=\"20\" y=\"145\" width=\"150\" height=\"65\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"95\" y=\"172\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Mesa 3</text><text x=\"95\" y=\"198\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">?</text><rect x=\"190\" y=\"145\" width=\"150\" height=\"65\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"265\" y=\"172\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Mesa 4</text><text x=\"265\" y=\"198\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">?</text></svg>",
+          "css": "",
+          "acessibilidade": "Quatro mesas representadas por retângulos de mesmo tamanho, cada uma com um ponto de interrogação. O cabeçalho informa 36 pincéis para partes iguais, sem sobra.",
+          "geometria": {
+            "tipo": "grupos",
+            "titulo": "36 pincéis: partes iguais",
+            "rotulos": [
+              "Mesa 1",
+              "Mesa 2",
+              "Mesa 3",
+              "Mesa 4"
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-IP-04-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-05",
+      "numero": 5,
+      "topico_curricular": 7,
+      "titulo": "Duas coleções de cartões",
+      "enunciado": "As turmas A e B dividirão 26 cartões de um jogo. A turma A receberá 6 cartões a mais que a B. Qual quantidade deve ficar com a turma B?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Determinar a menor de duas partes conhecendo o total e uma diferença aditiva.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Retira uma diferença pequena e divide o restante em duas partes iguais."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6 cartões.",
+          "valor": 6,
+          "erro_comum": "Confunde a diferença com a parte menor."
+        },
+        {
+          "letra": "B",
+          "texto": "13 cartões.",
+          "valor": 13,
+          "erro_comum": "Divide igualmente e ignora a diferença exigida."
+        },
+        {
+          "letra": "C",
+          "texto": "16 cartões.",
+          "valor": 16,
+          "erro_comum": "Calcula a parte maior, embora a pergunta seja sobre B."
+        },
+        {
+          "letra": "D",
+          "texto": "10 cartões.",
+          "valor": 10,
+          "erro_comum": ""
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Dos 26 cartões, separamos os 6 que a turma A receberá a mais. Sobram 26 − 6 = 20 para duas partes iguais: 20 ÷ 2 = 10. B recebe 10 e A recebe 10 + 6 = 16. As quantidades somam 26 e diferem em 6.",
+      "justificativa_pedagogica": "Introduz a ideia de uma parte comum e de uma quantidade adicional, sem exigir manipulação formal de letras.",
+      "dados": {
+        "total": 26,
+        "diferenca": 6
+      },
+      "modelo_verificacao": {
+        "tipo": "duas_partes_diferenca"
+      },
+      "recursos_visuais": [],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "facil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC6-B2-I-IP-05-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-06",
+      "numero": 6,
+      "topico_curricular": 7,
+      "titulo": "Uma parte e seu dobro",
+      "enunciado": "A cantina separou 36 frutas para dois grupos. O grupo A receberá o dobro da quantidade do grupo B. Todas as frutas serão entregues. Quantas devem ficar com o grupo B?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Interpretar uma partilha em duas quantidades com relação de dobro.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Reconhece três unidades iguais no total: duas para A e uma para B."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "12 frutas.",
+          "valor": 12,
+          "erro_comum": ""
+        },
+        {
+          "letra": "B",
+          "texto": "18 frutas.",
+          "valor": 18,
+          "erro_comum": "Faz uma divisão em duas partes iguais, sem atender ao dobro."
+        },
+        {
+          "letra": "C",
+          "texto": "24 frutas.",
+          "valor": 24,
+          "erro_comum": "Escolhe a quantidade do grupo A."
+        },
+        {
+          "letra": "D",
+          "texto": "9 frutas.",
+          "valor": 9,
+          "erro_comum": "Divide por quatro, como se os grupos recebessem duas partes cada."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Representamos B por uma parte. A recebe duas partes do mesmo tamanho. Portanto, 36 frutas correspondem a 3 partes iguais. Cada parte vale 36 ÷ 3 = 12. B recebe 12 e A recebe 24, totalizando 36.",
+      "justificativa_pedagogica": "Distingue o dobro de uma parte de metade do total.",
+      "dados": {
+        "total": 36,
+        "razao": 2
+      },
+      "modelo_verificacao": {
+        "tipo": "partes_multiplicativas"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 256\" role=\"img\" aria-label=\"A possui duas partes iguais; B possui uma parte do mesmo tamanho. As três partes, juntas, representam as 36 frutas.\"><text x=\"180\" y=\"28\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Distribuição inicial</text><text x=\"120\" y=\"51\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Grupo A</text><rect x=\"20\" y=\"60\" width=\"100\" height=\"40\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"70\" y=\"87\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Parte</text><rect x=\"120\" y=\"60\" width=\"100\" height=\"40\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"170\" y=\"87\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Parte</text><text x=\"70\" y=\"139\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Grupo B</text><rect x=\"20\" y=\"148\" width=\"100\" height=\"40\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"70\" y=\"175\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Parte</text></svg>",
+          "css": "",
+          "acessibilidade": "A possui duas partes iguais; B possui uma parte do mesmo tamanho. As três partes, juntas, representam as 36 frutas.",
+          "geometria": {
+            "tipo": "barras",
+            "partes": [
+              [
+                "Parte",
+                "Parte"
+              ],
+              [
+                "Parte"
+              ]
+            ],
+            "rotulos": [
+              "Grupo A",
+              "Grupo B"
+            ],
+            "unidade_largura": 100
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "facil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-IP-06-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-07",
+      "numero": 7,
+      "topico_curricular": 7,
+      "titulo": "Antes de organizar os livros",
+      "enunciado": "Na biblioteca, 13 livros que estavam na bancada foram recolocados nas estantes. Depois disso, ainda ficaram 32 livros na bancada. Qual quantidade inicial completa a sentença «quantidade inicial − 13 = 32»?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Recuperar uma quantidade inicial a partir de uma retirada e do restante.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Desfaz uma subtração com base no sentido da situação."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "13 livros.",
+          "valor": 13,
+          "erro_comum": "Usa apenas a quantidade retirada."
+        },
+        {
+          "letra": "B",
+          "texto": "45 livros.",
+          "valor": 45,
+          "erro_comum": ""
+        },
+        {
+          "letra": "C",
+          "texto": "19 livros.",
+          "valor": 19,
+          "erro_comum": "Subtrai novamente os livros retirados em vez de desfazer a retirada."
+        },
+        {
+          "letra": "D",
+          "texto": "32 livros.",
+          "valor": 32,
+          "erro_comum": "Informa o restante como se fosse a quantidade inicial."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Para recuperar a quantidade inicial, reunimos os 32 livros que ficaram e os 13 que foram retirados: 32 + 13 = 45. Conferindo a sentença: 45 − 13 = 32. Portanto, havia 45 livros na bancada.",
+      "justificativa_pedagogica": "Distingue a quantidade inicial da parcela retirada e do restante, conferindo a sentença completa.",
+      "dados": {
+        "restantes": 32,
+        "retirados": 13
+      },
+      "modelo_verificacao": {
+        "tipo": "minuendo_desconhecido"
+      },
+      "recursos_visuais": [],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "facil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC6-B2-I-IP-07-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-08",
+      "numero": 8,
+      "topico_curricular": 7,
+      "titulo": "Quantas equipes receberam os cartões?",
+      "enunciado": "Foram entregues todos os 48 cartões de uma oficina, com exatamente 8 cartões por equipe. O registro «48 ÷ número de equipes = 8» descreve a distribuição. Quantas equipes participaram?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Determinar o número de partes iguais a partir do total e da quantidade por parte.",
+      "dificuldade": {
+        "nivel": "facil",
+        "justificativa": "Reconhece o significado do divisor desconhecido por agrupamento."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "8 equipes.",
+          "valor": 8,
+          "erro_comum": "Troca a quantidade por equipe pelo número de equipes."
+        },
+        {
+          "letra": "B",
+          "texto": "6 equipes.",
+          "valor": 6,
+          "erro_comum": ""
+        },
+        {
+          "letra": "C",
+          "texto": "40 equipes.",
+          "valor": 40,
+          "erro_comum": "Subtrai 8 do total sem formar grupos."
+        },
+        {
+          "letra": "D",
+          "texto": "384 equipes.",
+          "valor": 384,
+          "erro_comum": "Multiplica os dois valores, em vez de recuperar o número de grupos."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Procuramos quantos grupos de 8 formam 48. Como 6 × 8 = 48, participaram 6 equipes. Isso confirma a sentença 48 ÷ 6 = 8.",
+      "justificativa_pedagogica": "Complementa a partilha de IP-04: agora a quantidade em cada grupo é conhecida, e procura-se o número de grupos.",
+      "dados": {
+        "total": 48,
+        "por_grupo": 8
+      },
+      "modelo_verificacao": {
+        "tipo": "divisor_desconhecido"
+      },
+      "recursos_visuais": [],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "facil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC6-B2-I-IP-08-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-09",
+      "numero": 9,
+      "topico_curricular": 7,
+      "titulo": "Três saquinhos na experiência",
+      "enunciado": "Três saquinhos idênticos, com a mesma massa total cada um, e uma massa adicional de 200 g equilibram 800 g. Os pratos não contêm outros objetos. Qual é a massa de um saquinho cheio?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Recuperar uma quantidade repetida após retirar uma parcela comum do equilíbrio.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Combina retirar uma massa e repartir o restante em três partes."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "600 g.",
+          "valor": 600,
+          "erro_comum": "Encontra a massa dos três saquinhos, mas não a de um."
+        },
+        {
+          "letra": "B",
+          "texto": "300 g.",
+          "valor": 300,
+          "erro_comum": "Divide o restante por dois, em vez de três."
+        },
+        {
+          "letra": "C",
+          "texto": "200 g.",
+          "valor": 200,
+          "erro_comum": ""
+        },
+        {
+          "letra": "D",
+          "texto": "1.000 g.",
+          "valor": 1000,
+          "erro_comum": "Soma a massa adicional ao outro prato."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Retiramos 200 g de cada lado da igualdade. Os três saquinhos ficam com 800 − 200 = 600 g ao todo. Como têm massas iguais, cada um pesa 600 ÷ 3 = 200 g. Conferência: 3 × 200 + 200 = 800 g.",
+      "justificativa_pedagogica": "Articula a propriedade subtrativa e a divisão em grupos iguais.",
+      "dados": {
+        "pacotes": 3,
+        "adicional": 200,
+        "total": 800
+      },
+      "modelo_verificacao": {
+        "tipo": "grupos_com_adicional"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 260\" role=\"img\" aria-label=\"Balança equilibrada: três saquinhos de mesma massa mais 200 g, à esquerda, e 800 g à direita. Os 200 g são adicionais aos saquinhos.\"><line x1=\"40\" y1=\"100\" x2=\"320\" y2=\"100\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"180\" y1=\"100\" x2=\"180\" y2=\"235\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"135\" y1=\"235\" x2=\"225\" y2=\"235\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"85\" y1=\"100\" x2=\"30\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"85\" y1=\"100\" x2=\"140\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"30\" y1=\"175\" x2=\"140\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"85\" y=\"55\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">3 sacos + 200 g</text><line x1=\"275\" y1=\"100\" x2=\"220\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"275\" y1=\"100\" x2=\"330\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"220\" y1=\"175\" x2=\"330\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"275\" y=\"55\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">800 g</text></svg>",
+          "css": "",
+          "acessibilidade": "Balança equilibrada: três saquinhos de mesma massa mais 200 g, à esquerda, e 800 g à direita. Os 200 g são adicionais aos saquinhos.",
+          "geometria": {
+            "tipo": "balanca",
+            "esquerda": "3 sacos + 200 g",
+            "direita": "800 g",
+            "viga_y": 100
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-IP-09-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-10",
+      "numero": 10,
+      "topico_curricular": 7,
+      "titulo": "Retirar a mesma massa",
+      "enunciado": "Para estudar as propriedades da igualdade, a turma representa uma balança equilibrada pela sentença «caixa + 150 g = 500 g». Qual transformação permite deixar a caixa sozinha e mantém a igualdade?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Identificar uma transformação equivalente por subtração nos dois membros.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Examina o efeito de operações em ambos os membros, em vez de apenas calcular uma massa."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Caixa = 500 g + 150 g.",
+          "valor": "somar_direita",
+          "erro_comum": "Soma no outro membro em vez de subtrair dos dois."
+        },
+        {
+          "letra": "B",
+          "texto": "Caixa = 500 g.",
+          "valor": "apagar_esquerda",
+          "erro_comum": "Apaga uma parcela sem ajustar o outro membro."
+        },
+        {
+          "letra": "C",
+          "texto": "Caixa + 150 g = 500 g − 150 g.",
+          "valor": "subtrair_direita",
+          "erro_comum": "Subtrai somente no membro direito."
+        },
+        {
+          "letra": "D",
+          "texto": "Caixa = 500 g − 150 g.",
+          "valor": "subtrair_ambos",
+          "erro_comum": ""
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Subtraímos 150 g de cada membro: caixa + 150 g − 150 g = 500 g − 150 g. Assim, caixa = 500 g − 150 g, que é a transformação da alternativa D. A massa da caixa é 350 g. Nas demais opções, os dois membros não sofrem a mesma subtração.",
+      "justificativa_pedagogica": "Diferencia retirar o mesmo valor dos dois lados de apagar uma parcela isoladamente.",
+      "dados": {
+        "adicional": 150,
+        "total": 500
+      },
+      "modelo_verificacao": {
+        "tipo": "retirar_ambos"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 260\" role=\"img\" aria-label=\"Balança equilibrada com caixa mais 150 g no prato esquerdo e 500 g no direito. A tarefa é escolher a transformação que isola a caixa.\"><line x1=\"40\" y1=\"100\" x2=\"320\" y2=\"100\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"180\" y1=\"100\" x2=\"180\" y2=\"235\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"135\" y1=\"235\" x2=\"225\" y2=\"235\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"85\" y1=\"100\" x2=\"30\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"85\" y1=\"100\" x2=\"140\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"30\" y1=\"175\" x2=\"140\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"85\" y=\"55\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Caixa + 150 g</text><line x1=\"275\" y1=\"100\" x2=\"220\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"275\" y1=\"100\" x2=\"330\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"220\" y1=\"175\" x2=\"330\" y2=\"175\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"275\" y=\"55\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">500 g</text></svg>",
+          "css": "",
+          "acessibilidade": "Balança equilibrada com caixa mais 150 g no prato esquerdo e 500 g no direito. A tarefa é escolher a transformação que isola a caixa.",
+          "geometria": {
+            "tipo": "balanca",
+            "esquerda": "Caixa + 150 g",
+            "direita": "500 g",
+            "viga_y": 100
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-IP-10-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-11",
+      "numero": 11,
+      "topico_curricular": 7,
+      "titulo": "Triplicar uma relação inteira",
+      "enunciado": "Em um jogo, a sentença «x + 4 = 12» informa que uma caixa com x fichas e mais 4 fichas soltas correspondem a 12 fichas. Para registrar três conjuntos completos iguais a esse, qual sentença multiplica corretamente os dois membros por 3?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Reconhecer que multiplicar um membro afeta todas as suas parcelas.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Precisa interpretar o alcance dos parênteses e a repetição do conjunto inteiro."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3 × x + 4 = 36.",
+          "valor": "parcela_unica",
+          "erro_comum": "Triplica apenas a parcela x."
+        },
+        {
+          "letra": "B",
+          "texto": "3 × (x + 4) = 36.",
+          "valor": "ambos_inteiros",
+          "erro_comum": ""
+        },
+        {
+          "letra": "C",
+          "texto": "x + 12 = 36.",
+          "valor": "somente_extra",
+          "erro_comum": "Triplica apenas as quatro fichas soltas."
+        },
+        {
+          "letra": "D",
+          "texto": "3 × (x + 4) = 12.",
+          "valor": "so_esquerda",
+          "erro_comum": "Altera o membro esquerdo, mantendo o direito sem multiplicar."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Cada conjunto completo tem x fichas na caixa e 4 soltas. Três conjuntos têm 3 × (x + 4). O outro membro também é triplicado: 3 × 12 = 36. Portanto, 3 × (x + 4) = 36. Multiplicar somente a caixa ou somente as fichas soltas não triplica o conjunto inteiro.",
+      "justificativa_pedagogica": "Dá significado à multiplicação de uma igualdade sem introduzir uma regra meramente decorada.",
+      "dados": {
+        "extra": 4,
+        "total": 12,
+        "fator": 3
+      },
+      "modelo_verificacao": {
+        "tipo": "multiplicar_membros"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 266\" role=\"img\" aria-label=\"Um conjunto contém uma caixa com x fichas e quatro fichas soltas; o conjunto equivale a 12 fichas. O desenho mostra um conjunto, antes de triplicá-lo.\"><text x=\"180\" y=\"30\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Um conjunto completo</text><rect x=\"15\" y=\"52\" width=\"330\" height=\"52\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"180\" y=\"85\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Caixa com x fichas</text><rect x=\"15\" y=\"119\" width=\"330\" height=\"52\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"180\" y=\"152\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">+ 4 fichas soltas</text><rect x=\"15\" y=\"186\" width=\"330\" height=\"52\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"180\" y=\"219\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">= 12 fichas</text></svg>",
+          "css": "",
+          "acessibilidade": "Um conjunto contém uma caixa com x fichas e quatro fichas soltas; o conjunto equivale a 12 fichas. O desenho mostra um conjunto, antes de triplicá-lo.",
+          "geometria": {
+            "tipo": "cartoes",
+            "titulo": "Um conjunto completo",
+            "linhas": [
+              "Caixa com x fichas",
+              "+ 4 fichas soltas",
+              "= 12 fichas"
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-IP-11-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-12",
+      "numero": 12,
+      "topico_curricular": 7,
+      "titulo": "Dividir sem perder a igualdade",
+      "enunciado": "Quatro kits iguais contêm, ao todo, 28 marcadores. A relação é «4 × quantidade de um kit = 28». Qual procedimento deixa a quantidade de um kit sozinha e é uma divisão válida nos dois membros?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Selecionar uma divisão por valor não nulo que isola uma quantidade repetida.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Distingue uma operação válida, seu alcance e o objetivo de isolar uma unidade."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Dividir os dois membros por 4.",
+          "valor": 4,
+          "erro_comum": ""
+        },
+        {
+          "letra": "B",
+          "texto": "Dividir somente o membro direito por 4, mantendo o esquerdo como 4 × quantidade.",
+          "valor": "so_direita",
+          "erro_comum": "A conta 28 ÷ 4 = 7 é correta, mas alterar somente o membro direito, deixando o esquerdo inalterado, não preserva a igualdade."
+        },
+        {
+          "letra": "C",
+          "texto": "Dividir os dois membros por zero.",
+          "valor": 0,
+          "erro_comum": "Propõe uma divisão indefinida."
+        },
+        {
+          "letra": "D",
+          "texto": "Dividir os dois membros por 28.",
+          "valor": 28,
+          "erro_comum": "Escolhe uma divisão permitida, mas que não deixa a quantidade de um kit sozinha."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Dividir os dois membros por 4 transforma 4 × quantidade ÷ 4 em quantidade e 28 ÷ 4 em 7. Cada kit contém 7 marcadores. Fazer a conta 28 ÷ 4 = 7 isoladamente está correto. Porém, dividir apenas o membro direito e manter o esquerdo produziria 4 × quantidade = 7, que não representa a igualdade original. Para preservar a igualdade nessa transformação, dividimos os dois membros por 4. Essa divisão é válida porque 4 não é zero. Dividir por zero é indefinido. Dividir ambos por 28 é permitido, mas deixa quantidade ÷ 7 no primeiro membro, sem isolar a quantidade.",
+      "justificativa_pedagogica": "Explicita que divisão por zero não existe e que uma transformação válida pode não atingir o objetivo solicitado.",
+      "dados": {
+        "kits": 4,
+        "total": 28
+      },
+      "modelo_verificacao": {
+        "tipo": "dividir_nao_nulo"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"Quatro kits iguais representados por retângulos do mesmo tamanho. Cada kit tem quantidade desconhecida; o total é de 28 marcadores.\"><text x=\"180\" y=\"28\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">28 marcadores ao todo</text><rect x=\"20\" y=\"60\" width=\"150\" height=\"65\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"95\" y=\"87\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Kit 1</text><text x=\"95\" y=\"113\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">?</text><rect x=\"190\" y=\"60\" width=\"150\" height=\"65\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"265\" y=\"87\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Kit 2</text><text x=\"265\" y=\"113\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">?</text><rect x=\"20\" y=\"145\" width=\"150\" height=\"65\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"95\" y=\"172\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Kit 3</text><text x=\"95\" y=\"198\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">?</text><rect x=\"190\" y=\"145\" width=\"150\" height=\"65\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"265\" y=\"172\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Kit 4</text><text x=\"265\" y=\"198\" font-size=\"24\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">?</text></svg>",
+          "css": "",
+          "acessibilidade": "Quatro kits iguais representados por retângulos do mesmo tamanho. Cada kit tem quantidade desconhecida; o total é de 28 marcadores.",
+          "geometria": {
+            "tipo": "grupos",
+            "titulo": "28 marcadores ao todo",
+            "rotulos": [
+              "Kit 1",
+              "Kit 2",
+              "Kit 3",
+              "Kit 4"
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-IP-12-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-13",
+      "numero": 13,
+      "topico_curricular": 7,
+      "titulo": "A reserva vem antes da partilha",
+      "enunciado": "Uma oficina recebeu 74 folhas. Antes de repartir, a professora guardou 10 para reposição. As demais serão distribuídas igualmente entre quatro grupos, sem sobra. Quantas folhas cada grupo receberá?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Organizar uma partilha igual após separar uma reserva.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Decide qual quantidade deve ser dividida, combinando duas operações."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "16 folhas.",
+          "valor": 16,
+          "erro_comum": ""
+        },
+        {
+          "letra": "B",
+          "texto": "21 folhas.",
+          "valor": 21,
+          "erro_comum": "Soma a reserva e divide 84 por quatro."
+        },
+        {
+          "letra": "C",
+          "texto": "64 folhas.",
+          "valor": 64,
+          "erro_comum": "Usa o total disponível como se fosse a parte de um grupo."
+        },
+        {
+          "letra": "D",
+          "texto": "18 folhas.",
+          "valor": 18,
+          "erro_comum": "Divide o total recebido por quatro e despreza a sobra, ignorando a reserva."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Apenas as folhas não reservadas serão repartidas: 74 − 10 = 64. Dividindo entre quatro grupos, 64 ÷ 4 = 16 folhas para cada um. A conferência reúne a reserva e as partes: 10 + 4 × 16 = 74.",
+      "justificativa_pedagogica": "Trabalha a ordem das ações no contexto e a distinção entre total recebido e total disponível.",
+      "dados": {
+        "total": 74,
+        "reserva": 10,
+        "grupos": 4
+      },
+      "modelo_verificacao": {
+        "tipo": "reserva_e_partilha"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 280\" role=\"img\" aria-label=\"Das 74 folhas iniciais, uma parte vai para a reserva de dez folhas e o restante segue para quatro grupos iguais. As duas saídas são separadas.\"><rect x=\"90\" y=\"10\" width=\"180\" height=\"42\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"180\" y=\"38\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">74 folhas</text><line x1=\"180\" y1=\"52\" x2=\"90\" y2=\"108\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"180\" y1=\"52\" x2=\"270\" y2=\"108\" stroke=\"#123e4a\" stroke-width=\"2\"/><rect x=\"15\" y=\"110\" width=\"150\" height=\"64\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"90\" y=\"137\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Reserva</text><text x=\"90\" y=\"161\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">10 folhas</text><rect x=\"195\" y=\"110\" width=\"150\" height=\"64\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"270\" y=\"137\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Restante</text><text x=\"270\" y=\"161\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">para dividir</text><line x1=\"270\" y1=\"174\" x2=\"270\" y2=\"207\" stroke=\"#123e4a\" stroke-width=\"2\"/><rect x=\"120\" y=\"210\" width=\"225\" height=\"45\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"232\" y=\"239\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">4 grupos iguais</text></svg>",
+          "css": "",
+          "acessibilidade": "Das 74 folhas iniciais, uma parte vai para a reserva de dez folhas e o restante segue para quatro grupos iguais. As duas saídas são separadas.",
+          "geometria": {
+            "tipo": "fluxo_reserva",
+            "total": 74,
+            "reserva": 10,
+            "grupos": 4
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-IP-13-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-14",
+      "numero": 14,
+      "topico_curricular": 7,
+      "titulo": "A taxa não é um ingresso",
+      "enunciado": "Na visita de um pequeno grupo ao museu, os ingressos custam R$ 40 por estudante e há uma única taxa de agendamento de R$ 32 para o grupo inteiro. A escola pagou R$ 272. Todos os estudantes pagam o mesmo ingresso, e não há outros custos. Quantos estudantes compõem o grupo?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Determinar um número de unidades após separar um custo fixo.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Interpreta uma taxa única e um custo por pessoa."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "4 estudantes.",
+          "valor": 4,
+          "erro_comum": "Quatro ingressos mais a taxa somam 4 × 40 + 32 = R$ 192, abaixo dos R$ 272 pagos."
+        },
+        {
+          "letra": "B",
+          "texto": "6 estudantes.",
+          "valor": 6,
+          "erro_comum": ""
+        },
+        {
+          "letra": "C",
+          "texto": "5 estudantes.",
+          "valor": 5,
+          "erro_comum": "Cinco ingressos mais a taxa somam 5 × 40 + 32 = R$ 232, abaixo dos R$ 272 pagos."
+        },
+        {
+          "letra": "D",
+          "texto": "7 estudantes.",
+          "valor": 7,
+          "erro_comum": "Sete ingressos mais a taxa somam 7 × 40 + 32 = R$ 312, acima dos R$ 272 pagos."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "A taxa de R$ 32 é cobrada uma única vez. O valor dos ingressos é 272 − 32 = R$ 240. Como cada ingresso custa R$ 40, o grupo tem 240 ÷ 40 = 6 estudantes. Conferência: 6 × 40 + 32 = 272.",
+      "justificativa_pedagogica": "Evita distribuir um custo fixo como se ele fosse cobrado por estudante.",
+      "dados": {
+        "total": 272,
+        "taxa": 32,
+        "preco": 40
+      },
+      "modelo_verificacao": {
+        "tipo": "taxa_e_unidades"
+      },
+      "recursos_visuais": [],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC6-B2-I-IP-14-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-15",
+      "numero": 15,
+      "topico_curricular": 7,
+      "titulo": "Separar os avulsos do pedido",
+      "enunciado": "Uma sala recebeu 50 adesivos. Dois ficarão avulsos para identificar caixas. Os outros serão divididos entre Ana e Bruno, de modo que Ana receba o triplo de Bruno. Quantos adesivos cabem a cada um?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Repartir um total disponível com relação de triplo após retirar uma reserva.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Articula uma reserva, quatro unidades iguais e a identificação da parte maior."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ana: 24; Bruno: 24.",
+          "valor": [
+            24,
+            24
+          ],
+          "erro_comum": "Divide igualmente e ignora o triplo."
+        },
+        {
+          "letra": "B",
+          "texto": "Ana: 36; Bruno: 14.",
+          "valor": [
+            36,
+            14
+          ],
+          "erro_comum": "Usa todos os 50 adesivos na partilha e ignora os dois avulsos."
+        },
+        {
+          "letra": "C",
+          "texto": "Ana: 36; Bruno: 12.",
+          "valor": [
+            36,
+            12
+          ],
+          "erro_comum": ""
+        },
+        {
+          "letra": "D",
+          "texto": "Ana: 12; Bruno: 36.",
+          "valor": [
+            12,
+            36
+          ],
+          "erro_comum": "Inverte os destinatários da parte maior e da parte menor."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Descontamos os dois adesivos avulsos: 50 − 2 = 48. Bruno recebe uma parte e Ana, três partes iguais a ela: são quatro partes. Cada parte vale 48 ÷ 4 = 12. Assim, Bruno recebe 12 e Ana, 36. Conferindo: 36 + 12 + 2 = 50 e 36 é o triplo de 12.",
+      "justificativa_pedagogica": "Exige verificar total distribuído e relação multiplicativa, sem confundir quem recebe cada parte.",
+      "dados": {
+        "total": 50,
+        "avulsos": 2,
+        "razao": 3
+      },
+      "modelo_verificacao": {
+        "tipo": "reserva_e_razao"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 260\" role=\"img\" aria-label=\"Dos 50 adesivos, dois ficam avulsos. Para os demais, Ana tem três partes iguais e Bruno uma parte do mesmo tamanho. As barras mostram apenas as partes da distribuição, sem os dois avulsos.\"><text x=\"180\" y=\"28\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Total: 50; avulsos: 2</text><text x=\"170\" y=\"56\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Ana</text><rect x=\"20\" y=\"65\" width=\"100\" height=\"42\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"70\" y=\"93\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Parte</text><rect x=\"120\" y=\"65\" width=\"100\" height=\"42\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"170\" y=\"93\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Parte</text><rect x=\"220\" y=\"65\" width=\"100\" height=\"42\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"270\" y=\"93\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Parte</text><text x=\"70\" y=\"146\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Bruno</text><rect x=\"20\" y=\"155\" width=\"100\" height=\"42\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"70\" y=\"183\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Parte</text></svg>",
+          "css": "",
+          "acessibilidade": "Dos 50 adesivos, dois ficam avulsos. Para os demais, Ana tem três partes iguais e Bruno uma parte do mesmo tamanho. As barras mostram apenas as partes da distribuição, sem os dois avulsos.",
+          "geometria": {
+            "tipo": "reserva_razao",
+            "total": 50,
+            "reserva": 2,
+            "partes": [
+              3,
+              1
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-IP-15-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-16",
+      "numero": 16,
+      "topico_curricular": 7,
+      "titulo": "Retirar kits dos dois lados",
+      "enunciado": "Dois carrinhos equilibram a mesma massa. Um contém cinco kits iguais e uma massa de 12 kg; o outro, três kits do mesmo tipo e uma massa de 40 kg. Se x representa a massa de um kit em quilogramas, temos «5 × x + 12 = 3 × x + 40». Qual relação resulta ao retirar três kits de cada carrinho?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Interpretar a retirada da mesma quantidade desconhecida nos dois membros.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Precisa manter as parcelas fixas e distinguir o passo pedido de uma transformação adicional."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2 × x + 12 = 3 × x + 40.",
+          "valor": "so_esquerda",
+          "erro_comum": "Retira kits somente do primeiro carrinho."
+        },
+        {
+          "letra": "B",
+          "texto": "5 × x + 12 = 40.",
+          "valor": "so_direita",
+          "erro_comum": "Retira kits somente do segundo carrinho."
+        },
+        {
+          "letra": "C",
+          "texto": "2 × x = 28.",
+          "valor": "passo_extra",
+          "erro_comum": "Inclui uma segunda transformação, que não foi solicitada."
+        },
+        {
+          "letra": "D",
+          "texto": "2 × x + 12 = 40.",
+          "valor": "retirar_tres",
+          "erro_comum": ""
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Retirar três kits do primeiro carrinho deixa dois kits e os 12 kg. No segundo, não sobra kit, mas permanecem os 40 kg. Portanto, 2 × x + 12 = 40. A relação 2 × x = 28 também pode ser obtida, mas exige retirar mais 12 kg de cada lado; não é apenas a retirada dos três kits solicitada.",
+      "justificativa_pedagogica": "Dá significado concreto ao cancelamento de quantidades desconhecidas iguais.",
+      "dados": {
+        "kits": [
+          5,
+          3
+        ],
+        "adicionais": [
+          12,
+          40
+        ]
+      },
+      "modelo_verificacao": {
+        "tipo": "cancelar_mesmos_kits"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 305\" role=\"img\" aria-label=\"O carrinho A contém cinco kits e 12 kg adicionais; B contém três kits e 40 kg adicionais. Cada retângulo K representa um kit de mesma massa. Os totais dos carrinhos são iguais.\"><text x=\"180\" y=\"28\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Carrinhos em equilíbrio</text><text x=\"15\" y=\"101\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">A</text><rect x=\"35\" y=\"75\" width=\"43\" height=\"40\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"56.5\" y=\"102\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">K</text><rect x=\"78\" y=\"75\" width=\"43\" height=\"40\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"99.5\" y=\"102\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">K</text><rect x=\"121\" y=\"75\" width=\"43\" height=\"40\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"142.5\" y=\"102\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">K</text><rect x=\"164\" y=\"75\" width=\"43\" height=\"40\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"185.5\" y=\"102\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">K</text><rect x=\"207\" y=\"75\" width=\"43\" height=\"40\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"228.5\" y=\"102\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">K</text><text x=\"300\" y=\"102\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">+ 12 kg</text><text x=\"15\" y=\"201\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">B</text><rect x=\"35\" y=\"175\" width=\"43\" height=\"40\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"56.5\" y=\"202\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">K</text><rect x=\"78\" y=\"175\" width=\"43\" height=\"40\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"99.5\" y=\"202\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">K</text><rect x=\"121\" y=\"175\" width=\"43\" height=\"40\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"142.5\" y=\"202\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">K</text><text x=\"300\" y=\"202\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">+ 40 kg</text><text x=\"180\" y=\"280\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">K: um kit de mesma massa</text></svg>",
+          "css": "",
+          "acessibilidade": "O carrinho A contém cinco kits e 12 kg adicionais; B contém três kits e 40 kg adicionais. Cada retângulo K representa um kit de mesma massa. Os totais dos carrinhos são iguais.",
+          "geometria": {
+            "tipo": "kits_comparados",
+            "kits": [
+              5,
+              3
+            ],
+            "adicionais": [
+              12,
+              40
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-IP-16-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-17",
+      "numero": 17,
+      "topico_curricular": 7,
+      "titulo": "Transferir não é acrescentar ao total",
+      "enunciado": "A caixa A contém 24 peças, e a B contém 16. As peças podem ser transferidas apenas de A para B, sem retirar ou acrescentar peças ao conjunto. Quantas devem ser transferidas para que as caixas terminem com quantidades iguais?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Interpretar o efeito de uma transferência sobre a diferença entre duas quantidades.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Reconhece que cada peça transferida reduz um lado e aumenta o outro."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "4 peças.",
+          "valor": 4,
+          "erro_comum": ""
+        },
+        {
+          "letra": "B",
+          "texto": "8 peças.",
+          "valor": 8,
+          "erro_comum": "Transfere a diferença inteira, ignorando que cada transferência altera os dois lados."
+        },
+        {
+          "letra": "C",
+          "texto": "20 peças.",
+          "valor": 20,
+          "erro_comum": "Confunde a quantidade final de cada caixa com a quantidade transferida."
+        },
+        {
+          "letra": "D",
+          "texto": "2 peças.",
+          "valor": 2,
+          "erro_comum": "Divide a diferença duas vezes sem conferir as quantidades finais."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "O total permanece 24 + 16 = 40. Para terminar com partes iguais, cada caixa precisa ficar com 20 peças. A deve entregar 24 − 20 = 4 peças: A fica com 20 e B com 16 + 4 = 20. Transferir oito inverteria as quantidades, sem igualá-las.",
+      "justificativa_pedagogica": "Distingue transferir uma quantidade de apenas acrescentá-la à parte menor.",
+      "dados": {
+        "a": 24,
+        "b": 16
+      },
+      "modelo_verificacao": {
+        "tipo": "transferir_igualar"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"Caixa A, 24 peças, à esquerda; caixa B, 16 peças, à direita. Uma seta aponta de A para B. Não há entrada ou saída de peças do conjunto.\"><text x=\"180\" y=\"28\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Transferência de A para B</text><rect x=\"20\" y=\"90\" width=\"115\" height=\"75\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"77.5\" y=\"118\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Caixa A</text><text x=\"77.5\" y=\"148\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">24 peças</text><rect x=\"225\" y=\"90\" width=\"115\" height=\"75\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"282.5\" y=\"118\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Caixa B</text><text x=\"282.5\" y=\"148\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">16 peças</text><line x1=\"140\" y1=\"128\" x2=\"219\" y2=\"128\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"207\" y1=\"116\" x2=\"219\" y2=\"128\" stroke=\"#123e4a\" stroke-width=\"2\"/><line x1=\"207\" y1=\"140\" x2=\"219\" y2=\"128\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"180\" y=\"210\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Sem entrada ou saída</text></svg>",
+          "css": "",
+          "acessibilidade": "Caixa A, 24 peças, à esquerda; caixa B, 16 peças, à direita. Uma seta aponta de A para B. Não há entrada ou saída de peças do conjunto.",
+          "geometria": {
+            "tipo": "transferencia",
+            "a": 24,
+            "b": 16
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "media",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-IP-17-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-18",
+      "numero": 18,
+      "topico_curricular": 7,
+      "titulo": "Antes de saírem da atividade",
+      "enunciado": "Duas equipes tinham inicialmente o mesmo número de estudantes. Depois que cinco estudantes de cada equipe saíram para outra atividade, ficaram 26 estudantes nas duas equipes juntas. Quantos havia inicialmente em cada equipe?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Reconstruir partes iguais anteriores a uma retirada em cada grupo.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Precisa repartir o total final e desfazer uma retirada individual."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "13 estudantes.",
+          "valor": 13,
+          "erro_comum": "Informa a quantidade final de cada equipe."
+        },
+        {
+          "letra": "B",
+          "texto": "16 estudantes.",
+          "valor": 16,
+          "erro_comum": "Acrescenta cinco uma única vez ao total e aproxima a metade."
+        },
+        {
+          "letra": "C",
+          "texto": "18 estudantes.",
+          "valor": 18,
+          "erro_comum": ""
+        },
+        {
+          "letra": "D",
+          "texto": "31 estudantes.",
+          "valor": 31,
+          "erro_comum": "Soma cinco ao total final e trata o resultado como quantidade por equipe."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Como saíram cinco de cada equipe, as quantidades restantes continuam iguais. Cada uma ficou com 26 ÷ 2 = 13 estudantes. Antes da saída, cada equipe tinha 13 + 5 = 18. Conferência: (18 − 5) + (18 − 5) = 26.",
+      "justificativa_pedagogica": "Trabalha o sentido da operação inversa e a diferença entre cinco por grupo e cinco no total.",
+      "dados": {
+        "restantes": 26,
+        "saida_por_grupo": 5,
+        "grupos": 2
+      },
+      "modelo_verificacao": {
+        "tipo": "reconstruir_partes"
+      },
+      "recursos_visuais": [],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC6-B2-I-IP-18-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-19",
+      "numero": 19,
+      "topico_curricular": 7,
+      "titulo": "O zero apaga a informação",
+      "enunciado": "Um jogo registra «x + 5 = 17», em que x é a quantidade de fichas numa caixa. Um estudante multiplica os dois membros por zero e passa a olhar apenas para «0 = 0». O que essa nova igualdade, sozinha, permite concluir sobre x?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Distinguir preservar uma igualdade verdadeira de preservar a informação para recuperar uma incógnita.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Compara o papel da transformação com a informação conservada, sem cálculo difícil."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Que x deve ser zero.",
+          "valor": "zero",
+          "erro_comum": "Confunde o resultado da multiplicação com o valor da quantidade."
+        },
+        {
+          "letra": "B",
+          "texto": "Que x deve ser 5.",
+          "valor": "cinco",
+          "erro_comum": "Usa a parcela conhecida como incógnita."
+        },
+        {
+          "letra": "C",
+          "texto": "Que x deve ser 17.",
+          "valor": "dezessete",
+          "erro_comum": "Usa o total original como incógnita."
+        },
+        {
+          "letra": "D",
+          "texto": "Não determina x, pois a informação sobre a quantidade foi perdida.",
+          "valor": "indeterminado",
+          "erro_comum": ""
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Na sentença original, a caixa tem 12 fichas, pois 12 + 5 = 17. Ao multiplicar os dois membros por zero, o resultado de cada lado é zero. A escrita 0 = 0 diz apenas que zero é igual a zero: ela não revela quantas fichas havia na caixa. Isso acontece porque qualquer quantidade multiplicada por zero resulta em zero. A igualdade continua verdadeira, mas a informação sobre as fichas não aparece mais nela. Para descobrir a quantidade, precisamos voltar à sentença original. Não podemos desfazer essa etapa dividindo por zero, pois essa divisão não existe.",
+      "justificativa_pedagogica": "Explicita a condição de fator não nulo ao desfazer uma multiplicação, sem afirmar que multiplicar por zero é proibido.",
+      "dados": {
+        "extra": 5,
+        "total": 17
+      },
+      "modelo_verificacao": {
+        "tipo": "multiplicar_zero"
+      },
+      "recursos_visuais": [],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC6-B2-I-IP-19-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-20",
+      "numero": 20,
+      "topico_curricular": 7,
+      "titulo": "Duas formas de pagar a oficina",
+      "enunciado": "Uma oficina compara duas propostas para o mesmo número de estudantes: na proposta A, cada estudante paga R$ 6, mais uma taxa única de R$ 12 para o grupo; na B, cada um paga R$ 4, mais uma taxa única de R$ 38. Para quantos estudantes os dois custos totais são iguais?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Determinar a quantidade que equilibra duas relações com parcelas fixas e variáveis.",
+      "dificuldade": {
+        "nivel": "media",
+        "justificativa": "Compara as diferenças entre parcelas por estudante e entre taxas únicas."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "25 estudantes.",
+          "valor": 25,
+          "erro_comum": "Soma as duas taxas e divide pela diferença de preços."
+        },
+        {
+          "letra": "B",
+          "texto": "13 estudantes.",
+          "valor": 13,
+          "erro_comum": ""
+        },
+        {
+          "letra": "C",
+          "texto": "26 estudantes.",
+          "valor": 26,
+          "erro_comum": "Usa a diferença entre taxas, sem dividi-la pela diferença por estudante."
+        },
+        {
+          "letra": "D",
+          "texto": "6 estudantes.",
+          "valor": 6,
+          "erro_comum": "Divide a diferença entre taxas pelo preço de B e despreza o restante."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "A taxa de B é 38 − 12 = R$ 26 maior. Em compensação, o valor por estudante de A é 6 − 4 = R$ 2 maior. São necessários 26 ÷ 2 = 13 estudantes para compensar a diferença entre taxas. Conferindo: A custa 6 × 13 + 12 = 90; B custa 4 × 13 + 38 = 90.",
+      "justificativa_pedagogica": "Usa raciocínio algébrico para uma decisão de custo, sem pedir apenas uma conta direta.",
+      "dados": {
+        "precos": [
+          6,
+          4
+        ],
+        "taxas": [
+          12,
+          38
+        ]
+      },
+      "modelo_verificacao": {
+        "tipo": "igualar_propostas"
+      },
+      "recursos_visuais": [],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "media",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC6-B2-I-IP-20-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-21",
+      "numero": 21,
+      "topico_curricular": 7,
+      "titulo": "Descobrir a partilha antes da troca",
+      "enunciado": "No início de um jogo, a equipe A recebeu o dobro das fichas da equipe B. Depois, A transferiu seis fichas para B, e as equipes ficaram com a mesma quantidade. Nenhuma ficha foi acrescentada ou retirada do conjunto. Qual era a distribuição inicial?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Reconstruir duas partes a partir de uma razão inicial e de uma transferência que as iguala.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Relaciona o dobro inicial ao efeito duplo da transferência sobre a diferença."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A: 12; B: 6.",
+          "valor": [
+            12,
+            6
+          ],
+          "erro_comum": "Atende ao dobro inicial, mas a transferência de seis inverte as quantidades."
+        },
+        {
+          "letra": "B",
+          "texto": "A: 18; B: 12.",
+          "valor": [
+            18,
+            12
+          ],
+          "erro_comum": "Atende à diferença de seis, confundindo-a com o efeito total da transferência."
+        },
+        {
+          "letra": "C",
+          "texto": "A: 24; B: 12.",
+          "valor": [
+            24,
+            12
+          ],
+          "erro_comum": ""
+        },
+        {
+          "letra": "D",
+          "texto": "A: 12; B: 24.",
+          "valor": [
+            12,
+            24
+          ],
+          "erro_comum": "Inverte quem tinha o dobro e o sentido possível da transferência."
+        }
+      ],
+      "gabarito": "C",
+      "resolucao_comentada": "Ao passar seis fichas de A para B, A perde seis e B ganha seis. A diferença inicial diminui 6 + 6 = 12. Como a diferença final é zero, a inicial era 12. No início, A tinha o dobro de B; a diferença entre elas correspondia a uma quantidade igual à de B. Assim, B tinha 12 e A tinha 24. Depois da transferência, ficam 24 − 6 = 18 e 12 + 6 = 18.",
+      "justificativa_pedagogica": "Combina duas condições em momentos distintos e exige conferir a situação inicial e a final.",
+      "dados": {
+        "razao": 2,
+        "transferencia": 6
+      },
+      "modelo_verificacao": {
+        "tipo": "razao_antes_transferencia"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 256\" role=\"img\" aria-label=\"Distribuição inicial: A tem duas partes iguais e B tem uma parte do mesmo tamanho. Depois da situação desenhada, A transfere seis fichas para B.\"><text x=\"180\" y=\"28\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Antes da transferência</text><text x=\"120\" y=\"51\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Equipe A</text><rect x=\"20\" y=\"60\" width=\"100\" height=\"40\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"70\" y=\"87\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Parte</text><rect x=\"120\" y=\"60\" width=\"100\" height=\"40\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"170\" y=\"87\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Parte</text><text x=\"70\" y=\"139\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Equipe B</text><rect x=\"20\" y=\"148\" width=\"100\" height=\"40\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"70\" y=\"175\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Parte</text></svg>",
+          "css": "",
+          "acessibilidade": "Distribuição inicial: A tem duas partes iguais e B tem uma parte do mesmo tamanho. Depois da situação desenhada, A transfere seis fichas para B.",
+          "geometria": {
+            "tipo": "barras",
+            "partes": [
+              [
+                "Parte",
+                "Parte"
+              ],
+              [
+                "Parte"
+              ]
+            ],
+            "rotulos": [
+              "Equipe A",
+              "Equipe B"
+            ],
+            "unidade_largura": 100
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-IP-21-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-22",
+      "numero": 22,
+      "topico_curricular": 7,
+      "titulo": "Comparar dois comprovantes",
+      "enunciado": "Uma papelaria vende kits iguais pelo mesmo preço e pastas iguais pelo mesmo preço. Um comprovante registra três kits e duas pastas por R$ 104; outro, um kit e duas pastas por R$ 48. Não houve descontos nem taxas. Quanto custam dois kits e três pastas?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Eliminar uma parcela comum para reconstruir valores unitários e um novo total.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Precisa comparar registros, recuperar dois preços e recombinar as quantidades."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "R$ 76.",
+          "valor": 76,
+          "erro_comum": "Calcula dois kits e apenas duas pastas."
+        },
+        {
+          "letra": "B",
+          "texto": "R$ 86.",
+          "valor": 86,
+          "erro_comum": ""
+        },
+        {
+          "letra": "C",
+          "texto": "R$ 104.",
+          "valor": 104,
+          "erro_comum": "Repete o total do primeiro comprovante sem ajustar o pedido."
+        },
+        {
+          "letra": "D",
+          "texto": "R$ 66.",
+          "valor": 66,
+          "erro_comum": "Calcula dois kits e somente uma pasta."
+        }
+      ],
+      "gabarito": "B",
+      "resolucao_comentada": "Os comprovantes têm as mesmas duas pastas. A diferença de 104 − 48 = R$ 56 corresponde apenas aos dois kits a mais do primeiro. Um kit custa 56 ÷ 2 = R$ 28. No segundo comprovante, as duas pastas custam 48 − 28 = R$ 20; uma pasta custa R$ 10. Portanto, dois kits e três pastas custam 2 × 28 + 3 × 10 = R$ 86.",
+      "justificativa_pedagogica": "Usa igualdade e retirada de parcelas comuns em uma situação acessível, sem exigir notação formal de sistemas.",
+      "dados": {
+        "kits": [
+          3,
+          1
+        ],
+        "pastas": [
+          2,
+          2
+        ],
+        "totais": [
+          104,
+          48
+        ],
+        "pedido": [
+          2,
+          3
+        ]
+      },
+      "modelo_verificacao": {
+        "tipo": "comparar_comprovantes"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "tabela_html",
+          "html": "<table><caption>Compras sem desconto</caption><thead><tr><th scope=\"col\">Compra</th><th scope=\"col\">Total (R$)</th></tr></thead><tbody><tr><th scope=\"row\">3 kits + 2 pastas</th><td>104</td></tr><tr><th scope=\"row\">1 kit + 2 pastas</th><td>48</td></tr></tbody></table>",
+          "css": "",
+          "acessibilidade": "Tabela de duas compras: três kits e duas pastas por 104 reais; um kit e duas pastas por 48 reais. Os preços unitários são os mesmos nas duas compras.",
+          "geometria": {
+            "tipo": "tabela",
+            "cabecalho": [
+              "Compra",
+              "Total (R$)"
+            ],
+            "linhas": [
+              [
+                "3 kits + 2 pastas",
+                "104"
+              ],
+              [
+                "1 kit + 2 pastas",
+                "48"
+              ]
+            ]
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-IP-22-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-23",
+      "numero": 23,
+      "topico_curricular": 7,
+      "titulo": "A relação mudou depois da entrega",
+      "enunciado": "Dois clubes escolares receberam marcadores. Inicialmente, o clube A tinha o triplo da quantidade do B. A entregou oito marcadores a B. Depois disso, A passou a ter o dobro de B. Não entraram nem saíram marcadores do conjunto. Quantos marcadores os dois clubes receberam ao todo, inicialmente?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Relacionar duas partilhas multiplicativas antes e depois de uma transferência.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Exige acompanhar a mudança em ambos os lados e reconstruir o total inicial."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "96 marcadores.",
+          "valor": 96,
+          "erro_comum": ""
+        },
+        {
+          "letra": "B",
+          "texto": "48 marcadores.",
+          "valor": 48,
+          "erro_comum": "Supõe que a parte inicial vale duas transferências, ignorando que a parte menor também aumenta."
+        },
+        {
+          "letra": "C",
+          "texto": "72 marcadores.",
+          "valor": 72,
+          "erro_comum": "Encontra a quantidade inicial de A, mas não o total."
+        },
+        {
+          "letra": "D",
+          "texto": "120 marcadores.",
+          "valor": 120,
+          "erro_comum": "Conta a parte menor uma segunda vez ao reunir as quantidades iniciais."
+        }
+      ],
+      "gabarito": "A",
+      "resolucao_comentada": "Chame de uma parte a quantidade inicial de B. A tinha três partes. Depois da troca, B tem uma parte mais 8; o dobro disso são duas partes mais 16. A, por sua vez, ficou com três partes menos 8. Para essas quantidades serem iguais, três partes menos 8 devem valer duas partes mais 16. Retirando duas partes de cada lado, uma parte menos 8 vale 16; logo uma parte vale 24. Inicialmente, B tinha 24 e A, 72: total de 96. Após a entrega, ficam 32 e 64, e 64 é o dobro de 32.",
+      "justificativa_pedagogica": "Desafia a interpretar relações entre quantidades em dois momentos, com conferência concreta e números naturais.",
+      "dados": {
+        "razao_inicial": 3,
+        "razao_final": 2,
+        "transferencia": 8
+      },
+      "modelo_verificacao": {
+        "tipo": "razao_muda"
+      },
+      "recursos_visuais": [
+        {
+          "tipo": "svg",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 256\" role=\"img\" aria-label=\"Antes da transferência, A possui três partes iguais e B uma parte do mesmo tamanho. Depois desse instante, A entrega oito marcadores a B. O desenho não representa a distribuição final.\"><text x=\"180\" y=\"28\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Distribuição inicial</text><text x=\"170\" y=\"51\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Clube A</text><rect x=\"20\" y=\"60\" width=\"100\" height=\"40\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"70\" y=\"87\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Parte</text><rect x=\"120\" y=\"60\" width=\"100\" height=\"40\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"170\" y=\"87\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Parte</text><rect x=\"220\" y=\"60\" width=\"100\" height=\"40\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"270\" y=\"87\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Parte</text><text x=\"70\" y=\"139\" font-size=\"20\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Clube B</text><rect x=\"20\" y=\"148\" width=\"100\" height=\"40\" fill=\"#fff\" stroke=\"#123e4a\" stroke-width=\"2\"/><text x=\"70\" y=\"175\" font-size=\"22\" font-family=\"Arial, sans-serif\" text-anchor=\"middle\" fill=\"#123e4a\">Parte</text></svg>",
+          "css": "",
+          "acessibilidade": "Antes da transferência, A possui três partes iguais e B uma parte do mesmo tamanho. Depois desse instante, A entrega oito marcadores a B. O desenho não representa a distribuição final.",
+          "geometria": {
+            "tipo": "barras",
+            "partes": [
+              [
+                "Parte",
+                "Parte",
+                "Parte"
+              ],
+              [
+                "Parte"
+              ]
+            ],
+            "rotulos": [
+              "Clube A",
+              "Clube B"
+            ],
+            "unidade_largura": 100
+          }
+        }
+      ],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "dificil",
+        "visual_relevante": true,
+        "grupo_equivalencia": "MFC6-B2-I-IP-23-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-24",
+      "numero": 24,
+      "topico_curricular": 7,
+      "titulo": "O que sobra e o que falta",
+      "enunciado": "A coordenação quer distribuir todos os cadernos disponíveis entre as mesmas equipes. Se entregar seis cadernos a cada equipe, sobram quatro. Para entregar sete a cada equipe, faltariam três cadernos. Quantas equipes receberão os materiais?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Reconstruir o número de grupos relacionando uma sobra e uma insuficiência em duas partilhas.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Compara duas distribuições possíveis sem conhecer diretamente o total."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "4 equipes.",
+          "valor": 4,
+          "erro_comum": "Considera somente a sobra."
+        },
+        {
+          "letra": "B",
+          "texto": "6 equipes.",
+          "valor": 6,
+          "erro_comum": "Confunde a quantidade da primeira distribuição com o número de equipes."
+        },
+        {
+          "letra": "C",
+          "texto": "3 equipes.",
+          "valor": 3,
+          "erro_comum": "Considera somente a falta."
+        },
+        {
+          "letra": "D",
+          "texto": "7 equipes.",
+          "valor": 7,
+          "erro_comum": ""
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "Passar de seis para sete cadernos exige um caderno extra por equipe. Os quatro que sobraram ainda não bastam: faltam outros três. Portanto, são necessários 4 + 3 = 7 cadernos extras, um para cada uma das 7 equipes. O total disponível é 6 × 7 + 4 = 46. Para sete por equipe, seriam 7 × 7 = 49, exatamente três a mais.",
+      "justificativa_pedagogica": "Exige considerar o mesmo conjunto de equipes e interpretar os dois registros como condições simultâneas.",
+      "dados": {
+        "por_equipe": [
+          6,
+          7
+        ],
+        "sobra": 4,
+        "falta": 3
+      },
+      "modelo_verificacao": {
+        "tipo": "sobra_falta"
+      },
+      "recursos_visuais": [],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "dificil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC6-B2-I-IP-24-G1"
+      }
+    },
+    {
+      "id": "MFC6-B2-I-IP-25",
+      "numero": 25,
+      "topico_curricular": 7,
+      "titulo": "Comparar as partes sem perder o total",
+      "enunciado": "Uma oficina tem 80 peças para duas equipes. Na primeira distribuição, A recebe metade do total mais seis peças, e B fica com todas as restantes. Depois, A entrega quatro peças a B. Qual comparação descreve as quantidades finais?",
+      "assunto": "IP",
+      "assunto_nome": "Igualdade e partilha",
+      "habilidade": "Interpretar a diferença entre duas partes e sua alteração por uma transferência.",
+      "dificuldade": {
+        "nivel": "dificil",
+        "justificativa": "Combina a metade como referência, o restante do total e a redução dupla da diferença."
+      },
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A fica com 8 peças a mais que B.",
+          "valor": 8,
+          "erro_comum": "Subtrai a transferência apenas de uma das partes ao comparar."
+        },
+        {
+          "letra": "B",
+          "texto": "A e B ficam com quantidades iguais.",
+          "valor": 0,
+          "erro_comum": "Supõe que entregar quatro necessariamente produz uma partilha igual."
+        },
+        {
+          "letra": "C",
+          "texto": "B fica com 4 peças a mais que A.",
+          "valor": -4,
+          "erro_comum": "Inverte quem permanece com a parte maior."
+        },
+        {
+          "letra": "D",
+          "texto": "A fica com 4 peças a mais que B.",
+          "valor": 4,
+          "erro_comum": ""
+        }
+      ],
+      "gabarito": "D",
+      "resolucao_comentada": "A metade de 80 é 40. A recebe 40 + 6 = 46, e B recebe o restante, 34. A diferença inicial é 46 − 34 = 12: seis acima da metade de um lado e seis abaixo do outro. Quando A entrega quatro, sua quantidade diminui quatro e a de B aumenta quatro; a diferença diminui oito. Restam 12 − 8 = 4 peças a mais para A. Conferindo as quantidades finais: A fica com 42 e B com 38, ainda totalizando 80.",
+      "justificativa_pedagogica": "Permite comparar por uma estratégia de compensação, além de conferir as quantidades finais.",
+      "dados": {
+        "total": 80,
+        "extra_metade": 6,
+        "transferencia": 4
+      },
+      "modelo_verificacao": {
+        "tipo": "diferenca_apos_partilha"
+      },
+      "recursos_visuais": [],
+      "revisao_pedagogica": {
+        "status": "aprovada",
+        "impedimento_identificado": false,
+        "registro": "Aprovação pedagógica expressa pelo usuário na autorização da Etapa 2C, após os ajustes de IP-12, IP-14 e IP-19. Conteúdo revisado preservado; sorteio continua desativado."
+      },
+      "sorteio": {
+        "ativo": false,
+        "assunto": "IP",
+        "nivel": "dificil",
+        "visual_relevante": false,
+        "grupo_equivalencia": "MFC6-B2-I-IP-25-G1"
+      }
+    }
+  ]
+}
