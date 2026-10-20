@@ -1,0 +1,158 @@
+{
+  "estado": "candidata_local_independente_nao_publicada",
+  "html": {
+    "arquivo": "interface/index.html",
+    "bytes": 3066399,
+    "sha256": "7e3aa0fd974a2f748848ad4304ff2e2427b74119fce0f8ff147d3a07bed4b952"
+  },
+  "fontes": {
+    "commit": "615a58055bc109708d42c2eddd7e9bee85dd6143",
+    "origens": [
+      {
+        "arquivo": "/workspace/matematicafc-preparacao-publicacao-bloco4-evCTqY9F/repositorio/6-ano/bloco-1/banco-inedito/decimais.json",
+        "sha256": "b8c38eaa3bf04f62fc6766b64bc5c79238ba9abe7545e2a5646774922223acbe",
+        "bytes": 114447
+      },
+      {
+        "arquivo": "/workspace/matematicafc-preparacao-publicacao-bloco4-evCTqY9F/repositorio/6-ano/bloco-1/banco-inedito/fracoes.json",
+        "sha256": "d5f697aab7977134abfac29f07e8400bf02f00af89272fd24f6f193e794d2bfc",
+        "bytes": 132407
+      },
+      {
+        "arquivo": "/workspace/matematicafc-preparacao-publicacao-bloco4-evCTqY9F/repositorio/6-ano/bloco-1/banco-inedito/multiplos-divisores.json",
+        "sha256": "908592a553be2875126a222ef3146bc5a33fb680ab0093f25b6d09983e0468dd",
+        "bytes": 143616
+      },
+      {
+        "arquivo": "/workspace/matematicafc-preparacao-publicacao-bloco4-evCTqY9F/repositorio/6-ano/bloco-1/banco-inedito/operacoes.json",
+        "sha256": "21228045ed94789e8f7ac5fbdc727cb9c1453c7b2959aca4de20135d6bc7baf9",
+        "bytes": 122620
+      },
+      {
+        "arquivo": "/workspace/matematicafc-preparacao-publicacao-bloco4-evCTqY9F/repositorio/6-ano/bloco-1/banco-inedito/sistema-numeracao.json",
+        "sha256": "a4669e1f6681eba5126cbddfb64ba9d7f7816feeae0ed0cc145444e4d51f1918",
+        "bytes": 112340
+      },
+      {
+        "arquivo": "/workspace/matematicafc-preparacao-publicacao-bloco4-evCTqY9F/repositorio/6-ano/bloco-2/banco-inedito/ampliacao-reducao.json",
+        "sha256": "86a9b82b374f37584e374789a5518ebcd9888b37a86d8c2b816efefcb7578c1c",
+        "bytes": 172626
+      },
+      {
+        "arquivo": "/workspace/matematicafc-preparacao-publicacao-bloco4-evCTqY9F/repositorio/6-ano/bloco-2/banco-inedito/estimativas-aproximacoes.json",
+        "sha256": "731cbec773d189fcb8173edf646d671bd07f95642225488618878664740828d8",
+        "bytes": 107174
+      },
+      {
+        "arquivo": "/workspace/matematicafc-preparacao-publicacao-bloco4-evCTqY9F/repositorio/6-ano/bloco-2/banco-inedito/igualdade-partilha.json",
+        "sha256": "fc6f056bc4259ff6539e6ca46c47493e1a65de8501ef3423f7e666c922ebf75d",
+        "bytes": 97644
+      },
+      {
+        "arquivo": "/workspace/matematicafc-preparacao-publicacao-bloco4-evCTqY9F/repositorio/6-ano/bloco-2/banco-inedito/plano-cartesiano.json",
+        "sha256": "f2bec42c3c38b54ad7b3c23e9c33319c2d85e834f326e28c9ee8a5d5db460df9",
+        "bytes": 267315
+      },
+      {
+        "arquivo": "/workspace/matematicafc-preparacao-publicacao-bloco4-evCTqY9F/repositorio/6-ano/bloco-3/interface/index.html",
+        "sha256": "510794336b6b46cd1f957844adb9ef6ecf350257347cdd02f1f36db998a6bdf9",
+        "bytes": 2259085
+      },
+      {
+        "arquivo": "/workspace/matematicafc-preparacao-publicacao-bloco4-evCTqY9F/repositorio/6-ano/bloco-4/interface/index.html",
+        "sha256": "d209de98697b822eb5cfb9c511441628e6458cc36b7d046344a23144dcd4ba10",
+        "bytes": 2011185
+      }
+    ],
+    "inventario": [
+      {
+        "bloco": 1,
+        "elegiveis": 74,
+        "niveis": {
+          "media": 48,
+          "dificil": 26
+        },
+        "assuntos": [
+          "FR",
+          "MD",
+          "ND",
+          "ON",
+          "SN"
+        ],
+        "cobertura_simultanea_viavel": true
+      },
+      {
+        "bloco": 2,
+        "elegiveis": 68,
+        "niveis": {
+          "media": 48,
+          "dificil": 20
+        },
+        "assuntos": [
+          "AR",
+          "EA",
+          "IP",
+          "PC"
+        ],
+        "cobertura_simultanea_viavel": true
+      },
+      {
+        "bloco": 3,
+        "elegiveis": 68,
+        "niveis": {
+          "media": 48,
+          "dificil": 20
+        },
+        "assuntos": [
+          "AP",
+          "GU",
+          "PA",
+          "SV"
+        ],
+        "cobertura_simultanea_viavel": true
+      },
+      {
+        "bloco": 4,
+        "elegiveis": 68,
+        "niveis": {
+          "media": 48,
+          "dificil": 20
+        },
+        "assuntos": [
+          "LG",
+          "OD",
+          "PF",
+          "PR"
+        ],
+        "cobertura_simultanea_viavel": true
+      }
+    ],
+    "regra": {
+      "questoes": 40,
+      "por_bloco": {
+        "media": 6,
+        "dificil": 4
+      },
+      "todos_os_assuntos_por_bloco": true
+    }
+  },
+  "aplicacao": {
+    "total": 40,
+    "blocos": 4,
+    "por_bloco": {
+      "media": 6,
+      "dificil": 4,
+      "total": 10
+    },
+    "todos_os_assuntos_por_bloco": true,
+    "faceis": 0
+  },
+  "banco": {
+    "questoes": 278,
+    "alternativas": 1112,
+    "recursos": 243,
+    "SVG": 206,
+    "tabelas": 33,
+    "quadros": 4
+  }
+}
