@@ -1,0 +1,33 @@
+{
+  "estado": "candidata_local_sem_publicacao",
+  "aprovacao_visual_independente": "pendente",
+  "questoes": 100,
+  "alternativas": 400,
+  "recursos": 108,
+  "questoes_visuais": 95,
+  "svg": 70,
+  "tabelas_html": 32,
+  "quadros_html": 6,
+  "fontes": [
+    {
+      "arquivo": "/workspace/matematicafc-desenvolvimento-bloco4/6-ano/bloco-4/banco-inedito/porcentagens-educacao-financeira.json",
+      "sha256": "6502fa2e1d7f26057a1db6609b1361c693f7fd6560c6e5649b36f224cdc8e6c7"
+    },
+    {
+      "arquivo": "/workspace/matematicafc-desenvolvimento-bloco4/6-ano/bloco-4/banco-inedito/leitura-interpretacao-graficos.json",
+      "sha256": "e5049594dac8e5e8651de9fe3c9599b312127db2df810d5cd7ffa2ed43db4482"
+    },
+    {
+      "arquivo": "/workspace/matematicafc-desenvolvimento-bloco4/6-ano/bloco-4/banco-inedito/organizacao-dados-pesquisas.json",
+      "sha256": "10fd6e02ce12c91cb5e68e88f366fb03bcbf7092c679975c57611b1622eb55cd"
+    },
+    {
+      "arquivo": "/workspace/matematicafc-desenvolvimento-bloco4/6-ano/bloco-4/banco-inedito/probabilidade.json",
+      "sha256": "9fab37fc03ef54198a057dd2cb711718e9733cd54f08a19782b9b3de2d8a1ee2"
+    }
+  ],
+  "html": {
+    "bytes": 2011803,
+    "sha256": "d6ffc82e06bc178d1bc056158352a82274c4829d8191fdccc9e95e7d991a9f54"
+  }
+}
